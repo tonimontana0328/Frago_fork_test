@@ -25314,7 +25314,7 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 206 * Metre
+    RadiusSplashPhysicalDamages       = 236 * Metre
     PhysicalDamages                   = 4.165
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 472 * Metre
