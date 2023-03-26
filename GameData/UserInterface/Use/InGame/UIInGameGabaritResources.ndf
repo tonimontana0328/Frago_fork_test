@@ -6,14 +6,12 @@ template TTacticalFeedbackUICommonGabaritDefinition
     CircleThickness : float = 1.0,
     CircleColor : color,
     TextStyle : TTextStyleRTTI,
-    Effect : int = ~/FeedbackEffectMode/Dotted
 ]
 is TUICommonGabaritDefinition
 (
     CircleThickness = <CircleThickness>
     CircleColor = <CircleColor>
     TextStyle = <TextStyle>
-    Effect = <Effect>
 )
 
 //-------------------------------------------------------------------------------------
@@ -98,38 +96,6 @@ TacticalFeedbackDispersionGabaritResource is TTacticalFeedbackUICommonGabaritDef
 
 //-------------------------------------------------------------------------------------
 
-TacticalFeedbackMinRangeGabaritResource is TTacticalFeedbackUICommonGabaritDefinition
-(
-    CircleColor = [255,0, 0,96]
-    CircleThickness = 1.0
-    TextStyle       = TTextStyleRTTI
-    (
-        FontSize    = 16
-        ColorBottom = [255,0, 0,255]
-        ColorUp     = [255,0, 0,255]
-        ColorStroke = [ 0, 0, 0, 255]
-        Stroke = false
-    )
-)
-
-//-------------------------------------------------------------------------------------
-
-TacticalFeedbackMaxRangeGabaritResource is TTacticalFeedbackUICommonGabaritDefinition
-(
-    CircleColor = [255,0, 0,96]
-    CircleThickness = 1.0
-    TextStyle       = TTextStyleRTTI
-    (
-        FontSize    = 16
-        ColorBottom = [255,0, 0,255]
-        ColorUp     = [255,0, 0,255]
-        ColorStroke = [ 0, 0, 0, 255]
-        Stroke = false
-    )
-)
-
-//-------------------------------------------------------------------------------------
-
 InGameGabaritResources is TUICommonGabaritResources
 (
     World3D = $/M3D/Scene/DefaultWorld
@@ -140,6 +106,4 @@ InGameGabaritResources is TUICommonGabaritResources
     SplashGabarit                = ~/TacticalFeedbackSplashGabaritResource
     CapacityGabarit              = ~/TacticalFeedbackCapacityGabaritResource
     DispersionGabarit            = ~/TacticalFeedbackDispersionGabaritResource
-    MinRangeGabarit              = ~/TacticalFeedbackMinRangeGabaritResource
-    MaxRangeGabarit              = ~/TacticalFeedbackMaxRangeGabaritResource
 )

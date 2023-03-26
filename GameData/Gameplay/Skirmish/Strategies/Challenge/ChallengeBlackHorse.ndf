@@ -72,7 +72,29 @@ export ChalBlackHorse_Phase_Deploiement is TSequenceGeneratorDescriptor
     GeneratorList =
     [
         ~/Support_Transports,
-        ~/Challenge_Main_Attack_AlwaysAttack,
+        ~/CaptureOneObjectif, //Dependant du deck estimation 125
+
+        ~/Defense_Objectif, //Chere mais dépendant du nombre d'objectif et de la capture
+
+        ~/Attack_Objectives, //Environ 300
+
+        ~/Attack_Main, //Environ 400
+
+        ~/Reco_Autogen,
+        ~/Blackhorse_Side_Attack,          // Environ 200
+
+        ~/Airstrike_Assault,
+        ~/Airstrike_Offense,
+
+        ~/Attack_Helo, //Environ 250
+
+        ~/Artillery_TriggerHappy_1for2Corridors,
+
+        ~/CaptureAllZoneObjectif,
+
+        ~/Artillery_Expensive,
+
+        ~/Airstrike_Defense,
     ]
 )
 //-------------------------------------------------------------------------
@@ -82,9 +104,29 @@ export ChalBlackHorse_Phase_Command is TSequenceGeneratorDescriptor
     GeneratorList =
     [
         ~/Support_Transports,
+        ~/CaptureOneObjectif, //Dependant du deck estimation 125
+
+        ~/Defense_Objectif, //Chere mais dépendant du nombre d'objectif et de la capture
+
+        ~/Attack_Objectives, //Environ 300
+
+        ~/Attack_Main, //Environ 400
+
+        ~/Reco_Autogen,
+        ~/Blackhorse_Side_Attack,          // Environ 200
+
+        ~/Airstrike_Assault,
+        ~/Airstrike_Offense,
+
+        ~/Attack_Helo, //Environ 250
+
+        ~/Artillery_TriggerHappy_1for2Corridors,
+
         ~/CaptureOneObjectif,
-        ~/Challenge_Main_Attack_AlwaysAttack,
-        ~/CaptureAllZoneObjectif,
-        ~/Challenge_Main_Attack_All_AlwaysAttack,
+
+        ~/Artillery_Expensive,
+        ~/Blackhorse_Side_Attack,          // Environ 200
+
+        ~/Airstrike_Defense,
     ]
 )

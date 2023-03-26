@@ -44,6 +44,8 @@ UIInGameResource is TUISpecificInGameResources
         ("UIReinforcementLabelViewDescriptor", ~/UISpecificReinforcementLabelViewDescriptor),
         ("UICommandZoneLabelViewDescriptor", ~/UISpecificCommandZoneLabelViewDescriptor),
         ("ObjectiveViewDescriptor", ~/UISpecificInGameObjectiveBriefViewDescriptor),
+        ("MultiSelectionPanelViewDescriptor", ~/UISpecificHUDMultiSelectionPanelViewDescriptor),
+        ("SmartGroupSelectionPanelViewDescriptor", UISpecificSmartGroupSelectionPanelViewDescriptor(MainComponentContainerUniqueName = "UISpecificSmartGroupSelectionPanelView")),
     ]
 
     MainContainerResource       = ~/InGameMainContainerResource
@@ -182,7 +184,7 @@ InGameMainContainerResource is TUICommonMainContainerResource
                             Axis = ~/ListAxis/Horizontal
                             BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
-                            InterItemMargin = TRTTILength(Pixel = 10)
+                            InterItemMargin = TRTTILength(Pixel = 50)
 
                             Elements =
                             [

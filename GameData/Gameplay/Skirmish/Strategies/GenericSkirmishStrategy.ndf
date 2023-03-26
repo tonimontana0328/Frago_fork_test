@@ -8,7 +8,6 @@ export GenericStrategy is TIAGeneralStrategy
     ConstantesMap = MAP[
         ("ForceTacticalMoveAndAttack", TEugBBoolean(Value = true)),
     ]
-    ShouldUseTaggedCorridorsForTouchDown = true
     AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
     TransitionList =
     [

@@ -9,7 +9,6 @@ export GenericBreakthroughStrategy is TIAGeneralStrategy
         ("ForceTacticalMoveAndAttack", TEugBBoolean(Value = true)),
     ]
     AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
-    ShouldUseTaggedCorridorsForTouchDown = true
     TransitionList =
     [
         GenBT_Transition_DefMod,

@@ -721,11 +721,6 @@ DivisionFilterList is
     ),
 ]
 
-DivisionHiddenTags is
-[
-    "DEFAULT",
-]
-
 DivisionTagsVector is
 [
     "Allied",
@@ -748,6 +743,5 @@ UISpecificDivisionSelectionViewDescriptor is TUISpecificDivisionSelectionViewDes
     DivisionBriefDescriptor = UISpecificDivisionBriefViewDescriptor(MainComponentDescriptor = ~/DivisionBriefDescriptorForSelection)
     FlagTransparency = 0.3
 
-    HiddenTags = ~/DivisionHiddenTags
     TagsVector = ~/DivisionTagsVector
 )

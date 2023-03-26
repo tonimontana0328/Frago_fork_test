@@ -311,59 +311,6 @@ Gfx_2S3_DDR_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
 )
-// Dépiction de l'unité 2S5_GiatsintS_SOV
-DepictionOperator_2S5_GiatsintS_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
-(
-    FireEffectTag = "weapon_effet_tag1"
-    Anchors = ["fx_tourelle1_tir_01"]
-    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
-    NbProj = 1
-)
-DepictionOperator_2S5_GiatsintS_SOV_Weapon2 is DepictionOperator_WeaponInstantFire
-(
-    FireEffectTag = "weapon_effet_tag2"
-    Anchors = ["fx_tourelle1_tir_01"]
-    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
-    NbProj = 1
-)
-DepictionOperator_2S5_GiatsintS_SOV_Weapon3 is DepictionOperator_WeaponInstantFire
-(
-    FireEffectTag = "weapon_effet_tag3"
-    Anchors = ["fx_tourelle1_tir_01"]
-    WeaponShootDataPropertyName = ["WeaponShootData_0_3", ]
-    NbProj = 1
-)
-Gfx_2S5_GiatsintS_SOV_Autogen is TacticVehicleDepictionTemplate
-(
-    CoatingName = '2S5_GiatsintS_SOV'
-    Selector = Selector_2S5_GiatsintS_SOV
-    Alternatives = Alternatives_2S5_GiatsintS_SOV
-
-    Operators = 
-    [
-        DepictionOperator_CropFlattening,
-        DepictionOperator_MovementSound_SM_MTLB,
-        DepictionOperator_CriticalEffects,
-        DepictionOperator_Chassis_MediumTank,
-        DepictionOperator_Propulsion_ContinuousTrack,
-        DepictionOperator_MovementFX_Standard,
-        DepictionOperator_Turret_1_Aim,
-        DepictionOperator_TurretSound_ST_Artillerie_US,
-        DepictionOperator_Turret_1_HydraulicRecoil,
-        DepictionOperator_2S5_GiatsintS_SOV_Weapon1,
-        DepictionOperator_2S5_GiatsintS_SOV_Weapon2,
-        DepictionOperator_2S5_GiatsintS_SOV_Weapon3,
-    ]
-
-    Actions = MAP[
-                ( [ "weapon_effet_tag1" ], Weapon_Howz_Canon_2A18_Howitzer_122mm ),
-                ( [ "weapon_effet_tag2" ], Weapon_Howz_Canon_2A18_Howitzer_122mm_SMOKE ),
-                ( [ "weapon_effet_tag3" ], Weapon_Canon_AP_2A18_122mm ),
-            ]
-            + DepictionAction_Stress_And_Wrecked
-            + DepictionAction_MovementFX_Tracked
-            + DepictionAction_CriticalFX_Tank
-)
 // Dépiction de l'unité 2S7M_Malka_SOV
 DepictionOperator_2S7M_Malka_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -7854,12 +7801,12 @@ Gfx_Gepard_1A2_RFA_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
 )
-// Dépiction de l'unité HEMTT
-Gfx_HEMTT_Autogen is TacticVehicleDepictionTemplate
+// Dépiction de l'unité HEMTT_US
+Gfx_HEMTT_US_Autogen is TacticVehicleDepictionTemplate
 (
-    CoatingName = 'HEMTT'
-    Selector = Selector_HEMTT
-    Alternatives = Alternatives_HEMTT
+    CoatingName = 'HEMTT_US'
+    Selector = Selector_HEMTT_US
+    Alternatives = Alternatives_HEMTT_US
 
     Operators = 
     [
@@ -7878,7 +7825,7 @@ Gfx_HEMTT_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_CriticalFX_Tank
 
     SubDepictions = [
-    ] + HumanSubDepictions_HEMTT
+    ] + HumanSubDepictions_HEMTT_US
 )
 // Dépiction de l'unité HMGteam_AANF1_FR
 DepictionOperator_HMGteam_AANF1_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
@@ -19149,6 +19096,35 @@ Gfx_UAZ_469_Konkurs_VDV_SOV_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictions = [
     ] + HumanSubDepictions_UAZ_469_Konkurs_VDV_SOV
+)
+// Dépiction de l'unité UAZ_469_MP_SOV
+Gfx_UAZ_469_MP_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'UAZ_469_MP_SOV'
+    Selector = Selector_UAZ_469_MP_SOV
+    Alternatives = Alternatives_UAZ_469_MP_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        DepictionOperator_MovementSound_SM_UAZ,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+        SubDepictionTowedUnit,
+    ] + HumanSubDepictions_UAZ_469_MP_SOV
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator ]
 )
 // Dépiction de l'unité UAZ_469_Reco_DDR
 DepictionOperator_UAZ_469_Reco_DDR_Weapon1 is DepictionOperator_WeaponContinuousFire

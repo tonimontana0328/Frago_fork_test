@@ -19,8 +19,6 @@ StrategicBattleResources is TStrategicBattleResources
     //Pour un pion de support qui est mobilisé pour le combat
     BattlePlanningSupportInBattleGroupStyleDescriptor = TLineFeedbackStyleDescriptor(
                                                     Border = true
-                                                    AlwaysOnTop = true
-                                                    EffectMode = ~/FeedbackEffectMode/Solid
                                                     SelectedStyle = TFeedbackStyleDescriptor(
                                                                 Thickness = 4000.0
                                                                 Color = [221, 30, 30, 180]
@@ -34,8 +32,7 @@ StrategicBattleResources is TStrategicBattleResources
     //Pour un pion de support qui n'est pas encore mobilisé pour le combat mais qui est disponible à l'ajout
     BattlePlanningSupportNotInBattleGroupStyleDescriptor = TLineFeedbackStyleDescriptor(
                                                     Border = true
-                                                    AlwaysOnTop = true
-                                                    EffectMode = ~/FeedbackEffectMode/Hatched
+                                                    Hatched = true
                                                     SelectedStyle = TFeedbackStyleDescriptor(
                                                                 Thickness = 1200.0
                                                                 Color = [54, 54, 54, 150]
@@ -48,7 +45,6 @@ StrategicBattleResources is TStrategicBattleResources
                                                 )
     //Pour un pion classique qui est mobilisé pour le combat
     BattlePlanningPawnInBattleGroupStyleDescriptor = TArrowFeedbackStyleDescriptor(
-                                                    EffectMode = ~/FeedbackEffectMode/Solid
                                                     SelectedStyle = TFeedbackStyleDescriptor(
                                                                 Color = [221, 30, 30, 180]
                                                             )
@@ -59,11 +55,9 @@ StrategicBattleResources is TStrategicBattleResources
                                                     ArrowTipWidth = 3000
                                                     ArrowLineStartWidth = 4000
                                                     ArrowLineEndWidth = 2000
-                                                    Fade = 0
                                                 )
     //Pour un pion classique qui est potentiellement attaquant en phase A
     BattlePlanningPotentialAttackerPawnStyleDescriptor = TArrowFeedbackStyleDescriptor(
-                                                    EffectMode = ~/FeedbackEffectMode/Solid
                                                     SelectedStyle = TFeedbackStyleDescriptor(
                                                                 Color = [221, 30, 30, 90]
                                                             )
@@ -74,14 +68,11 @@ StrategicBattleResources is TStrategicBattleResources
                                                     ArrowTipWidth = 3000
                                                     ArrowLineStartWidth = 4000
                                                     ArrowLineEndWidth = 2000
-                                                    Fade = 0
                                                 )
 
     //Pour un pion de support EN COMBAT qui est mobilisé pour le combat
     FightingSupportPawnStyleDescriptor = TLineFeedbackStyleDescriptor(
                                                     Border = true
-                                                    AlwaysOnTop = true
-                                                    EffectMode = ~/FeedbackEffectMode/Solid
                                                     SelectedStyle = TFeedbackStyleDescriptor(
                                                                 Thickness = 4000.0
                                                                 Color = [221, 30, 30, 180]
@@ -94,7 +85,6 @@ StrategicBattleResources is TStrategicBattleResources
                                                 )
     //Pour un pion fighter EN COMBAT qui est mobilisé pour le combat
     FightingFighterPawnStyleDescriptor = TArrowFeedbackStyleDescriptor(
-                                                    EffectMode = ~/FeedbackEffectMode/Solid
                                                     SelectedStyle = TFeedbackStyleDescriptor(
                                                                 Color = [221, 30, 30, 180]
                                                             )
@@ -105,7 +95,6 @@ StrategicBattleResources is TStrategicBattleResources
                                                     ArrowTipWidth = 3000
                                                     ArrowLineStartWidth = 4000
                                                     ArrowLineEndWidth = 2000
-                                                    Fade = 0
                                                 )
 
     //Data pour animer l'alpha fade des flèches des attaquants potentiels

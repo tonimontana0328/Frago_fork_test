@@ -24,6 +24,10 @@ AlertMsg_Arei_EnemyUnitDestroyed       is 20
 AlertMsg_Par_NewPhaseStartedForCampaign is 21
 AlertMsg_Par_OnObjectiveCaptured        is 22
 AlertMsg_Par_OnObjectiveLost            is 23
+AlertMsg_Per_UniteDetruiteREDReplay        is 24
+AlertMsg_Per_CommandZoneCapturedForReplay is 25
+AlertMsg_Per_CommandZoneLostForReplay   is 26
+AlertMsg_Per_UniteDetruiteBLUReplay        is 27
 
 
 
@@ -54,5 +58,9 @@ export AlertMessage_Enum is TEnumAlertMessageType
         "AlertMsg_Par_NewPhaseStartedForCampaign",
         "AlertMsg_Par_OnObjectiveCaptured",
         "AlertMsg_Par_OnObjectiveLost",
+        "AlertMsg_Per_UniteDetruiteREDReplay",
+        "AlertMsg_Per_CommandZoneCapturedForReplay",
+        "AlertMsg_Per_CommandZoneLostForReplay",
+        "AlertMsg_Per_UniteDetruiteBLUReplay",
     ]
 )

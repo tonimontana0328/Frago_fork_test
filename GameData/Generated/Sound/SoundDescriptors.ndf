@@ -1,10 +1,7 @@
 // Ne pas éditer, ce fichier est auto-généré !
 
 
-template SoundHappening_CityAmbiance
-[
-]
-is TSoundHappening
+export SoundHappening_CityAmbiance is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -24,11 +21,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_CityAmbianceHLM
-[
-]
-is TSoundHappening
+export SoundHappening_CityAmbianceHLM is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -48,11 +41,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_CityAmbianceHLM_Evenements
-[
-]
-is TSoundHappening
+export SoundHappening_CityAmbianceHLM_Evenements is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -252,11 +241,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_CityAmbiance_Evenements
-[
-]
-is TSoundHappening
+export SoundHappening_CityAmbiance_Evenements is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -375,11 +360,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_CrashAvion
-[
-]
-is TSoundHappening
+export SoundHappening_CrashAvion is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -399,11 +380,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_DestructionBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_DestructionBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -477,11 +454,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_DestructionHelico
-[
-]
-is TSoundHappening
+export SoundHappening_DestructionHelico is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -501,11 +474,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_DestructionHelicoPetit
-[
-]
-is TSoundHappening
+export SoundHappening_DestructionHelicoPetit is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -525,11 +494,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_DestructionUnite
-[
-]
-is TSoundHappening
+export SoundHappening_DestructionUnite is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -585,11 +550,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_DestructionUniteGros
-[
-]
-is TSoundHappening
+export SoundHappening_DestructionUniteGros is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -645,11 +606,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_DestructionUniteGros_Avion
-[
-]
-is TSoundHappening
+export SoundHappening_DestructionUniteGros_Avion is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -723,11 +680,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_DestructionUnitePetit
-[
-]
-is TSoundHappening
+export SoundHappening_DestructionUnitePetit is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -792,11 +745,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_DestructionUnite_Avion
-[
-]
-is TSoundHappening
+export SoundHappening_DestructionUnite_Avion is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -870,11 +819,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_DestructionUnite_Ravitaillement
-[
-]
-is TSoundHappening
+export SoundHappening_DestructionUnite_Ravitaillement is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -894,11 +839,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_EauAmbiance
-[
-]
-is TSoundHappening
+export SoundHappening_EauAmbiance is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -918,11 +859,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_EauAmbiance_Evenements
-[
-]
-is TSoundHappening
+export SoundHappening_EauAmbiance_Evenements is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -978,11 +915,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_100mm_2A29_Rapira
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_100mm_2A29_Rapira is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1029,11 +962,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_100mm_BMP3
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_100mm_BMP3 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1053,11 +982,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_100mm_D10T
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_100mm_D10T is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1095,11 +1020,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_105mm_Abbot
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_105mm_Abbot is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1164,11 +1085,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_105mm_CN_105_F1
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_105mm_CN_105_F1 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1233,11 +1150,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_105mm_Leo_A1
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_105mm_Leo_A1 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1302,11 +1215,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_105mm_M1_Abrams
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_105mm_M1_Abrams is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1407,11 +1316,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_105mm_M60_Patton
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_105mm_M60_Patton is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1458,11 +1363,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_107mm_Mortar
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_107mm_Mortar is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1536,11 +1437,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_115mm_U5TS_T62M
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_115mm_U5TS_T62M is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1587,11 +1484,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_120mm_Challenger
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_120mm_Challenger is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1674,11 +1567,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_120mm_Leo2
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_120mm_Leo2 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1743,11 +1632,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_120mm_M1_Abrams
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_120mm_M1_Abrams is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1848,11 +1733,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_122mm
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_122mm is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1917,11 +1798,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_125mm_T64
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_125mm_T64 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -1968,11 +1845,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_125mm_T80
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_125mm_T80 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2028,11 +1901,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_152mm
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_152mm is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2079,11 +1948,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_152mm_Sheridan
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_152mm_Sheridan is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2121,11 +1986,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_155mm
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_155mm is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2190,11 +2051,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_155mm_GCT
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_155mm_GCT is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2268,11 +2125,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_203mm
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_203mm is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2346,11 +2199,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_203mm_Malka
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_203mm_Malka is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2424,11 +2273,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_2A38_chain_gun
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_2A38_chain_gun is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2466,11 +2311,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_2A42_chain_gun
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_2A42_chain_gun is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2517,11 +2358,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_2A72_chain_gun
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_2A72_chain_gun is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2595,11 +2432,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_73mm_BMP1
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_73mm_BMP1 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2637,11 +2470,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_76mm_L23A1
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_76mm_L23A1 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2706,11 +2535,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_76mm_PT76
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_76mm_PT76 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2748,11 +2573,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_81mm_Mortar
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_81mm_Mortar is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2817,11 +2638,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_82mm_Mortar_Vasilek
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_82mm_Mortar_Vasilek is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2868,11 +2685,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_90_GIAT_F1
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_90_GIAT_F1 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2892,11 +2705,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_90mm_M48_Patton
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_90mm_M48_Patton is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2952,11 +2761,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_9M311_Tunguska_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_9M311_Tunguska_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -2976,11 +2781,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_9M33_OSA_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_9M33_OSA_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3009,11 +2810,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_9M38M1_BUK_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_9M38M1_BUK_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3042,11 +2839,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_AA52_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_AA52_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3111,11 +2904,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_AANF1_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_AANF1_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3180,11 +2969,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_AGM114_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_AGM114_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3222,11 +3007,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_AGM65_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_AGM65_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3246,11 +3027,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_AGS_17_Grenade_Launcher
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_AGS_17_Grenade_Launcher is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3297,11 +3074,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_AK74_Burst_3_Rounds
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_AK74_Burst_3_Rounds is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3402,11 +3175,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_APILAS_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_APILAS_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3435,11 +3204,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_APZ23_chain_gun
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_APZ23_chain_gun is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3513,11 +3278,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_AT4_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_AT4_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3555,11 +3316,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Bofor_autocanon
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Bofor_autocanon is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3633,11 +3390,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Bombe_Cluster_sol
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Bombe_Cluster_sol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3684,11 +3437,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Bombe_Mk84_sol
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Bombe_Mk84_sol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3744,11 +3493,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Bombe_Mk_sol
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Bombe_Mk_sol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3804,11 +3549,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Bombe_Napalm_sol
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Bombe_Napalm_sol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3828,11 +3569,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Bren_L4A4_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Bren_L4A4_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3915,11 +3652,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CARL_GUSTAV_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CARL_GUSTAV_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3957,11 +3690,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Cal50
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Cal50 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -3990,11 +3719,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CalM3P
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CalM3P is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4041,11 +3766,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Alarm_Helico_Computer_Down
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Alarm_Helico_Computer_Down is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4065,11 +3786,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Alarm_Helico_HUD
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Alarm_Helico_HUD is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4089,11 +3806,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Alarm_Helico_Leak
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Alarm_Helico_Leak is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4113,11 +3826,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Alarm_Helico_Structural_Damage
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Alarm_Helico_Structural_Damage is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4137,11 +3846,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Alarm_Plane
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Alarm_Plane is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4161,11 +3866,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Alarm_Plane_Computer_Down
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Alarm_Plane_Computer_Down is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4185,11 +3886,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Alarm_Plane_Engine
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Alarm_Plane_Engine is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4209,11 +3906,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Alarm_Plane_HUD
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Alarm_Plane_HUD is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4233,11 +3926,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Alarm_Plane_Structural_Damage
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Alarm_Plane_Structural_Damage is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4257,11 +3946,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Ammo
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Ammo is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4281,11 +3966,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Comp_Reset
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Comp_Reset is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4305,11 +3986,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Crew
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Crew is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4401,11 +4078,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Crew_Dead
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Crew_Dead is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4425,11 +4098,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Fuel_Explosion
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Fuel_Explosion is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4449,11 +4118,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Gun_Turret_Stuck
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Gun_Turret_Stuck is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4473,11 +4138,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Hull_Break
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Hull_Break is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4515,11 +4176,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Moteur_Destroyed
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Moteur_Destroyed is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4539,11 +4196,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Spalling
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Spalling is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4563,11 +4216,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_CriticalFX_Track
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_CriticalFX_Track is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4587,11 +4236,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_D20_152mm
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_D20_152mm is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4656,11 +4301,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_D30_122mm
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_D30_122mm is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4734,11 +4375,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_D44_85mm
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_D44_85mm is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4803,11 +4440,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_DRAGON_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_DRAGON_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4827,11 +4460,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Drop_Bomb
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Drop_Bomb is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4887,11 +4516,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Drop_Bomblets_MW1
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Drop_Bomblets_MW1 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -4929,11 +4554,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_FAMAS_Burst_3_Rounds
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_FAMAS_Burst_3_Rounds is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5025,11 +4646,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_FH70_155mm
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_FH70_155mm is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5085,11 +4702,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_FLASH66mm_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_FLASH66mm_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5127,11 +4740,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Fk20_Dual_chain_gun_Continuous
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Fk20_Dual_chain_gun_Continuous is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5178,11 +4787,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Fk20_chain_gun_Continuous
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Fk20_chain_gun_Continuous is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5229,11 +4834,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Flares_Launch
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Flares_Launch is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5253,11 +4854,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_G3KA4_Burst_3_Rounds
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_G3KA4_Burst_3_Rounds is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5358,11 +4955,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_GUV
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_GUV is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5409,11 +5002,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Gsh30k_chain_gun
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Gsh30k_chain_gun is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5478,11 +5067,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Gsh_30_6
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Gsh_30_6 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5502,11 +5087,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_HAWK_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_HAWK_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5562,11 +5143,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_HK21_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_HK21_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5613,11 +5190,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_HOT_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_HOT_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5637,11 +5210,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_HYDRA70_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_HYDRA70_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5688,11 +5257,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Impacts_DCA
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Impacts_DCA is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5739,11 +5304,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_KONKURS_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_KONKURS_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5781,11 +5342,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_KPVT
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_KPVT is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5877,11 +5434,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_L37A2_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_L37A2_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -5946,11 +5499,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_L85A1_Burst_3_Rounds
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_L85A1_Burst_3_Rounds is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6024,11 +5573,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_L86A1_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_L86A1_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6084,11 +5629,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_L8A2_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_L8A2_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6126,11 +5667,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_L94A1_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_L94A1_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6204,11 +5741,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_LAW_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_LAW_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6246,11 +5779,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_M134_Gatling
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M134_Gatling is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6279,11 +5808,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_M16_Burst_3_Rounds
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M16_Burst_3_Rounds is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6474,11 +5999,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_M197_Gatling
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M197_Gatling is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6498,11 +6019,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_M230_chain_gun
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M230_chain_gun is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6594,11 +6111,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_M242_chain_gun
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M242_chain_gun is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6672,11 +6185,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_M249_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M249_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6723,11 +6232,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_M24_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M24_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6783,11 +6288,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_M46_130mm
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M46_130mm is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6861,11 +6362,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_M60
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M60 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6930,11 +6427,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_M61
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M61 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -6981,11 +6474,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_M61_VAD
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M61_VAD is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7032,11 +6521,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_M621_GIAT
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M621_GIAT is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7110,11 +6595,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_M693_chain_gun
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_M693_chain_gun is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7152,11 +6633,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_MAS_56_1_Round
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_MAS_56_1_Round is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7257,11 +6734,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_MAT49_Burst
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_MAT49_Burst is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7326,11 +6799,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_MG3_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_MG3_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7404,11 +6873,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_MILAN_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_MILAN_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7455,11 +6920,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_MK_20_Rh_202_chain_gun
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_MK_20_Rh_202_chain_gun is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7515,11 +6976,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_MP5_Burst
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_MP5_Burst is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7566,11 +7023,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Malyutka_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Malyutka_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7626,11 +7079,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Mauser_BK27
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Mauser_BK27 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7668,11 +7117,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Mistral_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Mistral_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7719,11 +7164,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_NSV
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_NSV is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7761,11 +7202,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Nona_120mm
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Nona_120mm is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7812,11 +7249,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Oerlikon_chain_gun
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Oerlikon_chain_gun is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7854,11 +7287,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_PKM
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_PKM is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7914,11 +7343,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_PKT_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_PKT_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -7965,11 +7390,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_PzF_44
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_PzF_44 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8016,11 +7437,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_R27_Vympel_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_R27_Vympel_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8040,11 +7457,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_RAPIER_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_RAPIER_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8091,11 +7504,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_RARDEN_L21A1_chain_gun
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_RARDEN_L21A1_chain_gun is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8178,11 +7587,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_ROLAND_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_ROLAND_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8202,11 +7607,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_RPG18_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_RPG18_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8235,11 +7636,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_RPG7_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_RPG7_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8286,11 +7683,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_RPK
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_RPK is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8337,11 +7730,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_RPK_74
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_RPK_74 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8388,11 +7777,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Recoiless_Gun_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Recoiless_Gun_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8430,11 +7815,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Recoiless_LRAC_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Recoiless_LRAC_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8472,11 +7853,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_S60_autocanon
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_S60_autocanon is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8559,11 +7936,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_SHILLELAGH_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_SHILLELAGH_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8601,11 +7974,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_SHTURM_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_SHTURM_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8634,11 +8003,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_SIDEWINDER_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_SIDEWINDER_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8676,11 +8041,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_SIG_Burst_3_Rounds
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_SIG_Burst_3_Rounds is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8763,11 +8124,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_SMOKE_Discharge_Vehicle
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_SMOKE_Discharge_Vehicle is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8787,11 +8144,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_SPARROW_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_SPARROW_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8847,11 +8200,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_SWINGFIRE_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_SWINGFIRE_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8889,11 +8238,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_S_Rockets_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_S_Rockets_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8940,11 +8285,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Silenced_1_Shot
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Silenced_1_Shot is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -8991,11 +8332,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Silenced_Burst
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Silenced_Burst is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9033,11 +8370,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Sniper_Dragunov_1_Round
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Sniper_Dragunov_1_Round is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9084,11 +8417,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Sniper_FRF_1_Round
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Sniper_FRF_1_Round is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9126,11 +8455,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Sniper_HKG3_1_Round
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Sniper_HKG3_1_Round is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9159,11 +8484,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Sniper_L1A1_FAL_1_Round
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Sniper_L1A1_FAL_1_Round is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9201,11 +8522,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Sniper_L96A1_1_Round
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Sniper_L96A1_1_Round is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9243,11 +8560,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Sniper_M14_1_Round
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Sniper_M14_1_Round is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9294,11 +8607,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Sniper_M24_1_Round
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Sniper_M24_1_Round is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9345,11 +8654,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Sniper_PSG1_1_Round
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Sniper_PSG1_1_Round is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9405,11 +8710,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Sniper_VSS_Vintorez_1_Round
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Sniper_VSS_Vintorez_1_Round is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9456,11 +8757,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Sterling_Burst
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Sterling_Burst is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9516,11 +8813,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_Stinger_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Stinger_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9576,11 +8869,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_TOW_Firing
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_TOW_Firing is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9672,11 +8961,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Tir_roquette_220_Buratino
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Tir_roquette_220_Buratino is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9723,11 +9008,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Tir_roquette_BM21_122mm_MLRS
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Tir_roquette_BM21_122mm_MLRS is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9765,11 +9046,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Tir_roquette_BM30
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Tir_roquette_BM30 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9807,11 +9084,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Tir_roquette_M110_MLRS
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Tir_roquette_M110_MLRS is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9858,11 +9131,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_Tir_roquette_M270_MLRS
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_Tir_roquette_M270_MLRS is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9927,11 +9196,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_UZI_Burst
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_UZI_Burst is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -9996,11 +9261,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FULDA_YaKB
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_YaKB is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10038,11 +9299,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FULDA_ZU23_Dual_chain_gun_Continuous
-[
-]
-is TSoundHappening
+export SoundHappening_FULDA_ZU23_Dual_chain_gun_Continuous is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10089,11 +9346,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_FermeAmbiance
-[
-]
-is TSoundHappening
+export SoundHappening_FermeAmbiance is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10113,11 +9366,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_FermeAmbiance_Evenements
-[
-]
-is TSoundHappening
+export SoundHappening_FermeAmbiance_Evenements is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10227,11 +9476,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_Fulda_GAU8
-[
-]
-is TSoundHappening
+export SoundHappening_Fulda_GAU8 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10287,11 +9532,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_ImpactArtillerie_KarlBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_KarlBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10311,11 +9552,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_KarlSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_KarlSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10335,11 +9572,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_KarlVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_KarlVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10359,11 +9592,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_NukelSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_NukelSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10383,11 +9612,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_grosBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_grosBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10425,11 +9650,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_grosSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_grosSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10467,11 +9688,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_grosVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_grosVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10509,11 +9726,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_lourdeSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_lourdeSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10578,11 +9791,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_moyenBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_moyenBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10620,11 +9829,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_moyenSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_moyenSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10662,11 +9867,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_moyenVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_moyenVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10704,11 +9905,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_petitBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_petitBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10746,11 +9943,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_petitSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_petitSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10788,11 +9981,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactArtillerie_petitVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactArtillerie_petitVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10830,11 +10019,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactAutocanon_20mmBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactAutocanon_20mmBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10872,11 +10057,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactAutocanon_20mmSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactAutocanon_20mmSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10941,11 +10122,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactAutocanon_20mmVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactAutocanon_20mmVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -10983,11 +10160,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactAutocanon_40mmBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactAutocanon_40mmBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -11025,11 +10198,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactAutocanon_40mmSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactAutocanon_40mmSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -11094,11 +10263,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactAutocanon_40mmVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactAutocanon_40mmVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -11136,11 +10301,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactBallesBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactBallesBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -11286,11 +10447,7 @@ is TSoundHappening
     )
     Volume = 0.5
 )
-
-template SoundHappening_ImpactBallesSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactBallesSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -11364,11 +10521,7 @@ is TSoundHappening
     )
     Volume = 0.5
 )
-
-template SoundHappening_ImpactBallesVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactBallesVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -11433,11 +10586,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactBalles_BalleSol_Sniper
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactBalles_BalleSol_Sniper is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -11628,11 +10777,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactBalles_burstBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactBalles_burstBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -11706,11 +10851,7 @@ is TSoundHappening
     )
     Volume = 0.5
 )
-
-template SoundHappening_ImpactBalles_burstSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactBalles_burstSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -11901,11 +11042,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactBalles_burstSol_SAW
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactBalles_burstSol_SAW is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -11979,11 +11116,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactBalles_burstVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactBalles_burstVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12066,11 +11199,7 @@ is TSoundHappening
     )
     Volume = 0.5
 )
-
-template SoundHappening_ImpactBombe500kgBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactBombe500kgBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12108,11 +11237,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactBombe500kgSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactBombe500kgSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12150,11 +11275,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactCanonGrosSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactCanonGrosSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12192,11 +11313,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_ImpactCanon_grosBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactCanon_grosBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12243,11 +11360,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactCanon_grosSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactCanon_grosSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12294,11 +11407,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactCanon_moyenBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactCanon_moyenBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12345,11 +11454,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactCanon_moyenSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactCanon_moyenSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12396,11 +11501,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactCanon_petitBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactCanon_petitBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12447,11 +11548,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactCanon_petitSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactCanon_petitSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12489,11 +11586,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactCanon_petitSol_GAU
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactCanon_petitSol_GAU is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12531,11 +11624,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactGatlingBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactGatlingBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12573,11 +11662,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactGatlingVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactGatlingVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12660,11 +11745,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactGrenadeMainBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactGrenadeMainBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12702,11 +11783,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactGrenadeMainSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactGrenadeMainSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12744,11 +11821,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactGrenadeMainVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactGrenadeMainVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12786,11 +11859,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactMissileAT_grosAir
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactMissileAT_grosAir is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12810,11 +11879,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactMissileAT_grosSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactMissileAT_grosSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12852,11 +11917,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactMissileAT_grosVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactMissileAT_grosVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12894,11 +11955,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactMissileAT_moyenVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactMissileAT_moyenVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12936,11 +11993,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactMissileAT_petitAir
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactMissileAT_petitAir is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -12960,11 +12013,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactMissileAT_petitSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactMissileAT_petitSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13002,11 +12051,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactMortier_moyenSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactMortier_moyenSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13062,11 +12107,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactObus_grosVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactObus_grosVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13104,11 +12145,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactObus_moyenVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactObus_moyenVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13146,11 +12183,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactObus_petitVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactObus_petitVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13188,11 +12221,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRecoilessBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRecoilessBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13230,11 +12259,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRecoilessSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRecoilessSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13272,11 +12297,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRecoilessVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRecoilessVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13314,11 +12335,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_grosAir
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_grosAir is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13338,11 +12355,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_grosBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_grosBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13380,11 +12393,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_grosSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_grosSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13422,11 +12431,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_grosVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_grosVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13464,11 +12469,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_moyenAir
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_moyenAir is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13488,11 +12489,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_moyenBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_moyenBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13530,11 +12527,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_moyenSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_moyenSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13572,11 +12565,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_moyenVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_moyenVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13614,11 +12603,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_petitAir
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_petitAir is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13638,11 +12623,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_petitBatiment
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_petitBatiment is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13680,11 +12661,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_petitSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_petitSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13722,11 +12699,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquette_petitVehicule
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquette_petitVehicule is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13764,11 +12737,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactRoquettes_Buratino_lourdeSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactRoquettes_Buratino_lourdeSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13833,11 +12802,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactSAM_gros
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactSAM_gros is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13857,11 +12822,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactSAM_moyen
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactSAM_moyen is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13881,11 +12842,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_ImpactStraffingSol
-[
-]
-is TSoundHappening
+export SoundHappening_ImpactStraffingSol is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13923,11 +12880,7 @@ is TSoundHappening
     )
     Volume = 0.5
 )
-
-template SoundHappening_Impact_HE_Gros_Eau
-[
-]
-is TSoundHappening
+export SoundHappening_Impact_HE_Gros_Eau is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13947,11 +12900,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_Impact_HE_Moyen_Eau
-[
-]
-is TSoundHappening
+export SoundHappening_Impact_HE_Moyen_Eau is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13971,11 +12920,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_Impact_HE_Petit_Eau
-[
-]
-is TSoundHappening
+export SoundHappening_Impact_HE_Petit_Eau is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -13995,11 +12940,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_Incendie
-[
-]
-is TSoundHappening
+export SoundHappening_Incendie is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -14019,11 +12960,7 @@ is TSoundHappening
     )
     Volume = 0.7
 )
-
-template SoundHappening_IndustrieAmbiance
-[
-]
-is TSoundHappening
+export SoundHappening_IndustrieAmbiance is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -14043,11 +12980,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_IndustrieAmbiance_Evenements
-[
-]
-is TSoundHappening
+export SoundHappening_IndustrieAmbiance_Evenements is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -14148,11 +13081,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_Mort_infanterie
-[
-]
-is TSoundHappening
+export SoundHappening_Mort_infanterie is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -14244,11 +13173,7 @@ is TSoundHappening
     )
     Volume = 1
 )
-
-template SoundHappening_RadioChatter
-[
-]
-is TSoundHappening
+export SoundHappening_RadioChatter is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -14524,16 +13449,84 @@ is TSoundHappening
                 )
                 UseSpecialLoop = False
             ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/HUD_SoundSettings
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/Env/Amb_HQ_Voice_OneShot_31.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/HUD_SoundSettings
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/Env/Amb_HQ_Voice_OneShot_32.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/HUD_SoundSettings
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/Env/Amb_HQ_Voice_OneShot_33.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/HUD_SoundSettings
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/Env/Amb_HQ_Voice_OneShot_34.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/HUD_SoundSettings
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/Env/Amb_HQ_Voice_OneShot_35.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/HUD_SoundSettings
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/Env/Amb_HQ_Voice_OneShot_36.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/HUD_SoundSettings
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/Env/Amb_HQ_Voice_OneShot_37.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/HUD_SoundSettings
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/Env/Amb_HQ_Voice_OneShot_38.wav"
+                )
+                UseSpecialLoop = False
+            ),
         ]
         PlayInRandomOrder = True
     )
     Volume = 1
 )
-
-template SoundHappening_SD_GSh_301
-[
-]
-is TSoundHappening
+export SoundHappening_SD_GSh_301 is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -14553,11 +13546,7 @@ is TSoundHappening
     )
     Volume = 2
 )
-
-template SoundHappening_TirLanceFlamme
-[
-]
-is TSoundHappening
+export SoundHappening_TirLanceFlamme is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList
     (
@@ -14577,4 +13566,3 @@ is TSoundHappening
     )
     Volume = 1
 )
-

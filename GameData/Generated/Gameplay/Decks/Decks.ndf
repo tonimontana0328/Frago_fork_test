@@ -320,7 +320,7 @@ export Descriptor_Deck_UK_1st_Armoured_multi is TDeckDescriptor
         (
             ExperienceLevel = 3
             DeckPack = ~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_LRRP_UK
-            Transport = ~/Descriptor_Unit_Gazelle_trans_UK
+            Transport = ~/Descriptor_Unit_LandRover_UK
         ),
         TDeckPackDescription
         (
@@ -939,9 +939,9 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_multi is TDeckDescriptor
         ),
         TDeckPackDescription
         (
-            ExperienceLevel = 1
+            ExperienceLevel = 3
             DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_Scout_LRRP_SOV
-            Transport = ~/Descriptor_Unit_Mi_8TV_SOV
+            Transport = ~/Descriptor_Unit_GAZ_66B_SOV
         ),
         TDeckPackDescription
         (
@@ -998,7 +998,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_multi is TDeckDescriptor
         TDeckPackDescription
         (
             ExperienceLevel = 3
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_29_AA_SOV
+            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_29_AA2_SOV
         ),
         TDeckPackDescription
         (
@@ -1265,7 +1265,7 @@ export Descriptor_Deck_US_3rd_Arm_multi is TDeckDescriptor
         TDeckPackDescription
         (
             ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_HEMTT
+            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_HEMTT_US
         ),
         TDeckPackDescription
         (
@@ -1977,9 +1977,9 @@ export Descriptor_Deck_RFA_5_Panzer_multi is TDeckDescriptor
         ),
         TDeckPackDescription
         (
-            ExperienceLevel = 2
+            ExperienceLevel = 3
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Fernspaher_RFA
-            Transport = ~/Descriptor_Unit_UH1D_RFA
+            Transport = ~/Descriptor_Unit_Iltis_trans_RFA
         ),
         TDeckPackDescription
         (
@@ -2158,9 +2158,9 @@ export Descriptor_Deck_RDA_7_Panzer_multi is TDeckDescriptor
         ),
         TDeckPackDescription
         (
-            ExperienceLevel = 2
+            ExperienceLevel = 3
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_Scout_LRRP_DDR
-            Transport = ~/Descriptor_Unit_Mi_2_trans_DDR
+            Transport = ~/Descriptor_Unit_W50_LA_A_DDR
         ),
         TDeckPackDescription
         (
@@ -2668,7 +2668,7 @@ export Descriptor_Deck_US_8th_Inf_multi is TDeckDescriptor
         TDeckPackDescription
         (
             ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_HEMTT
+            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_HEMTT_US
         ),
         TDeckPackDescription
         (
@@ -2772,7 +2772,7 @@ export Descriptor_Deck_US_8th_Inf_multi is TDeckDescriptor
         ),
         TDeckPackDescription
         (
-            ExperienceLevel = 2
+            ExperienceLevel = 3
             DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_LRRP_US
             Transport = ~/Descriptor_Unit_M998_Humvee_US
         ),
@@ -3255,60 +3255,6 @@ export Descriptor_Deck_RDA_KdA_Bezirk_Erfurt_multi is TDeckDescriptor
     ]
 )
 
-export Descriptor_Deck_RFA_TerrKdo_Sud_multi_OP_02_TRG_IA1 is TDeckDescriptor
-(
-    DeckName = 'NAOILKROPM'
-    DeckIdentifier = 'OP_02_TRG_IA1'
-    DeckDivision = ~/Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi
-    DeckPackList =
-    [
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_M577_RFA
-        ),
-    ]
-    DeckCombatGroupList =
-    [
-    ]
-)
-
-export Descriptor_Deck_RFA_TerrKdo_Sud_multi_OP_02_TRG_IA2 is TDeckDescriptor
-(
-    DeckName = 'BPVVKTKQJC'
-    DeckIdentifier = 'OP_02_TRG_IA2'
-    DeckDivision = ~/Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi
-    DeckPackList =
-    [
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_Iltis_RFA
-        ),
-    ]
-    DeckCombatGroupList =
-    [
-    ]
-)
-
-export Descriptor_Deck_RFA_2_PzGrenadier_multi_OP_02_TRG_IA3 is TDeckDescriptor
-(
-    DeckName = 'ZLUDBGPRMA'
-    DeckIdentifier = 'OP_02_TRG_IA3'
-    DeckDivision = ~/Descriptor_Deck_Division_RFA_2_PzGrenadier_multi
-    DeckPackList =
-    [
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_TPZ_Fuchs_CMD_RFA
-        ),
-    ]
-    DeckCombatGroupList =
-    [
-    ]
-)
-
 export Descriptor_Deck_RFA_TerrKdo_Sud_multi is TDeckDescriptor
 (
     DeckName = 'NJBZGXXVJA'
@@ -3725,478 +3671,6 @@ export Descriptor_Deck_WP_Unternehmen_Zentrum_multi is TDeckDescriptor
     ]
 )
 
-export Descriptor_Deck_US_8th_Inf_multi_test_challenge is TDeckDescriptor
-(
-    DeckName = 'JLQNWZANSV'
-    DeckIdentifier = 'test_challenge'
-    DeckDivision = ~/Descriptor_Deck_Division_US_8th_Inf_multi
-    DeckPackList =
-    [
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Rifles_LAW_US
-            Transport = ~/Descriptor_Unit_M113_Dragon_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Rifles_CMD_US
-            Transport = ~/Descriptor_Unit_M113_Dragon_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Rifles_US
-            Transport = ~/Descriptor_Unit_M113A3_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_AeroRifles_US
-            Transport = ~/Descriptor_Unit_UH60A_Black_Hawk_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Engineer_CMD_US
-            Transport = ~/Descriptor_Unit_M151_MUTT_trans_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Engineers_US
-            Transport = ~/Descriptor_Unit_M113A3_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Engineers_Flash_US
-            Transport = ~/Descriptor_Unit_M151_MUTT_trans_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 0
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_HeimatschutzJager_RFA
-            Transport = ~/Descriptor_Unit_Unimog_trans_RFA
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M125_HOWZ_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M109A2_HOWZ_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M110A2_HOWZ_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M270_MLRS_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M60A3_CMD_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 3
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M60A3_Patton_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 3
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1A1_Abrams_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 3
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1A1_Abrams_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M901A1_ITW_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Jager_Aufk_RFA
-            Transport = ~/Descriptor_Unit_Unimog_trans_RFA
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_LRRP_US
-            Transport = ~/Descriptor_Unit_UH60A_Black_Hawk_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M113A1_TOW_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M48_Chaparral_MIM72F_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M48_Chaparral_MIM72F_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M163_PIVADS_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_OH58_CS_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_AH1F_Cobra_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_AH1F_Cobra_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_AH1S_Cobra_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_UH60A_Supply_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_UH60A_CO_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_HEMTT
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M151_MUTT_CMD_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Alpha_Jet_A_nplm_RFA
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_F16E_AA_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_F4_Wild_Weasel_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_A10_Thunderbolt_II_ATGM_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Jager_RFA
-            Transport = ~/Descriptor_Unit_Unimog_trans_RFA
-        ),
-    ]
-    DeckCombatGroupList =
-    [
-    ]
-)
-
-export Descriptor_Deck_US_3rd_Arm_multi_test_challenge_new is TDeckDescriptor
-(
-    DeckName = 'WEOWZERJXE'
-    DeckIdentifier = 'test_challenge_new'
-    DeckDivision = ~/Descriptor_Deck_Division_US_3rd_Arm_multi
-    DeckPackList =
-    [
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1_Abrams_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1_Abrams_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1_Abrams_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1_Abrams_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1_Abrams_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_Rifles_US
-            Transport = ~/Descriptor_Unit_M35_trans_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_Engineers_US
-            Transport = ~/Descriptor_Unit_M35_trans_US
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M577_US
-        ),
-    ]
-    DeckCombatGroupList =
-    [
-        TDeckCombatGroupDescriptor
-        (
-            SmartGroupList =
-            [
-                TDeckSmartGroupDescriptor
-                (
-                    PackIndexUnitNumberList =
-                    [
-                        (7,1),
-                    ]
-                ),
-                TDeckSmartGroupDescriptor
-                (
-                    PackIndexUnitNumberList =
-                    [
-                        (0,2),
-                        (5,2),
-                    ]
-                ),
-                TDeckSmartGroupDescriptor
-                (
-                    PackIndexUnitNumberList =
-                    [
-                        (0,2),
-                    ]
-                ),
-            ]
-        ),
-    ]
-)
-
-export Descriptor_Deck_SOV_79_Gds_Tank_multi_test_challenge_pack is TDeckDescriptor
-(
-    DeckName = 'OXUAYXWQCV'
-    DeckIdentifier = 'test_challenge_pack'
-    DeckDivision = ~/Descriptor_Deck_Division_SOV_79_Gds_Tank_multi
-    DeckPackList =
-    [
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_BRDM_2_CMD_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Tunguska_2K22_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_2S3M_Akatsiya_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_2K12_KUB_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Su_25_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MTLB_supply_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Ural_4320_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MTLB_Strela10_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_BM21_Grad_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_T80U_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_T80UD_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_T80BV_CMD_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_T80BV_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_T80B_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_T80BV_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_HvyScout_SOV
-            Transport = ~/Descriptor_Unit_Mi_8TV_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_BRDM_2_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_BRM_1_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_UAZ_469_AGL_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Mi_24V_AA_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Mi_24V_AT_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MotRifles_CMD_SOV
-            Transport = ~/Descriptor_Unit_UAZ_469_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MotRifles_SOV
-            Transport = ~/Descriptor_Unit_BMP_2_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MotRifles_SOV
-            Transport = ~/Descriptor_Unit_BMP_1P_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MotRifles_Metis_SOV
-            Transport = ~/Descriptor_Unit_BMP_1P_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MotRifles_SOV
-            Transport = ~/Descriptor_Unit_BMP_1P_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MotRifles_BTR_SOV
-            Transport = ~/Descriptor_Unit_BTR_80_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Osa_9K33M3_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Osa_9K33M3_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Mi_8TV_s80_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_2S3M_Akatsiya_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MiG_31M_SOV
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_T80BV_CMD_SOV
-        ),
-    ]
-    DeckCombatGroupList =
-    [
-    ]
-)
-
 private DeckList is TDeckDescriptorList
 (
     DeckListForAutoFill =
@@ -4223,11 +3697,5 @@ private DeckList is TDeckDescriptorList
 
     DeckListForIdentifier =
     [
-        ~/Descriptor_Deck_RFA_TerrKdo_Sud_multi_OP_02_TRG_IA1,
-        ~/Descriptor_Deck_RFA_TerrKdo_Sud_multi_OP_02_TRG_IA2,
-        ~/Descriptor_Deck_RFA_2_PzGrenadier_multi_OP_02_TRG_IA3,
-        ~/Descriptor_Deck_US_8th_Inf_multi_test_challenge,
-        ~/Descriptor_Deck_US_3rd_Arm_multi_test_challenge_new,
-        ~/Descriptor_Deck_SOV_79_Gds_Tank_multi_test_challenge_pack,
     ]
 )

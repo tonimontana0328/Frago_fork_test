@@ -224,7 +224,8 @@ template UnitGroupCount
     ]
 )
 
-private AggregatedUnitLabelUnitIcon is BUCKTextureDescriptor
+//----------------------------------------------------------------------
+private AggregatedUnitLabelUnitIcon is TBUCKSpecificLabelUnitIconDescriptor
 (
     ElementName = "UnitIcon"
     ComponentFrame = TUIFramePropertyRTTI
@@ -234,6 +235,9 @@ private AggregatedUnitLabelUnitIcon is BUCKTextureDescriptor
         AlignementToAnchor = [0.5, 0.0]
     )
 
+    TextureDrawer = "ColorMultiply"
+    UniformDrawer = $/UserInterface/UIUniformDrawer
+
     HasBorder = false
     BorderThicknessToken = '2'
     BorderLineColorToken = 'Blanc'
@@ -241,16 +245,8 @@ private AggregatedUnitLabelUnitIcon is BUCKTextureDescriptor
     LocalRenderLayer = 2
     BackgroundLocalRenderLayer = 1
 
-    TextureFrame   = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight = [1.0, 1.0]
-    )
-
-    ClipTextureToComponent = true
-
     Components =
     [
-        UnitLabelCarriedUnitIcon(LocalRenderLayer = 3),
         BUCKListDescriptor
         (
             ComponentFrame = TUIFramePropertyRTTI
@@ -284,9 +280,6 @@ private AggregatedUnitLabelUnitIcon is BUCKTextureDescriptor
                 )
             ]
         ),
-        UnitLabelUnitExperienceIconsBUCKComponent(LocalRenderLayer = 3),
-        UnitLabelSpecialtyIcon(LocalRenderLayer = 3),
-        RadarActivityIcon(LocalRenderLayer = 3),
         SmartChipList(LocalRenderLayer = 3),
     ]
 )

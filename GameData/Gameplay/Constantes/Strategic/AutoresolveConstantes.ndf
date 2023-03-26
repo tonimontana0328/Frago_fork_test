@@ -41,6 +41,13 @@ private NoInfantryAdvantage is TCombatAdvantageDefinition
     TagToCheck = [ 'Infanterie' ]
     TagToCheckAgainst = [ 'Infanterie']
 )
+private DCA_air is TCombatAdvantageDefinition
+(
+    AdvantageValue = 2
+    TextToken = 'CA_DCA'
+    TagToCheck = [ 'Canon_AA' ]
+    TagToCheckAgainst = [ 'Avion_SEAD']
+)
 
 
 StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
@@ -75,6 +82,11 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
         ( EStrategicBattleType_AerialStrategicBattle, MAP
             [
                 ( ~/EAutoresolveAvantage_NoAntiAirVersusAir,   ~/NoAAAdvantage ),
+            ]
+        ),
+        ( EStrategicBattleType_AirGroundStrategicBattle, MAP
+            [
+                ( ~/EAutoresolveAvantage_DCA_air,   ~/DCA_air ),
             ]
         ),
     ]
@@ -164,19 +176,21 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
     // Combat Air Sol // combat attaquant defenseur : cas où l'avion entre dans le cercle d'une DCA / l'avion est attaquant et DCA
     //-------------------------------------------------------------------------------------
 
-    PertePourAttaquantSelonDecalageCombatAirSol = PertePourAttaquantSelonDecalageForCombatAerien
-    PertePourDefenseurSelonDecalageCombatAirSol = PertePourAttaquantSelonDecalageForCombatAerien
+    PertePourAttaquantSelonDecalageCombatAirSol = testPerte
+    PertePourDefenseurSelonDecalageCombatAirSol = testPerte
 
     VictoryTypeByBalanceOfPowerCombatAirSol =
     [
-        ( -1,    EVictoryType/TotalDefeat),
-        ( -0.5,    EVictoryType/MajorDefeat),
+        // ( -1,    EVictoryType/TotalDefeat),
+        // ( -0.5,    EVictoryType/MajorDefeat),
+        // ( -0.01,    EVictoryType/MinorDefeat),
+        // ( 0,    EVictoryType/Draw),
+        // ( 0.5,    EVictoryType/Draw),
+        // ( 1,    EVictoryType/MinorVictory),
+        // ( 1.5,     EVictoryType/MajorVictory),
+        // ( 2,    EVictoryType/TotalVictory),
         ( -0.01,    EVictoryType/MinorDefeat),
-        ( 0,    EVictoryType/Draw),
-        ( 0.5,    EVictoryType/Draw),
-        ( 1,    EVictoryType/MinorVictory),
-        ( 1.5,     EVictoryType/MajorVictory),
-        ( 2,    EVictoryType/TotalVictory),
+        ( 0,    EVictoryType/MinorVictory),
     ]
 
     //-1 = perdre tous les PA possibles
@@ -365,6 +379,12 @@ PerteDefenseurSurTerrainUrbain is
 ]
 
 //-------------------------------------------------------------------------------------/
+testPerte is
+[
+       // (-0.5,    0.30),
+       (0,       0.0),
+       // (0.5,     0.10),
+]
 PertePourAttaquantSelonDecalageForCombatAerien is
 [
        (-0.5,    0.30),

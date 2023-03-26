@@ -2,10 +2,10 @@ InfluencePositionModuleDescriptor is TInfluencePositionModuleDescriptor()
 ActionPointsReachModuleDescriptor is TActionPointsReachModuleDescriptor()
 IALinkToGroupModuleDescriptor is TIALinkToGroupModuleDescriptor()
 IAMacroOrderModuleDescriptor is TIAMacroOrderModuleDescriptor()
-StrategicDelayedOrderModuleDescriptor is TStrategicDelayedOrderModuleDescriptor()
 StrategicSequenceModuleDescriptor is TStrategicSequenceModuleDescriptor()
 StrategicSupplyableModuleDescriptor is TStrategicSupplyableModuleDescriptor()
 StrategicAerialModuleDescriptor is TStrategicAerialModuleDescriptor()
+StrategicDefensePointsModuleDescriptor is TDefensePointsModuleDescriptor()
 
 template StrategicFatigueModuleDescriptor [ InitialFatigue ] is TStrategicFatigueModuleDescriptor
 (
@@ -29,8 +29,6 @@ PawnPositionModuleDescriptor is TPositionModuleDescriptor
     PorteurMustBeVisible       = True
     ClampInWorld               = False
     ClampOutMap                = False
-    HasNearlyNullBBox          = False
-    Radius                     = ((0) * Metre)
     RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
     LowAltitudeFlyingAltitude  = ((0) * Metre)
     NearGroundFlyingAltitude   = ((0) * Metre)

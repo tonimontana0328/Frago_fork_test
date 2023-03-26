@@ -6,14 +6,12 @@ template TStrategicFeedbackUICommonGabaritDefinition
     CircleThickness : float = 1.0,
     CircleColor : color,
     TextStyle : TTextStyleRTTI,
-    Effect : int = ~/FeedbackEffectMode/Dotted
 ]
 is TUICommonGabaritDefinition
 (
     CircleThickness = <CircleThickness>
     CircleColor = <CircleColor>
     TextStyle = <TextStyle>
-    Effect = <Effect>
 )
 
 //-------------------------------------------------------------------------------------
@@ -97,49 +95,14 @@ StrategicFeedbackDispersionGabaritResource is TStrategicFeedbackUICommonGabaritD
 )
 
 //-------------------------------------------------------------------------------------
-
-StrategicFeedbackMinRangeGabaritResource is TStrategicFeedbackUICommonGabaritDefinition
-(
-    CircleColor = [255,0, 0,96]
-    CircleThickness = 1.0
-    TextStyle       = TTextStyleRTTI
-    (
-        FontSize    = 16
-        ColorBottom = [255,0, 0,255]
-        ColorUp     = [255,0, 0,255]
-        ColorStroke = [ 0, 0, 0, 255]
-        Stroke = false
-    )
-)
-
-//-------------------------------------------------------------------------------------
-
-StrategicFeedbackMaxRangeGabaritResource is TStrategicFeedbackUICommonGabaritDefinition
-(
-    CircleColor = [255,0, 0,96]
-    CircleThickness = 1.0
-    TextStyle       = TTextStyleRTTI
-    (
-        FontSize    = 16
-        ColorBottom = [255,0, 0,255]
-        ColorUp     = [255,0, 0,255]
-        ColorStroke = [ 0, 0, 0, 255]
-        Stroke = false
-    )
-)
-
-//-------------------------------------------------------------------------------------
-
 template StrategicFeedbackUICommonZoCDefinition
 [
     ColorToken : string,
-    Effect : int = ~/FeedbackEffectMode/Solid,
     Thickness : float = 800.0
 ]
 is TUICommonZoCDefinition
 (
     ColorToken = <ColorToken>
-    Effect = <Effect>
     Thickness = <Thickness>
 )
 
@@ -155,7 +118,6 @@ FeedbackDisabledNoGoZoneResource is StrategicFeedbackUICommonZoCDefinition
 FeedbackAirNoGoZoneResource is StrategicFeedbackUICommonZoCDefinition
 (
     ColorToken = 'AirNoGoZone'
-    Effect = ~/FeedbackEffectMode/Solid
     Thickness = 2000
 )
 
@@ -179,8 +141,6 @@ StrategicGabaritResources is TUICommonGabaritResources
     SplashGabarit                = ~/StrategicFeedbackSplashGabaritResource
     CapacityGabarit              = ~/StrategicFeedbackCapacityGabaritResource
     DispersionGabarit            = ~/StrategicFeedbackDispersionGabaritResource
-    MinRangeGabarit              = ~/StrategicFeedbackMinRangeGabaritResource
-    MaxRangeGabarit              = ~/StrategicFeedbackMaxRangeGabaritResource
 )
 
 //-------------------------------------------------------------------------------------

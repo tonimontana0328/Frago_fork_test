@@ -33,8 +33,6 @@ export Descriptor_UnitCadavre_Quartier_Gros is TEntityDescriptor(
                 PorteurMustBeVisible       = True
                 ClampInWorld               = False
                 ClampOutMap                = False
-                HasNearlyNullBBox          = False
-                Radius                     = ((5) * Metre)
                 RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
                 LowAltitudeFlyingAltitude  = ((0) * Metre)
                 NearGroundFlyingAltitude   = ((0) * Metre)
@@ -103,8 +101,6 @@ export Descriptor_UnitCadavre_Quartier_HLM is TEntityDescriptor(
                 PorteurMustBeVisible       = True
                 ClampInWorld               = False
                 ClampOutMap                = False
-                HasNearlyNullBBox          = False
-                Radius                     = ((5) * Metre)
                 RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
                 LowAltitudeFlyingAltitude  = ((0) * Metre)
                 NearGroundFlyingAltitude   = ((0) * Metre)
@@ -173,8 +169,6 @@ export Descriptor_UnitCadavre_Quartier_Moyen is TEntityDescriptor(
                 PorteurMustBeVisible       = True
                 ClampInWorld               = False
                 ClampOutMap                = False
-                HasNearlyNullBBox          = False
-                Radius                     = ((5) * Metre)
                 RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
                 LowAltitudeFlyingAltitude  = ((0) * Metre)
                 NearGroundFlyingAltitude   = ((0) * Metre)
@@ -243,8 +237,6 @@ export Descriptor_UnitCadavre_Quartier_Petit is TEntityDescriptor(
                 PorteurMustBeVisible       = True
                 ClampInWorld               = False
                 ClampOutMap                = False
-                HasNearlyNullBBox          = False
-                Radius                     = ((5) * Metre)
                 RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
                 LowAltitudeFlyingAltitude  = ((0) * Metre)
                 NearGroundFlyingAltitude   = ((0) * Metre)

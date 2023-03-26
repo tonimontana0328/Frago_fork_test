@@ -31,11 +31,6 @@ GhostDepiction_2S3_DDR is GhostVehicleDepictionTemplate
     Selector = Selector_2S3_DDR
     Alternatives = Alternatives_2S3_DDR
 )
-GhostDepiction_2S5_GiatsintS_SOV is GhostVehicleDepictionTemplate
-(
-    Selector = Selector_2S5_GiatsintS_SOV
-    Alternatives = Alternatives_2S5_GiatsintS_SOV
-)
 GhostDepiction_2S7M_Malka_SOV is GhostVehicleDepictionTemplate
 (
     Selector = Selector_2S7M_Malka_SOV
@@ -776,10 +771,10 @@ GhostDepiction_Gepard_1A2_RFA is GhostVehicleDepictionTemplate
     Selector = Selector_Gepard_1A2_RFA
     Alternatives = Alternatives_Gepard_1A2_RFA
 )
-GhostDepiction_HEMTT is GhostVehicleDepictionTemplate
+GhostDepiction_HEMTT_US is GhostVehicleDepictionTemplate
 (
-    Selector = Selector_HEMTT
-    Alternatives = Alternatives_HEMTT
+    Selector = Selector_HEMTT_US
+    Alternatives = Alternatives_HEMTT_US
 )
 GhostDepiction_HMGteam_AANF1_FR is GhostVehicleDepictionTemplate
 (
@@ -1840,6 +1835,11 @@ GhostDepiction_UAZ_469_Konkurs_VDV_SOV is GhostVehicleDepictionTemplate
 (
     Selector = Selector_UAZ_469_Konkurs_VDV_SOV
     Alternatives = Alternatives_UAZ_469_Konkurs_VDV_SOV
+)
+GhostDepiction_UAZ_469_MP_SOV is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_UAZ_469_MP_SOV
+    Alternatives = Alternatives_UAZ_469_MP_SOV
 )
 GhostDepiction_UAZ_469_Reco_DDR is GhostVehicleDepictionTemplate
 (

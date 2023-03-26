@@ -70,7 +70,7 @@ SoundHappening_UnitOnFire is TSequencingActionHappening
         Actions = [
         TActionDescriptorAudio
         (
-            SoundDescriptorList = SoundHappening_Incendie().SoundDescList
+            SoundDescriptorList = SoundHappening_Incendie.SoundDescList
         )
         ]
     )
@@ -132,9 +132,7 @@ DepictionAction_Wrecked_Avion is DepictionAction_Wrecked_Common + MAP[
                     ]
                 )
             ),
-            SoundHappening_CrashAvion
-            (
-            ),
+            SoundHappening_CrashAvion,
         ]
     )),
 ]
@@ -170,9 +168,7 @@ DepictionAction_Wrecked_Helicopter is DepictionAction_Wrecked_Common + MAP[
                     ]
                 )
             ),
-            SoundHappening_CrashAvion
-            (
-            ),
+            SoundHappening_CrashAvion,
         ]
     )),
 ]
@@ -417,8 +413,6 @@ DepictionAction_CriticalFX_Incendiary is MAP[
                 Anchor = 'fx_incendie'
             )
             SoundHappening = SoundHappening_FULDA_CriticalFX_Fuel_Explosion
-            (
-            )
         )
     )
 ]
@@ -430,9 +424,7 @@ DepictionAction_CriticalFX_Hull_Break is MAP[
         (
             FX = $/GFX/GameFx/fx_critique_hull_break
             Anchor = 'fx_incendie'
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Hull_Break
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Hull_Break)
         )
     )
 ]
@@ -458,8 +450,6 @@ DepictionAction_CriticalFX_Gun_Turret_Stuck is MAP[
                 Anchor = 'fx_munition'
             )
             SoundHappening = SoundHappening_FULDA_CriticalFX_Gun_Turret_Stuck
-            (
-            )
         )
     )
 ]
@@ -474,8 +464,6 @@ DepictionAction_CriticalFX_Moteur_Destroyed is MAP[
                 Anchor = 'fx_moteur'
             )
             SoundHappening = SoundHappening_FULDA_CriticalFX_Moteur_Destroyed
-            (
-            )
         )
     )
 ]
@@ -490,8 +478,6 @@ DepictionAction_CriticalFX_Fuel_Explosion is MAP[
                 Anchor = 'fx_moteur'
             )
             SoundHappening = SoundHappening_FULDA_CriticalFX_Fuel_Explosion
-            (
-            )
         )
     )
 ]
@@ -506,8 +492,6 @@ DepictionAction_CriticalFX_Ammo is MAP[
                 Anchor = 'fx_munition'
             )
             SoundHappening = SoundHappening_FULDA_CriticalFX_Ammo
-            (
-            )
         )
     )
 ]
@@ -521,9 +505,7 @@ DepictionAction_CriticalFX_Spalling is MAP[
                 FX = $/GFX/GameFx/fx_critique_spalling
                 Anchor = 'fx_munition'
             )
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Spalling
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Spalling )
         )
     )
 ]
@@ -531,27 +513,23 @@ DepictionAction_CriticalFX_Spalling is MAP[
 DepictionAction_CriticalEffect_CompReset is MAP[
     (
         ['critical_compreset'],
-        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Comp_Reset
-        (
-        ))
+        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Comp_Reset )
     )
 ]
 
 DepictionAction_CriticalEffect_Crew is MAP[
     (
         ['critical_crew'],
-        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Crew
-        (
-        ))
+        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Crew)
     )
 ]
 
 DepictionAction_CriticalEffect_Crew_Dead is MAP[
     (
         ['critical_crew_dead'],
-        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Crew_Dead
-        (
-        ))
+        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Crew_Dead)
+        
+        
     )
 ]
 
@@ -559,8 +537,6 @@ DepictionAction_CriticalEffect_Track_broke is MAP[
     (
         ['critical_track_broke'],
         SoundHappening_FULDA_CriticalFX_Track
-        (
-        )
     )
 ]
 
@@ -571,9 +547,7 @@ DepictionAction_CriticalEffect_Engine_Fire is MAP[
         (
             FX = $/GFX/GameFx/fx_critique_engine_fire
             Anchor = 'fx_chaleur_01'
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane )
         )
     )
 ]
@@ -585,9 +559,7 @@ DepictionAction_CriticalEffect_Tank_Fire is MAP[
         (
             FX = $/GFX/GameFx/fx_critique_leak_fire
             Anchor = 'aileron_d'
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane )
         )
     )
 ]
@@ -599,9 +571,7 @@ DepictionAction_CriticalEffect_Reactor_Damaged is MAP[
         (
             FX = $/GFX/GameFx/fx_critique_reactor_damaged
             Anchor = 'fx_chaleur_01'
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_Engine
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_Engine)
         )
     )
 ]
@@ -613,9 +583,7 @@ DepictionAction_CriticalEffect_Leak is MAP[
         (
             FX = $/GFX/GameFx/fx_critique_reactor_damaged
             Anchor = 'aileron_d'
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_Engine
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_Engine)
         )
     )
 ]
@@ -623,18 +591,14 @@ DepictionAction_CriticalEffect_Leak is MAP[
 DepictionAction_CriticalEffect_Pilot is MAP[
     (
         ['critical_pilot'],
-        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Crew
-        (
-        ))
+        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Crew )
     )
 ]
 
 DepictionAction_CriticalEffect_HUD_Damaged is MAP[
     (
         ['critical_HUD'],
-        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_HUD
-        (
-        ))
+        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_HUD )
     )
 ]
 
@@ -645,9 +609,7 @@ DepictionAction_CriticalEffect_Structural_Damaged is MAP[
         (
             FX = $/GFX/GameFx/fx_critique_structural_damaged
             Anchor = 'aileron_g'
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_Structural_Damage
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_Structural_Damage )
         )
     )
 ]
@@ -655,9 +617,7 @@ DepictionAction_CriticalEffect_Structural_Damaged is MAP[
 DepictionAction_CriticalEffect_Computer_Down is MAP[
     (
         ['computer_down'],
-        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_Computer_Down
-        (
-        ))
+        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_Computer_Down )
     )
 ]
 
@@ -668,9 +628,7 @@ DepictionAction_CriticalEffect_Helico_Leak is MAP[
         (
             FX = $/GFX/GameFx/fx_critique_helico_leak
             Anchor = 'fx_chaleur_01'
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Helico_Leak
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Helico_Leak )
         )
     )
 ]
@@ -682,9 +640,7 @@ DepictionAction_CriticalEffect_Helico_Structural_Damaged is MAP[
         (
             FX = $/GFX/GameFx/fx_critique_Helico_structural_damaged
             Anchor = 'fx_stress_01'
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Helico_Structural_Damage
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Helico_Structural_Damage )
         )
     )
 ]
@@ -696,9 +652,7 @@ DepictionAction_CriticalEffect_Helico_turbine_Damaged is MAP[
         (
             FX = $/GFX/GameFx/fx_critique_helico_turbine_damaged
             Anchor = 'fx_chaleur_01'
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_Engine
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane_Engine )
         )
     )
 ]
@@ -710,9 +664,7 @@ DepictionAction_CriticalEffect_Helico_Turbine_Fire is MAP[
         (
             FX = $/GFX/GameFx/fx_critique_helico_turbine_fire
             Anchor = 'fx_chaleur_01'
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane )
         )
     )
 ]
@@ -724,9 +676,7 @@ DepictionAction_CriticalEffect_Helico_Tank_Fire is MAP[
         (
             FX = $/GFX/GameFx/fx_critique_helico_leak_fire
             Anchor = 'fx_stress_01'
-            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane
-            (
-            ))
+            SoundHappening = template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Plane )
         )
     )
 ]
@@ -734,27 +684,21 @@ DepictionAction_CriticalEffect_Helico_Tank_Fire is MAP[
 DepictionAction_CriticalEffect_Helico_Computer_Down is MAP[
     (
         ['computer_down'],
-        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Helico_Computer_Down
-        (
-        ))
+        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Helico_Computer_Down )
     )
 ]
 
 DepictionAction_CriticalEffect_Helico_Crew is MAP[
     (
         ['critical_pilot'],
-        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Crew
-        (
-        ))
+        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Crew )
     )
 ]
 
 DepictionAction_CriticalEffect_Helico_HUD_Damaged is MAP[
     (
         ['critical_HUD'],
-        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Helico_HUD
-        (
-        ))
+        template_HappeningOnlyOnPlayer( Happening = SoundHappening_FULDA_CriticalFX_Alarm_Helico_HUD )
     )
 ]
 
@@ -908,9 +852,7 @@ private Flare_Happening is TCompositeHappening
             )
 
         ),
-        SoundHappening_FULDA_Flares_Launch
-        (
-        ),
+        SoundHappening_FULDA_Flares_Launch,
     ]
 )
 

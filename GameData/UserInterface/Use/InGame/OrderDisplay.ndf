@@ -61,7 +61,6 @@ export OrderDisplayDefault is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = false
     MustDrawArrow               = true
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 //---------------------MOVE----------------------------------------------
@@ -77,7 +76,6 @@ export OrderDisplayMove is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = false
     MustDrawArrow               = true
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 
     AerialDashLineThickness     = 500.0
     AerialDashLineDashLength    = 5.0
@@ -98,7 +96,6 @@ export OrderDisplayAirplanePatrol is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = false
     MustDrawArrow               = true
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 
     AerialDashLineThickness     = 500.0
     AerialDashLineDashLength    = 5.0
@@ -119,7 +116,6 @@ export OrderDisplayAirplaneMoveAndEngage is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = false
     MustDrawArrow               = true
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayQuickMove is TOrderDisplayDrawInfo //Move Fast
@@ -133,7 +129,6 @@ export OrderDisplayQuickMove is TOrderDisplayDrawInfo //Move Fast
     HideNextOrders              = false
     MustDrawCircle              = false
     MustDrawArrow               = true
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayReverse is TOrderDisplayDrawInfo //Reverse
@@ -152,7 +147,6 @@ export OrderDisplayReverse is TOrderDisplayDrawInfo //Reverse
     MustDrawCircle              = false
     MustDrawArrow               = true
     ReverseArrow                = true
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayAirplaneEvacuate is TOrderDisplayDrawInfo
@@ -166,7 +160,6 @@ export OrderDisplayAirplaneEvacuate is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 //---------------------HUNT----------------------------------------------
@@ -186,7 +179,7 @@ export OrderDisplayMoveAndAttack is TOrderDisplayDrawInfo //Hunt
     HideNextOrders              = false
     MustDrawCircle              = false
     MustDrawArrow               = true
-    EffectMode                  = ~/FeedbackEffectMode/Hatched
+    Hatched                     = true
 
     AerialDashLineThickness     = 500.0
     AerialDashLineDashLength    = 5.0
@@ -207,7 +200,6 @@ export OrderDisplayEnterDistrict is TOrderDisplayDrawInfo //Move on a district
     HideNextOrders              = false
     MustDrawCircle              = false
     MustDrawArrow               = true
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayFastMoveAndAttack is TOrderDisplayDrawInfo //Quick Hunt
@@ -225,7 +217,7 @@ export OrderDisplayFastMoveAndAttack is TOrderDisplayDrawInfo //Quick Hunt
     HideNextOrders              = false
     MustDrawCircle              = false
     MustDrawArrow               = true
-    EffectMode                  = ~/FeedbackEffectMode/Hatched
+    Hatched                     = true
 )
 
 //---------------------ATTACK----------------------------------------------
@@ -245,7 +237,6 @@ export OrderDisplayAttack is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayAirplaneAttack is TOrderDisplayDrawInfo
@@ -263,7 +254,6 @@ export OrderDisplayAirplaneAttack is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayShoot is TOrderDisplayDrawInfo //Fire Pos Direct Fire
@@ -281,7 +271,6 @@ export OrderDisplayShoot is TOrderDisplayDrawInfo //Fire Pos Direct Fire
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayShootOnPosition is TOrderDisplayDrawInfo //Fire Pos Indirect Fire
@@ -299,7 +288,6 @@ export OrderDisplayShootOnPosition is TOrderDisplayDrawInfo //Fire Pos Indirect 
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayShootOnPositionSmoke is TOrderDisplayDrawInfo //Fire Pos Indirect Fire
@@ -317,7 +305,6 @@ export OrderDisplayShootOnPositionSmoke is TOrderDisplayDrawInfo //Fire Pos Indi
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayShootDefensiveSmoke is TOrderDisplayDrawInfo //Fire Pos Indirect Fire
@@ -333,7 +320,6 @@ export OrderDisplayShootDefensiveSmoke is TOrderDisplayDrawInfo //Fire Pos Indir
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayAirplaneShoot is TOrderDisplayDrawInfo //Fire Pos Direct Fire
@@ -351,7 +337,6 @@ export OrderDisplayAirplaneShoot is TOrderDisplayDrawInfo //Fire Pos Direct Fire
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 //---------------------UNLOAD----------------------------------------------
@@ -367,7 +352,6 @@ export OrderDisplayUnload is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayUnloadAtPosition is TOrderDisplayDrawInfo
@@ -384,7 +368,6 @@ export OrderDisplayUnloadAtPosition is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayLoadIntoTransport is TOrderDisplayDrawInfo
@@ -405,7 +388,6 @@ export OrderDisplayLoadIntoTransport is TOrderDisplayDrawInfo
     MustDrawCircle              = true
     MustDrawCircleStart         = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayLoadUnit is TOrderDisplayDrawInfo
@@ -426,7 +408,6 @@ export OrderDisplayLoadUnit is TOrderDisplayDrawInfo
     MustDrawCircle              = true
     MustDrawCircleStart         = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 //---------------------???----------------------------------------------
@@ -446,7 +427,6 @@ export OrderDisplayFleeFromAttackers is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayUseCapacite is TOrderDisplayDrawInfo
@@ -464,7 +444,6 @@ export OrderDisplayUseCapacite is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 //---------------------HELICOPTERS----------------------------------------------
@@ -483,7 +462,6 @@ export OrderDisplayLand is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayGoDown is TOrderDisplayDrawInfo
@@ -500,7 +478,6 @@ export OrderDisplayGoDown is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 
 export OrderDisplayGoUp is TOrderDisplayDrawInfo
@@ -517,7 +494,6 @@ export OrderDisplayGoUp is TOrderDisplayDrawInfo
     HideNextOrders              = false
     MustDrawCircle              = true
     MustDrawArrow               = false
-    EffectMode                  = ~/FeedbackEffectMode/Solid
 )
 //------------------------------------------------------------------------------
 //******************************************************************************

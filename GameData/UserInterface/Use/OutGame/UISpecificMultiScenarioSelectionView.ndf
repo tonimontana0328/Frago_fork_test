@@ -747,16 +747,7 @@ private MultiScenarioListContainer is BUCKContainerDescriptor
                             RelativeWidthHeight = [1.0, 1.0]
                         )
 
-                        ColumnNames =
-                        [
-                            "ScenarioNameMultiList",
-                            "NumberPlayersMultiList",
-                            "IsRankedMultiList",
-                            "MapSizeMultiList",
-                            "DensityMultiList",
-                            "RiversMultiList",
-                            "CombatRuleMultiList",
-                        ]
+                        ColumnNames = []
 
                         SortableColumnNames =
                         [
@@ -767,6 +758,12 @@ private MultiScenarioListContainer is BUCKContainerDescriptor
                             "DensityMultiList",
                             "RiversMultiList",
                             "CombatRuleMultiList",
+                        ]
+
+                        SortingCriteriaListByPriority =
+                        [
+                            "NumberPlayersMultiList",
+                            "ScenarioNameMultiList",
                         ]
 
                         RackName = "ScenarioBriefsRack"

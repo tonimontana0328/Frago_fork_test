@@ -347,9 +347,11 @@ private template SoloLaunchButton
 private template SoloQuitButton
 [
     TextToken : string = "BTN_CLOSE",
+    ElementName : string = "BackButton",
+
 ] is ConfirmButton
 (
-    ElementName = "BackButton"
+    ElementName = <ElementName>
     TextToken = <TextToken>
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
     ButtonMagnifiableWidthHeight = [175.0, 35.0]

@@ -36,7 +36,7 @@ FeedbackLineOfSightDescriptor is TFeedbackLineOfSightDescriptor
     FillRadiusEndFade = 13000 * Metre //5500
 
     CircleDotDescriptor = TFeedbackLineOfSightCircleDescriptor(
-                                Radius = 250
+                                Radius = 400
                                 Color = [216, 201, 181, 127]
                                 Thickness = 650
                                 ShowText = false

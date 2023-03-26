@@ -12,7 +12,6 @@ export ModernWarfareModularUnitFireDescriptorForTestIA is TEntityDescriptor
         TPositionModuleDescriptor
         (
             InGeoDb              = false
-            Radius               = ((100) * Metre)
             PorteurMustBeVisible = False
         ),
         TApparenceModelModuleDescriptor
@@ -123,7 +122,6 @@ export Descriptor_FireWithHighSpreadProba is TEntityDescriptor
         TPositionModuleDescriptor
         (
             InGeoDb              = False
-            Radius               = ((50) * Metre)
             PorteurMustBeVisible = True
         ),
         TFireModuleDescriptor
@@ -133,7 +131,7 @@ export Descriptor_FireWithHighSpreadProba is TEntityDescriptor
             TimeBeforeSpreadAttempt        = ((0.5) * Seconde)
             SpreadProbability              = 1
             IsNewFireProbability           = 1
-            Radius                         = ((100) * Metre)
+            Radius                         = ((50) * Metre)
             AmmunitionForBurn              = ~/Ammo_Degats_incendie
             TimeBetweenBurns               = ((1) * Seconde)
             OverridenSpreadDescriptor      = nil

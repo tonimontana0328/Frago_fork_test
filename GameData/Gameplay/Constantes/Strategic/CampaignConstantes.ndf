@@ -19,7 +19,7 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
     CompanyDissolutionFactor = 0.4 //Une compagnie est dissoute après le combat si elle est en dessous de X% de son effectif initial
     FreeDefenseRadius = 0 * ~/ActionPointConsumptionRefs/CaseSize // Le rayon autour de l'unité attaquée dans lequel les unités alliés peuvent attaquer sans reset leur défense et sans bouger
     NbActionPointsNeededToFight = 4 //Nombre de PA nécessaire pour participer à une bataille une fois sur place
-    NbActionPointsNeededToFightForAirplane = 1 //Nombre de PA nécessaire pour participer à une bataille une fois sur place
+    NbActionPointsNeededToFightForAirplane = 4 //Nombre de PA nécessaire pour participer à une bataille une fois sur place
 
     // Zocs et fuite
     ConflictingUnitRadius = ZocRadius   //Taille de la ZOC des unités.
@@ -29,6 +29,9 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
     DisableMoveOrderOnDisabledZocs = false
     FleeToAlliesIfPossible = true
     FleeMinimumCaseNumber = 2
+
+    AirDenyUnitTags = [ 'Canon_AA', 'Avion_Chasseur', 'Canon_AA_Standard' ]
+    IsFortifiedAntiAirTag = 'IsFortifiedAntiAir'
 
     //----------
     // Airports
@@ -172,9 +175,6 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
         ("Fortify",                 3.0), // Fortify - action de défense
         ("FortifyAntiAir",          6.0), // FortifyAntiAir - action de defense Anti aerienne des unites au sol
         ("Move",                    0.0), // Le cout du move est calculé en fonction de la distance parcourue
-    ]
-    SetupDurationPerOrder = MAP [
-        ("FortifyAntiAir",          0), // FortifyAntiAir - action de defense Anti aerienne des unites au sol
     ]
 
     //IA steelman

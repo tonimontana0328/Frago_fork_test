@@ -1,4 +1,4 @@
-export ModelFile_MiG_27M_sead_SOV is 'GameData:/Assets/3D/Units/URSS/Avion/MiG_27M/MiG_27M.Ase2NdfBin'
+export ModelFile_MiG_27M_sead_SOV is 'GameData:/Assets/3D/Units/URSS/Avion/MIG_27K_SEAD/MIG_27K_SEAD.fbx'
 
 Modele_MiG_27M_sead_SOV is TResourceMultiMaterialMeshWithLod
 (
@@ -8,18 +8,18 @@ Modele_MiG_27M_sead_SOV is TResourceMultiMaterialMeshWithLod
 
 Modele_MiG_27M_sead_SOV_MID is TResourceMultiMaterialMeshWithLod
 (
-    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/MiG_27M_MID/MiG_27M_MID.Ase2NdfBin'
+    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/MIG_27K_SEAD/MIG_27K_SEAD.fbx'
     CivMask =  CivMask/Common
 )
 
 Modele_MiG_27M_sead_SOV_LOW is TResourceMultiMaterialMeshWithLod
 (
-    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/LODS/MiG_27M_LOW.Ase2NdfBin'
+    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/MIG_27K_SEAD/MIG_27K_SEAD.fbx'
     CivMask =  CivMask/Common
 )
 
 Modele_MiG_27M_sead_SOV_train is TResourceMultiMaterialMeshWithLod
 (
-    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/MiG_27M/MiG_27M_Train.Ase2NdfBin'
+    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/MIG_27K_SEAD/MIG_27K_SEAD_train.fbx'
     CivMask =  CivMask/Common
 )

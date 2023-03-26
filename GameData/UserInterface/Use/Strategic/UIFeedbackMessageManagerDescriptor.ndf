@@ -5,7 +5,6 @@
 // (
 //     HudSound            = ~/HudSoundUnitContact
 //     UnitAcknow          = TAcknowUnitAction_ConstructionFinished
-//     GlobalAcknow        = TAcknowGlobalAction_ElectricityShortage
 //     MinimapPingType     = $/UI/Components/MinimapPing_Cross
 //     MinimapPingAnimType = $/UI/Components/MinimapPingAnim_Fade
 //     MinimapPingDuration = 4

@@ -749,7 +749,7 @@ export ExperienceLevelsPackDescriptor_XP_pack_simple_v2 is TExperienceLevelsPack
             DescriptorId = GUID:{7e62122a-e739-4ea1-b07c-d1789223b083}
             LocalizationToken = "EXPLEVEL1"
             ThresholdAdditionalValue = 0.0
-            ThresholdPriceMultiplier = 2.0
+            ThresholdPriceMultiplier = 6.0
             IconsByNationality = [
             ]
             LevelEffectsPacks = [
@@ -763,7 +763,7 @@ export ExperienceLevelsPackDescriptor_XP_pack_simple_v2 is TExperienceLevelsPack
             DescriptorId = GUID:{787d7798-a78e-4a27-80c1-4a0597833e5a}
             LocalizationToken = "EXPLEVEL2"
             ThresholdAdditionalValue = 0.0
-            ThresholdPriceMultiplier = 4.0
+            ThresholdPriceMultiplier = 8.0
             IconsByNationality = [
             ]
             LevelEffectsPacks = [
@@ -780,7 +780,7 @@ export ExperienceLevelsPackDescriptor_XP_pack_simple_v2 is TExperienceLevelsPack
             DescriptorId = GUID:{71588519-2701-4a5f-94ef-0172f8437fab}
             LocalizationToken = "EXPLEVEL3"
             ThresholdAdditionalValue = 0.0
-            ThresholdPriceMultiplier = 6.0
+            ThresholdPriceMultiplier = 12.0
             IconsByNationality = [
             ]
             LevelEffectsPacks = [

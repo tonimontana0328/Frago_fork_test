@@ -799,7 +799,7 @@ is BUCKContainerDescriptor
                         (
                             ComponentFrame = TUIFramePropertyRTTI
                             (
-                                 MagnifiableWidthHeight = [1280.0, 704.0]
+                                 MagnifiableWidthHeight = [660.0, 409.0]
                                  MagnifiableOffset = (<IsBriefing> ? [0.0, -80.0] : [0.0, 0.0])
                                  AlignementToAnchor = [0.5, 1.0]
                                  AlignementToFather = [0.5, 1.0]
@@ -837,10 +837,10 @@ is BUCKContainerDescriptor
                 (
                     ComponentFrame = TUIFramePropertyRTTI
                     (
-                        MagnifiableWidthHeight = (<TextureSteelman> != "" ? [1280.0, 0.0] : [900.0, 0.0])
+                        MagnifiableWidthHeight = (<TextureSteelman_FullScreen> != "" ? [1344.0, 0.0] : [900.0, 0.0])
                         AlignementToFather = (<TextureSteelman> != "" ? [0.5,0] : (<TexturePortrait> != "" ? [0.5,0] :  [0.5, 1]))
                         AlignementToAnchor = (<TextureSteelman> != "" ? [0.5,0] : (<TexturePortrait> != "" ? [0.5,0] :  [0.5, 1]))
-                        MagnifiableOffset = (<IsBriefing> ? [0,-80] : (<TextureSteelman_FullScreen> != "" ? [0,-20] : [0,0]))
+                        MagnifiableOffset = (<IsBriefing> ? [0,-80] : (<TextureSteelman_FullScreen> != "" ? [0,-108] : [0,0]))
                     )
 
                     Axis = ~/ListAxis/Vertical
@@ -861,7 +861,7 @@ is BUCKContainerDescriptor
                                 ElementName = 'LDHintText'
                                 ComponentFrame = TUIFramePropertyRTTI
                                 (
-                                    MagnifiableWidthHeight = (<TextureSteelman> != "" ? [1280.0, 0.0] : [900.0, 0.0])
+                                    MagnifiableWidthHeight = (<TextureSteelman_FullScreen> != "" ? [1344.0, 130.0] : [900.0, 0.0])
                                 )
 
                                 ParagraphStyle = TParagraphStyleRTTI
@@ -874,7 +874,7 @@ is BUCKContainerDescriptor
                                 TextStyle = "Default"
 
                                 HorizontalFitStyle = ~/FitStyle/UserDefined
-                                VerticalFitStyle = ~/FitStyle/FitToContent
+                                VerticalFitStyle = ~/FitStyle/UserDefined
 
                                 TextPadding = TRTTILength4 (Magnifiable = [10,0,10,0])
 
@@ -882,7 +882,7 @@ is BUCKContainerDescriptor
                                 BigLineAction = ~/BigLineAction/MultiLine
 
                                 TextColor = (<TexturePortrait> != "" ? "LDHintSolo_texte_or" : (<NoImage> == true ? "LDHintSolo_texte_or" : "LDHintSolo_texte"))
-                                TextSize = "22"
+                                TextSize = "28"
 
                                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
                             )

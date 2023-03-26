@@ -359,10 +359,6 @@
         Action3 = $/GFX/GameFx/fx_impact_batiment_Cal50_solo_3
         Action4 = $/GFX/GameFx/fx_impact_batiment_Cal50_solo_4
     )
-    FxImpactBatimentBombMoyen_Connector                       is ImpactConnector
-    (
-        Action1 = $/GFX/GameFx/fx_impact_batiment_bomb_moyen
-    )
     FxImpactDestructionUniteRavitaillement_Connector          is ImpactConnector
     (
         Action1 = $/GFX/GameFx/fx_impact_destruction_unite__ravitaillement
@@ -2198,7 +2194,7 @@ AllImpactHappenings is TImpactHappening
                 ( EImpactSurface/Ground        , FxImpactSolM261Hydras__Connector ),
                 ( EImpactSurface/Water         , FxImpactEauHEGros_Connector ),
                 ( EImpactSurface/Air           , FxImpactEauHeTresgros2_Connector ),
-                ( EImpactSurface/Wall          , FxImpactBatimentBombMoyen_Connector ),
+                ( EImpactSurface/Wall          , FxImpactBatHeMoyen__Connector ),
                 ( EImpactSurface/Vehicle       , FxImpactVehiculeM261Hydras_Connector ),
                 ( EImpactSurface/FlyingVehicle , FxImpactVehiculeHeTresgros2_Connector ),
                 ( EImpactSurface/Missile       , nil ),
@@ -2210,7 +2206,7 @@ AllImpactHappenings is TImpactHappening
                 ( EImpactSurface/Ground        , FxImpactSolM261LightHydras__Connector ),
                 ( EImpactSurface/Water         , FxImpactEauHEGros_Connector ),
                 ( EImpactSurface/Air           , FxImpactEauHeTresgros2_Connector ),
-                ( EImpactSurface/Wall          , FxImpactBatimentBombMoyen_Connector ),
+                ( EImpactSurface/Wall          , FxImpactBatHeMoyen__Connector ),
                 ( EImpactSurface/Vehicle       , FxImpactVehiculeM261Hydras_Connector ),
                 ( EImpactSurface/FlyingVehicle , FxImpactVehiculeHeTresgros2_Connector ),
                 ( EImpactSurface/Missile       , nil ),
@@ -2258,7 +2254,7 @@ AllImpactHappenings is TImpactHappening
                 ( EImpactSurface/Ground        , FxImpactSolS13__Connector ),
                 ( EImpactSurface/Water         , FxImpactEauHEGros_Connector ),
                 ( EImpactSurface/Air           , FxImpactEauHeTresgros2_Connector ),
-                ( EImpactSurface/Wall          , FxImpactBatimentBombMoyen_Connector ),
+                ( EImpactSurface/Wall          , FxImpactBatHeGros__Connector ),
                 ( EImpactSurface/Vehicle       , FxImpactVehiculeM261Hydras_Connector ),
                 ( EImpactSurface/FlyingVehicle , FxImpactVehiculeHeTresgros2_Connector ),
                 ( EImpactSurface/Missile       , nil ),
@@ -2270,7 +2266,7 @@ AllImpactHappenings is TImpactHappening
                 ( EImpactSurface/Ground        , FxImpactSolS13__Connector ),
                 ( EImpactSurface/Water         , FxImpactEauHEGros_Connector ),
                 ( EImpactSurface/Air           , FxImpactEauHeTresgros2_Connector ),
-                ( EImpactSurface/Wall          , FxImpactBatimentBombMoyen_Connector ),
+                ( EImpactSurface/Wall          , FxImpactBatHeGros__Connector ),
                 ( EImpactSurface/Vehicle       , FxImpactVehiculeM261Hydras_Connector ),
                 ( EImpactSurface/FlyingVehicle , FxImpactVehiculeHeTresgros2_Connector ),
                 ( EImpactSurface/Missile       , nil ),
@@ -2282,7 +2278,7 @@ AllImpactHappenings is TImpactHappening
                 ( EImpactSurface/Ground        , FxImpactSolS5__Connector ),
                 ( EImpactSurface/Water         , FxImpactEauHEGros_Connector ),
                 ( EImpactSurface/Air           , FxImpactEauHeTresgros2_Connector ),
-                ( EImpactSurface/Wall          , FxImpactBatimentBombMoyen_Connector ),
+                ( EImpactSurface/Wall          , FxImpactBatHePetit__Connector ),
                 ( EImpactSurface/Vehicle       , FxImpactVehiculeM261Hydras_Connector ),
                 ( EImpactSurface/FlyingVehicle , FxImpactVehiculeHeTresgros2_Connector ),
                 ( EImpactSurface/Missile       , nil ),
@@ -2294,7 +2290,7 @@ AllImpactHappenings is TImpactHappening
                 ( EImpactSurface/Ground        , FxImpactSolLightS5__Connector ),
                 ( EImpactSurface/Water         , FxImpactEauHEGros_Connector ),
                 ( EImpactSurface/Air           , FxImpactEauHeTresgros2_Connector ),
-                ( EImpactSurface/Wall          , FxImpactBatimentBombMoyen_Connector ),
+                ( EImpactSurface/Wall          , FxImpactBatHePetit__Connector ),
                 ( EImpactSurface/Vehicle       , FxImpactVehiculeM261Hydras_Connector ),
                 ( EImpactSurface/FlyingVehicle , FxImpactVehiculeHeTresgros2_Connector ),
                 ( EImpactSurface/Missile       , nil ),
@@ -2306,7 +2302,7 @@ AllImpactHappenings is TImpactHappening
                 ( EImpactSurface/Ground        , FxImpactSolM261Hydras__Connector ),
                 ( EImpactSurface/Water         , FxImpactEauHEGros_Connector ),
                 ( EImpactSurface/Air           , FxImpactEauHeTresgros2_Connector ),
-                ( EImpactSurface/Wall          , FxImpactBatimentBombMoyen_Connector ),
+                ( EImpactSurface/Wall          , FxImpactBatHeMoyen__Connector ),
                 ( EImpactSurface/Vehicle       , FxImpactVehiculeM261Hydras_Connector ),
                 ( EImpactSurface/FlyingVehicle , FxImpactVehiculeHeTresgros2_Connector ),
                 ( EImpactSurface/Missile       , nil ),
@@ -2318,7 +2314,7 @@ AllImpactHappenings is TImpactHappening
                 ( EImpactSurface/Ground        , FxImpactSolM261LightHydras__Connector ),
                 ( EImpactSurface/Water         , FxImpactEauHEGros_Connector ),
                 ( EImpactSurface/Air           , FxImpactEauHeTresgros2_Connector ),
-                ( EImpactSurface/Wall          , FxImpactBatimentBombMoyen_Connector ),
+                ( EImpactSurface/Wall          , FxImpactBatHeMoyen__Connector ),
                 ( EImpactSurface/Vehicle       , FxImpactVehiculeM261Hydras_Connector ),
                 ( EImpactSurface/FlyingVehicle , FxImpactVehiculeHeTresgros2_Connector ),
                 ( EImpactSurface/Missile       , nil ),

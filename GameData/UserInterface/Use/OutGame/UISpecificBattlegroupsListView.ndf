@@ -1976,11 +1976,6 @@ BattlegroupFilterList is
     ),
 ]
 
-BattlegroupHiddenTags is
-[
-    "DEFAULT",
-]
-
 BattlegroupTagsVector is
 [
     "", // Custom Deck - ne fait rien
@@ -2012,7 +2007,6 @@ is TUISpecificBattlegroupsListViewDescriptor
     )
     MainComponentContainerUniqueName = <ContainerUniqueName> // Permet d'indiquer l'endroit ou le composant doit s'insérer
 
-    HiddenTags = ~/BattlegroupHiddenTags
     TagsVector = ~/BattlegroupTagsVector
     CustomPremadeDeckCategoryIndex = 0
     CustomDeckFilterIndex = 0

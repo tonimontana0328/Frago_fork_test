@@ -150,6 +150,8 @@ SOV_VDV_Officer is 'GameData:/Assets/3D/Units/URSS/Infanterie/VDV/VDV_Officer.As
 SOV_VDV_Sniper is 'GameData:/Assets/3D/Units/URSS/Infanterie/VDV/VDV_Sniper.Ase2NdfBin'
 SOV_VDV_spe is 'GameData:/Assets/3D/Units/URSS/Infanterie/VDV/VDV_spe.Ase2NdfBin'
 SOV_VDV_1_LOW is 'GameData:/Assets/3D/Units/URSS/Infanterie/VDV/VDV_1.Ase2NdfBin'
+
+Komendatura is 'GameData:/Assets/3D/Units/URSS/Infanterie/Komendatura/Komendatura.Ase2NdfBin'
 //------------------------------------------------------------------------------
 //Motostrelki_sov
 // export ModelFile_Motostrelki_sov is 'GameData:/Assets/3D/Units/URSS/Infanterie/MotoStrelki/MotoStrelki_1.Ase2NdfBin'
@@ -157,8 +159,8 @@ SOV_VDV_1_LOW is 'GameData:/Assets/3D/Units/URSS/Infanterie/VDV/VDV_1.Ase2NdfBin
 //------------------------------------------------------------------------------
 
 //MP_SOV
-export ModelFile_MP_SOV is US_GI_1
-export ModelFile_MP_SOV_LOW is US_GI_1
+export ModelFile_MP_SOV is Komendatura
+export ModelFile_MP_SOV_LOW is Komendatura
 
 //ATGM_Fagot_SOV
 export ModelFile_ATGM_Fagot_SOV is SOV_MotoStrelki_1
@@ -851,18 +853,23 @@ export ModelFile_GreenBerets_US_LOW is US_GB_1
 
 //LRRP_US
 export ModelFile_LRRP_US is US_Rangers_1
+export ModelFile_LRRP_US_02 is US_GI_NCO
+export ModelFile_LRRP_US_03 is US_GI_2
+export ModelFile_LRRP_US_04 is US_GI_Sniper
+export ModelFile_LRRP_US_05 is US_Rangers_NCO
+export ModelFile_LRRP_US_06 is US_GI_Officer
 export ModelFile_LRRP_US_LOW is US_Rangers_1
 
 //Ranger_US
 export ModelFile_Ranger_US is US_Rangers_1
 export ModelFile_Ranger_US_02 is US_Rangers_1
 export ModelFile_Ranger_US_03 is US_Rangers_1
-export ModelFile_Ranger_US_04 is US_Rangers_1
+export ModelFile_Ranger_US_04 is US_GI_NCO
 export ModelFile_Ranger_US_05 is US_Rangers_1
-export ModelFile_Ranger_US_06 is US_Rangers_NCO
-export ModelFile_Ranger_US_07 is US_Rangers_NCO
+export ModelFile_Ranger_US_06 is US_GI_Sniper
+export ModelFile_Ranger_US_07 is US_GI_2
 export ModelFile_Ranger_US_08 is US_Rangers_NCO
-export ModelFile_Ranger_US_09 is US_Rangers_NCO
+export ModelFile_Ranger_US_09 is US_GI_Officer
 export ModelFile_Ranger_US_10 is US_Rangers_NCO
 export ModelFile_Ranger_US_LOW is US_Rangers_1
 
@@ -1325,6 +1332,9 @@ Wach_1 is 'GameData:/Assets/3D/Units/DDR/Infanterie/Wach/Wach_1.Ase2NdfBin'
 Wach_2 is 'GameData:/Assets/3D/Units/DDR/Infanterie/Wach/Wach_2.Ase2NdfBin'
 Wach_NCO is 'GameData:/Assets/3D/Units/DDR/Infanterie/Wach/Wach_NCO.Ase2NdfBin'
 
+Militarstreifen_1 is 'GameData:/Assets/3D/Units/DDR/Infanterie/Militarstreifen/Militarstreifen_1.Ase2NdfBin'
+Militarstreifen_2 is 'GameData:/Assets/3D/Units/DDR/Infanterie/Militarstreifen/Militarstreifen_2.Ase2NdfBin'
+
 //------------------------------------------------------------------------------
 //MotSchutzen_DDR
 export ModelFile_MotSchutzen_DDR is DDR_MotSchutzen_1
@@ -1337,8 +1347,8 @@ export ModelFile_MotSchutzen_DDR_LOW is DDR_MotSchutzen_LOW
 //------------------------------------------------------------------------------
 
 //MP_DDR
-export ModelFile_MP_DDR is US_GI_1
-export ModelFile_MP_DDR_LOW is US_GI_1
+export ModelFile_MP_DDR is Militarstreifen_1
+export ModelFile_MP_DDR_LOW is Militarstreifen_2
 
 //Grenzer_CMD_DDR
 export ModelFile_Grenzer_CMD_DDR is 'GameData:/Assets/3D/Units/DDR/Infanterie/Grenzer/Grenzer_1.Ase2NdfBin'
@@ -2036,6 +2046,11 @@ FR_Para_NCO is 'GameData:/Assets/3D/Units/FR/Infanterie/Paras/Para_NCO.Ase2NdfBi
 FR_Para_spe is 'GameData:/Assets/3D/Units/FR/Infanterie/Paras/Para_spe.Ase2NdfBin'
 FR_Para_LOW is 'GameData:/Assets/3D/Units/FR/Infanterie/Paras/Para_NCO.Ase2NdfBin'
 
+CRAP_1 is 'GameData:/Assets/3D/Units/FR/Infanterie/CRAP/CRAP_1.Ase2NdfBin'
+CRAP_2 is 'GameData:/Assets/3D/Units/FR/Infanterie/CRAP/CRAP_2.Ase2NdfBin'
+CRAP_3 is 'GameData:/Assets/3D/Units/FR/Infanterie/CRAP/CRAP_3.Ase2NdfBin'
+CRAP_NCO is 'GameData:/Assets/3D/Units/FR/Infanterie/CRAP/CRAP_NCO.Ase2NdfBin'
+
 
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Alpins/Alpin_NCO.Ase2NdfBin'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Chasseurs/Chasseur_1.Ase2NdfBin'
@@ -2054,6 +2069,18 @@ FR_Para_LOW is 'GameData:/Assets/3D/Units/FR/Infanterie/Paras/Para_NCO.Ase2NdfBi
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Alpins/Alpin_NCO.Ase2NdfBin'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/RCAM/RCAM.Ase2NdfBin'
 //------------------------------------------------------------------------------
+//SAS_Sniper_FR
+export ModelFile_SAS_Sniper_FR is CRAP_2
+export ModelFile_SAS_Sniper_FR_02 is CRAP_3
+export ModelFile_SAS_Sniper_FR_LOW is CRAP_3
+
+//LRRP_FR
+export ModelFile_LRRP_FR is CRAP_1
+export ModelFile_LRRP_FR_02 is CRAP_2
+export ModelFile_LRRP_FR_03 is CRAP_3
+export ModelFile_LRRP_FR_04 is CRAP_NCO
+export ModelFile_LRRP_FR_LOW is BEL_ESR_1
+
 //Chasseurs_CMD_FR
 export ModelFile_Chasseurs_CMD_FR is FR_Chasseur_1
 export ModelFile_Chasseurs_CMD_FR_02 is FR_Chasseur_Officer
@@ -2228,29 +2255,23 @@ export ModelFile_SAS_FR_06 is FR_Chasseur_2
 export ModelFile_SAS_FR_LOW is FR_Para_LOW
 
 //Sniper_FJ_DDR
-export ModelFile_Sniper_FJ_DDR is FR_Para_NCO
+export ModelFile_Sniper_FJ_DDR is DDR_FJB_2
+export ModelFile_Sniper_FJ_DDR_02 is DDR_FJB_NCO
 export ModelFile_Sniper_FJ_DDR_LOW is FR_Para_LOW
 
 //Sniper_Fern_RFA
-export ModelFile_Sniper_Fern_RFA is FR_Para_NCO
+export ModelFile_Sniper_Fern_RFA is RFA_Fernspaher_1
+export ModelFile_Sniper_Fern_RFA_02 is RFA_Fernspaher_2
 export ModelFile_Sniper_Fern_RFA_LOW is FR_Para_LOW
 
 //Sniper_Spetsnaz_SOV
-export ModelFile_Sniper_Spetsnaz_SOV is FR_Para_NCO
+export ModelFile_Sniper_Spetsnaz_SOV is SOV_VDV_NCO
+export ModelFile_Sniper_Spetsnaz_SOV_02 is SOV_VDV_Sniper
 export ModelFile_Sniper_Spetsnaz_SOV_LOW is FR_Para_LOW
 
-//Sniper_UK
-export ModelFile_Sniper_UK is FR_Para_NCO
-export ModelFile_Sniper_UK_LOW is FR_Para_LOW
-
 //Sniper_US
-export ModelFile_Sniper_US is FR_Para_NCO
-export ModelFile_Sniper_US_LOW is FR_Para_LOW
-
-//SAS_Sniper_FR
-export ModelFile_SAS_Sniper_FR is FR_Para_NCO
-export ModelFile_SAS_Sniper_FR_02 is FR_Para_spe
-export ModelFile_SAS_Sniper_FR_LOW is FR_Para_LOW
+export ModelFile_Sniper_US is UK_Ghillie
+export ModelFile_Sniper_US_LOW is UK_Ghillie
 
 //Scout_para_FR
 export ModelFile_Scout_para_FR is FR_Para_NCO
@@ -2389,7 +2410,13 @@ UK_SAS_NCO is 'GameData:/Assets/3D/Units/UK/Infanterie/SAS/SAS_NCO.Ase2NdfBin'
 
 UK_Territorial_1 is 'GameData:/Assets/3D/Units/UK/Infanterie/Territorial/Territorial_1.Ase2NdfBin'
 UK_Territorial_2 is 'GameData:/Assets/3D/Units/UK/Infanterie/Territorial/Territorial_2.Ase2NdfBin'
+
+UK_Ghillie is 'GameData:/Assets/3D/Units/UK/Infanterie/Ghillie/Ghillie.Ase2NdfBin'
 //------------------------------------------------------------------------------
+//Sniper_UK
+export ModelFile_Sniper_UK is UK_Ghillie
+export ModelFile_Sniper_UK_LOW is UK_Ghillie
+
 //Engineers_AT_UK
 export ModelFile_Engineers_AT_UK is UK_Rifleman_1
 export ModelFile_Engineers_AT_UK_02 is UK_Rifleman_2
@@ -2779,10 +2806,6 @@ export ModelFile_Scout_ParaCmdo_Mech_BEL_02 is BEL_ParaCmdo_2
 export ModelFile_Scout_ParaCmdo_Mech_BEL_03 is BEL_ParaCmdo_NCO
 export ModelFile_Scout_ParaCmdo_Mech_BEL_LOW is BEL_ParaCmdo_1
 
-//LRRP_FR
-export ModelFile_LRRP_FR is BEL_ESR_1
-export ModelFile_LRRP_FR_LOW is BEL_ESR_1
-
 //LRRP_BEL
 export ModelFile_LRRP_BEL is BEL_ESR_1
 export ModelFile_LRRP_BEL_02 is BEL_ESR_2
@@ -2878,7 +2901,8 @@ export ModelFile_Scout_AT_BEL is UK_Rifleman_1
 export ModelFile_Scout_AT_BEL_LOW is UK_Rifleman_1
 
 //Sniper_ESR_BEL
-export ModelFile_Sniper_ESR_BEL is FR_Para_NCO
+export ModelFile_Sniper_ESR_BEL is BEL_ESR_1
+export ModelFile_Sniper_ESR_BEL_02 is BEL_ESR_2
 export ModelFile_Sniper_ESR_BEL_LOW is FR_Para_LOW
 
 //MP_BEL
@@ -3099,7 +3123,6 @@ export ModelFile_MANPAD_Strela_2M_POL_LOW is DDR_MotSchutzen_LOW
 export ModelFile_MANPAD_Strela_2M_Para_POL is DDR_MotSchutzen_1
 export ModelFile_MANPAD_Strela_2M_Para_POL_LOW is DDR_MotSchutzen_LOW
 
-
 //Commandos_Marine_POL
 export ModelFile_Commandos_Marine_POL is FR_Chasseur_1
 export ModelFile_Commandos_Marine_POL_LOW is FR_Chasseur_LOW
@@ -3113,11 +3136,13 @@ export ModelFile_Groupe_AT_POL is FR_Para_NCO
 export ModelFile_Groupe_AT_POL_LOW is FR_Para_LOW
 
 //Sniper_POL
-export ModelFile_Sniper_POL is FR_Para_NCO
+export ModelFile_Sniper_POL is POL_Komandosi_2
+export ModelFile_Sniper_POL_02 is POL_Komandosi_spe
 export ModelFile_Sniper_POL_LOW is FR_Para_LOW
 
 //Sniper_paras_POL
-export ModelFile_Sniper_paras_POL is FR_Para_NCO
+export ModelFile_Sniper_paras_POL is POL_Spado_spe
+export ModelFile_Sniper_paras_POL_02 is POL_Spado_2
 export ModelFile_Sniper_paras_POL_LOW is FR_Para_LOW
 
 //Scout_LRRP_POL

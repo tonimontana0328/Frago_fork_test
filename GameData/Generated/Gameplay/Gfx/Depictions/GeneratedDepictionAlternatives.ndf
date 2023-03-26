@@ -31,11 +31,6 @@ Alternatives_2S3_DDR is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_2S3_DDR_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_2S3_DDR_LOW ),
 ]
-Alternatives_2S5_GiatsintS_SOV is [
-    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_2S5_GiatsintS_SOV ),
-    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_2S5_GiatsintS_SOV_MID ),
-    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_2S5_GiatsintS_SOV_LOW ),
-]
 Alternatives_2S7M_Malka_SOV is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_2S7M_Malka_SOV ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_2S7M_Malka_SOV_MID ),
@@ -776,10 +771,10 @@ Alternatives_Gepard_1A2_RFA is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Gepard_1A2_RFA_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_Gepard_1A2_RFA_LOW ),
 ]
-Alternatives_HEMTT is [
-    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_HEMTT ),
-    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_HEMTT_MID ),
-    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_HEMTT_LOW ),
+Alternatives_HEMTT_US is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_HEMTT_US ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_HEMTT_US_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_HEMTT_US_LOW ),
 ]
 Alternatives_HMGteam_AANF1_FR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_HMGteam_AANF1_FR ),
@@ -1840,6 +1835,11 @@ Alternatives_UAZ_469_Konkurs_VDV_SOV is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_UAZ_469_Konkurs_VDV_SOV ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_UAZ_469_Konkurs_VDV_SOV_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_UAZ_469_Konkurs_VDV_SOV_LOW ),
+]
+Alternatives_UAZ_469_MP_SOV is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_UAZ_469_MP_SOV ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_UAZ_469_MP_SOV_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_UAZ_469_MP_SOV_LOW ),
 ]
 Alternatives_UAZ_469_Reco_DDR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_UAZ_469_Reco_DDR ),

@@ -2565,6 +2565,33 @@ export UnitEffect_RoF_plus_75pourcent is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_Steelman_supprimer_PA is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{f345ea94-ced6-4961-a8ac-d90597b4fddb}
+    NameForDebug       = 'Steelman_supprimer_PA'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseStealthBonusDescriptor
+        (
+            ModifierType       = ~/ModifierType_Additionnel
+            BonusStealthBonus  = 0.5
+        ),
+        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Pourcentage
+            BonusWeaponPrecisionArret = 20
+        ),
+        TUnitEffectShowLabelIconDescriptor
+        (
+            TextureToken         = "icone_sniper"
+            CanBeSeenByEnemy         = false
+        ),
+        TStrategicSupplyMalusEffectDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            SupplyMalus        = 0
+        ),
+    ]
+)
 export UnitEffect_Supprime_Zone_Dinfluence is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{e79a1715-5f11-4eed-af1a-a40eec133f27}
@@ -2687,6 +2714,11 @@ export UnitEffect_Tutorial_MG42_RangeModification is TEffectsPackDescriptor
         (
             ModifierType         = ~/ModifierType_Pourcentage
             BonusWeaponPorteeMax = -25
+        ),
+        TStrategicSupplyMalusEffectDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            SupplyMalus        = 0
         ),
     ]
 )

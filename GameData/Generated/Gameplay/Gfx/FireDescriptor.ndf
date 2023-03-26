@@ -17,8 +17,6 @@ export Descriptor_Fire_Incendie is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((75) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -65,8 +63,6 @@ export Descriptor_Fire_Napalm is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((500) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -113,8 +109,6 @@ export Descriptor_Fire_NapalmCluster is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((75) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -161,8 +155,6 @@ export Descriptor_Fire_NapalmCluster_petit is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((50) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -209,8 +201,6 @@ export Descriptor_Fire_NapalmLeger is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((150) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -257,8 +247,6 @@ export Descriptor_Fire_NapalmLourd is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((500) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
@@ -305,8 +293,6 @@ export Descriptor_Fire_NapalmMoyen is TEntityDescriptor
             PorteurMustBeVisible       = True
             ClampInWorld               = True
             ClampOutMap                = False
-            HasNearlyNullBBox          = False
-            Radius                     = ((300) * Metre)
             RelativeScanningPosition   = [0,0,0]
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)

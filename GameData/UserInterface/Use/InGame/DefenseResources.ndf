@@ -1,14 +1,3 @@
-template TPictographStyleDescriptorForBunker
-[
-    Color : color,
-]
-is TPictographStyleDescriptor
-(
-    Thickness = 100.0
-    Color = <Color>
-    Effect = ~/FeedbackEffectMode/Solid
-)
-
 DefenseResources is TDefenseResources
 (
     ValidPoseColor = [9, 219, 30, 128]
@@ -19,20 +8,6 @@ DefenseResources is TDefenseResources
 
     BlockedTerrainColor = [219, 9, 41, 128]
     BlockedTerrainThickness = 1.0
-
-    BunkerProductionWeaponFillInnerColor = [50, 180, 50, 60]
-    BunkerProductionWeaponFillOuterColor = [0, 255, 0, 0]
-    BunkerProductionWeaponBorderStyleDescriptor = TPictographStyleDescriptorForBunker
-    (
-        Color = [80, 200, 70, 200]
-    )
-
-    BunkerSelectionWeaponFillInnerColor = [50, 180, 50, 30]
-    BunkerSelectionWeaponFillOuterColor = [0, 255, 0, 0]
-    BunkerSelectionWeaponBorderStyleDescriptor = TPictographStyleDescriptorForBunker
-    (
-        Color = [80, 200, 70, 200]
-    )
 
     ValidGhostColors = TGhostColors(
         GhostColor = [9, 219, 30, 200]

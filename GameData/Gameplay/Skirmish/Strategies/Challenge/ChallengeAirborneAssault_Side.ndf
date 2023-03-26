@@ -1,21 +1,22 @@
 //-------------------------------------------------------------------------
 //----------------------------- STRATEGY ----------------------------------
 //-------------------------------------------------------------------------
+
+// Cette strategie est là uniquement pour spécifier les couloirs sur ce challenge
+
 export ChallengeAirborneAssault_Side is TIAGeneralStrategy
 (
     StrategyName = "AirSideAI"
-    FirstGenerator = Gen_Choose_Strategy
+    FirstGenerator = ChalAttackGeneric_Choose_Strategy
     ConstantesMap = MAP[
         ("ForceTacticalMoveAndAttack", TEugBBoolean(Value = true)),
     ]
     AuthorizedCorridorList = [0,1]
-    ShouldUseTaggedCorridorsForTouchDown = true
     AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
     TransitionList =
     [
-        Gen_Transition_StartToPhaseCommand,
-        Gen_Transition_StartToGeneric,
-        Gen_Transition_DeployToCommandPhase,
-        Gen_Transition_CommandPhaseToLastHope,
+        ChalAttackGeneric_Transition_StartToPhaseCommand,
+        ChalAttackGeneric_Transition_StartToGeneric,
+        ChalAttackGeneric_Transition_DeployToCommandPhase,
     ]
 )

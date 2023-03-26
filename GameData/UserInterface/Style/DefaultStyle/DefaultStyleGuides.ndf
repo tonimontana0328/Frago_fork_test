@@ -2421,6 +2421,7 @@ DefaultStyleGuide is TUIStyleGuide
         ("division_RFA_3",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [87,100,102,255] ) ),]),
         ("division_RFA_4",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [45,58,60,255] ) ),]),
         ("division_RFA_5",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [2,16,19,255] ) ),]),
+        ("division_RFA_violet_sombre",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [50,25,66,255] ) ),]),
 
         ("division_SOV_1",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [134,37,4,180] ) ), ]),
         ("division_SOV_2",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [116,90,35,180] ) ), ]),
@@ -3207,6 +3208,10 @@ DefaultStyleGuide is TUIStyleGuide
         ("AlertPanel/Line/Rens_OnAirplaneOutOfFuel",    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = BlancPur ) ), ]),
         ("AlertPanel/Line/Rens_OnAirplaneOutOfAmmo",    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = BlancPur ) ), ]),
         ("AlertPanel/Line/Per_UniteDetruite",           MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = RougePur ) ), ]),
+        ("AlertPanel/Line/Per_UniteDetruiteREDReplay",  MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = RougePur ) ), ]),
+        ("AlertPanel/Line/Per_UniteDetruiteBLUReplay",  MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [81,184,228,220] ) ), ]),
+        ("AlertPanel/Line/CommandZoneCapturedForReplay", MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = BlancPur ) ), ]),
+        ("AlertPanel/Line/CommandZoneLostForReplay",    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = BlancPur ) ), ]),
         ("AlertPanel/Line/Zone_Lost",                   MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = RougePur ) ), ]),
         ("AlertPanel/Line/Zone_SecuredByEnemy",         MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = RougePur ) ), ]),
         ("AlertPanel/Line/Per_FOBPerdue",               MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = RougePur ) ), ]),

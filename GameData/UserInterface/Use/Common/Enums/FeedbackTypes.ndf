@@ -103,6 +103,10 @@ FeedbackMessage_OnShootDefensiveSmokeOrder      is 98
 FeedbackMessage_OnAirplaineAirDenyOrder         is 99
 FeedbackMessage_OnAISupplyOrder                 is 100
 FeedbackMessage_OnIFV                           is 101
+FeedbackMessage_OnREDUnitLostForReplay          is 102
+FeedbackMessage_OnCommandZoneCapturedForReplay  is 103
+FeedbackMessage_OnCommandZoneLostForReplay      is 104
+FeedbackMessage_OnBLUUnitLostForReplay          is 105
 
 
 export Generated_DispatchedMessageType_Enum is TDispatchedMessageType
@@ -210,5 +214,9 @@ export Generated_DispatchedMessageType_Enum is TDispatchedMessageType
         "FeedbackMessage_OnAirplaineAirDenyOrder",
         "FeedbackMessage_OnAISupplyOrder",
         "FeedbackMessage_OnIFV",
+        "FeedbackMessage_OnREDUnitLostForReplay",
+        "FeedbackMessage_OnCommandZoneCapturedForReplay",
+        "FeedbackMessage_OnCommandZoneLostForReplay",
+        "FeedbackMessage_OnBLUUnitLostForReplay",
     ]
 )

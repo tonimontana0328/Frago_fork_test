@@ -911,26 +911,37 @@ MissionElementsList is BUCKListDescriptor
     [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = MissionDescriptionText
-            (
-                ElementName = "TexteForcesEnPresence"
-                Alignment = UIText_Center
-                TypefaceToken = "Eurostyle"
-                TextSize = '14'
-            )
-        ),
-
-        BUCKListElementDescriptor
-        (
             ComponentDescriptor = BUCKContainerDescriptor
             (
                 ComponentFrame = TUIFramePropertyRTTI
                 (
-                    MagnifiableWidthHeight = [0.0, 35.0]
+                    RelativeWidthHeight = [1.0, 0.0]
+                    MagnifiableWidthHeight = [0.0, 120.0]
                 )
+
+                Components =
+                [
+                    BUCKTextureDescriptor
+                    (
+                        ElementName = "CornerLogo"
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            MagnifiableWidthHeight = [80.0, 80.0]
+                            AlignementToAnchor = [0.0, 0.0]
+                            AlignementToFather = [0.0, 0.0]
+                            MagnifiableOffset = [20.0, 0.0]
+                        )
+                    ),
+                    MissionDescriptionText
+                    (
+                        ElementName = "TexteForcesEnPresence"
+                        Alignment = UIText_Center
+                        TypefaceToken = "Eurostyle"
+                        TextSize = '14'
+                    )
+                ]
             )
         ),
-
         BUCKListElementDescriptor
         (
             ComponentDescriptor = MissionDescriptionText
@@ -939,16 +950,6 @@ MissionElementsList is BUCKListDescriptor
                 Alignment = UIText_Left
                 TypefaceToken = "Eurostyle"
                 TextSize = '13'
-            )
-        ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKContainerDescriptor
-            (
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    MagnifiableWidthHeight = [0.0, 60.0]
-                )
             )
         ),
         BUCKListElementDescriptor

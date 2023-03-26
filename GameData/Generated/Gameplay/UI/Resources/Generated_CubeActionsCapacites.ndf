@@ -542,25 +542,6 @@ CubeAction_Capacity_Soutien_Allie_Proche_Commandant_3 is TCubeActionCapacityButt
     Descriptor                   = ~/Capacite_Soutien_Allie_Proche_Commandant_3
 )
 
-CubeAction_Capacity_Suicide_IciEtMaintenant is TCubeActionCapacityButtonInformationsDescriptor
-(
-    CubeActionName               = "CubeAction_Capacity_Suicide_IciEtMaintenant"
-    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
-    BackgroundTexture            = "Texture_Button_Capacity_Suicide_IciEtMaintenant"
-    HoverSound                   = CubeActionButtonHoverSound_IfEnabled
-    ClickSound                   = CubeActionButtonClickSound_IfEnabled
-    ButtonTextToken              = "ht_suicide"
-    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
-    HintTitleToken               = "ht_suicide"
-    HintBodyToken                = "hd_suicide"
-    HintExtendedToken            = ""
-    DependanciesToIgnore         =
-    [
-    ]
-    Descriptor                   = ~/Capacite_Suicide_IciEtMaintenant
-    Mapping                      = $/KeyboardOption/Mapping_Suicide
-)
-
 CubeAction_Capacity_Suicide_SurCetteCibleEnnemie is TCubeActionCapacityButtonInformationsDescriptor
 (
     CubeActionName               = "CubeAction_Capacity_Suicide_SurCetteCibleEnnemie"

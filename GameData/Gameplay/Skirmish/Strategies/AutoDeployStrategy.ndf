@@ -9,7 +9,6 @@ export AutoDeployStrategy is TIAGeneralStrategy
         ("ForceTacticalMoveAndAttack", TEugBBoolean(Value = true)),
         ("DoNotCancelProduction", TEugBBoolean(Value = true)),
     ]
-    ShouldUseTaggedCorridorsForTouchDown = true
     AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
     TransitionList =
     [

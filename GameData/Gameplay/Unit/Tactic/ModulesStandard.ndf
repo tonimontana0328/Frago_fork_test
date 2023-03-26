@@ -37,8 +37,6 @@ ShowroomPositionModuleDescriptor is TPositionModuleDescriptor
     PorteurMustBeVisible       = True
     ClampInWorld               = False
     ClampOutMap                = False
-    HasNearlyNullBBox          = False
-    Radius                     = 0
     RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
     LowAltitudeFlyingAltitude  = 0
     NearGroundFlyingAltitude   = 0

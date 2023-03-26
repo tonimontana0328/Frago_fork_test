@@ -7,12 +7,12 @@ export Generated_TAcknowUnitAction_Enum is TAcknowUnitAction
 (
     Values = [
         "TAcknowUnitAction_TargetDestroyed",
+        "TAcknowUnitAction_LoadIntoTransport",
         "TAcknowUnitAction_CriticEvacuate",
         "TAcknowUnitAction_WithdrawOrder",
         "TAcknowUnitAction_EnemyUnitContact",
         "TAcknowUnitAction_Reverse",
         "TAcknowUnitAction_Stop",
-        "TAcknowUnitAction_LoadIntoTransport",
         "TAcknowUnitAction_ShootOnPosition",
         "TAcknowUnitAction_OutOfAmmo",
         "TAcknowUnitAction_Panicking",

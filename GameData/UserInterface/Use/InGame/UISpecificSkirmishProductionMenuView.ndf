@@ -764,19 +764,17 @@ private SkirmishProductionMenuCategoryButtonRadioButtonManager is TBUCKRadioButt
 
 SkirmishProductionMenuCategoryButton is BUCKSpecificButton
 (
+    ElementName = "SkirmishProductionMenuCategoryButton"
+
     // style spécial pour ces boutons
     RoundedCorner = true
     BackgroundBlockColorToken  = ""
-
-
 
     TextColorToken = "ButtonHUD/Text2"
     TextSizeToken = "22"
     ButtonRelativeWidthHeight = [0.0, 0.0]
     ButtonMagnifiableWidthHeight = [55.0, 30.0]
     BigLineAction = ~/BigLineAction/ResizeFont
-
-
 
     IsTogglable = true
     RadioButtonManager = ~/SkirmishProductionMenuCategoryButtonRadioButtonManager
@@ -814,6 +812,8 @@ private SkirmishProductionMenuPawnButtonRadioButtonManager is TBUCKRadioButtonMa
 // boutons de production en Steelman
 SkirmishProductionMenuPawnButton is BUCKSpecificButton
 (
+    ElementName = "SkirmishProductionMenuPawnButton"
+
     RoundedCorner = true
     BackgroundBlockColorToken  = ""
     PanelRoundedCorner_BackgroundBlockColorToken = "BoutonTemps_pawn"
@@ -823,7 +823,7 @@ SkirmishProductionMenuPawnButton is BUCKSpecificButton
     TextSizeToken = "16"
     ButtonRelativeWidthHeight = [0.0, 0.0]
     ButtonMagnifiableWidthHeight = [158.0, 36.0]
-    ButtonMagnifiableOffset = [0,-5]
+    ButtonMagnifiableOffset = [0.0, -5.0]
 
     IsTogglable = true
     RadioButtonManager = ~/SkirmishProductionMenuPawnButtonRadioButtonManager
@@ -832,7 +832,8 @@ SkirmishProductionMenuPawnButton is BUCKSpecificButton
 
     OverrideTextElementName = true
     BigLineAction = ~/BigLineAction/MultiLine
-    TextPadding = TRTTILength4 ( Magnifiable = [5,2,0,5])
+    TextPadding = TRTTILength4 ( Magnifiable = [5.0, 2.0, 0.0, 5.0])
+
     HasText = true
     TextElementName = "ButtonTextElement"
 
@@ -848,7 +849,7 @@ SkirmishProductionMenuPawnButton is BUCKSpecificButton
     TextParagraphStyle = TParagraphStyleRTTI
     (
         Alignment = UIText_Center
-        VerticalAlignment = UIText_Up
+        VerticalAlignment = UIText_VerticalCenter
         InterLine = 0
     )
 )
@@ -859,6 +860,8 @@ private SkirmishProductionMenuCombatGroupButtonRadioButtonManager is TBUCKRadioB
 
 SkirmishProductionMenuCombatGroupButton is BUCKSpecificButton
 (
+    ElementName = "SkirmishProductionMenuCombatGroupButton"
+
     // style spécial pour ces boutons
     RoundedCorner = true
     BackgroundBlockColorToken  = ""
@@ -866,8 +869,8 @@ SkirmishProductionMenuCombatGroupButton is BUCKSpecificButton
     TextColorToken = "ButtonHUD/Text2_pawn"
     TextSizeToken = "14"
     ButtonRelativeWidthHeight = [0.0, 0.0]
-    ButtonMagnifiableWidthHeight = [105, 30.0]
-    ButtonMagnifiableOffset = [0,-2]
+    ButtonMagnifiableWidthHeight = [150, 30.0]
+    ButtonMagnifiableOffset = [0.0, -2.0]
     TextTypefaceToken = "Eurostyle_Italic"
     IsTogglable = true
     RadioButtonManager = ~/SkirmishProductionMenuCombatGroupButtonRadioButtonManager

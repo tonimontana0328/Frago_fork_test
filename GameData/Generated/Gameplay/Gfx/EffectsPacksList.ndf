@@ -136,6 +136,7 @@ private EffectsPacksList is TGameplayEffectsPacksList
         ~/UnitEffect_RoF_plus_50pourcent,
         ~/UnitEffect_RoF_plus_5pourcent,
         ~/UnitEffect_RoF_plus_75pourcent,
+        ~/UnitEffect_Steelman_supprimer_PA,
         ~/UnitEffect_Supprime_Zone_Dinfluence,
         ~/UnitEffect_Tank_bonus_discretion,
         ~/UnitEffect_Tps_entre_salve_115pourcent,

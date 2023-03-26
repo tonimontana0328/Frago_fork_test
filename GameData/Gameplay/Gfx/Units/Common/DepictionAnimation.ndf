@@ -191,8 +191,6 @@ template DepictionOperator_SkeletalAnimation2_Default [ConditionalTags = [] ] is
         TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [FusilierIdleMMG, FusilierIdleMMG2] IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) Tags = ['mmg', 'stand']),
         TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [FusilierIdleGrenade] IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) Tags = ['grenade', 'stand']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierMortBalle IsLegCycle = false InTransition = 2.0 OutTransition = 1.0) Tags = ['dead', 'stand']),
-        TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierMortExplosion IsLegCycle = false InTransition = 2.0 OutTransition = 1.0) Tags = ['dead', 'explosion', 'stand']),
-        TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = UnarmedCapture IsLegCycle = false InTransition = 2.0 OutTransition = 1.0) Tags = ['dead', 'stand']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierAiming IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) TorsoOnly = true Tags = ['aiming']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierBazookaTransition1 IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) TorsoOnly = true Tags = ['swapping']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierFire IsLegCycle = false InTransition = 0.0 OutTransition = 0.5) TorsoOnly = true PlayTillEnd = true Tags = ['aiming', 'shoot']),
@@ -205,8 +203,6 @@ template DepictionOperator_SkeletalAnimation2_Default [ConditionalTags = [] ] is
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierHit IsLegCycle = false InTransition = 0.0 OutTransition = 0.5) TorsoOnly = true PlayTillEnd = true Tags = ['aiming', 'hit']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierHitExplosion IsLegCycle = false InTransition = 0.0 OutTransition = 0.5) TorsoOnly = true PlayTillEnd = true Tags = ['aiming', 'explosion', 'hit']),
     ]
-
-    TorsoPivot = 'bip01 spine'
 
     UpperBodyBones = UpperBodyBoneList
 

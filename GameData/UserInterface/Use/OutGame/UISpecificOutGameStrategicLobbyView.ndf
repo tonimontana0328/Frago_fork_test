@@ -3,6 +3,19 @@ private StrategicLobbyConfirmButton is ConfirmButton
     TextToken = 'AB_LAUNCH'
     ElementName = 'StrategicLobbyConfirmButton'
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
+    ButtonMagnifiableWidthHeight = [175.0, 35.0]
+    ButtonAlignementToAnchor = [0.0, 0.0]
+    ButtonAlignementToFather = [0.0, 0.0]
+    ButtonMagnifiableOffset = [0.0, -10.0]
+    TextTypefaceToken = "Liberator"
+    TextColorToken = "tampon_vert"
+    BorderLineColorToken = "tampon_vert"
+    HasBackground = false
+    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
+    TextSizeToken = "32"
+    BorderThicknessToken = "3"
+    BigLineAction = ~/BigLineAction/ResizeFont
+    TextPadding = TRTTILength4( Magnifiable = [5.0, 0.0, 5.0, 0.0] )
 )
 
 private StrategicLobbyInviteButton is StandardButton
@@ -31,28 +44,50 @@ private StrategicLobbyViewProfileButton is StandardButton
     ElementName = 'StrategicLobbyViewProfileButton'
 )
 
-private StrategicLobbySwitchButton is StandardButton
+private StrategicLobbySwitchButton is ConfirmButton
 (
+    ElementName = 'StrategicLobbySwitchTeamButton'
     TextToken = 'OLB_SWTCHT'
     HintTitleToken = "OLB_SWTCHT"
     HintBodyToken = "OLB_SWTCHB"
     HintExtendedToken = "OLB_SWTCHE"
     HintDico = ~/LocalisationConstantes/dico_interface_outgame
-    ElementName = 'StrategicLobbySwitchTeamButton'
+    ButtonMagnifiableWidthHeight = [175.0, 35.0]
+    ButtonAlignementToAnchor = [0.0, 0.0]
+    ButtonAlignementToFather = [0.0, 0.0]
+    ButtonMagnifiableOffset = [0.0, -10.0]
+    TextTypefaceToken = "Liberator"
+    TextColorToken = "tampon_gris"
+    BorderLineColorToken = "tampon_gris"
+    HasBackground = false
+    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
+    TextSizeToken = "32"
+    BorderThicknessToken = "3"
 )
 
 
-private StrategicLobbySwitchPrivacyButton is StandardButton
+private StrategicLobbySwitchPrivacyButton is ConfirmButton
 (
+    ElementName = 'StrategicLobbySwitchPrivacyButton'
     TextToken = 'GS_SPUBLI'
     HintTitleToken = "GS_ACCESS"
     HintBodyToken = "GS_ACCESSB"
     HintExtendedToken = "GS_ACCESSE"
     HintDico = ~/LocalisationConstantes/dico_interface_outgame
-    ElementName = 'StrategicLobbySwitchPrivacyButton'
+    ButtonMagnifiableWidthHeight = [175.0, 35.0]
+    ButtonAlignementToAnchor = [0.0, 0.0]
+    ButtonAlignementToFather = [0.0, 0.0]
+    ButtonMagnifiableOffset = [0.0, -10.0]
+    TextTypefaceToken = "Liberator"
+    TextColorToken = "tampon_gris"
+    BorderLineColorToken = "tampon_gris"
+    HasBackground = false
+    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
+    TextSizeToken = "32"
+    BorderThicknessToken = "3"
 )
 
-private StrategicLobbyBackButton is CancelButton
+private StrategicLobbyBackButton is ConfirmButton
 (
     TextToken = 'NV_LEAVE'
     ElementName = 'StrategicLobbyBackButton'
@@ -63,13 +98,35 @@ private StrategicLobbyBackButton is CancelButton
     HintBodyToken = "OLB_LEAVEB"
     HintExtendedToken = "OLB_LEAVEE"
     HintDico = ~/LocalisationConstantes/dico_interface_outgame
+    ButtonMagnifiableWidthHeight = [175.0, 35.0]
+    ButtonAlignementToAnchor = [0.0, 0.0]
+    ButtonAlignementToFather = [0.0, 0.0]
+    ButtonMagnifiableOffset = [0.0, -10.0]
+    TextTypefaceToken = "Liberator"
+    TextColorToken = "tampon_gris"
+    BorderLineColorToken = "tampon_gris"
+    HasBackground = false
+    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
+    TextSizeToken = "32"
+    BorderThicknessToken = "3"
 )
 
-private StrategicLobbyCancelButton is CancelButton
+private StrategicLobbyCancelButton is ConfirmButton
 (
     TextToken = 'AB_OPCANCL'
     ElementName = 'StrategicLobbyCancelButton'
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
+    ButtonMagnifiableWidthHeight = [175.0, 35.0]
+    ButtonAlignementToAnchor = [0.0, 0.0]
+    ButtonAlignementToFather = [0.0, 0.0]
+    ButtonMagnifiableOffset = [0.0, -10.0]
+    TextTypefaceToken = "Liberator"
+    TextColorToken = "tampon_gris"
+    BorderLineColorToken = "tampon_gris"
+    HasBackground = false
+    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
+    TextSizeToken = "32"
+    BorderThicknessToken = "3"
 )
 
 private StategicPlayerButtonManager is TBUCKRadioButtonManager()
@@ -90,10 +147,10 @@ is BUCKButtonDescriptor
     IsTogglable = true
     RadioButtonManager = ~/StategicPlayerButtonManager
 
-    HasBorder = true
+    HasBorder = false
     BorderLineColorToken = "BorderButtonHUD"
     BorderThicknessToken = "1"
-    HasBackground = true
+    HasBackground = false
     BackgroundBlockColorToken = "Black80"
 
     Components =
@@ -102,100 +159,143 @@ is BUCKButtonDescriptor
         (
             ComponentFrame = TUIFramePropertyRTTI
             (
-                RelativeWidthHeight = [1.0, 0.0]
+                MagnifiableOffset = [15.0, 50.0]
+                RelativeWidthHeight = [0.95, 0.0]
             )
 
             Axis = ~/ListAxis/Vertical
 
             ChildFitToContent = true
 
-            FirstMargin = TRTTILength(Magnifiable = 15.0)
-            InterItemMargin = TRTTILength(Magnifiable = 8.0)
-            LastMargin = TRTTILength(Magnifiable = 15.0)
+            InterItemMargin = TRTTILength(Magnifiable = 5.0)
 
             Elements =
             [
                 BUCKListElementDescriptor
                 (
-                    ComponentDescriptor = BUCKTextDescriptor
+                    ComponentDescriptor = BUCKContainerDescriptor
                     (
-                        ElementName = <ElementName> + "Army"
-
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            AlignementToFather  = [0.5, 0.0]
-                            AlignementToAnchor  = [0.5, 0.0]
-                        )
-
-                        ParagraphStyle = TParagraphStyleRTTI
-                        (
-                            Alignment = ~/UIText_Center
-                            VerticalAlignment = ~/UIText_VerticalCenter
-                        )
-
-                        TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 2.0, 2.0])
-                        HorizontalFitStyle = ~/FitStyle/FitToContent
-                        VerticalFitStyle = ~/FitStyle/FitToContent
-
-                        TextStyle = 'Default'
-                        TypefaceToken = "UIMainFont"
-                        TextSize = '22'
-                        TextDico = ~/LocalisationConstantes/dico_maps
-                        TextColor = "SD2_Blanc184"
-                    )
-                ),
-                // ajouter image
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = BUCKTextureDescriptor
-                    (
-                        ElementName = <ElementName> + "BackgroundTexture"
                         ComponentFrame = TUIFramePropertyRTTI
                         (
                             RelativeWidthHeight = [1.0, 0.0]
-                            MagnifiableWidthHeight = [0.0, 380.0]
+                            MagnifiableWidthHeight = [0.0, 120.0]
                         )
 
-                        TextureFrame = TUIFramePropertyRTTI
-                        (
-                            AlignementToAnchor = [0.5, 0.0]
-                            AlignementToFather = [0.5, 0.0]
-                        )
+                        Components =
+                        [
+                            BUCKTextureDescriptor
+                            (
+                                ElementName = <ElementName> + "BackgroundTexture"
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    MagnifiableWidthHeight = [80.0, 80.0]
+                                    AlignementToAnchor = [0.0, 0.0]
+                                    AlignementToFather = [0.0, 0.0]
+                                    MagnifiableOffset = [20.0, 0.0]
+                                )
+                            ),
+                            MissionDescriptionText
+                            (
+                                ElementName = <ElementName> + "Army"
 
-                        ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
-
+                                Alignment = UIText_Center
+                                TypefaceToken = "Eurostyle"
+                                TextSize = '14'
+                            )
+                        ]
                     )
                 ),
+                // BUCKListElementDescriptor
+                // (
+                //     ComponentDescriptor = BUCKTextDescriptor
+                //     (
+                //         ElementName = <ElementName> + "Army"
 
+                //         ComponentFrame = TUIFramePropertyRTTI
+                //         (
+                //             AlignementToFather  = [0.5, 0.0]
+                //             AlignementToAnchor  = [0.5, 0.0]
+                //         )
+
+                //         ParagraphStyle = TParagraphStyleRTTI
+                //         (
+                //             Alignment = ~/UIText_Center
+                //             VerticalAlignment = ~/UIText_VerticalCenter
+                //         )
+
+                //         TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 2.0, 2.0])
+                //         HorizontalFitStyle = ~/FitStyle/FitToContent
+                //         VerticalFitStyle = ~/FitStyle/FitToContent
+
+                //         TextStyle = 'Default'
+                //         TypefaceToken = "UIMainFont"
+                //         TextSize = '22'
+                //         TextDico = ~/LocalisationConstantes/dico_maps
+                //         TextColor = "SD2_Blanc184"
+                //     )
+                // ),
+                // ajouter image
+                // BUCKListElementDescriptor
+                // (
+                //     ComponentDescriptor = BUCKTextureDescriptor
+                //     (
+                //         ElementName = <ElementName> + "BackgroundTexture"
+                //         ComponentFrame = TUIFramePropertyRTTI
+                //         (
+                //             RelativeWidthHeight = [1.0, 0.0]
+                //             MagnifiableWidthHeight = [0.0, 380.0]
+                //         )
+
+                //         TextureFrame = TUIFramePropertyRTTI
+                //         (
+                //             AlignementToAnchor = [0.5, 0.0]
+                //             AlignementToFather = [0.5, 0.0]
+                //         )
+
+                //         ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
+
+                //     )
+                // ),
                 BUCKListElementDescriptor
                 (
-                    ComponentDescriptor = BUCKTextDescriptor
+                    ComponentDescriptor = MissionDescriptionText
                     (
+
                         ElementName = <ElementName> + "General"
-
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            AlignementToFather  = [0.5, 0.0]
-                            AlignementToAnchor  = [0.5, 0.0]
-                        )
-
-                        ParagraphStyle = TParagraphStyleRTTI
-                        (
-                            Alignment = ~/UIText_Center
-                            VerticalAlignment = ~/UIText_VerticalCenter
-                        )
-
-                        TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 10.0, 2.0])
-                        HorizontalFitStyle = ~/FitStyle/FitToContent
-                        VerticalFitStyle = ~/FitStyle/FitToContent
-
-                        TextStyle = 'Default'
-                        TypefaceToken = "UIMainFont"
-                        TextSize = '20'
-                        TextDico = ~/LocalisationConstantes/dico_maps
-                        TextColor = "SD2_Blanc184"
+                        Alignment = UIText_Left
+                        TypefaceToken = "Eurostyle"
+                        TextSize = '13'
                     )
                 ),
+                // BUCKListElementDescriptor
+                // (
+                //     ComponentDescriptor = BUCKTextDescriptor
+                //     (
+                //         ElementName = <ElementName> + "General"
+
+                //         ComponentFrame = TUIFramePropertyRTTI
+                //         (
+                //             AlignementToFather  = [0.5, 0.0]
+                //             AlignementToAnchor  = [0.5, 0.0]
+                //         )
+
+                //         ParagraphStyle = TParagraphStyleRTTI
+                //         (
+                //             Alignment = ~/UIText_Center
+                //             VerticalAlignment = ~/UIText_VerticalCenter
+                //         )
+
+                //         TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 10.0, 2.0])
+                //         HorizontalFitStyle = ~/FitStyle/FitToContent
+                //         VerticalFitStyle = ~/FitStyle/FitToContent
+
+                //         TextStyle = 'Default'
+                //         TypefaceToken = "UIMainFont"
+                //         TextSize = '20'
+                //         TextDico = ~/LocalisationConstantes/dico_maps
+                //         TextColor = "SD2_Blanc184"
+                //     )
+                // ),
                 BUCKListElementDescriptor
                 (
                     ComponentDescriptor = BUCKTextDescriptor
@@ -448,10 +548,10 @@ private AffichageBriefingMission is BUCKContainerDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
 
-        RelativeWidthHeight = [1.0, 1.0]
+        MagnifiableWidthHeight = [100,100]
     )
 
-    HasBackground = true
+    HasBackground = false
     BackgroundBlockColorToken = "Black80"
 
     Components =
@@ -494,36 +594,36 @@ private AffichageBriefingMission is BUCKContainerDescriptor
                     LastMargin = TRTTILength(Magnifiable = 15.0)
                     Elements =
                     [
-                        BUCKListElementDescriptor
-                        (
-                            ComponentDescriptor = BUCKTextDescriptor
-                            (
+                        // BUCKListElementDescriptor
+                        // (
+                        //     ComponentDescriptor = BUCKTextDescriptor
+                        //     (
 
 
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    RelativeWidthHeight = [1.0, 0.0]
-                                    AlignementToFather  = [0.5, 0.0]
-                                    AlignementToAnchor  = [0.5, 0.0]
-                                )
+                        //         ComponentFrame = TUIFramePropertyRTTI
+                        //         (
+                        //             RelativeWidthHeight = [1.0, 0.0]
+                        //             AlignementToFather  = [0.5, 0.0]
+                        //             AlignementToAnchor  = [0.5, 0.0]
+                        //         )
 
-                                ParagraphStyle = TParagraphStyleRTTI
-                                (
-                                    Alignment = ~/UIText_Center
-                                    VerticalAlignment = ~/UIText_VerticalCenter
-                                )
+                        //         ParagraphStyle = TParagraphStyleRTTI
+                        //         (
+                        //             Alignment = ~/UIText_Center
+                        //             VerticalAlignment = ~/UIText_VerticalCenter
+                        //         )
 
-                                TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 2.0, 2.0])
-                                VerticalFitStyle = ~/FitStyle/FitToContent
+                        //         TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 2.0, 2.0])
+                        //         VerticalFitStyle = ~/FitStyle/FitToContent
 
-                                TextStyle = 'Default'
-                                TypefaceToken = "UIMainFont"
-                                TextSize = '22'
-                                TextColor = "SD2_Blanc184"
-                                TextToken = 'AGM_Brief'
-                                TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                            )
-                        ),
+                        //         TextStyle = 'Default'
+                        //         TypefaceToken = "UIMainFont"
+                        //         TextSize = '22'
+                        //         TextColor = "SD2_Blanc184"
+                        //         TextToken = 'AGM_Brief'
+                        //         TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                        //     )
+                        // ),
                         BUCKListElementDescriptor
                         (
                             ComponentDescriptor = BUCKTextDescriptor
@@ -599,44 +699,134 @@ BUCKSpecificOutGameStrategicLobbyMainComponentDescriptor is WindowFrame
 
     ContentComponents =
     [
-        BUCKListDescriptor
+        FullPanel,
+        // BUCKListDescriptor,
+        AffichageBriefingMission
+    ]
+)
+//-------------------------------------------------------------------------------------
+
+FullPanel is BUCKTextureDescriptor
+(
+    // ElementName = "LoadMissionFullPanel"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [1214.0, 806.0]
+        AlignementToFather = [0.5, 1.0]
+        AlignementToAnchor = [0.5, 1.0]
+        MagnifiableOffset = [0,25+22]
+    )
+
+    TextureToken = 'mission_dossierVide'
+    HidePointerEvents = true
+
+    Components =
+    [
+        Strategic_page_de_gauche,
+        Strategic_page_de_droite
+    ]
+)
+Strategic_page_de_gauche is BUCKContainerDescriptor
+(
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+       MagnifiableWidthHeight = [526.0, 745.0]
+       MagnifiableOffset = [71.0, 31.0]
+
+
+    )
+
+    Components =
+    [
+        BUCKPerspectiveWarpOffscreenContainerDescriptor
         (
             ComponentFrame = TUIFramePropertyRTTI
             (
-                RelativeWidthHeight = [0.0, 1.0]
+                RelativeWidthHeight = [1.0, 1.0]
             )
 
-            Axis = ~/ListAxis/Horizontal
+            DistortTextureDrawer = $/UserInterface/UIDistortTextureDrawer
+            PointerEventsToAllow = ~/EAllowablePointerEventType/Move
 
-            InterItemMargin = TRTTILength(Magnifiable = 20.0)
+            MagnifiableTopLeftOffset = [0.0,  0.0]
+            MagnifiableTopRightOffset = [0.0, -5.0]
+            MagnifiableBottomLeftOffset = [6.0, 0.0]
+            MagnifiableBottomRightOffset = [7.0, -5.0]
 
-            Elements =
+            Components =
             [
-                BUCKListElementDescriptor
+                BUCKContainerDescriptor
                 (
-                    ExtendWeight = 0.75
-                    ComponentDescriptor = PlayerContainer
+                    ComponentFrame = TUIFramePropertyRTTI
                     (
-                        ElementName = "LeftPlayer"
+                        RelativeWidthHeight = [1.0, 1.0]
                     )
+                    Components =
+                    [
+                        PlayerContainer
+                        (
+                            // inversion du joueur à droite pour avoir Otan affiché avant Pacte
+                            ElementName = "RightPlayer"
+                        )
+                    ]
                 ),
-                BUCKListElementDescriptor
+
+                // StrategicLobbyBackButton,
+            ]
+        ),
+    ]
+)
+Strategic_page_de_droite is BUCKContainerDescriptor
+(
+
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [520.0,741.0]
+        MagnifiableOffset = [285.0, 25.0]
+        AlignementToFather = [0.5, 0.0]
+        AlignementToAnchor = [0.5, 0.0]
+    )
+
+    Components =
+    [
+        BUCKPerspectiveWarpOffscreenContainerDescriptor
+        (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 1.0]
+            )
+
+            DistortTextureDrawer = $/UserInterface/UIDistortTextureDrawer
+            PointerEventsToAllow = ~/EAllowablePointerEventType/Move
+
+            MagnifiableTopLeftOffset = [0.0, 0.0]
+            MagnifiableTopRightOffset = [5.0, 5.0]
+            MagnifiableBottomLeftOffset = [-9.0, 1.0]
+            MagnifiableBottomRightOffset = [-4.0, 10.0]
+
+            Components =
+            [
+                BUCKContainerDescriptor
                 (
-                    ExtendWeight = 1.0
-                    ComponentDescriptor = ~/AffichageBriefingMission
-                ),
-                BUCKListElementDescriptor
-                (
-                    ExtendWeight = 0.75
-                    ComponentDescriptor = PlayerContainer
+                    ComponentFrame = TUIFramePropertyRTTI
                     (
-                        ElementName = "RightPlayer"
+                        RelativeWidthHeight = [1.0, 1.0]
                     )
+                    Components =
+                    [
+                        PlayerContainer
+                        (
+                            ElementName = "LeftPlayer"
+                        )
+                    ]
+
                 ),
             ]
         )
     ]
 )
+//-------------------------------------------------------------------------------------
+
 
 UISpecificOutGameStrategicLobbyViewDescriptor is TUISpecificOutGameStrategicLobbyViewDescriptor
 (

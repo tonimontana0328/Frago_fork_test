@@ -1,6 +1,8 @@
 
 // Liste de messages d'alertes affichées temporairement à l'écran
 
+AlertLineHeight is 20.0
+
 //------------------------------------------------------------------------------
 
 EmptyLine is BUCKContainerDescriptor
@@ -10,7 +12,7 @@ EmptyLine is BUCKContainerDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [1.0, 0.0]
-        MagnifiableWidthHeight = [0.0, 25.0]
+        MagnifiableWidthHeight = [0.0, AlertLineHeight]
     )
 )
 
@@ -23,7 +25,7 @@ AlertLine is BUCKButtonDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [1.0, 0.0]
-        MagnifiableWidthHeight = [0.0, 25.0]
+        MagnifiableWidthHeight = [0.0, AlertLineHeight]
     )
 
     HasBorder = false
@@ -107,8 +109,8 @@ UISpecificHUDAlertPanelViewDescriptor is TUISpecificHUDAlertPanelViewDescriptor
 
     AlertLineDescriptor = ~/AlertLine
     EmptyLineDescriptor = ~/EmptyLine
-    MaxLineNb = 10
-    LineDisplayDuration = 7
+    MaxLineNb = MinimapMagnifiableSize div AlertLineHeight - 1
+    LineDisplayDuration = 60
 
     //------------------------------------------------------------------------------
     // Les messages sont définies dans AlertMessageType.ndf
@@ -145,6 +147,20 @@ UISpecificHUDAlertPanelViewDescriptor is TUISpecificHUDAlertPanelViewDescriptor
             )
         ),
         (
+            ~/AlertMsg_Per_UniteDetruiteREDReplay,
+            (
+                "PER_UNITR",
+                "AlertPanel/Line/Per_UniteDetruiteREDReplay"
+            )
+        ),
+        (
+            ~/AlertMsg_Per_UniteDetruiteBLUReplay,
+            (
+                "PER_UNITR",
+                "AlertPanel/Line/Per_UniteDetruiteBLUReplay"
+            )
+        ),
+        (
             ~/AlertMsg_Zone_SecuredByPlayer,
             (
                 "ZONE_SECUR",
@@ -156,6 +172,20 @@ UISpecificHUDAlertPanelViewDescriptor is TUISpecificHUDAlertPanelViewDescriptor
             (
                 "ZONE_LOST",
                 "AlertPanel/Line/Zone_Lost"
+            )
+        ),
+        (
+            ~/AlertMsg_Per_CommandZoneCapturedForReplay,
+            (
+                "ZONE_CAPR",
+                "AlertPanel/Line/CommandZoneCapturedForReplay"
+            )
+        ),
+        (
+            ~/AlertMsg_Per_CommandZoneLostForReplay,
+            (
+                "ZONE_LOSR",
+                "AlertPanel/Line/CommandZoneLostForReplay"
             )
         ),
         (

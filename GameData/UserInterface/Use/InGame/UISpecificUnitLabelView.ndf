@@ -96,9 +96,10 @@ is BUCKTextDescriptor
 
 private LabelUnitIconWidthHeight is [36.0, 36.0]
 
-private UnitLabelUnitIcon is BUCKTextureDescriptor
+private UnitLabelUnitIcon is TBUCKSpecificLabelUnitIconDescriptor
 (
     ElementName = "UnitIcon"
+
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = ~/LabelUnitIconWidthHeight
@@ -106,24 +107,23 @@ private UnitLabelUnitIcon is BUCKTextureDescriptor
         AlignementToAnchor = [0.0, 0.5]
     )
 
+    RadarIconTextureName = "icone_PourPanelSelectionRdr"
+    RadarIconColorName = "Blanc220"
+
+    ChildFitToContent = true
+    LocalRenderLayer = 2
+
+    TextureDrawer = "ColorMultiply"
+    UniformDrawer = $/UserInterface/UIUniformDrawer
+
     HasBorder = false
-    BorderThicknessToken = '2'
-    BorderLineColorToken = 'Blanc'
+    BorderThicknessToken = "2"
+    BorderLineColorToken = "Blanc"
     HasBackground = true
     BackgroundLocalRenderLayer = 1
-    LocalRenderLayer = 2
-    ChildFitToContent = true
-
-    TextureFrame   = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight = [1.0, 1.0]
-    )
-
-    ClipTextureToComponent = true
 
     Components =
     [
-        UnitLabelCarriedUnitIcon(LocalRenderLayer = 3),
         BUCKListDescriptor
         (
             ComponentFrame = TUIFramePropertyRTTI
@@ -143,9 +143,6 @@ private UnitLabelUnitIcon is BUCKTextureDescriptor
                 BUCKListElementDescriptor(ComponentDescriptor = UnitLabelHPGaugeBUCKComponent(LocalRenderLayer = 3))
             ]
         ),
-        UnitLabelUnitExperienceIconsBUCKComponent(LocalRenderLayer = 3),
-        UnitLabelSpecialtyIcon(LocalRenderLayer = 3),
-        RadarActivityIcon(LocalRenderLayer = 3),
         SmartChipList(LocalRenderLayer = 3),
     ]
 )
@@ -194,74 +191,6 @@ is BUCKSensibleAreaDescriptor
             ClipTextureToComponent = false
         )
     ]
-)
-
-//----------------------------------------------------------------------
-// Icône de transport
-private template UnitLabelCarriedUnitIcon
-[
-    LocalRenderLayer : int,
-    MagnifiableOffset : float2 = [-3.0, 0.0]
-]
-is BUCKTextureDescriptor
-(
-    ElementName = 'CarriedUnitIcon'
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [20.0, 20.0]
-    )
-
-    LocalRenderLayer = <LocalRenderLayer>
-
-    TextureFrame = TUIFramePropertyRTTI(RelativeWidthHeight = [1.0, 1.0])
-)
-
-//----------------------------------------------------------------------
-// Icône de spécialité
-private template UnitLabelSpecialtyIcon
-[
-    LocalRenderLayer : int,
-]
-is BUCKTextureDescriptor
-(
-    ElementName = "SpecialtyIcon"
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [10.0, 10.0]
-        AlignementToFather = [1.0, 1.0]
-        AlignementToAnchor = [1.0, 1.0]
-    )
-
-    LocalRenderLayer = <LocalRenderLayer>
-
-    TextureFrame = TUIFramePropertyRTTI(RelativeWidthHeight = [1.0, 1.0])
-)
-
-// -------------------------------------------------------------------------------------------------
-// Icone pour les armes a Radar
-private template RadarActivityIcon
-[
-    LocalRenderLayer : int,
-] is BUCKTextureDescriptor
-(
-    ElementName = "RadarIcon"
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [16.0, 16.0]
-        AlignementToFather     = [0.05, 0.95]
-        AlignementToAnchor     = [0.0, 1.0]
-    )
-
-    TextureFrame = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight    = [1.0, 1.0]
-        AlignementToFather     = [0.5, 0.5]
-        AlignementToAnchor     = [0.5, 0.5]
-    )
-
-    TextureToken = 'icone_PourPanelSelectionRdr'
-    TextureColorToken = 'Blanc220'
-    LocalRenderLayer = <LocalRenderLayer>
 )
 
 //----------------------------------------------------------------------
@@ -1360,10 +1289,10 @@ is TUISpecificInGameUnitLabelViewDescriptor
         (ECoverTypeForInterface/Light, "CommonTexture_Couvert_Moyen"),
         (ECoverTypeForInterface/Batiment, "CommonTexture_Couvert_Lourd"),
     ]
-    DefaultSpecialtyIcon            = "Spec_bombes_1"
-    AceBackgroundTexture            = "CommonTexture_Etiquette_Background_Ace"
-    NormalBackgroundTexture         = "CommonTexture_Label_Background"
-    CarriedUnitIconUnknow = "UseInGame_Transport_UNKNOW"
+    DefaultSpecialtyIcon    = "Spec_bombes_1"
+    AceBackgroundTexture    = "CommonTexture_Etiquette_Background_Ace"
+    NormalBackgroundTexture = "CommonTexture_Label_Background"
+    CarriedUnitIconUnknown  = "UseInGame_Transport_UNKNOW"
 
     // Couleurs du reticule de visee
     AimingDefaultColor = "Cyan"

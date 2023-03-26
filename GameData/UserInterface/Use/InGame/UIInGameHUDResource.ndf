@@ -15,8 +15,6 @@ export InGameHUDResource is TUISpecificInGameHUDResource
     DisplayAllOrdersMapping    = $/KeyboardOption/Mapping_DisplayAllOrders
 
     OrderDisplayResources                   = ~/UIOrderDisplayResources
-    MultiSelectionPanelViewDescriptor       = ~/UISpecificHUDMultiSelectionPanelViewDescriptor
-    SmartGroupSelectionPanelViewDescriptor  = UISpecificSmartGroupSelectionPanelViewDescriptor(MainComponentContainerUniqueName = "UISpecificSmartGroupSelectionPanelView")
 
     SelectionPanelDescriptor                 = ~/UISpecificUnitSelectionPanelViewDescriptor
     SelectionWeaponPanelDescriptor           = ~/UISpecificUnitSelectionWeaponPanelViewDescriptor

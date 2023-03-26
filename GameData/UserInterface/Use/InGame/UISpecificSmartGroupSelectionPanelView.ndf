@@ -89,6 +89,7 @@ template SmartGroupActionButton
     IsTogglable : bool,
     HasHintableArea : bool,
     IsClippable : bool = true,
+    Mapping : TEugBMutablePBaseClass = nil,
 ] is BUCKButtonDescriptor
 (
     ElementName = <ElementName>
@@ -97,6 +98,8 @@ template SmartGroupActionButton
 
     IsTogglable = <IsTogglable>
     IsClippable = <IsClippable>
+
+    Mapping = <Mapping>
 
     Components =
     [
@@ -270,6 +273,8 @@ SmartGroupSelectionPanelMainPanel is BUCKListDescriptor
                     AlignementToFather = [0.0, 1.0]
                     AlignementToAnchor = [0.0, 1.0]
                 )
+
+                Mapping = $/KeyboardOption/Mapping_MergeUnits
 
                 TextToken = "SGR_DISLV"
                 IsTogglable = false

@@ -9,7 +9,6 @@ export ChallengeTauroggenStrategy_North is TIAGeneralStrategy
         ("ForceTacticalMoveAndAttack", TEugBBoolean(Value = true)),
     ]
     AuthorizedCorridorList = [1]
-    ShouldUseTaggedCorridorsForTouchDown = true
     AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
     TransitionList =
     [

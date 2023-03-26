@@ -33,11 +33,6 @@ Gfx_2S3_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Alternatives = Alternatives_2S3_DDR
     Selector = Selector_2S3_DDR
 )
-Gfx_2S5_GiatsintS_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
-(
-    Alternatives = Alternatives_2S5_GiatsintS_SOV
-    Selector = Selector_2S5_GiatsintS_SOV
-)
 Gfx_2S7M_Malka_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_2S7M_Malka_SOV
@@ -911,11 +906,11 @@ Gfx_Gepard_1A2_RFA_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Alternatives = Alternatives_Gepard_1A2_RFA
     Selector = Selector_Gepard_1A2_RFA
 )
-Gfx_HEMTT_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+Gfx_HEMTT_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
-    Alternatives = Alternatives_HEMTT
-    Selector = Selector_HEMTT
-    SubDepictions = HumanSubDepictionsShowroom_HEMTT
+    Alternatives = Alternatives_HEMTT_US
+    Selector = Selector_HEMTT_US
+    SubDepictions = HumanSubDepictionsShowroom_HEMTT_US
 )
 Gfx_HMGteam_AANF1_FR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
@@ -2423,6 +2418,12 @@ Gfx_UAZ_469_Konkurs_VDV_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Alternatives = Alternatives_UAZ_469_Konkurs_VDV_SOV
     Selector = Selector_UAZ_469_Konkurs_VDV_SOV
     SubDepictions = HumanSubDepictionsShowroom_UAZ_469_Konkurs_VDV_SOV
+)
+Gfx_UAZ_469_MP_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_UAZ_469_MP_SOV
+    Selector = Selector_UAZ_469_MP_SOV
+    SubDepictions = HumanSubDepictionsShowroom_UAZ_469_MP_SOV
 )
 Gfx_UAZ_469_Reco_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (

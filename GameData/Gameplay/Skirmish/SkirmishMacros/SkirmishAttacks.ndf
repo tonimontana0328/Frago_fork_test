@@ -61,7 +61,7 @@ is TMacroActionDescriptor_ObjectiveAttack_Specific
     +
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
-        TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [Pool_Objective_Attack] LaunchASAP_RatioMin = 0.01 DisableReinforcement = true),
+        TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [Pool_Objective_Attack] LaunchASAP_RatioMin = 0.01),
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 1.0 UtiliserMenaceLaPlusProcheAuLieuDeLaPlusFaible = true),
         TAttackRatioSettingHolder(DifficultyList = [IADifficulty/TresFacile] RatioMinimumPourAttaquer = 100.0 UtiliserMenaceLaPlusProcheAuLieuDeLaPlusFaible = true),
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
@@ -618,7 +618,7 @@ export Pool_Default_Attack_2 is TPoolModel
             Required = false
             IndexPriorityOverPrice = false
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Cheapest
+            PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
                 "Char",
             ]
@@ -712,7 +712,7 @@ export Pool_Default_Attack_3 is TPoolModel
             Required = false
             IndexPriorityOverPrice = true
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Cheapest
+            PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
                 "Char_Standard",
                 "Char",
@@ -775,7 +775,7 @@ export Pool_Tank_Attack_1 is TPoolModel
             Required = false
             IndexPriorityOverPrice = true
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Cheapest
+            PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
                 "Canon_AA_Porte",
                 "Char_Standard",
@@ -799,7 +799,7 @@ export Pool_Tank_Attack_1 is TPoolModel
             Required = false
             IndexPriorityOverPrice = true
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Cheapest
+            PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
                 "Char_Standard",
             ]
@@ -885,7 +885,7 @@ export Pool_Tank_Attack_2 is TPoolModel
             Required = false
             IndexPriorityOverPrice = true
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Cheapest
+            PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
                 "Char_Standard",
             ]
@@ -924,7 +924,7 @@ export Pool_Tank_Attack_3 is TPoolModel
             Required = false
             IndexPriorityOverPrice = true
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Cheapest
+            PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
                 "Char_Standard",
                 "Char_Reco",
@@ -936,7 +936,7 @@ export Pool_Tank_Attack_3 is TPoolModel
             Required = false
             IndexPriorityOverPrice = true
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Cheapest
+            PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
                 "Char_Standard",
                 "Char",

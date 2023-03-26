@@ -676,6 +676,7 @@ private PanelInfosBataille is BUCKListDescriptor
                 Name = "Combat"
             )
         ),
+        // artillery support
         BUCKListElementDescriptor
         (
             ComponentDescriptor = TemplateTextStartBattle
@@ -692,7 +693,7 @@ private PanelInfosBataille is BUCKListDescriptor
                 Name = "GroundSupport"
             )
         ),
-
+        // air support
         BUCKListElementDescriptor
         (
             ComponentDescriptor = TemplateTextStartBattle
@@ -707,6 +708,23 @@ private PanelInfosBataille is BUCKListDescriptor
             ComponentDescriptor = PanelListeGroup
             (
                 Name = "AirSupport"
+            )
+        ),
+        // auxiliary support
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = TemplateTextStartBattle
+            (
+                TypefaceToken = "Eurostyle_Heavy"
+                TextToken = "PrC_aux"
+                IsTitre = true
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = PanelListeGroup
+            (
+                Name = "AuxiliarySupport"
             )
         ),
         BUCKListElementDescriptor

@@ -1,4 +1,3 @@
-// Ceci est un fichier live edité par le tool in-game de réglage de Chassis, il peut être édité à la main avec précautions
 export GfxDescriptorChassis_HeavyTank is TGfxDescriptorChassis
 (
     SousMobileName = 'chassis'
