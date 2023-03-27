@@ -1768,19 +1768,6 @@ InfantryWeapon_PM_AS_Val is TIntroduceMobileHappening
     )
 )
 
-InfantryWeapon_Sniper_VSS_Vintorez is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            fx_tir_Sniper_Lourd_12_7_Douille_1_2,
-            fx_Traine_Sniper_7_62_1_2_False_00_00,
-            SFXWeapon_Sniper_VSS_Vintorez,
-        ]
-    )
-)
-
 InfantryWeapon_FM_FNC is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
@@ -1826,6 +1813,20 @@ InfantryWeapon_Sniper_FN_Model_3011 is TIntroduceMobileHappening
         [
             fx_tir_Sniper_Lourd_12_7_Douille_1_2,
             fx_Traine_Sniper_7_62_1_2_False_00_00,
+            SFXWeapon_Sniper_FN_Model_3011,
+        ]
+    )
+)
+
+InfantryWeapon_Sniper_VSS_Vintorez is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_Sniper_Lourd_12_7_Douille_1_2,
+            fx_Traine_Sniper_7_62_1_2_False_00_00,
+            SFXWeapon_Sniper_VSS_Vintorez,
         ]
     )
 )

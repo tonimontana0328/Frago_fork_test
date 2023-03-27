@@ -858,7 +858,7 @@ private SaveLoadTabsComponent is BUCKSpecific_Fulda_WithTabsComponentDescriptor
             OngletSpecificLoad
             (
                 HorizontalFitStyle = ~/FitStyle/UserDefined
-                TextToken = "CHALLENGE"
+                TextToken = "OP_NAME"
             ),
             BUCKContainerDescriptor
             (

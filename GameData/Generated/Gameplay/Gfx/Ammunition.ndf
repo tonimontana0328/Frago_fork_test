@@ -60994,7 +60994,7 @@ Ammo_AGM_AGM114A_x16 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((7924) * Metre)
+    PorteeMaximale                    = ((9924) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -61005,10 +61005,10 @@ Ammo_AGM_AGM114A_x16 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 14 * Metre
+    RadiusSplashPhysicalDamages       = 340 * Metre
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 119 * Metre
+    RadiusSplashSuppressDamages       = 419 * Metre
     SuppressDamages                   = 181.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False

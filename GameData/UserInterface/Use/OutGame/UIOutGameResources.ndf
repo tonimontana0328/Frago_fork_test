@@ -108,8 +108,8 @@ export OutGameResourceSpecific is TUISpecificOutGameResources
 
         ("UISpecificStrategicCampaignViewDescriptor",     UISpecificScenarioViewDescriptor(GameType = GameStrategic )),
         ("UISpecificStrategicCampaignSubViewDescriptor",  UISpecificScenarioViewDescriptor(GameType = GameStrategic IsSubView=true ComponentContainerUniqueName="SoloPanelViewDescriptor")),
-        ("UISpecificHistoricalBattleViewDescriptor",      UISpecificScenarioViewDescriptor(GameType = GameChallenge)),
-        ("UISpecificHistoricalBattleSubViewDescriptor",   UISpecificScenarioViewDescriptor(GameType = GameChallenge IsSubView=true ComponentContainerUniqueName="SoloPanelViewDescriptor")),
+        ("UISpecificChallengeViewDescriptor",             UISpecificScenarioViewDescriptor(GameType = GameChallenge)),
+        ("UISpecificChallengeSubViewDescriptor",          UISpecificScenarioViewDescriptor(GameType = GameChallenge IsSubView=true ComponentContainerUniqueName="SoloPanelViewDescriptor")),
         ("UISpecificTacticalTutoViewDescriptor",          UISpecificScenarioViewDescriptor(GameType = GameCampaign)),
         ("UISpecificTacticalTutoSubViewDescriptor",       UISpecificScenarioViewDescriptor(GameType = GameCampaign IsSubView=true ComponentContainerUniqueName="SoloPanelViewDescriptor")),
         ("UISpecificSaveLoadPanelSubViewDescriptor",      UISpecificSaveLoadPanelViewDescriptor(IsSubView=true ComponentContainerUniqueName="SoloPanelViewDescriptor")),

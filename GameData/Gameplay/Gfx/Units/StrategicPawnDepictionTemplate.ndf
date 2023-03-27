@@ -4,6 +4,7 @@ template StrategicPawnDepictionTemplate
     MeshSocle,
     MeshTige,
     ModelFilePawn,
+    SubDepictionGenerators = []
 ]
 is TTimelyDepictionReceiverFactory
 (
@@ -41,6 +42,7 @@ is TTimelyDepictionReceiverFactory
                                 )
                             )
                         ]
+                        SubDepictionGenerators = <SubDepictionGenerators>
                     )
                 ) ]
             )
@@ -129,10 +131,12 @@ template StrategicGroundVehiclePawnDepictionTemplate
 [
     MeshSocle,
     ModelFilePawn,
+    SubDepictionGenerators = []
 ]
 is StrategicPawnDepictionTemplate
 (
     MeshSocle = <MeshSocle>
     ModelFilePawn = <ModelFilePawn>
     MeshTige = MeshModele_Tige_courte
+    SubDepictionGenerators = <SubDepictionGenerators>
 )

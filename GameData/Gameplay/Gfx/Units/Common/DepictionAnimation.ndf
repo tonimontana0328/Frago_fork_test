@@ -74,6 +74,10 @@ FusilierKneel is SkeletalAnimationTemplate( FileName = 'Rifleman_Kneel.Ase2NdfBi
 FusilierLookAround is SkeletalAnimationTemplate( FileName = 'Rifleman_Look_Around.Ase2NdfBin' PlayInLoop = false)
 FusilierMarche is SkeletalAnimationTemplate( FileName = 'Rifleman_Walk.Ase2NdfBin' PlayInLoop = true)
 FusilierMortBalle is SkeletalAnimationTemplate( FileName = 'Rifleman_Death_Bullet.Ase2NdfBin' PlayInLoop = false)
+FusilierMortBalle2 is SkeletalAnimationTemplate( FileName = 'Rifleman_Death_Bullet_Back.Ase2NdfBin' PlayInLoop = false)
+FusilierMortBalle3 is SkeletalAnimationTemplate( FileName = 'Rifleman_Death_Bullet_Violent.Ase2NdfBin' PlayInLoop = false)
+FusilierMortBalle4 is SkeletalAnimationTemplate( FileName = 'Rifleman_Death_Explosion.Ase2NdfBin' PlayInLoop = false)
+FusilierMortBalle5 is SkeletalAnimationTemplate( FileName = 'Rifleman_Death_Explosion_Back.Ase2NdfBin' PlayInLoop = false)
 FusilierMortBalleDos is SkeletalAnimationTemplate( FileName = 'Rifleman_Death_Bullet_Back.Ase2NdfBin' PlayInLoop = false)
 FusilierMortBalleViolente is SkeletalAnimationTemplate( FileName = 'Rifleman_Death_Bullet_Violent.Ase2NdfBin' PlayInLoop = false)
 FusilierMortExplosion is SkeletalAnimationTemplate( FileName = 'Rifleman_Death_Explosion.Ase2NdfBin' PlayInLoop = false)
@@ -190,7 +194,8 @@ template DepictionOperator_SkeletalAnimation2_Default [ConditionalTags = [] ] is
         TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [FusilierCrouch, FusilierCrouch2, FusilierIdle, FusilierIdle2] IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) Tags = ['stand']),
         TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [FusilierIdleMMG, FusilierIdleMMG2] IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) Tags = ['mmg', 'stand']),
         TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [FusilierIdleGrenade] IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) Tags = ['grenade', 'stand']),
-        TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierMortBalle IsLegCycle = false InTransition = 2.0 OutTransition = 1.0) Tags = ['dead', 'stand']),
+        TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [FusilierMortBalle, FusilierMortBalle2, FusilierMortBalle3, FusilierMortBalle4, FusilierMortBalle5] IsLegCycle = false InTransition = 2.0 OutTransition = 1.0) Tags = ['dead', 'stand']),
+        // TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierMortBalle IsLegCycle = false InTransition = 2.0 OutTransition = 1.0) Tags = ['dead', 'stand']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierAiming IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) TorsoOnly = true Tags = ['aiming']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierBazookaTransition1 IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) TorsoOnly = true Tags = ['swapping']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierFire IsLegCycle = false InTransition = 0.0 OutTransition = 0.5) TorsoOnly = true PlayTillEnd = true Tags = ['aiming', 'shoot']),
@@ -213,7 +218,7 @@ template DepictionOperator_SkeletalAnimation2_Default [ConditionalTags = [] ] is
      FusilierFireFlamer, FusilierFireMMG, FusilierFireSMG, FusilierGetUp,
      FusilierHit, FusilierHitDos, FusilierHitExplosion, FusilierIdle,
      FusilierIdleMMG, FusilierIdleMMG2, FusilierIdleSMG, FusilierIdleSMG2, FusilierIdleSpecial, FusilierIdle2,
-     FusilierKneel, FusilierLookAround, FusilierMarche, FusilierMortBalle, FusilierMortBalleDos, FusilierMortBalleViolente,
+     FusilierKneel, FusilierLookAround, FusilierMarche, FusilierMortBalle, FusilierMortBalle2, FusilierMortBalle3, FusilierMortBalle4, FusilierMortBalle5, FusilierMortBalleDos, FusilierMortBalleViolente,
      FusilierMortExplosion, FusilierMortExplosionDos, FusilierReload, FusilierRun, FusilierRunAim, FusilierRunMMG, FusilierRunSMG, FusilierRun2, FusilierRun3,
      FusilierStandPinned, FusilierStandPinned2, FusilierStandVise, FusilierStart, FusilierSteelman, FusilierStop, FusilierTir, FusilierTransport,
      UnarmedCapture]

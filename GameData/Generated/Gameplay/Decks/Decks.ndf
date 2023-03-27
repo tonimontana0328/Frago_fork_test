@@ -808,11 +808,6 @@ export Descriptor_Deck_UK_2nd_Infantry_multi is TDeckDescriptor
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Tornado_ADV_HE_UK
         ),
-		TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Tornado_ADV_SEAD_UK
-        ),
     ]
     DeckCombatGroupList =
     [

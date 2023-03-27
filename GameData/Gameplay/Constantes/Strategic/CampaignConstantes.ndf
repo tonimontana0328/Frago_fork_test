@@ -83,7 +83,7 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
     // Possibilite de conserver un ordre sur plusieurs tours
     MultipleTurnOrdersActivated = false
 
-    PowerValuesBattleFactorForDisplayOnly = 0.003*0.2 //valeur du point de force dans l'affichage des pions et de la barre
+    PowerValuesBattleFactorForDisplayOnly = 0.0006 //valeur du point de force dans l'affichage des pions et de la barre
     DigitToDisplayForAutoresolveUnitPower = 1
     DigitToDisplayForAutoresolveArmyRatio = 1
     DigitToDisplayForAutoresolveCombatAdvantage = 1
@@ -93,7 +93,7 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
 
     // Nombre maximal de pions par type de pion (cf. StrategicBattleRole.ndf) qui peuvent rejoindre le combat pour une équipe
     // la position dans le tableau correspond au role défini dans StrategicBattleRole.ndf (NbFighter en position 0 par exemple)
-    BattleNbMaxPawnByRole  = [ 2, 1, 1 ]
+    BattleNbMaxPawnByRole  = [ 2, 1, 1, 1 ]
 
     BattleDeploymentMode = EDeploymentMode/Breakthrough
 
@@ -106,16 +106,16 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
     // doit correspondre au nombre de pion (cf. BattleNbMaxPawnByRole) plus 1 (pour le cas où on n'a pas de pions)
     DefaultStartingTicketsPointsByPawnNumber = MAP
     [
-        (ENationalite/Allied,   [ 0, 30, 50, 65, 75 ] ),
-        (ENationalite/Axis,     [ 0, 30, 50, 65, 75] ),
+        (ENationalite/Allied,   [ 0, 50, 65, 70, 70, 70] ),
+        (ENationalite/Axis,     [ 0, 50, 65, 70, 70, 70] ),
     ]
 
     // Le tableau de valeur contient l'income disponible en fonction du nombre de pions dans le battle plan, le nombre de cases dans le tableau
     // doit correspondre au nombre de pion (cf. BattleNbMaxPawnByRole) plus 1 (pour le cas où on n'a pas de pions)
     DefaultTicketsPointsIncomeByPawnNumber = MAP // points par minute
     [
-        (ENationalite/Allied,   [ 0, 3, 6, 10, 12]),
-        (ENationalite/Axis,     [ 0, 3, 6, 10, 12]),
+        (ENationalite/Allied,   [ 0, 6, 7, 8, 8, 8]),
+        (ENationalite/Axis,     [ 0, 6, 7, 8, 8, 8]),
     ]
 
     AerialBattleTicketsPoint = MAP

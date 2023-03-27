@@ -1,4 +1,4 @@
-StrategicMaxFatiguePerUnit is 5
+StrategicMaxFatiguePerUnit is 6
 
 StrategicFatigueGainOnMove is 0
 StrategicFatigueLossOnNextTurn is 1
@@ -22,10 +22,10 @@ StrategicBattleAttackerFatigueGainAfterBattle is MAP
 
 StrategicBattleDefenderFatigueGainAfterBattle is MAP
 [
-    (EVictoryType/TotalDefeat, 2),
-    (EVictoryType/MajorDefeat, 2),
-    (EVictoryType/MinorDefeat, 2),
-    (EVictoryType/Draw, 2),
+    (EVictoryType/TotalDefeat, 1),
+    (EVictoryType/MajorDefeat, 1),
+    (EVictoryType/MinorDefeat, 1),
+    (EVictoryType/Draw, 1),
     (EVictoryType/MinorVictory, 3),
     (EVictoryType/MajorVictory, 4),
     (EVictoryType/TotalVictory, 5),

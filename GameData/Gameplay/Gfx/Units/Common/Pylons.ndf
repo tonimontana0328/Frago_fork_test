@@ -1,87 +1,189 @@
 //----------------------------------------------------------------------------------------------------------------------------------------
 //-----------------------------------------PYLONES D'EMPORT de ROQUETTES et MISSILES par DEFAUT-------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------------------------
-template CommonMeshDescriptor [ ModelFile ]  is TResourceMultiMaterialMesh
+template CommonMeshDesc [ ModelFile ]  is TResourceMultiMaterialMesh
 (
     FileName = <ModelFile>
     UsefulnessMask = CivMask/Common + TypeMask/Common
 )
 //Ci-dessous, declaration des meshes de pylones qui sont sur les avions et helicos.
 //C'est sur ces meshes que sont ensuite attaches les MISSILES et BOMBES.
-DefaultMeshDescriptor_Pylon_1 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_1.Ase2NdfBin' )
-DefaultMeshDescriptor_Pylon_2 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_2.Ase2NdfBin' )
-DefaultMeshDescriptor_Pylon_3 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_3.Ase2NdfBin' )
-DefaultMeshDescriptor_Pylon_4 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_4.Ase2NdfBin' )
-DefaultMeshDescriptor_Pylon_5 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_5.Ase2NdfBin' )
-DefaultMeshDescriptor_Pylon_6 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_6.Ase2NdfBin' )
-DefaultMeshDescriptor_Pylon_7 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_7.Ase2NdfBin' )
+ModelPylon1 is 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_1.Ase2NdfBin'
+ModelPylon2 is 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_2.Ase2NdfBin'
+ModelPylon3 is 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_3.Ase2NdfBin'
+ModelPylon4 is 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_4.Ase2NdfBin'
+ModelPylon5 is 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_5.Ase2NdfBin'
+ModelPylon6 is 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_6.Ase2NdfBin'
+ModelPylon7 is 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_7.Ase2NdfBin'
 
-template PylonDepictionTemplate [ MeshDescriptor, MaterialTags = nil, CastShadow ] is TDepictionTemplate
+template AlternativeCommon [ModelFile, MaterialTags = nil] is DepictionDescriptor_LOD_High
 (
-    ShadowLessInitialValue = <CastShadow> ? False : True
+    MeshDescriptor = CommonMeshDesc( ModelFile = <ModelFile> )
+    MaterialTags = <MaterialTags>
+)
+
+template AlternativeShowroom [ModelFile] is AlternativeCommon( ModelFile = <ModelFile> )
+template AlternativeVehicle  [ModelFile] is AlternativeCommon( ModelFile = <ModelFile> )
+template AlternativeAirplane [ModelFile] is AlternativeCommon( ModelFile = <ModelFile> MaterialTags = ~/AirplaneAdditionalMaterialTags )
+template AlternativeHelico   [ModelFile] is AlternativeCommon( ModelFile = <ModelFile> MaterialTags = ~/HelicoAdditionalMaterialTags )
+
+template PylonDepictionCommon [ DepictionDescriptor, NoShadow = False ] is TDepictionTemplate
+(
+    ShadowLessInitialValue = <NoShadow>
     Selector = SpecificPylonDepictionSelector
-        DepictionAlternatives = [
-            DepictionDescriptor_LOD_High       ( MeshDescriptor = <MeshDescriptor> MaterialTags = <MaterialTags> )
-        ]
-    Operators = [
-        DepictionOperator_Shader_Ghost,
+    DepictionAlternatives = [ <DepictionDescriptor> ]
+    Operators = [ DepictionOperator_Shader_Ghost ]
+)
+
+template PylonDepictionVehicle [ ModelFile ] is PylonDepictionCommon
+(
+    DepictionDescriptor = AlternativeVehicle( ModelFile = <ModelFile> )
+)
+
+template PylonDepictionAirplane [ ModelFile ] is PylonDepictionCommon
+(
+    NoShadow = True
+    DepictionDescriptor = AlternativeAirplane( ModelFile = <ModelFile> )
+)
+
+template PylonDepictionHelico [ ModelFile ] is PylonDepictionCommon
+(
+    DepictionDescriptor = AlternativeHelico( ModelFile = <ModelFile> )
+)
+
+template PylonDepictionCommonShowroom [ DepictionDescriptor ] is TDepictionTemplate
+(
+    Selector = OnlyHighDepictionSelector
+    DepictionAlternatives = [ <DepictionDescriptor> ]
+)
+
+template PylonDepictionShowroom [ ModelFile ] is PylonDepictionCommonShowroom
+(
+    DepictionDescriptor = AlternativeShowroom( ModelFile = <ModelFile> )
+)
+
+PylonSet_DefaultMissileVehicle is TDepictionPylonSet
+(
+    Pylons = [
+        PylonDepictionVehicle( ModelFile = ModelPylon1 ),
+        PylonDepictionVehicle( ModelFile = ModelPylon2 ),
+        PylonDepictionVehicle( ModelFile = ModelPylon3 ),
+        PylonDepictionVehicle( ModelFile = ModelPylon4 ),
+        PylonDepictionVehicle( ModelFile = ModelPylon5 ),
+        PylonDepictionVehicle( ModelFile = ModelPylon6 ),
+        PylonDepictionVehicle( ModelFile = ModelPylon7 ),
     ]
 )
 
-template DepictionOnePylonSet_DefaultMissile [ MaterialTags = nil, CastShadow ] is TDepictionPylonSet
+PylonSet_DefaultMissileAirplane is TDepictionPylonSet
 (
     Pylons = [
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = DefaultMeshDescriptor_Pylon_1 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = DefaultMeshDescriptor_Pylon_2 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = DefaultMeshDescriptor_Pylon_3 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = DefaultMeshDescriptor_Pylon_4 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = DefaultMeshDescriptor_Pylon_5 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = DefaultMeshDescriptor_Pylon_6 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = DefaultMeshDescriptor_Pylon_7 CastShadow = <CastShadow> ),
+        PylonDepictionAirplane( ModelFile = ModelPylon1 ),
+        PylonDepictionAirplane( ModelFile = ModelPylon2 ),
+        PylonDepictionAirplane( ModelFile = ModelPylon3 ),
+        PylonDepictionAirplane( ModelFile = ModelPylon4 ),
+        PylonDepictionAirplane( ModelFile = ModelPylon5 ),
+        PylonDepictionAirplane( ModelFile = ModelPylon6 ),
+        PylonDepictionAirplane( ModelFile = ModelPylon7 ),
     ]
 )
+
+PylonSet_DefaultMissileHelico is TDepictionPylonSet
+(
+    Pylons = [
+        PylonDepictionHelico( ModelFile = ModelPylon1 ),
+        PylonDepictionHelico( ModelFile = ModelPylon2 ),
+        PylonDepictionHelico( ModelFile = ModelPylon3 ),
+        PylonDepictionHelico( ModelFile = ModelPylon4 ),
+        PylonDepictionHelico( ModelFile = ModelPylon5 ),
+        PylonDepictionHelico( ModelFile = ModelPylon6 ),
+        PylonDepictionHelico( ModelFile = ModelPylon7 ),
+    ]
+)
+
 //Ci-dessous, declaration des meshes de pylones de ROQUETTES qui sont sur les avions et helicos.
-PodDefaultMeshDescriptor_Pylon_4 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/US/LAU_10A/LAU_10A_x4.Ase2NdfBin' )
-PodDefaultMeshDescriptor_Pylon_7 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/US/Helico/AH_6C_Little_Bird/Pod_Rockets_7_Little_Bird.Ase2NdfBin' )
-// PodDefaultMeshDescriptor_Pylon_14 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_Roquettes_14.Ase2NdfBin' )
-// PodDefaultMeshDescriptor_Pylon_16 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_Roquettes_16.Ase2NdfBin' )
-// PodDefaultMeshDescriptor_Pylon_19 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_Roquettes_19.Ase2NdfBin' )
-PodDefaultMeshDescriptor_Pylon_19 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/US/Helico/Cobra_AH_1F/Pod_Rockets_19.Ase2NdfBin' )
-// PodDefaultMeshDescriptor_Pylon_20 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_Roquettes_20.Ase2NdfBin' )
-// PodDefaultMeshDescriptor_Pylon_32 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_Roquettes_32.Ase2NdfBin' )
+PodModelPylon4 is 'GameData:/Assets/3D/Units/Ammo/Pylones/US/LAU_10A/LAU_10A_x4.Ase2NdfBin'
+PodModelPylon7 is 'GameData:/Assets/3D/Units/US/Helico/AH_6C_Little_Bird/Pod_Rockets_7_Little_Bird.Ase2NdfBin'
+PodModelPylon19 is 'GameData:/Assets/3D/Units/US/Helico/Cobra_AH_1F/Pod_Rockets_19.Ase2NdfBin'
 
-template DepictionOnePylonSet_DefaultPod [ MaterialTags = nil, CastShadow ] is TDepictionPylonSet
+PylonSet_DefaultPodVehicle is TDepictionPylonSet
 (
     Pylons = [
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodDefaultMeshDescriptor_Pylon_4 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodDefaultMeshDescriptor_Pylon_7 CastShadow = <CastShadow> ),
-        // PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodDefaultMeshDescriptor_Pylon_14 CastShadow = <CastShadow> ),
-        // PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodDefaultMeshDescriptor_Pylon_16 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodDefaultMeshDescriptor_Pylon_19 CastShadow = <CastShadow> ),
-        // PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodDefaultMeshDescriptor_Pylon_20 CastShadow = <CastShadow> ),
-        // PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodDefaultMeshDescriptor_Pylon_32 CastShadow = <CastShadow> ),
+        PylonDepictionVehicle( ModelFile = PodModelPylon4 ),
+        PylonDepictionVehicle( ModelFile = PodModelPylon7 ),
+        PylonDepictionVehicle( ModelFile = PodModelPylon19 ),
     ]
 )
 
-template DepictionPylonSet_Vehicle_Default [ CastShadow ] is TMultiPylonSet
+PylonSet_DefaultPodAirplane is TDepictionPylonSet
 (
-    DefaultPylonSet = DepictionOnePylonSet_DefaultMissile(CastShadow = <CastShadow>)
-    PodPylonSet = DepictionOnePylonSet_DefaultPod(CastShadow = <CastShadow>)
-    BombPylonSet = DepictionOnePylonSet_DefaultMissile(CastShadow = <CastShadow>)
+    Pylons = [
+        PylonDepictionAirplane( ModelFile = PodModelPylon4 ),
+        PylonDepictionAirplane( ModelFile = PodModelPylon7 ),
+        PylonDepictionAirplane( ModelFile = PodModelPylon19 ),
+    ]
 )
 
-template DepictionPylonSet_Airplane_Default [ CastShadow ] is TMultiPylonSet
+PylonSet_DefaultPodHelico is TDepictionPylonSet
 (
-    DefaultPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/AirplaneAdditionalMaterialTags CastShadow = <CastShadow> )
-    PodPylonSet = DepictionOnePylonSet_DefaultPod( MaterialTags = ~/AirplaneAdditionalMaterialTags CastShadow = <CastShadow> )
-    BombPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/AirplaneAdditionalMaterialTags CastShadow = <CastShadow> )
+    Pylons = [
+        PylonDepictionHelico( ModelFile = PodModelPylon4 ),
+        PylonDepictionHelico( ModelFile = PodModelPylon7 ),
+        PylonDepictionHelico( ModelFile = PodModelPylon19 ),
+    ]
 )
 
-template DepictionPylonSet_Helico_Default [ CastShadow ] is TMultiPylonSet
+PylonSet_DefaultMissileShowroom is TDepictionPylonSet
 (
-    DefaultPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
-    PodPylonSet = DepictionOnePylonSet_DefaultPod( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
-    BombPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
+    Pylons = [
+        PylonDepictionShowroom( ModelFile = ModelPylon1 ),
+        PylonDepictionShowroom( ModelFile = ModelPylon2 ),
+        PylonDepictionShowroom( ModelFile = ModelPylon3 ),
+        PylonDepictionShowroom( ModelFile = ModelPylon4 ),
+        PylonDepictionShowroom( ModelFile = ModelPylon5 ),
+        PylonDepictionShowroom( ModelFile = ModelPylon6 ),
+        PylonDepictionShowroom( ModelFile = ModelPylon7 ),
+    ]
+)
+
+PylonSet_DefaultPodShowroom is TDepictionPylonSet
+(
+    Pylons = [
+        PylonDepictionShowroom( ModelFile = PodModelPylon4 ),
+        PylonDepictionShowroom( ModelFile = PodModelPylon7 ),
+        PylonDepictionShowroom( ModelFile = PodModelPylon19 ),
+    ]
+)
+
+DepictionPylonSet_Default_Showroom is TMultiPylonSet
+(
+    DefaultPylonSet = PylonSet_DefaultMissileShowroom
+    PodPylonSet = PylonSet_DefaultPodShowroom
+    BombPylonSet = PylonSet_DefaultMissileShowroom
+)
+DepictionPylonSet_Vehicle_Default_Showroom is DepictionPylonSet_Default_Showroom
+DepictionPylonSet_Airplane_Default_Showroom is DepictionPylonSet_Default_Showroom
+DepictionPylonSet_Helico_Default_Showroom is DepictionPylonSet_Default_Showroom
+
+DepictionPylonSet_Vehicle_Default is TMultiPylonSet
+(
+    DefaultPylonSet = PylonSet_DefaultMissileVehicle
+    PodPylonSet = PylonSet_DefaultPodVehicle
+    BombPylonSet = PylonSet_DefaultMissileVehicle
+)
+
+DepictionPylonSet_Airplane_Default is TMultiPylonSet
+(
+    DefaultPylonSet = PylonSet_DefaultMissileAirplane
+    PodPylonSet = PylonSet_DefaultPodAirplane
+    BombPylonSet = PylonSet_DefaultMissileAirplane
+)
+
+DepictionPylonSet_Helico_Default is TMultiPylonSet
+(
+    DefaultPylonSet = PylonSet_DefaultMissileHelico
+    PodPylonSet = PylonSet_DefaultPodHelico
+    BombPylonSet = PylonSet_DefaultMissileHelico
 )
 
 //----------------------------------------------------------------------------------------------------------------------------------------
@@ -89,131 +191,128 @@ template DepictionPylonSet_Helico_Default [ CastShadow ] is TMultiPylonSet
 //----------------------------------------------------------------------------------------------------------------------------------------
 
 //Ci-dessous, declaration des meshes de pylones de ROQUETTES qui sont sur les avions et helicos SOV
-PodSOVMeshDescriptor_Pylon_5 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/SOV/B_13L_rocket_pod/B_13L_rocket_pod_x5.Ase2NdfBin' )
-// PodSOVMeshDescriptor_Pylon_7 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/US/Helico/AH_6C_Little_Bird/Pod_Rockets_7_Little_Bird.Ase2NdfBin' )
-// PodSOVMeshDescriptor_Pylon_14 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_Roquettes_14.Ase2NdfBin' )
-PodSOVMeshDescriptor_Pylon_16 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/SOV/UB_32_rocket_pod/UB_16_rocket_pod_x16.Ase2NdfBin' )
-PodSOVMeshDescriptor_Pylon_17 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_24VP/Pod_Rockets_SOV_17.Ase2NdfBin' )
-// PodSOVMeshDescriptor_Pylon_20 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/URSS/Helico/Ka_50/Pod_Rockets_SOV_20.Ase2NdfBin' )
-PodSOVMeshDescriptor_Pylon_20 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/SOV/B8V20_A_rocket_pod/B8V20_A_rocket_pod_x20.Ase2NdfBin' )
-PodSOVMeshDescriptor_Pylon_32 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/SOV/UB_32_rocket_pod/UB_32_rocket_pod_x32.Ase2NdfBin' )
-PodSOVMeshDescriptor_Pylon_33 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_17/Pod_Rockets_SOV_33.Ase2NdfBin' )
+PodSOVModelPylon_5  is 'GameData:/Assets/3D/Units/Ammo/Pylones/SOV/B_13L_rocket_pod/B_13L_rocket_pod_x5.Ase2NdfBin'
+PodSOVModelPylon_16 is 'GameData:/Assets/3D/Units/Ammo/Pylones/SOV/UB_32_rocket_pod/UB_16_rocket_pod_x16.Ase2NdfBin'
+PodSOVModelPylon_17 is 'GameData:/Assets/3D/Units/URSS/Helico/Mi_24VP/Pod_Rockets_SOV_17.Ase2NdfBin'
+PodSOVModelPylon_20 is 'GameData:/Assets/3D/Units/Ammo/Pylones/SOV/B8V20_A_rocket_pod/B8V20_A_rocket_pod_x20.Ase2NdfBin'
+PodSOVModelPylon_32 is 'GameData:/Assets/3D/Units/Ammo/Pylones/SOV/UB_32_rocket_pod/UB_32_rocket_pod_x32.Ase2NdfBin'
+PodSOVModelPylon_33 is 'GameData:/Assets/3D/Units/URSS/Helico/Mi_17/Pod_Rockets_SOV_33.Ase2NdfBin'
 
-template DepictionOnePylonSet_SOVPod [ MaterialTags = nil, CastShadow ] is TDepictionPylonSet
+PylonSet_SOVPodHelico is TDepictionPylonSet
 (
     Pylons = [
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodSOVMeshDescriptor_Pylon_5 CastShadow = <CastShadow> ),
-        // PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodSOVMeshDescriptor_Pylon_7 CastShadow = <CastShadow> ),
-        // PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodSOVMeshDescriptor_Pylon_14 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodSOVMeshDescriptor_Pylon_16 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodSOVMeshDescriptor_Pylon_17 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodSOVMeshDescriptor_Pylon_20 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodSOVMeshDescriptor_Pylon_32 CastShadow = <CastShadow> ),
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodSOVMeshDescriptor_Pylon_33 CastShadow = <CastShadow> ),
+        PylonDepictionHelico( ModelFile = PodSOVModelPylon_5  ),
+        PylonDepictionHelico( ModelFile = PodSOVModelPylon_16 ),
+        PylonDepictionHelico( ModelFile = PodSOVModelPylon_17 ),
+        PylonDepictionHelico( ModelFile = PodSOVModelPylon_20 ),
+        PylonDepictionHelico( ModelFile = PodSOVModelPylon_32 ),
+        PylonDepictionHelico( ModelFile = PodSOVModelPylon_33 ),
     ]
 )
 
-
-//Ci-dessous, declaration des meshes de pylones de ROQUETTES qui sont sur les avions FR
-PodFRMeshDescriptor_Pylon_18 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/FR/JL_100R.Ase2NdfBin' ) // ce pod a 19 boites
-// PodFRMeshDescriptor_Pylon_18 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/FR/LR_150.Ase2NdfBin' )
-
-template DepictionOnePylonSet_FRPod [ MaterialTags = nil, CastShadow ] is TDepictionPylonSet
+PylonSet_SOVPodAirplane is TDepictionPylonSet
 (
     Pylons = [
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodFRMeshDescriptor_Pylon_18 CastShadow = <CastShadow> ),
-
+        PylonDepictionAirplane( ModelFile = PodSOVModelPylon_5 ),
+        PylonDepictionAirplane( ModelFile = PodSOVModelPylon_16 ),
+        PylonDepictionAirplane( ModelFile = PodSOVModelPylon_17 ),
+        PylonDepictionAirplane( ModelFile = PodSOVModelPylon_20 ),
+        PylonDepictionAirplane( ModelFile = PodSOVModelPylon_32 ),
+        PylonDepictionAirplane( ModelFile = PodSOVModelPylon_33 ),
     ]
 )
 
-//Ci-dessous, declaration des meshes de pylones de ROQUETTES qui sont sur les avions RFA
-PodRFAMeshDescriptor_Pylon_18 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/FR/JL_100R.Ase2NdfBin' ) // ce pod a 19 boites
-
-template DepictionOnePylonSet_RFAPod [ MaterialTags = nil, CastShadow ] is TDepictionPylonSet
+PylonSet_SOVPodShowroom is TDepictionPylonSet
 (
     Pylons = [
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodFRMeshDescriptor_Pylon_18 CastShadow = <CastShadow> ),
+        PylonDepictionShowroom( ModelFile = PodSOVModelPylon_5 ),
+        PylonDepictionShowroom( ModelFile = PodSOVModelPylon_16 ),
+        PylonDepictionShowroom( ModelFile = PodSOVModelPylon_17 ),
+        PylonDepictionShowroom( ModelFile = PodSOVModelPylon_20 ),
+        PylonDepictionShowroom( ModelFile = PodSOVModelPylon_32 ),
+        PylonDepictionShowroom( ModelFile = PodSOVModelPylon_33 ),
     ]
 )
 
-//Ci-dessous, declaration des meshes de pylones de ROQUETTES qui sont sur les avions UK
-PodUKMeshDescriptor_Pylon_19 is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/UK/LAU_5003/LAU_5003_x19.Ase2NdfBin' ) // ce pod a 19 boites
-
-template DepictionOnePylonSet_UKPod [ MaterialTags = nil, CastShadow ] is TDepictionPylonSet
+template PylonSet_PodAirplane [ ModelFile ] is TDepictionPylonSet
 (
-    Pylons = [
-        PylonDepictionTemplate( MaterialTags = <MaterialTags> MeshDescriptor = PodUKMeshDescriptor_Pylon_19 CastShadow = <CastShadow> ),
-
-    ]
-)
-template DepictionPylonSet_Helico_SOV [ CastShadow ] is TMultiPylonSet
-(
-    DefaultPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
-    PodPylonSet = DepictionOnePylonSet_SOVPod( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
-    BombPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
+    Pylons = [ PylonDepictionAirplane( ModelFile = <ModelFile> ) ]
 )
 
-template DepictionPylonSet_Airplane_SOV [ CastShadow ] is TMultiPylonSet
+template PylonSet_PodAirplaneShowroom [ ModelFile ] is TDepictionPylonSet
 (
-    DefaultPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/AirplaneAdditionalMaterialTags CastShadow = <CastShadow> )
-    PodPylonSet = DepictionOnePylonSet_SOVPod( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
-    BombPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/AirplaneAdditionalMaterialTags CastShadow = <CastShadow> )
+    Pylons = [ PylonDepictionShowroom( ModelFile = <ModelFile> ) ]
 )
 
-template DepictionPylonSet_Airplane_FR [ CastShadow ] is TMultiPylonSet
+DepictionPylonSet_Helico_SOV is TMultiPylonSet
 (
-    DefaultPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
-    PodPylonSet = DepictionOnePylonSet_FRPod( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
-    BombPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
+    DefaultPylonSet = PylonSet_DefaultMissileHelico
+    PodPylonSet = PylonSet_SOVPodHelico
+    BombPylonSet = PylonSet_DefaultMissileHelico
 )
 
-template DepictionPylonSet_Airplane_RFA [ CastShadow ] is TMultiPylonSet
+DepictionPylonSet_Airplane_SOV is TMultiPylonSet
 (
-    DefaultPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
-    PodPylonSet = DepictionOnePylonSet_RFAPod( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
-    BombPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
+    DefaultPylonSet = PylonSet_DefaultMissileAirplane
+    PodPylonSet = PylonSet_SOVPodAirplane
+    BombPylonSet = PylonSet_DefaultMissileAirplane
 )
 
-template DepictionPylonSet_Airplane_UK [ CastShadow ] is TMultiPylonSet
+DepictionPylonSet_SOV_Showroom is TMultiPylonSet
 (
-    DefaultPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
-    PodPylonSet = DepictionOnePylonSet_UKPod( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
-    BombPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags CastShadow = <CastShadow> )
+    DefaultPylonSet = PylonSet_DefaultMissileShowroom
+    PodPylonSet = PylonSet_SOVPodShowroom
+    BombPylonSet = PylonSet_DefaultMissileShowroom
 )
+
+DepictionPylonSet_Helico_SOV_Showroom is DepictionPylonSet_SOV_Showroom
+DepictionPylonSet_Airplane_SOV_Showroom is DepictionPylonSet_SOV_Showroom
+
+// Airplanes
+template DepictionPylonSet_Airplane_Common [ ModelFile ] is TMultiPylonSet
+(
+    DefaultPylonSet = PylonSet_DefaultMissileAirplane
+    PodPylonSet = PylonSet_PodAirplane( ModelFile = <ModelFile> )
+    BombPylonSet = PylonSet_DefaultMissileAirplane
+)
+
+template DepictionPylonSet_Airplane_Common_Showroom [ ModelFile ] is TMultiPylonSet
+(
+    DefaultPylonSet = PylonSet_DefaultMissileShowroom
+    PodPylonSet = PylonSet_PodAirplaneShowroom( ModelFile = <ModelFile> )
+    BombPylonSet = PylonSet_DefaultMissileShowroom
+)
+
+PodFRModelFile is 'GameData:/Assets/3D/Units/Ammo/Pylones/FR/JL_100R.Ase2NdfBin' // ce pod a 19 boites
+DepictionPylonSet_Airplane_FR is DepictionPylonSet_Airplane_Common( ModelFile = PodFRModelFile )
+DepictionPylonSet_Airplane_FR_Showroom is DepictionPylonSet_Airplane_Common_Showroom( ModelFile = PodFRModelFile )
+
+PodRFAModelFile is 'GameData:/Assets/3D/Units/Ammo/Pylones/FR/JL_100R.Ase2NdfBin' // ce pod a 19 boites
+DepictionPylonSet_Airplane_RFA is DepictionPylonSet_Airplane_Common( ModelFile = PodRFAModelFile )
+DepictionPylonSet_Airplane_RFA_Showroom is DepictionPylonSet_Airplane_Common_Showroom( ModelFile = PodRFAModelFile )
+
+PodUKModelFile is 'GameData:/Assets/3D/Units/Ammo/Pylones/UK/LAU_5003/LAU_5003_x19.Ase2NdfBin' // ce pod a 19 boites
+DepictionPylonSet_Airplane_UK is DepictionPylonSet_Airplane_Common( ModelFile = PodUKModelFile )
+DepictionPylonSet_Airplane_UK_Showroom is DepictionPylonSet_Airplane_Common_Showroom( ModelFile = PodUKModelFile )
 
 //----------------------------------------------------------------------------------------------------------------------------------------
 //------------------------------------PYLONES D'EMPORT de ROQUETTES et MISSILES SPECIFIQUES par UNITES------------------------------------
 //----------------------------------------------------------------------------------------------------------------------------------------
 //Exemple Ajout d'un pod ATGM
-template DepictionPylonSet_ATGM [ CastShadow ] is TMultiPylonSet
+
+template DepictionPylonSet_ATGM_Template [ Pylon ] is TMultiPylonSet
 (
-    DefaultPylonSet = DepictionOnePylonSet_DefaultMissile_ATGM(CastShadow = <CastShadow>)
-    PodPylonSet = DepictionOnePylonSet_DefaultPod(CastShadow = <CastShadow>)
-    BombPylonSet = DepictionOnePylonSet_DefaultMissile(CastShadow = <CastShadow>)
+    DefaultPylonSet = TDepictionPylonSet( Pylons = [ <Pylon> ] )
 )
 
-template DepictionOnePylonSet_DefaultMissile_ATGM [ CastShadow ] is TDepictionPylonSet
+ATGMModelFile is 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_ATGM.Ase2NdfBin'
+
+DepictionPylonSet_ATGM_Showroom is DepictionPylonSet_ATGM_Template
 (
-    Pylons = [
-        PylonDepictionTemplate( MeshDescriptor = DefaultMeshDescriptor_Pylon_1_ATGM CastShadow = <CastShadow> ),
-    ]
+    Pylon = PylonDepictionShowroom ( ModelFile = ATGMModelFile )
 )
 
-DefaultMeshDescriptor_Pylon_1_ATGM is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_ATGM.Ase2NdfBin' )
-
-//Exemple Ajout d'un pod pour l'Apache
-// PodDefaultMeshDescriptor_Pylon_Apache is CommonMeshDescriptor( ModelFile = 'GameData:/Assets/3D/Units/US/Helico/AH_64A_Apache/Pod_Apache.Ase2NdfBin' )
-
-// DepictionPylonSet_Apache is TMultiPylonSet
-// (
-//     DefaultPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags )
-//     PodPylonSet = DepictionOnePylonSet_DefaultPod_Apache
-//     BombPylonSet = DepictionOnePylonSet_DefaultMissile( MaterialTags = ~/HelicoAdditionalMaterialTags )
-// )
-
-// DepictionOnePylonSet_DefaultPod_Apache is TDepictionPylonSet
-// (
-//     Pylons = [
-//         PylonDepictionTemplate( MaterialTags = ~/HelicoAdditionalMaterialTags MeshDescriptor = PodDefaultMeshDescriptor_Pylon_Apache ),
-//     ]
-// )
+DepictionPylonSet_ATGM is DepictionPylonSet_ATGM_Template
+(
+    Pylon = PylonDepictionVehicle ( ModelFile = ATGMModelFile )
+)

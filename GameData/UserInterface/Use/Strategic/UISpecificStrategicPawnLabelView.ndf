@@ -40,28 +40,12 @@ UnitLabelIconList is BUCKListDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [0.0, IconeSize]
-        MagnifiableOffset = [60.0, 20.0]
+        MagnifiableOffset = [10.0, -15.0]
     )
 
     Axis = ~/ListAxis/Horizontal
-    // FirstMargin = TRTTILength (Magnifiable = 5)
     Elements =
     [
-
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKTextureDescriptor
-            (
-                ElementName = "CanAttackIcon"
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    MagnifiableWidthHeight = [20.0, 20.0]
-                )
-
-                TextureToken = "UseStrategic_Labels_CanLaunchAttack"
-                TextureFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
-            )
-        ),
 
         BUCKListElementDescriptor
         (
@@ -109,20 +93,20 @@ UnitLabelIconList is BUCKListDescriptor
             )
         ),
 
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKTextureDescriptor
-            (
-                ElementName = 'FortifyAntiAirIcon'
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    MagnifiableWidthHeight = [IconeSize, IconeSize]
-                )
+        // BUCKListElementDescriptor
+        // (
+        //     ComponentDescriptor = BUCKTextureDescriptor
+        //     (
+        //         ElementName = 'FortifyAntiAirIcon'
+        //         ComponentFrame = TUIFramePropertyRTTI
+        //         (
+        //             MagnifiableWidthHeight = [IconeSize, IconeSize]
+        //         )
 
-                TextureToken = "UseStrategic_Labels_FortificationAntiAir"
-                TextureFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
-            )
-        ),
+        //         TextureToken = "UseStrategic_Labels_FortificationAntiAir"
+        //         TextureFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
+        //     )
+        // ),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKTextureDescriptor
@@ -214,11 +198,12 @@ MainLabelList is TBUCKLocalLayerContainerDescriptor
             Components =
             [
                 ~/IconeUnit_and_PA,
+                ~/FortifyAntiAirIcon,
                 ~/CombatValue,
                 ~/NoSupplied,
                 ~/DivisionLabel,
                 ~/Fatigue,
-                ~/UnitLabelIconList
+                ~/UnitLabelIconList,
             ]
         )
     ]
@@ -232,7 +217,7 @@ UpperLabelList is BUCKListDescriptor
     (
         AlignementToFather = [0.5, 0.0]
         AlignementToAnchor = [0.5, 1.0]
-        MagnifiableOffset = [0.0, 20.0]
+        MagnifiableOffset = [0.0, -10.0]
     )
 
     Axis = ~/ListAxis/Vertical
@@ -241,33 +226,7 @@ UpperLabelList is BUCKListDescriptor
 
     Elements =
     [
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKTextDescriptor
-            (
-                ElementName = 'EngagementText'
-                ComponentFrame = TUIFramePropertyRTTI()
 
-                ParagraphStyle = TParagraphStyleRTTI
-                (
-                    Alignment = UIText_Center
-                    VerticalAlignment = UIText_VerticalCenter
-                )
-
-                TextStyle = "Engagement"
-                HorizontalFitStyle = ~/FitStyle/FitToContent
-                VerticalFitStyle = ~/FitStyle/FitToContent
-
-                TypefaceToken = "UIMainFont"
-                BigLineAction = ~/BigLineAction/CutByDots
-
-                TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                ColorMode = ~/ColorMode/Multiply
-
-                TextColor = "Noir"
-                TextSize = "26"
-            )
-        ),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKTextDescriptor
@@ -361,39 +320,7 @@ UpperLabelList is BUCKListDescriptor
                 TextSize = "12"
             )
         ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKTextDescriptor
-            (
-                ElementName = 'UnitName'
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    AlignementToFather = [0.5, 0.0]
-                    AlignementToAnchor = [0.5, 0.0]
-                )
 
-                ParagraphStyle = TParagraphStyleRTTI
-                (
-                    Alignment = UIText_Center
-                    VerticalAlignment = UIText_VerticalCenter
-                )
-
-                TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 2.0, 2.0])
-                TextStyle = "Default"
-                HasBackground = true
-                BackgroundBlockColorToken = "SD2_Gris39_avecTransparence200"
-                HorizontalFitStyle = ~/FitStyle/FitToContent
-                VerticalFitStyle = ~/FitStyle/FitToContent
-
-                TypefaceToken = "UIMainFont"
-                BigLineAction = ~/BigLineAction/CutByDots
-
-                TextDico = ~/LocalisationConstantes/dico_interface_ingame
-
-                TextColor = "SD2_Blanc184"
-                TextSize = "12"
-            )
-        ),
 
 
     ]
@@ -409,7 +336,8 @@ private IconeUnit_and_PA is BUCKTextureDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
          MagnifiableWidthHeight = [40.0, 20.0]
-         MagnifiableOffset = [20.0, 20.0]
+         // MagnifiableOffset = [20.0, 20.0]
+         MagnifiableOffset = [20.0, -15.0]
     )
 
     HasBackground = true
@@ -425,7 +353,19 @@ private IconeUnit_and_PA is BUCKTextureDescriptor
     ]
 
 )
+private FortifyAntiAirIcon is BUCKTextureDescriptor
+(
+    ElementName = 'FortifyAntiAirIcon'
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+         MagnifiableWidthHeight = [40.0, 20.0]
+         // MagnifiableOffset = [20.0, 20.0]
+         MagnifiableOffset = [20.0, -15.0]
+    )
 
+    TextureToken = "UseStrategic_Labels_FortificationAntiAir"
+    TextureFrame = TUIFramePropertyRTTI( MagnifiableWidthHeight = [20.0, 20.0] )
+)
 // -----------------------------------------------
 private CombatValue is BUCKListDescriptor
 (
@@ -435,7 +375,10 @@ private CombatValue is BUCKListDescriptor
     (
         AlignementToFather = [1.0, 1.0]
         AlignementToAnchor = [1.0, 0.5]
-        MagnifiableOffset = [0.0, 5.0]
+        // MagnifiableOffset = [0.0, 5.0]
+        MagnifiableOffset = [0.0, -30.0]
+
+
     )
 
     Axis = ~/ListAxis/Horizontal
@@ -495,8 +438,8 @@ private Fatigue is BUCKTextureDescriptor
     ElementName = 'FatigueIcon'
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [40.0, 10.0]
-        MagnifiableOffset = [20.0, 10.0]
+        MagnifiableWidthHeight = [40.0, 5.0]
+        MagnifiableOffset = [20.0, -20.0]
     )
 
     TextureFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
@@ -510,7 +453,7 @@ private NoSupplied is BUCKTextureDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [30.0, 30.0]
-        MagnifiableOffset = [-10.0, 20.0]
+        MagnifiableOffset = [-10.0, -25.0]
     )
 
     TextureToken = "UseStrategic_Labels_NoSupply"
@@ -552,7 +495,7 @@ private ArrowTexture is BUCKTextureDescriptor
 
 private PANumber is BUCKTextDescriptor
 (
-    ElementName = 'ActionPoints'
+    ElementName = "ActionPoints"
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [20.0, 20.0]
@@ -643,6 +586,7 @@ LowerLabelList is BUCKListDescriptor
     (
         AlignementToFather = [0.5, 1.0]
         AlignementToAnchor = [0.5, 0.0]
+        MagnifiableOffset = [0,-25]
     )
 
     Axis = ~/ListAxis/Vertical
@@ -652,6 +596,37 @@ LowerLabelList is BUCKListDescriptor
 
     Elements =
     [
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKTextDescriptor
+            (
+                ElementName = 'EngagementText'
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    AlignementToFather = [0.5, 0.0]
+                    AlignementToAnchor = [0.5, 0.0]
+                )
+
+                ParagraphStyle = TParagraphStyleRTTI
+                (
+                    Alignment = UIText_Center
+                    VerticalAlignment = UIText_VerticalCenter
+                )
+
+                TextStyle = "Engagement"
+                HorizontalFitStyle = ~/FitStyle/FitToContent
+                VerticalFitStyle = ~/FitStyle/FitToContent
+
+                TypefaceToken = "UIMainFont"
+                BigLineAction = ~/BigLineAction/CutByDots
+
+                TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                ColorMode = ~/ColorMode/Multiply
+
+                TextColor = "Noir"
+                TextSize = "26"
+            )
+        ),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKTextDescriptor
@@ -681,6 +656,39 @@ LowerLabelList is BUCKListDescriptor
                 BigLineAction = ~/BigLineAction/CutByDots
 
                 TextToken = "LBS_FLEE"
+                TextDico = ~/LocalisationConstantes/dico_interface_ingame
+
+                TextColor = "SD2_Blanc184"
+                TextSize = "12"
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKTextDescriptor
+            (
+                ElementName = 'UnitName'
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    AlignementToFather = [0.5, 0.0]
+                    AlignementToAnchor = [0.5, 0.0]
+                )
+
+                ParagraphStyle = TParagraphStyleRTTI
+                (
+                    Alignment = UIText_Center
+                    VerticalAlignment = UIText_VerticalCenter
+                )
+
+                TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 2.0, 2.0])
+                TextStyle = "Default"
+                HasBackground = true
+                BackgroundBlockColorToken = "SD2_Gris39_avecTransparence200"
+                HorizontalFitStyle = ~/FitStyle/FitToContent
+                VerticalFitStyle = ~/FitStyle/FitToContent
+
+                TypefaceToken = "UIMainFont"
+                BigLineAction = ~/BigLineAction/CutByDots
+
                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
 
                 TextColor = "SD2_Blanc184"
@@ -718,6 +726,7 @@ template PawnLabelViewDescriptor
     EngagementAnimScale = 0.1 // L'échelle va varier de 1 à (1+EngagementPhaseAnimScale). Négatif autorisé
     EngagementAnimRandomStart = 0.5 // Décalage aléatoire max en secondes au démarrage.
     LabelTransparencyIfNoEngagement = 0.2 //Transparence de l'étiquette des unités qui ne peuvent pas participer au combat (cf. CantFightUnitAlpha)
+    ActionPointsOpacityIfNotEnoughPAToAttack = 0.6 // Transparence des points d'action si l'unité n'a pas les PA suffisants pour attaquer
 
     BonusBackgroundColorTokenByTerrainType = MAP
     [
@@ -741,6 +750,7 @@ template PawnLabelViewDescriptor
         "UseStrategic_Labels_Fatigue_3",
         "UseStrategic_Labels_Fatigue_4",
         "UseStrategic_Labels_Fatigue_5",
+        "UseStrategic_Labels_Fatigue_0",
     ]
 
     StrategicTerrainTypeIcons = MAP
@@ -758,5 +768,4 @@ template PawnLabelViewDescriptor
         ( ~/ETerrainType/StrategicPlain, "Vert" ),
         ( ~/ETerrainType/StrategicForest, "Vert" ),
     ]
-
 )

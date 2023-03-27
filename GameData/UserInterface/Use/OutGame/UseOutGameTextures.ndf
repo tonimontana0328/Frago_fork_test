@@ -317,8 +317,12 @@ unnamed TBUCKToolAdditionalTextureBank
                                                ( ~/ComponentState/Normal, ~/Outgame_transparent), ]),
 
         ("test_image_mission", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/test_image_mission_2.png"))] ),
-        // ("challenge_BlackHorsesLastStand", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/BlackHorsesLastStand.png"))] ),
-        ("challenge_BlackHorsesLastStand", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/BlackHorsesLastStand2.png"))] ),
+        ("challenge_BlackHorsesLastStand", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_BlackHorsesLastStand.png"))] ),
+        ("challenge_RedJuggernaut", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_RedJuggernaut.png"))] ),
+        ("challenge_Gotterdammerung", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_Gotterdammerung.png"))] ),
+        ("challenge_TheKitzingenRuse", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_TheKitzingenRuse.png"))] ),
+        ("challenge_BackhandBlow", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_BackhandBlow.png"))] ),
+        ("challenge_Holdem", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_Holdem.png"))] ),
         ("Outgame_bandeNoireListeMission", MAP [( ~/ComponentState/Normal, ~/Outgame_bandeNoireListeMission), ]),
         ("Outgame_backgroundMultiScreen", MAP [( ~/ComponentState/Normal, ~/Outgame_backgroundMultiScreen), ]),
         //-------------------------------------------------------------------------------------
@@ -397,6 +401,11 @@ unnamed TBUCKToolAdditionalTextureBank
         //-------------------------------------------------------------------------------------
         // challenge
         ("challenge_star", MAP [( ~/ComponentState/Normal, TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/status_done.png" )), ]),
+        ("difficulty_easy", MAP [( ~/ComponentState/Normal, TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/Difficulty/difficulty_easy.png" )), ]),
+        ("difficulty_medium", MAP [( ~/ComponentState/Normal, TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/Difficulty/difficulty_medium.png" )), ]),
+        ("difficulty_hard", MAP [( ~/ComponentState/Normal, TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/Difficulty/difficulty_hard.png" )), ]),
+        ("paperclip", MAP [( ~/ComponentState/Normal, TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/paperclip2.png" )), ]),
+
 
         //-------------------------------------------------------------------------------------
         // lobby

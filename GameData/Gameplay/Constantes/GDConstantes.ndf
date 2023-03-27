@@ -498,9 +498,7 @@ WargameConstantes is TWargameTunableConstante
     [
         1000,//1000 par défaut, 1800 (30mn) en limité
         2000,//2000 par défaut, 2100 (35mn) en limité
-		4000,//4000 par défaut, 2400 (45mn) en limité
-		6000,//6000 par défaut, FRL
-		8000,//8000 par défaut, FRL
+        4000,//4000 par défaut, 2400 (45mn) en limité
     ]
 
 //-------------------------- Constantes Economy -----------------------------------------//
@@ -511,7 +509,7 @@ WargameConstantes is TWargameTunableConstante
         (CombatRule/CaptureTheFlag, 260),
         (CombatRule/Destruction,    4),
     ]
-    DefaultIncomeMultiplierIndex    = 3 // low
+    DefaultIncomeMultiplierIndex    = 3 // normal
     //                   none   very_low   low      normal    high     very_high
     IncomeMultiplier = [   0,    0.5,    0.75,       1,      1.25,       1.5 ]
     TimeBeforeEarningCommandPoints = MAP

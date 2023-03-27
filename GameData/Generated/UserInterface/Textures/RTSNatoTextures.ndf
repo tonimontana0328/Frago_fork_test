@@ -2,382 +2,392 @@
 
 Texture_AA is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\AA.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/AA.png'
 )
 
 Texture_veh_nonIdentifie is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\veh_nonIdentifie.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/veh_nonIdentifie.png'
 )
 
 Texture_RTS_H_AA is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\AA.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA.png'
 )
 
 Texture_RTS_H_veh_nonIdentifie is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\veh_nonIdentifie.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/veh_nonIdentifie.png'
 )
 
 Texture_howitzer is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\howitzer.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/howitzer.png'
 )
 
 Texture_RTS_H_howitzer is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\howitzer.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/howitzer.png'
 )
 
 Texture_mortar is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\mortar.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/mortar.png'
 )
 
 Texture_RTS_H_mortar is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\mortar.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/mortar.png'
 )
 
 Texture_infantry_nonIdentifie is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\infantry_nonIdentifie.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/infantry_nonIdentifie.png'
 )
 
 Texture_RTS_H_infantry_nonIdentifie is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\infantry_nonIdentifie.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/infantry_nonIdentifie.png'
 )
 
-Texture_reco_veh is TUIResourceTexture_Common
+Texture_RECO_veh is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\reco_veh.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/RECO_veh.png'
 )
 
-Texture_RTS_H_reco_veh is TUIResourceTexture_Common
+Texture_RTS_H_RECO_veh is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\reco_veh.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/RECO_veh.png'
 )
 
 Texture_AT_veh is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\AT_veh.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/AT_veh.png'
 )
 
 Texture_RTS_H_AT_veh is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\AT_veh.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/AT_veh.png'
 )
 
 Texture_CMD_veh is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\CMD_veh.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/CMD_veh.png'
 )
 
 Texture_RTS_H_CMD_veh is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\CMD_veh.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/CMD_veh.png'
 )
 
 Texture_ifv is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\ifv.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/ifv.png'
 )
 
 Texture_RTS_H_ifv is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\ifv.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/ifv.png'
 )
 
 Texture_reco is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\reco.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/reco.png'
 )
 
 Texture_RTS_H_reco is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\reco.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/reco.png'
 )
 
 Texture_Armor is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\Armor.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/Armor.png'
 )
 
 Texture_RTS_H_Armor is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\Armor.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/Armor.png'
 )
 
 Texture_AA_veh is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\AA_veh.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/AA_veh.png'
 )
 
 Texture_RTS_H_AA_veh is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\AA_veh.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA_veh.png'
 )
 
 Texture_appui is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\appui.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/appui.png'
 )
 
 Texture_RTS_H_appui is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\appui.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/appui.png'
 )
 
 Texture_CMD_tank is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\CMD_tank.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/CMD_tank.png'
 )
 
 Texture_RTS_H_CMD_tank is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\CMD_tank.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/CMD_tank.png'
 )
 
 Texture_RTS_H_ATGun is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\ATGun.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/ATGun.png'
 )
 
 Texture_Infantry is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\Infantry.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/Infantry.png'
 )
 
 Texture_RTS_H_Infantry is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\Infantry.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/Infantry.png'
 )
 
 Texture_AT is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\AT.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/AT.png'
 )
 
 Texture_RTS_H_AT is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\AT.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/AT.png'
 )
 
 Texture_CMD_inf is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\CMD_inf.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/CMD_inf.png'
 )
 
 Texture_RTS_H_CMD_inf is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\CMD_inf.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/CMD_inf.png'
 )
 
 Texture_assault is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\assault.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/assault.png'
 )
 
 Texture_RTS_H_assault is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\assault.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/assault.png'
 )
 
-Texture_reco_inf is TUIResourceTexture_Common
+Texture_RECO_inf is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\reco_inf.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/RECO_inf.png'
 )
 
-Texture_RTS_H_reco_inf is TUIResourceTexture_Common
+Texture_RTS_H_RECO_inf is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\reco_inf.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/RECO_inf.png'
 )
 
 Texture_mlrs is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\mlrs.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/mlrs.png'
 )
 
 Texture_RTS_H_mlrs is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\mlrs.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/mlrs.png'
 )
 
 Texture_supply is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\supply.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/supply.png'
 )
 
 Texture_RTS_H_supply is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\supply.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/supply.png'
 )
 
 Texture_transport_noweapon is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\transport_noweapon.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/transport_noweapon.png'
 )
 
 Texture_RTS_H_transport_noweapon is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\transport_noweapon.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/transport_noweapon.png'
 )
 
 Texture_manpad is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\manpad.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/manpad.png'
 )
 
 Texture_RTS_H_manpad is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\manpad.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/manpad.png'
 )
 
 Texture_transport_small is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\transport_small.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/transport_small.png'
 )
 
 Texture_RTS_H_transport_small is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\transport_small.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/transport_small.png'
 )
 
 Texture_HMG is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\HMG.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/HMG.png'
 )
 
 Texture_RTS_H_HMG is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\HMG.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/HMG.png'
 )
 
 Texture_AA_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\AA_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/AA_hel.png'
 )
 
 Texture_hel_nonIdentifie is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\hel_nonIdentifie.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/hel_nonIdentifie.png'
 )
 
 Texture_RTS_H_AA_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\AA_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA_hel.png'
 )
 
 Texture_RTS_H_hel_nonIdentifie is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\hel_nonIdentifie.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/hel_nonIdentifie.png'
 )
 
 Texture_ATGM_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\ATGM_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/ATGM_hel.png'
 )
 
 Texture_RTS_H_ATGM_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\ATGM_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/ATGM_hel.png'
 )
 
-Texture_support_hel is TUIResourceTexture_Common
+Texture_Support_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\support_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/Support_hel.png'
 )
 
-Texture_RTS_H_support_hel is TUIResourceTexture_Common
+Texture_RTS_H_Support_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\support_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/Support_hel.png'
 )
 
 Texture_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/hel.png'
 )
 
 Texture_RTS_H_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/hel.png'
 )
 
-Texture_reco_hel is TUIResourceTexture_Common
+Texture_RECO_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\reco_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/RECO_hel.png'
 )
 
-Texture_RTS_H_reco_hel is TUIResourceTexture_Common
+Texture_RTS_H_RECO_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\reco_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/RECO_hel.png'
 )
 
 Texture_CMD_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\CMD_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/CMD_hel.png'
 )
 
 Texture_RTS_H_CMD_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\CMD_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/CMD_hel.png'
 )
 
 Texture_hel_supply is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\hel_supply.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/hel_supply.png'
 )
 
 Texture_RTS_H_hel_supply is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\hel_supply.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/hel_supply.png'
 )
 
 Texture_ATGM_air is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\ATGM_air.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/ATGM_air.png'
 )
 
 Texture_RTS_H_ATGM_air is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\ATGM_air.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/ATGM_air.png'
 )
 
 Texture_RTS_H_avion_nonIdentifie is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\avion_nonIdentifie.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/avion_nonIdentifie.png'
 )
 
 Texture_Support_air is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\Support_air.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/Support_air.png'
 )
 
 Texture_RTS_H_Support_air is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\Support_air.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/Support_air.png'
 )
 
 Texture_AA_air is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\AA_air.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/AA_air.png'
 )
 
 Texture_RTS_H_AA_air is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\AA_air.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA_air.png'
 )
 
 Texture_SEAD_air is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\NATO\SEAD_air.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/SEAD_air.png'
 )
 
 Texture_RTS_H_SEAD_air is TUIResourceTexture_Common
 (
-    FileName      = 'Assets\2D\Interface\UseInGame\LabelIcons\RTS\SEAD_air.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/SEAD_air.png'
+)
+
+Texture_fob is TUIResourceTexture_Common
+(
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/fob.png'
+)
+
+Texture_RTS_H_fob is TUIResourceTexture_Common
+(
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/fob.png'
 )
 
 
@@ -395,8 +405,8 @@ NATORTSAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_RTS_H_mortar", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_mortar)]),
         ("Texture_infantry_nonIdentifie", MAP [(~/ComponentState/Normal, ~/Texture_infantry_nonIdentifie)]),
         ("Texture_RTS_H_infantry_nonIdentifie", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_infantry_nonIdentifie)]),
-        ("Texture_reco_veh", MAP [(~/ComponentState/Normal, ~/Texture_reco_veh)]),
-        ("Texture_RTS_H_reco_veh", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_reco_veh)]),
+        ("Texture_RECO_veh", MAP [(~/ComponentState/Normal, ~/Texture_RECO_veh)]),
+        ("Texture_RTS_H_RECO_veh", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_RECO_veh)]),
         ("Texture_AT_veh", MAP [(~/ComponentState/Normal, ~/Texture_AT_veh)]),
         ("Texture_RTS_H_AT_veh", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_AT_veh)]),
         ("Texture_CMD_veh", MAP [(~/ComponentState/Normal, ~/Texture_CMD_veh)]),
@@ -422,8 +432,8 @@ NATORTSAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_RTS_H_CMD_inf", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_CMD_inf)]),
         ("Texture_assault", MAP [(~/ComponentState/Normal, ~/Texture_assault)]),
         ("Texture_RTS_H_assault", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_assault)]),
-        ("Texture_reco_inf", MAP [(~/ComponentState/Normal, ~/Texture_reco_inf)]),
-        ("Texture_RTS_H_reco_inf", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_reco_inf)]),
+        ("Texture_RECO_inf", MAP [(~/ComponentState/Normal, ~/Texture_RECO_inf)]),
+        ("Texture_RTS_H_RECO_inf", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_RECO_inf)]),
         ("Texture_mlrs", MAP [(~/ComponentState/Normal, ~/Texture_mlrs)]),
         ("Texture_RTS_H_mlrs", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_mlrs)]),
         ("Texture_supply", MAP [(~/ComponentState/Normal, ~/Texture_supply)]),
@@ -442,12 +452,12 @@ NATORTSAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_RTS_H_hel_nonIdentifie", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_hel_nonIdentifie)]),
         ("Texture_ATGM_hel", MAP [(~/ComponentState/Normal, ~/Texture_ATGM_hel)]),
         ("Texture_RTS_H_ATGM_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_ATGM_hel)]),
-        ("Texture_support_hel", MAP [(~/ComponentState/Normal, ~/Texture_support_hel)]),
-        ("Texture_RTS_H_support_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_support_hel)]),
+        ("Texture_Support_hel", MAP [(~/ComponentState/Normal, ~/Texture_Support_hel)]),
+        ("Texture_RTS_H_Support_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_Support_hel)]),
         ("Texture_hel", MAP [(~/ComponentState/Normal, ~/Texture_hel)]),
         ("Texture_RTS_H_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_hel)]),
-        ("Texture_reco_hel", MAP [(~/ComponentState/Normal, ~/Texture_reco_hel)]),
-        ("Texture_RTS_H_reco_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_reco_hel)]),
+        ("Texture_RECO_hel", MAP [(~/ComponentState/Normal, ~/Texture_RECO_hel)]),
+        ("Texture_RTS_H_RECO_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_RECO_hel)]),
         ("Texture_CMD_hel", MAP [(~/ComponentState/Normal, ~/Texture_CMD_hel)]),
         ("Texture_RTS_H_CMD_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_CMD_hel)]),
         ("Texture_hel_supply", MAP [(~/ComponentState/Normal, ~/Texture_hel_supply)]),
@@ -461,6 +471,8 @@ NATORTSAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_RTS_H_AA_air", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_AA_air)]),
         ("Texture_SEAD_air", MAP [(~/ComponentState/Normal, ~/Texture_SEAD_air)]),
         ("Texture_RTS_H_SEAD_air", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_SEAD_air)]),
+        ("Texture_fob", MAP [(~/ComponentState/Normal, ~/Texture_fob)]),
+        ("Texture_RTS_H_fob", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_fob)]),
     ]
 )
 

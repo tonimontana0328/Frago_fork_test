@@ -181,11 +181,11 @@ Alternatives_CH53_Sea_Stallion_US is
     DepictionDescriptor_LOD_HelicoMid( MeshDescriptor = Modele_CH53_Sea_Stallion_US_MID ),
     DepictionDescriptor_LOD_HelicoLow( MeshDescriptor = Modele_CH53_Sea_Stallion_US_LOW ),
 ]
-Alternatives_EF111_Raven is 
+Alternatives_EF111_Raven_US is 
 [
-    DepictionDescriptor_LOD_AirplaneHigh( MeshDescriptor = Modele_EF111_Raven ),
-    DepictionDescriptor_LOD_AirplaneMid( MeshDescriptor = Modele_EF111_Raven_MID ),
-    DepictionDescriptor_LOD_AirplaneLow( MeshDescriptor = Modele_EF111_Raven_LOW ),
+    DepictionDescriptor_LOD_AirplaneHigh( MeshDescriptor = Modele_EF111_Raven_US ),
+    DepictionDescriptor_LOD_AirplaneMid( MeshDescriptor = Modele_EF111_Raven_US_MID ),
+    DepictionDescriptor_LOD_AirplaneLow( MeshDescriptor = Modele_EF111_Raven_US_LOW ),
 ]
 Alternatives_F104G_Starfighter_AT_RFA is 
 [
@@ -373,11 +373,11 @@ Alternatives_F4F_Phantom_II_RKT2_RFA is
     DepictionDescriptor_LOD_AirplaneMid( MeshDescriptor = Modele_F4F_Phantom_II_RKT2_RFA_MID ),
     DepictionDescriptor_LOD_AirplaneLow( MeshDescriptor = Modele_F4F_Phantom_II_RKT2_RFA_LOW ),
 ]
-Alternatives_F4_Phantom_AA_F3 is 
+Alternatives_F4_Phantom_AA_F3_UK is 
 [
-    DepictionDescriptor_LOD_AirplaneHigh( MeshDescriptor = Modele_F4_Phantom_AA_F3 ),
-    DepictionDescriptor_LOD_AirplaneMid( MeshDescriptor = Modele_F4_Phantom_AA_F3_MID ),
-    DepictionDescriptor_LOD_AirplaneLow( MeshDescriptor = Modele_F4_Phantom_AA_F3_LOW ),
+    DepictionDescriptor_LOD_AirplaneHigh( MeshDescriptor = Modele_F4_Phantom_AA_F3_UK ),
+    DepictionDescriptor_LOD_AirplaneMid( MeshDescriptor = Modele_F4_Phantom_AA_F3_UK_MID ),
+    DepictionDescriptor_LOD_AirplaneLow( MeshDescriptor = Modele_F4_Phantom_AA_F3_UK_LOW ),
 ]
 Alternatives_F4_Wild_Weasel_US is 
 [

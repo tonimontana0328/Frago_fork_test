@@ -275,26 +275,26 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
         ( "challenge_test_armory0",             challenge (TextureToken = 'challenge_test_armory0' )),
         ( "challenge_test_armory1",             challenge (TextureToken = 'challenge_test_armory1' )),
 
-        // Defense en profondeur
+        // BlackHorsesLastStand
         ( "challenge_defense_1",             PORTRAIT_PauseAndTexture (TextureSteelman = 'challenge_defense_1' IsBriefing = true )),
+        ("intro_BlackHorsesLastStand" ,    TitreMissionFullscreen (VideoName = "GameData:/Assets/Videos/challenge/BlackHorsesLastStand/Intro_Operation_BlackHorse_2.webm" )),
 
         // RedJuggernaut
-        ("titre_RedJuggernaut" , TitreMissionFullscreen
-            (
-                ImageSize = [1106*1.7,676*1.7]
-                HasImage = true
-                TextureToken = 'RedJuggernaut'
-                AnimationTotalDuration = 15
-                facteur_aggrandissement = 2
-                //VideoName = "GameData:/Assets/Videos/challenge/BlackHorsesLastStand_Intro.webm"
-            )
-        ),
+        ("intro_RedJuggernaut" ,    TitreMissionFullscreen (VideoName = "GameData:/Assets/Videos/challenge/RedJuggernaut/Intro_Operation_Steam_Roller.webm" )),
         ( "RedJuggernaut_difficulty",               Difficulte (texture = 'RedJuggernaut' )),
 
-        // steelbeast
+        // BackhandBlow
 
         ("intro_steelbeast" ,    TitreMissionFullscreen (VideoName = "GameData:/Assets/Videos/challenge/steelbeast/Intro_Operation_Effets_TV_No_Music_No_Title.webm" )),
         ( "steelbeast_difficulty",               Difficulte (texture = 'Steelbeast_Last_Frame_No_Effects' )),
+
+        // TheKitzingenRuse
+
+        ("intro_TheKitzingenRuse" ,    TitreMissionFullscreen (VideoName = "GameData:/Assets/Videos/challenge/TheKitzingenRuse/Intro_Operation_The_Kitzingen_Ruse.webm" )),
+
+        // Gotterdammerung
+
+        ("intro_Gotterdammerung" ,    TitreMissionFullscreen (VideoName = "GameData:/Assets/Videos/challenge/Gotterdammerung/Intro_Operation_Gotterdammerung.webm" )),
 
         //-------------------------------------------------------------------------------------
         // Steelman
@@ -309,7 +309,9 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
         ( "Steelman_test_general2",             PORTRAIT_PauseAndTexture (TextureSteelman_FullScreen = 'Steelman_test_general2' )),
         ( "Steelman_test_regles",             PORTRAIT_PauseAndTexture (TextureSteelman = 'Steelman_test_regles' )),
 
-
+        // generaux vide
+        ( "general_DDR",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'general_DDR' )),
+        ( "general_US",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'general_US' )),
         // tuto_1
         ( "Steelman_tuto_0",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman = 'Steelman_tuto_0' )),
         ( "Steelman_tuto_1",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman = 'Steelman_tuto_1' )),
@@ -464,6 +466,8 @@ UseInGame_AdditionalLDHintTextureBank is TBUCKToolAdditionalTextureBank
     ( "Steelman_tuto_2",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/tuto_1/tuto_2.png' ))] ),
     ( "Steelman_tuto_3",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/tuto_1/tuto_3.png' ))] ),
 
+    ( "general_DDR",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/general_DDR.png' ))] ),
+    ( "general_US",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/general_US.png' ))] ),
     // bad h.
     ( "bad_hersfeld_sov_01",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/bad_hersfeld/sov_01.png' ))] ),
     ( "bad_hersfeld_sov_02",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/bad_hersfeld/sov_02.png' ))] ),

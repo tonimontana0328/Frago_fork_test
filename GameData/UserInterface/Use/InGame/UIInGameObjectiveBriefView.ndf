@@ -99,6 +99,8 @@ private ObjectivePanelOneObjectiveContent is BUCKListDescriptor
         ),
         BUCKListElementDescriptor
         (
+            ExtendWeight = 1.0
+
             ComponentDescriptor = BUCKListDescriptor
             (
                 ComponentFrame = TUIFramePropertyRTTI
@@ -146,19 +148,13 @@ private ObjectivePanelOneObjectiveContent is BUCKListDescriptor
                             ComponentFrame = TUIFramePropertyRTTI
                             (
                                 RelativeWidthHeight = [1.0, 0.0]
-                                MagnifiableWidthHeight = [0,30]
+                                // MagnifiableWidthHeight = [0,30]
                             )
 
-                            ParagraphStyle = TParagraphStyleRTTI
-                            (
-                                Alignment = UIText_Left
-                                VerticalAlignment = UIText_Up
-                                BigWordAction = ~/BigWordAction/BigWordNewLine
-                                InterLine = 0
-                            )
+                            ParagraphStyle = ~/LDHintParagraphStyleLeftAlignedExact
                             HorizontalFitStyle = ~/FitStyle/UserDefined
-                            VerticalFitStyle = ~/FitStyle/UserDefined
-                            BigLineAction = ~/BigLineAction/BalancedMultiline
+                            VerticalFitStyle = ~/FitStyle/FitToContent
+                            BigLineAction = ~/BigLineAction/MultiLine
                             TextStyle = 'Default'
                             TypefaceToken = "Eurostyle_Italic"
 
@@ -168,7 +164,6 @@ private ObjectivePanelOneObjectiveContent is BUCKListDescriptor
                     ),
                 ]
             )
-            ExtendWeight = 1.0
         ),
     ]
 )

@@ -21,8 +21,6 @@ export Descriptor_UnitCadavre_Quartier_Gros is TEntityDescriptor(
             [
                 Flag_Detectable,
                 Flag_Batiment,
-                Flag_Target,
-                Flag_Blessable,
             ]
         ),
             TPositionModuleDescriptor
@@ -89,8 +87,6 @@ export Descriptor_UnitCadavre_Quartier_HLM is TEntityDescriptor(
             [
                 Flag_Detectable,
                 Flag_Batiment,
-                Flag_Target,
-                Flag_Blessable,
             ]
         ),
             TPositionModuleDescriptor
@@ -157,8 +153,6 @@ export Descriptor_UnitCadavre_Quartier_Moyen is TEntityDescriptor(
             [
                 Flag_Detectable,
                 Flag_Batiment,
-                Flag_Target,
-                Flag_Blessable,
             ]
         ),
             TPositionModuleDescriptor
@@ -225,8 +219,6 @@ export Descriptor_UnitCadavre_Quartier_Petit is TEntityDescriptor(
             [
                 Flag_Detectable,
                 Flag_Batiment,
-                Flag_Target,
-                Flag_Blessable,
             ]
         ),
             TPositionModuleDescriptor

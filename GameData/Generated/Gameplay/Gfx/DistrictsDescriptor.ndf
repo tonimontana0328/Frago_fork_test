@@ -21,8 +21,6 @@ export Descriptor_District_Quartier_Gros is TEntityDescriptor(
             [
                 Flag_Detectable,
                 Flag_Batiment,
-                Flag_Target,
-                Flag_Blessable,
             ]
         ),
             TModuleSelector
@@ -161,8 +159,6 @@ export Descriptor_District_Quartier_HLM is TEntityDescriptor(
             [
                 Flag_Detectable,
                 Flag_Batiment,
-                Flag_Target,
-                Flag_Blessable,
             ]
         ),
             TModuleSelector
@@ -301,8 +297,6 @@ export Descriptor_District_Quartier_Moyen is TEntityDescriptor(
             [
                 Flag_Detectable,
                 Flag_Batiment,
-                Flag_Target,
-                Flag_Blessable,
             ]
         ),
             TModuleSelector
@@ -441,8 +435,6 @@ export Descriptor_District_Quartier_Petit is TEntityDescriptor(
             [
                 Flag_Detectable,
                 Flag_Batiment,
-                Flag_Target,
-                Flag_Blessable,
             ]
         ),
             TModuleSelector

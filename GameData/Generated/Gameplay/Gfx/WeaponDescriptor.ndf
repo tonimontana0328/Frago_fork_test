@@ -74213,7 +74213,7 @@ export WeaponDescriptor_F4F_Phantom_II_RKT2_RFA is TWeaponManagerModuleDescripto
         )
     ]
 )
-export WeaponDescriptor_F4_Phantom_AA_F3 is TWeaponManagerModuleDescriptor
+export WeaponDescriptor_F4_Phantom_AA_F3_UK is TWeaponManagerModuleDescriptor
 (
     DelayIdleAmmoSorting = DelayIdleAmmoSorting
     DefaultHoldFireState = False

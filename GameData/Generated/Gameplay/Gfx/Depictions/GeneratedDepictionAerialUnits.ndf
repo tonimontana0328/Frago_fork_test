@@ -2491,12 +2491,12 @@ Gfx_CH53_Sea_Stallion_US_Autogen is TacticAerialDepictionTemplate
             SubDepiction_Pilote2(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_US MeshDescriptorLow = MeshDescriptor_Pilote_Helico_US_LOW),
         ]
 )
-// Dépiction de l'unité EF111_Raven
-Gfx_EF111_Raven_Autogen is TacticAerialDepictionTemplate
+// Dépiction de l'unité EF111_Raven_US
+Gfx_EF111_Raven_US_Autogen is TacticAerialDepictionTemplate
 (
-        CoatingName = 'EF111_Raven'
+        CoatingName = 'EF111_Raven_US'
         Selector = SpecificAirplaneDepictionSelector
-        Alternatives = Alternatives_EF111_Raven
+        Alternatives = Alternatives_EF111_Raven_US
 
         Operators = 
         [
@@ -4424,10 +4424,10 @@ Gfx_F4F_Phantom_II_RKT2_RFA_Autogen is TacticAerialDepictionTemplate
 
         SubDepictionGenerators = [ SubGenerators_F4F_Phantom_II_RKT2_RFA ]
 )
-// Dépiction de l'unité F4_Phantom_AA_F3
-Op_F4_Phantom_AA_F3_Weapon2 is DepictionOperator_WeaponMissileCarriageFire
+// Dépiction de l'unité F4_Phantom_AA_F3_UK
+Op_F4_Phantom_AA_F3_UK_Weapon2 is DepictionOperator_WeaponMissileCarriageFire
 (
-    Connoisseur = MissileCarriage_F4_Phantom_AA_F3
+    Connoisseur = MissileCarriage_F4_Phantom_AA_F3_UK
     FireEffectTag = "weapon_effet_tag2"
     NbProj = 1
     WeaponIndex = 2
@@ -4436,9 +4436,9 @@ Op_F4_Phantom_AA_F3_Weapon2 is DepictionOperator_WeaponMissileCarriageFire
         "WeaponShootData_0_2",
     ]
 )
-Op_F4_Phantom_AA_F3_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
+Op_F4_Phantom_AA_F3_UK_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
 (
-    Connoisseur = MissileCarriage_F4_Phantom_AA_F3
+    Connoisseur = MissileCarriage_F4_Phantom_AA_F3_UK
     FireEffectTag = "weapon_effet_tag3"
     NbProj = 1
     WeaponIndex = 3
@@ -4447,17 +4447,17 @@ Op_F4_Phantom_AA_F3_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
         "WeaponShootData_0_3",
     ]
 )
-Gfx_F4_Phantom_AA_F3_Autogen is TacticAerialDepictionTemplate
+Gfx_F4_Phantom_AA_F3_UK_Autogen is TacticAerialDepictionTemplate
 (
-        CoatingName = 'F4_Phantom_AA_F3'
+        CoatingName = 'F4_Phantom_AA_F3_UK'
         Selector = SpecificAirplaneDepictionSelector
-        Alternatives = Alternatives_F4_Phantom_AA_F3
+        Alternatives = Alternatives_F4_Phantom_AA_F3_UK
 
         Operators = 
         [
             DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
-            Op_F4_Phantom_AA_F3_Weapon2,
-            Op_F4_Phantom_AA_F3_Weapon3,
+            Op_F4_Phantom_AA_F3_UK_Weapon2,
+            Op_F4_Phantom_AA_F3_UK_Weapon3,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
             DepictionOperator_Airplane,
@@ -4480,7 +4480,7 @@ Gfx_F4_Phantom_AA_F3_Autogen is TacticAerialDepictionTemplate
             SubDepiction_Pilote2(MeshDescriptorHigh = MeshDescriptor_Pilote_UK MeshDescriptorLow = MeshDescriptor_Pilote_UK_LOW),
         ]
 
-        SubDepictionGenerators = [ SubGenerators_F4_Phantom_AA_F3 ]
+        SubDepictionGenerators = [ SubGenerators_F4_Phantom_AA_F3_UK ]
 )
 // Dépiction de l'unité F4_Wild_Weasel_US
 Op_F4_Wild_Weasel_US_Weapon2 is DepictionOperator_WeaponMissileCarriageFire

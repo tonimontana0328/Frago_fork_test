@@ -208,6 +208,12 @@ CombatGroupsTabInStrategic is BUCKDraggableContainerDescriptor
 
             Components =
             [
+                BUCKSpecificHintableArea
+                (
+                    HintTitleToken = 'sm_comt'
+                    HintBodyToken = 'sm_comc'
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                ),
                 PanelRoundedCorner
                 (
                     ElementName = "CombatGroupRoundedContainer"
@@ -254,7 +260,7 @@ PawnDivisionInfosBanner is BUCKListDescriptor
     HasBackground = true
     BackgroundBlockColorToken = 'SM_Ebony'
 
-    LastMargin = TRTTILength (Magnifiable = 7.0)
+    LastMargin = TRTTILength (Magnifiable = 0.0)
 
     Elements =
     [
@@ -277,6 +283,18 @@ PawnDivisionInfosBanner is BUCKListDescriptor
                     AlignementToAnchor = [0.5, 0.5]
                     AlignementToFather = [0.5, 0.5]
                 )
+                Components =
+                [
+                BUCKSpecificHintableArea
+                (
+                    HintTitleToken = ''
+                    HintBodyToken = 'sm_icoba'
+                    HintExtendedToken =''
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                )
+                ]
+
+
             )
         ),
         BUCKListElementDescriptor
@@ -325,7 +343,7 @@ PawnDivisionInfosBanner is BUCKListDescriptor
 
                 ComponentFrame = TUIFramePropertyRTTI
                 (
-                    MagnifiableWidthHeight = [30.0, 30.0]
+                    MagnifiableWidthHeight = [40.0, 40.0]
                     AlignementToFather = [0.0, 0.5]
                     AlignementToAnchor = [0.0, 0.5]
                 )
@@ -338,8 +356,10 @@ PawnDivisionInfosBanner is BUCKListDescriptor
                 [
                     BUCKSpecificHintableArea
                     (
-                        ElementName = "DivisionHint"
-                        DicoToken = ~/LocalisationConstantes/dico_unites
+                        HintTitleToken = ''
+                        HintBodyToken = 'sm_divic'
+                        HintExtendedToken =''
+                        DicoToken = ~/LocalisationConstantes/dico_interface_ingame
                     )
                 ]
             )
@@ -392,6 +412,15 @@ PawnName is BUCKListDescriptor
 
                 TextColor = "SM_paleSilver"
                 TextSize = "20"
+
+                Hint = BUCKSpecificHintableArea
+                (
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                    HintTitleToken = ''
+                    HintBodyToken = 'sm_nomba'
+                    HintExtendedToken = ''
+                )
+
             )
         ),
         BUCKListElementDescriptor
@@ -420,6 +449,14 @@ PawnName is BUCKListDescriptor
 
                 TextColor = "SM_paleSilver"
                 TextSize = "12"
+
+                Hint = BUCKSpecificHintableArea
+                (
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                    HintTitleToken = ''
+                    HintBodyToken = 'sm_divna'
+                    HintExtendedToken = ''
+                )
             )
         ),
     ]
@@ -457,6 +494,8 @@ PawnCharacteristicList is BUCKListDescriptor
                 TextureToken = "UseStrategic_SelectionPanel_Attack"
                 TextColor = "SM_paleSilver"
                 TextToken = "AttStre"
+                HintTitleToken = "sm_battt"
+                HintBodyToken =  "sm_battc"
             )
         ),
         BUCKListElementDescriptor
@@ -468,6 +507,8 @@ PawnCharacteristicList is BUCKListDescriptor
                 TextureToken = "UseStrategic_SelectionPanel_Defense"
                 TextColor = "SM_paleSilver"
                 TextToken = "DefStre"
+                HintTitleToken = "sm_bdeft"
+                HintBodyToken =  "sm_bdefc"
             )
         ),
         BUCKListElementDescriptor
@@ -479,6 +520,9 @@ PawnCharacteristicList is BUCKListDescriptor
                 TextureToken = "UseStrategic_SelectionPanel_fatigue"
                 TextColor = "SM_paleSilver"
                 TextToken = "T_SLASH2"
+                HintTitleToken = "sm_fatt"
+                HintBodyToken =  "sm_fatc"
+
             )
         ),
         BUCKListElementDescriptor
@@ -490,6 +534,8 @@ PawnCharacteristicList is BUCKListDescriptor
                 TextureToken = "UseStrategic_SelectionPanel_PA"
                 TextColor = "SM_paleSilver"
                 TextToken = "T_SLASH2"
+                HintTitleToken = "sm_pat"
+                HintBodyToken =  "sm_pac"
             )
         ),
         BUCKListElementDescriptor
@@ -512,6 +558,9 @@ template DisplayAttackAndDefenseValueForPawn
     TextColor : string,
     ElementName : string,
     TextToken : string,
+    HintExtendedToken : string = '',
+    HintBodyToken : string = '',
+    HintTitleToken : string = '',
 ]
  is BUCKListDescriptor
 (
@@ -543,6 +592,17 @@ template DisplayAttackAndDefenseValueForPawn
 
                 TextureColorToken = <TextureColorTokenForIcone>
                 TextureToken = <TextureToken>
+
+                Components =
+                [
+                BUCKSpecificHintableArea
+                (
+                    HintTitleToken = <HintTitleToken>
+                    HintBodyToken = <HintBodyToken>
+                    HintExtendedToken = <HintExtendedToken>
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                )
+                ]
             )
         ),
         BUCKListElementDescriptor
@@ -574,6 +634,14 @@ template DisplayAttackAndDefenseValueForPawn
                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
                 TextColor = <TextColor>
                 TextSize = "16"
+
+                Hint = BUCKSpecificHintableArea
+                (
+                    HintTitleToken = <HintTitleToken>
+                    HintBodyToken = <HintBodyToken>
+                    HintExtendedToken = <HintExtendedToken>
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                )
             )
         ),
     ]

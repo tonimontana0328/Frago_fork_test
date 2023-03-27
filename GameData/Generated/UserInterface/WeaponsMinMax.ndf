@@ -944,11 +944,11 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 0 * Metre // Sniper PSG1
                )
                MaxRange = TMinMaxValue (
-                       Min = 3396 // Sniper PSG1
+                       Min = 1415 // Sniper VSS Vintorez
                        Max = 3962 // Sniper FRF2
                )
                MaxRangeTBA = TMinMaxValue (
-                       Min = 1981 // Sniper PSG1
+                       Min = 1274 // Sniper VSS Vintorez
                        Max = 1981 // Sniper PSG1
                )
                MaxRangeHA = TMinMaxValue (
@@ -956,11 +956,11 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 0 // Sniper PSG1
                )
                AimTime = TMinMaxValue (
-                       Min = 5.0 // Sniper PSG1
+                       Min = 3.0 // Sniper VSS Vintorez
                        Max = 5.0 // Sniper PSG1
                )
                ReloadTime = TMinMaxValue (
-                       Min = 3.0 // Sniper PSG1
+                       Min = 2.0 // Sniper VSS Vintorez
                        Max = 5.0 // Sniper FRF2
                )
                TurretSpeed = TMinMaxValue (
@@ -977,14 +977,14 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                RateOfFire = TMinMaxValue (
                        Min = 12.0 // Sniper FRF2
-                       Max = 20.0 // Sniper PSG1
+                       Max = 30.0 // Sniper VSS Vintorez
                )
                Penetration = TMinMaxValue (
                        Min = 1 // Sniper PSG1
                        Max = 1 // Sniper PSG1
                )
                TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 3.0 // Sniper PSG1
+                       Min = 2.0 // Sniper VSS Vintorez
                        Max = 5.0 // Sniper FRF2
                )
                NbShotsBySalvo = TMinMaxValue (
@@ -1076,7 +1076,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                // PhysicalDamages x weapon_count_ (Number of weapons)
                PhysicalDamages = TMinMaxValue (
                        Min = 0.684 // RocketAir S5 57mm x8
-                       Max = 1.524 // RocketAir Zuni 1272mm x8
+                       Max = 2.88 // FakeRoquette S_24
                )
                // SuppressDamages x weapon_count_ (Number of weapons)
                SuppressDamages = TMinMaxValue (

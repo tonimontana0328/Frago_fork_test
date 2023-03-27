@@ -27,7 +27,7 @@ AlertLine is BUCKButtonDescriptor
         RelativeWidthHeight = [1.0, 0.0]
         MagnifiableWidthHeight = [0.0, AlertLineHeight]
     )
-
+    MaskEvents  = false
     HasBorder = false
 
     Components =
@@ -92,6 +92,7 @@ BUCKSpecificHUDAlertPanelMainComponentDescriptor is BUCKListDescriptor
         MagnifiableWidthHeight = [400.0, 0.0]
         AlignementToFather = [1.0, 0.0]
         AlignementToAnchor = [1.0, 0.0]
+        MagnifiableOffset = [40,0]
     )
 
     Axis = ~/ListAxis/Vertical

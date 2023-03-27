@@ -191,12 +191,12 @@ TextStyleFactoryName is TTextStyleRTTI
 )
 TextStyleEngagement is TTextStyleRTTI
 (
-    ColorBottom     = [  0,   0,   0, 255]
+    ColorBottom     = [  100,   100,   100, 255]
     ColorUp = [  200,   200,   200, 255]
     ColorStroke = [  255,   255,   255, 255]
     Stroke = true
     StrokeSize = 1
-    StrokeHardness = 0.96
+    StrokeHardness = 0.10
     TextThickness = 0.21
     FontSize = 1
     AllowSmallFont = true
@@ -257,6 +257,32 @@ TextStylePointAction is TTextStyleRTTI
 (
     ColorBottom = [  125,   125,   125, 255]
     ColorUp     = BlancPur
+    ColorStroke = [  0,   0,   0, 255]
+    Stroke = true
+    StrokeSize = 1
+    StrokeHardness = 0.96
+    TextThickness = 0.21
+    FontSize = 1
+    AllowSmallFont = true
+)
+
+TextStylePointActionREDFOR is TTextStyleRTTI
+(
+    ColorBottom = [  180, 25, 25, 255]
+    ColorUp     = [ 255, 100, 100, 255]
+    ColorStroke = [  0,   0,   0, 255]
+    Stroke = true
+    StrokeSize = 1
+    StrokeHardness = 0.96
+    TextThickness = 0.21
+    FontSize = 1
+    AllowSmallFont = true
+)
+
+TextStylePointActionBLUFOR is TTextStyleRTTI
+(
+    ColorBottom = [ 25, 25, 180, 255]
+    ColorUp     = [ 100, 100, 255, 255]
     ColorStroke = [  0,   0,   0, 255]
     Stroke = true
     StrokeSize = 1

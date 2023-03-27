@@ -312,7 +312,7 @@ Texture_Interface_Weapon_nr30 is TUIResourceTexture_Common
 )
 Texture_Interface_Weapon_satchel is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/ATO_54.png"
+    FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/satchel.png"
 )
 Texture_Interface_Weapon_12_7_mm_M2HB is TUIResourceTexture_Common
 (

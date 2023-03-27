@@ -81,15 +81,15 @@ export CubeAction_Menu_Ordres_helicos is TCubeActionMenuDescriptor
             ]
         ),
         (
-            6,
-            [
-                ~/CubeAction_Order_Land,
-            ]
-        ),
-        (
             8,
             [
                 ~/CubeAction_Order_UnloadFromTransport,
+            ]
+        ),
+        (
+            9,
+            [
+                ~/CubeAction_Order_Land,
             ]
         ),
         (

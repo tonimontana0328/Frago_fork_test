@@ -151,9 +151,9 @@ GhostDepiction_CH53_Sea_Stallion_US is GhostAerialDepictionTemplate
     Alternatives = Alternatives_CH53_Sea_Stallion_US
     Selector = SpecificHelicoDepictionSelector
 )
-GhostDepiction_EF111_Raven is GhostAerialDepictionTemplate
+GhostDepiction_EF111_Raven_US is GhostAerialDepictionTemplate
 (
-    Alternatives = Alternatives_EF111_Raven
+    Alternatives = Alternatives_EF111_Raven_US
     Selector = SpecificAirplaneDepictionSelector
 )
 GhostDepiction_F104G_Starfighter_AT_RFA is GhostAerialDepictionTemplate
@@ -311,9 +311,9 @@ GhostDepiction_F4F_Phantom_II_RKT2_RFA is GhostAerialDepictionTemplate
     Alternatives = Alternatives_F4F_Phantom_II_RKT2_RFA
     Selector = SpecificAirplaneDepictionSelector
 )
-GhostDepiction_F4_Phantom_AA_F3 is GhostAerialDepictionTemplate
+GhostDepiction_F4_Phantom_AA_F3_UK is GhostAerialDepictionTemplate
 (
-    Alternatives = Alternatives_F4_Phantom_AA_F3
+    Alternatives = Alternatives_F4_Phantom_AA_F3_UK
     Selector = SpecificAirplaneDepictionSelector
 )
 GhostDepiction_F4_Wild_Weasel_US is GhostAerialDepictionTemplate

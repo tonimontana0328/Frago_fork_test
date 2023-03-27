@@ -703,7 +703,7 @@ AllUnitsTactic is [
     ~/Descriptor_Unit_Alpha_Jet_A_he_RFA,
     ~/Descriptor_Unit_Alpha_Jet_A_nplm_RFA,
     ~/Descriptor_Unit_Alpha_Jet_A_rkt_RFA,
-    ~/Descriptor_Unit_EF111_Raven,
+    ~/Descriptor_Unit_EF111_Raven_US,
     ~/Descriptor_Unit_F104G_Starfighter_AT_RFA,
     ~/Descriptor_Unit_F104G_Starfighter_HE_RFA,
     ~/Descriptor_Unit_F104G_Starfighter_RFA,
@@ -735,7 +735,7 @@ AllUnitsTactic is [
     ~/Descriptor_Unit_F4F_Phantom_II_HE2_RFA,
     ~/Descriptor_Unit_F4F_Phantom_II_RKT1_RFA,
     ~/Descriptor_Unit_F4F_Phantom_II_RKT2_RFA,
-    ~/Descriptor_Unit_F4_Phantom_AA_F3,
+    ~/Descriptor_Unit_F4_Phantom_AA_F3_UK,
     ~/Descriptor_Unit_F4_Wild_Weasel_US,
     ~/Descriptor_Unit_G91_R3_Gina_HE_RFA,
     ~/Descriptor_Unit_G91_R3_Gina_NPL_RFA,
@@ -818,6 +818,12 @@ AllUnitsTactic is [
     ~/Descriptor_Unit_Tornado_IDS_MW1_RFA,
     ~/Descriptor_Unit_Tornado_IDS_RFA,
 
+    ~/Descriptor_Unit_FOB_DDR,
+    ~/Descriptor_Unit_FOB_FR,
+    ~/Descriptor_Unit_FOB_RFA,
+    ~/Descriptor_Unit_FOB_SOV,
+    ~/Descriptor_Unit_FOB_UK,
+    ~/Descriptor_Unit_FOB_US,
 
 
 ]

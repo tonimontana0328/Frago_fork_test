@@ -131,34 +131,32 @@ private Texte_Mission is BUCKListDescriptor
             ComponentDescriptor = BUCKMultiListContentElementDescriptor
             (
                 ElementName = "IsCompletedMultilist"
-                ComponentFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [0.0, 1.0] )
-                FitStyle = ~/ContainerFitStyle/FitToContentHorizontally
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    MagnifiableWidthHeight = [ChallengeDoneColumnWidth, 0.0]
+                    RelativeWidthHeight = [0.0, 1.0]
+                )
 
                 Components =
                 [
-                    BUCKContainerDescriptor
+                    BUCKTextureDescriptor
                     (
+                        ElementName = "IsCompletedTexture"
                         ComponentFrame = TUIFramePropertyRTTI
                         (
-                            RelativeWidthHeight = [0.0, 1.0]
-                            MagnifiableWidthHeight = [ChallengeDoneColumnWidth, 0.0]
+                            //RelativeWidthHeight = [0.8, 1.0]
+                            AlignementToAnchor = [0.5, 0.5]
+                            AlignementToFather = [0.5, 0.5]
                         )
+                        TextureColorToken = 'Noir'
+                        ResizeMode = ~/TextureResizeMode/FitToContent
 
-                        Components =
-                        [
-                            BUCKTextureDescriptor
-                            (
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    MagnifiableWidthHeight = [16.0, 16.0]
-                                    AlignementToAnchor = [0.5, 0.5]
-                                    AlignementToFather = [0.5, 0.5]
-                                )
-                                TextureToken = 'challenge_star'
-                                TextureColorToken = 'Noir'
-                            )
-                        ]
-                    )
+                        TextureFrame = TUIFramePropertyRTTI
+                        (
+                            AlignementToAnchor = [0.5, 0.5]
+                            AlignementToFather = [0.5, 0.5]
+                        )
+                    ),
                 ]
             )
         ),
@@ -226,37 +224,44 @@ private Texte_Mission is BUCKListDescriptor
         (
             ComponentDescriptor = BUCKMultiListContentElementDescriptor
             (
-                ElementName = "OperationDifficultyMultilist"
+                ElementName = "OperationCountryMultilist"
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     RelativeWidthHeight = [0.0, 1.0]
+                    MagnifiableWidthHeight = [ChallengeCountryColumnWidth, 0.0]
                 )
-                FitStyle = ~/ContainerFitStyle/FitToContentHorizontally
 
                 Components =
                 [
-                    BUCKTextDescriptor
+                    BUCKContainerDescriptor
                     (
-                        ElementName = "MissionDifficulty"
-
                         ComponentFrame = TUIFramePropertyRTTI
                         (
-                            RelativeWidthHeight = [0.0, 1.0]
-                            MagnifiableWidthHeight = [ChallengeDifficultyColumnWidth, 0.0]
+                            MagnifiableWidthHeight = [30.0, 25.0]
+                            AlignementToAnchor = [0.5, 0.5]
+                            AlignementToFather = [0.5, 0.5]
                         )
 
-                        ParagraphStyle = TParagraphStyleRTTI
-                        (
-                            Alignment = ~/UIText_Center
-                            VerticalAlignment = ~/UIText_VerticalCenter
-                        )
+                        Components =
+                        [
+                            BUCKTextureDescriptor
+                            (
+                                ElementName = "OperationCountryTexture"
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1.0, 1.0]
+                                )
 
-                        TextStyle = 'Default'
-                        TypefaceToken = "Eurostyle"
-                        TextSize = '12'
-                        TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                        TextColor = "Noir"
-                        TextToken = "CD_DIFF"
+                                TextureFrame   = TUIFramePropertyRTTI
+                                (
+                                    AlignementToAnchor = [0.5, 0.5]
+                                    AlignementToFather = [0.5, 0.5]
+                                )
+
+                                ClipTextureToComponent = true
+                                ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
+                            )
+                        ]
                     )
                 ]
             )
@@ -291,7 +296,7 @@ private Texte_Mission is BUCKListDescriptor
                         TypefaceToken = "Eurostyle"
                         TextSize = '12'
                         TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                        TextColor = "GrisClair"
+                        TextColor = "Noir"
                         TextToken = "CL_DIFF"
                     )
                 ]
@@ -318,6 +323,91 @@ private ScenarioBriefsRack is BUCKRackDescriptor
 
 //-------------------------------------------------------------------------------------
 
+private ScenarioDifficultyChoiceRadioManager is TBUCKRadioButtonManager()
+
+private ScenarioDifficultyComponent is BUCKButtonDescriptor
+(
+    ElementName = "DifficultyButton"
+    FitStyle = ~/ContainerFitStyle/FitToContent
+    RadioButtonManager = ~/ScenarioDifficultyChoiceRadioManager
+    IsTogglable = true
+    CannotDeselect = true
+
+    Components =
+    [
+        BUCKListDescriptor
+        (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                MagnifiableWidthHeight = [120.0, 0.0]
+            )
+
+            Axis = ~/ListAxis/Vertical
+            InterItemMargin = TRTTILength(Magnifiable = 5.0)
+
+            Elements =
+            [
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = BUCKTextDescriptor
+                    (
+                        ElementName = "DifficultyName"
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            MagnifiableWidthHeight = [0.0, 20.0]
+                            RelativeWidthHeight = [1.0, 0.0]
+                        )
+
+                        ParagraphStyle = ~/paragraphStyleTextCenter
+                        BigLineAction = ~/BigLineAction/ResizeFont
+
+                        TextStyle = 'Default'
+                        TypefaceToken = "Eurostyle"
+                        TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                        TextColor = "Noir"
+                        TextSize = "20"
+                        TextPadding = TRTTILength4( Magnifiable = [20.0, 0.0, 20.0, 0.0] )
+
+                        Components =
+                        [
+                            BUCKTextureDescriptor
+                            (
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1.1, 1.1]
+                                    AlignementToAnchor = [0.5, 0.5]
+                                    AlignementToFather = [0.5, 0.5]
+                                )
+                                TextureToken = 'EffetSurvol_listeMission'
+                            )
+                        ]
+                    )
+                ),
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = BUCKTextureDescriptor
+                    (
+                        ElementName = "DifficultyTexture"
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            AlignementToFather = [0.5, 0.0]
+                            AlignementToAnchor = [0.5, 0.0]
+                        )
+                        TextureFrame = TUIFramePropertyRTTI()
+                        ResizeMode = ~/TextureResizeMode/FitToContent
+                        TextureColorToken = 'Noir'
+                    )
+                ),
+            ]
+        )
+    ]
+)
+
+
+//-------------------------------------------------------------------------------------
+
+private SoloLaunchButtonHeight is 35.0
+
 private template SoloLaunchButton
 [
     ElementName : string = "SelectButton",
@@ -329,10 +419,10 @@ private template SoloLaunchButton
     TextToken = <TextToken>
     TextDico = <TextDico>
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
-    ButtonMagnifiableWidthHeight = [175.0, 35.0]
-    ButtonAlignementToAnchor = [0.5, 1.0]
-    ButtonAlignementToFather = [0.5, 1.0]
-    ButtonMagnifiableOffset = [0.0, -10.0]
+    ButtonMagnifiableWidthHeight = [175.0, ~/SoloLaunchButtonHeight]
+    ButtonAlignementToAnchor = [0.5, 0.0]
+    ButtonAlignementToFather = [0.5, 0.0]
+    ButtonMagnifiableOffset = [0.0, 0.0]
     TextTypefaceToken = "Liberator"
     TextColorToken = "tampon_vert"
     BorderLineColorToken = "tampon_vert"
@@ -355,9 +445,9 @@ private template SoloQuitButton
     TextToken = <TextToken>
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
     ButtonMagnifiableWidthHeight = [175.0, 35.0]
-    ButtonAlignementToAnchor = [0.5, 1.0]
-    ButtonAlignementToFather = [0.5, 1.0]
-    ButtonMagnifiableOffset = [0.0, -10.0]
+    ButtonAlignementToAnchor = [0.5, 0.0]
+    ButtonAlignementToFather = [0.5, 0.0]
+    ButtonMagnifiableOffset = [0.0, 0.0]
     TextTypefaceToken = "Liberator"
     TextColorToken = "tampon_gris"
     BorderLineColorToken = "tampon_gris"
@@ -398,33 +488,121 @@ private template ScenarioDescriptionContainer
 
             Components =
             [
-                BUCKContainerDescriptor
+                BUCKListDescriptor
                 (
-                    ElementName = "ScenarioDescriptionContainer"
                     ComponentFrame = TUIFramePropertyRTTI
                     (
-                        RelativeWidthHeight = [1.0, 1.0]
+                        RelativeWidthHeight = [1.0, 0.0]
                     )
 
-                    // envoie ResumeCampagneTypeHistorique ou ChallengeMoreDescriptionType pour les challenge
-                    // envoie ResumeCampagneType3 pour campagne et tuto
+                    Axis = ~/ListAxis/Vertical
+                    // FirstMargin = TRTTILength( Magnifiable = 10.0 )
+                    LastMargin = TRTTILength( Magnifiable = 10.0 )
+
+                    Elements =
+                    [
+                        // Description
+                        BUCKListElementDescriptor
+                        (
+                            ExtendWeight = 1.0
+                            ComponentDescriptor = BUCKContainerDescriptor
+                            (
+                                ElementName = "ScenarioDescriptionContainer"
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1.0, 1.0]
+                                )
+
+                                // envoie ResumeCampagneTypeHistorique ou ChallengeMoreDescriptionType pour les challenge
+                                // envoie ResumeCampagneType3 pour campagne et tuto
+                            )
+                        ),
+                    ]
+                    + (<IsChallenge> ?
+                    [
+                        // Choix difficulté
+                        BUCKListElementDescriptor
+                        (
+                            ComponentDescriptor = BUCKRackDescriptor
+                            (
+                                ElementName = "ScenarioDifficultyChoiceRack"
+
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    AlignementToAnchor = [0.5, 0.0]
+                                    AlignementToFather = [0.5, 0.0]
+                                )
+
+                                Axis = ~/ListAxis/Horizontal
+                                BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+                                InterItemMargin = TRTTILength( Magnifiable = 10.0 )
+                                BladeDescriptor = ~/ScenarioDifficultyComponent
+                            )
+                        ),
+                        BUCKListElementSpacer( Magnifiable = 20.0),
+                        BUCKListElementDescriptor
+                        (
+                            ComponentDescriptor = BUCKTextDescriptor
+                            (
+                                ElementName = "SelectedDifficultyDescriptionText"
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1.0, 0.0]
+                                    AlignementToAnchor = [0.5, 0.0]
+                                    AlignementToFather = [0.5, 0.0]
+                                )
+
+                                ParagraphStyle = ~/paragraphStyleTextCenter
+                                BigLineAction = ~/BigLineAction/MultiLine
+
+                                TextStyle = 'Default'
+                                TextPadding = TRTTILength4(Magnifiable = [20,0,50,0])
+                                TypefaceToken = "Eurostyle"
+                                TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                                TextColor = "Noir"
+                                TextSize = "14"
+                            )
+                        ),
+                        BUCKListElementSpacer( Magnifiable = 60.0),
+                    ] : [])
+
+                    +
+                    [
+
+                        BUCKListElementDescriptor
+                        (
+                            ComponentDescriptor = BUCKContainerDescriptor
+                            (
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1.0, 0.0]
+                                    MagnifiableWidthHeight = [0.0, (<IsChallenge> ? 26 : ~/SoloLaunchButtonHeight)]
+                                    AlignementToAnchor = [0.5, 0.0]
+                                    AlignementToFather = [0.5, 0.0]
+                                )
+
+                                Components = (<IsChallenge> ?
+                                [
+                                    SoloLaunchButton
+                                    (
+                                        ElementName = "ShowMissionDetailsButton"
+                                    ),
+                                    SoloLaunchButton
+                                    (
+                                        TextToken = "cha_titre"
+                                        TextDico = ~/LocalisationConstantes/dico_maps
+
+                                    )
+                                ] :
+                                [
+                                    SoloLaunchButton(),
+                                ])
+                            )
+                        ),
+                    ]
                 ),
-            ] + (<IsChallenge> ?
-            [
-                SoloLaunchButton
-                (
-                    ElementName = "ShowMissionDetailsButton"
-                ),
-                SoloLaunchButton
-                (
-                    TextToken = "cha_titre"
-                    TextDico = ~/LocalisationConstantes/dico_maps
-                ),
-            ] :
-            [
-                SoloLaunchButton(),
-            ])
-        )
+            ]
+        ),
     ]
 )
 
@@ -461,26 +639,60 @@ private template ScenarioListContainer
             MagnifiableBottomLeftOffset = [6.0, 0.0]
             MagnifiableBottomRightOffset = [7.0, -5.0]
 
-            Components = (<IsChallenge> ?
+            Components =
             [
-                BUCKContainerDescriptor
+                BUCKListDescriptor
                 (
-                    ElementName = "ScenarioDetailsContainer"
                     ComponentFrame = TUIFramePropertyRTTI
                     (
-                        RelativeWidthHeight = [1.0, 1.0]
+                        RelativeWidthHeight = [1.0, 0.0]
                     )
 
-                    // Envoie ChallengeDescriptionType pour les challenge
+                    Axis = ~/ListAxis/Vertical
+                    LastMargin = TRTTILength( Magnifiable = 10.0 )
+
+                    Elements =
+                    [
+                        // Description
+                        BUCKListElementDescriptor
+                        (
+                            ExtendWeight = 1.0
+                            ComponentDescriptor = BUCKContainerDescriptor
+                            (
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1.0, 1.0]
+                                )
+
+                                Components = (<IsChallenge> ?
+                                [
+                                    BUCKContainerDescriptor
+                                    (
+                                        ElementName = "ScenarioDetailsContainer"
+                                        ComponentFrame = TUIFramePropertyRTTI
+                                        (
+                                            RelativeWidthHeight = [1.0, 1.0]
+                                        )
+
+                                        // Envoie ChallengeDescriptionType pour les challenge
+                                    ),
+                                ] : []) +
+                                [
+                                    ScenarioMultiList
+                                    (
+                                        ListTitle = <ListTitle>
+                                        IsTutorial = <IsTutorial>
+                                    ),
+                                ]
+                            )
+                        ),
+                        //Bouton back
+                        BUCKListElementDescriptor
+                        (
+                            ComponentDescriptor = SoloQuitButton()
+                        ),
+                    ]
                 ),
-            ] : []) +
-            [
-                ScenarioMultiList
-                (
-                    ListTitle = <ListTitle>
-                    IsTutorial = <IsTutorial>
-                ),
-                SoloQuitButton(),
             ]
         ),
     ]
@@ -497,14 +709,14 @@ private template ScenarioMultiList
     ElementName = "ScenarioMultiList"
     ComponentFrame = TUIFramePropertyRTTI
     (
-        RelativeWidthHeight = [1.0, 0.0]
+        RelativeWidthHeight = [1.0, 1.0]
     )
 
     ColumnNames =
     [
         "IsCompletedMultilist",
         "OperationNameMultilist",
-        "OperationDifficultyMultilist",
+        "OperationCountryMultilist",
         "OperationDurationMultilist"
     ]
 
@@ -512,7 +724,7 @@ private template ScenarioMultiList
     [
         "IsCompletedMultilist",
         "OperationNameMultilist",
-        "OperationDifficultyMultilist",
+        "OperationCountryMultilist",
         "OperationDurationMultilist"
     ])
 
@@ -528,8 +740,7 @@ private Scenario_List_ScrollingContainer is BUCKContainerDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (
-        RelativeWidthHeight = [1.0, 0.0]
-        MagnifiableWidthHeight = [0.0, 750.0]
+        RelativeWidthHeight = [1.0, 1.0]
     )
 
     Components =
@@ -567,7 +778,8 @@ private Scenario_List_ScrollingContainer is BUCKContainerDescriptor
 template ChallengeTitleTextComponent
 [
     TextToken : string,
-    HorizontalAlignment : int = UIText_Center
+    HorizontalAlignment : int = UIText_Center,
+    HintBodyToken: string = ''
 ]
 is BUCKTextDescriptor
 (
@@ -591,6 +803,13 @@ is BUCKTextDescriptor
     TextColor = "Noir"
     TextSize = "14"
     TextPadding = TRTTILength4( Magnifiable = [2.0, 0.0, 2.0, 0.0] )
+
+    Hint = BUCKSpecificHintableArea
+    (
+        DicoToken = ~/LocalisationConstantes/dico_interface_outgame
+        HintTitleToken = <TextToken>
+        HintBodyToken = <HintBodyToken>
+        )
 )
 
 //-------------------------------------------------------------------------------------
@@ -660,7 +879,7 @@ template ScenarioTitleContainer
 //-------------------------------------------------------------------------------------
 
 ChallengeDoneColumnWidth is 60
-ChallengeDifficultyColumnWidth is 70
+ChallengeCountryColumnWidth is 70
 ChallengeDurationColumnWidth is 70
 
 titleColumnMissionList is BUCKListDescriptor
@@ -694,7 +913,11 @@ titleColumnMissionList is BUCKListDescriptor
                 HidePointerEvents = true
                 Components =
                 [
-                    ChallengeTitleTextComponent(TextToken = 'CL_GAMSTS'),
+                    ChallengeTitleTextComponent
+                    (
+                        TextToken = 'CL_GAMSTS'
+                        HintBodyToken = 'CL_statb'
+                    ),
                 ]
             )
         ),
@@ -714,7 +937,11 @@ titleColumnMissionList is BUCKListDescriptor
                 HidePointerEvents = true
                 Components =
                 [
-                    ChallengeTitleTextComponent(TextToken = 'OP_NAME' HorizontalAlignment = UIText_Left),
+                    ChallengeTitleTextComponent
+                    (
+                        TextToken = 'OP_TITLE'
+                        HintBodyToken = 'CL_nameb'
+                    )
                 ]
             )
         ),
@@ -722,19 +949,23 @@ titleColumnMissionList is BUCKListDescriptor
         (
             ComponentDescriptor = BUCKMultiListTitleButtonDescriptor
             (
-                ElementName = "OperationDifficultyMultilist"
+                ElementName = "OperationCountryMultilist"
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     RelativeWidthHeight = [0.0, 1.0]
-                    MagnifiableWidthHeight = [ChallengeDifficultyColumnWidth, 0.0]
+                    MagnifiableWidthHeight = [ChallengeCountryColumnWidth, 0.0]
                 )
 
-                SortingType = ~/MultiListSorting/Integer
+                SortingType = ~/MultiListSorting/String
                 ShowCheckbox = false
                 HidePointerEvents = true
                 Components =
                 [
-                    ChallengeTitleTextComponent(TextToken = 'OLB_DIFFIT'),
+                    ChallengeTitleTextComponent
+                    (
+                        TextToken = "OLB_CNTRY"
+                        HintBodyToken = 'CL_counb'
+                    )
                 ]
             )
         ),
@@ -754,7 +985,11 @@ titleColumnMissionList is BUCKListDescriptor
                 HidePointerEvents = true
                 Components =
                 [
-                    ChallengeTitleTextComponent(TextToken = 'LS_Dur'),
+                    ChallengeTitleTextComponent
+                    (
+                        TextToken = 'LS_Dur'
+                        HintBodyToken = 'CL_durab'
+                    )
                 ]
             )
         )
@@ -891,7 +1126,7 @@ FullPanelPreviewMission is BUCKTextureDescriptor
             ComponentFrame = TUIFramePropertyRTTI
             (
                 MagnifiableWidthHeight = [520.0,741.0]
-                MagnifiableOffset = [285.0, 25.0]
+                MagnifiableOffset = [285.0, 15.0]
                 AlignementToFather = [0.5, 0.0]
                 AlignementToAnchor = [0.5, 0.0]
             )

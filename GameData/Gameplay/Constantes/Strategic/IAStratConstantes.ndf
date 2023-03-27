@@ -7,19 +7,21 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
     NbAirplanesToKeepBeforeUsingAirDeny = 3
     NbAirplanesToKeepBeforeUsingBombard = 1
     NbMaxPawnAllowedToFortifyPerObjective = 0
-    NbMaxPawnAllowedToFortifyAntiAirPerObjective = 2
+    NbMaxPawnAllowedToFortifyAntiAirPerObjective = 3
 
     DistanceMaxForPawnToBeAvailableForCurrentObjective = 1500.0 * Metre
     DistanceMaxToReassignPawnIFP = 3000.0 * Metre
 
-    MinimumRankForSupportUnitDefensePoint = 1 //Attention, ça commence à 0
+    MinimumRankForWeakestBattleUnitDefensePoint = 0 //Attention, ça commence à 0
+    MinimumRankForStrongestBattleUnitDefensePoint = 1 //Attention, ça commence à 0
+    MinimumRankForSupportUnitDefensePoint = 2 //Attention, ça commence à 0
     AttackPointMaxCaseFromFrontLine = 2
 
-    MinPowerValueForPowerfullPawn = 15000 // valeur du pion dit "powerfull"
+    MinPowerValueForPowerfullPawn = 10 * 1666 // valeur du pion dit "powerfull"
 
     NumberMaxOfProductionPerTurn = 3
 
-    MaxFatigueToBeSelectedForStrategicBattle = 4
+    MaxFatigueToBeSelectedForStrategicBattle = 3
 
     //(ZoneStatus, APRemaining, Distance) s'il existe au moins une unitÃ©e ennemi dans un rayon de Distance garder au moins AP
     //Distance à chaque point du pathfind à l'origine du point
@@ -31,14 +33,15 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
             //Exemple : (3, 100 * Metre), (2, 200 * Metre), (1, 300 * Metre)
             //On garde 3 points si une unité ennemi est à 100 Metre de distance, sinon 2 points si 200 Metre, sinon 1 points à 300 Metre, sinon on utilise tout
             (0, 2000 * Metre),
+            // (4, 1000 * Metre),
         ],
         //ToDefend
         [
-            (0, 2000 * Metre),
+            (4, 1000 * Metre),
         ],
         //ToCapture
         [
-            (0, 2000 * Metre),
+            (4, 2000 * Metre),
         ],
         //CapturedNotActive
         [
@@ -62,10 +65,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
                 MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
                 [
-                    -1,  //NotActive
-                    -1,  //ToDefend
-                    -1,  //ToCapture
-                    -1,  //CapturedNotActive
+                    0,  //NotActive
+                    0.5,  //ToDefend
+                    0,  //ToCapture
+                    0,  //CapturedNotActive
                 ]
             )
         ),
@@ -83,10 +86,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
                 MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
                 [
-                    -18,  //NotActive
-                    -18,  //ToDefend
-                    -18,  //ToCapture
-                    -18,  //CapturedNotActive
+                    -1.5,  //NotActive
+                    -1.5,  //ToDefend
+                    -1.5,  //ToCapture
+                    -1.5,  //CapturedNotActive
                 ]
             )
         ),
@@ -104,10 +107,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
                 MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
                 [
-                    -15,  //NotActive
-                    -15,  //ToDefend
-                    -15,  //ToCapture
-                    -15,  //CapturedNotActive
+                    -1,  //NotActive
+                    -1,  //ToDefend
+                    -1,  //ToCapture
+                    -1,  //CapturedNotActive
                 ]
             )
         ),
@@ -125,10 +128,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
                 MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
                 [
-                    -8,  //NotActive
-                    -8,  //ToDefend
-                    -8,  //ToCapture
-                    -8,  //CapturedNotActive
+                    -0.5,  //NotActive
+                    -0.5,  //ToDefend
+                    -0.5,  //ToCapture
+                    -0.5,  //CapturedNotActive
                 ]
             )
         ),
@@ -146,10 +149,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
                 MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
                 [
-                    -5,  //NotActive
-                    -5,  //ToDefend
-                    -5,  //ToCapture
-                    -5,  //CapturedNotActive
+                    0,  //NotActive
+                    0,  //ToDefend
+                    0,  //ToCapture
+                    0,  //CapturedNotActive
                 ]
             )
         ),
@@ -167,10 +170,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
                 MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
                 [
-                    3,  //NotActive
-                    3,  //ToDefend
+                    0,  //NotActive
+                    0,  //ToDefend
                     0,  //ToCapture
-                    3,  //CapturedNotActive
+                    0,  //CapturedNotActive
                 ]
             )
         ),
@@ -188,10 +191,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
                 MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
                 [
-                    -6,  //NotActive
-                    -6,  //ToDefend
-                    -6,  //ToCapture
-                    -6,  //CapturedNotActive
+                    0.5,  //NotActive
+                    0.5,  //ToDefend
+                    0.5,  //ToCapture
+                    0.5,  //CapturedNotActive
                 ]
             )
         ),
@@ -209,10 +212,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
                 MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
                 [
-                    -4,  //NotActive
-                    -4,  //ToDefend
-                    -4,  //ToCapture
-                    -4,  //CapturedNotActive
+                    1,  //NotActive
+                    1,  //ToDefend
+                    1,  //ToCapture
+                    1,  //CapturedNotActive
                 ]
             )
         ),
@@ -230,10 +233,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
                 MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
                 [
-                    3,  //NotActive
-                    3,  //ToDefend
-                    3,  //ToCapture
-                    3,  //CapturedNotActive
+                    1.5,  //NotActive
+                    1.5,  //ToDefend
+                    1.5,  //ToCapture
+                    1.5,  //CapturedNotActive
                 ]
             )
         ),
@@ -250,9 +253,9 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
     DefenseBonusByTerrainType = MAP
     [
-        (~/ETerrainType/StrategicForest, 0.5),
-        (~/ETerrainType/StrategicSemiUrban, 1.0),
-        (~/ETerrainType/Urbain, 1.5),
+        (~/ETerrainType/StrategicForest, 0.33),
+        (~/ETerrainType/StrategicSemiUrban, 0.66),
+        (~/ETerrainType/Urbain, 1),
     ]
     NumberDefenseRank = 3
 )

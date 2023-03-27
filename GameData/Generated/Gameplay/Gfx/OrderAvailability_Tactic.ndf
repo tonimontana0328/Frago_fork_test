@@ -2849,9 +2849,7 @@ Descriptor_OrderAvailability_DCA_53T2_20mm_FR is [
     "Stop",
     "Move",
     "FollowFormation",
-    "QuickMove",
     "Attack",
-    "FastMoveAndAttack",
     "MoveAndAttack",
     "Spread",
     "Shoot",
@@ -2870,9 +2868,7 @@ Descriptor_OrderAvailability_DCA_53T2_20mm_Para_FR is [
     "Stop",
     "Move",
     "FollowFormation",
-    "QuickMove",
     "Attack",
-    "FastMoveAndAttack",
     "MoveAndAttack",
     "Spread",
     "Shoot",
@@ -2906,7 +2902,6 @@ Descriptor_OrderAvailability_DCA_FK20_2_20mm_RFA is [
     "AIDefend",
     "AIAttack",
     "AIStop",
-	"EnterDistrict",
 ]
 Descriptor_OrderAvailability_DCA_FK20_2_20mm_Zwillinge_RFA is [
     "Stop",
@@ -2927,7 +2922,6 @@ Descriptor_OrderAvailability_DCA_FK20_2_20mm_Zwillinge_RFA is [
     "AIDefend",
     "AIAttack",
     "AIStop",
-	"EnterDistrict",
 ]
 Descriptor_OrderAvailability_DCA_I_Hawk_RFA is [
     "Stop",
@@ -2969,9 +2963,7 @@ Descriptor_OrderAvailability_DCA_Javelin_LML_UK is [
     "Stop",
     "Move",
     "FollowFormation",
-    "QuickMove",
     "Attack",
-    "FastMoveAndAttack",
     "MoveAndAttack",
     "Spread",
     "Shoot",
@@ -3003,7 +2995,6 @@ Descriptor_OrderAvailability_DCA_M167_Vulcan_20mm_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
-	"EnterDistrict",
 ]
 Descriptor_OrderAvailability_DCA_Rapier_FSA_UK is [
     "Stop",
@@ -3060,7 +3051,6 @@ Descriptor_OrderAvailability_DCA_ZU_23_2_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
-	"EnterDistrict",
 ]
 Descriptor_OrderAvailability_DCA_ZU_23_2_SOV is [
     "Stop",
@@ -3081,7 +3071,6 @@ Descriptor_OrderAvailability_DCA_ZU_23_2_SOV is [
     "AIDefend",
     "AIAttack",
     "AIStop",
-	"EnterDistrict",
 ]
 Descriptor_OrderAvailability_DShV_CMD_SOV is [
     "Stop",
@@ -7711,8 +7700,6 @@ Descriptor_OrderAvailability_M728_CEV_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
-	"ShootOnPositionSmoke",
-    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_M901A1_ITW_US is [
     "Stop",
@@ -14977,7 +14964,7 @@ Descriptor_OrderAvailability_Alpha_Jet_A_rkt_RFA is [
     "AIAirplaneAutoManage",
     "AIStop",
 ]
-Descriptor_OrderAvailability_EF111_Raven is [
+Descriptor_OrderAvailability_EF111_Raven_US is [
     "Stop",
     "Move",
     "FollowFormation",
@@ -15486,7 +15473,7 @@ Descriptor_OrderAvailability_F4F_Phantom_II_RKT2_RFA is [
     "AIAirplaneAutoManage",
     "AIStop",
 ]
-Descriptor_OrderAvailability_F4_Phantom_AA_F3 is [
+Descriptor_OrderAvailability_F4_Phantom_AA_F3_UK is [
     "Stop",
     "Move",
     "FollowFormation",
@@ -16791,3 +16778,51 @@ Descriptor_OrderAvailability_Tornado_IDS_RFA is [
     "AIStop",
 ]
 
+Descriptor_OrderAvailability_FOB_DDR is [
+    "Stop",
+    "SupplyUnit",
+    "AskForSupply",
+    "AIDefend",
+    "AIAttack",
+    "AIStop",
+]
+Descriptor_OrderAvailability_FOB_FR is [
+    "Stop",
+    "SupplyUnit",
+    "AskForSupply",
+    "AIDefend",
+    "AIAttack",
+    "AIStop",
+]
+Descriptor_OrderAvailability_FOB_RFA is [
+    "Stop",
+    "SupplyUnit",
+    "AskForSupply",
+    "AIDefend",
+    "AIAttack",
+    "AIStop",
+]
+Descriptor_OrderAvailability_FOB_SOV is [
+    "Stop",
+    "SupplyUnit",
+    "AskForSupply",
+    "AIDefend",
+    "AIAttack",
+    "AIStop",
+]
+Descriptor_OrderAvailability_FOB_UK is [
+    "Stop",
+    "SupplyUnit",
+    "AskForSupply",
+    "AIDefend",
+    "AIAttack",
+    "AIStop",
+]
+Descriptor_OrderAvailability_FOB_US is [
+    "Stop",
+    "SupplyUnit",
+    "AskForSupply",
+    "AIDefend",
+    "AIAttack",
+    "AIStop",
+]

@@ -1,4 +1,4 @@
-FOBRadius is 60 * OneMeterInGameUnits
+FOBRadius is 45 * OneMeterInGameUnits
 FOBHeight is 10 * OneMeterInGameUnits
 
 export FOBTerrainPolygonDelimiter is TDynamicTerrainRegularPolygonDelimiter

@@ -109,6 +109,7 @@ SpecificOutGameLoadingPanelResource is TUISpecificOutGameLoadingPanelResource
                     TUIResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_21_.webm"  DicoVideo =  ~/DicoVideoOutGame),
                     TUIResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_22_.webm"  DicoVideo =  ~/DicoVideoOutGame),
                     TUIResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_23_.webm"  DicoVideo =  ~/DicoVideoOutGame),
+                    TUIResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_24_.webm"  DicoVideo =  ~/DicoVideoOutGame),
                 ]
             ),
 

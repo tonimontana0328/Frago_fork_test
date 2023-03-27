@@ -387,7 +387,7 @@ private TextCommandTitre is BUCKTextDescriptor
 
     TextDico = ~/LocalisationConstantes/dico_interface_ingame
 
-    TextColor = "SD2_Blanc184"
+    TextColor = "Transparent"
     TextSize = "8"
 
     Hint = BUCKSpecificHintableArea
@@ -440,10 +440,6 @@ is BUCKListDescriptor
     ElementName = <ElementName>
     ComponentFrame = TUIFramePropertyRTTI()
 
-    HasBackground = true
-    BackgroundBlockColorToken = 'SM_Feldgrau'
-    BorderLineColorToken = 'SM_Grullo'
-
     Axis = ~/ListAxis/Horizontal
     BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
@@ -491,7 +487,10 @@ template TemplateTextStartBattle
     TypefaceToken : string = 'Eurostyle',
     IsTitre : bool = false,
     IsRightAligned : bool = false,
-    TextColor : string  = "SM_paleSilver"
+    TextColor : string  = "SM_paleSilver",
+    HintBodyToken : string = '',
+    HintTitleToken : string = '',
+    HintExtendedToken : string = '',
 ]
  is BUCKTextDescriptor
 (
@@ -537,6 +536,14 @@ template TemplateTextStartBattle
 
     TextColor = <TextColor>
     TextSize = "16"
+
+    Hint = BUCKSpecificHintableArea
+    (
+        DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+        HintTitleToken = <HintTitleToken>
+        HintBodyToken = <HintBodyToken>
+        HintExtendedToken = <HintExtendedToken>
+    )
 )
 
 //-------------------------------------------------------------------------------------
@@ -571,6 +578,8 @@ private PanelInfosBataille is BUCKListDescriptor
                 TypefaceToken = "Eurostyle_Heavy"
                 TextToken = "PrC_tert"
                 IsTitre = true
+                HintTitleToken = 'PrC_tert'
+                HintBodyToken = 'sm_pre1'
             )
         ),
         BUCKListElementDescriptor
@@ -593,6 +602,8 @@ private PanelInfosBataille is BUCKListDescriptor
                 TypefaceToken = "Eurostyle_Heavy"
                 TextToken = "strength"
                 IsTitre = true
+                HintTitleToken = 'strength'
+                HintBodyToken = 'sm_pre2'
             )
         ),
         BUCKListElementDescriptor
@@ -625,6 +636,8 @@ private PanelInfosBataille is BUCKListDescriptor
                 TypefaceToken = "Eurostyle_Heavy"
                 TextToken = "PrC_cc"
                 IsTitre = true
+                HintTitleToken = 'PrC_cc'
+                HintBodyToken = 'sm_pre7'
             )
         ),
         BUCKListElementDescriptor
@@ -667,13 +680,144 @@ private PanelInfosBataille is BUCKListDescriptor
                 TypefaceToken = "Eurostyle_Heavy"
                 TextToken = "PrC_cb"
                 IsTitre = true
+                HintTitleToken = 'PrC_cb'
+                HintBodyToken = 'sm_pre3'
             )
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = PanelListeGroup
+            ComponentDescriptor = BUCKListDescriptor
             (
-                Name = "Combat"
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    AlignementToFather = [0.5, 0]
+                    AlignementToAnchor = [0.5, 0]
+                    RelativeWidthHeight = [0.9, 0]
+                )
+
+                Axis = ~/ListAxis/Vertical
+                BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
+
+                FirstMargin = TRTTILength(Magnifiable = 10.0)
+
+                Elements =
+                [
+                    BUCKListElementDescriptor
+                    (
+                        ComponentDescriptor = BUCKListDescriptor
+                        (
+                            ComponentFrame = TUIFramePropertyRTTI
+                            (
+                                AlignementToFather = [0.5, 0]
+                                AlignementToAnchor = [0.5, 0]
+                            )
+
+                            Axis = ~/ListAxis/Horizontal
+                            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+
+
+                            Elements =
+                            [
+                                BUCKListElementDescriptor
+                                (
+                                    ExtendWeight = 2
+                                ),
+                                BUCKListElementDescriptor
+                                (
+                                    ExtendWeight = 1
+                                    ComponentDescriptor = BUCKTextDescriptor
+                                    (
+                                        ComponentFrame = TUIFramePropertyRTTI
+                                        (
+                                            AlignementToFather = [0.5, 0.5]
+                                            AlignementToAnchor = [0.5, 0.5]
+                                        )
+
+                                        ParagraphStyle = ~/CenteredParagraphStyle
+
+                                        BigLineAction = ~/BigLineAction/ResizeFont
+                                        VerticalFitStyle = ~/ContainerFitStyle/FitToContent
+
+                                        TextStyle = "Default"
+
+                                        TextToken = "PrC_aux"
+                                        TypefaceToken = "Eurostyle_Italic"
+
+                                        TextDico = ~/LocalisationConstantes/dico_interface_ingame
+
+                                        TextColor = "SM_paleSilver"
+                                        TextSize = "12"
+                                    )
+                                ),
+                            ]
+                        )
+                    ),
+
+                    BUCKListElementDescriptor
+                    (
+                        ComponentDescriptor = BUCKListDescriptor
+                        (
+                            ComponentFrame = TUIFramePropertyRTTI
+                            (
+                                AlignementToFather = [0.5, 0]
+                                AlignementToAnchor = [0.5, 0]
+                            )
+
+                            Axis = ~/ListAxis/Horizontal
+                            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+                            FirstMargin = TRTTILength(Magnifiable = 15.0)
+
+                            Elements =
+                            [
+                                BUCKListElementDescriptor
+                                (
+                                    ExtendWeight = 2
+                                    ComponentDescriptor = BUCKContainerDescriptor
+                                    (
+                                        ComponentFrame = TUIFramePropertyRTTI
+                                        (
+                                            AlignementToFather = [0.5, 0]
+                                            AlignementToAnchor = [0.5, 0]
+                                        )
+
+                                        FitStyle = ~/ContainerFitStyle/FitToContentVertically
+
+                                        Components =
+                                        [
+                                            PanelListeGroup
+                                            (
+                                                Name = "Combat"
+                                            )
+                                        ]
+                                    )
+                                ),
+                                // auxiliary support
+                                BUCKListElementDescriptor
+                                (
+                                    ExtendWeight = 1
+                                    ComponentDescriptor = BUCKContainerDescriptor
+                                    (
+                                        ComponentFrame = TUIFramePropertyRTTI
+                                        (
+                                            AlignementToFather = [0.5, 0]
+                                            AlignementToAnchor = [0.5, 0]
+                                        )
+
+                                        FitStyle = ~/ContainerFitStyle/FitToContentVertically
+
+                                        Components =
+                                        [
+                                            PanelListeGroup
+                                            (
+                                                Name = "AuxiliarySupport"
+                                            )
+                                        ]
+                                    )
+                                ),
+                            ]
+                        )
+                    ),
+                ]
             )
         ),
         // artillery support
@@ -684,6 +828,8 @@ private PanelInfosBataille is BUCKListDescriptor
                 TypefaceToken = "Eurostyle_Heavy"
                 TextToken = "PrC_arts"
                 IsTitre = true
+                HintTitleToken = 'PrC_arts'
+                HintBodyToken = 'sm_pre5'
             )
         ),
         BUCKListElementDescriptor
@@ -701,6 +847,8 @@ private PanelInfosBataille is BUCKListDescriptor
                 TypefaceToken = "Eurostyle_Heavy"
                 TextToken = "PrC_as"
                 IsTitre = true
+                HintTitleToken = 'PrC_as'
+                HintBodyToken = 'sm_pre6'
             )
         ),
         BUCKListElementDescriptor
@@ -708,23 +856,6 @@ private PanelInfosBataille is BUCKListDescriptor
             ComponentDescriptor = PanelListeGroup
             (
                 Name = "AirSupport"
-            )
-        ),
-        // auxiliary support
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = TemplateTextStartBattle
-            (
-                TypefaceToken = "Eurostyle_Heavy"
-                TextToken = "PrC_aux"
-                IsTitre = true
-            )
-        ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = PanelListeGroup
-            (
-                Name = "AuxiliarySupport"
             )
         ),
         BUCKListElementDescriptor
@@ -1061,6 +1192,7 @@ UISpecificStrategicStartBattleViewDescriptor is TUISpecificStrategicStartBattleV
     RackElementNameByRole =
     [
         "PanelListeGroupCombatRack",
+        "PanelListeGroupAuxiliarySupportRack",
         "PanelListeGroupAirSupportRack",
         "PanelListeGroupGroundSupportRack"
     ]

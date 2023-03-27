@@ -13776,13 +13776,6 @@ DepictionOperator_M728_CEV_US_Weapon1 is DepictionOperator_WeaponInstantFire
     WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
     NbProj = 1
 )
-DepictionOperator_M728_CEV_US_Weapon4 is DepictionOperator_WeaponInstantFire
-(
-    FireEffectTag = "weapon_effet_tag1"
-    Anchors = ["fx_tourelle1_tir_01"]
-    WeaponShootDataPropertyName = ["WeaponShootData_0_4", ]
-    NbProj = 1
-)
 DepictionOperator_M728_CEV_US_Weapon2 is DepictionOperator_WeaponContinuousFire
 (
     FireEffectTag = "weapon_effet_tag2"
@@ -13822,7 +13815,6 @@ Gfx_M728_CEV_US_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_M728_CEV_US_Weapon1,
         DepictionOperator_M728_CEV_US_Weapon2,
         DepictionOperator_M728_CEV_US_Weapon3,
-        DepictionOperator_M728_CEV_US_Weapon4,
         DepictionOperator_Heat,
     ]
 
@@ -13830,7 +13822,6 @@ Gfx_M728_CEV_US_Autogen is TacticVehicleDepictionTemplate
                 ( [ "weapon_effet_tag1" ], Weapon_Canon_HE_165mm_AVRE ),
                 ( [ "weapon_effet_tag2" ], Weapon_MMG_M240_7_62mm ),
                 ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_M2HB ),
-                ( [ "weapon_effet_tag4" ], Weapon_Canon_HE_165mm_AVRE ),
             ]
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked

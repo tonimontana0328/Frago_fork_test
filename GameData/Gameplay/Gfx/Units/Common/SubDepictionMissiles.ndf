@@ -106,5 +106,7 @@ is TDepictionTemplate
                 )
             )
     ]
+    //Francis (9/3/23) : on réutilise les depictions de showroom des missiles pour les pions steelman, du coup on active le shader de sélection dessus
+    Operators = [ DepictionOperator_Shader_Selection ]
 )
 

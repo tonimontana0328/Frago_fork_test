@@ -8,6 +8,8 @@ private template AllianceScoreLine
     IconTexture : string = "",
     GaugeHint : string = "",
     IconHint : string = "",
+    IconHintTitle : string = "",
+    IconHintExtended : string = "",
     GaugeMagnifiableHeight : int,
     GaugeIconMagnifiableHeight : int,
     GaugeTextSize : string = "20",
@@ -19,7 +21,7 @@ private template AllianceScoreLine
         MagnifiableWidthHeight = [225.0, 24.0]
     )
     ElementName = <ElementName> + "Container"
-
+    HidePointerEvents = true
     Components =
     [
         BUCKListDescriptor
@@ -72,7 +74,9 @@ private template AllianceScoreLine
                                 [
                                     BUCKSpecificHintableArea
                                     (
+                                        HintTitleToken = <IconHintTitle>
                                         HintBodyToken = <IconHint>
+                                        HintExtendedToken = <IconHintExtended>
                                         DicoToken = ~/LocalisationConstantes/dico_interface_ingame
                                     )
                                 ]
@@ -488,39 +492,48 @@ BUCKSpecificHUDScoreAllianceMainComponentDescriptor is BUCKContainerDescriptor
 
             Elements =
             [
+                // for destruction mode
                 BUCKListElementDescriptor
                 (
                     ComponentDescriptor = AllianceScoreLine
                     (
                         ElementName = DestructionPointElementName
                         IconTexture = "icone_scorePoints"
-                        IconHint = "LR_score"
+                        IconHintExtended = "lr_destre"
+                        IconHint = "lr_destrt"
+                        IconHintTitle = "lr_destrb"
                         GaugeHint = "LR_team"
                         GaugeMagnifiableHeight = 18
                         GaugeIconMagnifiableHeight = 26
                         GaugeTextSize = "20"
                     )
                 ),
+                // for conquest mode
                 BUCKListElementDescriptor
                 (
                     ComponentDescriptor = AllianceScoreLine
                     (
                         ElementName = ZonePointElementName
                         IconTexture = "icone_scorePoints"
-                        IconHint = "LR_score"
+                        IconHint = "lr_conqueb"
+                        IconHintTitle = "lr_conquet"
+                        IconHintExtended = "lr_conquee"
                         GaugeHint = "LR_team"
                         GaugeMagnifiableHeight = 18
                         GaugeIconMagnifiableHeight = 26
                         GaugeTextSize = "20"
                     )
                 ),
+                // for AG moral mode
                 BUCKListElementDescriptor
                 (
                     ComponentDescriptor = AllianceScoreLine
                     (
                         ElementName = UnitLossElementName
                         IconTexture = "icone_moralePoints"
-                        IconHint = "LR_morale"
+                        IconHintTitle = "LR_morale"
+                        IconHint = "LR_moraleb"
+                        IconHintExtended = "LR_moralee"
                         GaugeHint = "LR_teamM"
                         GaugeMagnifiableHeight = 8
                         GaugeIconMagnifiableHeight = 20

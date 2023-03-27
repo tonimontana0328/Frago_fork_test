@@ -122,6 +122,7 @@ BUCKSpecificStrategicStartBattlePawnBriefMainComponentDescriptor is BUCKButtonDe
         (
             ElementName = "FriezeContainer"
             BorderLineColorToken = 'SM_Grullo'
+            BackgroundBlockColorToken = 'SM_RifleGreen'
         ),
         BUCKTextureDescriptor
         (

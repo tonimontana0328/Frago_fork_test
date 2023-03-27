@@ -1312,8 +1312,6 @@ export Descriptor_ShowRoomUnit_AT_Group_TA_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'AT_Group_TA_UK'
-                    InfantryAlternativeName = 'AT_Group_TA_UK'
-                    InfantryGhostMimeticName = 'AT_Group_TA_UK_ghost'
                     WeaponUnitFXKey     = 'AT_Group_TA_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -2427,8 +2425,6 @@ export Descriptor_ShowRoomUnit_AeroRifles_CMD_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'AeroRifles_CMD_US'
-                    InfantryAlternativeName = 'AeroRifles_CMD_US'
-                    InfantryGhostMimeticName = 'AeroRifles_CMD_US_ghost'
                     WeaponUnitFXKey     = 'AeroRifles_CMD_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -2504,8 +2500,6 @@ export Descriptor_ShowRoomUnit_AeroRifles_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'AeroRifles_US'
-                    InfantryAlternativeName = 'AeroRifles_US'
-                    InfantryGhostMimeticName = 'AeroRifles_US_ghost'
                     WeaponUnitFXKey     = 'AeroRifles_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -2585,8 +2579,6 @@ export Descriptor_ShowRoomUnit_Airborne_CMD_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 12
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_CMD_US'
-                    InfantryAlternativeName = 'Airborne_CMD_US'
-                    InfantryGhostMimeticName = 'Airborne_CMD_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_CMD_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 14 * Metre
@@ -2668,8 +2660,6 @@ export Descriptor_ShowRoomUnit_Airborne_Dragon_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_Dragon_US'
-                    InfantryAlternativeName = 'Airborne_Dragon_US'
-                    InfantryGhostMimeticName = 'Airborne_Dragon_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_Dragon_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -2749,8 +2739,6 @@ export Descriptor_ShowRoomUnit_Airborne_Engineer_CMD_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 12
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_Engineer_CMD_US'
-                    InfantryAlternativeName = 'Airborne_Engineer_CMD_US'
-                    InfantryGhostMimeticName = 'Airborne_Engineer_CMD_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_Engineer_CMD_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 14 * Metre
@@ -2832,8 +2820,6 @@ export Descriptor_ShowRoomUnit_Airborne_Engineers_Flash_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_Engineers_Flash_US'
-                    InfantryAlternativeName = 'Airborne_Engineers_Flash_US'
-                    InfantryGhostMimeticName = 'Airborne_Engineers_Flash_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_Engineers_Flash_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -2908,8 +2894,6 @@ export Descriptor_ShowRoomUnit_Airborne_Engineers_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_Engineers_US'
-                    InfantryAlternativeName = 'Airborne_Engineers_US'
-                    InfantryGhostMimeticName = 'Airborne_Engineers_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_Engineers_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -2989,8 +2973,6 @@ export Descriptor_ShowRoomUnit_Airborne_HMG_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_HMG_US'
-                    InfantryAlternativeName = 'Airborne_HMG_US'
-                    InfantryGhostMimeticName = 'Airborne_HMG_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_HMG_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -3067,8 +3049,6 @@ export Descriptor_ShowRoomUnit_Airborne_MP_RCL_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_MP_RCL_US'
-                    InfantryAlternativeName = 'Airborne_MP_RCL_US'
-                    InfantryGhostMimeticName = 'Airborne_MP_RCL_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_MP_RCL_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -3143,8 +3123,6 @@ export Descriptor_ShowRoomUnit_Airborne_MP_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_MP_US'
-                    InfantryAlternativeName = 'Airborne_MP_US'
-                    InfantryGhostMimeticName = 'Airborne_MP_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_MP_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -3219,8 +3197,6 @@ export Descriptor_ShowRoomUnit_Airborne_Scout_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_Scout_US'
-                    InfantryAlternativeName = 'Airborne_Scout_US'
-                    InfantryGhostMimeticName = 'Airborne_Scout_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_Scout_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -3294,8 +3270,6 @@ export Descriptor_ShowRoomUnit_Airborne_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_US'
-                    InfantryAlternativeName = 'Airborne_US'
-                    InfantryGhostMimeticName = 'Airborne_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -3375,8 +3349,6 @@ export Descriptor_ShowRoomUnit_Airborne_half_Dragon_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_half_Dragon_US'
-                    InfantryAlternativeName = 'Airborne_half_Dragon_US'
-                    InfantryGhostMimeticName = 'Airborne_half_Dragon_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_half_Dragon_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -3451,8 +3423,6 @@ export Descriptor_ShowRoomUnit_Airborne_half_LAW_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airborne_half_LAW_US'
-                    InfantryAlternativeName = 'Airborne_half_LAW_US'
-                    InfantryGhostMimeticName = 'Airborne_half_LAW_US_ghost'
                     WeaponUnitFXKey     = 'Airborne_half_LAW_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -3527,8 +3497,6 @@ export Descriptor_ShowRoomUnit_Airmobile_CMD_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airmobile_CMD_UK'
-                    InfantryAlternativeName = 'Airmobile_CMD_UK'
-                    InfantryGhostMimeticName = 'Airmobile_CMD_UK_ghost'
                     WeaponUnitFXKey     = 'Airmobile_CMD_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -3606,8 +3574,6 @@ export Descriptor_ShowRoomUnit_Airmobile_MILAN_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 9
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airmobile_MILAN_UK'
-                    InfantryAlternativeName = 'Airmobile_MILAN_UK'
-                    InfantryGhostMimeticName = 'Airmobile_MILAN_UK_ghost'
                     WeaponUnitFXKey     = 'Airmobile_MILAN_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 11 * Metre
@@ -3686,8 +3652,6 @@ export Descriptor_ShowRoomUnit_Airmobile_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 9
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Airmobile_UK'
-                    InfantryAlternativeName = 'Airmobile_UK'
-                    InfantryGhostMimeticName = 'Airmobile_UK_ghost'
                     WeaponUnitFXKey     = 'Airmobile_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 11 * Metre
@@ -3846,8 +3810,6 @@ export Descriptor_ShowRoomUnit_BGS_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 9
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'BGS_RFA'
-                    InfantryAlternativeName = 'BGS_RFA'
-                    InfantryGhostMimeticName = 'BGS_RFA_ghost'
                     WeaponUnitFXKey     = 'BGS_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 11 * Metre
@@ -5863,8 +5825,6 @@ export Descriptor_ShowRoomUnit_Chasseurs_CMD_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Chasseurs_CMD_FR'
-                    InfantryAlternativeName = 'Chasseurs_CMD_FR'
-                    InfantryGhostMimeticName = 'Chasseurs_CMD_FR_ghost'
                     WeaponUnitFXKey     = 'Chasseurs_CMD_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -5942,8 +5902,6 @@ export Descriptor_ShowRoomUnit_Chasseurs_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Chasseurs_FR'
-                    InfantryAlternativeName = 'Chasseurs_FR'
-                    InfantryGhostMimeticName = 'Chasseurs_FR_ghost'
                     WeaponUnitFXKey     = 'Chasseurs_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -6021,8 +5979,6 @@ export Descriptor_ShowRoomUnit_Commandos_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Commandos_FR'
-                    InfantryAlternativeName = 'Commandos_FR'
-                    InfantryGhostMimeticName = 'Commandos_FR_ghost'
                     WeaponUnitFXKey     = 'Commandos_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -6582,8 +6538,6 @@ export Descriptor_ShowRoomUnit_DShV_CMD_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'DShV_CMD_SOV'
-                    InfantryAlternativeName = 'DShV_CMD_SOV'
-                    InfantryGhostMimeticName = 'DShV_CMD_SOV_ghost'
                     WeaponUnitFXKey     = 'DShV_CMD_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -6660,8 +6614,6 @@ export Descriptor_ShowRoomUnit_DShV_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'DShV_SOV'
-                    InfantryAlternativeName = 'DShV_SOV'
-                    InfantryGhostMimeticName = 'DShV_SOV_ghost'
                     WeaponUnitFXKey     = 'DShV_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -6778,8 +6730,6 @@ export Descriptor_ShowRoomUnit_Engineer_CMD_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineer_CMD_US'
-                    InfantryAlternativeName = 'Engineer_CMD_US'
-                    InfantryGhostMimeticName = 'Engineer_CMD_US_ghost'
                     WeaponUnitFXKey     = 'Engineer_CMD_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -6854,8 +6804,6 @@ export Descriptor_ShowRoomUnit_Engineers_AGI_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_AGI_DDR'
-                    InfantryAlternativeName = 'Engineers_AGI_DDR'
-                    InfantryGhostMimeticName = 'Engineers_AGI_DDR_ghost'
                     WeaponUnitFXKey     = 'Engineers_AGI_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -6933,8 +6881,6 @@ export Descriptor_ShowRoomUnit_Engineers_AT_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_AT_RFA'
-                    InfantryAlternativeName = 'Engineers_AT_RFA'
-                    InfantryGhostMimeticName = 'Engineers_AT_RFA_ghost'
                     WeaponUnitFXKey     = 'Engineers_AT_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -7014,8 +6960,6 @@ export Descriptor_ShowRoomUnit_Engineers_AT_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_AT_UK'
-                    InfantryAlternativeName = 'Engineers_AT_UK'
-                    InfantryGhostMimeticName = 'Engineers_AT_UK_ghost'
                     WeaponUnitFXKey     = 'Engineers_AT_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -7093,8 +7037,6 @@ export Descriptor_ShowRoomUnit_Engineers_CMD_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_CMD_DDR'
-                    InfantryAlternativeName = 'Engineers_CMD_DDR'
-                    InfantryGhostMimeticName = 'Engineers_CMD_DDR_ghost'
                     WeaponUnitFXKey     = 'Engineers_CMD_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -7168,8 +7110,6 @@ export Descriptor_ShowRoomUnit_Engineers_CMD_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_CMD_RFA'
-                    InfantryAlternativeName = 'Engineers_CMD_RFA'
-                    InfantryGhostMimeticName = 'Engineers_CMD_RFA_ghost'
                     WeaponUnitFXKey     = 'Engineers_CMD_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -7244,8 +7184,6 @@ export Descriptor_ShowRoomUnit_Engineers_CMD_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_CMD_SOV'
-                    InfantryAlternativeName = 'Engineers_CMD_SOV'
-                    InfantryGhostMimeticName = 'Engineers_CMD_SOV_ghost'
                     WeaponUnitFXKey     = 'Engineers_CMD_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -7319,8 +7257,6 @@ export Descriptor_ShowRoomUnit_Engineers_CMD_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_CMD_UK'
-                    InfantryAlternativeName = 'Engineers_CMD_UK'
-                    InfantryGhostMimeticName = 'Engineers_CMD_UK_ghost'
                     WeaponUnitFXKey     = 'Engineers_CMD_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -7396,8 +7332,6 @@ export Descriptor_ShowRoomUnit_Engineers_CMD_VDV_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_CMD_VDV_SOV'
-                    InfantryAlternativeName = 'Engineers_CMD_VDV_SOV'
-                    InfantryGhostMimeticName = 'Engineers_CMD_VDV_SOV_ghost'
                     WeaponUnitFXKey     = 'Engineers_CMD_VDV_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -7471,8 +7405,6 @@ export Descriptor_ShowRoomUnit_Engineers_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_DDR'
-                    InfantryAlternativeName = 'Engineers_DDR'
-                    InfantryGhostMimeticName = 'Engineers_DDR_ghost'
                     WeaponUnitFXKey     = 'Engineers_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -7550,8 +7482,6 @@ export Descriptor_ShowRoomUnit_Engineers_Dragon_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_Dragon_US'
-                    InfantryAlternativeName = 'Engineers_Dragon_US'
-                    InfantryGhostMimeticName = 'Engineers_Dragon_US_ghost'
                     WeaponUnitFXKey     = 'Engineers_Dragon_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -7631,8 +7561,6 @@ export Descriptor_ShowRoomUnit_Engineers_Flam_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_Flam_DDR'
-                    InfantryAlternativeName = 'Engineers_Flam_DDR'
-                    InfantryGhostMimeticName = 'Engineers_Flam_DDR_ghost'
                     WeaponUnitFXKey     = 'Engineers_Flam_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -7710,8 +7638,6 @@ export Descriptor_ShowRoomUnit_Engineers_Flam_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_Flam_RFA'
-                    InfantryAlternativeName = 'Engineers_Flam_RFA'
-                    InfantryGhostMimeticName = 'Engineers_Flam_RFA_ghost'
                     WeaponUnitFXKey     = 'Engineers_Flam_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -7791,8 +7717,6 @@ export Descriptor_ShowRoomUnit_Engineers_Flam_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_Flam_SOV'
-                    InfantryAlternativeName = 'Engineers_Flam_SOV'
-                    InfantryGhostMimeticName = 'Engineers_Flam_SOV_ghost'
                     WeaponUnitFXKey     = 'Engineers_Flam_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -7870,8 +7794,6 @@ export Descriptor_ShowRoomUnit_Engineers_Flam_VDV_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_Flam_VDV_SOV'
-                    InfantryAlternativeName = 'Engineers_Flam_VDV_SOV'
-                    InfantryGhostMimeticName = 'Engineers_Flam_VDV_SOV_ghost'
                     WeaponUnitFXKey     = 'Engineers_Flam_VDV_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -7946,8 +7868,6 @@ export Descriptor_ShowRoomUnit_Engineers_Flash_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_Flash_US'
-                    InfantryAlternativeName = 'Engineers_Flash_US'
-                    InfantryGhostMimeticName = 'Engineers_Flash_US_ghost'
                     WeaponUnitFXKey     = 'Engineers_Flash_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -8022,8 +7942,6 @@ export Descriptor_ShowRoomUnit_Engineers_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_RFA'
-                    InfantryAlternativeName = 'Engineers_RFA'
-                    InfantryGhostMimeticName = 'Engineers_RFA_ghost'
                     WeaponUnitFXKey     = 'Engineers_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -8103,8 +8021,6 @@ export Descriptor_ShowRoomUnit_Engineers_Reserve_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_Reserve_RFA'
-                    InfantryAlternativeName = 'Engineers_Reserve_RFA'
-                    InfantryGhostMimeticName = 'Engineers_Reserve_RFA_ghost'
                     WeaponUnitFXKey     = 'Engineers_Reserve_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -8180,8 +8096,6 @@ export Descriptor_ShowRoomUnit_Engineers_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_SOV'
-                    InfantryAlternativeName = 'Engineers_SOV'
-                    InfantryGhostMimeticName = 'Engineers_SOV_ghost'
                     WeaponUnitFXKey     = 'Engineers_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -8259,8 +8173,6 @@ export Descriptor_ShowRoomUnit_Engineers_Scout_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_Scout_SOV'
-                    InfantryAlternativeName = 'Engineers_Scout_SOV'
-                    InfantryGhostMimeticName = 'Engineers_Scout_SOV_ghost'
                     WeaponUnitFXKey     = 'Engineers_Scout_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -8338,8 +8250,6 @@ export Descriptor_ShowRoomUnit_Engineers_TA_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 9
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_TA_UK'
-                    InfantryAlternativeName = 'Engineers_TA_UK'
-                    InfantryGhostMimeticName = 'Engineers_TA_UK_ghost'
                     WeaponUnitFXKey     = 'Engineers_TA_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 11 * Metre
@@ -8418,8 +8328,6 @@ export Descriptor_ShowRoomUnit_Engineers_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_UK'
-                    InfantryAlternativeName = 'Engineers_UK'
-                    InfantryGhostMimeticName = 'Engineers_UK_ghost'
                     WeaponUnitFXKey     = 'Engineers_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -8497,8 +8405,6 @@ export Descriptor_ShowRoomUnit_Engineers_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_US'
-                    InfantryAlternativeName = 'Engineers_US'
-                    InfantryGhostMimeticName = 'Engineers_US_ghost'
                     WeaponUnitFXKey     = 'Engineers_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -8578,8 +8484,6 @@ export Descriptor_ShowRoomUnit_Engineers_VDV_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Engineers_VDV_SOV'
-                    InfantryAlternativeName = 'Engineers_VDV_SOV'
-                    InfantryGhostMimeticName = 'Engineers_VDV_SOV_ghost'
                     WeaponUnitFXKey     = 'Engineers_VDV_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -8654,8 +8558,6 @@ export Descriptor_ShowRoomUnit_Escorte_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Escorte_FR'
-                    InfantryAlternativeName = 'Escorte_FR'
-                    InfantryGhostMimeticName = 'Escorte_FR_ghost'
                     WeaponUnitFXKey     = 'Escorte_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -9773,8 +9675,6 @@ export Descriptor_ShowRoomUnit_Fallschirm_B1_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fallschirm_B1_RFA'
-                    InfantryAlternativeName = 'Fallschirm_B1_RFA'
-                    InfantryGhostMimeticName = 'Fallschirm_B1_RFA_ghost'
                     WeaponUnitFXKey     = 'Fallschirm_B1_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -9852,8 +9752,6 @@ export Descriptor_ShowRoomUnit_Fallschirm_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fallschirm_RFA'
-                    InfantryAlternativeName = 'Fallschirm_RFA'
-                    InfantryGhostMimeticName = 'Fallschirm_RFA_ghost'
                     WeaponUnitFXKey     = 'Fallschirm_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -9931,8 +9829,6 @@ export Descriptor_ShowRoomUnit_Fallschirmjager_CMD_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fallschirmjager_CMD_DDR'
-                    InfantryAlternativeName = 'Fallschirmjager_CMD_DDR'
-                    InfantryGhostMimeticName = 'Fallschirmjager_CMD_DDR_ghost'
                     WeaponUnitFXKey     = 'Fallschirmjager_CMD_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -10006,8 +9902,6 @@ export Descriptor_ShowRoomUnit_Fallschirmjager_CMD_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fallschirmjager_CMD_RFA'
-                    InfantryAlternativeName = 'Fallschirmjager_CMD_RFA'
-                    InfantryGhostMimeticName = 'Fallschirmjager_CMD_RFA_ghost'
                     WeaponUnitFXKey     = 'Fallschirmjager_CMD_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -10083,8 +9977,6 @@ export Descriptor_ShowRoomUnit_Fallschirmjager_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fallschirmjager_DDR'
-                    InfantryAlternativeName = 'Fallschirmjager_DDR'
-                    InfantryGhostMimeticName = 'Fallschirmjager_DDR_ghost'
                     WeaponUnitFXKey     = 'Fallschirmjager_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -10162,8 +10054,6 @@ export Descriptor_ShowRoomUnit_Fallschirmjager_FalseFlag_CMD_DDR is TEntityDescr
                     NbSoldatInGroupeCombat = 3
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fallschirmjager_FalseFlag_CMD_DDR'
-                    InfantryAlternativeName = 'Fallschirmjager_FalseFlag_CMD_DDR'
-                    InfantryGhostMimeticName = 'Fallschirmjager_FalseFlag_CMD_DDR_ghost'
                     WeaponUnitFXKey     = 'Fallschirmjager_FalseFlag_CMD_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 5 * Metre
@@ -10236,8 +10126,6 @@ export Descriptor_ShowRoomUnit_Fallschirmjager_FalseFlag_DDR is TEntityDescripto
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fallschirmjager_FalseFlag_DDR'
-                    InfantryAlternativeName = 'Fallschirmjager_FalseFlag_DDR'
-                    InfantryGhostMimeticName = 'Fallschirmjager_FalseFlag_DDR_ghost'
                     WeaponUnitFXKey     = 'Fallschirmjager_FalseFlag_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -10315,8 +10203,6 @@ export Descriptor_ShowRoomUnit_Fallschirmjager_FlaseFlag_Demo_DDR is TEntityDesc
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fallschirmjager_FlaseFlag_Demo_DDR'
-                    InfantryAlternativeName = 'Fallschirmjager_FlaseFlag_Demo_DDR'
-                    InfantryGhostMimeticName = 'Fallschirmjager_FlaseFlag_Demo_DDR_ghost'
                     WeaponUnitFXKey     = 'Fallschirmjager_FlaseFlag_Demo_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -10394,8 +10280,6 @@ export Descriptor_ShowRoomUnit_Fallschirmjager_HMG_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fallschirmjager_HMG_DDR'
-                    InfantryAlternativeName = 'Fallschirmjager_HMG_DDR'
-                    InfantryGhostMimeticName = 'Fallschirmjager_HMG_DDR_ghost'
                     WeaponUnitFXKey     = 'Fallschirmjager_HMG_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -10472,8 +10356,6 @@ export Descriptor_ShowRoomUnit_Fallschirmjager_Metys_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fallschirmjager_Metys_DDR'
-                    InfantryAlternativeName = 'Fallschirmjager_Metys_DDR'
-                    InfantryGhostMimeticName = 'Fallschirmjager_Metys_DDR_ghost'
                     WeaponUnitFXKey     = 'Fallschirmjager_Metys_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -10551,8 +10433,6 @@ export Descriptor_ShowRoomUnit_Fallschirmjager_Scout_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fallschirmjager_Scout_RFA'
-                    InfantryAlternativeName = 'Fallschirmjager_Scout_RFA'
-                    InfantryGhostMimeticName = 'Fallschirmjager_Scout_RFA_ghost'
                     WeaponUnitFXKey     = 'Fallschirmjager_Scout_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -10661,8 +10541,6 @@ export Descriptor_ShowRoomUnit_Feldgendarmerie_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Feldgendarmerie_RFA'
-                    InfantryAlternativeName = 'Feldgendarmerie_RFA'
-                    InfantryGhostMimeticName = 'Feldgendarmerie_RFA_ghost'
                     WeaponUnitFXKey     = 'Feldgendarmerie_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -10736,8 +10614,6 @@ export Descriptor_ShowRoomUnit_Fernspaher_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Fernspaher_RFA'
-                    InfantryAlternativeName = 'Fernspaher_RFA'
-                    InfantryGhostMimeticName = 'Fernspaher_RFA_ghost'
                     WeaponUnitFXKey     = 'Fernspaher_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -10853,8 +10729,6 @@ export Descriptor_ShowRoomUnit_FireSupport_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'FireSupport_SOV'
-                    InfantryAlternativeName = 'FireSupport_SOV'
-                    InfantryGhostMimeticName = 'FireSupport_SOV_ghost'
                     WeaponUnitFXKey     = 'FireSupport_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -11038,8 +10912,6 @@ export Descriptor_ShowRoomUnit_Gendarmerie_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Gendarmerie_FR'
-                    InfantryAlternativeName = 'Gendarmerie_FR'
-                    InfantryGhostMimeticName = 'Gendarmerie_FR_ghost'
                     WeaponUnitFXKey     = 'Gendarmerie_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -11153,8 +11025,6 @@ export Descriptor_ShowRoomUnit_GreenBerets_CMD_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 12
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'GreenBerets_CMD_US'
-                    InfantryAlternativeName = 'GreenBerets_CMD_US'
-                    InfantryGhostMimeticName = 'GreenBerets_CMD_US_ghost'
                     WeaponUnitFXKey     = 'GreenBerets_CMD_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 14 * Metre
@@ -11236,8 +11106,6 @@ export Descriptor_ShowRoomUnit_GreenBerets_MP5_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'GreenBerets_MP5_US'
-                    InfantryAlternativeName = 'GreenBerets_MP5_US'
-                    InfantryGhostMimeticName = 'GreenBerets_MP5_US_ghost'
                     WeaponUnitFXKey     = 'GreenBerets_MP5_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -11313,8 +11181,6 @@ export Descriptor_ShowRoomUnit_GreenBerets_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'GreenBerets_US'
-                    InfantryAlternativeName = 'GreenBerets_US'
-                    InfantryGhostMimeticName = 'GreenBerets_US_ghost'
                     WeaponUnitFXKey     = 'GreenBerets_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -11390,8 +11256,6 @@ export Descriptor_ShowRoomUnit_Grenzer_CMD_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Grenzer_CMD_DDR'
-                    InfantryAlternativeName = 'Grenzer_CMD_DDR'
-                    InfantryGhostMimeticName = 'Grenzer_CMD_DDR_ghost'
                     WeaponUnitFXKey     = 'Grenzer_CMD_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -11463,8 +11327,6 @@ export Descriptor_ShowRoomUnit_Grenzer_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Grenzer_DDR'
-                    InfantryAlternativeName = 'Grenzer_DDR'
-                    InfantryGhostMimeticName = 'Grenzer_DDR_ghost'
                     WeaponUnitFXKey     = 'Grenzer_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -11541,8 +11403,6 @@ export Descriptor_ShowRoomUnit_Grenzer_Mot_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Grenzer_Mot_DDR'
-                    InfantryAlternativeName = 'Grenzer_Mot_DDR'
-                    InfantryGhostMimeticName = 'Grenzer_Mot_DDR_ghost'
                     WeaponUnitFXKey     = 'Grenzer_Mot_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -11616,8 +11476,6 @@ export Descriptor_ShowRoomUnit_Groupe_AT_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Groupe_AT_FR'
-                    InfantryAlternativeName = 'Groupe_AT_FR'
-                    InfantryGhostMimeticName = 'Groupe_AT_FR_ghost'
                     WeaponUnitFXKey     = 'Groupe_AT_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -11694,8 +11552,6 @@ export Descriptor_ShowRoomUnit_Groupe_AT_para_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Groupe_AT_para_FR'
-                    InfantryAlternativeName = 'Groupe_AT_para_FR'
-                    InfantryGhostMimeticName = 'Groupe_AT_para_FR_ghost'
                     WeaponUnitFXKey     = 'Groupe_AT_para_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -11772,8 +11628,6 @@ export Descriptor_ShowRoomUnit_Gun_Group_TA_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Gun_Group_TA_UK'
-                    InfantryAlternativeName = 'Gun_Group_TA_UK'
-                    InfantryGhostMimeticName = 'Gun_Group_TA_UK_ghost'
                     WeaponUnitFXKey     = 'Gun_Group_TA_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -11847,8 +11701,6 @@ export Descriptor_ShowRoomUnit_Gun_Group_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Gun_Group_UK'
-                    InfantryAlternativeName = 'Gun_Group_UK'
-                    InfantryGhostMimeticName = 'Gun_Group_UK_ghost'
                     WeaponUnitFXKey     = 'Gun_Group_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -12837,8 +12689,6 @@ export Descriptor_ShowRoomUnit_HeimatschutzJager_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 11
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'HeimatschutzJager_RFA'
-                    InfantryAlternativeName = 'HeimatschutzJager_RFA'
-                    InfantryGhostMimeticName = 'HeimatschutzJager_RFA_ghost'
                     WeaponUnitFXKey     = 'HeimatschutzJager_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 13 * Metre
@@ -13399,8 +13249,6 @@ export Descriptor_ShowRoomUnit_HvyScout_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'HvyScout_DDR'
-                    InfantryAlternativeName = 'HvyScout_DDR'
-                    InfantryGhostMimeticName = 'HvyScout_DDR_ghost'
                     WeaponUnitFXKey     = 'HvyScout_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -13477,8 +13325,6 @@ export Descriptor_ShowRoomUnit_HvyScout_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'HvyScout_SOV'
-                    InfantryAlternativeName = 'HvyScout_SOV'
-                    InfantryGhostMimeticName = 'HvyScout_SOV_ghost'
                     WeaponUnitFXKey     = 'HvyScout_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -13705,8 +13551,6 @@ export Descriptor_ShowRoomUnit_Jager_Aufk_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 11
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Jager_Aufk_RFA'
-                    InfantryAlternativeName = 'Jager_Aufk_RFA'
-                    InfantryGhostMimeticName = 'Jager_Aufk_RFA_ghost'
                     WeaponUnitFXKey     = 'Jager_Aufk_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 13 * Metre
@@ -13787,8 +13631,6 @@ export Descriptor_ShowRoomUnit_Jager_CMD_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Jager_CMD_RFA'
-                    InfantryAlternativeName = 'Jager_CMD_RFA'
-                    InfantryGhostMimeticName = 'Jager_CMD_RFA_ghost'
                     WeaponUnitFXKey     = 'Jager_CMD_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -13862,8 +13704,6 @@ export Descriptor_ShowRoomUnit_Jager_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 11
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Jager_RFA'
-                    InfantryAlternativeName = 'Jager_RFA'
-                    InfantryGhostMimeticName = 'Jager_RFA_ghost'
                     WeaponUnitFXKey     = 'Jager_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 13 * Metre
@@ -14024,8 +13864,6 @@ export Descriptor_ShowRoomUnit_KSM_CMD_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'KSM_CMD_RFA'
-                    InfantryAlternativeName = 'KSM_CMD_RFA'
-                    InfantryGhostMimeticName = 'KSM_CMD_RFA_ghost'
                     WeaponUnitFXKey     = 'KSM_CMD_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -14137,8 +13975,6 @@ export Descriptor_ShowRoomUnit_KdA_CMD_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'KdA_CMD_DDR'
-                    InfantryAlternativeName = 'KdA_CMD_DDR'
-                    InfantryGhostMimeticName = 'KdA_CMD_DDR_ghost'
                     WeaponUnitFXKey     = 'KdA_CMD_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -14214,8 +14050,6 @@ export Descriptor_ShowRoomUnit_KdA_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 14
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'KdA_DDR'
-                    InfantryAlternativeName = 'KdA_DDR'
-                    InfantryGhostMimeticName = 'KdA_DDR_ghost'
                     WeaponUnitFXKey     = 'KdA_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 16 * Metre
@@ -14299,8 +14133,6 @@ export Descriptor_ShowRoomUnit_LRRP_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'LRRP_FR'
-                    InfantryAlternativeName = 'LRRP_FR'
-                    InfantryGhostMimeticName = 'LRRP_FR_ghost'
                     WeaponUnitFXKey     = 'LRRP_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -14376,8 +14208,6 @@ export Descriptor_ShowRoomUnit_LRRP_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'LRRP_UK'
-                    InfantryAlternativeName = 'LRRP_UK'
-                    InfantryGhostMimeticName = 'LRRP_UK_ghost'
                     WeaponUnitFXKey     = 'LRRP_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -14453,8 +14283,6 @@ export Descriptor_ShowRoomUnit_LRRP_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'LRRP_US'
-                    InfantryAlternativeName = 'LRRP_US'
-                    InfantryGhostMimeticName = 'LRRP_US_ghost'
                     WeaponUnitFXKey     = 'LRRP_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -15040,8 +14868,6 @@ export Descriptor_ShowRoomUnit_LightRifles_CMD_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'LightRifles_CMD_US'
-                    InfantryAlternativeName = 'LightRifles_CMD_US'
-                    InfantryGhostMimeticName = 'LightRifles_CMD_US_ghost'
                     WeaponUnitFXKey     = 'LightRifles_CMD_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -15117,8 +14943,6 @@ export Descriptor_ShowRoomUnit_LightRifles_RCL_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'LightRifles_RCL_US'
-                    InfantryAlternativeName = 'LightRifles_RCL_US'
-                    InfantryGhostMimeticName = 'LightRifles_RCL_US_ghost'
                     WeaponUnitFXKey     = 'LightRifles_RCL_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -17739,8 +17563,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Blowpipe_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Blowpipe_UK'
-                    InfantryAlternativeName = 'MANPAD_Blowpipe_UK'
-                    InfantryGhostMimeticName = 'MANPAD_Blowpipe_UK_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Blowpipe_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -17812,8 +17634,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Igla_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Igla_DDR'
-                    InfantryAlternativeName = 'MANPAD_Igla_DDR'
-                    InfantryGhostMimeticName = 'MANPAD_Igla_DDR_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Igla_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -17885,8 +17705,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Igla_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Igla_SOV'
-                    InfantryAlternativeName = 'MANPAD_Igla_SOV'
-                    InfantryGhostMimeticName = 'MANPAD_Igla_SOV_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Igla_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -17958,8 +17776,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Igla_VDV_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Igla_VDV_SOV'
-                    InfantryAlternativeName = 'MANPAD_Igla_VDV_SOV'
-                    InfantryGhostMimeticName = 'MANPAD_Igla_VDV_SOV_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Igla_VDV_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -18031,8 +17847,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Javelin_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Javelin_UK'
-                    InfantryAlternativeName = 'MANPAD_Javelin_UK'
-                    InfantryGhostMimeticName = 'MANPAD_Javelin_UK_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Javelin_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -18104,8 +17918,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Mistral_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Mistral_FR'
-                    InfantryAlternativeName = 'MANPAD_Mistral_FR'
-                    InfantryGhostMimeticName = 'MANPAD_Mistral_FR_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Mistral_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -18177,8 +17989,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Mistral_para_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Mistral_para_FR'
-                    InfantryAlternativeName = 'MANPAD_Mistral_para_FR'
-                    InfantryGhostMimeticName = 'MANPAD_Mistral_para_FR_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Mistral_para_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -18250,8 +18060,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Redeye_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Redeye_RFA'
-                    InfantryAlternativeName = 'MANPAD_Redeye_RFA'
-                    InfantryGhostMimeticName = 'MANPAD_Redeye_RFA_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Redeye_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -18323,8 +18131,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Stinger_C_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Stinger_C_US'
-                    InfantryAlternativeName = 'MANPAD_Stinger_C_US'
-                    InfantryGhostMimeticName = 'MANPAD_Stinger_C_US_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Stinger_C_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -18396,8 +18202,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Stinger_C_para_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Stinger_C_para_US'
-                    InfantryAlternativeName = 'MANPAD_Stinger_C_para_US'
-                    InfantryGhostMimeticName = 'MANPAD_Stinger_C_para_US_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Stinger_C_para_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -18469,8 +18273,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Strela_2M_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Strela_2M_DDR'
-                    InfantryAlternativeName = 'MANPAD_Strela_2M_DDR'
-                    InfantryGhostMimeticName = 'MANPAD_Strela_2M_DDR_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Strela_2M_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -18542,8 +18344,6 @@ export Descriptor_ShowRoomUnit_MANPAD_Strela_2M_FJ_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MANPAD_Strela_2M_FJ_DDR'
-                    InfantryAlternativeName = 'MANPAD_Strela_2M_FJ_DDR'
-                    InfantryGhostMimeticName = 'MANPAD_Strela_2M_FJ_DDR_ghost'
                     WeaponUnitFXKey     = 'MANPAD_Strela_2M_FJ_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -18845,8 +18645,6 @@ export Descriptor_ShowRoomUnit_MP_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MP_DDR'
-                    InfantryAlternativeName = 'MP_DDR'
-                    InfantryGhostMimeticName = 'MP_DDR_ghost'
                     WeaponUnitFXKey     = 'MP_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -18920,8 +18718,6 @@ export Descriptor_ShowRoomUnit_MP_RCL_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MP_RCL_US'
-                    InfantryAlternativeName = 'MP_RCL_US'
-                    InfantryGhostMimeticName = 'MP_RCL_US_ghost'
                     WeaponUnitFXKey     = 'MP_RCL_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -18996,8 +18792,6 @@ export Descriptor_ShowRoomUnit_MP_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MP_SOV'
-                    InfantryAlternativeName = 'MP_SOV'
-                    InfantryGhostMimeticName = 'MP_SOV_ghost'
                     WeaponUnitFXKey     = 'MP_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -19071,8 +18865,6 @@ export Descriptor_ShowRoomUnit_MP_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MP_US'
-                    InfantryAlternativeName = 'MP_US'
-                    InfantryGhostMimeticName = 'MP_US_ghost'
                     WeaponUnitFXKey     = 'MP_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -20092,8 +19884,6 @@ export Descriptor_ShowRoomUnit_MotRifles_BTR_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MotRifles_BTR_DDR'
-                    InfantryAlternativeName = 'MotRifles_BTR_DDR'
-                    InfantryGhostMimeticName = 'MotRifles_BTR_DDR_ghost'
                     WeaponUnitFXKey     = 'MotRifles_BTR_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -20171,8 +19961,6 @@ export Descriptor_ShowRoomUnit_MotRifles_BTR_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MotRifles_BTR_SOV'
-                    InfantryAlternativeName = 'MotRifles_BTR_SOV'
-                    InfantryGhostMimeticName = 'MotRifles_BTR_SOV_ghost'
                     WeaponUnitFXKey     = 'MotRifles_BTR_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -20250,8 +20038,6 @@ export Descriptor_ShowRoomUnit_MotRifles_CMD_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MotRifles_CMD_DDR'
-                    InfantryAlternativeName = 'MotRifles_CMD_DDR'
-                    InfantryGhostMimeticName = 'MotRifles_CMD_DDR_ghost'
                     WeaponUnitFXKey     = 'MotRifles_CMD_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -20325,8 +20111,6 @@ export Descriptor_ShowRoomUnit_MotRifles_CMD_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MotRifles_CMD_SOV'
-                    InfantryAlternativeName = 'MotRifles_CMD_SOV'
-                    InfantryGhostMimeticName = 'MotRifles_CMD_SOV_ghost'
                     WeaponUnitFXKey     = 'MotRifles_CMD_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -20400,8 +20184,6 @@ export Descriptor_ShowRoomUnit_MotRifles_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MotRifles_DDR'
-                    InfantryAlternativeName = 'MotRifles_DDR'
-                    InfantryGhostMimeticName = 'MotRifles_DDR_ghost'
                     WeaponUnitFXKey     = 'MotRifles_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -20478,8 +20260,6 @@ export Descriptor_ShowRoomUnit_MotRifles_HMG_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MotRifles_HMG_DDR'
-                    InfantryAlternativeName = 'MotRifles_HMG_DDR'
-                    InfantryGhostMimeticName = 'MotRifles_HMG_DDR_ghost'
                     WeaponUnitFXKey     = 'MotRifles_HMG_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -20556,8 +20336,6 @@ export Descriptor_ShowRoomUnit_MotRifles_HMG_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MotRifles_HMG_SOV'
-                    InfantryAlternativeName = 'MotRifles_HMG_SOV'
-                    InfantryGhostMimeticName = 'MotRifles_HMG_SOV_ghost'
                     WeaponUnitFXKey     = 'MotRifles_HMG_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -20634,8 +20412,6 @@ export Descriptor_ShowRoomUnit_MotRifles_Metis_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MotRifles_Metis_SOV'
-                    InfantryAlternativeName = 'MotRifles_Metis_SOV'
-                    InfantryGhostMimeticName = 'MotRifles_Metis_SOV_ghost'
                     WeaponUnitFXKey     = 'MotRifles_Metis_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -20712,8 +20488,6 @@ export Descriptor_ShowRoomUnit_MotRifles_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MotRifles_SOV'
-                    InfantryAlternativeName = 'MotRifles_SOV'
-                    InfantryGhostMimeticName = 'MotRifles_SOV_ghost'
                     WeaponUnitFXKey     = 'MotRifles_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -20790,8 +20564,6 @@ export Descriptor_ShowRoomUnit_MotSchutzen_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'MotSchutzen_DDR'
-                    InfantryAlternativeName = 'MotSchutzen_DDR'
-                    InfantryGhostMimeticName = 'MotSchutzen_DDR_ghost'
                     WeaponUnitFXKey     = 'MotSchutzen_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -21143,8 +20915,6 @@ export Descriptor_ShowRoomUnit_Panzergrenadier_APC_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 9
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Panzergrenadier_APC_RFA'
-                    InfantryAlternativeName = 'Panzergrenadier_APC_RFA'
-                    InfantryGhostMimeticName = 'Panzergrenadier_APC_RFA_ghost'
                     WeaponUnitFXKey     = 'Panzergrenadier_APC_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 11 * Metre
@@ -21223,8 +20993,6 @@ export Descriptor_ShowRoomUnit_Panzergrenadier_CMD_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Panzergrenadier_CMD_RFA'
-                    InfantryAlternativeName = 'Panzergrenadier_CMD_RFA'
-                    InfantryGhostMimeticName = 'Panzergrenadier_CMD_RFA_ghost'
                     WeaponUnitFXKey     = 'Panzergrenadier_CMD_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -21300,8 +21068,6 @@ export Descriptor_ShowRoomUnit_Panzergrenadier_IFV_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Panzergrenadier_IFV_RFA'
-                    InfantryAlternativeName = 'Panzergrenadier_IFV_RFA'
-                    InfantryGhostMimeticName = 'Panzergrenadier_IFV_RFA_ghost'
                     WeaponUnitFXKey     = 'Panzergrenadier_IFV_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -21376,8 +21142,6 @@ export Descriptor_ShowRoomUnit_Para_CMD_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Para_CMD_FR'
-                    InfantryAlternativeName = 'Para_CMD_FR'
-                    InfantryGhostMimeticName = 'Para_CMD_FR_ghost'
                     WeaponUnitFXKey     = 'Para_CMD_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -21454,8 +21218,6 @@ export Descriptor_ShowRoomUnit_Para_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Para_FR'
-                    InfantryAlternativeName = 'Para_FR'
-                    InfantryGhostMimeticName = 'Para_FR_ghost'
                     WeaponUnitFXKey     = 'Para_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -21535,8 +21297,6 @@ export Descriptor_ShowRoomUnit_Para_Legion_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Para_Legion_FR'
-                    InfantryAlternativeName = 'Para_Legion_FR'
-                    InfantryGhostMimeticName = 'Para_Legion_FR_ghost'
                     WeaponUnitFXKey     = 'Para_Legion_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -21616,8 +21376,6 @@ export Descriptor_ShowRoomUnit_Para_Sapeurs_CMD_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Para_Sapeurs_CMD_FR'
-                    InfantryAlternativeName = 'Para_Sapeurs_CMD_FR'
-                    InfantryGhostMimeticName = 'Para_Sapeurs_CMD_FR_ghost'
                     WeaponUnitFXKey     = 'Para_Sapeurs_CMD_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -21695,8 +21453,6 @@ export Descriptor_ShowRoomUnit_Para_Sapeurs_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Para_Sapeurs_FR'
-                    InfantryAlternativeName = 'Para_Sapeurs_FR'
-                    InfantryGhostMimeticName = 'Para_Sapeurs_FR_ghost'
                     WeaponUnitFXKey     = 'Para_Sapeurs_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -21774,8 +21530,6 @@ export Descriptor_ShowRoomUnit_Para_Sapeurs_Flam_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Para_Sapeurs_Flam_FR'
-                    InfantryAlternativeName = 'Para_Sapeurs_Flam_FR'
-                    InfantryGhostMimeticName = 'Para_Sapeurs_Flam_FR_ghost'
                     WeaponUnitFXKey     = 'Para_Sapeurs_Flam_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -21853,8 +21607,6 @@ export Descriptor_ShowRoomUnit_Paratroopers_CMD_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Paratroopers_CMD_UK'
-                    InfantryAlternativeName = 'Paratroopers_CMD_UK'
-                    InfantryGhostMimeticName = 'Paratroopers_CMD_UK_ghost'
                     WeaponUnitFXKey     = 'Paratroopers_CMD_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -21930,8 +21682,6 @@ export Descriptor_ShowRoomUnit_Paratroopers_MILAN_TA_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Paratroopers_MILAN_TA_UK'
-                    InfantryAlternativeName = 'Paratroopers_MILAN_TA_UK'
-                    InfantryGhostMimeticName = 'Paratroopers_MILAN_TA_UK_ghost'
                     WeaponUnitFXKey     = 'Paratroopers_MILAN_TA_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -22009,8 +21759,6 @@ export Descriptor_ShowRoomUnit_Paratroopers_TA_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Paratroopers_TA_UK'
-                    InfantryAlternativeName = 'Paratroopers_TA_UK'
-                    InfantryGhostMimeticName = 'Paratroopers_TA_UK_ghost'
                     WeaponUnitFXKey     = 'Paratroopers_TA_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -22088,8 +21836,6 @@ export Descriptor_ShowRoomUnit_PzGrenadier_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'PzGrenadier_RFA'
-                    InfantryAlternativeName = 'PzGrenadier_RFA'
-                    InfantryGhostMimeticName = 'PzGrenadier_RFA_ghost'
                     WeaponUnitFXKey     = 'PzGrenadier_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -22205,8 +21951,6 @@ export Descriptor_ShowRoomUnit_RMP_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'RMP_UK'
-                    InfantryAlternativeName = 'RMP_UK'
-                    InfantryGhostMimeticName = 'RMP_UK_ghost'
                     WeaponUnitFXKey     = 'RMP_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -22280,8 +22024,6 @@ export Descriptor_ShowRoomUnit_Ranger_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Ranger_US'
-                    InfantryAlternativeName = 'Ranger_US'
-                    InfantryGhostMimeticName = 'Ranger_US_ghost'
                     WeaponUnitFXKey     = 'Ranger_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -22357,8 +22099,6 @@ export Descriptor_ShowRoomUnit_Rangers_CMD_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rangers_CMD_US'
-                    InfantryAlternativeName = 'Rangers_CMD_US'
-                    InfantryGhostMimeticName = 'Rangers_CMD_US_ghost'
                     WeaponUnitFXKey     = 'Rangers_CMD_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -22432,8 +22172,6 @@ export Descriptor_ShowRoomUnit_Reserve_Polizei_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Reserve_Polizei_RFA'
-                    InfantryAlternativeName = 'Reserve_Polizei_RFA'
-                    InfantryGhostMimeticName = 'Reserve_Polizei_RFA_ghost'
                     WeaponUnitFXKey     = 'Reserve_Polizei_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -22513,8 +22251,6 @@ export Descriptor_ShowRoomUnit_Reserviste_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Reserviste_FR'
-                    InfantryAlternativeName = 'Reserviste_FR'
-                    InfantryGhostMimeticName = 'Reserviste_FR_ghost'
                     WeaponUnitFXKey     = 'Reserviste_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -22594,8 +22330,6 @@ export Descriptor_ShowRoomUnit_Rifles_APILAS_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_APILAS_FR'
-                    InfantryAlternativeName = 'Rifles_APILAS_FR'
-                    InfantryGhostMimeticName = 'Rifles_APILAS_FR_ghost'
                     WeaponUnitFXKey     = 'Rifles_APILAS_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -22675,8 +22409,6 @@ export Descriptor_ShowRoomUnit_Rifles_AT_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_AT_UK'
-                    InfantryAlternativeName = 'Rifles_AT_UK'
-                    InfantryGhostMimeticName = 'Rifles_AT_UK_ghost'
                     WeaponUnitFXKey     = 'Rifles_AT_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -22754,8 +22486,6 @@ export Descriptor_ShowRoomUnit_Rifles_Aero_CMD_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_Aero_CMD_FR'
-                    InfantryAlternativeName = 'Rifles_Aero_CMD_FR'
-                    InfantryGhostMimeticName = 'Rifles_Aero_CMD_FR_ghost'
                     WeaponUnitFXKey     = 'Rifles_Aero_CMD_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -22831,8 +22561,6 @@ export Descriptor_ShowRoomUnit_Rifles_Aero_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_Aero_FR'
-                    InfantryAlternativeName = 'Rifles_Aero_FR'
-                    InfantryGhostMimeticName = 'Rifles_Aero_FR_ghost'
                     WeaponUnitFXKey     = 'Rifles_Aero_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -22912,8 +22640,6 @@ export Descriptor_ShowRoomUnit_Rifles_CMD_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_CMD_FR'
-                    InfantryAlternativeName = 'Rifles_CMD_FR'
-                    InfantryGhostMimeticName = 'Rifles_CMD_FR_ghost'
                     WeaponUnitFXKey     = 'Rifles_CMD_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -22989,8 +22715,6 @@ export Descriptor_ShowRoomUnit_Rifles_CMD_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_CMD_UK'
-                    InfantryAlternativeName = 'Rifles_CMD_UK'
-                    InfantryGhostMimeticName = 'Rifles_CMD_UK_ghost'
                     WeaponUnitFXKey     = 'Rifles_CMD_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -23066,8 +22790,6 @@ export Descriptor_ShowRoomUnit_Rifles_CMD_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 9
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_CMD_US'
-                    InfantryAlternativeName = 'Rifles_CMD_US'
-                    InfantryGhostMimeticName = 'Rifles_CMD_US_ghost'
                     WeaponUnitFXKey     = 'Rifles_CMD_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 11 * Metre
@@ -23146,8 +22868,6 @@ export Descriptor_ShowRoomUnit_Rifles_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_FR'
-                    InfantryAlternativeName = 'Rifles_FR'
-                    InfantryGhostMimeticName = 'Rifles_FR_ghost'
                     WeaponUnitFXKey     = 'Rifles_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -23227,8 +22947,6 @@ export Descriptor_ShowRoomUnit_Rifles_HMG_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_HMG_US'
-                    InfantryAlternativeName = 'Rifles_HMG_US'
-                    InfantryGhostMimeticName = 'Rifles_HMG_US_ghost'
                     WeaponUnitFXKey     = 'Rifles_HMG_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -23305,8 +23023,6 @@ export Descriptor_ShowRoomUnit_Rifles_LAW_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 11
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_LAW_US'
-                    InfantryAlternativeName = 'Rifles_LAW_US'
-                    InfantryGhostMimeticName = 'Rifles_LAW_US_ghost'
                     WeaponUnitFXKey     = 'Rifles_LAW_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 13 * Metre
@@ -23387,8 +23103,6 @@ export Descriptor_ShowRoomUnit_Rifles_RAF_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 12
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_RAF_UK'
-                    InfantryAlternativeName = 'Rifles_RAF_UK'
-                    InfantryGhostMimeticName = 'Rifles_RAF_UK_ghost'
                     WeaponUnitFXKey     = 'Rifles_RAF_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 14 * Metre
@@ -23470,8 +23184,6 @@ export Descriptor_ShowRoomUnit_Rifles_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_UK'
-                    InfantryAlternativeName = 'Rifles_UK'
-                    InfantryGhostMimeticName = 'Rifles_UK_ghost'
                     WeaponUnitFXKey     = 'Rifles_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -23548,8 +23260,6 @@ export Descriptor_ShowRoomUnit_Rifles_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 11
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_US'
-                    InfantryAlternativeName = 'Rifles_US'
-                    InfantryGhostMimeticName = 'Rifles_US_ghost'
                     WeaponUnitFXKey     = 'Rifles_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 13 * Metre
@@ -23630,8 +23340,6 @@ export Descriptor_ShowRoomUnit_Rifles_half_AT4_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_half_AT4_US'
-                    InfantryAlternativeName = 'Rifles_half_AT4_US'
-                    InfantryGhostMimeticName = 'Rifles_half_AT4_US_ghost'
                     WeaponUnitFXKey     = 'Rifles_half_AT4_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -23707,8 +23415,6 @@ export Descriptor_ShowRoomUnit_Rifles_half_CMD_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 3
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_half_CMD_US'
-                    InfantryAlternativeName = 'Rifles_half_CMD_US'
-                    InfantryGhostMimeticName = 'Rifles_half_CMD_US_ghost'
                     WeaponUnitFXKey     = 'Rifles_half_CMD_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 5 * Metre
@@ -23781,8 +23487,6 @@ export Descriptor_ShowRoomUnit_Rifles_half_Dragon_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_half_Dragon_US'
-                    InfantryAlternativeName = 'Rifles_half_Dragon_US'
-                    InfantryGhostMimeticName = 'Rifles_half_Dragon_US_ghost'
                     WeaponUnitFXKey     = 'Rifles_half_Dragon_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -23858,8 +23562,6 @@ export Descriptor_ShowRoomUnit_Rifles_half_LAW_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Rifles_half_LAW_US'
-                    InfantryAlternativeName = 'Rifles_half_LAW_US'
-                    InfantryGhostMimeticName = 'Rifles_half_LAW_US_ghost'
                     WeaponUnitFXKey     = 'Rifles_half_LAW_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -24015,8 +23717,6 @@ export Descriptor_ShowRoomUnit_SAS_CMD_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'SAS_CMD_FR'
-                    InfantryAlternativeName = 'SAS_CMD_FR'
-                    InfantryGhostMimeticName = 'SAS_CMD_FR_ghost'
                     WeaponUnitFXKey     = 'SAS_CMD_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -24090,8 +23790,6 @@ export Descriptor_ShowRoomUnit_SAS_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'SAS_FR'
-                    InfantryAlternativeName = 'SAS_FR'
-                    InfantryGhostMimeticName = 'SAS_FR_ghost'
                     WeaponUnitFXKey     = 'SAS_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -24169,8 +23867,6 @@ export Descriptor_ShowRoomUnit_SAS_Sniper_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'SAS_Sniper_FR'
-                    InfantryAlternativeName = 'SAS_Sniper_FR'
-                    InfantryGhostMimeticName = 'SAS_Sniper_FR_ghost'
                     WeaponUnitFXKey     = 'SAS_Sniper_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -24242,8 +23938,6 @@ export Descriptor_ShowRoomUnit_SAS_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'SAS_UK'
-                    InfantryAlternativeName = 'SAS_UK'
-                    InfantryGhostMimeticName = 'SAS_UK_ghost'
                     WeaponUnitFXKey     = 'SAS_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -24361,8 +24055,6 @@ export Descriptor_ShowRoomUnit_Sapeurs_CMD_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Sapeurs_CMD_FR'
-                    InfantryAlternativeName = 'Sapeurs_CMD_FR'
-                    InfantryGhostMimeticName = 'Sapeurs_CMD_FR_ghost'
                     WeaponUnitFXKey     = 'Sapeurs_CMD_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -24440,8 +24132,6 @@ export Descriptor_ShowRoomUnit_Sapeurs_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Sapeurs_FR'
-                    InfantryAlternativeName = 'Sapeurs_FR'
-                    InfantryGhostMimeticName = 'Sapeurs_FR_ghost'
                     WeaponUnitFXKey     = 'Sapeurs_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -24519,8 +24209,6 @@ export Descriptor_ShowRoomUnit_Sapeurs_Flam_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Sapeurs_Flam_FR'
-                    InfantryAlternativeName = 'Sapeurs_Flam_FR'
-                    InfantryGhostMimeticName = 'Sapeurs_Flam_FR_ghost'
                     WeaponUnitFXKey     = 'Sapeurs_Flam_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -24678,8 +24366,6 @@ export Descriptor_ShowRoomUnit_Scout_AT_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_AT_UK'
-                    InfantryAlternativeName = 'Scout_AT_UK'
-                    InfantryGhostMimeticName = 'Scout_AT_UK_ghost'
                     WeaponUnitFXKey     = 'Scout_AT_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -24753,8 +24439,6 @@ export Descriptor_ShowRoomUnit_Scout_Airmobile_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_Airmobile_UK'
-                    InfantryAlternativeName = 'Scout_Airmobile_UK'
-                    InfantryGhostMimeticName = 'Scout_Airmobile_UK_ghost'
                     WeaponUnitFXKey     = 'Scout_Airmobile_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -24832,8 +24516,6 @@ export Descriptor_ShowRoomUnit_Scout_BEL is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_BEL'
-                    InfantryAlternativeName = 'Scout_BEL'
-                    InfantryGhostMimeticName = 'Scout_BEL_ghost'
                     WeaponUnitFXKey     = 'Scout_BEL'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -24907,8 +24589,6 @@ export Descriptor_ShowRoomUnit_Scout_CMD_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_CMD_DDR'
-                    InfantryAlternativeName = 'Scout_CMD_DDR'
-                    InfantryGhostMimeticName = 'Scout_CMD_DDR_ghost'
                     WeaponUnitFXKey     = 'Scout_CMD_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -24983,8 +24663,6 @@ export Descriptor_ShowRoomUnit_Scout_CMD_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 3
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_CMD_RFA'
-                    InfantryAlternativeName = 'Scout_CMD_RFA'
-                    InfantryGhostMimeticName = 'Scout_CMD_RFA_ghost'
                     WeaponUnitFXKey     = 'Scout_CMD_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 5 * Metre
@@ -25057,8 +24735,6 @@ export Descriptor_ShowRoomUnit_Scout_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_DDR'
-                    InfantryAlternativeName = 'Scout_DDR'
-                    InfantryGhostMimeticName = 'Scout_DDR_ghost'
                     WeaponUnitFXKey     = 'Scout_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -25132,8 +24808,6 @@ export Descriptor_ShowRoomUnit_Scout_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_FR'
-                    InfantryAlternativeName = 'Scout_FR'
-                    InfantryGhostMimeticName = 'Scout_FR_ghost'
                     WeaponUnitFXKey     = 'Scout_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -25207,8 +24881,6 @@ export Descriptor_ShowRoomUnit_Scout_LRRP_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_LRRP_DDR'
-                    InfantryAlternativeName = 'Scout_LRRP_DDR'
-                    InfantryGhostMimeticName = 'Scout_LRRP_DDR_ghost'
                     WeaponUnitFXKey     = 'Scout_LRRP_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -25284,8 +24956,6 @@ export Descriptor_ShowRoomUnit_Scout_LRRP_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_LRRP_SOV'
-                    InfantryAlternativeName = 'Scout_LRRP_SOV'
-                    InfantryGhostMimeticName = 'Scout_LRRP_SOV_ghost'
                     WeaponUnitFXKey     = 'Scout_LRRP_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -25361,8 +25031,6 @@ export Descriptor_ShowRoomUnit_Scout_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_RFA'
-                    InfantryAlternativeName = 'Scout_RFA'
-                    InfantryGhostMimeticName = 'Scout_RFA_ghost'
                     WeaponUnitFXKey     = 'Scout_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -25436,8 +25104,6 @@ export Descriptor_ShowRoomUnit_Scout_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_SOV'
-                    InfantryAlternativeName = 'Scout_SOV'
-                    InfantryGhostMimeticName = 'Scout_SOV_ghost'
                     WeaponUnitFXKey     = 'Scout_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -25511,8 +25177,6 @@ export Descriptor_ShowRoomUnit_Scout_TA_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_TA_UK'
-                    InfantryAlternativeName = 'Scout_TA_UK'
-                    InfantryGhostMimeticName = 'Scout_TA_UK_ghost'
                     WeaponUnitFXKey     = 'Scout_TA_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -25586,8 +25250,6 @@ export Descriptor_ShowRoomUnit_Scout_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_UK'
-                    InfantryAlternativeName = 'Scout_UK'
-                    InfantryGhostMimeticName = 'Scout_UK_ghost'
                     WeaponUnitFXKey     = 'Scout_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -25661,8 +25323,6 @@ export Descriptor_ShowRoomUnit_Scout_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_US'
-                    InfantryAlternativeName = 'Scout_US'
-                    InfantryGhostMimeticName = 'Scout_US_ghost'
                     WeaponUnitFXKey     = 'Scout_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -25736,8 +25396,6 @@ export Descriptor_ShowRoomUnit_Scout_VDV_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_VDV_SOV'
-                    InfantryAlternativeName = 'Scout_VDV_SOV'
-                    InfantryGhostMimeticName = 'Scout_VDV_SOV_ghost'
                     WeaponUnitFXKey     = 'Scout_VDV_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -25811,8 +25469,6 @@ export Descriptor_ShowRoomUnit_Scout_para_FR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Scout_para_FR'
-                    InfantryAlternativeName = 'Scout_para_FR'
-                    InfantryGhostMimeticName = 'Scout_para_FR_ghost'
                     WeaponUnitFXKey     = 'Scout_para_FR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -25886,8 +25542,6 @@ export Descriptor_ShowRoomUnit_Security_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 11
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Security_RFA'
-                    InfantryAlternativeName = 'Security_RFA'
-                    InfantryGhostMimeticName = 'Security_RFA_ghost'
                     WeaponUnitFXKey     = 'Security_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 13 * Metre
@@ -25968,8 +25622,6 @@ export Descriptor_ShowRoomUnit_Sniper_ESR_BEL is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Sniper_ESR_BEL'
-                    InfantryAlternativeName = 'Sniper_ESR_BEL'
-                    InfantryGhostMimeticName = 'Sniper_ESR_BEL_ghost'
                     WeaponUnitFXKey     = 'Sniper_ESR_BEL'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -26041,8 +25693,6 @@ export Descriptor_ShowRoomUnit_Sniper_FJ_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Sniper_FJ_DDR'
-                    InfantryAlternativeName = 'Sniper_FJ_DDR'
-                    InfantryGhostMimeticName = 'Sniper_FJ_DDR_ghost'
                     WeaponUnitFXKey     = 'Sniper_FJ_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -26114,8 +25764,6 @@ export Descriptor_ShowRoomUnit_Sniper_Fern_RFA is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Sniper_Fern_RFA'
-                    InfantryAlternativeName = 'Sniper_Fern_RFA'
-                    InfantryGhostMimeticName = 'Sniper_Fern_RFA_ghost'
                     WeaponUnitFXKey     = 'Sniper_Fern_RFA'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -26187,8 +25835,6 @@ export Descriptor_ShowRoomUnit_Sniper_Spetsnaz_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Sniper_Spetsnaz_SOV'
-                    InfantryAlternativeName = 'Sniper_Spetsnaz_SOV'
-                    InfantryGhostMimeticName = 'Sniper_Spetsnaz_SOV_ghost'
                     WeaponUnitFXKey     = 'Sniper_Spetsnaz_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -26260,8 +25906,6 @@ export Descriptor_ShowRoomUnit_Sniper_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Sniper_UK'
-                    InfantryAlternativeName = 'Sniper_UK'
-                    InfantryGhostMimeticName = 'Sniper_UK_ghost'
                     WeaponUnitFXKey     = 'Sniper_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -26333,8 +25977,6 @@ export Descriptor_ShowRoomUnit_Sniper_US is TEntityDescriptor
                     NbSoldatInGroupeCombat = 2
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Sniper_US'
-                    InfantryAlternativeName = 'Sniper_US'
-                    InfantryGhostMimeticName = 'Sniper_US_ghost'
                     WeaponUnitFXKey     = 'Sniper_US'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 4 * Metre
@@ -26481,8 +26123,6 @@ export Descriptor_ShowRoomUnit_Spetsnaz_CMD_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Spetsnaz_CMD_SOV'
-                    InfantryAlternativeName = 'Spetsnaz_CMD_SOV'
-                    InfantryGhostMimeticName = 'Spetsnaz_CMD_SOV_ghost'
                     WeaponUnitFXKey     = 'Spetsnaz_CMD_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -26559,8 +26199,6 @@ export Descriptor_ShowRoomUnit_Spetsnaz_FireSupport_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 4
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Spetsnaz_FireSupport_SOV'
-                    InfantryAlternativeName = 'Spetsnaz_FireSupport_SOV'
-                    InfantryGhostMimeticName = 'Spetsnaz_FireSupport_SOV_ghost'
                     WeaponUnitFXKey     = 'Spetsnaz_FireSupport_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 6 * Metre
@@ -26634,8 +26272,6 @@ export Descriptor_ShowRoomUnit_Spetsnaz_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 12
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Spetsnaz_SOV'
-                    InfantryAlternativeName = 'Spetsnaz_SOV'
-                    InfantryGhostMimeticName = 'Spetsnaz_SOV_ghost'
                     WeaponUnitFXKey     = 'Spetsnaz_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 14 * Metre
@@ -28219,8 +27855,6 @@ export Descriptor_ShowRoomUnit_Territorial_CMD_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Territorial_CMD_UK'
-                    InfantryAlternativeName = 'Territorial_CMD_UK'
-                    InfantryGhostMimeticName = 'Territorial_CMD_UK_ghost'
                     WeaponUnitFXKey     = 'Territorial_CMD_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -28296,8 +27930,6 @@ export Descriptor_ShowRoomUnit_Territorial_UK is TEntityDescriptor
                     NbSoldatInGroupeCombat = 8
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Territorial_UK'
-                    InfantryAlternativeName = 'Territorial_UK'
-                    InfantryGhostMimeticName = 'Territorial_UK_ghost'
                     WeaponUnitFXKey     = 'Territorial_UK'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 10 * Metre
@@ -29711,8 +29343,6 @@ export Descriptor_ShowRoomUnit_VDV_CMD_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 5
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'VDV_CMD_SOV'
-                    InfantryAlternativeName = 'VDV_CMD_SOV'
-                    InfantryGhostMimeticName = 'VDV_CMD_SOV_ghost'
                     WeaponUnitFXKey     = 'VDV_CMD_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 7 * Metre
@@ -29787,8 +29417,6 @@ export Descriptor_ShowRoomUnit_VDV_HMG_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'VDV_HMG_SOV'
-                    InfantryAlternativeName = 'VDV_HMG_SOV'
-                    InfantryGhostMimeticName = 'VDV_HMG_SOV_ghost'
                     WeaponUnitFXKey     = 'VDV_HMG_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -29865,8 +29493,6 @@ export Descriptor_ShowRoomUnit_VDV_Mech_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'VDV_Mech_SOV'
-                    InfantryAlternativeName = 'VDV_Mech_SOV'
-                    InfantryGhostMimeticName = 'VDV_Mech_SOV_ghost'
                     WeaponUnitFXKey     = 'VDV_Mech_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -29942,8 +29568,6 @@ export Descriptor_ShowRoomUnit_VDV_Metis_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'VDV_Metis_SOV'
-                    InfantryAlternativeName = 'VDV_Metis_SOV'
-                    InfantryGhostMimeticName = 'VDV_Metis_SOV_ghost'
                     WeaponUnitFXKey     = 'VDV_Metis_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -30020,8 +29644,6 @@ export Descriptor_ShowRoomUnit_VDV_SOV is TEntityDescriptor
                     NbSoldatInGroupeCombat = 7
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'VDV_SOV'
-                    InfantryAlternativeName = 'VDV_SOV'
-                    InfantryGhostMimeticName = 'VDV_SOV_ghost'
                     WeaponUnitFXKey     = 'VDV_SOV'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 9 * Metre
@@ -30518,8 +30140,6 @@ export Descriptor_ShowRoomUnit_Volkspolizei_CMD_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 3
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Volkspolizei_CMD_DDR'
-                    InfantryAlternativeName = 'Volkspolizei_CMD_DDR'
-                    InfantryGhostMimeticName = 'Volkspolizei_CMD_DDR_ghost'
                     WeaponUnitFXKey     = 'Volkspolizei_CMD_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 5 * Metre
@@ -30592,8 +30212,6 @@ export Descriptor_ShowRoomUnit_Volkspolizei_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Volkspolizei_DDR'
-                    InfantryAlternativeName = 'Volkspolizei_DDR'
-                    InfantryGhostMimeticName = 'Volkspolizei_DDR_ghost'
                     WeaponUnitFXKey     = 'Volkspolizei_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -30704,8 +30322,6 @@ export Descriptor_ShowRoomUnit_Wachregiment_CMD_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Wachregiment_CMD_DDR'
-                    InfantryAlternativeName = 'Wachregiment_CMD_DDR'
-                    InfantryGhostMimeticName = 'Wachregiment_CMD_DDR_ghost'
                     WeaponUnitFXKey     = 'Wachregiment_CMD_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
@@ -30781,8 +30397,6 @@ export Descriptor_ShowRoomUnit_Wachregiment_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Wachregiment_DDR'
-                    InfantryAlternativeName = 'Wachregiment_DDR'
-                    InfantryGhostMimeticName = 'Wachregiment_DDR_ghost'
                     WeaponUnitFXKey     = 'Wachregiment_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -30862,8 +30476,6 @@ export Descriptor_ShowRoomUnit_Wachregiment_SMG_DDR is TEntityDescriptor
                     NbSoldatInGroupeCombat = 10
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Wachregiment_SMG_DDR'
-                    InfantryAlternativeName = 'Wachregiment_SMG_DDR'
-                    InfantryGhostMimeticName = 'Wachregiment_SMG_DDR_ghost'
                     WeaponUnitFXKey     = 'Wachregiment_SMG_DDR'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 12 * Metre
@@ -34777,10 +34389,10 @@ export Descriptor_ShowRoomUnit_Alpha_Jet_A_rkt_RFA is TEntityDescriptor
         ),
     ]
 )
-export Descriptor_ShowRoomUnit_EF111_Raven is TEntityDescriptor
+export Descriptor_ShowRoomUnit_EF111_Raven_US is TEntityDescriptor
 (
     DescriptorId        = GUID:{84a6a887-5242-45cf-ba88-b3e788fa3364}
-    ClassNameForDebug   = "ShowRoomUnit_EF111_Raven"
+    ClassNameForDebug   = "ShowRoomUnit_EF111_Raven_US"
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
@@ -34794,7 +34406,7 @@ export Descriptor_ShowRoomUnit_EF111_Raven is TEntityDescriptor
         TApparenceModelModuleDescriptor
         (
             PickableObject                     = True
-            Depiction                          = ~/Gfx_EF111_Raven_Showroom_Autogen
+            Depiction                          = ~/Gfx_EF111_Raven_US_Showroom_Autogen
             GameplayBBoxBoneName               = ''
         ),
         ~/LinkTeamModuleDescriptor,
@@ -36055,10 +35667,10 @@ export Descriptor_ShowRoomUnit_F4F_Phantom_II_RKT2_RFA is TEntityDescriptor
         ),
     ]
 )
-export Descriptor_ShowRoomUnit_F4_Phantom_AA_F3 is TEntityDescriptor
+export Descriptor_ShowRoomUnit_F4_Phantom_AA_F3_UK is TEntityDescriptor
 (
     DescriptorId        = GUID:{d64db554-93dd-4a81-b2ab-584ae98dfd8d}
-    ClassNameForDebug   = "ShowRoomUnit_F4_Phantom_AA_F3"
+    ClassNameForDebug   = "ShowRoomUnit_F4_Phantom_AA_F3_UK"
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
@@ -36071,12 +35683,12 @@ export Descriptor_ShowRoomUnit_F4_Phantom_AA_F3 is TEntityDescriptor
         TApparenceModelModuleDescriptor
         (
             PickableObject                     = True
-            Depiction                          = ~/Gfx_F4_Phantom_AA_F3_Showroom_Autogen
+            Depiction                          = ~/Gfx_F4_Phantom_AA_F3_UK_Showroom_Autogen
             GameplayBBoxBoneName               = ''
         ),
         WeaponManager is TModuleSelector
         (
-            Default        = $/GFX/Everything/WeaponDescriptor_F4_Phantom_AA_F3
+            Default        = $/GFX/Everything/WeaponDescriptor_F4_Phantom_AA_F3_UK
             Selection      = [~/NilDescriptorIfCadavre]
         ),
         ~/LinkTeamModuleDescriptor,

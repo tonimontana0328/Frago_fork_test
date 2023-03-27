@@ -2570,16 +2570,6 @@ export UnitEffect_Steelman_supprimer_PA is TEffectsPackDescriptor
     DescriptorId       = GUID:{f345ea94-ced6-4961-a8ac-d90597b4fddb}
     NameForDebug       = 'Steelman_supprimer_PA'
     EffectsDescriptors = [
-        TUnitEffectIncreaseStealthBonusDescriptor
-        (
-            ModifierType       = ~/ModifierType_Additionnel
-            BonusStealthBonus  = 0.5
-        ),
-        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
-        (
-            ModifierType                  = ~/ModifierType_Pourcentage
-            BonusWeaponPrecisionArret = 20
-        ),
         TUnitEffectShowLabelIconDescriptor
         (
             TextureToken         = "icone_sniper"

@@ -688,13 +688,13 @@ BUCKSpecificOutGameStrategicLobbyMainComponentDescriptor is WindowFrame
 
     ButtonList =
     [
-        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyConfirmButton ),
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyInviteButton ),
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyInviteCodeButton ),
-        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbySwitchButton ),
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbySwitchPrivacyButton ),
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyBackButton ),
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyCancelButton ),
+        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbySwitchButton ),
+        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyConfirmButton ),
     ]
 
     ContentComponents =

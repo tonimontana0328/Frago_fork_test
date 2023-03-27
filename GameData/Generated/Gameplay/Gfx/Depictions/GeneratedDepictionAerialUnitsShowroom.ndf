@@ -598,14 +598,14 @@ Gfx_CH53_Sea_Stallion_US_Showroom_Autogen is ShowroomAerialDepictionTemplate
         ),
     ]
 )
-Gfx_EF111_Raven_Showroom_Autogen is ShowroomAerialDepictionTemplate
+Gfx_EF111_Raven_US_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
-    MeshDescriptor = Modele_EF111_Raven
+    MeshDescriptor = Modele_EF111_Raven_US
     SubDepictions = 
     [
         ShowroomLandingGear
         (
-            MeshDescriptor = Modele_EF111_Raven_train
+            MeshDescriptor = Modele_EF111_Raven_US_train
         ),
     ]
 )
@@ -1074,18 +1074,18 @@ Gfx_F4F_Phantom_II_RKT2_RFA_Showroom_Autogen is ShowroomAerialDepictionTemplate
         ),
     ]
 )
-Gfx_F4_Phantom_AA_F3_Showroom_Autogen is ShowroomAerialDepictionTemplate
+Gfx_F4_Phantom_AA_F3_UK_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
-    MeshDescriptor = Modele_F4_Phantom_AA_F3
+    MeshDescriptor = Modele_F4_Phantom_AA_F3_UK
     SubDepictionGenerators = 
     [
-        SubGenerators_Showroom_F4_Phantom_AA_F3,
+        SubGenerators_Showroom_F4_Phantom_AA_F3_UK,
     ]
     SubDepictions = 
     [
         ShowroomLandingGear
         (
-            MeshDescriptor = Modele_F4_Phantom_AA_F3_train
+            MeshDescriptor = Modele_F4_Phantom_AA_F3_UK_train
         ),
     ]
 )

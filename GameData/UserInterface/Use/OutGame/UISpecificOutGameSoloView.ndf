@@ -117,8 +117,8 @@ ListeDesActionsSolo is BUCKListDescriptor
             ExtendWeight = 1.0
             ComponentDescriptor = ThumbnailSoloDescriptor
             (
-                ElementName = "HUBScenarioButton"
-                TextToken = "CHALLENGE"
+                ElementName = "HUBChallengeButton"
+                TextToken = "OP_NAME"
                 ForceEvents = true
                 Locked = true
                 LeftClickSound = SoundEvent_EnterSoloChallenge

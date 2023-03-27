@@ -6777,7 +6777,7 @@ private DivisionRules is TDeckDivisionRules
                     ),
                     TDeckUniteRule
                     (
-                        UnitDescriptor = ~/Descriptor_Unit_F4_Phantom_AA_F3
+                        UnitDescriptor = ~/Descriptor_Unit_F4_Phantom_AA_F3_UK
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 4
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.0]

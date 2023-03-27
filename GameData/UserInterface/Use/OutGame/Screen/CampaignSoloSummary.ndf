@@ -865,7 +865,6 @@ is BUCKSpecificScrollingContainerDescriptor
     (
         RelativeWidthHeight = [1.0, 0.0]
         MagnifiableWidthHeight = [0.0, 800.0]
-        MagnifiableOffset = [0.0, 50.0]
     )
 
     ExternalScrollbar = true
@@ -880,15 +879,44 @@ is BUCKSpecificScrollingContainerDescriptor
     )
 
     Components =
-    [
-        MissionDescriptionText
+     [
+        BUCKListDescriptor
         (
-            ElementName = "TexteObjectifs"
-            MagnifiableOffset = [15.0, 0.0]
-            TextPadding = TRTTILength4(Magnifiable = [20,30,50,0])
-            Alignment = UIText_Left
-            TypefaceToken = "Eurostyle"
-            TextSize = '14'
+            ElementName = "ObjectivesList"
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 0.0]
+                MagnifiableOffset = [15.0, 0.0]
+            )
+
+            Axis = ~/ListAxis/Vertical
+            FirstMargin = TRTTILength( Magnifiable = 10)
+            Elements =
+            [
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = MissionDescriptionText
+                    (
+                        ElementName = "TitreObjectifs"
+                        TextPadding = TRTTILength4(Magnifiable = [20,30,50,0])
+                        Alignment = UIText_Center
+                        TypefaceToken = "Eurostyle"
+                        TextColor = "Noir"
+                        TextSize = "20"
+                    )
+                ),
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = MissionDescriptionText
+                    (
+                        ElementName = "TexteObjectifs"
+                        TextPadding = TRTTILength4(Magnifiable = [20,30,50,0])
+                        Alignment = UIText_Left
+                        TypefaceToken = "Eurostyle"
+                        TextSize = '14'
+                    )
+                )
+            ]
         )
     ]
 )
@@ -1087,50 +1115,36 @@ SummaryCampaignShowroom is BUCKSpecificScrollingContainerDescriptor
 
 //-------------------------------------------------------------------------------------
 
-MissionMap is BUCKListDescriptor
+MissionMap is BUCKTextureDescriptor
 (
+    ElementName = "MapTexture"
     ComponentFrame = TUIFramePropertyRTTI
     (
+        MagnifiableWidthHeight = [467.0*1.15, 467.0*1.15]
         AlignementToAnchor = [0.5, 0.0]
         AlignementToFather = [0.5, 0.0]
-        RelativeWidthHeight = [0.95, 0.0]
+        MagnifiableOffset = [-10,10]
+
     )
 
-    Axis = ~/ListAxis/Vertical
-    InterItemMargin = TRTTILength( Magnifiable = 15.0)
-
-    Elements =
+    Components =
     [
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = MissionDescriptionText
+    BUCKTextureDescriptor
+    (
+            ComponentFrame = TUIFramePropertyRTTI
             (
-                ElementName = "MapTitle"
-                Alignment = UIText_Center
+                    MagnifiableWidthHeight = [36.0, 70.0]
+                    AlignementToAnchor = [0.0, 0.0]
+                    AlignementToFather = [0.0, 0.0]
+                    MagnifiableOffset = [60,-8]
             )
-        ),
-        BUCKListElementSpacer(Magnifiable = 20.0),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKTextureDescriptor
-            (
-                ElementName = "MapTexture"
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    MagnifiableWidthHeight = [467.0, 467.0]
-                    AlignementToAnchor = [0.5, 0.0]
-                    AlignementToFather = [0.5, 0.0]
-                )
-            )
-        ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = MissionDescriptionText
-            (
-                ElementName = "MapSubText"
-                Alignment = UIText_Center
-            )
-        ),
+            TextureToken = 'paperclip'
+    ),
+    MissionDescriptionText
+    (
+        ElementName = "MapSubText"
+        Alignment = UIText_Center
+    )
     ]
 )
 
@@ -1141,7 +1155,6 @@ ScenarioMapDescription is BUCKSpecificScrollingContainerDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [1.0, 1.0]
-        MagnifiableOffset = [0.0, 50.0]
     )
 
     ExternalScrollbar = true
@@ -1154,7 +1167,6 @@ ScenarioMapDescription is BUCKSpecificScrollingContainerDescriptor
         AlignementToFather = [1.0, 0.0]
         MagnifiableOffset =  [-8.0, 0.0]
     )
-
     Components =
     [
         BUCKContainerDescriptor

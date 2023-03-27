@@ -122,7 +122,7 @@ export ChalBlackHorse_Phase_Command is TSequenceGeneratorDescriptor
 
         ~/Artillery_TriggerHappy_1for2Corridors,
 
-        ~/CaptureOneObjectif,
+        ~/CaptureAllZoneObjectif,
 
         ~/Artillery_Expensive,
         ~/Blackhorse_Side_Attack,          // Environ 200

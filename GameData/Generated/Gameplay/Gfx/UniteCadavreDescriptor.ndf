@@ -45564,10 +45564,10 @@ Descriptor_UnitCadavre_Alpha_Jet_A_rkt_RFA is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
-Descriptor_UnitCadavre_EF111_Raven is TEntityDescriptor
+Descriptor_UnitCadavre_EF111_Raven_US is TEntityDescriptor
 (
     DescriptorId       = GUID:{a5b4c5d1-6e82-4238-9b69-f7dc92f0ca0b}
-    ClassNameForDebug  = 'Unit_CadavreEF111_Raven'
+    ClassNameForDebug  = 'Unit_CadavreEF111_Raven_US'
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
@@ -45613,14 +45613,14 @@ Descriptor_UnitCadavre_EF111_Raven is TEntityDescriptor
                 DeathExplosionAmmo = ~/Ammo_Mort_Avion_UltraLourd
                 ModuleDescriptorsToSteal =
                 [
-                   $/GFX/Everything/Descriptor_Unit_EF111_Raven/ApparenceModel,
-                   $/GFX/Everything/Descriptor_Unit_EF111_Raven/AirplaneMovement,
-                   $/GFX/Everything/Descriptor_Unit_EF111_Raven/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_EF111_Raven_US/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_EF111_Raven_US/AirplaneMovement,
+                   $/GFX/Everything/Descriptor_Unit_EF111_Raven_US/GenericMovement,
                 ]
             ),
-            $/GFX/Everything/Descriptor_Unit_EF111_Raven/ApparenceModel,
-            $/GFX/Everything/Descriptor_Unit_EF111_Raven/AirplaneMovement,
-            $/GFX/Everything/Descriptor_Unit_EF111_Raven/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_EF111_Raven_US/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_EF111_Raven_US/AirplaneMovement,
+            $/GFX/Everything/Descriptor_Unit_EF111_Raven_US/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -47640,10 +47640,10 @@ Descriptor_UnitCadavre_F4F_Phantom_II_RKT2_RFA is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
-Descriptor_UnitCadavre_F4_Phantom_AA_F3 is TEntityDescriptor
+Descriptor_UnitCadavre_F4_Phantom_AA_F3_UK is TEntityDescriptor
 (
     DescriptorId       = GUID:{57e66c5b-33bc-4309-9c9d-6f1a9151ca25}
-    ClassNameForDebug  = 'Unit_CadavreF4_Phantom_AA_F3'
+    ClassNameForDebug  = 'Unit_CadavreF4_Phantom_AA_F3_UK'
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
@@ -47689,18 +47689,18 @@ Descriptor_UnitCadavre_F4_Phantom_AA_F3 is TEntityDescriptor
                 DeathExplosionAmmo = ~/Ammo_Mort_Avion_UltraLourd
                 ModuleDescriptorsToSteal =
                 [
-                   $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3/WeaponManager,
-                   $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3/ApparenceModel,
-                   $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3/AirplaneMovement,
-                   $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3/GenericMovement,
-                   $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3/MissileCarriage,
+                   $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3_UK/WeaponManager,
+                   $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3_UK/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3_UK/AirplaneMovement,
+                   $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3_UK/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3_UK/MissileCarriage,
                 ]
             ),
-            $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3/WeaponManager,
-            $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3/ApparenceModel,
-            $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3/AirplaneMovement,
-            $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3/GenericMovement,
-            $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3/MissileCarriage,
+            $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3_UK/WeaponManager,
+            $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3_UK/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3_UK/AirplaneMovement,
+            $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3_UK/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_F4_Phantom_AA_F3_UK/MissileCarriage,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]

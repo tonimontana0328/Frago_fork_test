@@ -17,7 +17,7 @@ StrategicSelectionModuleDescriptor is TSelectionModuleDescriptor
 (
     IsSelectable       = True
     IsHighlightable    = True
-    HasSelectionShader = False
+    HasSelectionShader = True
     HasHighlightShader = True
 )
 

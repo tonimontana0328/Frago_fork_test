@@ -112,17 +112,19 @@ private PawnLossesTeamButtonManager is TBUCKRadioButtonManager()
 private template TeamCategory
 [
     TeamIdentifier : string,
-    TextToken_side : string = 'lo_natol'
+    // TextToken_side : string = 'lo_natol'
 ] is BUCKButtonDescriptor
 (
     ElementName = "TeamButton_" + <TeamIdentifier>
 
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [113.0*2, 67.0*2]
+        // MagnifiableWidthHeight = [113.0*2, 67.0*2]
+        // MagnifiableOffset = [0,120]
     )
 
 
+    FitStyle = ~/ContainerFitStyle/FitToContent
 
     IsTogglable = true
     CannotDeselect = true
@@ -145,7 +147,7 @@ private template TeamCategory
 
             Axis = ListAxis/Vertical
             BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
-            FirstMargin = TRTTILength ( Magnifiable = 120)
+            FirstMargin = TRTTILength ( Magnifiable = 60)
 
             Elements =
             [
@@ -161,7 +163,9 @@ private template TeamCategory
                             AlignementToAnchor = [0.5, 0.0]
                             AlignementToFather = [0.5, 0.0]
                         )
-
+                        HasBorder = true
+                        BorderThicknessToken = "1"
+                        BorderLineColorToken = "BoutonTemps"
                         TextureFrame = TUIFramePropertyRTTI()
 
                         ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
@@ -178,7 +182,7 @@ private template TeamCategory
                             MagnifiableWidthHeight = [320.0, 0.0]
                         )
 
-                        TextPadding = TRTTILength4(Magnifiable = [0.0, 0.0, 0, 0])
+                        TextPadding = TRTTILength4(Magnifiable = [0.0, 10.0, 0, 0])
                         ParagraphStyle = TParagraphStyleRTTI
                         (
                             Alignment = UIText_Center
@@ -192,39 +196,6 @@ private template TeamCategory
                         //HorizontalFitStyle = ~/FitStyle/FitToContent
                         VerticalFitStyle = ~/FitStyle/FitToContent
 
-                        TypefaceToken = "Eurostyle_Heavy"
-                        BigLineAction = ~/BigLineAction/CutByDots
-
-                        TextDico = ~/LocalisationConstantes/dico_interface_ingame
-
-                        TextColor = "Transparent"
-                        TextSize = "14"
-                    )
-                ),
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = BUCKTextDescriptor
-                    (
-
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            MagnifiableWidthHeight = [320.0, 0.0]
-                        )
-
-                        TextPadding = TRTTILength4(Magnifiable = [0.0, 0.0, 0, 0])
-                        ParagraphStyle = TParagraphStyleRTTI
-                        (
-                            Alignment = UIText_Center
-                            VerticalAlignment = UIText_VerticalCenter
-                            InterLine = 0
-                        )
-
-                        TextStyle = "Default"
-                        TextToken = <TextToken_side>
-
-                        //HorizontalFitStyle = ~/FitStyle/FitToContent
-                        VerticalFitStyle = ~/FitStyle/FitToContent
-
                         TypefaceToken = "Eurostyle_Italic"
                         BigLineAction = ~/BigLineAction/CutByDots
 
@@ -233,7 +204,40 @@ private template TeamCategory
                         TextColor = "ButtonHUD"
                         TextSize = "14"
                     )
-                )
+                ),
+                // BUCKListElementDescriptor
+                // (
+                //     ComponentDescriptor = BUCKTextDescriptor
+                //     (
+
+                //         ComponentFrame = TUIFramePropertyRTTI
+                //         (
+                //             MagnifiableWidthHeight = [320.0, 0.0]
+                //         )
+
+                //         TextPadding = TRTTILength4(Magnifiable = [0.0, 0.0, 0, 0])
+                //         ParagraphStyle = TParagraphStyleRTTI
+                //         (
+                //             Alignment = UIText_Center
+                //             VerticalAlignment = UIText_VerticalCenter
+                //             InterLine = 0
+                //         )
+
+                //         TextStyle = "Default"
+                //         TextToken = <TextToken_side>
+
+                //         //HorizontalFitStyle = ~/FitStyle/FitToContent
+                //         VerticalFitStyle = ~/FitStyle/FitToContent
+
+                //         TypefaceToken = "Eurostyle_Italic"
+                //         BigLineAction = ~/BigLineAction/CutByDots
+
+                //         TextDico = ~/LocalisationConstantes/dico_interface_ingame
+
+                //         TextColor = "ButtonHUD"
+                //         TextSize = "14"
+                //     )
+                // )
             ]
         )
     ]
@@ -621,9 +625,9 @@ BUCKSpecificLossesStateMainComponentDescriptor is BUCKListDescriptor
                 Axis = ListAxis/Horizontal
                 BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
-                FirstMargin = TRTTILength( Magnifiable = 20.0 )
-                InterItemMargin = TRTTILength( Magnifiable = 100.0 )
-                LastMargin = TRTTILength( Magnifiable = 20.0 )
+                // FirstMargin = TRTTILength( Magnifiable = 20.0 )
+                InterItemMargin = TRTTILength( Magnifiable = 40.0 )
+                // LastMargin = TRTTILength( Magnifiable = 20.0 )
 
                 Elements =
                 [

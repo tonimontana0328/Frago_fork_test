@@ -1039,7 +1039,7 @@ template UISpecificSkirmishProductionMenuViewDescriptor
 
     ShortcutUILayer = $/M3D/Input/UserInputLayerHandler/InputLayer_InGameShortcuts
 
-    NbMaxPlanes = 16
+    NbMaxPlanes = 9
 
     SquadGroupName = "HPROD_SQD"
     HalfSquadGroupName = "HPROD_HSQD"
