@@ -28,31 +28,9 @@ type : string = 'defeat'
             AlphaAnimDuration = 0
 
         ),
-
-        {BUCKListDescriptor
-                (
-                    ElementName = 'LDHintButtonList'
-                    ComponentFrame = TUIFramePropertyRTTI
-                    (
-                        MagnifiableWidthHeight = [0.0, 0.0]
-                        MagnifiableOffset = [0,600]
-                        AlignementToFather = [0.5, 0.0]
-                        AlignementToAnchor = [0.5, 0.0]
-                    )
-
-                    Axis = ~/ListAxis/Horizontal
-                    BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
-                    InterItemMargin = TRTTILength( Magnifiable = ~/LDHintMagnifiableInterButtonMargin )
-
-                    Elements =
-                    [
-                        // envoie LDHintDefaultButton
-                    ]
-                ),}
         BUCKTranslationAnimatedContainerDescriptor
         (
-            //ElementName = "ProfileStatsListAnimation"
-
+            ElementName = "LDHintTextAnimatedContainer"
             FramePropertyBeforeAnimation = TUIFramePropertyRTTI
             (
                 MagnifiableWidthHeight = [1,100]
@@ -76,9 +54,7 @@ type : string = 'defeat'
             [
                BUCKTextDescriptor
                 (
-                    ElementName = 'LDHintText'
-                    //HasBackground = true
-                    BackgroundBlockColorToken = 'Orange'
+                    ElementName = "LDHintText"
                     ComponentFrame = TUIFramePropertyRTTI
                     (
                         RelativeWidthHeight = [1,1]
@@ -90,7 +66,6 @@ type : string = 'defeat'
                     (
                         Alignment = UIText_Center
                         VerticalAlignment = UIText_VerticalCenter
-                        //BigWordAction = ~/BigWordAction/BigWordLetRun
                         InterLine = 0.5
                     )
                     TextStyle = "Default"

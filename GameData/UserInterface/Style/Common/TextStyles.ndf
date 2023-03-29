@@ -292,6 +292,33 @@ TextStylePointActionBLUFOR is TTextStyleRTTI
     AllowSmallFont = true
 )
 
+TextStylePointActionREDFORCantAttack is TTextStyleRTTI
+(
+    ColorBottom = [  180, 25, 25, 160]
+    ColorUp     = [ 255, 100, 100, 160]
+    ColorStroke = [  0,   0,   0, 60]
+    Stroke = true
+    StrokeSize = 1
+    StrokeHardness = 0.96
+    TextThickness = 0.21
+    FontSize = 1
+    AllowSmallFont = true
+)
+
+TextStylePointActionBLUFORCantAttack is TTextStyleRTTI
+(
+    ColorBottom = [ 25, 25, 180, 160]
+    ColorUp     = [ 100, 100, 255, 160]
+    ColorStroke = [  0,   0,   0, 60]
+    Stroke = true
+    StrokeSize = 1
+    StrokeHardness = 0.96
+    TextThickness = 0.21
+    FontSize = 1
+    AllowSmallFont = true
+)
+
+
 TextStyle_EGWin is TTextStyleRTTI
 (
     ColorBottom = [  200,   200,   200, 255]

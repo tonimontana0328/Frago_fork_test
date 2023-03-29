@@ -148,7 +148,7 @@ template PanelListeGroup
 ]
 is BUCKContainerDescriptor
 (
-
+    ElementName = <Name> + "Container"
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [1.0, 0.0]
@@ -599,6 +599,7 @@ private PanelInfosBataille is BUCKListDescriptor
         (
             ComponentDescriptor = TemplateTextStartBattle
             (
+                ElementName = "AttackPanelTitle"
                 TypefaceToken = "Eurostyle_Heavy"
                 TextToken = "strength"
                 IsTitre = true
@@ -633,6 +634,7 @@ private PanelInfosBataille is BUCKListDescriptor
         (
             ComponentDescriptor = TemplateTextStartBattle
             (
+                ElementName = "CommandPanelTitle"
                 TypefaceToken = "Eurostyle_Heavy"
                 TextToken = "PrC_cc"
                 IsTitre = true
@@ -662,21 +664,14 @@ private PanelInfosBataille is BUCKListDescriptor
                 TextToken2 = "income"
             )
         ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKContainerDescriptor
-            (
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    MagnifiableWidthHeight = [0.0, 20.0]
-                )
-            )
-        ),
+        BUCKListElementSpacer(Magnifiable = 20.0),
+        //-------------------------------------------------------------------------------------
         // unités
         BUCKListElementDescriptor
         (
             ComponentDescriptor = TemplateTextStartBattle
             (
+                ElementName = "BattlegroupsPanelTitle"
                 TypefaceToken = "Eurostyle_Heavy"
                 TextToken = "PrC_cb"
                 IsTitre = true
@@ -688,6 +683,7 @@ private PanelInfosBataille is BUCKListDescriptor
         (
             ComponentDescriptor = BUCKListDescriptor
             (
+                ElementName = "BattlegroupsPanel"
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     AlignementToFather = [0.5, 0]
@@ -706,6 +702,7 @@ private PanelInfosBataille is BUCKListDescriptor
                     (
                         ComponentDescriptor = BUCKListDescriptor
                         (
+                            ElementName = "BattlegroupsPanelSubTitles"
                             ComponentFrame = TUIFramePropertyRTTI
                             (
                                 AlignementToFather = [0.5, 0]
@@ -825,6 +822,7 @@ private PanelInfosBataille is BUCKListDescriptor
         (
             ComponentDescriptor = TemplateTextStartBattle
             (
+                ElementName = "GroundSupportPanelTitle"
                 TypefaceToken = "Eurostyle_Heavy"
                 TextToken = "PrC_arts"
                 IsTitre = true
@@ -844,6 +842,7 @@ private PanelInfosBataille is BUCKListDescriptor
         (
             ComponentDescriptor = TemplateTextStartBattle
             (
+                ElementName = "AirSupportPanelTitle"
                 TypefaceToken = "Eurostyle_Heavy"
                 TextToken = "PrC_as"
                 IsTitre = true

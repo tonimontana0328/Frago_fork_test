@@ -78555,7 +78555,7 @@ export WeaponDescriptor_MiG_27K_LGB_SOV is TWeaponManagerModuleDescriptor
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
         4,
-        1,
+        2,
         4,
         -1,
         -1,

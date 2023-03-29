@@ -766,7 +766,7 @@ HidePointerEventsContainer is BUCKContainerDescriptor
 UISpecificLossesStateViewDescriptor is TUISpecificLossesStateViewDescriptor
 (
     MainComponentDescriptor = ~/HidePointerEventsContainer
-    MainComponentContainerUniqueName = "StrategicMenuPanelContainer" // Permet d'indiquer l'endroit ou le composant doit s'insérer
+    MainComponentContainerUniqueName = "" // Permet d'indiquer l'endroit ou le composant doit s'insérer
 
     PawnLossesViewDescriptor = ~/UISpecificPawnLossesViewDescriptor
 )

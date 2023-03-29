@@ -1667,11 +1667,6 @@ export UnitEffect_GroundUnit_Cohesion_Low is TEffectsPackDescriptor
         (
             BonusAimtime = 1.5
         ),
-        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
-        (
-            ModifierType                     = ~/ModifierType_Pourcentage
-            ModificationTempsEntreDeuxSalves = 50
-        ),
         TUnitEffectRaiseTagDescriptor
         (
             TagListToRaise = [
@@ -1706,11 +1701,6 @@ export UnitEffect_GroundUnit_Cohesion_Mediocre is TEffectsPackDescriptor
         TBonusWeaponAimtimeEffectDescriptor
         (
             BonusAimtime = 1.25
-        ),
-        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
-        (
-            ModifierType                     = ~/ModifierType_Pourcentage
-            ModificationTempsEntreDeuxSalves = 25
         ),
         TUnitEffectRaiseTagDescriptor
         (

@@ -817,15 +817,6 @@ TacticalPreparationIncomeAndMoralInfos is BUCKListDescriptor
                 ValueToken = "morValu"
             )
         ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = StrategicTacticalPreparationInfosLine
-            (
-                ElementName = "MaxLosses"
-                TitleToken = "losTitl"
-                ValueToken = "losValu"
-            )
-        ),
     ]
 )
 

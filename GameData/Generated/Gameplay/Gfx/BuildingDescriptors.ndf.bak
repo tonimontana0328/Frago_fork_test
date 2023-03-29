@@ -51,8 +51,8 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             (
                 Default        = TDynamicTerrainModuleDescriptor
                 (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
+                    TerrainToApplyOnInit  = ETerrainType/PetitBatiment
+                    TerrainToApplyOnDeath = ETerrainType/PetitBatiment
                     PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
                     OnlyOnProduction = True
                 )
@@ -314,8 +314,8 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             (
                 Default        = TDynamicTerrainModuleDescriptor
                 (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
+                    TerrainToApplyOnInit  = ETerrainType/PetitBatiment
+                    TerrainToApplyOnDeath = ETerrainType/PetitBatiment
                     PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
                     OnlyOnProduction = True
                 )
@@ -577,8 +577,8 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             (
                 Default        = TDynamicTerrainModuleDescriptor
                 (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
+                    TerrainToApplyOnInit  = ETerrainType/PetitBatiment
+                    TerrainToApplyOnDeath = ETerrainType/PetitBatiment
                     PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
                     OnlyOnProduction = True
                 )
@@ -840,8 +840,8 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             (
                 Default        = TDynamicTerrainModuleDescriptor
                 (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
+                    TerrainToApplyOnInit  = ETerrainType/PetitBatiment
+                    TerrainToApplyOnDeath = ETerrainType/PetitBatiment
                     PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
                     OnlyOnProduction = True
                 )
@@ -1103,8 +1103,8 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             (
                 Default        = TDynamicTerrainModuleDescriptor
                 (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
+                    TerrainToApplyOnInit  = ETerrainType/PetitBatiment
+                    TerrainToApplyOnDeath = ETerrainType/PetitBatiment
                     PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
                     OnlyOnProduction = True
                 )
@@ -1366,8 +1366,8 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             (
                 Default        = TDynamicTerrainModuleDescriptor
                 (
-                    TerrainToApplyOnInit  = ETerrainType/Bloqueur
-                    TerrainToApplyOnDeath = ETerrainType/Bloqueur
+                    TerrainToApplyOnInit  = ETerrainType/PetitBatiment
+                    TerrainToApplyOnDeath = ETerrainType/PetitBatiment
                     PolygonDelimiter = ~/FOBTerrainPolygonDelimiter
                     OnlyOnProduction = True
                 )

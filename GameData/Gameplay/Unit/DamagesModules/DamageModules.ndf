@@ -19,7 +19,7 @@ Infanterie_SuppressDamagesRegenRatioOutOfRange is 10
 Infanterie_StunDamagesRegen is 1
 
 // Dégâts de "stun" que l'unité doit atteindre pour être stunned (dégâts augmentant avec les dégâts de suppressions et regénérés avec StunDamagesRegen)
-Infanterie_MaxStunDamages is 300
+Infanterie_MaxStunDamages is 250
 
 Infanterie_MaxSuppressionDamages is 500
 
@@ -45,7 +45,7 @@ GroundUnit_SuppressDamagesRegenRatioOutOfRange is 10
 GroundUnit_StunDamagesRegen is 1
 
 // Dégâts de "stun" que l'unité doit atteindre pour être stunned (dégâts augmentant avec les dégâts de suppressions et regénérés avec StunDamagesRegen)
-GroundUnit_MaxStunDamages is 350
+GroundUnit_MaxStunDamages is 300
 
 GroundUnit_MaxSuppressionDamages is 500
 

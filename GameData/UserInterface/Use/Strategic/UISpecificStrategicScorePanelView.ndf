@@ -282,9 +282,9 @@ template BUCKSpecificStrategicScorePanelMainComponentDescriptor
 )
 //-------------------------------------------------------------------------------------
 template MainPanelScore
-[ PanelButton : TBUCKButtonDescriptor,]
-
- is BUCKListDescriptor
+[
+    PanelButton : TBUCKButtonDescriptor,
+] is BUCKListDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (
@@ -292,8 +292,6 @@ template MainPanelScore
         AlignementToFather = [0.5, 0.5]
         AlignementToAnchor = [0.5, 0.5]
     )
-
-
 
     InterItemMargin = TRTTILength( Magnifiable = 6.0 )
     Axis = ~/ListAxis/Vertical
@@ -792,7 +790,6 @@ template TemplateTextVictory
 
 private TerritoryLine is TemplateTextScore
 (
-
 )
 
 //-------------------------------------------------------------------------------------
@@ -803,7 +800,7 @@ template UISpecificStrategicScorePanelViewDescriptor
 ] is TUISpecificStrategicScorePanelViewDescriptor
 (
     MainComponentDescriptor = <isEndgame> ? BUCKSpecificStrategicScorePanelMainComponentDescriptor(PanelButton = ~/ScorePanelButtonExit) : BUCKSpecificStrategicScorePanelMainComponentDescriptor(PanelButton = ~/ScorePanelButtonOk)
-    MainComponentContainerUniqueName = <isEndgame> ? "" : "StrategicMenuPanelContainer" // Permet d'indiquer l'endroit ou le composant doit s'insérer
+    MainComponentContainerUniqueName = ""
     TerritoryToken = "SSC_TERRIT"
     TerritoryLine = ~/TerritoryLine
 )

@@ -51,6 +51,8 @@ DefaultStyleGuide is TUIStyleGuide
         ("ActionPoint",                                             MAP [ ( ~/ComponentState/Normal, TextStylePointAction ), ]),
         ("ActionPointREDFOR",                                       MAP [ ( ~/ComponentState/Normal, TextStylePointActionREDFOR ), ]),
         ("ActionPointBLUFOR",                                       MAP [ ( ~/ComponentState/Normal, TextStylePointActionBLUFOR ), ]),
+        ("ActionPointREDFORCantAttack",                             MAP [ ( ~/ComponentState/Normal, TextStylePointActionREDFORCantAttack ), ]),
+        ("ActionPointBLUFORCantAttack",                             MAP [ ( ~/ComponentState/Normal, TextStylePointActionBLUFORCantAttack ), ]),
         ("Default",                                             MAP [ ( ~/ComponentState/Normal, TextStyleDefault ), ]),
         ("LabelUnitNameStroke",                                             MAP [ ( ~/ComponentState/Normal, TextStyleStrokeLabelUnit ), ]),
         ("DefaultWithStroke",                                   MAP [ ( ~/ComponentState/Normal, TextStyleWithStroke ), ]),

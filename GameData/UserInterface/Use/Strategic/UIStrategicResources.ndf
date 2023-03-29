@@ -180,14 +180,6 @@ private StrategicMainContainerResource is TUICommonMainContainerResource
                             RelativeWidthHeight = [1.0, 1.0]
                         )
                     ),
-                    BUCKContainerDescriptor
-                    (
-                        UniqueName = "StrategicMenuPanelContainer"
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            RelativeWidthHeight = [1.0, 1.0]
-                        )
-                    ),
                     //
                     BUCKListDescriptor
                     (

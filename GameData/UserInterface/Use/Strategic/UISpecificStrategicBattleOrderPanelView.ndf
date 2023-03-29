@@ -318,7 +318,7 @@ SelectPawnPositionEvent is TDescriptorPositionEvents
 UISpecificStrategicBattleOrderPanelViewDescriptor is TUISpecificStrategicBattleOrderPanelViewDescriptor
 (
     MainComponentDescriptor = ~/SpecificStrategicBattleOrderPanelMainComponentDescriptor
-    MainComponentContainerUniqueName = "StrategicMenuPanelContainer"
+    MainComponentContainerUniqueName = ""
 
     SubPanelDescriptor = ~/UISpecificStrategicBattleOrderSubPanelViewDescriptor
     SelectPawnPositionEvent = ~/SelectPawnPositionEvent

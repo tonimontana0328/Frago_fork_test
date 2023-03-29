@@ -726,7 +726,6 @@ template PawnLabelViewDescriptor
     EngagementAnimScale = 0.1 // L'échelle va varier de 1 à (1+EngagementPhaseAnimScale). Négatif autorisé
     EngagementAnimRandomStart = 0.5 // Décalage aléatoire max en secondes au démarrage.
     LabelTransparencyIfNoEngagement = 0.2 //Transparence de l'étiquette des unités qui ne peuvent pas participer au combat (cf. CantFightUnitAlpha)
-    ActionPointsOpacityIfNotEnoughPAToAttack = 0.6 // Transparence des points d'action si l'unité n'a pas les PA suffisants pour attaquer
 
     BonusBackgroundColorTokenByTerrainType = MAP
     [

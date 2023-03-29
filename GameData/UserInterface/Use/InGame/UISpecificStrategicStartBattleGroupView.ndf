@@ -53,12 +53,12 @@ is BUCKListDescriptor
                     (
                         BackgroundBlockColorToken = 'SM_Grullo'
                         BorderLineColorToken = 'SM_Noir'
-                        ),
+                    ),
                     BUCKSpecificHintableArea
                     (
-                        HintTitleToken = 'mob_bout'
-                        HintBodyToken = 'mob_boub'
-                        //HintExtendedToken ='pip_hqe'
+                        ElementName = "PawnSlotHintableArea"
+                        HintTitleToken = ""
+                        HintBodyToken = ""
                         DicoToken = ~/LocalisationConstantes/dico_interface_ingame
                     )
 
@@ -116,6 +116,25 @@ template UISpecificStrategicStartBattleGroupViewDescriptor
 
     PawnBriefDescriptor = ~/UISpecificStrategicStartBattlePawnBriefViewDescriptor
 
-    ShowOnlyList = <ShowOnlyList>
+    // à garder d'équerre avec StrategicBattleRole.ndf
+    // la position dans le tableau correspond au role défini dans StrategicBattleRole.ndf (PanelListeGroupCombatRack pour les fighter donc en position 0 par exemple)
+    HintTitleByRole =
+    [
+        "mob_bout", // Fighter
+        "mob_bout", // AuxiliarySupport
+        "mob_bout", // AirSupport
+        "mob_bout"  // GroundSupport
+    ]
 
+    // à garder d'équerre avec StrategicBattleRole.ndf
+    // la position dans le tableau correspond au role défini dans StrategicBattleRole.ndf (PanelListeGroupCombatRack pour les fighter donc en position 0 par exemple)
+    HintBodyByRole =
+    [
+        "mob_boub", // Fighter
+        "mob_boub", // AuxiliarySupport
+        "mob_boub", // AirSupport
+        "mob_boub"  // GroundSupport
+    ]
+
+    ShowOnlyList = <ShowOnlyList>
 )

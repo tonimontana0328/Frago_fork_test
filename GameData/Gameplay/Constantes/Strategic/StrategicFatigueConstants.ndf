@@ -2,7 +2,7 @@ StrategicMaxFatiguePerUnit is 6
 
 StrategicFatigueGainOnMove is 0
 StrategicFatigueLossOnNextTurn is 1
-StrategicFatigueGainOnBombard is 1
+StrategicFatigueGainOnBombard is 4
 StrategicFatigueGainOnFlee is 0
 
 StrategicEmptyActionPointsOnMaxFatigueRout is true

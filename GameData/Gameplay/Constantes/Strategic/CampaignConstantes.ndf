@@ -15,8 +15,8 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
     DefenderFatigueGainAfterCombat = ~/StrategicBattleDefenderFatigueGainAfterBattle
 
 
-    PawnDissolutionFactor = 0.60 //Un pion est dissout après le combat si sa dernière compagnie est en dessous de X% de son effectif initial
-    CompanyDissolutionFactor = 0.4 //Une compagnie est dissoute après le combat si elle est en dessous de X% de son effectif initial
+    PawnDissolutionFactor = 0.2 //Un pion est dissout après le combat si sa dernière compagnie est en dessous de X% de son effectif initial
+    CompanyDissolutionFactor = 0.2 //Une compagnie est dissoute après le combat si elle est en dessous de X% de son effectif initial
     FreeDefenseRadius = 0 * ~/ActionPointConsumptionRefs/CaseSize // Le rayon autour de l'unité attaquée dans lequel les unités alliés peuvent attaquer sans reset leur défense et sans bouger
     NbActionPointsNeededToFight = 4 //Nombre de PA nécessaire pour participer à une bataille une fois sur place
     NbActionPointsNeededToFightForAirplane = 4 //Nombre de PA nécessaire pour participer à une bataille une fois sur place
@@ -171,7 +171,7 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
         ("Shoot",                   3.0), // GroundDeny - les zones de ralentissement terrestres posées par bombardier et artilleries.
         ("AirplaineAirDeny",        3.0), // Boxing/AirDeny - zones Air/Air
         ("AirplanePatrol",          3.0), // AirplaneReco - reconnaissance aérienne
-        ("Bombarder",               6.0), // Bomb - bombardement single target (avion ou arti)
+        ("Bombarder",               5.0), // Bomb - bombardement single target (avion ou arti)
         ("Fortify",                 3.0), // Fortify - action de défense
         ("FortifyAntiAir",          6.0), // FortifyAntiAir - action de defense Anti aerienne des unites au sol
         ("Move",                    0.0), // Le cout du move est calculé en fonction de la distance parcourue
@@ -238,8 +238,7 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
     // REGLES DU TACTIQUE
     //-------------------------------------------------------------------------------------
 
-    BataillonMoralValue = 76
-    DefeatMoralPercentage = 0.01
+    BataillonMoralValue = 75
 
     TacticalTimeLimit = 60
     TacticalScoreLimit = 2500

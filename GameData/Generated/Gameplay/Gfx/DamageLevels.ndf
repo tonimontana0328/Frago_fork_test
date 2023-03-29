@@ -1485,7 +1485,7 @@ export DamageLevelsPackDescriptor_Unit_packStun_aa is TDamageLevelsPackDescripto
         DamageLevelDescriptor_Unit_packStun_palier_2_aa is TDamageLevelDescriptor
         (
             DescriptorId = GUID:{fbb66f8f-f096-4a7e-b331-8bf3d46d37f2}
-            Value = 0.33
+            Value = 0.58
             TextColor = RGBA[0,0,0,0]
             EffectsPacks = [
                 ~/UnitEffect_Unit_Stunned,

@@ -6,7 +6,10 @@ StrategicMissionListBackground is "mission_dossierVide"
 //-------------------------------------------------------------------------------------
 private ScenarioBriefButtonRadioManager is TBUCKRadioButtonManager()
 
-private ScenarioBriefDescriptor is BUCKButtonDescriptor
+private template ScenarioBriefDescriptor
+[
+    GameType : int,
+] is BUCKButtonDescriptor
 (
     ElementName = "ScenarioBriefButton"
 
@@ -24,7 +27,7 @@ private ScenarioBriefDescriptor is BUCKButtonDescriptor
 
     Components =
     [
-        Texte_Mission,
+        Texte_Mission(GameType = <GameType>),
         BUCKButtonDescriptor
         (
             ElementName = "ButtonDLC"
@@ -109,7 +112,10 @@ private ScenarioBriefDescriptor is BUCKButtonDescriptor
 )
 
 //-------------------------------------------------------------------------------------
-private Texte_Mission is BUCKListDescriptor
+private template Texte_Mission
+[
+    GameType : int,
+] is BUCKListDescriptor
 (
     ElementName = "ScenarioBriefInfos"
 
@@ -218,8 +224,7 @@ private Texte_Mission is BUCKListDescriptor
                     )
                 ]
             )
-        ),
-
+        ) ] + ((<GameType> == ~/GameChallenge) ? [
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKMultiListContentElementDescriptor
@@ -265,7 +270,7 @@ private Texte_Mission is BUCKListDescriptor
                     )
                 ]
             )
-        ),
+        ) ] : []) + [
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKMultiListContentElementDescriptor
@@ -306,7 +311,10 @@ private Texte_Mission is BUCKListDescriptor
 )
 
 //-------------------------------------------------------------------------------------
-private ScenarioBriefsRack is BUCKRackDescriptor
+private template ScenarioBriefsRack
+[
+    GameType : int,
+] is BUCKRackDescriptor
 (
     ElementName = "ScenarioBriefsRack"
 
@@ -318,7 +326,7 @@ private ScenarioBriefsRack is BUCKRackDescriptor
     Axis = ~/ListAxis/Vertical
     FirstMargin = TRTTILength(Magnifiable = 10.0)
     InterItemMargin = TRTTILength(Magnifiable = 0.0)
-    BladeDescriptor = ~/ScenarioBriefDescriptor
+    BladeDescriptor = ScenarioBriefDescriptor(GameType = <GameType>)
 )
 
 //-------------------------------------------------------------------------------------
@@ -611,8 +619,7 @@ private template ScenarioDescriptionContainer
 private template ScenarioListContainer
 [
     ListTitle : string,
-    IsChallenge : bool,
-    IsTutorial : bool
+    GameType : int,
 ] is BUCKContainerDescriptor
 (
     ElementName = "ScenarioListContainer"
@@ -664,7 +671,7 @@ private template ScenarioListContainer
                                     RelativeWidthHeight = [1.0, 1.0]
                                 )
 
-                                Components = (<IsChallenge> ?
+                                Components = ((<GameType> == ~/GameChallenge) ?
                                 [
                                     BUCKContainerDescriptor
                                     (
@@ -681,7 +688,7 @@ private template ScenarioListContainer
                                     ScenarioMultiList
                                     (
                                         ListTitle = <ListTitle>
-                                        IsTutorial = <IsTutorial>
+                                        GameType = <GameType>
                                     ),
                                 ]
                             )
@@ -703,7 +710,7 @@ private template ScenarioListContainer
 private template ScenarioMultiList
 [
     ListTitle : string,
-    IsTutorial : bool
+    GameType : int,
 ] is BUCKMultiListDescriptor
 (
     ElementName = "ScenarioMultiList"
@@ -716,27 +723,28 @@ private template ScenarioMultiList
     [
         "IsCompletedMultilist",
         "OperationNameMultilist",
-        "OperationCountryMultilist",
         "OperationDurationMultilist"
-    ]
+    ] + ((<GameType> == ~/GameChallenge) ? ["OperationCountryMultilist"] : [])
 
-    SortableColumnNames = (<IsTutorial> ? [] :
+    SortableColumnNames = ((<GameType> == ~/GameCampaign) ? [] :
     [
         "IsCompletedMultilist",
         "OperationNameMultilist",
-        "OperationCountryMultilist",
         "OperationDurationMultilist"
-    ])
+    ]) + ((<GameType> == ~/GameChallenge) ? ["OperationCountryMultilist"] : [])
 
     RackName = "ScenarioBriefsRack"
 
-    TitleDescriptor = ScenarioTitleContainer(ListTitle = <ListTitle>)
-    ContentDescriptor = Scenario_List_ScrollingContainer
+    TitleDescriptor = ScenarioTitleContainer(ListTitle = <ListTitle> GameType = <GameType>)
+    ContentDescriptor = Scenario_List_ScrollingContainer(GameType = <GameType>)
 )
 
 //-------------------------------------------------------------------------------------
 
-private Scenario_List_ScrollingContainer is BUCKContainerDescriptor
+private template Scenario_List_ScrollingContainer
+[
+    GameType : int,
+] is BUCKContainerDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (
@@ -767,7 +775,7 @@ private Scenario_List_ScrollingContainer is BUCKContainerDescriptor
 
             Components =
             [
-                ScenarioBriefsRack
+                ScenarioBriefsRack(GameType = <GameType>)
             ]
         )
     ]
@@ -809,7 +817,7 @@ is BUCKTextDescriptor
         DicoToken = ~/LocalisationConstantes/dico_interface_outgame
         HintTitleToken = <TextToken>
         HintBodyToken = <HintBodyToken>
-        )
+    )
 )
 
 //-------------------------------------------------------------------------------------
@@ -817,6 +825,7 @@ is BUCKTextDescriptor
 template ScenarioTitleContainer
 [
     ListTitle : string,
+    GameType : int,
 ] is BUCKListDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
@@ -853,7 +862,7 @@ template ScenarioTitleContainer
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = titleColumnMissionList
+            ComponentDescriptor = titleColumnMissionList(GameType = <GameType>)
         ),
         BUCKListElementDescriptor
         (
@@ -882,7 +891,10 @@ ChallengeDoneColumnWidth is 60
 ChallengeCountryColumnWidth is 70
 ChallengeDurationColumnWidth is 70
 
-titleColumnMissionList is BUCKListDescriptor
+template titleColumnMissionList
+[
+    GameType : int,
+] is BUCKListDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (
@@ -944,7 +956,7 @@ titleColumnMissionList is BUCKListDescriptor
                     )
                 ]
             )
-        ),
+        ) ] + ((<GameType> == ~/GameChallenge) ? [
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKMultiListTitleButtonDescriptor
@@ -968,7 +980,7 @@ titleColumnMissionList is BUCKListDescriptor
                     )
                 ]
             )
-        ),
+        ) ] : []) + [
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKMultiListTitleButtonDescriptor
@@ -1042,7 +1054,7 @@ private template BUCKSpecificScenarioMainComponentDescriptor
                 (
                     ListTitle = (<GameType> == ~/GameCampaign) ? "tuto_list" : ((<GameType> == ~/GameStrategic) ? "str_list" : "op_list")
                     BackgroundTexture = (<GameType> == ~/GameCampaign) ? ~/TutorielMissionListBackground : ((<GameType> == ~/GameStrategic) ? ~/StrategicMissionListBackground : ~/ChallengeMissionListBackground)
-                    IsTutorial = (<GameType> == ~/GameCampaign)
+                    GameType = <GameType>
                 ),
             ])
         )
@@ -1053,7 +1065,7 @@ template FullPanelLoadMission
 [
     BackgroundTexture : string,
     ListTitle : string,
-    IsTutorial : bool,
+    GameType : int,
 ] is BUCKTextureDescriptor
 (
     ElementName = "LoadMissionFullPanel"
@@ -1074,8 +1086,7 @@ template FullPanelLoadMission
         ScenarioListContainer
         (
             ListTitle = <ListTitle>
-            IsChallenge = false
-            IsTutorial = <IsTutorial>
+            GameType = <GameType>
         ),
         // page de droite
         ScenarioDescriptionContainer
@@ -1116,8 +1127,7 @@ FullPanelPreviewMission is BUCKTextureDescriptor
         ScenarioListContainer
         (
             ListTitle = "op_list"
-            IsTutorial = false
-            IsChallenge = true
+            GameType = ~/GameChallenge
         ),
         // page de droite
         ScenarioDescriptionContainer
