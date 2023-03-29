@@ -24282,13 +24282,13 @@ export WeaponDescriptor_GreenBerets_CMD_US is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketInf_M72_LAW_66mm
+                    Ammunition                          = ~/Ammo_RocketInf_AT4_83mm
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_RocketInf_M72_LAW_66mm'
+                    EffectTag                           = 'FireEffect_RocketInf_AT4_83mm'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 2

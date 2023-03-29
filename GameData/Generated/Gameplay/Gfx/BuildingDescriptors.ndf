@@ -93,7 +93,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
                         MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
                         MaxStunDamages = ~/Building_MaxStunDamages
                     )
-                    MaxDamages = 10
+                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
@@ -208,7 +208,7 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
                     Factory            = EDefaultFactories/Logistic
                     ProductionTime     = -1
                     ProductionRessourcesNeeded = MAP [
-                        (~/Resource_CommandPoints, 250),
+                        (~/Resource_CommandPoints, 150),
                     ]
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
@@ -356,7 +356,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
                         MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
                         MaxStunDamages = ~/Building_MaxStunDamages
                     )
-                    MaxDamages = 10
+                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
@@ -471,7 +471,7 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
                     Factory            = EDefaultFactories/Logistic
                     ProductionTime     = -1
                     ProductionRessourcesNeeded = MAP [
-                        (~/Resource_CommandPoints, 250),
+                        (~/Resource_CommandPoints, 150),
                     ]
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
@@ -619,7 +619,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
                         MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
                         MaxStunDamages = ~/Building_MaxStunDamages
                     )
-                    MaxDamages = 10
+                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
@@ -734,7 +734,7 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
                     Factory            = EDefaultFactories/Logistic
                     ProductionTime     = -1
                     ProductionRessourcesNeeded = MAP [
-                        (~/Resource_CommandPoints, 250),
+                        (~/Resource_CommandPoints, 150),
                     ]
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
@@ -882,7 +882,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
                         MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
                         MaxStunDamages = ~/Building_MaxStunDamages
                     )
-                    MaxDamages = 10
+                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
@@ -997,7 +997,7 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
                     Factory            = EDefaultFactories/Logistic
                     ProductionTime     = -1
                     ProductionRessourcesNeeded = MAP [
-                        (~/Resource_CommandPoints, 250),
+                        (~/Resource_CommandPoints, 150),
                     ]
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
@@ -1145,7 +1145,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
                         MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
                         MaxStunDamages = ~/Building_MaxStunDamages
                     )
-                    MaxDamages = 10
+                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
@@ -1260,7 +1260,7 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
                     Factory            = EDefaultFactories/Logistic
                     ProductionTime     = -1
                     ProductionRessourcesNeeded = MAP [
-                        (~/Resource_CommandPoints, 250),
+                        (~/Resource_CommandPoints, 150),
                     ]
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
@@ -1408,7 +1408,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
                         MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
                         MaxStunDamages = ~/Building_MaxStunDamages
                     )
-                    MaxDamages = 10
+                    MaxDamages = 25
                     KillWhenDamagesReachMax = True
                     HitRollSize = 0.0
                     HitRollECM = 0.0
@@ -1523,7 +1523,7 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
                     Factory            = EDefaultFactories/Logistic
                     ProductionTime     = -1
                     ProductionRessourcesNeeded = MAP [
-                        (~/Resource_CommandPoints, 250),
+                        (~/Resource_CommandPoints, 150),
                     ]
                 )
                 Selection = [ ~/NilDescriptorIfCadavre ]
