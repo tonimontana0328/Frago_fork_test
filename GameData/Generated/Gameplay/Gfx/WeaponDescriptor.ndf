@@ -7200,7 +7200,7 @@ export WeaponDescriptor_Airborne_Engineers_US is TWeaponManagerModuleDescriptor
     Salves               = [
         180,
         80,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -16905,7 +16905,7 @@ export WeaponDescriptor_Engineers_DDR is TWeaponManagerModuleDescriptor
     Salves               = [
         140,
         80,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -17673,7 +17673,7 @@ export WeaponDescriptor_Engineers_RFA is TWeaponManagerModuleDescriptor
     Salves               = [
         180,
         80,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -17795,7 +17795,7 @@ export WeaponDescriptor_Engineers_Reserve_RFA is TWeaponManagerModuleDescriptor
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
         120,
-        5,
+        15,
         -1,
         -1,
         -1,
@@ -17888,7 +17888,7 @@ export WeaponDescriptor_Engineers_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         140,
         80,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -18011,7 +18011,7 @@ export WeaponDescriptor_Engineers_Scout_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         140,
         80,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -18134,7 +18134,7 @@ export WeaponDescriptor_Engineers_TA_UK is TWeaponManagerModuleDescriptor
     Salves               = [
         160,
         80,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -18257,7 +18257,7 @@ export WeaponDescriptor_Engineers_UK is TWeaponManagerModuleDescriptor
     Salves               = [
         120,
         160,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -18380,7 +18380,7 @@ export WeaponDescriptor_Engineers_US is TWeaponManagerModuleDescriptor
     Salves               = [
         180,
         80,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -18503,7 +18503,7 @@ export WeaponDescriptor_Engineers_VDV_SOV is TWeaponManagerModuleDescriptor
     Salves               = [
         80,
         80,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -22347,7 +22347,7 @@ export WeaponDescriptor_Fallschirm_B1_RFA is TWeaponManagerModuleDescriptor
     Salves               = [
         140,
         80,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -23084,7 +23084,7 @@ export WeaponDescriptor_Fallschirmjager_FlaseFlag_Demo_DDR is TWeaponManagerModu
     Salves               = [
         120,
         160,
-        6,
+        16,
         -1,
         -1,
         -1
@@ -24319,7 +24319,7 @@ export WeaponDescriptor_GreenBerets_MP5_US is TWeaponManagerModuleDescriptor
     Salves               = [
         120,
         4,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -29585,7 +29585,7 @@ export WeaponDescriptor_LRRP_UK is TWeaponManagerModuleDescriptor
     Salves               = [
         100,
         20,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -46572,7 +46572,7 @@ export WeaponDescriptor_Para_Sapeurs_FR is TWeaponManagerModuleDescriptor
     Salves               = [
         140,
         80,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -50155,7 +50155,7 @@ export WeaponDescriptor_SAS_FR is TWeaponManagerModuleDescriptor
     Salves               = [
         120,
         160,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -50655,7 +50655,7 @@ export WeaponDescriptor_Sapeurs_FR is TWeaponManagerModuleDescriptor
     Salves               = [
         140,
         80,
-        5,
+        15,
         -1,
         -1,
         -1
@@ -63453,7 +63453,7 @@ export WeaponDescriptor_Wachregiment_SMG_DDR is TWeaponManagerModuleDescriptor
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
         200,
-        5,
+        15,
         -1,
         -1,
         -1,
