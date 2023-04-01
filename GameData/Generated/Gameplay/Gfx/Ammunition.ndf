@@ -25879,7 +25879,7 @@ Ammo_HMG_12_7_mm_M2HB is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
+             (EBaseHitValueModifier/Idling, 15),
              (EBaseHitValueModifier/Moving, 5),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -25893,7 +25893,7 @@ Ammo_HMG_12_7_mm_M2HB is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -25978,7 +25978,7 @@ Ammo_HMG_12_7_mm_M85 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
+             (EBaseHitValueModifier/Idling, 15),
              (EBaseHitValueModifier/Moving, 5),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -25992,7 +25992,7 @@ Ammo_HMG_12_7_mm_M85 is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -26077,7 +26077,7 @@ Ammo_HMG_12_7_mm_NSVT is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
+             (EBaseHitValueModifier/Idling, 15),
              (EBaseHitValueModifier/Moving, 5),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -26091,7 +26091,7 @@ Ammo_HMG_12_7_mm_NSVT is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -26275,7 +26275,7 @@ Ammo_HMG_14_5_mm_KPVT is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
+             (EBaseHitValueModifier/Idling, 15),
              (EBaseHitValueModifier/Moving, 5),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -26289,7 +26289,7 @@ Ammo_HMG_14_5_mm_KPVT is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -26473,7 +26473,7 @@ Ammo_HMG_team_12_7_mm_NSV is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 30),
+             (EBaseHitValueModifier/Idling, 20),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -26487,7 +26487,7 @@ Ammo_HMG_team_12_7_mm_NSV is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -35144,7 +35144,7 @@ Ammo_MMG_AANF1_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -35242,7 +35242,7 @@ Ammo_MMG_FN_MAG_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -35326,8 +35326,8 @@ Ammo_MMG_HK21_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, 15),
+             (EBaseHitValueModifier/Moving, 7),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -35340,7 +35340,7 @@ Ammo_MMG_HK21_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -35424,8 +35424,8 @@ Ammo_MMG_L37A2_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, 15),
+             (EBaseHitValueModifier/Moving, 7),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -35438,7 +35438,7 @@ Ammo_MMG_L37A2_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -35522,8 +35522,8 @@ Ammo_MMG_L43A1_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, 15),
+             (EBaseHitValueModifier/Moving, 7),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -35536,7 +35536,7 @@ Ammo_MMG_L43A1_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -35620,8 +35620,8 @@ Ammo_MMG_L8A2_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, 15),
+             (EBaseHitValueModifier/Moving, 7),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -35634,7 +35634,7 @@ Ammo_MMG_L8A2_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -35718,8 +35718,8 @@ Ammo_MMG_L94A1_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, 15),
+             (EBaseHitValueModifier/Moving, 8),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -35732,7 +35732,7 @@ Ammo_MMG_L94A1_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -35816,8 +35816,8 @@ Ammo_MMG_M240_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, 15),
+             (EBaseHitValueModifier/Moving, 5),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -35830,7 +35830,7 @@ Ammo_MMG_M240_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -35914,7 +35914,7 @@ Ammo_MMG_M240_abrams_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
+             (EBaseHitValueModifier/Idling, 15),
              (EBaseHitValueModifier/Moving, 10),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -35928,7 +35928,7 @@ Ammo_MMG_M240_abrams_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -36222,7 +36222,7 @@ Ammo_MMG_MG3_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -36418,7 +36418,7 @@ Ammo_MMG_PKT_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -36502,7 +36502,7 @@ Ammo_MMG_PKT_7_62mm_x2 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
+             (EBaseHitValueModifier/Idling, 10),
              (EBaseHitValueModifier/Moving, 5),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -36516,7 +36516,7 @@ Ammo_MMG_PKT_7_62mm_x2 is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -36614,7 +36614,7 @@ Ammo_MMG_SGMB_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 2.0
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
