@@ -50804,7 +50804,7 @@ Ammo_RocketInf_AT4_83mm is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 112 * Metre
-    SuppressDamages                   = 83.0
+    SuppressDamages                   = 119.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -51190,7 +51190,7 @@ Ammo_RocketInf_Carl_Gustav is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 110 * Metre
-    SuppressDamages                   = 84.0
+    SuppressDamages                   = 112.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -51386,7 +51386,7 @@ Ammo_RocketInf_LAW_80 is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 115 * Metre
-    SuppressDamages                   = 80.0
+    SuppressDamages                   = 140.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -51483,7 +51483,7 @@ Ammo_RocketInf_LRAC_F1 is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 109 * Metre
-    SuppressDamages                   = 89.0
+    SuppressDamages                   = 105.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -52359,7 +52359,7 @@ Ammo_RocketInf_M72_LAW_66mm is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 106 * Metre
-    SuppressDamages                   = 66.0
+    SuppressDamages                   = 91.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -52456,7 +52456,7 @@ Ammo_RocketInf_PzF_3 is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 116 * Metre
-    SuppressDamages                   = 110.0
+    SuppressDamages                   = 147.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -52553,7 +52553,7 @@ Ammo_RocketInf_PzF_44 is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 107 * Metre
-    SuppressDamages                   = 67.0
+    SuppressDamages                   = 98.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -52746,7 +52746,7 @@ Ammo_RocketInf_RPG18_64mm is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 106 * Metre
-    SuppressDamages                   = 64.0
+    SuppressDamages                   = 91.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -52940,7 +52940,7 @@ Ammo_RocketInf_RPG22_72_5mm is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 109 * Metre
-    SuppressDamages                   = 72.0
+    SuppressDamages                   = 105.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -53037,7 +53037,7 @@ Ammo_RocketInf_RPG26_72_5mm is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 110 * Metre
-    SuppressDamages                   = 72.0
+    SuppressDamages                   = 112.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -53231,7 +53231,7 @@ Ammo_RocketInf_RPG29_105mm is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 116 * Metre
-    SuppressDamages                   = 105.0
+    SuppressDamages                   = 147.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -53427,7 +53427,7 @@ Ammo_RocketInf_RPG7 is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 106 * Metre
-    SuppressDamages                   = 85.0
+    SuppressDamages                   = 91.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -53717,7 +53717,7 @@ Ammo_RocketInf_RPG7VL is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 113 * Metre
-    SuppressDamages                   = 93.0
+    SuppressDamages                   = 126.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -53911,7 +53911,7 @@ Ammo_RocketInf_RPG7VR_64mm is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 115 * Metre
-    SuppressDamages                   = 64.0
+    SuppressDamages                   = 140.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
