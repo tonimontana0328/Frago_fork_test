@@ -50742,7 +50742,7 @@ Ammo_RocketInf_APILAS is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -50839,7 +50839,7 @@ Ammo_RocketInf_AT4_83mm is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -51225,7 +51225,7 @@ Ammo_RocketInf_Carl_Gustav is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 6.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -51421,7 +51421,7 @@ Ammo_RocketInf_LAW_80 is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -51518,7 +51518,7 @@ Ammo_RocketInf_LRAC_F1 is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 6.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -52394,7 +52394,7 @@ Ammo_RocketInf_M72_LAW_66mm is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -52491,7 +52491,7 @@ Ammo_RocketInf_PzF_3 is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -52588,7 +52588,7 @@ Ammo_RocketInf_PzF_44 is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 6.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -52781,7 +52781,7 @@ Ammo_RocketInf_RPG18_64mm is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -52878,7 +52878,7 @@ Ammo_RocketInf_RPG2 is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 6.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -52975,7 +52975,7 @@ Ammo_RocketInf_RPG22_72_5mm is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -53072,7 +53072,7 @@ Ammo_RocketInf_RPG26_72_5mm is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -53169,7 +53169,7 @@ Ammo_RocketInf_RPG27_105mm is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -53266,7 +53266,7 @@ Ammo_RocketInf_RPG29_105mm is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 6.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -53462,7 +53462,7 @@ Ammo_RocketInf_RPG7 is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 6.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -53752,7 +53752,7 @@ Ammo_RocketInf_RPG7VL is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 6.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -53946,7 +53946,7 @@ Ammo_RocketInf_RPG7VR_64mm is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 6.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
