@@ -53634,13 +53634,13 @@ export WeaponDescriptor_Spetsnaz_CMD_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketInf_RPG26_72_5mm
+                    Ammunition                          = ~/Ammo_RocketInf_RPG29_105mm
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_RocketInf_RPG26_72_5mm'
+                    EffectTag                           = 'FireEffect_RocketInf_RPG29_105mm'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 2
