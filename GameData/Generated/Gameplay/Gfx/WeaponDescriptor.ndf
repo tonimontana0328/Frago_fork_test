@@ -22924,7 +22924,7 @@ export WeaponDescriptor_Fallschirmjager_FalseFlag_CMD_DDR is TWeaponManagerModul
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketInf_M72_LAW_66mm
+                    Ammunition                          = ~/Ammo_RocketInf_AT4_83mm
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -63478,7 +63478,7 @@ export WeaponDescriptor_Wachregiment_SMG_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_PM_Skorpion
+                    Ammunition                          = ~/Ammo_PM_AKSU_74
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1

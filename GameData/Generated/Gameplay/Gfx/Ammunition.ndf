@@ -48846,6 +48846,7 @@ Ammo_RocketArt_9M27F_HE_220mm is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 16
     SupplyCost                        = 640
+    NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
@@ -61049,7 +61050,7 @@ Ammo_AGM_AGM114A_x16 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 16
-    SupplyCost                        = 240
+    SupplyCost                        = 480
     CanShootOnPosition                = False
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
@@ -61425,7 +61426,7 @@ Ammo_AGM_AGM114A_x8 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 120
+    SupplyCost                        = 240
     CanShootOnPosition                = False
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
