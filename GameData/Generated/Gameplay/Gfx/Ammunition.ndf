@@ -68550,6 +68550,7 @@ Ammo_Bomb_GBU_10_x1 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 1.0
     ShotsBeforeMaxNoise               = 3
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -68644,6 +68645,7 @@ Ammo_Bomb_GBU_10_x2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 1.0
     ShotsBeforeMaxNoise               = 3
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -68738,6 +68740,7 @@ Ammo_Bomb_GBU_12_x1 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 1.0
     ShotsBeforeMaxNoise               = 3
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -68832,6 +68835,7 @@ Ammo_Bomb_GBU_12_x2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 1.0
     ShotsBeforeMaxNoise               = 3
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -68926,6 +68930,7 @@ Ammo_Bomb_GBU_27_x1 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 1.0
     ShotsBeforeMaxNoise               = 3
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -69019,6 +69024,7 @@ Ammo_Bomb_GBU_27_x2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 1.0
     ShotsBeforeMaxNoise               = 3
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
