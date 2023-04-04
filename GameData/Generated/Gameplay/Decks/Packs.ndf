@@ -2317,6 +2317,18 @@ Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_TRM_2000_supply_FR is TDeckP
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_UH1H_supply_US is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{015f75c6-ed33-41e0-bb3f-55dc0922467b}
+    CfgName = 'TOE_NATO_Garnison_Berlin_multi_UH1H_supply_US'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_UH1H_supply_US
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VAB_CMD_FR is TDeckPackDescriptor
 (
     DescriptorId = GUID:{6b0f93a8-9c3a-40b0-b44e-0f1c52127872}

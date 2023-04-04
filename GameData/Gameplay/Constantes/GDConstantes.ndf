@@ -154,9 +154,8 @@ Constantes is TTunableConstante
     //Couleur par défaut des ghosts
     DefaultGhostColors = TGhostColors(
         GhostColor = [255, 255, 255, 255]
-        GhostAlpha = 0.4
-        GhostColor2 = [255, 255, 255, 25]
-        GhostAlpha2 = 0.2
+        GhostAlphas = [0.4, 0.2]
+        GhostBlends = [1, 0.1]
     )
 
     NbMaxProductionsEtRecherchesSimultanees = 0
@@ -189,10 +188,6 @@ Constantes is TTunableConstante
     TimeNotificationObjectiveInSecond = 2.0
     TimeDownloadObjectiveAnimationInSecond = 1.0
     TimeAfterDownloadObjectiveInSecond = 0.5
-
-//----------------------------- Constantes Replay -----------------------------------------//
-
-    TimeBetweenNodeDuringReplayInSeconds = 30
 
 //----------------------------- Constantes Resale -----------------------------------------//
 

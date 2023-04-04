@@ -1681,6 +1681,116 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
                 UseTextColor = true
             )
         ),
+        (
+            "IFV",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Texture_Icon_ifv"
+                BBMin=[0.0, -0.718, 0]
+                BBMax=[1.68, 0.128, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+                UseTextColor = true
+            )
+        ),
+        (
+            "ARMOR",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Texture_Icon_armor"
+                BBMin=[0.0, -0.718, 0]
+                BBMax=[1.68, 0.128, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+                UseTextColor = true
+            )
+        ),
+        (
+            "APC",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Texture_Icon_apc"
+                BBMin=[0.0, -0.718, 0]
+                BBMax=[1.68, 0.128, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+                UseTextColor = true
+            )
+        ),
+        (
+            "AIR",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Texture_Icon_air"
+                BBMin=[0.0, -0.718, 0]
+                BBMax=[1.68, 0.128, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+                UseTextColor = true
+            )
+        ),
+        (
+            "AA",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Texture_Icon_AA"
+                BBMin=[0.0, -0.718, 0]
+                BBMax=[1.68, 0.128, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+                UseTextColor = true
+            )
+        ),
+        (
+            "INF",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Texture_Icon_Infantry"
+                BBMin=[0.0, -0.718, 0]
+                BBMax=[1.68, 0.128, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+                UseTextColor = true
+            )
+        ),
+        (
+            "HOWZ",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Texture_Icon_howitzer"
+                BBMin=[0.0, -0.718, 0]
+                BBMax=[1.68, 0.128, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+                UseTextColor = true
+            )
+        ),
+        (
+            "ASSAUT",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Texture_Icon_assault"
+                BBMin=[0.0, -0.718, 0]
+                BBMax=[1.68, 0.128, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+                UseTextColor = true
+            )
+        ),
+        (
+            "AT",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Texture_Icon_at"
+                BBMin=[0.0, -0.718, 0]
+                BBMax=[1.68, 0.128, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+                UseTextColor = true
+            )
+        ),
+        (
+            "HELO",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Texture_Icon_helo"
+                BBMin=[0.0, -0.718, 0]
+                BBMax=[1.68, 0.128, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+                UseTextColor = true
+            )
+        ),
         //-------------------------------------------------------------------------------------
         (
             "renfort_flag",

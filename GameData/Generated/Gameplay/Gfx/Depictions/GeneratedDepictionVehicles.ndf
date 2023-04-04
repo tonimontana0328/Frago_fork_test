@@ -10457,43 +10457,6 @@ Gfx_M1025_Humvee_AGL_US_Autogen is TacticVehicleDepictionTemplate
     SubDepictions = [
     ] + HumanSubDepictions_M1025_Humvee_AGL_US
 )
-// Dépiction de l'unité M1025_Humvee_AGL_nonPara_US
-DepictionOperator_M1025_Humvee_AGL_nonPara_US_Weapon1 is DepictionOperator_WeaponInstantFire
-(
-    FireEffectTag = "weapon_effet_tag1"
-    Anchors = ["fx_tourelle1_tir_01"]
-    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
-    NbProj = 1
-)
-Gfx_M1025_Humvee_AGL_nonPara_US_Autogen is TacticVehicleDepictionTemplate
-(
-    CoatingName = 'M1025_Humvee_AGL_nonPara_US'
-    Selector = Selector_M1025_Humvee_AGL_nonPara_US
-    Alternatives = Alternatives_M1025_Humvee_AGL_nonPara_US
-
-    Operators = 
-    [
-        DepictionOperator_CropFlattening,
-        DepictionOperator_MovementSound_SM_Humvee,
-        DepictionOperator_CriticalEffects,
-        DepictionOperator_Chassis_MediumTank_AutoCanon,
-        DepictionOperator_Propulsion_Wheels_Generic,
-        DepictionOperator_MovementFX_Standard,
-        DepictionOperator_Turret_1_Aim,
-        DepictionOperator_Turret_1_HydraulicRecoil_AutoCannon,
-        DepictionOperator_M1025_Humvee_AGL_nonPara_US_Weapon1,
-    ]
-
-    Actions = MAP[
-                ( [ "weapon_effet_tag1" ], Weapon_Lance_grenade_Mk19_40mm ),
-            ]
-            + DepictionAction_Stress_And_Wrecked
-            + DepictionAction_MovementFX_Wheeled
-            + DepictionAction_CriticalFX_Tank
-
-    SubDepictions = [
-    ] + HumanSubDepictions_M1025_Humvee_AGL_nonPara_US
-)
 // Dépiction de l'unité M1025_Humvee_CMD_US
 Gfx_M1025_Humvee_CMD_US_Autogen is TacticVehicleDepictionTemplate
 (

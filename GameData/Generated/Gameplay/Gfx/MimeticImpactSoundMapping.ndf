@@ -1233,8 +1233,32 @@ export AllImpactSoundHappenings is TImpactHappening
         ),
         (   TFxWeaponType_MitrailleuseMG3Inf , MAP
             [
-                ( EImpactSurface/Ground        , SoundHappening_ImpactBalles_burstSol_SAW ),
-                ( EImpactSurface/Water         , SoundHappening_ImpactBalles_burstSol_SAW ),
+                ( EImpactSurface/Ground        , SoundHappening_ImpactBalles_burstSol_MG_3 ),
+                ( EImpactSurface/Water         , SoundHappening_ImpactBalles_burstSol_MG_3 ),
+                ( EImpactSurface/Air           , nil ),
+                ( EImpactSurface/Wall          , SoundHappening_ImpactBalles_burstBatiment ),
+                ( EImpactSurface/Vehicle       , SoundHappening_ImpactBalles_burstVehicule ),
+                ( EImpactSurface/FlyingVehicle , SoundHappening_ImpactBalles_burstVehicule ),
+                ( EImpactSurface/Missile       , SoundHappening_ImpactBalles_burstVehicule ),
+                ( EImpactSurface/Ricochet      , nil ),
+            ]
+        ),
+        (   TFxWeaponType_MitrailleuseMG3Externe , MAP
+            [
+                ( EImpactSurface/Ground        , SoundHappening_ImpactBalles_burstSol_Short_MG_3 ),
+                ( EImpactSurface/Water         , SoundHappening_ImpactBalles_burstSol_Short_MG_3 ),
+                ( EImpactSurface/Air           , nil ),
+                ( EImpactSurface/Wall          , SoundHappening_ImpactBalles_burstBatiment ),
+                ( EImpactSurface/Vehicle       , SoundHappening_ImpactBalles_burstVehicule ),
+                ( EImpactSurface/FlyingVehicle , SoundHappening_ImpactBalles_burstVehicule ),
+                ( EImpactSurface/Missile       , SoundHappening_ImpactBalles_burstVehicule ),
+                ( EImpactSurface/Ricochet      , nil ),
+            ]
+        ),
+        (   TFxWeaponType_MitrailleuseMG3Interne , MAP
+            [
+                ( EImpactSurface/Ground        , SoundHappening_ImpactBalles_burstSol_Short_MG_3 ),
+                ( EImpactSurface/Water         , SoundHappening_ImpactBalles_burstSol_Short_MG_3 ),
                 ( EImpactSurface/Air           , nil ),
                 ( EImpactSurface/Wall          , SoundHappening_ImpactBalles_burstBatiment ),
                 ( EImpactSurface/Vehicle       , SoundHappening_ImpactBalles_burstVehicule ),

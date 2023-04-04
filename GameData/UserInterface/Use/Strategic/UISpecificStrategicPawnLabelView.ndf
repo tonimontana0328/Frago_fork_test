@@ -20,7 +20,7 @@ PawnLabelMainComponentDescriptor is BUCKSensibleAreaDescriptor
     )
 
     FitStyle = ~/ContainerFitStyle/FitToContent
-
+    MagnifierMultiplication = 1.1
     Components =
     [
         ~/UpperLabelList,

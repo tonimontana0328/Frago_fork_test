@@ -19418,71 +19418,6 @@ Descriptor_UnitCadavre_M1025_Humvee_AGL_US is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
-Descriptor_UnitCadavre_M1025_Humvee_AGL_nonPara_US is TEntityDescriptor
-(
-    DescriptorId       = GUID:{4bf3b933-67b4-4507-b8dd-b92a62f7f4b3}
-    ClassNameForDebug  = 'Unit_CadavreM1025_Humvee_AGL_nonPara_US'
-    ModulesDescriptors = [
-        TTypeUnitModuleDescriptor
-        (
-            Nationalite                      = ENationalite/Allied
-            MotherCountry                    = 'US'
-            AcknowUnitType                   = ~/TAcknowUnitType_Reco
-            TypeUnitFormation                = 'Reconnaissance'
-        ),
-        ~/EmptyTagsModuleDescriptor,
-        TFlagsModuleDescriptor
-        (
-            InitialFlagSet =
-            [
-                Flag_Detectable,
-                Flag_LdDetectable,
-            ]
-        ),
-            TPositionModuleDescriptor
-            (
-                UseFollowCam               = False
-                StickToGround              = True
-                InGeoDb                    = False
-                PorteurMustBeVisible       = True
-                ClampInWorld               = True
-                ClampOutMap                = False
-                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
-                LowAltitudeFlyingAltitude  = ((0) * Metre)
-                NearGroundFlyingAltitude   = ((0) * Metre)
-            ),
-        ~/LinkTeamModuleDescriptor,
-            TCadavreModuleDescriptor
-            (
-                ExplodeAtEnd = True
-                KillAsVehicule = True
-                KillAsInfanterie = False
-                KillAsHelico = False
-                KillAsAirplane = False
-                KillAsBatiment = False
-                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
-                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
-                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
-                FadingDuration = 1
-                DeathExplosionAmmo = ~/Ammo_Mort_Unite_faible
-                ModuleDescriptorsToSteal =
-                [
-                   $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/WeaponManager,
-                   $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/ApparenceModel,
-                   $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/LandMovement,
-                   $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/GenericMovement,
-                   $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/FacingInfos,
-                ]
-            ),
-            $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/WeaponManager,
-            $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/ApparenceModel,
-            $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/LandMovement,
-            $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/GenericMovement,
-            $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/FacingInfos,
-        ~/PackSignauxModuleDescriptor,
-        ~/DebugModuleDescriptor,
-    ]
-)
 Descriptor_UnitCadavre_M1025_Humvee_CMD_US is TEntityDescriptor
 (
     DescriptorId       = GUID:{8471d795-8622-4778-a664-b098dbc6a124}
@@ -44708,71 +44643,6 @@ Descriptor_UnitCadavre_UH1D_RFA is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
-Descriptor_UnitCadavre_UH1D_Supply_NL is TEntityDescriptor
-(
-    DescriptorId       = GUID:{6e0a066c-8849-4443-8834-309972cd3fb3}
-    ClassNameForDebug  = 'Unit_CadavreUH1D_Supply_NL'
-    ModulesDescriptors = [
-        TTypeUnitModuleDescriptor
-        (
-            Nationalite                      = ENationalite/Allied
-            MotherCountry                    = 'NL'
-            AcknowUnitType                   = ~/TAcknowUnitType_HeliTransport
-            TypeUnitFormation                = 'None'
-        ),
-        ~/EmptyTagsModuleDescriptor,
-        TFlagsModuleDescriptor
-        (
-            InitialFlagSet =
-            [
-                Flag_Detectable,
-                Flag_LdDetectable,
-            ]
-        ),
-            TPositionModuleDescriptor
-            (
-                UseFollowCam               = False
-                StickToGround              = True
-                InGeoDb                    = False
-                PorteurMustBeVisible       = True
-                ClampInWorld               = True
-                ClampOutMap                = False
-                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
-                LowAltitudeFlyingAltitude  = ((300) * Metre)
-                NearGroundFlyingAltitude   = ((65) * Metre)
-            ),
-        ~/LinkTeamModuleDescriptor,
-            TCadavreModuleDescriptor
-            (
-                ExplodeAtEnd = True
-                KillAsVehicule = False
-                KillAsInfanterie = False
-                KillAsHelico = True
-                KillAsAirplane = False
-                KillAsBatiment = False
-                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
-                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
-                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
-                FadingDuration = 1
-                DeathExplosionAmmo = ~/Ammo_Mort_Helico_Moyen
-                ModuleDescriptorsToSteal =
-                [
-                   $/GFX/Everything/Descriptor_Unit_UH1D_Supply_NL/ApparenceModel,
-                   $/GFX/Everything/Descriptor_Unit_UH1D_Supply_NL/HelicopterMovement,
-                   $/GFX/Everything/Descriptor_Unit_UH1D_Supply_NL/HeliApparence,
-                   $/GFX/Everything/Descriptor_Unit_UH1D_Supply_NL/GenericMovement,
-                   $/GFX/Everything/Descriptor_Unit_UH1D_Supply_NL/FacingInfos,
-                ]
-            ),
-            $/GFX/Everything/Descriptor_Unit_UH1D_Supply_NL/ApparenceModel,
-            $/GFX/Everything/Descriptor_Unit_UH1D_Supply_NL/HelicopterMovement,
-            $/GFX/Everything/Descriptor_Unit_UH1D_Supply_NL/HeliApparence,
-            $/GFX/Everything/Descriptor_Unit_UH1D_Supply_NL/GenericMovement,
-            $/GFX/Everything/Descriptor_Unit_UH1D_Supply_NL/FacingInfos,
-        ~/PackSignauxModuleDescriptor,
-        ~/DebugModuleDescriptor,
-    ]
-)
 Descriptor_UnitCadavre_UH1D_Supply_RFA is TEntityDescriptor
 (
     DescriptorId       = GUID:{9b2fec19-02e8-4571-a0f6-61ca15e74439}
@@ -44903,6 +44773,71 @@ Descriptor_UnitCadavre_UH1H_Huey_US is TEntityDescriptor
             $/GFX/Everything/Descriptor_Unit_UH1H_Huey_US/GenericMovement,
             $/GFX/Everything/Descriptor_Unit_UH1H_Huey_US/FacingInfos,
             $/GFX/Everything/Descriptor_Unit_UH1H_Huey_US/Transporter,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_UH1H_supply_US is TEntityDescriptor
+(
+    DescriptorId       = GUID:{513d4555-66d1-43ad-bf8f-aaa6299cdcef}
+    ClassNameForDebug  = 'Unit_CadavreUH1H_supply_US'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_HeliTransport
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((300) * Metre)
+                NearGroundFlyingAltitude   = ((65) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = False
+                KillAsHelico = True
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Helico_Moyen
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_UH1H_supply_US/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_UH1H_supply_US/HelicopterMovement,
+                   $/GFX/Everything/Descriptor_Unit_UH1H_supply_US/HeliApparence,
+                   $/GFX/Everything/Descriptor_Unit_UH1H_supply_US/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_UH1H_supply_US/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_UH1H_supply_US/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_UH1H_supply_US/HelicopterMovement,
+            $/GFX/Everything/Descriptor_Unit_UH1H_supply_US/HeliApparence,
+            $/GFX/Everything/Descriptor_Unit_UH1H_supply_US/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_UH1H_supply_US/FacingInfos,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]

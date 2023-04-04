@@ -1056,11 +1056,6 @@ Alternatives_M1025_Humvee_AGL_US is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1025_Humvee_AGL_US_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1025_Humvee_AGL_US_LOW ),
 ]
-Alternatives_M1025_Humvee_AGL_nonPara_US is [
-    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1025_Humvee_AGL_nonPara_US ),
-    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1025_Humvee_AGL_nonPara_US_MID ),
-    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1025_Humvee_AGL_nonPara_US_LOW ),
-]
 Alternatives_M1025_Humvee_CMD_US is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1025_Humvee_CMD_US ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1025_Humvee_CMD_US_MID ),

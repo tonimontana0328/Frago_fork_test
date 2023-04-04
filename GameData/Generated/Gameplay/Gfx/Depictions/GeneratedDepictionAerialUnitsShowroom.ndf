@@ -3859,26 +3859,6 @@ Gfx_UH1D_RFA_Showroom_Autogen is ShowroomAerialDepictionTemplate
         ),
     ]
 )
-Gfx_UH1D_Supply_NL_Showroom_Autogen is ShowroomAerialDepictionTemplate
-(
-    MeshDescriptor = Modele_UH1D_Supply_NL
-    Operators = 
-    [
-        DepictionOperator_Reset_Generic,
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_1"
-            RotationAxis = VECTOR[0, 0, 1]
-            RotationInDegree = -30
-        ),
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_2"
-            RotationAxis = VECTOR[0, 1, 0]
-            RotationInDegree = -30
-        ),
-    ]
-)
 Gfx_UH1D_Supply_RFA_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = Modele_UH1D_Supply_RFA
@@ -3902,6 +3882,26 @@ Gfx_UH1D_Supply_RFA_Showroom_Autogen is ShowroomAerialDepictionTemplate
 Gfx_UH1H_Huey_US_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = Modele_UH1H_Huey_US
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = VECTOR[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = VECTOR[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+)
+Gfx_UH1H_supply_US_Showroom_Autogen is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = Modele_UH1H_supply_US
     Operators = 
     [
         DepictionOperator_Reset_Generic,

@@ -2199,15 +2199,6 @@ HumanSubDepictions_M1025_Humvee_AGL_US is
     ),
 ]
 HumanSubDepictionsShowroom_M1025_Humvee_AGL_US is []
-HumanSubDepictions_M1025_Humvee_AGL_nonPara_US is 
-[
-    SubDepiction_Driver
-    (
-        MeshDescriptorHigh = MeshDescriptor_Driver_US
-        MeshDescriptorLow = MeshDescriptor_Driver_US_LOW
-    ),
-]
-HumanSubDepictionsShowroom_M1025_Humvee_AGL_nonPara_US is []
 HumanSubDepictions_M1025_Humvee_CMD_US is 
 [
     SubDepiction_Driver
@@ -3220,7 +3211,6 @@ MAP[
     ("LandRover_WOMBAT_UK", 1),
     ("Lars_2_RFA", 1),
     ("M1025_Humvee_AGL_US", 1),
-    ("M1025_Humvee_AGL_nonPara_US", 1),
     ("M1025_Humvee_CMD_US", 1),
     ("M1025_Humvee_CMD_para_US", 1),
     ("M1025_Humvee_TOW_US", 1),
@@ -3491,7 +3481,6 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Driver_UK SelectorId = [ "LandRover_WOMBAT_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Driver_RFA SelectorId = [ "Lars_2_RFA", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Driver_US SelectorId = [ "M1025_Humvee_AGL_US", "01" ] ),
-    TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Driver_US SelectorId = [ "M1025_Humvee_AGL_nonPara_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Driver_US SelectorId = [ "M1025_Humvee_CMD_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Driver_US SelectorId = [ "M1025_Humvee_CMD_para_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Driver_US SelectorId = [ "M1025_Humvee_TOW_US", "01" ] ),

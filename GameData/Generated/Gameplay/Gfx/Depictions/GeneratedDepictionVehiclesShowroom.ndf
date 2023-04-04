@@ -1332,12 +1332,6 @@ Gfx_M1025_Humvee_AGL_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Selector = Selector_M1025_Humvee_AGL_US
     SubDepictions = HumanSubDepictionsShowroom_M1025_Humvee_AGL_US
 )
-Gfx_M1025_Humvee_AGL_nonPara_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
-(
-    Alternatives = Alternatives_M1025_Humvee_AGL_nonPara_US
-    Selector = Selector_M1025_Humvee_AGL_nonPara_US
-    SubDepictions = HumanSubDepictionsShowroom_M1025_Humvee_AGL_nonPara_US
-)
 Gfx_M1025_Humvee_CMD_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_M1025_Humvee_CMD_US

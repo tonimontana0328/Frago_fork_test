@@ -785,10 +785,7 @@ UISpecificHUDScorePlayerViewDescriptor is TUISpecificHUDScorePlayerViewDescripto
 
 //------------------------------------------------------------------------------
 
-template UISpecificHUDScoreAllianceViewDescriptor
-[
-    IsLeftSide : bool
-]is TUISpecificHUDScoreAllianceViewDescriptor
+UISpecificHUDScoreAllianceViewDescriptor is TUISpecificHUDScoreAllianceViewDescriptor
 (
     MainComponentDescriptor = BUCKSpecificHUDScoreAllianceMainComponentDescriptor
     MainComponentContainerUniqueName = "" // Permet d'indiquer l'endroit ou le composant doit s'insérer

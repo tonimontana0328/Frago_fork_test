@@ -86,7 +86,7 @@ export Attack_Objectives_Allied_Autogen is Template_Objective_Attack
     AdditionnalParameter =
     [
         TObjectiveRequiresEnnemiesPossessionSettingHolder(),
-        TObjectiveAttackSetting(ZoneSourceMask = EMapSlicingZoneSource/LevelBuild + EMapSlicingZoneSource/Objective PriorizeObjectiveNotInMyCorridor = true),
+        TObjectiveAttackSetting(ZoneSources = [EMapSlicingZoneSource/ScenarioIAStrat, EMapSlicingZoneSource/ScenarioCommand] PriorizeObjectiveNotInMyCorridor = true),
     ]
 )
 
@@ -207,7 +207,7 @@ is TMacroActionDescriptor_CorridorAttack_Specific
         PoolModelList = [
             Pool_Attack_Helo,
         ]
-        LaunchASAP_RatioMin = 0.01),
+        LaunchASAP_RatioMin = 0.01 DisableReinforcement = true),
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = <RatioMinimumPourAttaquer> UtiliserMenaceLaPlusProcheAuLieuDeLaPlusFaible = true),
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
         TCorridorPlacementSettingHolder(StayInCorridorIfp = true MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
@@ -639,7 +639,7 @@ export Pool_Default_Attack_2 is TPoolModel
             Required = false
             IndexPriorityOverPrice = true
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Cheapest
+            PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
                 "Char_Reco",
                 "Vehicule_Reco",
@@ -849,7 +849,7 @@ export Pool_Tank_Attack_2 is TPoolModel
             Required = false
             IndexPriorityOverPrice = true
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Cheapest
+            PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
                 "Char_Reco",
                 "Vehicule_Reco",
@@ -1355,7 +1355,7 @@ export Pool_Combined_Attack_2 is TPoolModel
             Required = false
             IndexPriorityOverPrice = false
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Cheapest
+            PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
                 "Vehicule_Reco",
                 "Infanterie_Reco",
@@ -1434,7 +1434,7 @@ export Pool_Combined_Attack_3 is TPoolModel
             Required = false
             IndexPriorityOverPrice = false
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Cheapest
+            PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
                 "Char_Reco",
                 "Vehicule_Reco",

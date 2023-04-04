@@ -2057,6 +2057,30 @@ AllImpactHappenings is TImpactHappening
                 ( EImpactSurface/Ricochet      , nil ),
             ]
         ),
+        (   TFxWeaponType_MitrailleuseMG3Externe , MAP
+            [
+                ( EImpactSurface/Ground        , FxImpactBalleSolTresPetitMG3Section__Connector ),
+                ( EImpactSurface/Water         , FxImpactBallesCal50Eau__Connector ),
+                ( EImpactSurface/Air           , FxImpactBallesAirTresPetit__Connector ),
+                ( EImpactSurface/Wall          , FxImpactBalleBatimentTresPetitMitrailleuse__Connector ),
+                ( EImpactSurface/Vehicle       , FxImpactBalleVehiculeTresPetitMitrailleuse__Connector ),
+                ( EImpactSurface/FlyingVehicle , FxImpactBallesVehiculeAirTresPetit__Connector ),
+                ( EImpactSurface/Missile       , FxImpactBalleVehiculeMoyen_Connector ),
+                ( EImpactSurface/Ricochet      , nil ),
+            ]
+        ),
+        (   TFxWeaponType_MitrailleuseMG3Interne , MAP
+            [
+                ( EImpactSurface/Ground        , FxImpactBalleSolTresPetitMG3Section__Connector ),
+                ( EImpactSurface/Water         , FxImpactBallesCal50Eau__Connector ),
+                ( EImpactSurface/Air           , FxImpactBallesAirTresPetit__Connector ),
+                ( EImpactSurface/Wall          , FxImpactBalleBatimentTresPetitMitrailleuse__Connector ),
+                ( EImpactSurface/Vehicle       , FxImpactBalleVehiculeTresPetitMitrailleuse__Connector ),
+                ( EImpactSurface/FlyingVehicle , FxImpactBallesVehiculeAirTresPetit__Connector ),
+                ( EImpactSurface/Missile       , FxImpactBalleVehiculeMoyen_Connector ),
+                ( EImpactSurface/Ricochet      , nil ),
+            ]
+        ),
         (   TFxWeaponType_MitrailleuseMMGInf , MAP
             [
                 ( EImpactSurface/Ground        , FxImpactBalleSolTresPetitMMGSection__Connector ),

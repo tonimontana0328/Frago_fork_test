@@ -268,6 +268,7 @@ export VHard_Phase_LastHope is TSequenceGeneratorDescriptor
         // Attaques principales
         //------------------------------
         ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
+        ~/Attack_Helo,
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
 
         ~/Attack_Adaptive,  // Faire du code pour adapater le budget en fonction de l'income
@@ -280,6 +281,8 @@ export VHard_Phase_LastHope is TSequenceGeneratorDescriptor
 
         //Low prio mais peut servir si on n'a pas de zone dans nos couloirs
         ~/CaptureOneObjectifForAlliance,
+
+        ~/Attack_Helo,
 
         //------------------------------
         // Défenses Avions Arti

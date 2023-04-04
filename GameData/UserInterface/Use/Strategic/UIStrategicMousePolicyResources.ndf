@@ -128,8 +128,8 @@ private PANumberMouseCursor is BUCKTextDescriptor
     ElementName = 'ActionPoints'
     ComponentFrame = TUIFramePropertyRTTI
     (
-        AlignementToFather = [0.5, 0.0]
-        AlignementToAnchor = [0.5, 0.0]
+        AlignementToFather = [0.5, 0.5]
+        AlignementToAnchor = [0.5, 0.5]
     )
 
     ParagraphStyle = TParagraphStyleRTTI
@@ -144,8 +144,8 @@ private PANumberMouseCursor is BUCKTextDescriptor
     BorderLineColorToken = "PawnLabel/ActionPoints"
     BorderThicknessToken = "PawnLabel/ActionPoints"
 
-    TextStyle = "Default"
-    TextPadding = TRTTILength4(Pixel = [1.0, 1.0, 1.0, 1.0] Magnifiable = [2.0, 2.0, 2.0, 2.0])
+    TextStyle = "ActionPoint"
+    // TextPadding = TRTTILength4(Pixel = [1.0, 1.0, 1.0, 1.0] Magnifiable = [2.0, 2.0, 2.0, 2.0])
 
     HorizontalFitStyle = ~/FitStyle/FitToContent
     VerticalFitStyle = ~/FitStyle/FitToContent
@@ -156,7 +156,7 @@ private PANumberMouseCursor is BUCKTextDescriptor
     TextDico = ~/LocalisationConstantes/dico_interface_ingame
 
     TextColor = "PawnLabel/ActionPoints"
-    TextSize = "PawnLabel/ActionPoints"
+    TextSize = "18"
 )
 
 
@@ -238,6 +238,10 @@ MouseWidget_StrategicOrderNeutralLand is Template_HardwareMouseWidgetResource_Wi
                 [
                     BUCKListElementDescriptor
                     (
+                        ComponentDescriptor = ~/PAComponentMouseCursor
+                    ),
+                    BUCKListElementDescriptor
+                    (
                         ComponentDescriptor = BUCKTextDescriptor
                         (
                             ElementName = 'Kilometers'
@@ -254,36 +258,19 @@ MouseWidget_StrategicOrderNeutralLand is Template_HardwareMouseWidgetResource_Wi
                             )
 
                             TextStyle = "Default"
+                            TextPadding = TRTTILength4(Magnifiable = [1.0, 3.0, 1.0, 1.0])
 
                             VerticalFitStyle = ~/FitStyle/FitToContent
 
-                            TypefaceToken = "UIMainFont"
+                            TypefaceToken = "Eurostyle"
                             BigLineAction = ~/BigLineAction/CutByDots
 
                             TextDico = ~/LocalisationConstantes/dico_interface_ingame
 
                             TextColor = "SD2_Noir"
-                            TextSize = "18"
+                            TextSize = "14"
                         )
                     ),
-                    {BUCKListElementDescriptor
-                                        (
-                                            ComponentDescriptor = BUCKTextureDescriptor
-                                            (
-                                                ComponentFrame = TUIFramePropertyRTTI
-                                                (
-                                                    MagnifiableWidthHeight = [0.0, 10.0]
-                                                    RelativeWidthHeight = [1.0, 0.0]
-                                                )
-
-                                                TextureToken = "UseStrategic_MapScaleIcon"
-                                                TextureFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
-                                            )
-                                        ),}
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = ~/PAComponentMouseCursor
-                    )
                 ]
             ),
         ]

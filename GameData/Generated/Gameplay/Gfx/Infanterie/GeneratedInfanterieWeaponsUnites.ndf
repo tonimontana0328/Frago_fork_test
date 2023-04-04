@@ -25,6 +25,12 @@ InfantryWeapon_PM_Sterling is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -32,6 +38,7 @@ InfantryWeapon_PM_Sterling is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_PM_Sterling,
@@ -75,6 +82,12 @@ InfantryWeapon_FM_M16 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -82,6 +95,7 @@ InfantryWeapon_FM_M16 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_M16,
@@ -254,6 +268,12 @@ InfantryWeapon_FM_L85A1 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -261,6 +281,7 @@ InfantryWeapon_FM_L85A1 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_L85A1,
@@ -364,6 +385,12 @@ InfantryWeapon_PM_MP_5A3 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -371,6 +398,7 @@ InfantryWeapon_PM_MP_5A3 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_PM_MP_5A3,
@@ -401,6 +429,12 @@ InfantryWeapon_FM_FAMAS is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -408,6 +442,7 @@ InfantryWeapon_FM_FAMAS is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_FAMAS,
@@ -481,6 +516,12 @@ InfantryWeapon_FM_SIG_543 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -488,6 +529,7 @@ InfantryWeapon_FM_SIG_543 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_SIG_543,
@@ -548,6 +590,12 @@ InfantryWeapon_PM_AKSU_74 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -555,6 +603,7 @@ InfantryWeapon_PM_AKSU_74 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_PM_AKSU_74,
@@ -628,6 +677,12 @@ InfantryWeapon_FM_AKS_74 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -635,6 +690,7 @@ InfantryWeapon_FM_AKS_74 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_AKS_74,
@@ -678,6 +734,12 @@ InfantryWeapon_FM_Mpi_AK_74N is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -685,6 +747,7 @@ InfantryWeapon_FM_Mpi_AK_74N is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_Mpi_AK_74N,
@@ -758,6 +821,12 @@ InfantryWeapon_FM_G3KA4 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -765,6 +834,7 @@ InfantryWeapon_FM_G3KA4 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_G3KA4,
@@ -838,6 +908,12 @@ InfantryWeapon_PM_uzi is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -845,6 +921,7 @@ InfantryWeapon_PM_uzi is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_PM_uzi,
@@ -875,6 +952,12 @@ InfantryWeapon_FM_AK_74 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -882,6 +965,7 @@ InfantryWeapon_FM_AK_74 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_AK_74,
@@ -994,6 +1078,12 @@ InfantryWeapon_FM_L1A1_SLR is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1001,6 +1091,7 @@ InfantryWeapon_FM_L1A1_SLR is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_L1A1_SLR,
@@ -1061,6 +1152,12 @@ InfantryWeapon_PM_MP_5SD is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1068,6 +1165,7 @@ InfantryWeapon_PM_MP_5SD is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_PM_MP_5SD,
@@ -1141,6 +1239,12 @@ InfantryWeapon_FM_Mpi_AKS_74NK is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1148,6 +1252,7 @@ InfantryWeapon_FM_Mpi_AKS_74NK is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_Mpi_AKS_74NK,
@@ -1259,6 +1364,12 @@ InfantryWeapon_PM_MAT_49 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1266,6 +1377,7 @@ InfantryWeapon_PM_MAT_49 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_PM_MAT_49,
@@ -1296,6 +1408,12 @@ InfantryWeapon_PM_M4_Carbine is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1303,6 +1421,7 @@ InfantryWeapon_PM_M4_Carbine is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_PM_M4_Carbine,
@@ -1333,6 +1452,12 @@ InfantryWeapon_FM_KMS_72 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1340,6 +1465,7 @@ InfantryWeapon_FM_KMS_72 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_KMS_72,
@@ -1519,6 +1645,12 @@ InfantryWeapon_PM_Skorpion is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1526,6 +1658,7 @@ InfantryWeapon_PM_Skorpion is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_PM_Skorpion,
@@ -1600,6 +1733,12 @@ InfantryWeapon_FM_MAS_56 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1607,6 +1746,7 @@ InfantryWeapon_FM_MAS_56 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_MAS_56,
@@ -1667,6 +1807,12 @@ InfantryWeapon_PM_C8_Carbine is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1674,6 +1820,7 @@ InfantryWeapon_PM_C8_Carbine is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_PM_C8_Carbine,
@@ -1704,6 +1851,12 @@ InfantryWeapon_PM_MPi_AKSU_74NK is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1711,6 +1864,7 @@ InfantryWeapon_PM_MPi_AKSU_74NK is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_PM_MPi_AKSU_74NK,
@@ -1754,6 +1908,12 @@ InfantryWeapon_PM_AS_Val is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1761,6 +1921,7 @@ InfantryWeapon_PM_AS_Val is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_PM_AS_Val,
@@ -1791,6 +1952,12 @@ InfantryWeapon_FM_FNC is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1798,6 +1965,7 @@ InfantryWeapon_FM_FNC is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_FNC,
@@ -1880,6 +2048,12 @@ InfantryWeapon_FM_StG_941 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1887,6 +2061,7 @@ InfantryWeapon_FM_StG_941 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_StG_941,
@@ -1917,6 +2092,12 @@ InfantryWeapon_FM_StG_942 is TIntroduceMobileHappening
                 Alternatives = 
                 [
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
@@ -1924,6 +2105,7 @@ InfantryWeapon_FM_StG_942 is TIntroduceMobileHappening
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00,
                     fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00,
                 ]
             ),
             SFXWeapon_FM_StG_942,
@@ -1982,6 +2164,66 @@ fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_6_1_2 is InfantryFiringHappenin
 fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00 is InfantryProjectileHappening
 (
     Action          = $/GFX/GameFx/fx_traine_Fusil_Mitrailleur_M16_tres_petite_1
+    Power           = 2.
+    WithoutPhysics  = False
+    FluidFriction   = 0.0
+    InitialSpeed    = 0.0
+    WaitBetweenShot = 0.5
+    ShotCount       = 1
+)
+fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_1_2_False_00_00 is InfantryProjectileHappening
+(
+    Action          = $/GFX/GameFx/fx_traine_Fusil_Mitrailleur_M16_tres_petite_10
+    Power           = 2.
+    WithoutPhysics  = False
+    FluidFriction   = 0.0
+    InitialSpeed    = 0.0
+    WaitBetweenShot = 0.5
+    ShotCount       = 1
+)
+fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_1_2_False_00_00 is InfantryProjectileHappening
+(
+    Action          = $/GFX/GameFx/fx_traine_Fusil_Mitrailleur_M16_tres_petite_11
+    Power           = 2.
+    WithoutPhysics  = False
+    FluidFriction   = 0.0
+    InitialSpeed    = 0.0
+    WaitBetweenShot = 0.5
+    ShotCount       = 1
+)
+fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_1_2_False_00_00 is InfantryProjectileHappening
+(
+    Action          = $/GFX/GameFx/fx_traine_Fusil_Mitrailleur_M16_tres_petite_12
+    Power           = 2.
+    WithoutPhysics  = False
+    FluidFriction   = 0.0
+    InitialSpeed    = 0.0
+    WaitBetweenShot = 0.5
+    ShotCount       = 1
+)
+fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_1_2_False_00_00 is InfantryProjectileHappening
+(
+    Action          = $/GFX/GameFx/fx_traine_Fusil_Mitrailleur_M16_tres_petite_13
+    Power           = 2.
+    WithoutPhysics  = False
+    FluidFriction   = 0.0
+    InitialSpeed    = 0.0
+    WaitBetweenShot = 0.5
+    ShotCount       = 1
+)
+fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_1_2_False_00_00 is InfantryProjectileHappening
+(
+    Action          = $/GFX/GameFx/fx_traine_Fusil_Mitrailleur_M16_tres_petite_14
+    Power           = 2.
+    WithoutPhysics  = False
+    FluidFriction   = 0.0
+    InitialSpeed    = 0.0
+    WaitBetweenShot = 0.5
+    ShotCount       = 1
+)
+fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_1_2_False_00_00 is InfantryProjectileHappening
+(
+    Action          = $/GFX/GameFx/fx_traine_Fusil_Mitrailleur_M16_tres_petite_15
     Power           = 2.
     WithoutPhysics  = False
     FluidFriction   = 0.0
@@ -2052,6 +2294,16 @@ fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_1_2_False_00_00 is InfantryProject
 fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_1_2_False_00_00 is InfantryProjectileHappening
 (
     Action          = $/GFX/GameFx/fx_traine_Fusil_Mitrailleur_M16_tres_petite_8
+    Power           = 2.
+    WithoutPhysics  = False
+    FluidFriction   = 0.0
+    InitialSpeed    = 0.0
+    WaitBetweenShot = 0.5
+    ShotCount       = 1
+)
+fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_1_2_False_00_00 is InfantryProjectileHappening
+(
+    Action          = $/GFX/GameFx/fx_traine_Fusil_Mitrailleur_M16_tres_petite_9
     Power           = 2.
     WithoutPhysics  = False
     FluidFriction   = 0.0

@@ -150,6 +150,38 @@ UpperBodyBoneList is ['bip01 pelvis',
         'fx_tir_02',
         ]
 
+template RunAnimation [Tags] is TAnimationWithTags(
+    Animation = TCompositeBipedAnimation(
+        SubAnimations = [
+            TBlendSpace2DBipedAnimation(
+            IsLegCycle = true
+            Front = FusilierRun
+            Back = FusilierArriere
+            Left = FusilierGauche
+            Right = FusilierDroite
+            InTransition = 1.0 OutTransition = 1.0
+            ),
+            TBlendSpace2DBipedAnimation(
+                IsLegCycle = true
+                Front = FusilierRun2
+                Back = FusilierArriere
+                Left = FusilierGauche
+                Right = FusilierDroite
+            InTransition = 1.0 OutTransition = 1.0
+            ),
+            TBlendSpace2DBipedAnimation(
+                IsLegCycle = true
+                Front = FusilierRun3
+                Back = FusilierArriere
+                Left = FusilierGauche
+                Right = FusilierDroite
+            InTransition = 1.0 OutTransition = 1.0
+            ),
+        ]
+    )
+    Tags = <Tags>
+)
+
 template DepictionOperator_SkeletalAnimation2_Default [ConditionalTags = [] ] is TCosmeticSkeletalAnimation2OperatorDesc
 (
     // réglage de l'animation de transition :
@@ -159,38 +191,10 @@ template DepictionOperator_SkeletalAnimation2_Default [ConditionalTags = [] ] is
 
     ConditionalTags = <ConditionalTags>
     Animations = [
-        TAnimationWithTags(
-            Animation = TCompositeBipedAnimation(
-                SubAnimations = [
-                    TBlendSpace2DBipedAnimation(
-                    IsLegCycle = true
-                    Front = FusilierRun
-                    Back = FusilierArriere
-                    Left = FusilierGauche
-                    Right = FusilierDroite
-                    InTransition = 1.0 OutTransition = 1.0
-                    ),
-                    TBlendSpace2DBipedAnimation(
-                        IsLegCycle = true
-                        Front = FusilierRun2
-                        Back = FusilierArriere
-                        Left = FusilierGauche
-                        Right = FusilierDroite
-                    InTransition = 1.0 OutTransition = 1.0
-                    ),
-                    TBlendSpace2DBipedAnimation(
-                        IsLegCycle = true
-                        Front = FusilierRun3
-                        Back = FusilierArriere
-                        Left = FusilierGauche
-                        Right = FusilierDroite
-                    InTransition = 1.0 OutTransition = 1.0
-                    ),
-                ]
-            )
-            Tags = ['run']
-        ),
+        RunAnimation( Tags = ['run'] ),
+        RunAnimation( Tags = ['mmg','run'] ),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierMarche IsLegCycle = true InTransition = 1.0 OutTransition = 0.3 ) Tags = ['walk']),
+        TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierMarche IsLegCycle = true InTransition = 1.0 OutTransition = 0.3 ) Tags = ['mmg','walk']),
         TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [FusilierCrouch, FusilierCrouch2, FusilierIdle, FusilierIdle2] IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) Tags = ['stand']),
         TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [FusilierIdleMMG, FusilierIdleMMG2] IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) Tags = ['mmg', 'stand']),
         TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [FusilierIdleGrenade] IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) Tags = ['grenade', 'stand']),
@@ -200,7 +204,7 @@ template DepictionOperator_SkeletalAnimation2_Default [ConditionalTags = [] ] is
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierBazookaTransition1 IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) TorsoOnly = true Tags = ['swapping']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierFire IsLegCycle = false InTransition = 0.0 OutTransition = 0.5) TorsoOnly = true PlayTillEnd = true Tags = ['aiming', 'shoot']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierAimingMMG IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) TorsoOnly = true Tags = ['aiming', 'mmg']),
-        TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierFireMMG IsLegCycle = false InTransition = 0.0 OutTransition = 0.5) PlayTillEnd = true Tags = ['aiming', 'shoot', 'mmg']),
+        TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierFireMMG IsLegCycle = false InTransition = 0.0 OutTransition = 0.5) PlayTillEnd = true TorsoOnly = true Tags = ['aiming', 'shoot', 'mmg']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierBazookaVise IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) TorsoOnly = true Tags = ['aiming', 'bazooka']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierBazookaTir IsLegCycle = false InTransition = 0.0 OutTransition = 0.5) PlayTillEnd = true Tags = ['aiming', 'shoot', 'bazooka']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = FusilierAimingGrenade IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) TorsoOnly = true Tags = ['aiming', 'grenade']),

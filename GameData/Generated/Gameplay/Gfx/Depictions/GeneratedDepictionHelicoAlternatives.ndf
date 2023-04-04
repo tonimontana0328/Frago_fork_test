@@ -1231,12 +1231,6 @@ Alternatives_UH1D_RFA is
     DepictionDescriptor_LOD_HelicoMid( MeshDescriptor = Modele_UH1D_RFA_MID ),
     DepictionDescriptor_LOD_HelicoLow( MeshDescriptor = Modele_UH1D_RFA_LOW ),
 ]
-Alternatives_UH1D_Supply_NL is 
-[
-    DepictionDescriptor_LOD_HelicoHigh( MeshDescriptor = Modele_UH1D_Supply_NL ),
-    DepictionDescriptor_LOD_HelicoMid( MeshDescriptor = Modele_UH1D_Supply_NL_MID ),
-    DepictionDescriptor_LOD_HelicoLow( MeshDescriptor = Modele_UH1D_Supply_NL_LOW ),
-]
 Alternatives_UH1D_Supply_RFA is 
 [
     DepictionDescriptor_LOD_HelicoHigh( MeshDescriptor = Modele_UH1D_Supply_RFA ),
@@ -1248,6 +1242,12 @@ Alternatives_UH1H_Huey_US is
     DepictionDescriptor_LOD_HelicoHigh( MeshDescriptor = Modele_UH1H_Huey_US ),
     DepictionDescriptor_LOD_HelicoMid( MeshDescriptor = Modele_UH1H_Huey_US_MID ),
     DepictionDescriptor_LOD_HelicoLow( MeshDescriptor = Modele_UH1H_Huey_US_LOW ),
+]
+Alternatives_UH1H_supply_US is 
+[
+    DepictionDescriptor_LOD_HelicoHigh( MeshDescriptor = Modele_UH1H_supply_US ),
+    DepictionDescriptor_LOD_HelicoMid( MeshDescriptor = Modele_UH1H_supply_US_MID ),
+    DepictionDescriptor_LOD_HelicoLow( MeshDescriptor = Modele_UH1H_supply_US_LOW ),
 ]
 Alternatives_UH60A_Black_Hawk_US is 
 [

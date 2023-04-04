@@ -11,14 +11,12 @@ DefenseResources is TDefenseResources
 
     ValidGhostColors = TGhostColors(
         GhostColor = [9, 219, 30, 200]
-        GhostAlpha = 0.6
-        GhostColor2 = [9, 219, 30, 200]
-        GhostAlpha2 = 0.8
+        GhostAlphas = [0.6, 0.8]
+        GhostBlends = [0.78, 0.78]
     )
     InvalidGhostColors = TGhostColors(
         GhostColor = [255, 0, 0, 255]
-        GhostAlpha = 1
-        GhostColor2 = [255, 0, 0, 255]
-        GhostAlpha2 = 1
+        GhostAlphas = [1, 1]
+        GhostBlends = [1, 1]
     )
 )

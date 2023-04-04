@@ -2886,7 +2886,7 @@ export Descriptor_Deck_NATO_Garnison_Berlin_multi is TDeckDescriptor
         ),
         TDeckPackDescription
         (
-            ExperienceLevel = 1
+            ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Gendarmerie_FR
             Transport = ~/Descriptor_Unit_VLTT_P4_FR
         ),

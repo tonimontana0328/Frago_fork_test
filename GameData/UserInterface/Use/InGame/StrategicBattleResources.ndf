@@ -3,17 +3,15 @@ StrategicBattleResources is TStrategicBattleResources
     //Couleur des unités ne pouvant pas participer au combat lors de la préparation d'une bataille (0 partout = désactivé)
     CantFightGhostColors = TGhostColors(
         GhostColor = [0, 0, 0, 0]
-        GhostAlpha = 0.5 //(cf. LabelTransparencyIfNoEngagementPhase)
-        GhostColor2 = [0, 0, 0, 0]
-        GhostAlpha2 = 0.5 //(cf. LabelTransparencyIfNoEngagementPhase)
+        GhostAlphas = [0.5, 0.5] //(cf. LabelTransparencyIfNoEngagementPhase)
+        GhostBlends = [0, 0]
     )
 
     // Couleur des unités ne pouvant plus bouger
     CantMoveGhostColors = TGhostColors(
         GhostColor = [0, 0, 0, 0]
-        GhostAlpha = 0.5 //(cf. LabelTransparencyIfNoEngagementPhase)
-        GhostColor2 = [0, 0, 0, 0]
-        GhostAlpha2 = 0.5 //(cf. LabelTransparencyIfNoEngagementPhase)
+        GhostAlphas = [0.5, 0.5] //(cf. LabelTransparencyIfNoEngagementPhase)
+        GhostBlends = [0, 0]
     )
 
     //Pour un pion de support qui est mobilisé pour le combat

@@ -41,7 +41,7 @@ TacticDepiction_AT_Group_TA_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_AT_Group_TA_UK_Surrogates
   Alternatives = TacticDepiction_AT_Group_TA_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_AT_Group_TA_UK, AllWeaponSubDepictionBackpack_AT_Group_TA_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_AT_Group_TA_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -96,7 +96,7 @@ TacticDepiction_AeroRifles_CMD_US_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_AeroRifles_CMD_US_Surrogates
   Alternatives = TacticDepiction_AeroRifles_CMD_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_AeroRifles_CMD_US, AllWeaponSubDepictionBackpack_AeroRifles_CMD_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_AeroRifles_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -157,7 +157,7 @@ TacticDepiction_AeroRifles_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_AeroRifles_US_Surrogates
   Alternatives = TacticDepiction_AeroRifles_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_AeroRifles_US, AllWeaponSubDepictionBackpack_AeroRifles_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_AeroRifles_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -212,7 +212,7 @@ TacticDepiction_Airborne_CMD_US_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_Airborne_CMD_US_Surrogates
   Alternatives = TacticDepiction_Airborne_CMD_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_CMD_US, AllWeaponSubDepictionBackpack_Airborne_CMD_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Airborne_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -273,7 +273,7 @@ TacticDepiction_Airborne_Dragon_US_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Airborne_Dragon_US_Surrogates
   Alternatives = TacticDepiction_Airborne_Dragon_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_Dragon_US, AllWeaponSubDepictionBackpack_Airborne_Dragon_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Airborne_Dragon_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -334,7 +334,7 @@ TacticDepiction_Airborne_Engineer_CMD_US_Soldier is TemplateInfantryDepictionFac
   Surrogates = TacticDepiction_Airborne_Engineer_CMD_US_Surrogates
   Alternatives = TacticDepiction_Airborne_Engineer_CMD_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_Engineer_CMD_US, AllWeaponSubDepictionBackpack_Airborne_Engineer_CMD_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Airborne_Engineer_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -384,7 +384,7 @@ TacticDepiction_Airborne_Engineers_Flash_US_Soldier is TemplateInfantryDepiction
 (
   Alternatives = TacticDepiction_Airborne_Engineers_Flash_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_Engineers_Flash_US, AllWeaponSubDepictionBackpack_Airborne_Engineers_Flash_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Airborne_Engineers_Flash_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -444,7 +444,7 @@ TacticDepiction_Airborne_Engineers_US_Soldier is TemplateInfantryDepictionFactor
   Surrogates = TacticDepiction_Airborne_Engineers_US_Surrogates
   Alternatives = TacticDepiction_Airborne_Engineers_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_Engineers_US, AllWeaponSubDepictionBackpack_Airborne_Engineers_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Airborne_Engineers_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -505,7 +505,7 @@ TacticDepiction_Airborne_HMG_US_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_Airborne_HMG_US_Surrogates
   Alternatives = TacticDepiction_Airborne_HMG_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_HMG_US, AllWeaponSubDepictionBackpack_Airborne_HMG_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Airborne_HMG_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -566,7 +566,7 @@ TacticDepiction_Airborne_MP_RCL_US_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Airborne_MP_RCL_US_Surrogates
   Alternatives = TacticDepiction_Airborne_MP_RCL_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_MP_RCL_US, AllWeaponSubDepictionBackpack_Airborne_MP_RCL_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Airborne_MP_RCL_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -621,7 +621,7 @@ TacticDepiction_Airborne_MP_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Airborne_MP_US_Surrogates
   Alternatives = TacticDepiction_Airborne_MP_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_MP_US, AllWeaponSubDepictionBackpack_Airborne_MP_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Airborne_MP_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -676,7 +676,7 @@ TacticDepiction_Airborne_Scout_US_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_Airborne_Scout_US_Surrogates
   Alternatives = TacticDepiction_Airborne_Scout_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_Scout_US, AllWeaponSubDepictionBackpack_Airborne_Scout_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Airborne_Scout_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -737,7 +737,7 @@ TacticDepiction_Airborne_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Airborne_US_Surrogates
   Alternatives = TacticDepiction_Airborne_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_US, AllWeaponSubDepictionBackpack_Airborne_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Airborne_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -798,7 +798,7 @@ TacticDepiction_Airborne_half_Dragon_US_Soldier is TemplateInfantryDepictionFact
   Surrogates = TacticDepiction_Airborne_half_Dragon_US_Surrogates
   Alternatives = TacticDepiction_Airborne_half_Dragon_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_half_Dragon_US, AllWeaponSubDepictionBackpack_Airborne_half_Dragon_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Airborne_half_Dragon_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -859,7 +859,7 @@ TacticDepiction_Airborne_half_LAW_US_Soldier is TemplateInfantryDepictionFactory
   Surrogates = TacticDepiction_Airborne_half_LAW_US_Surrogates
   Alternatives = TacticDepiction_Airborne_half_LAW_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airborne_half_LAW_US, AllWeaponSubDepictionBackpack_Airborne_half_LAW_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Airborne_half_LAW_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -904,7 +904,7 @@ TacticDepiction_Airmobile_CMD_UK_Soldier is TemplateInfantryDepictionFactoryTact
   Surrogates = TacticDepiction_Airmobile_CMD_UK_Surrogates
   Alternatives = TacticDepiction_Airmobile_CMD_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airmobile_CMD_UK, AllWeaponSubDepictionBackpack_Airmobile_CMD_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Airmobile_CMD_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -961,7 +961,7 @@ TacticDepiction_Airmobile_MILAN_UK_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Airmobile_MILAN_UK_Surrogates
   Alternatives = TacticDepiction_Airmobile_MILAN_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airmobile_MILAN_UK, AllWeaponSubDepictionBackpack_Airmobile_MILAN_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Airmobile_MILAN_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1012,7 +1012,7 @@ TacticDepiction_Airmobile_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Airmobile_UK_Surrogates
   Alternatives = TacticDepiction_Airmobile_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Airmobile_UK, AllWeaponSubDepictionBackpack_Airmobile_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Airmobile_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1057,7 +1057,7 @@ TacticDepiction_BGS_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_BGS_RFA_Surrogates
   Alternatives = TacticDepiction_BGS_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_BGS_RFA, AllWeaponSubDepictionBackpack_BGS_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_BGS_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1101,7 +1101,7 @@ TacticDepiction_Chasseurs_CMD_FR_Soldier is TemplateInfantryDepictionFactoryTact
   Surrogates = TacticDepiction_Chasseurs_CMD_FR_Surrogates
   Alternatives = TacticDepiction_Chasseurs_CMD_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Chasseurs_CMD_FR, AllWeaponSubDepictionBackpack_Chasseurs_CMD_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Chasseurs_CMD_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1158,7 +1158,7 @@ TacticDepiction_Chasseurs_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Chasseurs_FR_Surrogates
   Alternatives = TacticDepiction_Chasseurs_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Chasseurs_FR, AllWeaponSubDepictionBackpack_Chasseurs_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Chasseurs_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1215,7 +1215,7 @@ TacticDepiction_Commandos_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Commandos_FR_Surrogates
   Alternatives = TacticDepiction_Commandos_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Commandos_FR, AllWeaponSubDepictionBackpack_Commandos_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Commandos_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1272,7 +1272,7 @@ TacticDepiction_DShV_CMD_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_DShV_CMD_SOV_Surrogates
   Alternatives = TacticDepiction_DShV_CMD_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_DShV_CMD_SOV, AllWeaponSubDepictionBackpack_DShV_CMD_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_DShV_CMD_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1329,7 +1329,7 @@ TacticDepiction_DShV_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_DShV_SOV_Surrogates
   Alternatives = TacticDepiction_DShV_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_DShV_SOV, AllWeaponSubDepictionBackpack_DShV_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_DShV_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1378,7 +1378,7 @@ TacticDepiction_Engineer_CMD_US_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_Engineer_CMD_US_Surrogates
   Alternatives = TacticDepiction_Engineer_CMD_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineer_CMD_US, AllWeaponSubDepictionBackpack_Engineer_CMD_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Engineer_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1435,7 +1435,7 @@ TacticDepiction_Engineers_AGI_DDR_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_Engineers_AGI_DDR_Surrogates
   Alternatives = TacticDepiction_Engineers_AGI_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_AGI_DDR, AllWeaponSubDepictionBackpack_Engineers_AGI_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Engineers_AGI_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1492,7 +1492,7 @@ TacticDepiction_Engineers_AT_RFA_Soldier is TemplateInfantryDepictionFactoryTact
   Surrogates = TacticDepiction_Engineers_AT_RFA_Surrogates
   Alternatives = TacticDepiction_Engineers_AT_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_AT_RFA, AllWeaponSubDepictionBackpack_Engineers_AT_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Engineers_AT_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1549,7 +1549,7 @@ TacticDepiction_Engineers_AT_UK_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_Engineers_AT_UK_Surrogates
   Alternatives = TacticDepiction_Engineers_AT_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_AT_UK, AllWeaponSubDepictionBackpack_Engineers_AT_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Engineers_AT_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1593,7 +1593,7 @@ TacticDepiction_Engineers_CMD_DDR_Soldier is TemplateInfantryDepictionFactoryTac
 (
   Alternatives = TacticDepiction_Engineers_CMD_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_CMD_DDR, AllWeaponSubDepictionBackpack_Engineers_CMD_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Engineers_CMD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1636,7 +1636,7 @@ TacticDepiction_Engineers_CMD_RFA_Soldier is TemplateInfantryDepictionFactoryTac
 (
   Alternatives = TacticDepiction_Engineers_CMD_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_CMD_RFA, AllWeaponSubDepictionBackpack_Engineers_CMD_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Engineers_CMD_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1686,7 +1686,7 @@ TacticDepiction_Engineers_CMD_SOV_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_Engineers_CMD_SOV_Surrogates
   Alternatives = TacticDepiction_Engineers_CMD_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_CMD_SOV, AllWeaponSubDepictionBackpack_Engineers_CMD_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Engineers_CMD_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1731,7 +1731,7 @@ TacticDepiction_Engineers_CMD_UK_Soldier is TemplateInfantryDepictionFactoryTact
   Surrogates = TacticDepiction_Engineers_CMD_UK_Surrogates
   Alternatives = TacticDepiction_Engineers_CMD_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_CMD_UK, AllWeaponSubDepictionBackpack_Engineers_CMD_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Engineers_CMD_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1782,7 +1782,7 @@ TacticDepiction_Engineers_CMD_VDV_SOV_Soldier is TemplateInfantryDepictionFactor
   Surrogates = TacticDepiction_Engineers_CMD_VDV_SOV_Surrogates
   Alternatives = TacticDepiction_Engineers_CMD_VDV_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_CMD_VDV_SOV, AllWeaponSubDepictionBackpack_Engineers_CMD_VDV_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Engineers_CMD_VDV_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1839,7 +1839,7 @@ TacticDepiction_Engineers_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Engineers_DDR_Surrogates
   Alternatives = TacticDepiction_Engineers_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_DDR, AllWeaponSubDepictionBackpack_Engineers_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Engineers_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1894,7 +1894,7 @@ TacticDepiction_Engineers_Dragon_US_Soldier is TemplateInfantryDepictionFactoryT
   Surrogates = TacticDepiction_Engineers_Dragon_US_Surrogates
   Alternatives = TacticDepiction_Engineers_Dragon_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_Dragon_US, AllWeaponSubDepictionBackpack_Engineers_Dragon_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Engineers_Dragon_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -1956,7 +1956,7 @@ TacticDepiction_Engineers_Flam_DDR_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Engineers_Flam_DDR_Surrogates
   Alternatives = TacticDepiction_Engineers_Flam_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_Flam_DDR, AllWeaponSubDepictionBackpack_Engineers_Flam_DDR, SubDepictionFuel_Engineers_Flam_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Engineers_Flam_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2007,7 +2007,7 @@ TacticDepiction_Engineers_Flam_RFA_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Engineers_Flam_RFA_Surrogates
   Alternatives = TacticDepiction_Engineers_Flam_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_Flam_RFA, AllWeaponSubDepictionBackpack_Engineers_Flam_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Engineers_Flam_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2064,7 +2064,7 @@ TacticDepiction_Engineers_Flam_SOV_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Engineers_Flam_SOV_Surrogates
   Alternatives = TacticDepiction_Engineers_Flam_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_Flam_SOV, AllWeaponSubDepictionBackpack_Engineers_Flam_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Engineers_Flam_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2121,7 +2121,7 @@ TacticDepiction_Engineers_Flam_VDV_SOV_Soldier is TemplateInfantryDepictionFacto
   Surrogates = TacticDepiction_Engineers_Flam_VDV_SOV_Surrogates
   Alternatives = TacticDepiction_Engineers_Flam_VDV_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_Flam_VDV_SOV, AllWeaponSubDepictionBackpack_Engineers_Flam_VDV_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Engineers_Flam_VDV_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2176,7 +2176,7 @@ TacticDepiction_Engineers_Flash_US_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Engineers_Flash_US_Surrogates
   Alternatives = TacticDepiction_Engineers_Flash_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_Flash_US, AllWeaponSubDepictionBackpack_Engineers_Flash_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Engineers_Flash_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2233,7 +2233,7 @@ TacticDepiction_Engineers_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Engineers_RFA_Surrogates
   Alternatives = TacticDepiction_Engineers_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_RFA, AllWeaponSubDepictionBackpack_Engineers_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Engineers_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2282,7 +2282,7 @@ TacticDepiction_Engineers_Reserve_RFA_Soldier is TemplateInfantryDepictionFactor
   Surrogates = TacticDepiction_Engineers_Reserve_RFA_Surrogates
   Alternatives = TacticDepiction_Engineers_Reserve_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_Reserve_RFA, AllWeaponSubDepictionBackpack_Engineers_Reserve_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('grenade', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Engineers_Reserve_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2339,7 +2339,7 @@ TacticDepiction_Engineers_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Engineers_SOV_Surrogates
   Alternatives = TacticDepiction_Engineers_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_SOV, AllWeaponSubDepictionBackpack_Engineers_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Engineers_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2396,7 +2396,7 @@ TacticDepiction_Engineers_Scout_SOV_Soldier is TemplateInfantryDepictionFactoryT
   Surrogates = TacticDepiction_Engineers_Scout_SOV_Surrogates
   Alternatives = TacticDepiction_Engineers_Scout_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_Scout_SOV, AllWeaponSubDepictionBackpack_Engineers_Scout_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Engineers_Scout_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2449,7 +2449,7 @@ TacticDepiction_Engineers_TA_UK_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_Engineers_TA_UK_Surrogates
   Alternatives = TacticDepiction_Engineers_TA_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_TA_UK, AllWeaponSubDepictionBackpack_Engineers_TA_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Engineers_TA_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2506,7 +2506,7 @@ TacticDepiction_Engineers_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Engineers_UK_Surrogates
   Alternatives = TacticDepiction_Engineers_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_UK, AllWeaponSubDepictionBackpack_Engineers_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Engineers_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2567,7 +2567,7 @@ TacticDepiction_Engineers_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Engineers_US_Surrogates
   Alternatives = TacticDepiction_Engineers_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_US, AllWeaponSubDepictionBackpack_Engineers_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Engineers_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2624,7 +2624,7 @@ TacticDepiction_Engineers_VDV_SOV_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_Engineers_VDV_SOV_Surrogates
   Alternatives = TacticDepiction_Engineers_VDV_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Engineers_VDV_SOV, AllWeaponSubDepictionBackpack_Engineers_VDV_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Engineers_VDV_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2669,7 +2669,7 @@ TacticDepiction_Escorte_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Escorte_FR_Surrogates
   Alternatives = TacticDepiction_Escorte_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Escorte_FR, AllWeaponSubDepictionBackpack_Escorte_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Escorte_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2726,7 +2726,7 @@ TacticDepiction_Fallschirm_B1_RFA_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_Fallschirm_B1_RFA_Surrogates
   Alternatives = TacticDepiction_Fallschirm_B1_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fallschirm_B1_RFA, AllWeaponSubDepictionBackpack_Fallschirm_B1_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Fallschirm_B1_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2783,7 +2783,7 @@ TacticDepiction_Fallschirm_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Fallschirm_RFA_Surrogates
   Alternatives = TacticDepiction_Fallschirm_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fallschirm_RFA, AllWeaponSubDepictionBackpack_Fallschirm_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Fallschirm_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2827,7 +2827,7 @@ TacticDepiction_Fallschirmjager_CMD_DDR_Soldier is TemplateInfantryDepictionFact
 (
   Alternatives = TacticDepiction_Fallschirmjager_CMD_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fallschirmjager_CMD_DDR, AllWeaponSubDepictionBackpack_Fallschirmjager_CMD_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Fallschirmjager_CMD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2871,7 +2871,7 @@ TacticDepiction_Fallschirmjager_CMD_RFA_Soldier is TemplateInfantryDepictionFact
   Surrogates = TacticDepiction_Fallschirmjager_CMD_RFA_Surrogates
   Alternatives = TacticDepiction_Fallschirmjager_CMD_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fallschirmjager_CMD_RFA, AllWeaponSubDepictionBackpack_Fallschirmjager_CMD_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Fallschirmjager_CMD_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2928,7 +2928,7 @@ TacticDepiction_Fallschirmjager_DDR_Soldier is TemplateInfantryDepictionFactoryT
   Surrogates = TacticDepiction_Fallschirmjager_DDR_Surrogates
   Alternatives = TacticDepiction_Fallschirmjager_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fallschirmjager_DDR, AllWeaponSubDepictionBackpack_Fallschirmjager_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Fallschirmjager_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -2972,7 +2972,7 @@ TacticDepiction_Fallschirmjager_FalseFlag_CMD_DDR_Soldier is TemplateInfantryDep
 (
   Alternatives = TacticDepiction_Fallschirmjager_FalseFlag_CMD_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fallschirmjager_FalseFlag_CMD_DDR, AllWeaponSubDepictionBackpack_Fallschirmjager_FalseFlag_CMD_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Fallschirmjager_FalseFlag_CMD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3028,7 +3028,7 @@ TacticDepiction_Fallschirmjager_FalseFlag_DDR_Soldier is TemplateInfantryDepicti
   Surrogates = TacticDepiction_Fallschirmjager_FalseFlag_DDR_Surrogates
   Alternatives = TacticDepiction_Fallschirmjager_FalseFlag_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fallschirmjager_FalseFlag_DDR, AllWeaponSubDepictionBackpack_Fallschirmjager_FalseFlag_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Fallschirmjager_FalseFlag_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3078,7 +3078,7 @@ TacticDepiction_Fallschirmjager_FlaseFlag_Demo_DDR_Soldier is TemplateInfantryDe
 (
   Alternatives = TacticDepiction_Fallschirmjager_FlaseFlag_Demo_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fallschirmjager_FlaseFlag_Demo_DDR, AllWeaponSubDepictionBackpack_Fallschirmjager_FlaseFlag_Demo_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Fallschirmjager_FlaseFlag_Demo_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3134,7 +3134,7 @@ TacticDepiction_Fallschirmjager_HMG_DDR_Soldier is TemplateInfantryDepictionFact
   Surrogates = TacticDepiction_Fallschirmjager_HMG_DDR_Surrogates
   Alternatives = TacticDepiction_Fallschirmjager_HMG_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fallschirmjager_HMG_DDR, AllWeaponSubDepictionBackpack_Fallschirmjager_HMG_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Fallschirmjager_HMG_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3191,7 +3191,7 @@ TacticDepiction_Fallschirmjager_Metys_DDR_Soldier is TemplateInfantryDepictionFa
   Surrogates = TacticDepiction_Fallschirmjager_Metys_DDR_Surrogates
   Alternatives = TacticDepiction_Fallschirmjager_Metys_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fallschirmjager_Metys_DDR, AllWeaponSubDepictionBackpack_Fallschirmjager_Metys_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Fallschirmjager_Metys_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3248,7 +3248,7 @@ TacticDepiction_Fallschirmjager_Scout_RFA_Soldier is TemplateInfantryDepictionFa
   Surrogates = TacticDepiction_Fallschirmjager_Scout_RFA_Surrogates
   Alternatives = TacticDepiction_Fallschirmjager_Scout_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fallschirmjager_Scout_RFA, AllWeaponSubDepictionBackpack_Fallschirmjager_Scout_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Fallschirmjager_Scout_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3293,7 +3293,7 @@ TacticDepiction_Feldgendarmerie_RFA_Soldier is TemplateInfantryDepictionFactoryT
   Surrogates = TacticDepiction_Feldgendarmerie_RFA_Surrogates
   Alternatives = TacticDepiction_Feldgendarmerie_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Feldgendarmerie_RFA, AllWeaponSubDepictionBackpack_Feldgendarmerie_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Feldgendarmerie_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3350,7 +3350,7 @@ TacticDepiction_Fernspaher_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Fernspaher_RFA_Surrogates
   Alternatives = TacticDepiction_Fernspaher_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Fernspaher_RFA, AllWeaponSubDepictionBackpack_Fernspaher_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Fernspaher_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3394,7 +3394,7 @@ TacticDepiction_FireSupport_SOV_Soldier is TemplateInfantryDepictionFactoryTacti
 (
   Alternatives = TacticDepiction_FireSupport_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_FireSupport_SOV, AllWeaponSubDepictionBackpack_FireSupport_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_FireSupport_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3436,7 +3436,7 @@ TacticDepiction_Gendarmerie_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Gendarmerie_FR_Surrogates
   Alternatives = TacticDepiction_Gendarmerie_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Gendarmerie_FR, AllWeaponSubDepictionBackpack_Gendarmerie_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Gendarmerie_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3497,7 +3497,7 @@ TacticDepiction_GreenBerets_CMD_US_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_GreenBerets_CMD_US_Surrogates
   Alternatives = TacticDepiction_GreenBerets_CMD_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_GreenBerets_CMD_US, AllWeaponSubDepictionBackpack_GreenBerets_CMD_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_GreenBerets_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3558,7 +3558,7 @@ TacticDepiction_GreenBerets_MP5_US_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_GreenBerets_MP5_US_Surrogates
   Alternatives = TacticDepiction_GreenBerets_MP5_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_GreenBerets_MP5_US, AllWeaponSubDepictionBackpack_GreenBerets_MP5_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_GreenBerets_MP5_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3619,7 +3619,7 @@ TacticDepiction_GreenBerets_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_GreenBerets_US_Surrogates
   Alternatives = TacticDepiction_GreenBerets_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_GreenBerets_US, AllWeaponSubDepictionBackpack_GreenBerets_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_GreenBerets_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3657,7 +3657,7 @@ TacticDepiction_Grenzer_CMD_DDR_Soldier is TemplateInfantryDepictionFactoryTacti
 (
   Alternatives = TacticDepiction_Grenzer_CMD_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Grenzer_CMD_DDR, AllWeaponSubDepictionBackpack_Grenzer_CMD_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Grenzer_CMD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3704,7 +3704,7 @@ TacticDepiction_Grenzer_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Grenzer_DDR_Surrogates
   Alternatives = TacticDepiction_Grenzer_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Grenzer_DDR, AllWeaponSubDepictionBackpack_Grenzer_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Grenzer_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3746,7 +3746,7 @@ TacticDepiction_Grenzer_Mot_DDR_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_Grenzer_Mot_DDR_Surrogates
   Alternatives = TacticDepiction_Grenzer_Mot_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Grenzer_Mot_DDR, AllWeaponSubDepictionBackpack_Grenzer_Mot_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Grenzer_Mot_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3803,7 +3803,7 @@ TacticDepiction_Groupe_AT_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Groupe_AT_FR_Surrogates
   Alternatives = TacticDepiction_Groupe_AT_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Groupe_AT_FR, AllWeaponSubDepictionBackpack_Groupe_AT_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Groupe_AT_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3860,7 +3860,7 @@ TacticDepiction_Groupe_AT_para_FR_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_Groupe_AT_para_FR_Surrogates
   Alternatives = TacticDepiction_Groupe_AT_para_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Groupe_AT_para_FR, AllWeaponSubDepictionBackpack_Groupe_AT_para_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Groupe_AT_para_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3907,7 +3907,7 @@ TacticDepiction_Gun_Group_TA_UK_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_Gun_Group_TA_UK_Surrogates
   Alternatives = TacticDepiction_Gun_Group_TA_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Gun_Group_TA_UK, AllWeaponSubDepictionBackpack_Gun_Group_TA_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Gun_Group_TA_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -3958,7 +3958,7 @@ TacticDepiction_Gun_Group_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Gun_Group_UK_Surrogates
   Alternatives = TacticDepiction_Gun_Group_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Gun_Group_UK, AllWeaponSubDepictionBackpack_Gun_Group_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Gun_Group_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4015,7 +4015,7 @@ TacticDepiction_HeimatschutzJager_RFA_Soldier is TemplateInfantryDepictionFactor
   Surrogates = TacticDepiction_HeimatschutzJager_RFA_Surrogates
   Alternatives = TacticDepiction_HeimatschutzJager_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_HeimatschutzJager_RFA, AllWeaponSubDepictionBackpack_HeimatschutzJager_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_HeimatschutzJager_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4072,7 +4072,7 @@ TacticDepiction_HvyScout_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_HvyScout_DDR_Surrogates
   Alternatives = TacticDepiction_HvyScout_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_HvyScout_DDR, AllWeaponSubDepictionBackpack_HvyScout_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_HvyScout_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4129,7 +4129,7 @@ TacticDepiction_HvyScout_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_HvyScout_SOV_Surrogates
   Alternatives = TacticDepiction_HvyScout_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_HvyScout_SOV, AllWeaponSubDepictionBackpack_HvyScout_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_HvyScout_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4186,7 +4186,7 @@ TacticDepiction_Jager_Aufk_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Jager_Aufk_RFA_Surrogates
   Alternatives = TacticDepiction_Jager_Aufk_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Jager_Aufk_RFA, AllWeaponSubDepictionBackpack_Jager_Aufk_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Jager_Aufk_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4230,7 +4230,7 @@ TacticDepiction_Jager_CMD_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
 (
   Alternatives = TacticDepiction_Jager_CMD_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Jager_CMD_RFA, AllWeaponSubDepictionBackpack_Jager_CMD_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Jager_CMD_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4286,7 +4286,7 @@ TacticDepiction_Jager_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Jager_RFA_Surrogates
   Alternatives = TacticDepiction_Jager_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Jager_RFA, AllWeaponSubDepictionBackpack_Jager_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Jager_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4324,7 +4324,7 @@ TacticDepiction_KSM_CMD_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
 (
   Alternatives = TacticDepiction_KSM_CMD_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_KSM_CMD_RFA, AllWeaponSubDepictionBackpack_KSM_CMD_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_KSM_CMD_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4368,7 +4368,7 @@ TacticDepiction_KdA_CMD_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_KdA_CMD_DDR_Surrogates
   Alternatives = TacticDepiction_KdA_CMD_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_KdA_CMD_DDR, AllWeaponSubDepictionBackpack_KdA_CMD_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_KdA_CMD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4425,7 +4425,7 @@ TacticDepiction_KdA_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_KdA_DDR_Surrogates
   Alternatives = TacticDepiction_KdA_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_KdA_DDR, AllWeaponSubDepictionBackpack_KdA_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_KdA_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4474,7 +4474,7 @@ TacticDepiction_LRRP_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_LRRP_FR_Surrogates
   Alternatives = TacticDepiction_LRRP_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_LRRP_FR, AllWeaponSubDepictionBackpack_LRRP_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_LRRP_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4528,7 +4528,7 @@ TacticDepiction_LRRP_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_LRRP_UK_Surrogates
   Alternatives = TacticDepiction_LRRP_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_LRRP_UK, AllWeaponSubDepictionBackpack_LRRP_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_LRRP_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4585,7 +4585,7 @@ TacticDepiction_LRRP_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_LRRP_US_Surrogates
   Alternatives = TacticDepiction_LRRP_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_LRRP_US, AllWeaponSubDepictionBackpack_LRRP_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_LRRP_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4646,7 +4646,7 @@ TacticDepiction_LightRifles_CMD_US_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_LightRifles_CMD_US_Surrogates
   Alternatives = TacticDepiction_LightRifles_CMD_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_LightRifles_CMD_US, AllWeaponSubDepictionBackpack_LightRifles_CMD_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_LightRifles_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4713,7 +4713,7 @@ TacticDepiction_LightRifles_RCL_US_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_LightRifles_RCL_US_Surrogates
   Alternatives = TacticDepiction_LightRifles_RCL_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_LightRifles_RCL_US, AllWeaponSubDepictionBackpack_LightRifles_RCL_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_LightRifles_RCL_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4764,7 +4764,7 @@ TacticDepiction_MANPAD_Blowpipe_UK_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_MANPAD_Blowpipe_UK_Surrogates
   Alternatives = TacticDepiction_MANPAD_Blowpipe_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Blowpipe_UK, AllWeaponSubDepictionBackpack_MANPAD_Blowpipe_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Blowpipe_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4811,7 +4811,7 @@ TacticDepiction_MANPAD_Igla_DDR_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_MANPAD_Igla_DDR_Surrogates
   Alternatives = TacticDepiction_MANPAD_Igla_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Igla_DDR, AllWeaponSubDepictionBackpack_MANPAD_Igla_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Igla_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4862,7 +4862,7 @@ TacticDepiction_MANPAD_Igla_SOV_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_MANPAD_Igla_SOV_Surrogates
   Alternatives = TacticDepiction_MANPAD_Igla_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Igla_SOV, AllWeaponSubDepictionBackpack_MANPAD_Igla_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Igla_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4913,7 +4913,7 @@ TacticDepiction_MANPAD_Igla_VDV_SOV_Soldier is TemplateInfantryDepictionFactoryT
   Surrogates = TacticDepiction_MANPAD_Igla_VDV_SOV_Surrogates
   Alternatives = TacticDepiction_MANPAD_Igla_VDV_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Igla_VDV_SOV, AllWeaponSubDepictionBackpack_MANPAD_Igla_VDV_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Igla_VDV_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -4964,7 +4964,7 @@ TacticDepiction_MANPAD_Javelin_UK_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_MANPAD_Javelin_UK_Surrogates
   Alternatives = TacticDepiction_MANPAD_Javelin_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Javelin_UK, AllWeaponSubDepictionBackpack_MANPAD_Javelin_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Javelin_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5015,7 +5015,7 @@ TacticDepiction_MANPAD_Mistral_FR_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_MANPAD_Mistral_FR_Surrogates
   Alternatives = TacticDepiction_MANPAD_Mistral_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Mistral_FR, AllWeaponSubDepictionBackpack_MANPAD_Mistral_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Mistral_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5066,7 +5066,7 @@ TacticDepiction_MANPAD_Mistral_para_FR_Soldier is TemplateInfantryDepictionFacto
   Surrogates = TacticDepiction_MANPAD_Mistral_para_FR_Surrogates
   Alternatives = TacticDepiction_MANPAD_Mistral_para_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Mistral_para_FR, AllWeaponSubDepictionBackpack_MANPAD_Mistral_para_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Mistral_para_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5117,7 +5117,7 @@ TacticDepiction_MANPAD_Redeye_RFA_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_MANPAD_Redeye_RFA_Surrogates
   Alternatives = TacticDepiction_MANPAD_Redeye_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Redeye_RFA, AllWeaponSubDepictionBackpack_MANPAD_Redeye_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Redeye_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5161,7 +5161,7 @@ TacticDepiction_MANPAD_Stinger_C_US_Soldier is TemplateInfantryDepictionFactoryT
 (
   Alternatives = TacticDepiction_MANPAD_Stinger_C_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Stinger_C_US, AllWeaponSubDepictionBackpack_MANPAD_Stinger_C_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Stinger_C_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5204,7 +5204,7 @@ TacticDepiction_MANPAD_Stinger_C_para_US_Soldier is TemplateInfantryDepictionFac
 (
   Alternatives = TacticDepiction_MANPAD_Stinger_C_para_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Stinger_C_para_US, AllWeaponSubDepictionBackpack_MANPAD_Stinger_C_para_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Stinger_C_para_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5250,7 +5250,7 @@ TacticDepiction_MANPAD_Strela_2M_DDR_Soldier is TemplateInfantryDepictionFactory
   Surrogates = TacticDepiction_MANPAD_Strela_2M_DDR_Surrogates
   Alternatives = TacticDepiction_MANPAD_Strela_2M_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Strela_2M_DDR, AllWeaponSubDepictionBackpack_MANPAD_Strela_2M_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Strela_2M_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5297,7 +5297,7 @@ TacticDepiction_MANPAD_Strela_2M_FJ_DDR_Soldier is TemplateInfantryDepictionFact
   Surrogates = TacticDepiction_MANPAD_Strela_2M_FJ_DDR_Surrogates
   Alternatives = TacticDepiction_MANPAD_Strela_2M_FJ_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MANPAD_Strela_2M_FJ_DDR, AllWeaponSubDepictionBackpack_MANPAD_Strela_2M_FJ_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MANPAD_Strela_2M_FJ_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5335,7 +5335,7 @@ TacticDepiction_MP_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
 (
   Alternatives = TacticDepiction_MP_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MP_DDR, AllWeaponSubDepictionBackpack_MP_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_MP_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5395,7 +5395,7 @@ TacticDepiction_MP_RCL_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_MP_RCL_US_Surrogates
   Alternatives = TacticDepiction_MP_RCL_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MP_RCL_US, AllWeaponSubDepictionBackpack_MP_RCL_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_MP_RCL_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5433,7 +5433,7 @@ TacticDepiction_MP_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
 (
   Alternatives = TacticDepiction_MP_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MP_SOV, AllWeaponSubDepictionBackpack_MP_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_MP_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5487,7 +5487,7 @@ TacticDepiction_MP_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_MP_US_Surrogates
   Alternatives = TacticDepiction_MP_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MP_US, AllWeaponSubDepictionBackpack_MP_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MP_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5544,7 +5544,7 @@ TacticDepiction_MotRifles_BTR_DDR_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_MotRifles_BTR_DDR_Surrogates
   Alternatives = TacticDepiction_MotRifles_BTR_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MotRifles_BTR_DDR, AllWeaponSubDepictionBackpack_MotRifles_BTR_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MotRifles_BTR_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5601,7 +5601,7 @@ TacticDepiction_MotRifles_BTR_SOV_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_MotRifles_BTR_SOV_Surrogates
   Alternatives = TacticDepiction_MotRifles_BTR_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MotRifles_BTR_SOV, AllWeaponSubDepictionBackpack_MotRifles_BTR_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MotRifles_BTR_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5652,7 +5652,7 @@ TacticDepiction_MotRifles_CMD_DDR_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_MotRifles_CMD_DDR_Surrogates
   Alternatives = TacticDepiction_MotRifles_CMD_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MotRifles_CMD_DDR, AllWeaponSubDepictionBackpack_MotRifles_CMD_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_MotRifles_CMD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5703,7 +5703,7 @@ TacticDepiction_MotRifles_CMD_SOV_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_MotRifles_CMD_SOV_Surrogates
   Alternatives = TacticDepiction_MotRifles_CMD_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MotRifles_CMD_SOV, AllWeaponSubDepictionBackpack_MotRifles_CMD_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_MotRifles_CMD_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5760,7 +5760,7 @@ TacticDepiction_MotRifles_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_MotRifles_DDR_Surrogates
   Alternatives = TacticDepiction_MotRifles_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MotRifles_DDR, AllWeaponSubDepictionBackpack_MotRifles_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MotRifles_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5817,7 +5817,7 @@ TacticDepiction_MotRifles_HMG_DDR_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_MotRifles_HMG_DDR_Surrogates
   Alternatives = TacticDepiction_MotRifles_HMG_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MotRifles_HMG_DDR, AllWeaponSubDepictionBackpack_MotRifles_HMG_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MotRifles_HMG_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5874,7 +5874,7 @@ TacticDepiction_MotRifles_HMG_SOV_Soldier is TemplateInfantryDepictionFactoryTac
   Surrogates = TacticDepiction_MotRifles_HMG_SOV_Surrogates
   Alternatives = TacticDepiction_MotRifles_HMG_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MotRifles_HMG_SOV, AllWeaponSubDepictionBackpack_MotRifles_HMG_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MotRifles_HMG_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5931,7 +5931,7 @@ TacticDepiction_MotRifles_Metis_SOV_Soldier is TemplateInfantryDepictionFactoryT
   Surrogates = TacticDepiction_MotRifles_Metis_SOV_Surrogates
   Alternatives = TacticDepiction_MotRifles_Metis_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MotRifles_Metis_SOV, AllWeaponSubDepictionBackpack_MotRifles_Metis_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_MotRifles_Metis_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -5988,7 +5988,7 @@ TacticDepiction_MotRifles_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_MotRifles_SOV_Surrogates
   Alternatives = TacticDepiction_MotRifles_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MotRifles_SOV, AllWeaponSubDepictionBackpack_MotRifles_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_MotRifles_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6045,7 +6045,7 @@ TacticDepiction_MotSchutzen_DDR_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_MotSchutzen_DDR_Surrogates
   Alternatives = TacticDepiction_MotSchutzen_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_MotSchutzen_DDR, AllWeaponSubDepictionBackpack_MotSchutzen_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_MotSchutzen_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6102,7 +6102,7 @@ TacticDepiction_Panzergrenadier_APC_RFA_Soldier is TemplateInfantryDepictionFact
   Surrogates = TacticDepiction_Panzergrenadier_APC_RFA_Surrogates
   Alternatives = TacticDepiction_Panzergrenadier_APC_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Panzergrenadier_APC_RFA, AllWeaponSubDepictionBackpack_Panzergrenadier_APC_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Panzergrenadier_APC_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6152,7 +6152,7 @@ TacticDepiction_Panzergrenadier_CMD_RFA_Soldier is TemplateInfantryDepictionFact
 (
   Alternatives = TacticDepiction_Panzergrenadier_CMD_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Panzergrenadier_CMD_RFA, AllWeaponSubDepictionBackpack_Panzergrenadier_CMD_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Panzergrenadier_CMD_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6208,7 +6208,7 @@ TacticDepiction_Panzergrenadier_IFV_RFA_Soldier is TemplateInfantryDepictionFact
   Surrogates = TacticDepiction_Panzergrenadier_IFV_RFA_Surrogates
   Alternatives = TacticDepiction_Panzergrenadier_IFV_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Panzergrenadier_IFV_RFA, AllWeaponSubDepictionBackpack_Panzergrenadier_IFV_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Panzergrenadier_IFV_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6259,7 +6259,7 @@ TacticDepiction_Para_CMD_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Para_CMD_FR_Surrogates
   Alternatives = TacticDepiction_Para_CMD_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Para_CMD_FR, AllWeaponSubDepictionBackpack_Para_CMD_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Para_CMD_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6316,7 +6316,7 @@ TacticDepiction_Para_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Para_FR_Surrogates
   Alternatives = TacticDepiction_Para_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Para_FR, AllWeaponSubDepictionBackpack_Para_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Para_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6373,7 +6373,7 @@ TacticDepiction_Para_Legion_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Para_Legion_FR_Surrogates
   Alternatives = TacticDepiction_Para_Legion_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Para_Legion_FR, AllWeaponSubDepictionBackpack_Para_Legion_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Para_Legion_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6418,7 +6418,7 @@ TacticDepiction_Para_Sapeurs_CMD_FR_Soldier is TemplateInfantryDepictionFactoryT
   Surrogates = TacticDepiction_Para_Sapeurs_CMD_FR_Surrogates
   Alternatives = TacticDepiction_Para_Sapeurs_CMD_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Para_Sapeurs_CMD_FR, AllWeaponSubDepictionBackpack_Para_Sapeurs_CMD_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Para_Sapeurs_CMD_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6475,7 +6475,7 @@ TacticDepiction_Para_Sapeurs_FR_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_Para_Sapeurs_FR_Surrogates
   Alternatives = TacticDepiction_Para_Sapeurs_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Para_Sapeurs_FR, AllWeaponSubDepictionBackpack_Para_Sapeurs_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Para_Sapeurs_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6537,7 +6537,7 @@ TacticDepiction_Para_Sapeurs_Flam_FR_Soldier is TemplateInfantryDepictionFactory
   Surrogates = TacticDepiction_Para_Sapeurs_Flam_FR_Surrogates
   Alternatives = TacticDepiction_Para_Sapeurs_Flam_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Para_Sapeurs_Flam_FR, AllWeaponSubDepictionBackpack_Para_Sapeurs_Flam_FR, SubDepictionFuel_Para_Sapeurs_Flam_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Para_Sapeurs_Flam_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6594,7 +6594,7 @@ TacticDepiction_Paratroopers_CMD_UK_Soldier is TemplateInfantryDepictionFactoryT
   Surrogates = TacticDepiction_Paratroopers_CMD_UK_Surrogates
   Alternatives = TacticDepiction_Paratroopers_CMD_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Paratroopers_CMD_UK, AllWeaponSubDepictionBackpack_Paratroopers_CMD_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Paratroopers_CMD_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6651,7 +6651,7 @@ TacticDepiction_Paratroopers_MILAN_TA_UK_Soldier is TemplateInfantryDepictionFac
   Surrogates = TacticDepiction_Paratroopers_MILAN_TA_UK_Surrogates
   Alternatives = TacticDepiction_Paratroopers_MILAN_TA_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Paratroopers_MILAN_TA_UK, AllWeaponSubDepictionBackpack_Paratroopers_MILAN_TA_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Paratroopers_MILAN_TA_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6708,7 +6708,7 @@ TacticDepiction_Paratroopers_TA_UK_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Paratroopers_TA_UK_Surrogates
   Alternatives = TacticDepiction_Paratroopers_TA_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Paratroopers_TA_UK, AllWeaponSubDepictionBackpack_Paratroopers_TA_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Paratroopers_TA_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6765,7 +6765,7 @@ TacticDepiction_PzGrenadier_RFA_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_PzGrenadier_RFA_Surrogates
   Alternatives = TacticDepiction_PzGrenadier_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_PzGrenadier_RFA, AllWeaponSubDepictionBackpack_PzGrenadier_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_PzGrenadier_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6818,7 +6818,7 @@ TacticDepiction_RMP_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_RMP_UK_Surrogates
   Alternatives = TacticDepiction_RMP_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_RMP_UK, AllWeaponSubDepictionBackpack_RMP_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('mmg', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_RMP_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6879,7 +6879,7 @@ TacticDepiction_Ranger_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Ranger_US_Surrogates
   Alternatives = TacticDepiction_Ranger_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Ranger_US, AllWeaponSubDepictionBackpack_Ranger_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Ranger_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6934,7 +6934,7 @@ TacticDepiction_Rangers_CMD_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rangers_CMD_US_Surrogates
   Alternatives = TacticDepiction_Rangers_CMD_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rangers_CMD_US, AllWeaponSubDepictionBackpack_Rangers_CMD_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Rangers_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -6981,7 +6981,7 @@ TacticDepiction_Reserve_Polizei_RFA_Soldier is TemplateInfantryDepictionFactoryT
   Surrogates = TacticDepiction_Reserve_Polizei_RFA_Surrogates
   Alternatives = TacticDepiction_Reserve_Polizei_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Reserve_Polizei_RFA, AllWeaponSubDepictionBackpack_Reserve_Polizei_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Reserve_Polizei_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7038,7 +7038,7 @@ TacticDepiction_Reserviste_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Reserviste_FR_Surrogates
   Alternatives = TacticDepiction_Reserviste_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Reserviste_FR, AllWeaponSubDepictionBackpack_Reserviste_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('mmg', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Reserviste_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7095,7 +7095,7 @@ TacticDepiction_Rifles_APILAS_FR_Soldier is TemplateInfantryDepictionFactoryTact
   Surrogates = TacticDepiction_Rifles_APILAS_FR_Surrogates
   Alternatives = TacticDepiction_Rifles_APILAS_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_APILAS_FR, AllWeaponSubDepictionBackpack_Rifles_APILAS_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_APILAS_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7152,7 +7152,7 @@ TacticDepiction_Rifles_AT_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rifles_AT_UK_Surrogates
   Alternatives = TacticDepiction_Rifles_AT_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_AT_UK, AllWeaponSubDepictionBackpack_Rifles_AT_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_AT_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7197,7 +7197,7 @@ TacticDepiction_Rifles_Aero_CMD_FR_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Rifles_Aero_CMD_FR_Surrogates
   Alternatives = TacticDepiction_Rifles_Aero_CMD_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_Aero_CMD_FR, AllWeaponSubDepictionBackpack_Rifles_Aero_CMD_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Rifles_Aero_CMD_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7254,7 +7254,7 @@ TacticDepiction_Rifles_Aero_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rifles_Aero_FR_Surrogates
   Alternatives = TacticDepiction_Rifles_Aero_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_Aero_FR, AllWeaponSubDepictionBackpack_Rifles_Aero_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_Aero_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7297,7 +7297,7 @@ TacticDepiction_Rifles_CMD_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rifles_CMD_FR_Surrogates
   Alternatives = TacticDepiction_Rifles_CMD_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_CMD_FR, AllWeaponSubDepictionBackpack_Rifles_CMD_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Rifles_CMD_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7354,7 +7354,7 @@ TacticDepiction_Rifles_CMD_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rifles_CMD_UK_Surrogates
   Alternatives = TacticDepiction_Rifles_CMD_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_CMD_UK, AllWeaponSubDepictionBackpack_Rifles_CMD_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_CMD_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7415,7 +7415,7 @@ TacticDepiction_Rifles_CMD_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rifles_CMD_US_Surrogates
   Alternatives = TacticDepiction_Rifles_CMD_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_CMD_US, AllWeaponSubDepictionBackpack_Rifles_CMD_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7472,7 +7472,7 @@ TacticDepiction_Rifles_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rifles_FR_Surrogates
   Alternatives = TacticDepiction_Rifles_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_FR, AllWeaponSubDepictionBackpack_Rifles_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7533,7 +7533,7 @@ TacticDepiction_Rifles_HMG_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rifles_HMG_US_Surrogates
   Alternatives = TacticDepiction_Rifles_HMG_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_HMG_US, AllWeaponSubDepictionBackpack_Rifles_HMG_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_HMG_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7590,7 +7590,7 @@ TacticDepiction_Rifles_LAW_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rifles_LAW_US_Surrogates
   Alternatives = TacticDepiction_Rifles_LAW_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_LAW_US, AllWeaponSubDepictionBackpack_Rifles_LAW_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_LAW_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7647,7 +7647,7 @@ TacticDepiction_Rifles_RAF_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rifles_RAF_UK_Surrogates
   Alternatives = TacticDepiction_Rifles_RAF_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_RAF_UK, AllWeaponSubDepictionBackpack_Rifles_RAF_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('mmg', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Rifles_RAF_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7704,7 +7704,7 @@ TacticDepiction_Rifles_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rifles_UK_Surrogates
   Alternatives = TacticDepiction_Rifles_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_UK, AllWeaponSubDepictionBackpack_Rifles_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7765,7 +7765,7 @@ TacticDepiction_Rifles_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Rifles_US_Surrogates
   Alternatives = TacticDepiction_Rifles_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_US, AllWeaponSubDepictionBackpack_Rifles_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Rifles_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7826,7 +7826,7 @@ TacticDepiction_Rifles_half_AT4_US_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Rifles_half_AT4_US_Surrogates
   Alternatives = TacticDepiction_Rifles_half_AT4_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_half_AT4_US, AllWeaponSubDepictionBackpack_Rifles_half_AT4_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_half_AT4_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7887,7 +7887,7 @@ TacticDepiction_Rifles_half_CMD_US_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Rifles_half_CMD_US_Surrogates
   Alternatives = TacticDepiction_Rifles_half_CMD_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_half_CMD_US, AllWeaponSubDepictionBackpack_Rifles_half_CMD_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_half_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -7948,7 +7948,7 @@ TacticDepiction_Rifles_half_Dragon_US_Soldier is TemplateInfantryDepictionFactor
   Surrogates = TacticDepiction_Rifles_half_Dragon_US_Surrogates
   Alternatives = TacticDepiction_Rifles_half_Dragon_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_half_Dragon_US, AllWeaponSubDepictionBackpack_Rifles_half_Dragon_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Rifles_half_Dragon_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8009,7 +8009,7 @@ TacticDepiction_Rifles_half_LAW_US_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Rifles_half_LAW_US_Surrogates
   Alternatives = TacticDepiction_Rifles_half_LAW_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_half_LAW_US, AllWeaponSubDepictionBackpack_Rifles_half_LAW_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Rifles_half_LAW_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8058,7 +8058,7 @@ TacticDepiction_SAS_CMD_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_SAS_CMD_FR_Surrogates
   Alternatives = TacticDepiction_SAS_CMD_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_SAS_CMD_FR, AllWeaponSubDepictionBackpack_SAS_CMD_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_SAS_CMD_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8115,7 +8115,7 @@ TacticDepiction_SAS_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_SAS_FR_Surrogates
   Alternatives = TacticDepiction_SAS_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_SAS_FR, AllWeaponSubDepictionBackpack_SAS_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_SAS_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8162,7 +8162,7 @@ TacticDepiction_SAS_Sniper_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_SAS_Sniper_FR_Surrogates
   Alternatives = TacticDepiction_SAS_Sniper_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_SAS_Sniper_FR, AllWeaponSubDepictionBackpack_SAS_Sniper_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_SAS_Sniper_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8216,7 +8216,7 @@ TacticDepiction_SAS_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_SAS_UK_Surrogates
   Alternatives = TacticDepiction_SAS_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_SAS_UK, AllWeaponSubDepictionBackpack_SAS_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_SAS_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8265,7 +8265,7 @@ TacticDepiction_Sapeurs_CMD_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Sapeurs_CMD_FR_Surrogates
   Alternatives = TacticDepiction_Sapeurs_CMD_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Sapeurs_CMD_FR, AllWeaponSubDepictionBackpack_Sapeurs_CMD_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Sapeurs_CMD_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8322,7 +8322,7 @@ TacticDepiction_Sapeurs_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Sapeurs_FR_Surrogates
   Alternatives = TacticDepiction_Sapeurs_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Sapeurs_FR, AllWeaponSubDepictionBackpack_Sapeurs_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Sapeurs_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8384,7 +8384,7 @@ TacticDepiction_Sapeurs_Flam_FR_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_Sapeurs_Flam_FR_Surrogates
   Alternatives = TacticDepiction_Sapeurs_Flam_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Sapeurs_Flam_FR, AllWeaponSubDepictionBackpack_Sapeurs_Flam_FR, SubDepictionFuel_Sapeurs_Flam_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Sapeurs_Flam_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8441,7 +8441,7 @@ TacticDepiction_Scout_AT_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_AT_UK_Surrogates
   Alternatives = TacticDepiction_Scout_AT_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_AT_UK, AllWeaponSubDepictionBackpack_Scout_AT_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Scout_AT_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8498,7 +8498,7 @@ TacticDepiction_Scout_Airmobile_UK_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Scout_Airmobile_UK_Surrogates
   Alternatives = TacticDepiction_Scout_Airmobile_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_Airmobile_UK, AllWeaponSubDepictionBackpack_Scout_Airmobile_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('mmg', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Scout_Airmobile_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8549,7 +8549,7 @@ TacticDepiction_Scout_BEL_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_BEL_Surrogates
   Alternatives = TacticDepiction_Scout_BEL_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_BEL, AllWeaponSubDepictionBackpack_Scout_BEL]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Scout_BEL_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8587,7 +8587,7 @@ TacticDepiction_Scout_CMD_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
 (
   Alternatives = TacticDepiction_Scout_CMD_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_CMD_DDR, AllWeaponSubDepictionBackpack_Scout_CMD_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Scout_CMD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8624,7 +8624,7 @@ TacticDepiction_Scout_CMD_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
 (
   Alternatives = TacticDepiction_Scout_CMD_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_CMD_RFA, AllWeaponSubDepictionBackpack_Scout_CMD_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Scout_CMD_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8680,7 +8680,7 @@ TacticDepiction_Scout_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_DDR_Surrogates
   Alternatives = TacticDepiction_Scout_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_DDR, AllWeaponSubDepictionBackpack_Scout_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Scout_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8735,7 +8735,7 @@ TacticDepiction_Scout_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_FR_Surrogates
   Alternatives = TacticDepiction_Scout_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_FR, AllWeaponSubDepictionBackpack_Scout_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Scout_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8792,7 +8792,7 @@ TacticDepiction_Scout_LRRP_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_LRRP_DDR_Surrogates
   Alternatives = TacticDepiction_Scout_LRRP_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_LRRP_DDR, AllWeaponSubDepictionBackpack_Scout_LRRP_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Scout_LRRP_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8849,7 +8849,7 @@ TacticDepiction_Scout_LRRP_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_LRRP_SOV_Surrogates
   Alternatives = TacticDepiction_Scout_LRRP_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_LRRP_SOV, AllWeaponSubDepictionBackpack_Scout_LRRP_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Scout_LRRP_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8906,7 +8906,7 @@ TacticDepiction_Scout_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_RFA_Surrogates
   Alternatives = TacticDepiction_Scout_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_RFA, AllWeaponSubDepictionBackpack_Scout_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Scout_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8963,7 +8963,7 @@ TacticDepiction_Scout_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_SOV_Surrogates
   Alternatives = TacticDepiction_Scout_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_SOV, AllWeaponSubDepictionBackpack_Scout_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Scout_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9010,7 +9010,7 @@ TacticDepiction_Scout_TA_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_TA_UK_Surrogates
   Alternatives = TacticDepiction_Scout_TA_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_TA_UK, AllWeaponSubDepictionBackpack_Scout_TA_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Scout_TA_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9067,7 +9067,7 @@ TacticDepiction_Scout_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_UK_Surrogates
   Alternatives = TacticDepiction_Scout_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_UK, AllWeaponSubDepictionBackpack_Scout_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Scout_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9122,7 +9122,7 @@ TacticDepiction_Scout_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_US_Surrogates
   Alternatives = TacticDepiction_Scout_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_US, AllWeaponSubDepictionBackpack_Scout_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Scout_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9179,7 +9179,7 @@ TacticDepiction_Scout_VDV_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_VDV_SOV_Surrogates
   Alternatives = TacticDepiction_Scout_VDV_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_VDV_SOV, AllWeaponSubDepictionBackpack_Scout_VDV_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Scout_VDV_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9234,7 +9234,7 @@ TacticDepiction_Scout_para_FR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Scout_para_FR_Surrogates
   Alternatives = TacticDepiction_Scout_para_FR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Scout_para_FR, AllWeaponSubDepictionBackpack_Scout_para_FR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Scout_para_FR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9279,7 +9279,7 @@ TacticDepiction_Security_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Security_RFA_Surrogates
   Alternatives = TacticDepiction_Security_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Security_RFA, AllWeaponSubDepictionBackpack_Security_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Security_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9326,7 +9326,7 @@ TacticDepiction_Sniper_ESR_BEL_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Sniper_ESR_BEL_Surrogates
   Alternatives = TacticDepiction_Sniper_ESR_BEL_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Sniper_ESR_BEL, AllWeaponSubDepictionBackpack_Sniper_ESR_BEL]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Sniper_ESR_BEL_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9373,7 +9373,7 @@ TacticDepiction_Sniper_FJ_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Sniper_FJ_DDR_Surrogates
   Alternatives = TacticDepiction_Sniper_FJ_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Sniper_FJ_DDR, AllWeaponSubDepictionBackpack_Sniper_FJ_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Sniper_FJ_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9420,7 +9420,7 @@ TacticDepiction_Sniper_Fern_RFA_Soldier is TemplateInfantryDepictionFactoryTacti
   Surrogates = TacticDepiction_Sniper_Fern_RFA_Surrogates
   Alternatives = TacticDepiction_Sniper_Fern_RFA_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Sniper_Fern_RFA, AllWeaponSubDepictionBackpack_Sniper_Fern_RFA]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Sniper_Fern_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9511,7 +9511,7 @@ TacticDepiction_Sniper_UK_Soldier is TemplateInfantryDepictionFactoryTactic
 (
   Alternatives = TacticDepiction_Sniper_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Sniper_UK, AllWeaponSubDepictionBackpack_Sniper_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Sniper_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9610,7 +9610,7 @@ TacticDepiction_Spetsnaz_CMD_SOV_Soldier is TemplateInfantryDepictionFactoryTact
   Surrogates = TacticDepiction_Spetsnaz_CMD_SOV_Surrogates
   Alternatives = TacticDepiction_Spetsnaz_CMD_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Spetsnaz_CMD_SOV, AllWeaponSubDepictionBackpack_Spetsnaz_CMD_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Spetsnaz_CMD_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9661,7 +9661,7 @@ TacticDepiction_Spetsnaz_FireSupport_SOV_Soldier is TemplateInfantryDepictionFac
   Surrogates = TacticDepiction_Spetsnaz_FireSupport_SOV_Surrogates
   Alternatives = TacticDepiction_Spetsnaz_FireSupport_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Spetsnaz_FireSupport_SOV, AllWeaponSubDepictionBackpack_Spetsnaz_FireSupport_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Spetsnaz_FireSupport_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9718,7 +9718,7 @@ TacticDepiction_Spetsnaz_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Spetsnaz_SOV_Surrogates
   Alternatives = TacticDepiction_Spetsnaz_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Spetsnaz_SOV, AllWeaponSubDepictionBackpack_Spetsnaz_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Spetsnaz_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9771,7 +9771,7 @@ TacticDepiction_Territorial_CMD_UK_Soldier is TemplateInfantryDepictionFactoryTa
   Surrogates = TacticDepiction_Territorial_CMD_UK_Surrogates
   Alternatives = TacticDepiction_Territorial_CMD_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Territorial_CMD_UK, AllWeaponSubDepictionBackpack_Territorial_CMD_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Territorial_CMD_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9824,7 +9824,7 @@ TacticDepiction_Territorial_UK_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_Territorial_UK_Surrogates
   Alternatives = TacticDepiction_Territorial_UK_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Territorial_UK, AllWeaponSubDepictionBackpack_Territorial_UK]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Territorial_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9881,7 +9881,7 @@ TacticDepiction_VDV_CMD_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_VDV_CMD_SOV_Surrogates
   Alternatives = TacticDepiction_VDV_CMD_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_VDV_CMD_SOV, AllWeaponSubDepictionBackpack_VDV_CMD_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_VDV_CMD_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9938,7 +9938,7 @@ TacticDepiction_VDV_HMG_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_VDV_HMG_SOV_Surrogates
   Alternatives = TacticDepiction_VDV_HMG_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_VDV_HMG_SOV, AllWeaponSubDepictionBackpack_VDV_HMG_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_VDV_HMG_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -9995,7 +9995,7 @@ TacticDepiction_VDV_Mech_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_VDV_Mech_SOV_Surrogates
   Alternatives = TacticDepiction_VDV_Mech_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_VDV_Mech_SOV, AllWeaponSubDepictionBackpack_VDV_Mech_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_VDV_Mech_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -10052,7 +10052,7 @@ TacticDepiction_VDV_Metis_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_VDV_Metis_SOV_Surrogates
   Alternatives = TacticDepiction_VDV_Metis_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_VDV_Metis_SOV, AllWeaponSubDepictionBackpack_VDV_Metis_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_VDV_Metis_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -10109,7 +10109,7 @@ TacticDepiction_VDV_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
   Surrogates = TacticDepiction_VDV_SOV_Surrogates
   Alternatives = TacticDepiction_VDV_SOV_Alternatives
   SubDepictions = [AllWeaponSubDepiction_VDV_SOV, AllWeaponSubDepictionBackpack_VDV_SOV]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_VDV_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -10154,7 +10154,7 @@ TacticDepiction_Volkspolizei_CMD_DDR_Soldier is TemplateInfantryDepictionFactory
   Surrogates = TacticDepiction_Volkspolizei_CMD_DDR_Surrogates
   Alternatives = TacticDepiction_Volkspolizei_CMD_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Volkspolizei_CMD_DDR, AllWeaponSubDepictionBackpack_Volkspolizei_CMD_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Volkspolizei_CMD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -10205,7 +10205,7 @@ TacticDepiction_Volkspolizei_DDR_Soldier is TemplateInfantryDepictionFactoryTact
   Surrogates = TacticDepiction_Volkspolizei_DDR_Surrogates
   Alternatives = TacticDepiction_Volkspolizei_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Volkspolizei_DDR, AllWeaponSubDepictionBackpack_Volkspolizei_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1') ] )]
 )
 TacticDepiction_Volkspolizei_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -10262,7 +10262,7 @@ TacticDepiction_Wachregiment_CMD_DDR_Soldier is TemplateInfantryDepictionFactory
   Surrogates = TacticDepiction_Wachregiment_CMD_DDR_Surrogates
   Alternatives = TacticDepiction_Wachregiment_CMD_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Wachregiment_CMD_DDR, AllWeaponSubDepictionBackpack_Wachregiment_CMD_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_Wachregiment_CMD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -10319,7 +10319,7 @@ TacticDepiction_Wachregiment_DDR_Soldier is TemplateInfantryDepictionFactoryTact
   Surrogates = TacticDepiction_Wachregiment_DDR_Surrogates
   Alternatives = TacticDepiction_Wachregiment_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Wachregiment_DDR, AllWeaponSubDepictionBackpack_Wachregiment_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Wachregiment_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -10370,7 +10370,7 @@ TacticDepiction_Wachregiment_SMG_DDR_Soldier is TemplateInfantryDepictionFactory
   Surrogates = TacticDepiction_Wachregiment_SMG_DDR_Surrogates
   Alternatives = TacticDepiction_Wachregiment_SMG_DDR_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Wachregiment_SMG_DDR, AllWeaponSubDepictionBackpack_Wachregiment_SMG_DDR]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_2') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_1'), ('grenade', 'MeshAlternative_2') ] )]
 )
 TacticDepiction_Wachregiment_SMG_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (

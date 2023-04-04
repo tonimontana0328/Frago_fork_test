@@ -178,7 +178,7 @@ BUCKSpecificStrategicStartBattlePawnBriefMainComponentDescriptor is BUCKButtonDe
             ElementName = 'Flag'
             ResizeMode = ~/TextureResizeMode/UserDefined
 
-            TextureDrawer = 'ColorMultiply_NoGrayscale'
+            // TextureDrawer = 'ColorMultiply_NoGrayscale'
         ),
         BUCKContainerDescriptor
         (

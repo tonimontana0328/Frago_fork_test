@@ -1,4 +1,4 @@
-ZocRadius is 2.0 * 500 * Metre
+ZocRadius is 1.9 * 500 * Metre
 
 StrategicCampaignConstantes is TStrategicCampaignConstantes
 (
@@ -16,7 +16,6 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
 
 
     PawnDissolutionFactor = 0.2 //Un pion est dissout après le combat si sa dernière compagnie est en dessous de X% de son effectif initial
-    CompanyDissolutionFactor = 0.2 //Une compagnie est dissoute après le combat si elle est en dessous de X% de son effectif initial
     FreeDefenseRadius = 0 * ~/ActionPointConsumptionRefs/CaseSize // Le rayon autour de l'unité attaquée dans lequel les unités alliés peuvent attaquer sans reset leur défense et sans bouger
     NbActionPointsNeededToFight = 4 //Nombre de PA nécessaire pour participer à une bataille une fois sur place
     NbActionPointsNeededToFightForAirplane = 4 //Nombre de PA nécessaire pour participer à une bataille une fois sur place
@@ -28,7 +27,8 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
     DisableGroundZocsWhenNoAP = false
     DisableMoveOrderOnDisabledZocs = false
     FleeToAlliesIfPossible = true
-    FleeMinimumCaseNumber = 2
+    FleeMinimumCaseNumber = 1
+    FleeMaximumCaseNumber = 2
 
     AirDenyUnitTags = [ 'Canon_AA', 'Avion_Chasseur', 'Canon_AA_Standard' ]
     IsFortifiedAntiAirTag = 'IsFortifiedAntiAir'
@@ -155,15 +155,13 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
 
     ValidGhostColors = TGhostColors(
         GhostColor = [0, 255, 0, 128]
-        GhostAlpha = 0.6
-        GhostColor2 = [0, 255, 0, 128]
-        GhostAlpha2 = 0.8
+        GhostAlphas = [0.6, 0.8]
+        GhostBlends = [0.5, 0.5]
     )
     InvalidGhostColors = TGhostColors(
         GhostColor = [255, 0, 0, 128]
-        GhostAlpha = 0.6
-        GhostColor2 = [255, 0, 0, 128]
-        GhostAlpha2 = 0.8
+        GhostAlphas = [0.6, 0.8]
+        GhostBlends = [0.5, 0.5]
     )
 
     // Ordres

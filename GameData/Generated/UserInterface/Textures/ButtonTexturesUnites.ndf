@@ -1795,12 +1795,6 @@ Texture_Button_Unit_M1025_Humvee_AGL_US is TUIResourceTextureWithUsefulnessMask
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/M1025_Humvee_AGL_airborne_US.png'
 )
-Texture_Button_Unit_M1025_Humvee_AGL_nonPara_US is TUIResourceTextureWithUsefulnessMask
-(
-    TypeMask = TypeMask/BuildMenu
-    CivMask  = CivMask/Common
-    FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/M1025_Humvee_AGL_airborne_US.png'
-)
 Texture_Button_Unit_M1025_Humvee_CMD_US is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
@@ -4118,12 +4112,6 @@ Texture_Button_Unit_UH1D_RFA is TUIResourceTextureWithUsefulnessMask
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/UH1D_RFA.png'
 )
-Texture_Button_Unit_UH1D_Supply_NL is TUIResourceTextureWithUsefulnessMask
-(
-    TypeMask = TypeMask/BuildMenu
-    CivMask  = CivMask/Common
-    FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/default.png'
-)
 Texture_Button_Unit_UH1D_Supply_RFA is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
@@ -4135,6 +4123,12 @@ Texture_Button_Unit_UH1H_Huey_US is TUIResourceTextureWithUsefulnessMask
     TypeMask = TypeMask/BuildMenu
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/UH1H_Huey_US.png'
+)
+Texture_Button_Unit_UH1H_supply_US is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/UH1H_supply_US.png'
 )
 Texture_Button_Unit_UH60A_Black_Hawk_US is TUIResourceTextureWithUsefulnessMask
 (
@@ -5224,7 +5218,6 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_LightRifles_RCL_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_LightRifles_RCL_US), ]),
         ("Texture_Button_Unit_Luchs_A1_RFA", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Luchs_A1_RFA), ]),
         ("Texture_Button_Unit_M1025_Humvee_AGL_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1025_Humvee_AGL_US), ]),
-        ("Texture_Button_Unit_M1025_Humvee_AGL_nonPara_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1025_Humvee_AGL_nonPara_US), ]),
         ("Texture_Button_Unit_M1025_Humvee_CMD_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1025_Humvee_CMD_US), ]),
         ("Texture_Button_Unit_M1025_Humvee_CMD_para_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1025_Humvee_CMD_para_US), ]),
         ("Texture_Button_Unit_M1025_Humvee_TOW_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1025_Humvee_TOW_US), ]),
@@ -5611,9 +5604,9 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_Puma_UK", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Puma_UK), ]),
         ("Texture_Button_Unit_Super_Puma_FR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Super_Puma_FR), ]),
         ("Texture_Button_Unit_UH1D_RFA", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_UH1D_RFA), ]),
-        ("Texture_Button_Unit_UH1D_Supply_NL", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_UH1D_Supply_NL), ]),
         ("Texture_Button_Unit_UH1D_Supply_RFA", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_UH1D_Supply_RFA), ]),
         ("Texture_Button_Unit_UH1H_Huey_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_UH1H_Huey_US), ]),
+        ("Texture_Button_Unit_UH1H_supply_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_UH1H_supply_US), ]),
         ("Texture_Button_Unit_UH60A_Black_Hawk_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_UH60A_Black_Hawk_US), ]),
         ("Texture_Button_Unit_UH60A_CO_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_UH60A_CO_US), ]),
         ("Texture_Button_Unit_UH60A_Supply_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_UH60A_Supply_US), ]),

@@ -15601,68 +15601,6 @@ Gfx_UH1D_RFA_Autogen is TacticAerialDepictionTemplate
             SubDepiction_Pilote2(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_US MeshDescriptorLow = MeshDescriptor_Pilote_Helico_US_LOW),
         ]
 )
-// Dépiction de l'unité UH1D_Supply_NL
-Gfx_UH1D_Supply_NL_Autogen is TacticAerialDepictionTemplate
-(
-        CoatingName = 'UH1D_Supply_NL'
-        Selector = SpecificHelicoDepictionSelector
-        Alternatives = Alternatives_UH1D_Supply_NL
-
-        Operators = 
-        [
-            DepictionOperator_MovementSound_SM_Helico_Huey,
-            DepictionOperator_CriticalEffects,
-            DepictionOperator_HelicopterLanding,
-            DepictionOperator_GroundPuff_Helico,
-            DepictionOperator_ShadowPointCloudProvider,
-            DepictionOperator_Rotors
-            (
-                RotorList = 
-                [
-                    TRotor
-                    (
-                        BladesBoneName = "helice_ls_1"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_1",
-                        ]
-                        Clockwise = False
-                        NbBlade = 2
-                        RotationAxis = VECTOR[0, 0, 1]
-                        RotationSpeed = 242
-                        RotorBoneName = "bloc_moteur_1"
-                    ),
-                    TRotor
-                    (
-                        BladesBoneName = "helice_ls_2"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_2",
-                        ]
-                        Clockwise = False
-                        NbBlade = 2
-                        RotationAxis = VECTOR[0, 1, 0]
-                        RotationSpeed = 242
-                        RotorBoneName = "bloc_moteur_2"
-                    ),
-                ]
-            ),
-            DepictionOperator_Feedback_Degat_Level1,
-            DepictionOperator_Feedback_Degat_Level2,
-            DepictionOperator_Heat,
-        ]
-        Actions = MAP[
-                ]
-                + DepictionAction_Stress_And_Wrecked_Helicopter
-                + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1700 PaleCount = 2 RotationAxis = VECTOR[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
-                + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 300 PaleCount = 2 RotationAxis = VECTOR[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
-                + DepictionAction_CriticalFX_Helicopter
-
-        SubDepictions = [
-            SubDepiction_Pilote1(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_US MeshDescriptorLow = MeshDescriptor_Pilote_Helico_US_LOW),
-            SubDepiction_Pilote2(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_US MeshDescriptorLow = MeshDescriptor_Pilote_Helico_US_LOW),
-        ]
-)
 // Dépiction de l'unité UH1D_Supply_RFA
 Gfx_UH1D_Supply_RFA_Autogen is TacticAerialDepictionTemplate
 (
@@ -15792,6 +15730,68 @@ Gfx_UH1H_Huey_US_Autogen is TacticAerialDepictionTemplate
         ]
         Actions = MAP[
                     ( [ "weapon_effet_tag1" ], Weapon_MMG_M60_7_62mm ),
+                ]
+                + DepictionAction_Stress_And_Wrecked_Helicopter
+                + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1700 PaleCount = 2 RotationAxis = VECTOR[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
+                + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 300 PaleCount = 2 RotationAxis = VECTOR[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
+                + DepictionAction_CriticalFX_Helicopter
+
+        SubDepictions = [
+            SubDepiction_Pilote1(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_US MeshDescriptorLow = MeshDescriptor_Pilote_Helico_US_LOW),
+            SubDepiction_Pilote2(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_US MeshDescriptorLow = MeshDescriptor_Pilote_Helico_US_LOW),
+        ]
+)
+// Dépiction de l'unité UH1H_supply_US
+Gfx_UH1H_supply_US_Autogen is TacticAerialDepictionTemplate
+(
+        CoatingName = 'UH1H_supply_US'
+        Selector = SpecificHelicoDepictionSelector
+        Alternatives = Alternatives_UH1H_supply_US
+
+        Operators = 
+        [
+            DepictionOperator_MovementSound_SM_Helico_Huey,
+            DepictionOperator_CriticalEffects,
+            DepictionOperator_HelicopterLanding,
+            DepictionOperator_GroundPuff_Helico,
+            DepictionOperator_ShadowPointCloudProvider,
+            DepictionOperator_Rotors
+            (
+                RotorList = 
+                [
+                    TRotor
+                    (
+                        BladesBoneName = "helice_ls_1"
+                        BlurActionId = 
+                        [
+                            "FX_Helice_1",
+                        ]
+                        Clockwise = False
+                        NbBlade = 2
+                        RotationAxis = VECTOR[0, 0, 1]
+                        RotationSpeed = 242
+                        RotorBoneName = "bloc_moteur_1"
+                    ),
+                    TRotor
+                    (
+                        BladesBoneName = "helice_ls_2"
+                        BlurActionId = 
+                        [
+                            "FX_Helice_2",
+                        ]
+                        Clockwise = False
+                        NbBlade = 2
+                        RotationAxis = VECTOR[0, 1, 0]
+                        RotationSpeed = 242
+                        RotorBoneName = "bloc_moteur_2"
+                    ),
+                ]
+            ),
+            DepictionOperator_Feedback_Degat_Level1,
+            DepictionOperator_Feedback_Degat_Level2,
+            DepictionOperator_Heat,
+        ]
+        Actions = MAP[
                 ]
                 + DepictionAction_Stress_And_Wrecked_Helicopter
                 + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1700 PaleCount = 2 RotationAxis = VECTOR[0, 0, 1] SousMobile = "bloc_moteur_1" ))]

@@ -269,6 +269,7 @@ Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Sonderwagen_4_recon_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_TRM_2000_20mm_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_TRM_2000_supply_FR, 1),
+        (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_UH1H_supply_US, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VAB_CMD_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VAB_Mortar_81_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VLTT_P4_MILAN_FR, 1),

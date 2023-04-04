@@ -294,26 +294,26 @@ TextStylePointActionBLUFOR is TTextStyleRTTI
 
 TextStylePointActionREDFORCantAttack is TTextStyleRTTI
 (
-    ColorBottom = [  180, 25, 25, 160]
-    ColorUp     = [ 255, 100, 100, 160]
-    ColorStroke = [  0,   0,   0, 60]
+    ColorBottom = [ 125, 125, 125, 255]
+    ColorUp     = [ 125, 125, 125, 255]
+    ColorStroke = [  255,   0,   0, 125]
     Stroke = true
-    StrokeSize = 1
-    StrokeHardness = 0.96
-    TextThickness = 0.21
+    StrokeSize = 0.7
+    StrokeHardness = 0.7
+    TextThickness = 0.5
     FontSize = 1
     AllowSmallFont = true
 )
 
 TextStylePointActionBLUFORCantAttack is TTextStyleRTTI
 (
-    ColorBottom = [ 25, 25, 180, 160]
-    ColorUp     = [ 100, 100, 255, 160]
-    ColorStroke = [  0,   0,   0, 60]
+    ColorBottom = [ 125, 125, 125, 255]
+    ColorUp     = [ 125, 125, 125, 255]
+    ColorStroke = [  0,   0,   255, 125]
     Stroke = true
-    StrokeSize = 1
-    StrokeHardness = 0.96
-    TextThickness = 0.21
+    StrokeSize = 0.7
+    StrokeHardness = 0.7
+    TextThickness = 0.5
     FontSize = 1
     AllowSmallFont = true
 )

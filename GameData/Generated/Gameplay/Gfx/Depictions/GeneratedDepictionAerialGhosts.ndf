@@ -1026,11 +1026,6 @@ GhostDepiction_UH1D_RFA is GhostAerialDepictionTemplate
     Alternatives = Alternatives_UH1D_RFA
     Selector = SpecificHelicoDepictionSelector
 )
-GhostDepiction_UH1D_Supply_NL is GhostAerialDepictionTemplate
-(
-    Alternatives = Alternatives_UH1D_Supply_NL
-    Selector = SpecificHelicoDepictionSelector
-)
 GhostDepiction_UH1D_Supply_RFA is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_UH1D_Supply_RFA
@@ -1039,6 +1034,11 @@ GhostDepiction_UH1D_Supply_RFA is GhostAerialDepictionTemplate
 GhostDepiction_UH1H_Huey_US is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_UH1H_Huey_US
+    Selector = SpecificHelicoDepictionSelector
+)
+GhostDepiction_UH1H_supply_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_UH1H_supply_US
     Selector = SpecificHelicoDepictionSelector
 )
 GhostDepiction_UH60A_Black_Hawk_US is GhostAerialDepictionTemplate

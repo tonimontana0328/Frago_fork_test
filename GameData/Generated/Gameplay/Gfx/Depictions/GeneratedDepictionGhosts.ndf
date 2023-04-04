@@ -1056,11 +1056,6 @@ GhostDepiction_M1025_Humvee_AGL_US is GhostVehicleDepictionTemplate
     Selector = Selector_M1025_Humvee_AGL_US
     Alternatives = Alternatives_M1025_Humvee_AGL_US
 )
-GhostDepiction_M1025_Humvee_AGL_nonPara_US is GhostVehicleDepictionTemplate
-(
-    Selector = Selector_M1025_Humvee_AGL_nonPara_US
-    Alternatives = Alternatives_M1025_Humvee_AGL_nonPara_US
-)
 GhostDepiction_M1025_Humvee_CMD_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M1025_Humvee_CMD_US

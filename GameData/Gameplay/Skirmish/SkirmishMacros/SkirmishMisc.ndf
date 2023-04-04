@@ -126,7 +126,7 @@ export Pool_Reco_Skirmish is TPoolModel
         Required = true
         Nb = 1
         IndexPriorityOverPrice = false // On veut le moins cher
-        PriceComparisonMethod = EPriceComparatorType/Cheapest
+        PriceComparisonMethod = EPriceComparatorType/Random
         TagsPriority = [
             "Infanterie_Reco",
             "Vehicule_Reco",

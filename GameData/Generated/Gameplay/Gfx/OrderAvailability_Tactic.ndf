@@ -6437,27 +6437,6 @@ Descriptor_OrderAvailability_M1025_Humvee_AGL_US is [
     "AIAttack",
     "AIStop",
 ]
-Descriptor_OrderAvailability_M1025_Humvee_AGL_nonPara_US is [
-    "Stop",
-    "Move",
-    "FollowFormation",
-    "QuickMove",
-    "Attack",
-    "FastMoveAndAttack",
-    "MoveAndAttack",
-    "Spread",
-    "Reverse",
-    "Shoot",
-    "ShootOnPosition",
-    "ShootOnPositionWithoutCorrection",
-    "AskForSupply",
-    "GoGetSupply",
-    "LoadIntoTransport",
-    "Load",
-    "AIDefend",
-    "AIAttack",
-    "AIStop",
-]
 Descriptor_OrderAvailability_M1025_Humvee_CMD_US is [
     "Stop",
     "Move",
@@ -14724,23 +14703,6 @@ Descriptor_OrderAvailability_UH1D_RFA is [
     "AIAttack",
     "AIStop",
 ]
-Descriptor_OrderAvailability_UH1D_Supply_NL is [
-    "Stop",
-    "Move",
-    "FollowFormation",
-    "Spread",
-    "Land",
-    "GoUp",
-    "GoDown",
-    "ChangeAltitude",
-    "SupplyUnit",
-    "AskForSupply",
-    "GoGetSupply",
-    "LoadIntoTransport",
-    "Load",
-    "AIStop",
-    "AISupply",
-]
 Descriptor_OrderAvailability_UH1D_Supply_RFA is [
     "Stop",
     "Move",
@@ -14784,6 +14746,23 @@ Descriptor_OrderAvailability_UH1H_Huey_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+]
+Descriptor_OrderAvailability_UH1H_supply_US is [
+    "Stop",
+    "Move",
+    "FollowFormation",
+    "Spread",
+    "Land",
+    "GoUp",
+    "GoDown",
+    "ChangeAltitude",
+    "SupplyUnit",
+    "AskForSupply",
+    "GoGetSupply",
+    "LoadIntoTransport",
+    "Load",
+    "AIStop",
+    "AISupply",
 ]
 Descriptor_OrderAvailability_UH60A_Black_Hawk_US is [
     "Stop",

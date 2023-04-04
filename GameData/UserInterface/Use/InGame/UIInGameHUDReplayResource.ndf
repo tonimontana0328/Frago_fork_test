@@ -5,7 +5,6 @@ HUDReplayResource is TUISpecificInGameReplayResource
     HideRenderLayersArray = ~/InterfaceArrayLayersFinal
 
     VideoModeValue = $/M3D/Scene/ShootVideoMode
-    DontSaveNodesOption = $/GameplayOption/DontSaveReplayNodes
 
     Component = ~/ReplayPanel
     ComponentWaitingForModeObs = ~/ReplayWaitingModeObsPanel

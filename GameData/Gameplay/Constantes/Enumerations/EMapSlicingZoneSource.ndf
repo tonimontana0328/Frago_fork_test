@@ -5,7 +5,8 @@
 //-----------------------------------------------------------------------------
 EMapSlicingZoneSource is TBaseClass
 (
-    LevelBuild is 1
-    SmartOrder is 2
-    Objective is 4
+    ScenarioIAStrat is 0
+    PlayerMission is 1
+    ScenarioCommand is 2
+    ScenarioDeployment is 3
 )

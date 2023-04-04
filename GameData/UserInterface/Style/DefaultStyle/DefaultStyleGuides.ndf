@@ -2398,6 +2398,11 @@ DefaultStyleGuide is TUIStyleGuide
                                                         ( ~/ComponentState/Highlighted,                 TColorRTTI( Color = [210,216,240,255] ) ),
                                                         ( ~/ComponentState/Grayed,                 TColorRTTI( Color = [210,216,240,50] ) ),
                                                     ]),
+        ("SM_Grullo_2",                           MAP [
+                                                        ( ~/ComponentState/Normal,                 TColorRTTI( Color = Grullo ) ),
+                                                        // ( ~/ComponentState/Highlighted,                 TColorRTTI( Color = [210,216,240,255] ) ),
+                                                        // ( ~/ComponentState/Grayed,                 TColorRTTI( Color = [210,216,240,50] ) ),
+                                                    ]),
         ("SM_renfort_fleche", MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = Grullo ) ),]),
         ("SM_DarkLava",                         MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = DarkLava ) ),]),
 
