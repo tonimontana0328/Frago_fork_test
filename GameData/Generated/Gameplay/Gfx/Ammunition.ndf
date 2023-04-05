@@ -70696,7 +70696,6 @@ Ammo_SAM_9M311_Tunguska_x8 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -70878,7 +70877,6 @@ Ammo_SAM_9M330_Tor_x8 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -70971,7 +70969,6 @@ Ammo_SAM_9M336_x3 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71064,7 +71061,6 @@ Ammo_SAM_9M33M2_x6 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71157,7 +71153,6 @@ Ammo_SAM_9M38M1_x4 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71617,7 +71612,6 @@ Ammo_SAM_I_Hawk is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71709,7 +71703,6 @@ Ammo_SAM_I_Hawk_x3 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -72629,7 +72622,6 @@ Ammo_SAM_RAPIER_FSA_x4 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -72722,7 +72714,6 @@ Ammo_SAM_RAPIER_x4 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73182,7 +73173,6 @@ Ammo_SAM_ROLAND_2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73274,7 +73264,6 @@ Ammo_SAM_ROLAND_2_x2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73366,7 +73355,6 @@ Ammo_SAM_ROLAND_3 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73459,7 +73447,6 @@ Ammo_SAM_ROLAND_3_x2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
