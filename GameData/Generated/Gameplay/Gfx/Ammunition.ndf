@@ -70668,8 +70668,8 @@ Ammo_SAM_9M311_Tunguska_x8 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAA9M311
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 2.5
+    TempsEntreDeuxFx                  = 2.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((8490) * Metre)
@@ -70696,6 +70696,7 @@ Ammo_SAM_9M311_Tunguska_x8 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -70759,8 +70760,8 @@ Ammo_SAM_9M33 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 3.8
+    TempsEntreDeuxFx                  = 3.8
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((8985) * Metre)
@@ -70787,6 +70788,7 @@ Ammo_SAM_9M33 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -70849,8 +70851,8 @@ Ammo_SAM_9M330_Tor_x8 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
+    TempsEntreDeuxTirs                = 3.5
+    TempsEntreDeuxFx                  = 3.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((7995) * Metre)
@@ -70877,6 +70879,7 @@ Ammo_SAM_9M330_Tor_x8 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -70941,8 +70944,8 @@ Ammo_SAM_9M336_x3 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAABUKM1
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
+    TempsEntreDeuxTirs                = 3.8
+    TempsEntreDeuxFx                  = 3.8
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((7995) * Metre)
@@ -70969,6 +70972,7 @@ Ammo_SAM_9M336_x3 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71033,8 +71037,8 @@ Ammo_SAM_9M33M2_x6 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
+    TempsEntreDeuxTirs                = 2.5
+    TempsEntreDeuxFx                  = 2.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((7995) * Metre)
@@ -71061,6 +71065,7 @@ Ammo_SAM_9M33M2_x6 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71125,8 +71130,8 @@ Ammo_SAM_9M38M1_x4 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAABUKM1
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
+    TempsEntreDeuxTirs                = 2.5
+    TempsEntreDeuxFx                  = 2.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((8490) * Metre)
@@ -71153,6 +71158,7 @@ Ammo_SAM_9M38M1_x4 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71584,8 +71590,8 @@ Ammo_SAM_I_Hawk is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
+    TempsEntreDeuxTirs                = 3.8
+    TempsEntreDeuxFx                  = 3.8
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((7500) * Metre)
@@ -71612,6 +71618,7 @@ Ammo_SAM_I_Hawk is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71675,8 +71682,8 @@ Ammo_SAM_I_Hawk_x3 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAABUKM1
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
+    TempsEntreDeuxTirs                = 3.8
+    TempsEntreDeuxFx                  = 3.8
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((8985) * Metre)
@@ -71703,6 +71710,7 @@ Ammo_SAM_I_Hawk_x3 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -72503,8 +72511,8 @@ Ammo_SAM_RAPIER is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 3.4
+    TempsEntreDeuxFx                  = 3.4
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((8490) * Metre)
@@ -72531,6 +72539,7 @@ Ammo_SAM_RAPIER is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -72594,8 +72603,8 @@ Ammo_SAM_RAPIER_FSA_x4 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 3.4
+    TempsEntreDeuxFx                  = 3.4
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((8985) * Metre)
@@ -72622,6 +72631,7 @@ Ammo_SAM_RAPIER_FSA_x4 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -72686,8 +72696,8 @@ Ammo_SAM_RAPIER_x4 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 3.4
+    TempsEntreDeuxFx                  = 3.4
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((8985) * Metre)
@@ -72714,6 +72724,7 @@ Ammo_SAM_RAPIER_x4 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -72777,8 +72788,8 @@ Ammo_SAM_RAPIER_x8 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 3.5
+    TempsEntreDeuxFx                  = 3.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((8985) * Metre)
@@ -72869,8 +72880,8 @@ Ammo_SAM_ROLAND is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 2.5
+    TempsEntreDeuxFx                  = 2.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((7995) * Metre)
@@ -72920,7 +72931,7 @@ Ammo_SAM_ROLAND is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 2.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 15.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -72961,8 +72972,8 @@ Ammo_SAM_ROLAND_1 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 2.5
+    TempsEntreDeuxFx                  = 2.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((7995) * Metre)
@@ -73012,7 +73023,7 @@ Ammo_SAM_ROLAND_1 is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 2.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 15.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -73053,8 +73064,8 @@ Ammo_SAM_ROLAND_1_x2 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 2.5
+    TempsEntreDeuxFx                  = 2.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((7995) * Metre)
@@ -73104,7 +73115,7 @@ Ammo_SAM_ROLAND_1_x2 is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 2.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 15.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -73145,8 +73156,8 @@ Ammo_SAM_ROLAND_2 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 2.5
+    TempsEntreDeuxFx                  = 2.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((7995) * Metre)
@@ -73173,6 +73184,7 @@ Ammo_SAM_ROLAND_2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73195,7 +73207,7 @@ Ammo_SAM_ROLAND_2 is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 2.0
-    TempsEntreDeuxSalves              = 16.0
+    TempsEntreDeuxSalves              = 15.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -73236,8 +73248,8 @@ Ammo_SAM_ROLAND_2_x2 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
+    TempsEntreDeuxTirs                = 2.5
+    TempsEntreDeuxFx                  = 2.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((7995) * Metre)
@@ -73264,6 +73276,7 @@ Ammo_SAM_ROLAND_2_x2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73286,7 +73299,7 @@ Ammo_SAM_ROLAND_2_x2 is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 2.0
-    TempsEntreDeuxSalves              = 16.0
+    TempsEntreDeuxSalves              = 15.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -73327,8 +73340,8 @@ Ammo_SAM_ROLAND_3 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
+    TempsEntreDeuxTirs                = 2.5
+    TempsEntreDeuxFx                  = 2.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((8490) * Metre)
@@ -73355,6 +73368,7 @@ Ammo_SAM_ROLAND_3 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73378,7 +73392,7 @@ Ammo_SAM_ROLAND_3 is TAmmunitionDescriptor
     )
     Guidance                          = Guidance_Radar
     TempsDeVisee                      = 1.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 15.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -73419,8 +73433,8 @@ Ammo_SAM_ROLAND_3_x2 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MIssileAAMIM72C
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
+    TempsEntreDeuxTirs                = 2.5
+    TempsEntreDeuxFx                  = 2.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((8490) * Metre)
@@ -73447,6 +73461,7 @@ Ammo_SAM_ROLAND_3_x2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
+	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73470,7 +73485,7 @@ Ammo_SAM_ROLAND_3_x2 is TAmmunitionDescriptor
     )
     Guidance                          = Guidance_Radar
     TempsDeVisee                      = 1.0
-    TempsEntreDeuxSalves              = 20.0
+    TempsEntreDeuxSalves              = 15.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
