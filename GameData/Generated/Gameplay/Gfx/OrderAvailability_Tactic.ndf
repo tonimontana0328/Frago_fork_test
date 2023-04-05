@@ -7679,6 +7679,8 @@ Descriptor_OrderAvailability_M728_CEV_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_M901A1_ITW_US is [
     "Stop",

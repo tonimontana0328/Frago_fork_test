@@ -42579,7 +42579,7 @@ Ammo_PM_AKSU_74 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 24
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AKs74u"
     SmokeDescriptor                   = nil
@@ -42678,7 +42678,7 @@ Ammo_PM_AS_Val is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 24
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AS_Val"
     SmokeDescriptor                   = nil
@@ -42876,7 +42876,7 @@ Ammo_PM_C8_Carbine is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 24
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M4_carbine"
     SmokeDescriptor                   = nil
@@ -43173,7 +43173,7 @@ Ammo_PM_MP_5A3 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 24
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_mp5a3"
     SmokeDescriptor                   = nil
@@ -43272,7 +43272,7 @@ Ammo_PM_MP_5SD is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 24
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_mp55s"
     SmokeDescriptor                   = nil
@@ -43569,7 +43569,7 @@ Ammo_PM_Skorpion is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 18
+    AffichageMunitionParSalve         = 9
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_skorpion"
     SmokeDescriptor                   = nil
@@ -43668,7 +43668,7 @@ Ammo_PM_Sterling is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 18
+    AffichageMunitionParSalve         = 9
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_L2A3"
     SmokeDescriptor                   = nil
@@ -50708,7 +50708,7 @@ Ammo_RocketInf_APILAS is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 116 * Metre
-    SuppressDamages                   = 112.0
+    SuppressDamages                   = 147.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -50902,7 +50902,7 @@ Ammo_RocketInf_Armbrust is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 106 * Metre
-    SuppressDamages                   = 67.0
+    SuppressDamages                   = 91.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -56489,7 +56489,7 @@ Ammo_Sniper_M14 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 1
+    AffichageMunitionParSalve         = 5
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M14"
     SmokeDescriptor                   = nil
@@ -56973,7 +56973,7 @@ Ammo_Sniper_VSS_Vintorez is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 1
+    AffichageMunitionParSalve         = 5
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Vintorez"
     SmokeDescriptor                   = nil
