@@ -42575,7 +42575,7 @@ Ammo_PM_AKSU_74 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 8
+    SupplyCost                        = 1
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -42674,7 +42674,7 @@ Ammo_PM_AS_Val is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 8
+    SupplyCost                        = 1
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -42872,7 +42872,7 @@ Ammo_PM_C8_Carbine is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 8
+    SupplyCost                        = 1
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -43070,12 +43070,12 @@ Ammo_PM_MAT_49 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 1
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 18
+    AffichageMunitionParSalve         = 9
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_MAT_49"
     SmokeDescriptor                   = nil
@@ -43169,7 +43169,7 @@ Ammo_PM_MP_5A3 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 8
+    SupplyCost                        = 1
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -43268,7 +43268,7 @@ Ammo_PM_MP_5SD is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 8
+    SupplyCost                        = 1
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -43565,7 +43565,7 @@ Ammo_PM_Skorpion is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 1
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -43664,7 +43664,7 @@ Ammo_PM_Sterling is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 1
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -44060,7 +44060,7 @@ Ammo_PM_uzi is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 1
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
