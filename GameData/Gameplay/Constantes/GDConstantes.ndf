@@ -501,7 +501,7 @@ WargameConstantes is TWargameTunableConstante
     BaseIncome = MAP
     [
         (CombatRule/NotSpecified,   0),
-        (CombatRule/CaptureTheFlag, 260),
+        (CombatRule/CaptureTheFlag, 65),
         (CombatRule/Destruction,    4),
     ]
     DefaultIncomeMultiplierIndex    = 3 // normal
@@ -509,8 +509,8 @@ WargameConstantes is TWargameTunableConstante
     IncomeMultiplier = [   0,    0.5,    0.75,       1,      1.25,       1.5 ]
     TimeBeforeEarningCommandPoints = MAP
     [
-        (CombatRule/NotSpecified,   60.0),
-        (CombatRule/CaptureTheFlag, 60.0),
+        (CombatRule/NotSpecified,   15.0),
+        (CombatRule/CaptureTheFlag, 15.0),
         (CombatRule/Destruction,     4.0),
     ]
 
