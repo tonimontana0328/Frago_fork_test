@@ -21328,7 +21328,7 @@ Ammo_FM_AK_74 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 3
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AK74"
     SmokeDescriptor                   = nil
@@ -21618,7 +21618,7 @@ Ammo_FM_FAMAS is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 3
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_FAMAS"
     SmokeDescriptor                   = nil
@@ -21909,7 +21909,7 @@ Ammo_FM_G3KA4 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 3
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_g3a4"
     SmokeDescriptor                   = nil
@@ -22200,7 +22200,7 @@ Ammo_FM_L85A1 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 3
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_L85A1"
     SmokeDescriptor                   = nil
@@ -22297,7 +22297,7 @@ Ammo_FM_M16 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 3
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M16"
     SmokeDescriptor                   = nil
@@ -22685,7 +22685,7 @@ Ammo_FM_Mpi_AK_74N is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 3
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AK74"
     SmokeDescriptor                   = nil
@@ -22782,7 +22782,7 @@ Ammo_FM_SIG_543 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 3
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_SIG_543"
     SmokeDescriptor                   = nil
@@ -22976,7 +22976,7 @@ Ammo_FM_StG_942 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 3
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_g3a4"
     SmokeDescriptor                   = nil
@@ -42971,12 +42971,12 @@ Ammo_PM_M4_Carbine is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 8
+    SupplyCost                        = 1
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 24
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M4_carbine"
     SmokeDescriptor                   = nil
