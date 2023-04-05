@@ -43367,12 +43367,12 @@ Ammo_PM_MPi_AKSU_74NK is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 8
+    SupplyCost                        = 1
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 24
+    AffichageMunitionParSalve         = 12
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AKs74u"
     SmokeDescriptor                   = nil
