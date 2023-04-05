@@ -4981,7 +4981,6 @@ Ammo_Bomb_GBU_24_x2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 1.0
     ShotsBeforeMaxNoise               = 3
-	IsFireAndForget                   = True
     TargetsDistricts                  = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -42580,7 +42579,7 @@ Ammo_PM_AKSU_74 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 12
+    AffichageMunitionParSalve         = 24
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AKs74u"
     SmokeDescriptor                   = nil
@@ -42679,7 +42678,7 @@ Ammo_PM_AS_Val is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 12
+    AffichageMunitionParSalve         = 24
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AS_Val"
     SmokeDescriptor                   = nil
@@ -42877,7 +42876,7 @@ Ammo_PM_C8_Carbine is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 12
+    AffichageMunitionParSalve         = 24
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M4_carbine"
     SmokeDescriptor                   = nil
@@ -43174,7 +43173,7 @@ Ammo_PM_MP_5A3 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 12
+    AffichageMunitionParSalve         = 24
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_mp5a3"
     SmokeDescriptor                   = nil
@@ -43273,7 +43272,7 @@ Ammo_PM_MP_5SD is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 12
+    AffichageMunitionParSalve         = 24
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_mp55s"
     SmokeDescriptor                   = nil
@@ -43570,7 +43569,7 @@ Ammo_PM_Skorpion is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 9
+    AffichageMunitionParSalve         = 18
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_skorpion"
     SmokeDescriptor                   = nil
@@ -43669,7 +43668,7 @@ Ammo_PM_Sterling is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 9
+    AffichageMunitionParSalve         = 18
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_L2A3"
     SmokeDescriptor                   = nil
@@ -50709,7 +50708,7 @@ Ammo_RocketInf_APILAS is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 116 * Metre
-    SuppressDamages                   = 147.0
+    SuppressDamages                   = 112.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -50903,7 +50902,7 @@ Ammo_RocketInf_Armbrust is TAmmunitionDescriptor
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = False
     RadiusSplashSuppressDamages       = 106 * Metre
-    SuppressDamages                   = 91.0
+    SuppressDamages                   = 67.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -56490,7 +56489,7 @@ Ammo_Sniper_M14 is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 5
+    AffichageMunitionParSalve         = 1
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M14"
     SmokeDescriptor                   = nil
@@ -56974,7 +56973,7 @@ Ammo_Sniper_VSS_Vintorez is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 5
+    AffichageMunitionParSalve         = 1
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Vintorez"
     SmokeDescriptor                   = nil
@@ -69588,7 +69587,6 @@ Ammo_Javelin is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -69680,7 +69678,6 @@ Ammo_Javelin_LML is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -69960,7 +69957,6 @@ Ammo_MANPAD_Blowpipe is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -70236,7 +70232,6 @@ Ammo_MANPAD_Javelin is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -70696,7 +70691,6 @@ Ammo_SAM_9M311_Tunguska_x8 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -70878,7 +70872,6 @@ Ammo_SAM_9M330_Tor_x8 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -70971,7 +70964,6 @@ Ammo_SAM_9M336_x3 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71064,7 +71056,6 @@ Ammo_SAM_9M33M2_x6 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71157,7 +71148,6 @@ Ammo_SAM_9M38M1_x4 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71617,7 +71607,6 @@ Ammo_SAM_I_Hawk is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -71709,7 +71698,6 @@ Ammo_SAM_I_Hawk_x3 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -72629,7 +72617,6 @@ Ammo_SAM_RAPIER_FSA_x4 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -72722,7 +72709,6 @@ Ammo_SAM_RAPIER_x4 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -72814,7 +72800,6 @@ Ammo_SAM_RAPIER_x8 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73182,7 +73167,6 @@ Ammo_SAM_ROLAND_2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73274,7 +73258,6 @@ Ammo_SAM_ROLAND_2_x2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73366,7 +73349,6 @@ Ammo_SAM_ROLAND_3 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73459,7 +73441,6 @@ Ammo_SAM_ROLAND_3_x2 is TAmmunitionDescriptor
     TempsAnimation                    = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-	IsFireAndForget                   = True
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
