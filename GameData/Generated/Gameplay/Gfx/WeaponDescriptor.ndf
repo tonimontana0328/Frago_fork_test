@@ -38961,6 +38961,42 @@ export WeaponDescriptor_M728_CEV_US is TWeaponManagerModuleDescriptor
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_1'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_1'
                     WeaponShootDataPropertyName         = ["WeaponShootData_0_1", ]
+                ),
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_Canon_HE_165mm_AVRE_smoke
+                    AnimateOnlyOneSoldier               = False
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_Canon_HE_165mm_AVRE'
+                    HandheldEquipmentKey                = 'MeshAlternative_4'
+                    MaxRangeDisplay_Color               = RGBA[0,0,0,0]
+                    MaxRangeDisplay_Thickness           = -0.1
+                    MinRangeDisplay_Color               = RGBA[0,0,0,0]
+                    MinRangeDisplay_Thickness           = -0.1
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 0
+                    ShowDispersion                      = False
+                    ShowInInterface                     = False
+                    ShowMaximumRange                    = False
+                    ShowMaximumRange_HA                 = False
+                    ShowMaximumRange_Projectile         = False
+                    ShowMaximumRange_TBA                = False
+                    ShowMinimumRange                    = False
+                    ShowMinimumRange_HA                 = False
+                    ShowMinimumRange_Projectile         = False
+                    ShowMinimumRange_TBA                = False
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_4'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_4'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_4", ]
                 )
             ]
             NbFX                            = 1
