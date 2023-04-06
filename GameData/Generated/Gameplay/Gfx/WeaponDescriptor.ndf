@@ -64896,9 +64896,9 @@ export WeaponDescriptor_AH6C_Little_Bird_US is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.6490658503988659
+            AngleRotationMinPitch       = -0.5617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -69263,9 +69263,9 @@ export WeaponDescriptor_OH58C_Scout_US is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.6490658503988659
+            AngleRotationMinPitch       = -0.5617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (

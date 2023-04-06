@@ -36027,7 +36027,7 @@ Ammo_MMG_M240d_7_62mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 1.5
+    TempsDeVisee                      = 0.5
     TempsEntreDeuxSalves              = 2.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -63260,8 +63260,8 @@ Ammo_AGM_Kh25ML is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MissileAGMGros
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
+    TempsEntreDeuxTirs                = 3.5
+    TempsEntreDeuxFx                  = 3.5
     PorteeMaximale                    = ((9410) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
@@ -63314,7 +63314,7 @@ Ammo_AGM_Kh25ML is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 3.5
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -69601,7 +69601,7 @@ Ammo_Javelin is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 60),
+             (EBaseHitValueModifier/Idling, 55),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -69655,8 +69655,8 @@ Ammo_Javelin_LML is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/GuidedMissile
     FxWeaponType                      = ~/TFxWeaponType_MissileAA9K38Igla
     FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 2.0
-    TempsEntreDeuxFx                  = 2.0
+    TempsEntreDeuxTirs                = 2.5
+    TempsEntreDeuxFx                  = 2.5
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
@@ -69693,7 +69693,7 @@ Ammo_Javelin_LML is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 65),
+             (EBaseHitValueModifier/Idling, 55),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
