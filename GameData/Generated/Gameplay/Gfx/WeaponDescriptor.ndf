@@ -82876,8 +82876,8 @@ export WeaponDescriptor_Su_25_rkt_SOV is TWeaponManagerModuleDescriptor
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
         6,
-        5,
-        5,
+        4,
+        4,
         -1,
         -1,
         -1
