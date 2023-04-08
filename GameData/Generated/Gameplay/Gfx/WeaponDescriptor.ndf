@@ -38026,7 +38026,7 @@ export WeaponDescriptor_M48_Chaparral_MIM72F_US is TWeaponManagerModuleDescripto
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        1,
+        2,
         -1,
         -1,
         -1,

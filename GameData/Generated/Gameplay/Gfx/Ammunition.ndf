@@ -72333,9 +72333,9 @@ Ammo_SAM_MIM72G is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 2.0
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
-    PorteeMaximaleTBA                 = ((8985) * Metre)
+    PorteeMaximaleTBA                 = ((8490) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
-    PorteeMaximaleHA                  = ((10966) * Metre)
+    PorteeMaximaleHA                  = ((9976) * Metre)
     PorteeMinimale                    = ((0) * Metre)
     AngleDispersion                   = 0.02
     DispersionWithoutSorting          = False
