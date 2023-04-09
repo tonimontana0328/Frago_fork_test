@@ -14714,8 +14714,8 @@ Gfx_Su_25_rkt_SOV_Autogen is TacticAerialDepictionTemplate
         Actions = MAP[
                     ( [ "weapon_effet_tag1" ], Weapon_GatlingAir_Gsh_30_2_30mm_x2 ),
                     ( [ "weapon_effet_tag2" ], Weapon_GatlingAir_AP_Gsh_30_2_30mm_x2 ),
-                    ( [ "weapon_effet_tag3" ], Weapon_RocketAir_B8_80mm_x40 ),
-                    ( [ "weapon_effet_tag4" ], Weapon_RocketAir_B8_80mm_x40 ),
+                    ( [ "weapon_effet_tag3" ], Weapon_RocketAir_S13_122mm_x10_avion ),
+                    ( [ "weapon_effet_tag4" ], Weapon_RocketAir_S13_122mm_x10_avion ),
                 ]
                 + DepictionAction_Stress_And_Wrecked_Avion
                 + DepictionAction_CriticalFX_Airplane

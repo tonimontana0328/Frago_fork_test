@@ -82876,8 +82876,8 @@ export WeaponDescriptor_Su_25_rkt_SOV is TWeaponManagerModuleDescriptor
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
         6,
-        4,
-        4,
+        2,
+        2,
         -1,
         -1,
         -1
@@ -83010,7 +83010,7 @@ export WeaponDescriptor_Su_25_rkt_SOV is TWeaponManagerModuleDescriptor
                     EffectTag                           = 'FireEffect_RocketAir_S13_122mm_x10_avion'
                     HandheldEquipmentKey                = 'MeshAlternative_3'
                     NbWeapons                           = 1
-                    SalvoStockIndex                     = 1
+                    SalvoStockIndex                     = 2
                     ShowDispersion                      = False
                     ShowInInterface                     = True
                     ShowSplashRadius                    = False
@@ -83020,7 +83020,7 @@ export WeaponDescriptor_Su_25_rkt_SOV is TWeaponManagerModuleDescriptor
                     SplashRadiusOnThickness             = -0.1
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_3'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_3'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_3", "WeaponShootData_1_3", ]
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_4", "WeaponShootData_1_4", ]
                 )
             ]
             NbFX                                    = 2

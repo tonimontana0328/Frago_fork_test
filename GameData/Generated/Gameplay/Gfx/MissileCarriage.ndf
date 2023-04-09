@@ -9000,14 +9000,14 @@ MissileCarriage_Su_25_rkt_SOV is TMissileCarriageConnoisseur
     [
         TMissileCarriageWeaponInfo
         (
-            Count = 40
+            Count = 20
             MissileType = eAGM
             MountingType = eMountingPod
             WeaponIndex = 2
         ),
         TMissileCarriageWeaponInfo
         (
-            Count = 40
+            Count = 20
             MissileType = eAGM
             MountingType = eMountingPod
             WeaponIndex = 3
@@ -9022,14 +9022,14 @@ MissileCarriage_Su_25_rkt_SOV_Showroom is TMissileCarriageConnoisseur
     [
         TMissileCarriageWeaponInfo
         (
-            Count = 40
+            Count = 20
             MissileType = eAGM
             MountingType = eMountingPod
             WeaponIndex = 2
         ),
         TMissileCarriageWeaponInfo
         (
-            Count = 40
+            Count = 20
             MissileType = eAGM
             MountingType = eMountingPod
             WeaponIndex = 3
