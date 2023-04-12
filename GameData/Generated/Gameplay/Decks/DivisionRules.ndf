@@ -7188,7 +7188,7 @@ private DivisionRules is TDeckDivisionRules
                         UnitDescriptor = ~/Descriptor_Unit_SAS_UK
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_Bedford_MJ_4t_trans_UK, ~/Descriptor_Unit_Saxon_UK]
-                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPack = 5
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 0.0, 1.0]
                     ),
                     TDeckUniteRule

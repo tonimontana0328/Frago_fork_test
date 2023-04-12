@@ -731,7 +731,7 @@ export WeaponDescriptor_2S7M_Malka_SOV is TWeaponManagerModuleDescriptor
             AngleRotationMaxPitch           = 1.3089969389957472
             AngleRotationMinPitch           = -0.17453292519943295
             MountedWeaponDescriptorList     = [
-                TMountedWeaponDescriptor
+				TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
                     Ammunition                          = ~/Ammo_Howz_Canon_2A44_Howitzer_203mm_late

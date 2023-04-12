@@ -867,7 +867,7 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_VLTT_P4_MILAN_FR, 1),
 		(~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_F4_Wild_Weasel_US, 1),
 		(~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_cluster_US, 2),
-        (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_AMX_30_B2_FR, 2),
+        (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_AMX_30_B2_FR, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RFA_TerrKo_Sud_multi
