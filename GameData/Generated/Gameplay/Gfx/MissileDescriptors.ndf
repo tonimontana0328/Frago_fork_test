@@ -9518,13 +9518,13 @@ export Descriptor_Missile_ATGM_9M117_Bastion is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )

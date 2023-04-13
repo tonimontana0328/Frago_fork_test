@@ -3081,7 +3081,7 @@ Ammo_Bomb_BL755_cluster_264kg_x2 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 308 * Metre
+    RadiusSplashPhysicalDamages       = 335 * Metre
     PhysicalDamages                   = 2.16
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
@@ -3180,7 +3180,7 @@ Ammo_Bomb_BL755_cluster_264kg_x4 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 308 * Metre
+    RadiusSplashPhysicalDamages       = 335 * Metre
     PhysicalDamages                   = 2.16
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
@@ -3279,7 +3279,7 @@ Ammo_Bomb_BL755_cluster_264kg_x8 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 308 * Metre
+    RadiusSplashPhysicalDamages       = 335 * Metre
     PhysicalDamages                   = 2.16
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
@@ -3477,7 +3477,7 @@ Ammo_Bomb_BME_330C_277kg_x2 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 308 * Metre
+    RadiusSplashPhysicalDamages       = 335 * Metre
     PhysicalDamages                   = 2.16
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
@@ -3576,7 +3576,7 @@ Ammo_Bomb_BME_330C_277kg_x6 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 308 * Metre
+    RadiusSplashPhysicalDamages       = 335 * Metre
     PhysicalDamages                   = 2.16
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
@@ -3974,7 +3974,7 @@ Ammo_Bomb_CBU_Mk20_Rockeye_II_250kg_x2 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 308 * Metre
+    RadiusSplashPhysicalDamages       = 335 * Metre
     PhysicalDamages                   = 2.16
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
@@ -4073,7 +4073,7 @@ Ammo_Bomb_CBU_Mk20_Rockeye_II_250kg_x5 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 308 * Metre
+    RadiusSplashPhysicalDamages       = 335 * Metre
     PhysicalDamages                   = 2.16
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
@@ -4172,7 +4172,7 @@ Ammo_Bomb_CBU_Mk20_Rockeye_II_250kg_x8 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 308 * Metre
+    RadiusSplashPhysicalDamages       = 335 * Metre
     PhysicalDamages                   = 2.16
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
@@ -4271,7 +4271,7 @@ Ammo_Bomb_CLU_RBK_250kg_x6 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 308 * Metre
+    RadiusSplashPhysicalDamages       = 335 * Metre
     PhysicalDamages                   = 2.16
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
@@ -4370,7 +4370,7 @@ Ammo_Bomb_CLU_RBK_250kg_x8 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 308 * Metre
+    RadiusSplashPhysicalDamages       = 335 * Metre
     PhysicalDamages                   = 2.16
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
@@ -4469,7 +4469,7 @@ Ammo_Bomb_CLU_RBK_500kg_x2 is TAmmunitionDescriptor
     DispersionAtMinRange              = ((50) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 335 * Metre
+    RadiusSplashPhysicalDamages       = 365 * Metre
     PhysicalDamages                   = 4.32
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 630 * Metre
@@ -70248,7 +70248,7 @@ Ammo_MANPAD_Javelin is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 60),
+             (EBaseHitValueModifier/Idling, 55),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
