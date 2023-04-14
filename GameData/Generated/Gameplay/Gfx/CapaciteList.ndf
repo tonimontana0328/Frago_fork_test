@@ -637,7 +637,7 @@ export Capacite_IFV is TCapaciteDescriptor
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
     Radius              = 500.00 * Metre
-    Range               = 1250.00 * Metre
+    Range               = 1450.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.00
@@ -661,7 +661,7 @@ export Capacite_IFV is TCapaciteDescriptor
     TargetInSelf           = True
     TargetMySelf           = False
     FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_soloselected | ~/CapaciteFeedbackActivationMask_anyalliance
-    DisplayRangeColor      = RGBA[255,255,255,255]
+    DisplayRangeColor      = RGBA[111,118,50,255]
     DisplayRangeThickness  = 0.80
     Price = MAP[]
     TagsCiblePossible = [
@@ -1023,8 +1023,8 @@ export Capacite_MilitaryPolice is TCapaciteDescriptor
     AreaShape            = ~/CapaciteAreaShape_circulaire
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
-    Radius              = 750.00 * Metre
-    Range               = 750.00 * Metre
+    Radius              = 1700.00 * Metre
+    Range               = 1700.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.00
@@ -1048,8 +1048,8 @@ export Capacite_MilitaryPolice is TCapaciteDescriptor
     TargetInSelf           = False
     TargetMySelf           = False
     FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_soloselected | ~/CapaciteFeedbackActivationMask_anyalliance
-    DisplayRangeColor      = RGBA[255,255,255,255]
-    DisplayRangeThickness  = 0.40
+    DisplayRangeColor      = RGBA[105,61,0,255]
+    DisplayRangeThickness  = 0.30
     Price = MAP[]
     TagsCiblePossible = [
         "GroundUnits",
