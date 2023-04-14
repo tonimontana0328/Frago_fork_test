@@ -16197,7 +16197,7 @@ Ammo_Canon_HE_165mm_AVRE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 3.0
-    TempsEntreDeuxSalves              = 18.0
+    TempsEntreDeuxSalves              = 12.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -74141,7 +74141,7 @@ Ammo_Canon_HE_165mm_AVRE_smoke is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 3.0
-    TempsEntreDeuxSalves              = 18.0
+    TempsEntreDeuxSalves              = 8.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1

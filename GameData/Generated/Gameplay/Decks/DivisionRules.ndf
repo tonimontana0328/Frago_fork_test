@@ -621,7 +621,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = ~/Descriptor_Unit_HMGteam_AANF1_FR
                         AvailableWithoutTransport = False
-                        AvailableTransportList = [~/Descriptor_Unit_TRM_2000_FR, ~/Descriptor_Unit_VAB_FR, ~/Descriptor_Unit_AMX_10_P_FR, ~/Descriptor_Unit_Super_Puma_FR]
+                        AvailableTransportList = [~/Descriptor_Unit_TRM_2000_FR, ~/Descriptor_Unit_VAB_FR, ~/Descriptor_Unit_Super_Puma_FR]
                         NumberOfUnitInPack = 12
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
@@ -629,7 +629,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = ~/Descriptor_Unit_HMGteam_M2HB_FR
                         AvailableWithoutTransport = False
-                        AvailableTransportList = [~/Descriptor_Unit_TRM_2000_FR, ~/Descriptor_Unit_VAB_FR, ~/Descriptor_Unit_AMX_10_P_FR]
+                        AvailableTransportList = [~/Descriptor_Unit_TRM_2000_FR, ~/Descriptor_Unit_VAB_FR]
                         NumberOfUnitInPack = 9
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
@@ -3421,7 +3421,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = ~/Descriptor_Unit_HMGteam_MG3_RFA
                         AvailableWithoutTransport = False
-                        AvailableTransportList = [~/Descriptor_Unit_Iltis_trans_RFA, ~/Descriptor_Unit_M113A1G_RFA, ~/Descriptor_Unit_Marder_1A2_MILAN_RFA, ~/Descriptor_Unit_Marder_1A3_MILAN_RFA, ~/Descriptor_Unit_TPZ_Fuchs_MILAN_RFA]
+                        AvailableTransportList = [~/Descriptor_Unit_Iltis_trans_RFA, ~/Descriptor_Unit_M113A1G_RFA]
                         NumberOfUnitInPack = 12
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
@@ -3917,7 +3917,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = ~/Descriptor_Unit_HMGteam_MG3_RFA
                         AvailableWithoutTransport = False
-                        AvailableTransportList = [~/Descriptor_Unit_Iltis_trans_RFA, ~/Descriptor_Unit_M113A1G_RFA, ~/Descriptor_Unit_TPZ_Fuchs_MILAN_RFA, ~/Descriptor_Unit_Marder_1A2_MILAN_RFA, ~/Descriptor_Unit_Marder_1A3_MILAN_RFA]
+                        AvailableTransportList = [~/Descriptor_Unit_Iltis_trans_RFA, ~/Descriptor_Unit_M113A1G_RFA, ~/Descriptor_Unit_TPZ_Fuchs_MILAN_RFA]
                         NumberOfUnitInPack = 12
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
@@ -4876,7 +4876,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = ~/Descriptor_Unit_HMGteam_NSV_SOV
                         AvailableWithoutTransport = False
-                        AvailableTransportList = [~/Descriptor_Unit_UAZ_469_SOV, ~/Descriptor_Unit_Mi_2_trans_SOV, ~/Descriptor_Unit_Mi_8TV_non_arme_SOV, ~/Descriptor_Unit_Mi_8TV_SOV, ~/Descriptor_Unit_Mi_8MTV_SOV]
+                        AvailableTransportList = [~/Descriptor_Unit_UAZ_469_SOV, ~/Descriptor_Unit_Mi_2_trans_SOV, ~/Descriptor_Unit_Mi_8TV_non_arme_SOV]
                         NumberOfUnitInPack = 9
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
@@ -7462,7 +7462,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = ~/Descriptor_Unit_HMGteam_M2HB_US
                         AvailableWithoutTransport = False
-                        AvailableTransportList = [~/Descriptor_Unit_M151_MUTT_trans_US, ~/Descriptor_Unit_M2A2_Bradley_IFV_US]
+                        AvailableTransportList = [~/Descriptor_Unit_M151_MUTT_trans_US]
                         NumberOfUnitInPack = 9
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
@@ -7470,7 +7470,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = ~/Descriptor_Unit_HMGteam_M60_US
                         AvailableWithoutTransport = False
-                        AvailableTransportList = [~/Descriptor_Unit_M151_MUTT_trans_US, ~/Descriptor_Unit_M2A2_Bradley_IFV_US]
+                        AvailableTransportList = [~/Descriptor_Unit_M151_MUTT_trans_US]
                         NumberOfUnitInPack = 12
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
@@ -7695,7 +7695,7 @@ private DivisionRules is TDeckDivisionRules
                         UnitDescriptor = ~/Descriptor_Unit_Rifles_half_AT4_US
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_M1038_Humvee_US, ~/Descriptor_Unit_M2A2_Bradley_IFV_US]
-                        NumberOfUnitInPack = 9
+                        NumberOfUnitInPack = 7
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
                     TDeckUniteRule
@@ -7711,7 +7711,7 @@ private DivisionRules is TDeckDivisionRules
                         UnitDescriptor = ~/Descriptor_Unit_Rifles_half_Dragon_US
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_M1038_Humvee_US, ~/Descriptor_Unit_M2A2_Bradley_IFV_US]
-                        NumberOfUnitInPack = 9
+                        NumberOfUnitInPack = 7
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
                     TDeckUniteRule

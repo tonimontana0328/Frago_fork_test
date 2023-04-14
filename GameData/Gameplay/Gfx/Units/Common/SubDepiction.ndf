@@ -798,6 +798,13 @@ template ShowroomSubDepiction_ATGMServantRight [ MeshDescriptor ] is ShowroomSub
     Animation = ServantATGMRightIdle
 )
 
+template ShowroomSubDepiction_ATGMServantRight_2 [ MeshDescriptor ] is ShowroomSubDepiction_Template
+(
+    Anchor = 'tireur_d'
+    MeshDescriptor = <MeshDescriptor>
+    Animation = ServantATGMRightIdle
+)
+
 template ShowroomSubDepiction_GunnerLeft [ MeshDescriptor ] is ShowroomSubDepiction_Template
 (
     Anchor = 'tireur_g'

@@ -4006,7 +4006,6 @@ Descriptor_OrderAvailability_FV4003_Centurion_AVRE_UK is [
     "Shoot",
     "ShootOnPosition",
     "ShootOnPositionWithoutCorrection",
-    "ShootDefensiveSmoke",
     "AskForSupply",
     "GoGetSupply",
     "LoadIntoTransport",
@@ -4014,6 +4013,8 @@ Descriptor_OrderAvailability_FV4003_Centurion_AVRE_UK is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_FV4201_Chieftain_CMD_UK is [
     "Stop",
