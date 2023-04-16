@@ -22606,7 +22606,7 @@ export WeaponDescriptor_Fallschirmjager_CMD_DDR is TWeaponManagerModuleDescripto
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_FM_Mpi_AKS_74NK
+                    Ammunition                          = ~/Ammo_FM_Tantal
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -22759,7 +22759,7 @@ export WeaponDescriptor_Fallschirmjager_DDR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_FM_Mpi_AKS_74NK
+                    Ammunition                          = ~/Ammo_FM_Tantal
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -22882,7 +22882,7 @@ export WeaponDescriptor_Fallschirmjager_FalseFlag_CMD_DDR is TWeaponManagerModul
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_FM_M16
+                    Ammunition                          = ~/Ammo_PM_C8_Carbine
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -22974,7 +22974,7 @@ export WeaponDescriptor_Fallschirmjager_FalseFlag_DDR is TWeaponManagerModuleDes
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_FM_M16
+                    Ammunition                          = ~/Ammo_PM_C8_Carbine
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -23097,7 +23097,7 @@ export WeaponDescriptor_Fallschirmjager_FlaseFlag_Demo_DDR is TWeaponManagerModu
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_FM_M16
+                    Ammunition                          = ~/Ammo_PM_C8_Carbine
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -23220,7 +23220,7 @@ export WeaponDescriptor_Fallschirmjager_HMG_DDR is TWeaponManagerModuleDescripto
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_FM_Mpi_AKS_74NK
+                    Ammunition                          = ~/Ammo_FM_Tantal
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -23343,7 +23343,7 @@ export WeaponDescriptor_Fallschirmjager_Metys_DDR is TWeaponManagerModuleDescrip
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_FM_Mpi_AKS_74NK
+                    Ammunition                          = ~/Ammo_FM_Tantal
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
