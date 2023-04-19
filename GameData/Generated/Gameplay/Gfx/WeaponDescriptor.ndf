@@ -69734,19 +69734,19 @@ export WeaponDescriptor_UH60A_Black_Hawk_US is TWeaponManagerModuleDescriptor
             AngleRotationBase               = 1.5707963267948966
             AngleRotationBasePitch          = 0.17453292519943275
             AngleRotationMax                = 0.5235987755982988
-            AngleRotationMaxPitch           = 0.7853981633974483
-            AngleRotationMinPitch           = -0.2617993877991494
+            AngleRotationMaxPitch           = 0.8853981633974483
+            AngleRotationMinPitch           = -0.4617993877991494
             MountedWeaponDescriptorList     = [
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_MMG_M240d_7_62mm
+                    Ammunition                          = ~/Ammo_Gatling_m134_7_62mm_x2_FRL
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_MMG_M240d_7_62mm'
+                    EffectTag                           = 'FireEffect_Gatling_m134_7_62mm_x2'
                     HandheldEquipmentKey                = 'MeshAlternative_1'
                     NbWeapons                           = 1
                     SalvoStockIndex                     = 0
@@ -69761,7 +69761,7 @@ export WeaponDescriptor_UH60A_Black_Hawk_US is TWeaponManagerModuleDescriptor
                     WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_1'
                     WeaponIgnoredPropertyName           = 'WeaponIgnored_1'
                     WeaponShootDataPropertyName         = ["WeaponShootData_0_1", ]
-                )
+                ),
             ]
             NbFX                            = 1
             Tag                             = 'tourelle1'
@@ -69780,16 +69780,16 @@ export WeaponDescriptor_UH60A_Black_Hawk_US is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_MMG_M240d_7_62mm
-                    AnimateOnlyOneSoldier               = True
+                    Ammunition                          = ~/Ammo_Gatling_m134_7_62mm_x2
+                    AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
                     DispersionRadiusOnColor             = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'FireEffect_MMG_M240d_7_62mm'
-                    HandheldEquipmentKey                = 'MeshAlternative_2'
+                    EffectTag                           = 'FireEffect_Gatling_m134_7_62mm_x2'
+                    HandheldEquipmentKey                = 'MeshAlternative_1'
                     NbWeapons                           = 1
-                    SalvoStockIndex                     = 1
+                    SalvoStockIndex                     = 0
                     ShowDispersion                      = False
                     ShowInInterface                     = True
                     ShowSplashRadius                    = False
@@ -69798,10 +69798,10 @@ export WeaponDescriptor_UH60A_Black_Hawk_US is TWeaponManagerModuleDescriptor
                     SplashRadiusOnColor                 = RGBA[0,0,0,0]
                     SplashRadiusOnThickness             = -0.1
                     TirContinu                          = True
-                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_2'
-                    WeaponIgnoredPropertyName           = 'WeaponIgnored_2'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_2", ]
-                )
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_1'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_1'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_1", ]
+                ),
             ]
             NbFX                            = 1
             Tag                             = 'tourelle2'
