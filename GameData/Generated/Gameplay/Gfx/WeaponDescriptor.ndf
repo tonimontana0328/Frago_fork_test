@@ -70181,7 +70181,7 @@ export WeaponDescriptor_A10_Thunderbolt_II_Rkt_US is TWeaponManagerModuleDescrip
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_Hydra_70mm_x76
+                    Ammunition                          = ~/Ammo_RocketAir_Hydra_70mm_x76_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -70777,7 +70777,7 @@ export WeaponDescriptor_Alpha_Jet_A_rkt_RFA is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18
+                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -70813,7 +70813,7 @@ export WeaponDescriptor_Alpha_Jet_A_rkt_RFA is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18
+                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -74661,7 +74661,7 @@ export WeaponDescriptor_G91_R3_Gina_RKT_RFA is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18
+                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -74697,7 +74697,7 @@ export WeaponDescriptor_G91_R3_Gina_RKT_RFA is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18
+                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -75170,7 +75170,7 @@ export WeaponDescriptor_Harrier_RKT1_UK is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18
+                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -75308,7 +75308,7 @@ export WeaponDescriptor_Harrier_RKT2_UK is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18
+                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -75344,7 +75344,7 @@ export WeaponDescriptor_Harrier_RKT2_UK is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18
+                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -76192,7 +76192,7 @@ export WeaponDescriptor_Jaguar_RKT_FR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18
+                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -76228,7 +76228,7 @@ export WeaponDescriptor_Jaguar_RKT_FR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18
+                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -76504,7 +76504,7 @@ export WeaponDescriptor_Jaguar_SEAD2_FR is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18
+                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -79127,7 +79127,7 @@ export WeaponDescriptor_MiG_27M_rkt_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_B8_80mm_x10
+                    Ammunition                          = ~/Ammo_RocketAir_B8_80mm_x10_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -79163,7 +79163,7 @@ export WeaponDescriptor_MiG_27M_rkt_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_B8_80mm_x10
+                    Ammunition                          = ~/Ammo_RocketAir_B8_80mm_x10_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -80911,7 +80911,7 @@ export WeaponDescriptor_Su_17M4_SOV is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketAir_S13_122mm_x20
+                    Ammunition                          = ~/Ammo_RocketAir_S13_122mm_x20_FRL
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1

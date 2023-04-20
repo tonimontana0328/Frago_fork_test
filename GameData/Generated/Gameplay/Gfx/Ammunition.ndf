@@ -45398,7 +45398,7 @@ Ammo_RocketAir__SNEB_68mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMaxRange              = ((50) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -45406,7 +45406,7 @@ Ammo_RocketAir__SNEB_68mm is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -45488,7 +45488,7 @@ Ammo_RocketAir_B8_80mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -45498,7 +45498,7 @@ Ammo_RocketAir_B8_80mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((125.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -45506,7 +45506,7 @@ Ammo_RocketAir_B8_80mm is TAmmunitionDescriptor
     PhysicalDamages                   = 0.96
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 80 * Metre
-    SuppressDamages                   = 53.0
+    SuppressDamages                   = 153.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -45588,7 +45588,7 @@ Ammo_RocketAir_B8_80mm_x10 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -45598,7 +45598,7 @@ Ammo_RocketAir_B8_80mm_x10 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((125.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -45606,7 +45606,7 @@ Ammo_RocketAir_B8_80mm_x10 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.96
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 80 * Metre
-    SuppressDamages                   = 53.0
+    SuppressDamages                   = 153.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -45688,7 +45688,7 @@ Ammo_RocketAir_B8_80mm_x20 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -45698,7 +45698,7 @@ Ammo_RocketAir_B8_80mm_x20 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((125.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -45706,7 +45706,7 @@ Ammo_RocketAir_B8_80mm_x20 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.96
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 80 * Metre
-    SuppressDamages                   = 53.0
+    SuppressDamages                   = 153.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -45798,7 +45798,7 @@ Ammo_RocketAir_B8_80mm_x32 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((125.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMaxRange              = ((50) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -45806,7 +45806,7 @@ Ammo_RocketAir_B8_80mm_x32 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.96
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 80 * Metre
-    SuppressDamages                   = 53.0
+    SuppressDamages                   = 153.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -45898,7 +45898,7 @@ Ammo_RocketAir_B8_80mm_x40 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((125.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMaxRange              = ((50) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -45906,7 +45906,7 @@ Ammo_RocketAir_B8_80mm_x40 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.96
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 80 * Metre
-    SuppressDamages                   = 53.0
+    SuppressDamages                   = 153.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -45988,7 +45988,7 @@ Ammo_RocketAir_B8_80mm_x80 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -45998,7 +45998,7 @@ Ammo_RocketAir_B8_80mm_x80 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((125.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -46006,7 +46006,7 @@ Ammo_RocketAir_B8_80mm_x80 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.96
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 80 * Metre
-    SuppressDamages                   = 53.0
+    SuppressDamages                   = 153.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -46088,7 +46088,7 @@ Ammo_RocketAir_CRV7_FAT_70mm_x19 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -46098,7 +46098,7 @@ Ammo_RocketAir_CRV7_FAT_70mm_x19 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -46106,7 +46106,7 @@ Ammo_RocketAir_CRV7_FAT_70mm_x19 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -46188,7 +46188,7 @@ Ammo_RocketAir_Hydra_70mm_x114 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -46198,7 +46198,7 @@ Ammo_RocketAir_Hydra_70mm_x114 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((56) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -46206,7 +46206,7 @@ Ammo_RocketAir_Hydra_70mm_x114 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -46288,7 +46288,7 @@ Ammo_RocketAir_Hydra_70mm_x14 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -46298,7 +46298,7 @@ Ammo_RocketAir_Hydra_70mm_x14 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -46306,7 +46306,7 @@ Ammo_RocketAir_Hydra_70mm_x14 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -46388,7 +46388,7 @@ Ammo_RocketAir_Hydra_70mm_x19 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -46398,7 +46398,7 @@ Ammo_RocketAir_Hydra_70mm_x19 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -46406,7 +46406,7 @@ Ammo_RocketAir_Hydra_70mm_x19 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -46506,7 +46506,7 @@ Ammo_RocketAir_Hydra_70mm_x19_avion is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -46588,7 +46588,7 @@ Ammo_RocketAir_Hydra_70mm_x38 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -46598,7 +46598,7 @@ Ammo_RocketAir_Hydra_70mm_x38 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -46606,7 +46606,7 @@ Ammo_RocketAir_Hydra_70mm_x38 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -46688,7 +46688,7 @@ Ammo_RocketAir_Hydra_70mm_x57 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -46798,7 +46798,7 @@ Ammo_RocketAir_Hydra_70mm_x76 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -46806,7 +46806,7 @@ Ammo_RocketAir_Hydra_70mm_x76 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -46898,7 +46898,7 @@ Ammo_RocketAir_S13_122mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -46906,7 +46906,7 @@ Ammo_RocketAir_S13_122mm is TAmmunitionDescriptor
     PhysicalDamages                   = 1.464
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 122 * Metre
-    SuppressDamages                   = 81.0
+    SuppressDamages                   = 161.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -46998,7 +46998,7 @@ Ammo_RocketAir_S13_122mm_x10 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -47006,7 +47006,7 @@ Ammo_RocketAir_S13_122mm_x10 is TAmmunitionDescriptor
     PhysicalDamages                   = 1.464
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 122 * Metre
-    SuppressDamages                   = 81.0
+    SuppressDamages                   = 161.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -47198,7 +47198,7 @@ Ammo_RocketAir_S13_122mm_x20 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMaxRange              = ((50) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -47206,7 +47206,7 @@ Ammo_RocketAir_S13_122mm_x20 is TAmmunitionDescriptor
     PhysicalDamages                   = 1.464
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 122 * Metre
-    SuppressDamages                   = 81.0
+    SuppressDamages                   = 161.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -47298,7 +47298,7 @@ Ammo_RocketAir_S24_240mm_x4 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMaxRange              = ((50) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -47306,7 +47306,7 @@ Ammo_RocketAir_S24_240mm_x4 is TAmmunitionDescriptor
     PhysicalDamages                   = 2.88
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 240 * Metre
-    SuppressDamages                   = 158.0
+    SuppressDamages                   = 188.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -47388,7 +47388,7 @@ Ammo_RocketAir_S5_57mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -47398,7 +47398,7 @@ Ammo_RocketAir_S5_57mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((100.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -47406,7 +47406,7 @@ Ammo_RocketAir_S5_57mm is TAmmunitionDescriptor
     PhysicalDamages                   = 0.684
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 57 * Metre
-    SuppressDamages                   = 38.0
+    SuppressDamages                   = 138.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -47488,7 +47488,7 @@ Ammo_RocketAir_S5_57mm_x16 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -47498,7 +47498,7 @@ Ammo_RocketAir_S5_57mm_x16 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((100.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -47506,7 +47506,7 @@ Ammo_RocketAir_S5_57mm_x16 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.684
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 57 * Metre
-    SuppressDamages                   = 38.0
+    SuppressDamages                   = 138.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -47588,7 +47588,7 @@ Ammo_RocketAir_S5_57mm_x192 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -47598,7 +47598,7 @@ Ammo_RocketAir_S5_57mm_x192 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((100.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -47606,7 +47606,7 @@ Ammo_RocketAir_S5_57mm_x192 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.684
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 57 * Metre
-    SuppressDamages                   = 38.0
+    SuppressDamages                   = 138.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -47698,7 +47698,7 @@ Ammo_RocketAir_S5_57mm_x32 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((100.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMaxRange              = ((50) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -47706,7 +47706,7 @@ Ammo_RocketAir_S5_57mm_x32 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.684
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 57 * Metre
-    SuppressDamages                   = 38.0
+    SuppressDamages                   = 138.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -47788,7 +47788,7 @@ Ammo_RocketAir_S5_57mm_x64 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -47798,7 +47798,7 @@ Ammo_RocketAir_S5_57mm_x64 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((100.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -47806,7 +47806,7 @@ Ammo_RocketAir_S5_57mm_x64 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.684
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 57 * Metre
-    SuppressDamages                   = 38.0
+    SuppressDamages                   = 138.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -47888,7 +47888,7 @@ Ammo_RocketAir_S5_57mm_x8 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -47898,7 +47898,7 @@ Ammo_RocketAir_S5_57mm_x8 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((100.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -47906,7 +47906,7 @@ Ammo_RocketAir_S5_57mm_x8 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.684
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 57 * Metre
-    SuppressDamages                   = 38.0
+    SuppressDamages                   = 138.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -47988,7 +47988,7 @@ Ammo_RocketAir_S5_57mm_x96 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -47998,7 +47998,7 @@ Ammo_RocketAir_S5_57mm_x96 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((100.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -48006,7 +48006,7 @@ Ammo_RocketAir_S5_57mm_x96 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.684
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 57 * Metre
-    SuppressDamages                   = 38.0
+    SuppressDamages                   = 138.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -48088,7 +48088,7 @@ Ammo_RocketAir_SNEB_68mm_x12 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -48098,7 +48098,7 @@ Ammo_RocketAir_SNEB_68mm_x12 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -48106,7 +48106,7 @@ Ammo_RocketAir_SNEB_68mm_x12 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -48198,7 +48198,7 @@ Ammo_RocketAir_SNEB_68mm_x18 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMaxRange              = ((50) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -48206,7 +48206,7 @@ Ammo_RocketAir_SNEB_68mm_x18 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -48298,7 +48298,7 @@ Ammo_RocketAir_SNEB_68mm_x36 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMaxRange              = ((50) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -48306,7 +48306,7 @@ Ammo_RocketAir_SNEB_68mm_x36 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -48398,7 +48398,7 @@ Ammo_RocketAir_SNEB_68mm_x38 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMaxRange              = ((50) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -48406,7 +48406,7 @@ Ammo_RocketAir_SNEB_68mm_x38 is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -48488,7 +48488,7 @@ Ammo_RocketAir_Zuni_1272mm_x16 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((6438) * Metre)
+    PorteeMaximale                    = ((7429) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -48498,7 +48498,7 @@ Ammo_RocketAir_Zuni_1272mm_x16 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((58) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -48506,7 +48506,7 @@ Ammo_RocketAir_Zuni_1272mm_x16 is TAmmunitionDescriptor
     PhysicalDamages                   = 1.524
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 127 * Metre
-    SuppressDamages                   = 84.0
+    SuppressDamages                   = 184.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -48587,7 +48587,7 @@ Ammo_RocketAir_Zuni_1272mm_x8 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((6438) * Metre)
+    PorteeMaximale                    = ((7429) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -48597,7 +48597,7 @@ Ammo_RocketAir_Zuni_1272mm_x8 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -48605,7 +48605,7 @@ Ammo_RocketAir_Zuni_1272mm_x8 is TAmmunitionDescriptor
     PhysicalDamages                   = 1.524
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 127 * Metre
-    SuppressDamages                   = 84.0
+    SuppressDamages                   = 184.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -48687,7 +48687,7 @@ Ammo_RocketAir_m151_70mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.25
-    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMaximale                    = ((6438) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -48697,7 +48697,7 @@ Ammo_RocketAir_m151_70mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((150.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMaxRange              = ((53) * Metre)
     DispersionAtMinRange              = ((5) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -48705,7 +48705,7 @@ Ammo_RocketAir_m151_70mm is TAmmunitionDescriptor
     PhysicalDamages                   = 0.84
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 70 * Metre
-    SuppressDamages                   = 46.0
+    SuppressDamages                   = 146.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -74465,4 +74465,504 @@ Ammo_Gatling_m134_7_62mm_x2_FRL is TAmmunitionDescriptor
     FlightTimeForSpeed                    = 0.85
     DistanceForSpeed                      = 5000.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = ~/DamageTypeEvolutionOverRangeDescriptor_AP1_1Km
+)
+Ammo_RocketAir_SNEB_68mm_x18_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{e93bef83-9200-469d-80b9-828eb9011412}
+    Name                              = 'VHWOMSDWUB'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'KKFUANHAXJ'
+    Caliber                           = 'OCBXBEQNEF'
+    WeaponDescriptionToken            = 'SGNRKTDKIN'
+    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    WeaponCursorType                  = Weapon_Cursor_UnguidedMissile
+    MinMaxCategory                    = MinMax_Roquette_AS
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="roquette_ap" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    FxWeaponType                      = ~/TFxWeaponType_RoquetteSNEBLight
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.2
+    TempsEntreDeuxFx                  = 0.2
+    PorteeMaximale                    = ((6438) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((1500) * Metre)
+    AltitudeAPorteeMinimale           = ((75.0) * Metre)
+    AltitudeAPorteeMaximale           = ((150.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMinRange              = ((5) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 35 * Metre
+    PhysicalDamages                   = 0.84
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 70 * Metre
+    SuppressDamages                   = 146.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    TempsAnimation                    = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{1cc60030-6c0d-4d33-956d-f9c6adbc71c0}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 25),
+             (EBaseHitValueModifier/Moving, 20),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    MaxSuccessiveHitCount             = 1
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves_Min           = 0.75
+    TempsEntreDeuxSalves_Max           = 1.5
+    NbTirParSalves                    = 18
+    SupplyCost                        = 180
+    NbSalvosShootOnPosition           = 2
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 2
+    AffichageMunitionParSalve         = 18
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_Hydra_70"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmInfantry                   = True
+    CanHarmVehicles                   = True
+    CanHarmHelicopters                = True
+    CanHarmAirplanes                  = True
+    CanHarmGuidedMissiles             = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 2.5
+    DistanceForSpeed                      = 10000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_RocketAir_Hydra_70mm_x76_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{c4c4e8a9-a8f8-4f58-87ac-5533219116ae}
+    Name                              = 'DBFDOHWQAR'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'KKFUANHAXJ'
+    Caliber                           = 'KFRTKTBJCG'
+    WeaponDescriptionToken            = 'SGNRKTDKIN'
+    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    WeaponCursorType                  = Weapon_Cursor_UnguidedMissile
+    MinMaxCategory                    = MinMax_Roquette_AS
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="roquette_ap" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    FxWeaponType                      = ~/TFxWeaponType_RoquetteM261HydrasLight
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.2
+    TempsEntreDeuxFx                  = 0.2
+    PorteeMaximale                    = ((6438) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((1500) * Metre)
+    AltitudeAPorteeMinimale           = ((75.0) * Metre)
+    AltitudeAPorteeMaximale           = ((150.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMinRange              = ((5) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 35 * Metre
+    PhysicalDamages                   = 0.84
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 70 * Metre
+    SuppressDamages                   = 146.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    TempsAnimation                    = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{f4c08e72-0b25-49b8-a729-b45a120af57b}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 20),
+             (EBaseHitValueModifier/Moving, 15),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    MaxSuccessiveHitCount             = 1
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves_Min           = 0.75
+    TempsEntreDeuxSalves_Max           = 1.5
+    NbTirParSalves                    = 76
+    SupplyCost                        = 760
+    NbSalvosShootOnPosition           = 2
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 2
+    AffichageMunitionParSalve         = 76
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_Hydra_70"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmInfantry                   = True
+    CanHarmVehicles                   = True
+    CanHarmHelicopters                = True
+    CanHarmAirplanes                  = True
+    CanHarmGuidedMissiles             = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 2.5
+    DistanceForSpeed                      = 10000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_RocketAir_S5_57mm_x32_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{16b2381e-5fe0-4a98-ae70-4bcf7e7a63cf}
+    Name                              = 'XXDVCALEZS'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'KKFUANHAXJ'
+    Caliber                           = 'MNVLAHRDYK'
+    WeaponDescriptionToken            = 'SGNRKTDKIN'
+    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    WeaponCursorType                  = Weapon_Cursor_UnguidedMissile
+    MinMaxCategory                    = MinMax_Roquette_AS
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="roquette_ap" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    FxWeaponType                      = ~/TFxWeaponType_RoquetteS5Light
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.2
+    TempsEntreDeuxFx                  = 0.2
+    PorteeMaximale                    = ((6438) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((1500) * Metre)
+    AltitudeAPorteeMinimale           = ((50.0) * Metre)
+    AltitudeAPorteeMaximale           = ((100.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMinRange              = ((5) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 28 * Metre
+    PhysicalDamages                   = 0.684
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 57 * Metre
+    SuppressDamages                   = 38.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    TempsAnimation                    = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{19072d12-6a12-4e2d-b621-09f33a172de0}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 20),
+             (EBaseHitValueModifier/Moving, 15),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    MaxSuccessiveHitCount             = 1
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves_Min           = 0.75
+    TempsEntreDeuxSalves_Max           = 1.5
+    NbTirParSalves                    = 32
+    SupplyCost                        = 320
+    NbSalvosShootOnPosition           = 2
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 2
+    AffichageMunitionParSalve         = 32
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_s5m"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmInfantry                   = True
+    CanHarmVehicles                   = True
+    CanHarmHelicopters                = True
+    CanHarmAirplanes                  = True
+    CanHarmGuidedMissiles             = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 2.5
+    DistanceForSpeed                      = 10000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_RocketAir_B8_80mm_x10_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{820599b6-1bf9-458b-a3d2-c05b6b52d3c0}
+    Name                              = 'JODYWCHYIK'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'KKFUANHAXJ'
+    Caliber                           = 'EOEXEVWFKY'
+    WeaponDescriptionToken            = 'SGNRKTDKIN'
+    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    WeaponCursorType                  = Weapon_Cursor_UnguidedMissile
+    MinMaxCategory                    = MinMax_Roquette_AS
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="roquette_ap" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    FxWeaponType                      = ~/TFxWeaponType_RoquetteM261Hydras
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.25
+    TempsEntreDeuxFx                  = 0.25
+    PorteeMaximale                    = ((6438) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((1500) * Metre)
+    AltitudeAPorteeMinimale           = ((62.5) * Metre)
+    AltitudeAPorteeMaximale           = ((125.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((23) * Metre)
+    DispersionAtMinRange              = ((5) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 40 * Metre
+    PhysicalDamages                   = 0.96
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 80 * Metre
+    SuppressDamages                   = 153.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    TempsAnimation                    = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{b36f8121-76a2-4479-b2ec-d68c8bd4197f}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 20),
+             (EBaseHitValueModifier/Moving, 15),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    MaxSuccessiveHitCount             = 1
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves_Min           = 0.75
+    TempsEntreDeuxSalves_Max           = 1.5
+    NbTirParSalves                    = 10
+    SupplyCost                        = 100
+    NbSalvosShootOnPosition           = 2
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 10
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_s80"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmInfantry                   = True
+    CanHarmVehicles                   = True
+    CanHarmHelicopters                = True
+    CanHarmAirplanes                  = True
+    CanHarmGuidedMissiles             = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 2.5
+    DistanceForSpeed                      = 10000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_RocketAir_S13_122mm_x20_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{8b057fa0-1259-4f7a-85a1-e38dfdcfe496}
+    Name                              = 'DGTIZSWXBM'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'KKFUANHAXJ'
+    Caliber                           = 'BZLFXSXAFE'
+    WeaponDescriptionToken            = 'SGNRKTDKIN'
+    TraitsToken                       = [ 'MOTION', 'HE', 'HEAT', ]
+    WeaponCursorType                  = Weapon_Cursor_UnguidedMissile
+    MinMaxCategory                    = MinMax_Roquette_AS
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="roquette_ap" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    FxWeaponType                      = ~/TFxWeaponType_RoquetteS13
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.2
+    TempsEntreDeuxFx                  = 0.2
+    PorteeMaximale                    = ((6934) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((1500) * Metre)
+    AltitudeAPorteeMinimale           = ((75.0) * Metre)
+    AltitudeAPorteeMaximale           = ((150.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((20) * Metre)
+    DispersionAtMinRange              = ((5) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 61 * Metre
+    PhysicalDamages                   = 1.464
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 122 * Metre
+    SuppressDamages                   = 161.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    TempsAnimation                    = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{d19117dc-44e6-40cf-a1ec-79f0e0270d79}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 30),
+             (EBaseHitValueModifier/Moving, 20),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    MaxSuccessiveHitCount             = 1
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves_Min           = 0.75
+    TempsEntreDeuxSalves_Max           = 1.5
+    NbTirParSalves                    = 20
+    SupplyCost                        = 200
+    NbSalvosShootOnPosition           = 2
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 2
+    AffichageMunitionParSalve         = 20
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_s13"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.1
+    TargetUnitCenter                  = True
+    CanHarmInfantry                   = True
+    CanHarmVehicles                   = True
+    CanHarmHelicopters                = True
+    CanHarmAirplanes                  = True
+    CanHarmGuidedMissiles             = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 2.5
+    DistanceForSpeed                      = 10000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
 )
