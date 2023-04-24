@@ -63855,9 +63855,9 @@ export WeaponDescriptor_AH1F_ATAS_US is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -64017,9 +64017,9 @@ export WeaponDescriptor_AH1F_Cobra_US is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -64179,9 +64179,9 @@ export WeaponDescriptor_AH1F_HeavyHog_US is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -64341,9 +64341,9 @@ export WeaponDescriptor_AH1S_Cobra_US is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -64502,9 +64502,9 @@ export WeaponDescriptor_AH64_Apache_US is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -64789,9 +64789,9 @@ export WeaponDescriptor_AH64_Apache_emp2_US is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -64824,9 +64824,9 @@ export WeaponDescriptor_AH64_Apache_emp2_US is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -65462,9 +65462,9 @@ export WeaponDescriptor_Gazelle_SNEB_UK is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -65783,9 +65783,9 @@ export WeaponDescriptor_Ka_50_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -66215,9 +66215,9 @@ export WeaponDescriptor_Mi_24D_s5_AT_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -66352,9 +66352,9 @@ export WeaponDescriptor_Mi_24D_s8_AT_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -66548,9 +66548,9 @@ export WeaponDescriptor_Mi_24K_reco_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -66673,9 +66673,9 @@ export WeaponDescriptor_Mi_24P_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -67153,9 +67153,9 @@ export WeaponDescriptor_Mi_24VP_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -67290,9 +67290,9 @@ export WeaponDescriptor_Mi_24V_AA_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -67427,9 +67427,9 @@ export WeaponDescriptor_Mi_24V_AT_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -67564,9 +67564,9 @@ export WeaponDescriptor_Mi_24V_RKT_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -67701,9 +67701,9 @@ export WeaponDescriptor_Mi_24V_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -67799,9 +67799,9 @@ export WeaponDescriptor_Mi_8MTV_SOV is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -67834,9 +67834,9 @@ export WeaponDescriptor_Mi_8MTV_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -67937,9 +67937,9 @@ export WeaponDescriptor_Mi_8TB_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68035,9 +68035,9 @@ export WeaponDescriptor_Mi_8TV_DDR is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68070,9 +68070,9 @@ export WeaponDescriptor_Mi_8TV_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68105,9 +68105,9 @@ export WeaponDescriptor_Mi_8TV_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68240,9 +68240,9 @@ export WeaponDescriptor_Mi_8TV_PodGatling_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68374,9 +68374,9 @@ export WeaponDescriptor_Mi_8TV_PodGatling_PodAGL_SOV is TWeaponManagerModuleDesc
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68437,9 +68437,9 @@ export WeaponDescriptor_Mi_8TV_SOV is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68472,9 +68472,9 @@ export WeaponDescriptor_Mi_8TV_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68594,9 +68594,9 @@ export WeaponDescriptor_Mi_8TV_UPK_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68657,9 +68657,9 @@ export WeaponDescriptor_Mi_8TV_s57_16_SOV is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68692,9 +68692,9 @@ export WeaponDescriptor_Mi_8TV_s57_16_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68727,9 +68727,9 @@ export WeaponDescriptor_Mi_8TV_s57_16_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68790,9 +68790,9 @@ export WeaponDescriptor_Mi_8TV_s57_32_DDR is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68825,9 +68825,9 @@ export WeaponDescriptor_Mi_8TV_s57_32_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68860,9 +68860,9 @@ export WeaponDescriptor_Mi_8TV_s57_32_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68923,9 +68923,9 @@ export WeaponDescriptor_Mi_8TV_s57_32_SOV is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68958,9 +68958,9 @@ export WeaponDescriptor_Mi_8TV_s57_32_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -68993,9 +68993,9 @@ export WeaponDescriptor_Mi_8TV_s57_32_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -69056,9 +69056,9 @@ export WeaponDescriptor_Mi_8TV_s80_SOV is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -69091,9 +69091,9 @@ export WeaponDescriptor_Mi_8TV_s80_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -69154,9 +69154,9 @@ export WeaponDescriptor_Mi_8T_DDR is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -69189,9 +69189,9 @@ export WeaponDescriptor_Mi_8T_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -69316,9 +69316,9 @@ export WeaponDescriptor_OH58D_Combat_Scout_US is TWeaponManagerModuleDescriptor
     TurretDescriptorList = [
         TTurretUnitDescriptor
         (
-            AngleRotationMax            = 0.3490658503988659
-            AngleRotationMaxPitch       = 0.3490658503988659
-            AngleRotationMinPitch       = -0.2617993877991494
+            AngleRotationMax            = 0.4490658503988659
+            AngleRotationMaxPitch       = 0.5490658503988659
+            AngleRotationMinPitch       = -0.4617993877991494
             MountedWeaponDescriptorList = [
                 TMountedWeaponDescriptor
                 (
@@ -70174,9 +70174,9 @@ export WeaponDescriptor_A10_Thunderbolt_II_Rkt_US is TWeaponManagerModuleDescrip
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -70770,9 +70770,9 @@ export WeaponDescriptor_Alpha_Jet_A_rkt_RFA is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -74018,9 +74018,9 @@ export WeaponDescriptor_F4F_Phantom_II_RKT1_RFA is TWeaponManagerModuleDescripto
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -74120,9 +74120,9 @@ export WeaponDescriptor_F4F_Phantom_II_RKT2_RFA is TWeaponManagerModuleDescripto
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -74654,9 +74654,9 @@ export WeaponDescriptor_G91_R3_Gina_RKT_RFA is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -75163,9 +75163,9 @@ export WeaponDescriptor_Harrier_RKT1_UK is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -75301,9 +75301,9 @@ export WeaponDescriptor_Harrier_RKT2_UK is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -76185,9 +76185,9 @@ export WeaponDescriptor_Jaguar_RKT_FR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -76221,9 +76221,9 @@ export WeaponDescriptor_Jaguar_RKT_FR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -76497,9 +76497,9 @@ export WeaponDescriptor_Jaguar_SEAD2_FR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -77074,9 +77074,9 @@ export WeaponDescriptor_MiG_21PFM_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -77110,9 +77110,9 @@ export WeaponDescriptor_MiG_21PFM_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -78191,9 +78191,9 @@ export WeaponDescriptor_MiG_23ML_UPK_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -79120,9 +79120,9 @@ export WeaponDescriptor_MiG_27M_rkt_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -79156,9 +79156,9 @@ export WeaponDescriptor_MiG_27M_rkt_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -80904,9 +80904,9 @@ export WeaponDescriptor_Su_17M4_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -81617,9 +81617,9 @@ export WeaponDescriptor_Su_22_UPK_DDR is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -82947,9 +82947,9 @@ export WeaponDescriptor_Su_25_rkt_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
@@ -82983,9 +82983,9 @@ export WeaponDescriptor_Su_25_rkt_SOV is TWeaponManagerModuleDescriptor
         ),
         TTurretUnitDescriptor
         (
-            AngleRotationMax                        = 0.3490658503988659
-            AngleRotationMaxPitch                   = 0.3490658503988659
-            AngleRotationMinPitch                   = -0.2617993877991494
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
             MountedWeaponDescriptorList             = [
                 TMountedWeaponDescriptor
                 (
