@@ -2974,7 +2974,7 @@ export UnitEffect_sniper is TEffectsPackDescriptor
         ),
     ]
 )
-export UnitEffect_engine_damaged_frag is TEffectsPackDescriptor
+export UnitEffect_engine_damaged is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{abb51106-2918-44c7-9580-9171890713c4}
     NameForDebug       = 'engine_damaged'
@@ -2991,7 +2991,7 @@ export UnitEffect_engine_damaged_frag is TEffectsPackDescriptor
         ),
     ]
 )
-export UnitEffect_engine_destroyed_frag is TEffectsPackDescriptor
+export UnitEffect_engine_destroyed is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{6a898693-99a0-4466-8fa7-2a92f89cd531}
     NameForDebug       = 'engine_destroyed'
@@ -3008,7 +3008,7 @@ export UnitEffect_engine_destroyed_frag is TEffectsPackDescriptor
         ),
     ]
 )
-export UnitEffect_gun_jammed_frag is TEffectsPackDescriptor
+export UnitEffect_gun_jammed is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{bbe2aff7-e597-4437-a342-549fff824878}
     NameForDebug       = 'gun_jammed'
@@ -3041,7 +3041,7 @@ export UnitEffect_gun_jammed_frag is TEffectsPackDescriptor
         ),
     ]
 )
-export UnitEffect_tracks_broken_frag is TEffectsPackDescriptor
+export UnitEffect_tracks_broken is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{e56e531f-f4c4-47ad-957f-1582f21d65fb}
     NameForDebug       = 'tracks_broken'
@@ -3052,7 +3052,7 @@ export UnitEffect_tracks_broken_frag is TEffectsPackDescriptor
         ),
     ]
 )
-export UnitEffect_engine_fire_frag is TEffectsPackDescriptor
+export UnitEffect_engine_fire is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{6999309d-755b-4b8e-9f96-249aaec4bad1}
     NameForDebug       = 'engine_fire'
@@ -3081,7 +3081,7 @@ export UnitEffect_engine_fire_frag is TEffectsPackDescriptor
         ),
     ]
 )
-export UnitEffect_gunner_ko_frag is TEffectsPackDescriptor
+export UnitEffect_gunner_ko is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{db142ba4-2335-4dac-aab3-a892967f88e6}
     NameForDebug       = 'gunner_ko'
@@ -3105,7 +3105,7 @@ export UnitEffect_gunner_ko_frag is TEffectsPackDescriptor
         ),
     ]
 )
-export UnitEffect_driver_ko_frag is TEffectsPackDescriptor
+export UnitEffect_driver_ko is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{e9df7e88-d0d3-465b-ae62-7121706cece0}
     NameForDebug       = 'driver_ko'
@@ -3128,7 +3128,7 @@ export UnitEffect_driver_ko_frag is TEffectsPackDescriptor
         ),
     ]
 )
-export UnitEffect_2_damage_frag is TEffectsPackDescriptor
+export UnitEffect_2_damage is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{5356e221-82fb-4956-9668-fa7ba4019745}
     NameForDebug       = '2_damage'
@@ -3140,7 +3140,7 @@ export UnitEffect_2_damage_frag is TEffectsPackDescriptor
         ),
     ]
 )
-export UnitEffect_3_damage_frag is TEffectsPackDescriptor
+export UnitEffect_3_damage is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{b5dfda72-18e5-43d9-a7b5-efacc0b00427}
     NameForDebug       = '3_damage'
@@ -3152,7 +3152,7 @@ export UnitEffect_3_damage_frag is TEffectsPackDescriptor
         ),
     ]
 )
-export UnitEffect_4_damage_frag is TEffectsPackDescriptor
+export UnitEffect_4_damage is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{5733467d-aeb2-48f1-b8e5-3db4966092f4}
     NameForDebug       = '4_damage'

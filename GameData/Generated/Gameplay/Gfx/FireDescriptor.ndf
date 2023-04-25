@@ -302,7 +302,7 @@ export Descriptor_Fire_NapalmMoyen is TEntityDescriptor
         (
             Depiction  = Template_DescriptorFire_Depiction
             (
-                 Radius               = 300 * Metre
+                 Radius               = 400 * Metre
                  FX                   = $/GFX/GameFx/fx_binder_fire_Napalm_Moyen
                  Density              = 1
             )
@@ -310,12 +310,12 @@ export Descriptor_Fire_NapalmMoyen is TEntityDescriptor
         ),
         TFireModuleDescriptor
         (
-            TimeToLive                     = ((60) * Seconde)
+            TimeToLive                     = ((90) * Seconde)
             TimeBeforeSpreading            = ((1) * Seconde)
             TimeBeforeSpreadAttempt        = ((1) * Seconde)
             SpreadProbability              = 1.0
-            IsNewFireProbability           = 0.5
-            Radius                         = ((300) * Metre)
+            IsNewFireProbability           = 0.8
+            Radius                         = ((400) * Metre)
             AmmunitionForBurn              = Ammo_Degats_napalm_buratino
             TimeBetweenBurns               = ((1) * Seconde)
             OverridenSpreadDescriptor      = Descriptor_Fire_Incendie

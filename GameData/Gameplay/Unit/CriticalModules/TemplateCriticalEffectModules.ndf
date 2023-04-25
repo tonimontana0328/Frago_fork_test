@@ -2,194 +2,6 @@
 // *** Critiques de véhicules à roues ou à chenilles **************************************************************************************
 // ****************************************************************************************************************************************
 
-CriticalEffect_fourdamage_Desc is TCriticalEffectDescriptor
-(
-    Token = 'CRITIC3'
-    HappeningKey = 'critical_hull_break'
-    EffectsPack = ~/UnitEffect_4_damage_frag
-    TimeOut = 0
-    RepairCost = -1
-    Unique = False
-    DisplayOnDeath = True
-)
-// 4 damage
-template CriticalEffect_fourdamage
-[
-    Roll
-] is TCriticalEffect
-(
-    Roll = <Roll>
-    Descriptor = ~/CriticalEffect_fourdamage_Desc
-)
-CriticalEffect_threedamage_Desc is TCriticalEffectDescriptor
-(
-    Token = 'CRITIC18'
-    HappeningKey = 'critical_incendiary'
-    EffectsPack = ~/UnitEffect_3_damage_frag
-    TimeOut = 0
-    RepairCost = -1
-    Unique = False
-    DisplayOnDeath = True
-)
-// 3 damage
-template CriticalEffect_threedamage
-[
-    Roll
-] is TCriticalEffect
-(
-    Roll = <Roll>
-    Descriptor = ~/CriticalEffect_threedamage_Desc
-)
-CriticalEffect_twodamage_Desc is TCriticalEffectDescriptor
-(
-    Token = 'CRITIC21'
-    HappeningKey = 'critical_incendiary'
-    EffectsPack = ~/UnitEffect_2_damage_frag
-    TimeOut = 0
-    RepairCost = -1
-    Unique = False
-    DisplayOnDeath = True
-)
-// 2 damage
-template CriticalEffect_twodamage
-[
-    Roll
-] is TCriticalEffect
-(
-    Roll = <Roll>
-    Descriptor = ~/CriticalEffect_twodamage_Desc
-)
-CriticalEffect_driver_ko_Desc is TCriticalEffectDescriptor
-(
-    Token = 'BOUNCE4'
-    EffectsPack = ~/UnitEffect_driver_ko_frag
-    TimeOut = 3
-    RepairCost = -1
-    Unique = False
-    DisplayOnDeath = False
-)
-// Driver KO -> Full stop 10sec
-template CriticalEffect_driver_ko
-[
-    Roll
-] is TCriticalEffect
-(
-    Roll = <Roll>
-    Descriptor = ~/CriticalEffect_driver_ko_Desc
-)
-CriticalEffect_gunner_ko_Desc is TCriticalEffectDescriptor
-(
-    Token = 'BOUNCE2'
-    EffectsPack = ~/UnitEffect_gunner_ko_frag
-    TimeOut = 3
-    RepairCost = -1
-    Unique = False
-    DisplayOnDeath = False
-)
-// 3s cant shoot
-template CriticalEffect_gunner_ko
-[
-    Roll
-] is TCriticalEffect
-(
-    Roll = <Roll>
-    Descriptor = ~/CriticalEffect_gunner_ko_Desc
-)
-CriticalEffect_tracks_broken_Desc is TCriticalEffectDescriptor
-(
-    Token = 'CRITIC10'
-    HappeningKey = 'critical_track_broke'
-    EffectsPack = ~/UnitEffect_tracks_broken_frag
-    TimeOut = 30
-    RepairCost = -1
-    Unique = True
-    DisplayOnDeath = False
-)
-// immobilized
-template CriticalEffect_tracks_broken
-[
-    Roll
-] is TCriticalEffect
-(
-    Roll = <Roll>
-    Descriptor = ~/CriticalEffect_tracks_broken_Desc
-)
-CriticalEffect_engine_fire_Desc is TCriticalEffectDescriptor
-(
-    Token = 'CRITIC103'
-    HappeningKey = 'critical_incendiary'
-    EffectsPack = ~/UnitEffect_engine_fire_frag
-    TimeOut = 10
-    RepairCost = -1
-    Unique = True
-    DisplayOnDeath = True
-)
-//Engine fire 10 sec drain 2hp 100suppress
-template CriticalEffect_engine_fire
-[
-    Roll
-] is TCriticalEffect
-(
-    Roll = <Roll>
-    Descriptor = ~/CriticalEffect_engine_fire_Desc
-)
-CriticalEffect_gun_jammed_Desc is TCriticalEffectDescriptor
-(
-    Token = 'CRITIC14'
-    HappeningKey = 'critical_gun_turret_stuck'
-    EffectsPack = ~/UnitEffect_gun_jammed_frag
-    TimeOut = -1
-    RepairCost = 25
-    Unique = True
-    DisplayOnDeath = False
-)
-//supply cost are doubled as per ravitaillement.ndf
-template CriticalEffect_gun_jammed
-[
-    Roll
-] is TCriticalEffect
-(
-    Roll = <Roll>
-    Descriptor = ~/CriticalEffect_gun_jammed_Desc
-)
-CriticalEffect_engine_damaged_Desc is TCriticalEffectDescriptor
-(
-    Token = 'CRITIC8'
-    HappeningKey = 'critical_engine_damaged'
-    EffectsPack = ~/UnitEffect_engine_damaged_frag
-    TimeOut = -1
-    RepairCost = 25
-    Unique = True
-    DisplayOnDeath = False
-)
-//supply cost are doubled as per ravitaillement.ndf
-template CriticalEffect_engine_damaged
-[
-    Roll
-] is TCriticalEffect
-(
-    Roll = <Roll>
-    Descriptor = ~/CriticalEffect_engine_damaged_Desc
-)
-CriticalEffect_engine_destroyed_Desc is TCriticalEffectDescriptor
-(
-    Token = 'CRITIC9'
-    HappeningKey = 'critical_engine_destroyed'
-    EffectsPack = ~/UnitEffect_engine_destroyed_frag
-    TimeOut = -1
-    RepairCost = 50
-    Unique = True
-    DisplayOnDeath = False
-)
-//supply cost are doubled as per ravitaillement.ndf
-template CriticalEffect_engine_destroyed
-[
-    Roll
-] is TCriticalEffect
-(
-    Roll = <Roll>
-    Descriptor = ~/CriticalEffect_engine_destroyed_Desc
-)
 CriticalEffect_AmmoExplosion_Desc is TCriticalEffectDescriptor
 (
     Token = 'CRITIC1'
@@ -1420,28 +1232,27 @@ template HelicoCriticalEffect_Hydraulic_Fluid_Fire
 
 PackEffetCritique_VehiculeStandard is
 [
-    CriticalEffect_engine_damaged(Roll = (1,4)),
-    CriticalEffect_engine_destroyed(Roll = (5,6)),
-    CriticalEffect_engine_fire(Roll = (7,10)),
-    CriticalEffect_tracks_broken(Roll = (11,16)),
-    CriticalEffect_driver_ko(Roll = (17,28)),
-    CriticalEffect_twodamage(Roll = (29,30)),
-    CriticalEffect_threedamage(Roll = (31,32)),
-    CriticalEffect_fourdamage(Roll = (33,34)),
-    CriticalEffect_gunner_ko(Roll = (35,46)),
-    CriticalEffect_gun_jammed(Roll = (47,50)),
+    CriticalEffect_Incendiary(Roll = (1,1)),
+    CriticalEffect_EngineDamaged(Roll = (2,2)),
+    CriticalEffect_EngineDestroyed(Roll = (3,3)),
+    CriticalEffect_AmmoExplosion(Roll = (4,4)),
+    CriticalEffect_FuelExplosion(Roll = (5,5)),
+    CriticalEffect_CompReset(Roll = (6,6)),
+    CriticalEffect_BailedOut(Roll = (7,7)),
+    CriticalEffect_ArmourCracked (Roll = (8,8)),
+    CriticalEffect_Spalling (Roll = (9,9)),
+    CriticalEffect_TracksBroken(Roll = (10,10)),
+    CriticalEffect_TurretStuck(Roll = (11,11)),
 ]
 
 PackEffetCritique_VehiculeNonArme is
 [
-    CriticalEffect_engine_damaged(Roll = (1,4)),
-    CriticalEffect_engine_destroyed(Roll = (5,6)),
-    CriticalEffect_engine_fire(Roll = (7,10)),
-    CriticalEffect_tracks_broken(Roll = (11,16)),
-    CriticalEffect_driver_ko(Roll = (17,28)),
-    CriticalEffect_twodamage(Roll = (29,30)),
-    CriticalEffect_threedamage(Roll = (31,32)),
-    CriticalEffect_fourdamage(Roll = (33,34)),
+    CriticalEffect_Incendiary(Roll = (1,1)),
+    CriticalEffect_EngineDamaged(Roll = (2,2)),
+    CriticalEffect_EngineDestroyed(Roll = (3,3)),
+    CriticalEffect_FuelExplosion(Roll = (4,4)),
+    CriticalEffect_BailedOut(Roll = (5,5)),
+    CriticalEffect_Spalling (Roll = (6,6)),
 ]
 
 PackEffetChenille is
