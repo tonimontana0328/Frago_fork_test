@@ -205,57 +205,6 @@ is BUCKButtonDescriptor
                         ]
                     )
                 ),
-                // BUCKListElementDescriptor
-                // (
-                //     ComponentDescriptor = BUCKTextDescriptor
-                //     (
-                //         ElementName = <ElementName> + "Army"
-
-                //         ComponentFrame = TUIFramePropertyRTTI
-                //         (
-                //             AlignementToFather  = [0.5, 0.0]
-                //             AlignementToAnchor  = [0.5, 0.0]
-                //         )
-
-                //         ParagraphStyle = TParagraphStyleRTTI
-                //         (
-                //             Alignment = ~/UIText_Center
-                //             VerticalAlignment = ~/UIText_VerticalCenter
-                //         )
-
-                //         TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 2.0, 2.0])
-                //         HorizontalFitStyle = ~/FitStyle/FitToContent
-                //         VerticalFitStyle = ~/FitStyle/FitToContent
-
-                //         TextStyle = 'Default'
-                //         TypefaceToken = "UIMainFont"
-                //         TextSize = '22'
-                //         TextDico = ~/LocalisationConstantes/dico_maps
-                //         TextColor = "SD2_Blanc184"
-                //     )
-                // ),
-                // ajouter image
-                // BUCKListElementDescriptor
-                // (
-                //     ComponentDescriptor = BUCKTextureDescriptor
-                //     (
-                //         ElementName = <ElementName> + "BackgroundTexture"
-                //         ComponentFrame = TUIFramePropertyRTTI
-                //         (
-                //             RelativeWidthHeight = [1.0, 0.0]
-                //             MagnifiableWidthHeight = [0.0, 380.0]
-                //         )
-
-                //         TextureFrame = TUIFramePropertyRTTI
-                //         (
-                //             AlignementToAnchor = [0.5, 0.0]
-                //             AlignementToFather = [0.5, 0.0]
-                //         )
-
-                //         ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
-
-                //     )
-                // ),
                 BUCKListElementDescriptor
                 (
                     ComponentDescriptor = MissionDescriptionText
@@ -267,35 +216,6 @@ is BUCKButtonDescriptor
                         TextSize = '13'
                     )
                 ),
-                // BUCKListElementDescriptor
-                // (
-                //     ComponentDescriptor = BUCKTextDescriptor
-                //     (
-                //         ElementName = <ElementName> + "General"
-
-                //         ComponentFrame = TUIFramePropertyRTTI
-                //         (
-                //             AlignementToFather  = [0.5, 0.0]
-                //             AlignementToAnchor  = [0.5, 0.0]
-                //         )
-
-                //         ParagraphStyle = TParagraphStyleRTTI
-                //         (
-                //             Alignment = ~/UIText_Center
-                //             VerticalAlignment = ~/UIText_VerticalCenter
-                //         )
-
-                //         TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 10.0, 2.0])
-                //         HorizontalFitStyle = ~/FitStyle/FitToContent
-                //         VerticalFitStyle = ~/FitStyle/FitToContent
-
-                //         TextStyle = 'Default'
-                //         TypefaceToken = "UIMainFont"
-                //         TextSize = '20'
-                //         TextDico = ~/LocalisationConstantes/dico_maps
-                //         TextColor = "SD2_Blanc184"
-                //     )
-                // ),
                 BUCKListElementDescriptor
                 (
                     ComponentDescriptor = BUCKTextDescriptor
@@ -543,11 +463,11 @@ is BUCKRackDescriptor
     )
 )
 
-private AffichageBriefingMission is BUCKContainerDescriptor
+private StrategicLobbyMissionBriefing is BUCKContainerDescriptor
 (
+    ElementName = "StrategicLobbyMissionBriefing"
     ComponentFrame = TUIFramePropertyRTTI
     (
-
         MagnifiableWidthHeight = [100,100]
     )
 
@@ -594,42 +514,11 @@ private AffichageBriefingMission is BUCKContainerDescriptor
                     LastMargin = TRTTILength(Magnifiable = 15.0)
                     Elements =
                     [
-                        // BUCKListElementDescriptor
-                        // (
-                        //     ComponentDescriptor = BUCKTextDescriptor
-                        //     (
-
-
-                        //         ComponentFrame = TUIFramePropertyRTTI
-                        //         (
-                        //             RelativeWidthHeight = [1.0, 0.0]
-                        //             AlignementToFather  = [0.5, 0.0]
-                        //             AlignementToAnchor  = [0.5, 0.0]
-                        //         )
-
-                        //         ParagraphStyle = TParagraphStyleRTTI
-                        //         (
-                        //             Alignment = ~/UIText_Center
-                        //             VerticalAlignment = ~/UIText_VerticalCenter
-                        //         )
-
-                        //         TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 2.0, 2.0])
-                        //         VerticalFitStyle = ~/FitStyle/FitToContent
-
-                        //         TextStyle = 'Default'
-                        //         TypefaceToken = "UIMainFont"
-                        //         TextSize = '22'
-                        //         TextColor = "SD2_Blanc184"
-                        //         TextToken = 'AGM_Brief'
-                        //         TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                        //     )
-                        // ),
                         BUCKListElementDescriptor
                         (
                             ComponentDescriptor = BUCKTextDescriptor
                             (
                                 ElementName = "GameName"
-
                                 ComponentFrame = TUIFramePropertyRTTI
                                 (
                                     RelativeWidthHeight = [1.0, 0.0]
@@ -677,44 +566,79 @@ private AffichageBriefingMission is BUCKContainerDescriptor
     ]
 )
 
-BUCKSpecificOutGameStrategicLobbyMainComponentDescriptor is WindowFrame
+BUCKSpecificOutGameStrategicLobbyMainComponentDescriptor is BUCKContainerDescriptor
 (
-    ContentMagnifiableWidthHeight = [1720.0, 0.0]
-    ContentRelativeWidthHeight = [0.0, 1.0]
-    ContentExtendWeight = 1.0
+    ElementName = "StrategicLobbyMainContainer"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [1720.0, 0.0]
+        RelativeWidthHeight = [0.0, 1.0]
+    )
 
-    TitleToken = "AGM_Titre"
-    HasBackground = false
+    Components =
+    [
+        StrategicLobbyFullPanel,
+        StrategicLobbyMissionBriefing,
+    ]
+)
 
-    ButtonList =
+StrategicLobbyLeftPageButtons is BUCKListDescriptor
+(
+    ElementName = "StrategicLobbyLeftPageButtons"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        AlignementToAnchor = [0.5, 1.0]
+        AlignementToFather = [0.5, 1.0]
+        MagnifiableOffset = [0.0, -50.0]
+    )
+    Axis = ~/ListAxis/Horizontal
+    BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+
+    InterItemMargin = TRTTILength(Magnifiable = 20.0)
+
+    Elements =
     [
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyInviteButton ),
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyInviteCodeButton ),
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbySwitchPrivacyButton ),
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyBackButton ),
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyCancelButton ),
+    ]
+)
+
+StrategicLobbyRightPageButtons is BUCKListDescriptor
+(
+    ElementName = "StrategicLobbyRightPageButtons"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        AlignementToAnchor = [0.5, 1.0]
+        AlignementToFather = [0.5, 1.0]
+        MagnifiableOffset = [0.0, -50.0]
+    )
+    Axis = ~/ListAxis/Horizontal
+    BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+
+    InterItemMargin = TRTTILength(Magnifiable = 20.0)
+
+    Elements =
+    [
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbySwitchButton ),
         BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyConfirmButton ),
     ]
-
-    ContentComponents =
-    [
-        FullPanel,
-        // BUCKListDescriptor,
-        AffichageBriefingMission
-    ]
 )
+
+
 //-------------------------------------------------------------------------------------
 
-FullPanel is BUCKTextureDescriptor
+StrategicLobbyFullPanel is BUCKTextureDescriptor
 (
-    // ElementName = "LoadMissionFullPanel"
+    ElementName = "StrategicLobbyFullPanel"
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [1214.0, 806.0]
         AlignementToFather = [0.5, 1.0]
         AlignementToAnchor = [0.5, 1.0]
-        MagnifiableOffset = [0,25+22]
+        MagnifiableOffset = [0, 47.0]
     )
 
     TextureToken = 'mission_dossierVide'
@@ -722,18 +646,18 @@ FullPanel is BUCKTextureDescriptor
 
     Components =
     [
-        Strategic_page_de_gauche,
-        Strategic_page_de_droite
+        StrategicLobbyLeftPage,
+        StrategicLobbyRightPage
     ]
 )
-Strategic_page_de_gauche is BUCKContainerDescriptor
+
+StrategicLobbyLeftPage is BUCKContainerDescriptor
 (
+    ElementName = "StrategicLobbyLeftPage"
     ComponentFrame = TUIFramePropertyRTTI
     (
        MagnifiableWidthHeight = [526.0, 745.0]
        MagnifiableOffset = [71.0, 31.0]
-
-
     )
 
     Components =
@@ -770,15 +694,15 @@ Strategic_page_de_gauche is BUCKContainerDescriptor
                         )
                     ]
                 ),
-
-                // StrategicLobbyBackButton,
+                StrategicLobbyLeftPageButtons
             ]
         ),
     ]
 )
-Strategic_page_de_droite is BUCKContainerDescriptor
-(
 
+StrategicLobbyRightPage is BUCKContainerDescriptor
+(
+    ElementName = "StrategicLobbyRightPage"
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [520.0,741.0]
@@ -821,6 +745,7 @@ Strategic_page_de_droite is BUCKContainerDescriptor
                     ]
 
                 ),
+                StrategicLobbyRightPageButtons
             ]
         )
     ]

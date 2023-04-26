@@ -45,6 +45,7 @@ UIInGameResource is TUISpecificInGameResources
         ("ObjectiveViewDescriptor", ~/UISpecificInGameObjectiveBriefViewDescriptor),
         ("MultiSelectionPanelViewDescriptor", ~/UISpecificHUDMultiSelectionPanelViewDescriptor),
         ("SmartGroupSelectionPanelViewDescriptor", UISpecificSmartGroupSelectionPanelViewDescriptor(MainComponentContainerUniqueName = "UISpecificSmartGroupSelectionPanelView")),
+        ("LDVideoViewDescriptor", ~/UIInGameLDVideoViewDescriptor),
     ]
 
     MainContainerResource       = ~/InGameMainContainerResource
@@ -72,8 +73,6 @@ UIInGameResource is TUISpecificInGameResources
     PositionEvents              = ~/MainPositionEvents
     MousePolicyManagerResources = ~/InGameMousePolicyManagerResources
     OptionManager               = $/GameOptionsInterface/GameOptionsInterfaceWrapper
-
-    SubtitleLayer               = $/UserInterface/UILayer_HintsAndSubtitles
 
     DefenseResources            = ~/DefenseResources
 

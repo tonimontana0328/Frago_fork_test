@@ -120,7 +120,6 @@ ListeDesActionsSolo is BUCKListDescriptor
                 ElementName = "HUBChallengeButton"
                 TextToken = "OP_NAME"
                 ForceEvents = true
-                Locked = true
                 LeftClickSound = SoundEvent_EnterSoloChallenge
             )
         ),

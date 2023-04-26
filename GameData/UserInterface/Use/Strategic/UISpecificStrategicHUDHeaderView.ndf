@@ -315,8 +315,7 @@ UISpecificStrategicHUDHeaderOptionViewDescriptor is TUISpecificStrategicHUDHeade
     MainComponentDescriptor = BoutonAccelerationDuTemps
     MainComponentContainerUniqueName = "SpecificStrategicHUDHeaderOptionViewMainContainer"
 
-    // PawnQuickMoveSpeedValue doit être inférieur à 0.0 pour que les pions donnent l'impression de se téléporter
-    PawnQuickMoveSpeedValue = -1.0
+    PawnQuickMoveSpeedValue = 8.0
     PawnStandardMoveSpeedValue = 1.0
 
     DefaultForceShowPowerGauges = true

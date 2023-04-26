@@ -20,13 +20,6 @@ private GameRoomPanelSwitchPrivacyButton is boutonAvecSeparateur
     HintExtendedToken = "GS_ACCESSE"
 )
 
-private GameRoomPanelSwitchTeamButton is boutonAvecSeparateur
-(
-    ElementName = 'SwitchTeamButton'
-    TextToken = 'AB_CHGTEAM'
-    IsTogglable = false
-)
-
 private GameRoomPanelViewFixedDeckButton is StandardButton
 (
     ElementName = 'FixedDeckButton'
@@ -83,11 +76,6 @@ private GameRoomPanelCancelButton is boutonAvecSeparateur
     HintTitleToken = "OLB_CANCLT"
     HintBodyToken = "OLB_CANCLB"
     HintExtendedToken = "OLB_CANCLE"
-)
-private GameRoomPanelCloseButton is boutonAvecSeparateur
-(
-    ElementName = 'CloseButton'
-    TextToken = 'BTN_CLOSE'
 )
 
 //-------------------------------------------------------------------------------------

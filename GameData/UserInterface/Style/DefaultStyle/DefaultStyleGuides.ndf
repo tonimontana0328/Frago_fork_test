@@ -124,7 +124,7 @@ DefaultStyleGuide is TUIStyleGuide
 
         ("AutoResolve/Title",                             MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 48 ) ), ]),
         ("AutoResolve/SubTitle",                          MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 36 ) ), ]),
-        ("AutoResolve/Information",                       MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 16 ) ), ]),
+        ("AutoResolve/Information",                       MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 20 ) ), ]),
         ("AutoResolve/Rapport",                           MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 24 ) ), ]),
 
 
@@ -220,6 +220,7 @@ DefaultStyleGuide is TUIStyleGuide
         ("AutoKickPanel/PlayerName",                        MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = Grand1 ) ), ]),
         ("AutoKickPanel/Time",                              MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = Grand1 ) ), ]),
         ("Subtitle/Text",                                   MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 37 ) ), ]),
+        ("Subtitle/ChallengeText",                          MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 60 ) ), ]),
         ("MouseWidget/TextModule",                          MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = Petit5 ) ), ]),
         ("MouseWidget/TextModuleBig",                       MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = Grand1 ) ), ]),
 
@@ -2072,11 +2073,11 @@ DefaultStyleGuide is TUIStyleGuide
         ("UIPlayerSpecific/Orange/ObjectiveContent",    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = RougeMoyen4 ) ), ]),
         ("UIPlayerSpecific/Grey/ObjectiveTitle",        MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = GrisMoyen5 ) ), ]),
         ("UIPlayerSpecific/Grey/ObjectiveContent",      MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = GrisMoyen5 ) ), ]),
-        ("UIPlayerSpecific/Blue/PawnPhaseFighting",        MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color =  Blanc7) ), ]),
+        ("UIPlayerSpecific/Blue/PawnPhaseFighting",        MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color =  Noir) ), ]),
         ("UIPlayerSpecific/Blue/PawnPhaseNotFighting",      MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Otan_fond ) ), ]),
         ("UIPlayerSpecific/Green/PawnPhaseFighting",       MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Blanc ) ), ]),
         ("UIPlayerSpecific/Green/PawnPhaseNotFighting",     MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Otan ) ), ]),
-        ("UIPlayerSpecific/Red/PawnPhaseFighting",         MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color =  Blanc) ), ]),
+        ("UIPlayerSpecific/Red/PawnPhaseFighting",         MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color =  Noir) ), ]),
         ("UIPlayerSpecific/Red/PawnPhaseNotFighting",       MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Rouge ) ), ]),
         ("UIPlayerSpecific/Orange/PawnPhaseFighting",      MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Blanc ) ), ]),
         ("UIPlayerSpecific/Orange/PawnPhaseNotFighting",    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Rouge ) ), ]),
@@ -2761,6 +2762,7 @@ DefaultStyleGuide is TUIStyleGuide
                                         ( ~/ComponentState/ToggleHighlighted,     TColorRTTI( Color = [0,0,0,255] ) ),
                                         ]),
         //-------------------------------------------------------------------------------------
+        ("gris_combatUrbain",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [46,43,36,255] ) ),]),
         ("gris_battlegroup",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [144,156,142,255] ) ),]),
         ("gris_ligne_battlegroup",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [148,142,142,255] ) ),]),
         ("gris_filtre_battlegroup",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [201,192,188,255] ) ),]),

@@ -50,7 +50,7 @@ AvoidFillerCorridors_Attack_Settings is
 private template Template_Objective_Attack
 [
     MinimumResourceForLaunch:int = 0,
-    AdditionnalParameter = []
+    AdditionnalParameter = [],
 ]
 is TMacroActionDescriptor_ObjectiveAttack_Specific
 (
@@ -62,7 +62,7 @@ is TMacroActionDescriptor_ObjectiveAttack_Specific
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
         TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [Pool_Objective_Attack] LaunchASAP_RatioMin = 0.01),
-        TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 1.0 UtiliserMenaceLaPlusProcheAuLieuDeLaPlusFaible = true),
+        TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 0.825 UtiliserMenaceLaPlusProcheAuLieuDeLaPlusFaible = true),
         TAttackRatioSettingHolder(DifficultyList = [IADifficulty/TresFacile] RatioMinimumPourAttaquer = 100.0 UtiliserMenaceLaPlusProcheAuLieuDeLaPlusFaible = true),
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
     ]
@@ -96,6 +96,7 @@ export Attack_Objectives_Allied_Autogen is Template_Objective_Attack
 private template Template_Main_Attack
 [
     MinimumResourceForLaunch:int = 0,
+    AdditionnalParameter = [],
 ]
 is TMacroActionDescriptor_CorridorAttack_Specific
 (
@@ -114,10 +115,12 @@ is TMacroActionDescriptor_CorridorAttack_Specific
             TaggedPoolModelList = [(["AttackMain"], [~/Pool_Main_Attack]),] PrioritizeCorridorsForTaggedPoolModels = true LaunchASAP_RatioMin = 0.01),
         TMacroActionProductionSettingHolder(DifficultyList = [IADifficulty/Facile] ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [~/Pool_Main_Attack_Easy] TaggedPoolModelList = [(["AttackMain"], [~/Pool_Main_Attack_Easy]),] PrioritizeCorridorsForTaggedPoolModels = true LaunchASAP_RatioMin = 0.01),
 
-        TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 1.0 RatioPourAttaquerPerduAChaqueTick = 0.00084), // Perte de 0.1 de ratio toutes les 2 minutes
+        TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 0.875 RatioPourAttaquerPerduAChaqueTick = 0.00084), // Perte de 0.1 de ratio toutes les 2 minutes
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
         TCorridorPlacementSettingHolder(StayInCorridorIfp = true MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
     ]
+    +
+    <AdditionnalParameter>
 )
 //-------------------------------------------------------------------------
 export Attack_Main is Template_Main_Attack
@@ -137,7 +140,7 @@ export Attack_Filler is TMacroActionDescriptor_CorridorAttack_Specific
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_BasedOnNumberOfCorridors NumberLaunchBasedOnGenerationType = 1 ConsiderOnlyAssignedCorridors = true),
         TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [~/Pool_Attack_Filler] LaunchASAP_RatioMin = 0.01),
-        TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 2.0),
+        TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 1.75),
         TCorridorPlacementSettingHolder(StayInCorridorIfp = true MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
     ]
 )
@@ -147,7 +150,8 @@ export Attack_Filler is TMacroActionDescriptor_CorridorAttack_Specific
 private template Template_Attack_Corridor
 [
     MinimumResourceForLaunch:int = 0,
-    RatioMinimumPourAttaquer:float = 1.0,
+    RatioMinimumPourAttaquer:float = 0.875,
+    AdditionnalParameter = [],
 ]
 is TMacroActionDescriptor_CorridorAttack_Specific
 (
@@ -178,11 +182,12 @@ is TMacroActionDescriptor_CorridorAttack_Specific
         TAntiStackingSettingHolder(),
         TCorridorPlacementSettingHolder(StayInCorridorIfp = true MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
     ]
+    +
+    <AdditionnalParameter>
 )
 //-------------------------------------------------------------------------
 export Attack_Adaptive is Template_Attack_Corridor
 (
-    RatioMinimumPourAttaquer = 1.0
 )
 //-------------------------------------------------------------------------
 //-------------------------------------------------------------------------
@@ -190,7 +195,8 @@ export Attack_Adaptive is Template_Attack_Corridor
 private template Template_Attack_Helo
 [
     MinimumResourceForLaunch:int = 0,
-    RatioMinimumPourAttaquer:float = 1.0,
+    RatioMinimumPourAttaquer:float = 0.875,
+    AdditionnalParameter = [],
 ]
 is TMacroActionDescriptor_CorridorAttack_Specific
 (
@@ -212,6 +218,8 @@ is TMacroActionDescriptor_CorridorAttack_Specific
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
         TCorridorPlacementSettingHolder(StayInCorridorIfp = true MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
     ]
+    +
+    <AdditionnalParameter>
 )
 //-------------------------------------------------------------------------
 export Attack_Helo is Template_Attack_Helo
@@ -228,13 +236,13 @@ export Attack_Helo_Autogen is Template_Attack_Helo
 export Attack_Adaptive_Autogen is Template_Attack_Corridor
 (
     MinimumResourceForLaunch = ~/MinimumResourceForLaunch_Stage_1
-    RatioMinimumPourAttaquer = 1.0
+    RatioMinimumPourAttaquer = 0.875
 )
 //-------------------------------------------------------------------------
 // Budgets
 //-------------------------------------------------------------------------
 Budget_Objective_Attack is 300
-Budget_Main_Attack is 400
+Budget_Main_Attack is 600
 Budget_Default_Attack is 200
 Budget_Attack_Helo is 250
 Budget_Infantry_Attack is 160
@@ -364,7 +372,7 @@ export Pool_Objective_Attack is TPoolModel
             Required = false
             IndexPriorityOverPrice = true
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Random
+            PriceComparisonMethod = EPriceComparatorType/MostExpensive
             TagsPriority = [
                 "Char_Standard",
                 "Char"
@@ -373,9 +381,9 @@ export Pool_Objective_Attack is TPoolModel
         TPoolElement(
             DescriptorId = GUID:{80ad834a-d931-11e8-8367-2c56dc4c150d}
             Required = false
-            IndexPriorityOverPrice = false
+            IndexPriorityOverPrice = true
             Nb = 1
-            PriceComparisonMethod = EPriceComparatorType/Random
+            PriceComparisonMethod = EPriceComparatorType/Cheapest
             TagsPriority = [
                 "Char_Reco",
                 "Vehicule_Reco",

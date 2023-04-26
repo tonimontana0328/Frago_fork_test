@@ -5627,6 +5627,23 @@ FXWeapon_MMG_L94A1_7_62mm is FiringAndProjectile
     ]
 )
 
+FXWeapon_MMG_M1919 is FiringAndProjectile
+(
+    Happenings = [
+        TRandomHappening
+        (
+            Alternatives =
+            [
+                FXFiring_5( Action = $/GFX/GameFx/fx_tir_mitrailleuse_M240_douilles_eject_1 ),
+                FXFiring_5( Action = $/GFX/GameFx/fx_tir_mitrailleuse_M240_douilles_eject_2 ),
+                FXFiring_5( Action = $/GFX/GameFx/fx_tir_mitrailleuse_M240_douilles_eject_3 ),
+                FXFiring_5( Action = $/GFX/GameFx/fx_tir_mitrailleuse_M240_douilles_eject_4 ),
+            ]
+        ),
+        FXProjectile_6( Action = $/GFX/GameFx/fx_traine_M240 ),
+    ]
+)
+
 FXWeapon_MMG_M240_7_62mm is FiringAndProjectile
 (
     Happenings = [

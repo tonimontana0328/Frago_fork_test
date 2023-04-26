@@ -67,21 +67,16 @@ is TSoundDescriptor( TheSoundStream = TSoundStream( FileName = <FileName> ) )
 unnamed TPerpetualMusic
 (
     DefaultPlaylistsGroup = "Outgame"
-    PlaylistsGroups =
-    MAP[
+    PlaylistsGroups = MAP
+    [
         (
             "Outgame",
-            [
-                ~/Playlist_Outgame,
-            ]
+            ~/Playlist_Outgame
         ),
         (
             "Ingame",
-            [
-                ~/Playlist_Ingame,
-            ]
+            ~/Playlist_Ingame
         ),
-
     ]
 )
 

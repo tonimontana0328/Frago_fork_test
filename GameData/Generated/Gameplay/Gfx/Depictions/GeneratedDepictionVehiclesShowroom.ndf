@@ -1332,6 +1332,12 @@ Gfx_M1025_Humvee_AGL_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Selector = Selector_M1025_Humvee_AGL_US
     SubDepictions = HumanSubDepictionsShowroom_M1025_Humvee_AGL_US
 )
+Gfx_M1025_Humvee_AGL_nonPara_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_M1025_Humvee_AGL_nonPara_US
+    Selector = Selector_M1025_Humvee_AGL_nonPara_US
+    SubDepictions = HumanSubDepictionsShowroom_M1025_Humvee_AGL_nonPara_US
+)
 Gfx_M1025_Humvee_CMD_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_M1025_Humvee_CMD_US
@@ -1620,6 +1626,11 @@ Gfx_M1A1_Abrams_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_M1A1_Abrams_US
     Selector = Selector_M1A1_Abrams_US
+)
+Gfx_M1A1_Abrams_reco_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_M1A1_Abrams_reco_US
+    Selector = Selector_M1A1_Abrams_reco_US
 )
 Gfx_M1IP_Abrams_CMD_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
@@ -2074,6 +2085,11 @@ Gfx_T55A_CMD_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
         ),
     ]
 )
+Gfx_T55A_CMD_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_T55A_CMD_SOV
+    Selector = Selector_T55A_CMD_SOV
+)
 Gfx_T55A_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_T55A_DDR
@@ -2089,6 +2105,11 @@ Gfx_T55A_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
             )
         ),
     ]
+)
+Gfx_T55A_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_T55A_SOV
+    Selector = Selector_T55A_SOV
 )
 Gfx_T62M1_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
@@ -2193,17 +2214,6 @@ Gfx_T72_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_T72_DDR
     Selector = Selector_T72_DDR
-    SubDepictions = 
-    [
-        TSubDepiction
-        (
-            Anchor = "base_tourelle_02"
-            Depiction = ShowroomDepictionTemplateInternal
-            (
-                MeshDescriptor = Modele_T72_DDR_Tourelle_02
-            )
-        ),
-    ]
 )
 Gfx_T80BV_CMD_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (

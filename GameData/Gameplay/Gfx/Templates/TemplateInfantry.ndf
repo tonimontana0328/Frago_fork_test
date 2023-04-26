@@ -2,7 +2,6 @@ private template InfantryFiringFX
 [
     Action,
     Power,
-    ShotCountInitialValue,
     WaitBetweenShot,
 ]
 is TActionCall
@@ -11,7 +10,7 @@ is TActionCall
         LocalVariables =
         [
             private parPower            is TPinnableValue(ExpectedType = 'float'    InitialValue = <Power>),
-            private parShotCount        is TPinnableValue(ExpectedType = 'float'    InitialValue = <ShotCountInitialValue>),
+            private parShotCount        is TPinnableValue(ExpectedType = 'float'    InitialValue = 1),
             private parShotOnGround     is TPinnableValue(ExpectedType = 'bool'     InitialValue = true),
             private parTerrain          is TPinnableValue(ExpectedType = 'int'      InitialValue = 1),
             private parWaitBetweenShot  is TPinnableValue(ExpectedType = 'float'    InitialValue = <WaitBetweenShot>),
@@ -31,7 +30,6 @@ private template InfantryFiringHappening
     Action,
     Power,
     WaitBetweenShot,
-    ShotCount,
 ]
 is TSequencingActionHappening
 (
@@ -39,7 +37,6 @@ is TSequencingActionHappening
     (
         Action = <Action>
         Power = <Power>
-        ShotCountInitialValue = <ShotCount>
         WaitBetweenShot = <WaitBetweenShot>
     )
 )
@@ -48,7 +45,6 @@ private template InfantryProjectileFX
 [
     Action,
     Power,
-    ShotCountInitialValue,
     WithoutPhysics,
     FluidFriction,
     InitialSpeed,
@@ -65,7 +61,7 @@ is TActionCall
             private parInitialShotDelay is TPinnableValue(ExpectedType = 'float'    InitialValue = 0.0),
             private parInitialSpeed     is TPinnableValue(ExpectedType = 'float3'   InitialValue = <InitialSpeed> * $/VFX_Bank/MobileDirection),
             private parPower            is TPinnableValue(ExpectedType = 'float'    InitialValue = <Power>),
-            private parShotCount        is TPinnableValue(ExpectedType = 'float'    InitialValue = <ShotCountInitialValue>),
+            private parShotCount        is TPinnableValue(ExpectedType = 'float'    InitialValue = 1),
             private parShotOnGround     is TPinnableValue(ExpectedType = 'bool'     InitialValue = true),
             private parTerrain          is TPinnableValue(ExpectedType = 'int'      InitialValue = 1),
             private parTirPhysic        is TPinnableValue(ExpectedType = 'bool'     InitialValue = !<WithoutPhysics>),
@@ -99,7 +95,6 @@ private template InfantryProjectileHappening
     FluidFriction,
     InitialSpeed,
     WaitBetweenShot,
-    ShotCount,
 ]
 is TSequencingActionHappening
 (
@@ -107,7 +102,6 @@ is TSequencingActionHappening
     (
         Action = <Action>
         Power = <Power>
-        ShotCountInitialValue = <ShotCount>
         WithoutPhysics = <WithoutPhysics>
         FluidFriction = <FluidFriction>
         InitialSpeed = <InitialSpeed>

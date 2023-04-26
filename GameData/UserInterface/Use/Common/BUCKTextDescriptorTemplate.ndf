@@ -78,7 +78,6 @@ template BUCKTextDescriptor
     AutoHintElementName : string = "",
 
     Components : LIST<TBUCKContainerDescriptor> = [],
-
 ]
 is BUCKCommonTextDescriptor
 (

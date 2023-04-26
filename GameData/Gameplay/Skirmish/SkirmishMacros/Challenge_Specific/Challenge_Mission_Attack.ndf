@@ -32,10 +32,57 @@ is TMacroActionDescriptor_CorridorAttack_Specific
 )
 
 //-------------------------------------------------------------------------
+export Challenge_Attack_Helo_Weighted is Template_Attack_Helo
+(
+    AdditionnalParameter = [TForcedPlacementSettingHolder(OrderedPrioritaryZoneWeightList = [1,2])]
+)
+
+//-------------------------------------------------------------------------
+export Challenge_Attack_Main_Weighted is Template_Main_Attack
+(
+    AdditionnalParameter = [TForcedPlacementSettingHolder(OrderedPrioritaryZoneWeightList = [1,2])]
+)
+
+//-------------------------------------------------------------------------
+export Challenge_Attack_Adaptative_Weighted is Template_Attack_Corridor
+(
+    AdditionnalParameter = [TForcedPlacementSettingHolder(OrderedPrioritaryZoneWeightList = [1,2])]
+)
+
+//-------------------------------------------------------------------------
+export Challenge_Attack_Helo_Weighted_Autogen is Template_Attack_Helo
+(
+    MinimumResourceForLaunch = ~/MinimumResourceForLaunch_Stage_1
+    AdditionnalParameter = [TForcedPlacementSettingHolder(OrderedPrioritaryZoneWeightList = [1,2])]
+)
+
+//-------------------------------------------------------------------------
+export Challenge_Attack_Main_Weighted_Autogen is Template_Main_Attack
+(
+    MinimumResourceForLaunch = ~/MinimumResourceForLaunch_Stage_1
+    AdditionnalParameter = [TForcedPlacementSettingHolder(OrderedPrioritaryZoneWeightList = [1,2])]
+)
+
+//-------------------------------------------------------------------------
+export Challenge_Attack_Adaptative_Weighted_Autogen is Template_Attack_Corridor
+(
+    MinimumResourceForLaunch = ~/MinimumResourceForLaunch_Stage_1
+    AdditionnalParameter = [TForcedPlacementSettingHolder(OrderedPrioritaryZoneWeightList = [1,2])]
+)
+
+//-------------------------------------------------------------------------
 export Challenge_Main_Attack_All is Template_Challenge_Objective_Attack
 (
     RatioMinimumPourAttaquer = 0.85
     MainAttackPoolModelList = [~/Pool_Max_AllUnits_Skirmish]
+)
+
+//-------------------------------------------------------------------------
+export Challenge_Main_Attack_Cautious is Template_Challenge_Objective_Attack
+(
+    NumberLaunchBasedOnGenerationType = 1
+    MainAttackPoolModelList = [~/Pool_Main_Attack_Skirmish]
+    RatioMinimumPourAttaquer = 1.3
 )
 
 //-------------------------------------------------------------------------

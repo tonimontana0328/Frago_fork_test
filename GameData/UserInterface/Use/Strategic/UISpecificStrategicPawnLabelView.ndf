@@ -417,17 +417,38 @@ private CombatValue is BUCKListDescriptor
                 TextColorToken = "PureBlack"
             )
         ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = PowerValueContainer
-            (
-                ElementName = "Bonus"
-                BackgroundBlockColorToken = "Noir"
-                TextColorToken = "Cyan"
-                TextToken = "FRM_PLUS"
-            )
-        ),
+        // BUCKListElementDescriptor
+        // (
+        //     ComponentDescriptor = PowerValueContainer
+        //     (
+        //         ElementName = "Bonus"
+        //         BackgroundBlockColorToken = "Noir"
+        //         TextColorToken = "Cyan"
+        //         TextToken = "FRM_PLUS"
+        //     )
+        // ),
+    ]
 
+    BackgroundComponents =
+    [
+        BUCKContainerDescriptor
+        (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                AlignementToAnchor = [1.0, 0.0]
+                AlignementToFather = [1.0, 0.0]
+                )
+            Components =
+            [
+                PowerValueContainer
+                (
+                    ElementName = "Bonus"
+                    BackgroundBlockColorToken = "Noir"
+                    TextColorToken = "Cyan"
+                    TextToken = "FRM_PLUS"
+                )
+            ]
+        )
     ]
 )
 
@@ -612,10 +633,12 @@ LowerLabelList is BUCKListDescriptor
                     Alignment = UIText_Center
                     VerticalAlignment = UIText_VerticalCenter
                 )
-
+                HasBackground = true
+                BackgroundBlockColorToken = "Gris_leaderboard"
                 TextStyle = "Engagement"
                 HorizontalFitStyle = ~/FitStyle/FitToContent
                 VerticalFitStyle = ~/FitStyle/FitToContent
+                TextPadding = TRTTILength4(Magnifiable = [2.0, 2.0, 2.0, 2.0])
 
                 TypefaceToken = "UIMainFont"
                 BigLineAction = ~/BigLineAction/CutByDots
@@ -624,7 +647,7 @@ LowerLabelList is BUCKListDescriptor
                 ColorMode = ~/ColorMode/Multiply
 
                 TextColor = "Noir"
-                TextSize = "26"
+                TextSize = "12"
             )
         ),
         BUCKListElementDescriptor
@@ -729,7 +752,7 @@ template PawnLabelViewDescriptor
 
     BonusBackgroundColorTokenByTerrainType = MAP
     [
-        (~/ETerrainType/StrategicForest,    "Orange"),
+        (~/ETerrainType/StrategicForest,    "Vert"),
         (~/ETerrainType/StrategicSemiUrban, "Red"),
         (~/ETerrainType/Urbain,             "Red"),
     ]

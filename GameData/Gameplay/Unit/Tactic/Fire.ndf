@@ -32,7 +32,7 @@ export ModernWarfareModularUnitFireDescriptorForTestIA is TEntityDescriptor
             SpreadProbability         = 0.25
             IsNewFireProbability      = 0.10
             Radius                    = ((100) * Metre)
-            AmmunitionForBurn         = Ammo_FireWithHighSpreadProba // Faut bien mettre quelque chose... -> et quelque chose qui fait au moins 1 de PhysicalDamages si on veut pas péter un test
+            AmmunitionForBurn         = Ammo_FireWithHighSpreadProbaForTestIA // Faut bien mettre quelque chose... -> et quelque chose qui fait au moins 1 de PhysicalDamages si on veut pas péter un test
             TimeBetweenBurns          = ((1) * Seconde)
             OverridenSpreadDescriptor = nil
             SmokeDescriptor           = ~/ModernWarfareModularUnitSmokeDescriptorForTestIA
@@ -43,7 +43,7 @@ export ModernWarfareModularUnitFireDescriptorForTestIA is TEntityDescriptor
     ]
 )
 
-export Ammo_FireWithHighSpreadProba is TAmmunitionDescriptor
+export Ammo_FireWithHighSpreadProbaForTestIA is TAmmunitionDescriptor
 (
     DescriptorId                = GUID:{00000000-0000-0000-0600-00000f270000}
     Name                        = 'FireHSP'
@@ -69,10 +69,10 @@ export Ammo_FireWithHighSpreadProba is TAmmunitionDescriptor
     RadiusSplashSuppressDamages = ((50) * Metre)
     SuppressDamages             = 100.0
     TirIndirect                 = True
+    ImpactHappening             = ['helicoGroundPuff'] //stub
     FX_tir_sans_physic          = False
     FX_vitesse_de_depart        = 22000.0
     FX_frottement               = 0.01
-    TempsAnimation              = 0.0
     NoiseDissimulationMalus     = 3.0
     ShotsBeforeMaxNoise         = 1
     SupplyCost                  = 200
@@ -103,11 +103,7 @@ export Ammo_FireWithHighSpreadProba is TAmmunitionDescriptor
     SmokeDescriptor             = nil
     FireDescriptor              = ~/Descriptor_FireWithHighSpreadProba
     FireTriggeringProbability   = 1.0
-    CanHarmInfantry             = True
-    CanHarmVehicles             = True
-    CanHarmHelicopters          = True
     CanHarmAirplanes            = True
-    CanHarmGuidedMissiles       = True
 )
 
 export Descriptor_FireWithHighSpreadProba is TEntityDescriptor

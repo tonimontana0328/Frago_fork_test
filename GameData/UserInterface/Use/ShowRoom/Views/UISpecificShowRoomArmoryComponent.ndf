@@ -1282,7 +1282,7 @@ ArmoryComponentDescriptor is TUISpecificShowRoomArmoryComponentDescriptor
     [
         MAP
         [
-            ("Texture_Speciality_Icon_hq", ["hq","hel_hq"]),
+            ("Texture_Speciality_Icon_hq", ["hq", "hq_inf", "hq_tank", "hq_veh"]),
             ("Texture_Speciality_Icon_supply", ["supply","hel_supply"]),
         ],
         MAP

@@ -57,15 +57,15 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                AccuracyMovement = TMinMaxValue (
                        Min = 0 // SAM 9M336 x3
-                       Max = 60 // Mistral Celtic x4
+                       Max = 60 // SAM FIM92 Stinger CS x4
                )
                RateOfFire = TMinMaxValue (
                        Min = 5.714285714285714 // SAM ROLAND 3 x2
                        Max = 25.263157894736842 // SAM RAPIER x8
                )
                TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 1.0 // SAM 9M336 x3
-                       Max = 2.0 // SAM Strela1 x4
+                       Min = 1.0 // SAM ROLAND 2 x2
+                       Max = 3.0 // SAM 9M336 x3
                )
                NbShotsBySalvo = TMinMaxValue (
                        Min = 1 // MANPAD_Blowpipe
@@ -931,17 +931,17 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
           (
                // PhysicalDamages x weapon_count_ (Number of weapons)
                PhysicalDamages = TMinMaxValue (
-                       Min = 1.001 // Sniper PSG1
-                       Max = 1.001 // Sniper PSG1
+                       Min = 1.001 // Sniper G3A3ZF
+                       Max = 1.001 // Sniper G3A3ZF
                )
                // SuppressDamages x weapon_count_ (Number of weapons)
                SuppressDamages = TMinMaxValue (
-                       Min = 50 // Sniper PSG1
-                       Max = 50 // Sniper PSG1
+                       Min = 50 // Sniper G3A3ZF
+                       Max = 50 // Sniper G3A3ZF
                )
                SplashDamageRadius = TMinMaxValue (
-                       Min = 0 * Metre // Sniper PSG1
-                       Max = 0 * Metre // Sniper PSG1
+                       Min = 0 * Metre // Sniper G3A3ZF
+                       Max = 0 * Metre // Sniper G3A3ZF
                )
                MaxRange = TMinMaxValue (
                        Min = 1415 // Sniper VSS Vintorez
@@ -949,51 +949,51 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                MaxRangeTBA = TMinMaxValue (
                        Min = 1274 // Sniper VSS Vintorez
-                       Max = 1981 // Sniper PSG1
+                       Max = 1981 // Sniper G3A3ZF
                )
                MaxRangeHA = TMinMaxValue (
-                       Min = 0 // Sniper PSG1
-                       Max = 0 // Sniper PSG1
+                       Min = 0 // Sniper G3A3ZF
+                       Max = 0 // Sniper G3A3ZF
                )
                AimTime = TMinMaxValue (
                        Min = 3.0 // Sniper VSS Vintorez
-                       Max = 5.0 // Sniper PSG1
+                       Max = 5.0 // Sniper G3A3ZF
                )
                ReloadTime = TMinMaxValue (
                        Min = 2.0 // Sniper VSS Vintorez
                        Max = 5.0 // Sniper FRF2
                )
                TurretSpeed = TMinMaxValue (
-                       Min = 360 // Sniper PSG1
-                       Max = 360 // Sniper PSG1
+                       Min = 360 // Sniper G3A3ZF
+                       Max = 360 // Sniper G3A3ZF
                )
                Accuracy = TMinMaxValue (
-                       Min = 40 // Sniper PSG1
+                       Min = 40 // Sniper G3A3ZF
                        Max = 55 // Sniper FRF2
                )
                AccuracyMovement = TMinMaxValue (
-                       Min = 0 // Sniper PSG1
-                       Max = 0 // Sniper PSG1
+                       Min = 0 // Sniper G3A3ZF
+                       Max = 0 // Sniper G3A3ZF
                )
                RateOfFire = TMinMaxValue (
                        Min = 12.0 // Sniper FRF2
                        Max = 30.0 // Sniper VSS Vintorez
                )
                Penetration = TMinMaxValue (
-                       Min = 1 // Sniper PSG1
-                       Max = 1 // Sniper PSG1
+                       Min = 1 // Sniper G3A3ZF
+                       Max = 1 // Sniper G3A3ZF
                )
                TimeBetweenTwoShots = TMinMaxValue (
                        Min = 2.0 // Sniper VSS Vintorez
                        Max = 5.0 // Sniper FRF2
                )
                NbShotsBySalvo = TMinMaxValue (
-                       Min = 1 // Sniper PSG1
-                       Max = 1 // Sniper PSG1
+                       Min = 1 // Sniper G3A3ZF
+                       Max = 1 // Sniper G3A3ZF
                )
                SupplyCost = TMinMaxValue (
-                       Min = 1 // Sniper PSG1
-                       Max = 1 // Sniper PSG1
+                       Min = 1 // Sniper G3A3ZF
+                       Max = 1 // Sniper G3A3ZF
               )
          )
        ),
@@ -1372,8 +1372,8 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 14 * Metre // AGM AGM88 HARM
                )
                MaxRange = TMinMaxValue (
-                       Min = 11957 // AGM AGM45 Shrike
-                       Max = 14928 // AGM AGM88 HARM
+                       Min = 12452 // AGM AGM45 Shrike
+                       Max = 15424 // AGM AGM88 HARM
                )
                MaxRangeTBA = TMinMaxValue (
                        Min = 0 // AGM AGM88 HARM

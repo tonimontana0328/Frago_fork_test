@@ -19418,6 +19418,71 @@ Descriptor_UnitCadavre_M1025_Humvee_AGL_US is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_M1025_Humvee_AGL_nonPara_US is TEntityDescriptor
+(
+    DescriptorId       = GUID:{4bf3b933-67b4-4507-b8dd-b92a62f7f4b3}
+    ClassNameForDebug  = 'Unit_CadavreM1025_Humvee_AGL_nonPara_US'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = True
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_faible
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/WeaponManager,
+                   $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/WeaponManager,
+            $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_M1025_Humvee_AGL_nonPara_US/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_M1025_Humvee_CMD_US is TEntityDescriptor
 (
     DescriptorId       = GUID:{8471d795-8622-4778-a664-b098dbc6a124}
@@ -21636,6 +21701,71 @@ Descriptor_UnitCadavre_M1A1_Abrams_US is TEntityDescriptor
             $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_US/LandMovement,
             $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_US/GenericMovement,
             $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_US/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_M1A1_Abrams_reco_US is TEntityDescriptor
+(
+    DescriptorId       = GUID:{88af073a-6410-4e1c-88b6-f1d4c4f07f79}
+    ClassNameForDebug  = 'Unit_CadavreM1A1_Abrams_reco_US'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = True
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_faible
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/WeaponManager,
+                   $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/WeaponManager,
+            $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/FacingInfos,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -26891,6 +27021,69 @@ Descriptor_UnitCadavre_MotRifles_HMG_SOV is TEntityDescriptor
             $/GFX/Everything/Descriptor_Unit_MotRifles_HMG_SOV/LandMovement,
             $/GFX/Everything/Descriptor_Unit_MotRifles_HMG_SOV/GenericMovement,
             $/GFX/Everything/Descriptor_Unit_MotRifles_HMG_SOV/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_MotRifles_Metis_DDR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{28feef84-3a5a-499d-84ac-72e54f219506}
+    ClassNameForDebug  = 'Unit_CadavreMotRifles_Metis_DDR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'DDR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = True
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDuration_Infanterie
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_infanterie
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_MotRifles_Metis_DDR/GroupeCombat,
+                   $/GFX/Everything/Descriptor_Unit_MotRifles_Metis_DDR/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_MotRifles_Metis_DDR/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_MotRifles_Metis_DDR/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_MotRifles_Metis_DDR/GroupeCombat,
+            $/GFX/Everything/Descriptor_Unit_MotRifles_Metis_DDR/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_MotRifles_Metis_DDR/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_MotRifles_Metis_DDR/FacingInfos,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -32684,6 +32877,71 @@ Descriptor_UnitCadavre_T55A_CMD_DDR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_T55A_CMD_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{c9c583f2-86ca-4453-bcdd-f582a1dc304c}
+    ClassNameForDebug  = 'Unit_CadavreT55A_CMD_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Command
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = True
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_forte
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_T55A_CMD_SOV/WeaponManager,
+                   $/GFX/Everything/Descriptor_Unit_T55A_CMD_SOV/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_T55A_CMD_SOV/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_T55A_CMD_SOV/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_T55A_CMD_SOV/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_T55A_CMD_SOV/WeaponManager,
+            $/GFX/Everything/Descriptor_Unit_T55A_CMD_SOV/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_T55A_CMD_SOV/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_T55A_CMD_SOV/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_T55A_CMD_SOV/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_T55A_DDR is TEntityDescriptor
 (
     DescriptorId       = GUID:{a1275543-0538-4eb6-8b35-bd21119d0691}
@@ -32745,6 +33003,71 @@ Descriptor_UnitCadavre_T55A_DDR is TEntityDescriptor
             $/GFX/Everything/Descriptor_Unit_T55A_DDR/LandMovement,
             $/GFX/Everything/Descriptor_Unit_T55A_DDR/GenericMovement,
             $/GFX/Everything/Descriptor_Unit_T55A_DDR/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_T55A_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{2111f0d1-e632-42c3-816a-140ced369f9a}
+    ClassNameForDebug  = 'Unit_CadavreT55A_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Tank
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = True
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_forte
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_T55A_SOV/WeaponManager,
+                   $/GFX/Everything/Descriptor_Unit_T55A_SOV/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_T55A_SOV/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_T55A_SOV/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_T55A_SOV/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_T55A_SOV/WeaponManager,
+            $/GFX/Everything/Descriptor_Unit_T55A_SOV/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_T55A_SOV/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_T55A_SOV/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_T55A_SOV/FacingInfos,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]

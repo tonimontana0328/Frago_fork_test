@@ -37,6 +37,7 @@ StrategicResource is TUISpecificStrategicResources
         ("UISpecificStrategicObjectiveScoreViewDescriptor", ~/UISpecificStrategicObjectiveScoreViewDescriptor),
         ("ObjectiveViewDescriptor", ~/UISpecificStrategicObjectiveBriefViewDescriptor),
         ("SignpostViewDescriptor", ~/UISpecificSignpostViewDescriptor),
+        ("LDVideoViewDescriptor", ~/UIStrategicLDVideoViewDescriptor),
     ]
 
     MainContainerResource       = ~/StrategicMainContainerResource
@@ -59,7 +60,6 @@ StrategicResource is TUISpecificStrategicResources
     MousePolicyManagerResources = ~/StrategicMousePolicyManagerResources
     OptionManager               = $/GameOptionsInterface/GameOptionsInterfaceWrapper
 
-    SubtitleLayer               = $/UserInterface/UILayer_HintsAndSubtitles
     ShortcutUserInputLayer      = $/M3D/Input/UserInputLayerHandler/InputLayer_InGameShortcuts
     DisplayAllOrdersMapping     = $/KeyboardOption/Mapping_DisplayAllOrders
 

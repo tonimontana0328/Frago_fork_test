@@ -15878,6 +15878,7 @@ Gfx_UH60A_Black_Hawk_US_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_Feedback_Degat_Level1,
             DepictionOperator_Feedback_Degat_Level2,
             DepictionOperator_Heat,
+            DepictionOperator_Flares,
         ]
         Actions = MAP[
                     ( [ "weapon_effet_tag1" ], Weapon_MMG_M240d_7_62mm ),
@@ -15887,6 +15888,7 @@ Gfx_UH60A_Black_Hawk_US_Autogen is TacticAerialDepictionTemplate
                 + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1720 PaleCount = 4 RotationAxis = VECTOR[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
                 + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 400 PaleCount = 4 RotationAxis = VECTOR[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
                 + DepictionAction_CriticalFX_Helicopter
+                + DepictionAction_Flare_Simple
 
         SubDepictions = [
             SubDepiction_Pilote1(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_US MeshDescriptorLow = MeshDescriptor_Pilote_Helico_US_LOW),
@@ -16035,6 +16037,7 @@ Gfx_UH60A_Supply_US_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_Feedback_Degat_Level1,
             DepictionOperator_Feedback_Degat_Level2,
             DepictionOperator_Heat,
+            DepictionOperator_Flares,
         ]
         Actions = MAP[
                 ]
@@ -16042,6 +16045,7 @@ Gfx_UH60A_Supply_US_Autogen is TacticAerialDepictionTemplate
                 + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1720 PaleCount = 4 RotationAxis = VECTOR[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
                 + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 400 PaleCount = 4 RotationAxis = VECTOR[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
                 + DepictionAction_CriticalFX_Helicopter
+                + DepictionAction_Flare_Simple
 
         SubDepictions = [
             SubDepiction_Pilote1(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_US MeshDescriptorLow = MeshDescriptor_Pilote_Helico_US_LOW),

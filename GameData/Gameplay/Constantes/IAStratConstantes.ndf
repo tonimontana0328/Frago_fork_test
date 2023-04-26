@@ -275,7 +275,7 @@ export IAStratConstantes is TIAStratConstantesDescriptor_Specific
     MaxMinimumRangeForDropSmokeOnCrawl = 150 * Metre //Réglé pour correspondre aux smokes des véhicules avec une marge
 
     //Override du safePath
-    AlwaysIgnoreSafePathTags = ["Char", "ChasseurDeChar", "Helo_AT", "Helo_Gunship"]
+    AlwaysIgnoreSafePathTags = ["Helo_AT", "Helo_Gunship"]
 
     //Smart Order Custom Zone Filler
     ZoneFillerType = TCircleZoneFiller(Radius = 3)
@@ -381,22 +381,22 @@ AirstrikeConstantes is TIAStratAirstrikeConstantes
 (
     UseAirstrikeDefenseSystem = true
     DefenseAirstrikeSettings = [
-        (["Avion_Chasseur"], 3),
+        (["Avion_Chasseur"], 1),
         (["Avion_Chasseur_Bombardier"], 1),
     ]
 
     UseAirStrikeOpportunisticAttack = true
     OpportunisticSingleTargetAirstrikeSettings = [
-        (["Avion_Assaut"], 3),
-        (["Avion_AT"], 3),
-        (["Avion_Chasseur"], 3),
+        (["Avion_Assaut"], 1),
+        (["Avion_AT"], 1),
+        (["Avion_Chasseur"], 1),
         (["Avion_Chasseur_Bombardier"], 1),
-        (["Avion_SEAD"], 3)
+        (["Avion_SEAD"], 1)
     ]
     OpportunisticTargetInGroupAirstrikeSettings = [
-        (["Avion_Bombardier"], 3),
+        (["Avion_Bombardier"], 1),
         (["Avion_Chasseur_Bombardier"], 1),
-        (["Avion_Napalm"], 3),
+        (["Avion_Napalm"], 1),
     ]
     TargetPowerForOpportunisticSingleTargetAirStrike = 50
     TargetPowerForOpportunisticTargetInGroupAirStrike = 75
@@ -409,6 +409,7 @@ AirstrikeConstantes is TIAStratAirstrikeConstantes
         ("Avion_AT", ["Char", "ChasseurDeChar", "Vehicule_Appui", "Vehicule_CMD", "Vehicule_Reco", "Artillerie"]),
         ("Avion_SEAD", ["Canon_AA"]),
         ("Avion_Napalm", ["Infanterie"]),
+        ("Avion_Chasseur", ["Helo_Gunship", "Helo_AT", "Helo_AA", "Avion"])
     ]
 
     AirplaneWaitForDecisionTime = 5

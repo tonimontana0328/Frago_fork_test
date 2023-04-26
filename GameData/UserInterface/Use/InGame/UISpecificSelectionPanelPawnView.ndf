@@ -466,6 +466,7 @@ PawnName is BUCKListDescriptor
 
 PawnCharacteristicList is BUCKListDescriptor
 (
+    ElementName = "PawnCharacteristicList"
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [0.0, 40.0]

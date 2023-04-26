@@ -14,9 +14,6 @@ private NoRecoAdvantage is TCombatAdvantageDefinition
     TextToken = 'CA_INF'
     TagToCheck = ['Infanterie']
     TagToCheckAgainst = ['Infanterie']
-    {TextToken = 'CA_Reco'
-        TagToCheck = [ 'Reco']
-        TagToCheckAgainst = [ 'Reco']}
 )
 
 private NoAAAdvantage is TCombatAdvantageDefinition
@@ -102,39 +99,12 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
                 ( -1.5,     EVictoryType/TotalDefeat),
                 ( -1.0,     EVictoryType/MajorDefeat),
                 ( -0.5,     EVictoryType/MinorDefeat),
-                ( 0.5,      EVictoryType/Draw),
-                ( 1.0,      EVictoryType/MinorVictory),
-                ( 1.5,      EVictoryType/MajorVictory),
-                ( 2.0,      EVictoryType/TotalVictory),
+                ( 0.0,      EVictoryType/Draw),
+                ( 0.5,      EVictoryType/MinorVictory),
+                ( 1.0,      EVictoryType/MajorVictory),
+                ( 1.5,      EVictoryType/TotalVictory),
             ]
-
         ),
-       //  (
-       //      ~/ETerrainType/StrategicForest,
-       //      [
-       //          ( -1,     EVictoryType/TotalDefeat),
-       //          ( -0.5,     EVictoryType/MajorDefeat),
-       //          ( 0.0,     EVictoryType/MinorDefeat),
-       //          ( 0.5,      EVictoryType/Draw),
-       //          ( 1.0,      EVictoryType/MinorVictory),
-       //          ( 1.5,      EVictoryType/MajorVictory),
-       //          ( 2,      EVictoryType/TotalVictory),
-       //      ]
-
-       // ),
-       //  (
-       //      ~/ETerrainType/StrategicSemiUrban,
-       //      [
-       //          ( -0.5,     EVictoryType/TotalDefeat),
-       //          ( 0,     EVictoryType/MajorDefeat),
-       //          ( 0.5,     EVictoryType/MinorDefeat),
-       //          ( 1.0,      EVictoryType/Draw),
-       //          ( 1.5,      EVictoryType/MinorVictory),
-       //          ( 2,      EVictoryType/MajorVictory),
-       //          ( 2.5,      EVictoryType/TotalVictory),
-       //      ]
-
-       // ),
     ]
 
     // -------------
@@ -165,10 +135,8 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
 
     VictoryTypeByBalanceOfPowerCombatSolAir =
     [
-
         ( -0.01,    EVictoryType/MinorDefeat),
         ( 0,    EVictoryType/MinorVictory),
-
     ]
 
 
@@ -181,14 +149,6 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
 
     VictoryTypeByBalanceOfPowerCombatAirSol =
     [
-        // ( -1,    EVictoryType/TotalDefeat),
-        // ( -0.5,    EVictoryType/MajorDefeat),
-        // ( -0.01,    EVictoryType/MinorDefeat),
-        // ( 0,    EVictoryType/Draw),
-        // ( 0.5,    EVictoryType/Draw),
-        // ( 1,    EVictoryType/MinorVictory),
-        // ( 1.5,     EVictoryType/MajorVictory),
-        // ( 2,    EVictoryType/TotalVictory),
         ( -0.01,    EVictoryType/MinorDefeat),
         ( 0,    EVictoryType/MinorVictory),
     ]
@@ -252,132 +212,6 @@ perte_mixte_0 is
 (2 , 0.01),
 ]
 
-//-------------------------
-PerteAttaquantSurTerrainDefault is
-[
-
-    (-2    ,  0.9),
-    (-1.5    ,  0.70),
-    (-0.5  ,  0.40),
-
-    (0  ,  0.30), //minor defeat
-
-    (0.5  ,    0.35),
-    (1.5  ,    0.2),
-    (2    ,   0.05),
-    // (3    ,   0.00),
-
-]
-PerteDefenseurSurTerrainDefault is
-[
-
-    (-2    ,  1),
-    (-1    ,  0.60),
-    (-0.5  ,  0.50),
-
-    (0  ,  0.35), //minor defeat
-
-    (0.5  ,    0.30),
-    (1.5  ,    0.2),
-    (2    ,   0.05),
-    // (3    ,   0.00),
-
-
-]
-//-------------------------------------------------------------------------------------
-// foret
-PerteAttaquantSurTerrainForet is
-[
-
-   (-2    ,  1),
-    (-1    ,  0.8),
-    (-0.5  ,  0.60),
-    (-0.25  ,  0.45),
-    (-0.10  ,  0.35),
-
-    (0  ,  0.30), //minor defeat
-
-    (0.10  ,    0.25),
-    (0.25  ,    0.20),
-    (0.5  ,    0.15),
-    (1  ,    0.1),
-    (2    ,   0.00),
-
-]
-
-// plaine
-PerteAttaquantSurTerrainPlaine is
-[
-
-    (-2    ,  1),
-    (-1    ,  0.8),
-    (-0.5  ,  0.60),
-    (-0.25  ,  0.45),
-    (-0.10  ,  0.35),
-
-    (0  ,  0.30), //minor defeat
-
-    (0.10  ,    0.25),
-    (0.25  ,    0.20),
-    (0.5  ,    0.15),
-    (1  ,    0.1),
-    (2    ,   0.00),
-
-]
-
-// plaine
-PerteAttaquantSurTerrainSemiUrbain is
-[
-
-    (-2    ,  1),
-    (-1    ,  0.8),
-    (-0.5  ,  0.60),
-    (-0.25  ,  0.45),
-    (-0.10  ,  0.35),
-
-    (0  ,  0.30), //minor defeat
-
-    (0.10  ,    0.25),
-    (0.25  ,    0.20),
-    (0.5  ,    0.15),
-    (1  ,    0.1),
-    (2    ,   0.00),
-
-]
-//-------------------------------------------------------------------------------------
-PerteAttaquantSurTerrainUrbain is
-[
-    (-2    ,  1),
-    (-1    ,  0.8),
-    (-0.5  ,  0.60),
-    (-0.25  ,  0.45),
-    (-0.10  ,  0.35),
-
-    (0  ,  0.30), //minor defeat
-
-    (0.10  ,    0.25),
-    (0.25  ,    0.20),
-    (0.5  ,    0.15),
-    (1  ,    0.1),
-    (2    ,   0.00),
-]
-PerteDefenseurSurTerrainUrbain is
-[
-   (-2    ,  1),
-    (-1    ,  0.8),
-    (-0.5  ,  0.60),
-    (-0.25  ,  0.45),
-    (-0.10  ,  0.35),
-
-    (0  ,  0.30), //minor defeat
-
-    (0.10  ,    0.25),
-    (0.25  ,    0.20),
-    (0.5  ,    0.15),
-    (1  ,    0.1),
-    (2    ,   0.00),
-]
-
 //-------------------------------------------------------------------------------------/
 testPerte is
 [
@@ -392,47 +226,4 @@ PertePourAttaquantSelonDecalageForCombatAerien is
        (-0.5,    0.30),
        (0,       0.20),
        (0.5,     0.10),
-]
-
-PertePourDefenseurSelonDecalageForCombatAerien is
-[
-        (-1,    0.01),
-        (0,     0.10),
-        (1,     0.15),
-        (2,     0.20),
-        (3,     0.30),
-        (4,     0.40),
-]
-// pertes des avions dans les combats les opposant à la dca.
-PertePourDefenseurSelonDecalageForCombatSolAir is
-[
-
-       (0, 0),
-       (1,     0.10),
-       (2,     0.15),
-       (3,     0.20),
-       (4,     0.30),
-       (5,     0.40),
-]
-PertePourAttaquantSelonDecalageForCombatAirSol is
-[
-
-    (-5,     0.40),
-    (-4,     0.30),
-    (-3,     0.20),
-    (-2,     0.15),
-    (-1,     0.10),
-    (0,      0.05),
-]
-
-// l'avion est le défenseur dans un combat sol air
-PertePourAttaquantSelonDecalageForCombatSolAir is
-[
-    (0,     0.06),
-]
-
-PertePourDefenseurSelonDecalageForCombatAirSol is
-[
-
-    (0,     0.06),
 ]

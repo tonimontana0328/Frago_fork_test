@@ -1,4 +1,4 @@
-export ModelFile_AML_60_FR is 'GameData:/Assets/3D/Units/FR/Vehicule/AML_60/AML_60.Ase2NdfBin'
+export ModelFile_AML_60_FR is 'GameData:/Assets/3D/Units/FR/Vehicule/AML_60/AML_60.fbx'
 
 Modele_AML_60_FR is TResourceMultiMaterialMeshWithLod
 (

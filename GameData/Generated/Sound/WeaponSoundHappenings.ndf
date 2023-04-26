@@ -493,6 +493,7 @@ export SFXWeapon_MMG_L37A2_7_62mm is $/SoundDescriptors/SoundHappening_FULDA_L37
 export SFXWeapon_MMG_L43A1_7_62mm is $/SoundDescriptors/SoundHappening_FULDA_L37A2_Firing
 export SFXWeapon_MMG_L8A2_7_62mm is $/SoundDescriptors/SoundHappening_FULDA_L8A2_Firing
 export SFXWeapon_MMG_L94A1_7_62mm is $/SoundDescriptors/SoundHappening_FULDA_L94A1_Firing
+export SFXWeapon_MMG_M1919 is $/SoundDescriptors/SoundHappening_FULDA_M60
 export SFXWeapon_MMG_M240_7_62mm is $/SoundDescriptors/SoundHappening_FULDA_M24_Firing
 export SFXWeapon_MMG_M240_abrams_7_62mm is $/SoundDescriptors/SoundHappening_FULDA_M24_Firing
 export SFXWeapon_MMG_M240d_7_62mm is $/SoundDescriptors/SoundHappening_FULDA_M24_Firing

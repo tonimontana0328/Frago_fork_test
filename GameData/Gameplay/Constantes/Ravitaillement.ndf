@@ -20,7 +20,7 @@ export StandardSupply is TSupplyDescriptor
     // Point d'essence ravitaillés par seconde
     FuelSupplyBySecond = 30
     // Cout du ravitaillement d'essence par seconde
-    FuelSupplyCostBySecond =  2.5
+    FuelSupplyCostBySecond =  5
 
     // Point de vie ravitaillés par seconde
     HealthSupplyBySecond = 0.15 //0.00001

@@ -70,7 +70,7 @@ private template Template_Reco
 [
     MinimumResourceForLaunch:int = 0,
 ]
-is TMacroActionDescriptor_CorridorDynamicDefense_Specific
+is TMacroActionDescriptor_CorridorDefense_Specific
 (
     ParametresDeMission =
     [
@@ -125,7 +125,7 @@ export Pool_Reco_Skirmish is TPoolModel
         DescriptorId = GUID:{e902f9df-d39e-11e8-aa23-88d7f642f58e}
         Required = true
         Nb = 1
-        IndexPriorityOverPrice = false // On veut le moins cher
+        IndexPriorityOverPrice = true
         PriceComparisonMethod = EPriceComparatorType/Random
         TagsPriority = [
             "Infanterie_Reco",

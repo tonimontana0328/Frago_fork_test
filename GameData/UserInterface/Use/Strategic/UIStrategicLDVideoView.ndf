@@ -1,0 +1,19 @@
+
+//-------------------------------------------------------------------------------------
+
+UIStrategicLDVideoViewDescriptor is TUICommonLDVideoViewDescriptor
+(
+    Components = MAP
+    [
+        (
+            "FullScreenCutSceneVideo", ~/CommonFullScreenCutSceneVideo
+        ),
+        (
+            "DefaultSubtitleDescriptor", ~/CommonDefaultSubtitleDescriptor
+        ),
+    ]
+    MainComponentDescriptor = BUCKContainerDescriptor(ComponentFrame=TUIFramePropertyRTTI())
+    MainComponentContainerUniqueName = ""
+    SkipVideoOption = $/TestOption/SkipMovies
+    ShowSubtitles = $/GameplayOption/ShowSubtitles
+)

@@ -276,13 +276,14 @@ private template Template_Capture_Command_Zone
     AlsoConsiderTheseDescriptorsForMaintain = [],
     RoundFloor:bool = false,
     CanTargetAlliance:bool = false,
+    PoolModelList = [~/Pool_Commandant],
 ]
 is TMacroActionDescriptor_CaptureCommandZone_Specific
 (
     ParametresDeMission =
     [
         TGenerationSettingHolder(GenerationType = <GenerationType> NumberLaunchBasedOnGenerationType = <NumberLaunchBasedOnGenerationType> ConsiderOnlyAssignedCorridors = true  AlsoConsiderTheseDescriptorsForMaintain = <AlsoConsiderTheseDescriptorsForMaintain> RoundFloor = <RoundFloor>),
-        TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [~/Pool_Commandant]),
+        TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = <PoolModelList>),
         TForcedPlacementSettingHolder(OrderedPrioritaryZoneWeightList = [~/CommandZoneCustomWeighForIAStrat]),
         TDefenseBehaviorSettingHolder(
             DisableAttackDuringZoneDefense = true
@@ -328,6 +329,7 @@ export CaptureOneObjectif is Template_Capture_Command_Zone
 (
     GenerationType = TGenerationType_FixedSize
     NumberLaunchBasedOnGenerationType = 1
+    PoolModelList = [~/Pool_Commandant_One_Mission]
 )
 //-------------------------------------------------------------------------
 export CaptureAllZoneObjectif is Template_Capture_Command_Zone
@@ -342,14 +344,14 @@ export CaptureHalfZoneObjectif_Floor is Template_Capture_Command_Zone
     GenerationType = TGenerationType_BasedOnNumberOfObjectives
     NumberLaunchBasedOnGenerationType = 2
     RoundFloor = true
-    AlsoConsiderTheseDescriptorsForMaintain = [CaptureOneObjectif, CaptureHalfZoneObjectif_Ceil]
+    AlsoConsiderTheseDescriptorsForMaintain = [CaptureOneObjectif, CaptureHalfZoneObjectif_Ceil, CaptureAllZoneObjectif]
 )
 //-------------------------------------------------------------------------
 export CaptureHalfZoneObjectif_Ceil is Template_Capture_Command_Zone
 (
     GenerationType = TGenerationType_BasedOnNumberOfObjectives
     NumberLaunchBasedOnGenerationType = 2
-    AlsoConsiderTheseDescriptorsForMaintain = [CaptureOneObjectif, CaptureHalfZoneObjectif_Floor]
+    AlsoConsiderTheseDescriptorsForMaintain = [CaptureOneObjectif, CaptureHalfZoneObjectif_Floor, CaptureAllZoneObjectif]
 )
 //-------------------------------------------------------------------------
 export Pool_Commandant is TPoolModel
@@ -362,6 +364,27 @@ export Pool_Commandant is TPoolModel
             IndexPriorityOverPrice = true
             PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
+                "Char_CMD",
+                "Vehicule_CMD",
+                "InfmapCommander",
+            ]
+        ),
+    ]
+)
+
+//-------------------------------------------------------------------------
+export Pool_Commandant_One_Mission is TPoolModel
+(
+    ModelList = [
+        TPoolElement(
+            DescriptorId = GUID:{87930d05-cd59-4314-a1d1-2c04914945ff}
+            Required = true
+            Nb = 1
+            IndexPriorityOverPrice = true
+            PriceComparisonMethod = EPriceComparatorType/Random
+            TagsPriority = [
+                "Char_CMD",
+                "Vehicule_CMD",
                 "InfmapCommander",
             ]
         ),
@@ -379,7 +402,6 @@ export Defense_Objectif is TMacroActionDescriptor_Defense_Specific
         TSupportSettingHolder(SettingList = [Renfort_AT]),
         TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [ ~/Pool_Defense_Objectif]),
         TForcedPlacementSettingHolder(OrderedPrioritaryZoneWeightList = [~/CommandZoneCustomWeighForIAStrat] ForceInAssignedCorridor = true),
-        TIgnoreSafePathSettingHolder(),
     ]
 )
 

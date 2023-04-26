@@ -1157,6 +1157,109 @@ is BUCKSensibleAreaDescriptor
 )
 
 //-------------------------------------------------------------------------------------
+
+private template UnitLabelUpperList
+[
+    ComponentFrame : TUIFramePropertyRTTI = TUIFramePropertyRTTI
+    (
+        AlignementToFather = [0.5, 0.0]
+        AlignementToAnchor = [0.5, 0.0]
+    ),
+    IsForMultiSelection : bool,
+    ChildFitToContent : bool = false,
+] is TBUCKSpecificLabelUpperListDescriptor
+(
+    ElementName = "LabelUpperList"
+
+    ComponentFrame = <ComponentFrame>
+
+    IsClippable = <IsForMultiSelection>
+
+    ChildFitToContent = <ChildFitToContent>
+
+    BackgroundLocalRenderLayer = 1
+    LocalRenderLayer = 2
+    UniformDrawer = $/UserInterface/UIUniformDrawer
+    TextureDrawer = "ColorMultiply"
+    TextFormatScript = ~/DefaultTextFormatScript
+
+    // Evacuation Icon
+    EvacuationIconTextureName = "icone_evacuation"
+    EvacuationIconMagnifiableSize = 23.0
+
+    // Reload Icon
+    ReloadIconMagnifiableSize = 22.0
+    ReloadIconDrawer = $/UserInterface/ChronoDrawerCommon
+    ReloadIconChronoTexture = "icone_reticule"
+    ReloadIconTextureToken = "icone_reticule_vide"
+    ReloadIconChronoTextureColor0 = "Transparent"
+    // A configurer via AimingDefaultColor
+    ReloadIconChronoTextureColor1 = "Cyan"
+
+    // All Texts
+    ParagraphStyle = TParagraphStyleRTTI
+    (
+        Alignment = UIText_Center
+        VerticalAlignment = UIText_VerticalCenter
+        InterLine = 0
+    )
+
+    TypefaceToken = "UISecondFont"
+
+    // Unit Name
+    UnitNameTextStyle = "Default"
+
+    // Unit Number
+    NbUnitsBackgroundColor = "SD2_Gris80"
+    NbUnitsTextStyle = "LabelUnitNameStroke"
+    NbUnitsTextColor = "Blanc"
+
+    // Player Name
+    PlayerNameTextStyle = "PlayerName"
+    PlayerNameTextColor = "Fulda_Turquoise"
+    PlayerNameTypefaceToken = "UIMainFont"
+
+    TextsSize =
+    [
+        // Unit Name
+        "14",
+        // Units Number
+        "14",
+        // Player Name
+        "20",
+    ]
+
+    TextsPadding =
+    [
+        // Unit Name
+        TRTTILength4(Magnifiable = [3.0, 1.0, 3.0, 1.0]),
+        // Units Number
+        TRTTILength4(Magnifiable = [1.0, 1.0, 2.0, 1.0]),
+        // Player Name
+        TRTTILength4(Magnifiable = [1.0, 1.0, 1.0, 1.0]),
+    ]
+
+    Components =
+    (<IsForMultiSelection> ?
+        [] :
+        [
+            // Size will be calculated in cpp
+            BUCKSensibleAreaDescriptor
+            (
+                ElementName = "UnitNameListSensibleArea"
+
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    AlignementToFather = [0.5, 1.0]
+                    AlignementToAnchor = [0.5, 1.0]
+                )
+                IsClippable = false
+            )
+        ]
+    )
+)
+
+//-------------------------------------------------------------------------------------
 private template UpperLabel
 [
     IsForMultiSelection : bool = false,
@@ -1172,43 +1275,12 @@ is BUCKListDescriptor
     )
 
     Axis = ~/ListAxis/Vertical
+    ClipContent = <IsForMultiSelection>
 
     // Penser a modifier la taille en Pixel du LabelUnitBUCKComponent si on aggrandit ce composant !
     Elements =
     [
-        BUCKListElementDescriptor(ComponentDescriptor = ~/UnitLabelUnitEvacIconBUCKComponent),
-        BUCKListElementDescriptor(ComponentDescriptor = ~/UnitLabelUnitPlayerNameBUCKComponent),
-        BUCKListElementDescriptor(ComponentDescriptor = UnitLabelUnitReloadIconBUCKComponent(LocalRenderLayer = 1)),
-
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKContainerDescriptor
-            (
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    MagnifiableWidthHeight = [100.0, 14.0]
-                    AlignementToFather = [0.5, 0.0]
-                    AlignementToAnchor = [0.5, 0.0]
-                )
-
-                FitStyle = (<IsForMultiSelection> ? ~/ContainerFitStyle/None : ~/ContainerFitStyle/MaxBetweenUserDefinedAndContent)
-                ClipContent = true
-                Components =
-                [
-                    <IsForMultiSelection> ? UnitNameList
-                    (
-                        IsForMultiSelection = true
-                        IsForCarriedUnit = false
-                        LocalRenderLayer = 1
-                    )
-                    : UnitNameListSensibleArea
-                    (
-                        IsForCarriedUnit = false
-                        LocalRenderLayer = 1
-                    )
-                ]
-            )
-        ),
+        BUCKListElementDescriptor(ComponentDescriptor = UnitLabelUpperList(IsForMultiSelection = <IsForMultiSelection>)),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = UnitIconAndRightLabel

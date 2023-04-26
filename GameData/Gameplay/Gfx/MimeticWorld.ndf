@@ -10,6 +10,16 @@ unnamed TMimeticWorldDescriptor
 (
     World = $/M3D/Scene/DefaultWorld
     Happenings = MAP[
+        (['test_weapon'], TIntroduceMobileHappening
+            (
+                Happening = InfantryFiringHappening
+                (
+                    Action          = $/GFX/GameFx/fx_tir_placeHolder
+                    Power           = 2.
+                    WaitBetweenShot = 0.5
+                )
+            )
+        ),
         (['chaleur'], TIntroduceMobileHappening( Happening = TSequencingActionHappening( ActionDescriptor = TActionCall( Action = $/VFX_Bank/FX_BANK_Binder_Chaleur_Simple )))),
         (['fumigene'], TIntroduceMobileHappening( Happening = TSequencingActionHappening( ActionDescriptor = FxFumigeneWithParams ))),
         (['fumigene_ghost'], TIntroduceMobileHappening( Happening = TSequencingActionHappening( ActionDescriptor = FxFumigeneGhostWithParams ))),
@@ -56,8 +66,7 @@ unnamed TMimeticWorldDescriptor
                 )
             ))
         ),
-        (["impact"], TCompositeHappening( SubHappenings = [ AllImpactHappenings, AllImpactSoundHappenings ] )),
-    ] + InfantryHappenings
+    ] + AllImpactHappenings + InfantryHappenings
 
     CameraMoverProxyForDebug = $/M3D/Scene/IngameCameraMoverHelperProxy
 )

@@ -15071,6 +15071,46 @@ export Descriptor_ShowRoomUnit_M1025_Humvee_AGL_US is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_ShowRoomUnit_M1025_Humvee_AGL_nonPara_US is TEntityDescriptor
+(
+    DescriptorId        = GUID:{77a5dd47-3c78-42ee-8eea-feeac37da156}
+    ClassNameForDebug   = "ShowRoomUnit_M1025_Humvee_AGL_nonPara_US"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_M1025_Humvee_AGL_nonPara_US_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_M1025_Humvee_AGL_nonPara_US
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Vehicle'
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
 export Descriptor_ShowRoomUnit_M1025_Humvee_CMD_US is TEntityDescriptor
 (
     DescriptorId        = GUID:{a01bd1b3-b9df-45fb-b75b-1e74ed07d1f5}
@@ -16380,6 +16420,46 @@ export Descriptor_ShowRoomUnit_M1A1_Abrams_US is TEntityDescriptor
         WeaponManager is TModuleSelector
         (
             Default        = $/GFX/Everything/WeaponDescriptor_M1A1_Abrams_US
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'MBT'
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_M1A1_Abrams_reco_US is TEntityDescriptor
+(
+    DescriptorId        = GUID:{0940679a-a47e-4bfd-960d-e4436b28af93}
+    ClassNameForDebug   = "ShowRoomUnit_M1A1_Abrams_reco_US"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_M1A1_Abrams_reco_US_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_M1A1_Abrams_reco_US
             Selection      = [~/NilDescriptorIfCadavre]
         ),
         ~/LinkTeamModuleDescriptor,
@@ -20319,6 +20399,82 @@ export Descriptor_ShowRoomUnit_MotRifles_HMG_SOV is TEntityDescriptor
                                         (0,[1,]),
                                         (1,[1,]),
                                         (2,[1,]),
+                                        (3,[0,]),
+                                        (4,[0,]),
+                                        (5,[0,]),
+                                        (6,[0,2,]),
+                                      ]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Inf'
+            SpawnType = EShowroomSpawnType/Infantry
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_MotRifles_Metis_DDR is TEntityDescriptor
+(
+    DescriptorId        = GUID:{54bba119-8c28-4cc8-94b9-bce41f533fff}
+    ClassNameForDebug   = "ShowRoomUnit_MotRifles_Metis_DDR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'DDR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = ~/InfantryDepictionSquadShowroom
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_MotRifles_Metis_DDR
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 7
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'MotRifles_Metis_DDR'
+                    WeaponUnitFXKey     = 'MotRifles_Metis_DDR'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 9 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierColumnDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[1,]),
+                                        (1,[0,]),
+                                        (2,[0,]),
                                         (3,[0,]),
                                         (4,[0,]),
                                         (5,[0,]),
@@ -26482,6 +26638,46 @@ export Descriptor_ShowRoomUnit_T55A_CMD_DDR is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_ShowRoomUnit_T55A_CMD_SOV is TEntityDescriptor
+(
+    DescriptorId        = GUID:{f553e127-5224-47df-9415-03bdb2148d3d}
+    ClassNameForDebug   = "ShowRoomUnit_T55A_CMD_SOV"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Command
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_T55A_CMD_SOV_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_T55A_CMD_SOV
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'MBT'
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
 export Descriptor_ShowRoomUnit_T55A_DDR is TEntityDescriptor
 (
     DescriptorId        = GUID:{1a47a8e1-5024-4cf6-9928-f7705a5f4d13}
@@ -26504,6 +26700,46 @@ export Descriptor_ShowRoomUnit_T55A_DDR is TEntityDescriptor
         WeaponManager is TModuleSelector
         (
             Default        = $/GFX/Everything/WeaponDescriptor_T55A_DDR
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'MBT'
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_T55A_SOV is TEntityDescriptor
+(
+    DescriptorId        = GUID:{eb2b273b-b215-4553-b2f5-5438d134ea42}
+    ClassNameForDebug   = "ShowRoomUnit_T55A_SOV"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Tank
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_T55A_SOV_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_T55A_SOV
             Selection      = [~/NilDescriptorIfCadavre]
         ),
         ~/LinkTeamModuleDescriptor,

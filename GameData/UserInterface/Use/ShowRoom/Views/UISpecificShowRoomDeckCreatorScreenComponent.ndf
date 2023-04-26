@@ -2005,6 +2005,7 @@ DeckCreatorScreenComponentDescriptor is TUISpecificShowRoomDeckCreatorScreenComp
     AddUnitSound = SoundEvent_DeckEditorAddUnit
     RemoveUnitSound = SoundEvent_DeckEditorRemoveUnit
     MaxUnitByLineInUnitDivisionGrid = MaxUnitByLineInUnitDivisionGridDeckCreator
+    CycleToNextLightMapping = $/KeyboardOption/Mapping_NextLightMode
 )
 
 //-------------------------------------------------------------------------------------

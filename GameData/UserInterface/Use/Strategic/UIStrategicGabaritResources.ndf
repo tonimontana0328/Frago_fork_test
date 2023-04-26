@@ -131,6 +131,14 @@ FeedbackRecoZoneResource is StrategicFeedbackUICommonZoCDefinition
 
 //-------------------------------------------------------------------------------------
 
+FeedbackGroundSupportResource is StrategicFeedbackUICommonZoCDefinition
+(
+    ColorToken = 'GroundSupportZone'
+    Thickness = 600
+)
+
+//-------------------------------------------------------------------------------------
+
 StrategicGabaritResources is TUICommonGabaritResources
 (
     World3D = $/M3D/Scene/DefaultWorld
@@ -150,5 +158,6 @@ StrategicZoCResources is TUICommonZoCResources
     DisabledNoGoZone = ~/FeedbackDisabledNoGoZoneResource
     AirNoGoZone = ~/FeedbackAirNoGoZoneResource
     RecoZone = ~/FeedbackRecoZoneResource
+    GroundSupportZone = ~/FeedbackGroundSupportResource
     WorldFloorProxy = $/M3D/Scene/WorldFloorForIAProxy
 )

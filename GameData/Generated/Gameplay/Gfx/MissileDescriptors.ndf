@@ -21,7 +21,6 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -142,7 +141,6 @@ export Descriptor_Missile_AA_AIM132_ASRAAM is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -263,7 +261,6 @@ export Descriptor_Missile_AA_AIM7F_Sparrow is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -384,7 +381,6 @@ export Descriptor_Missile_AA_AIM7M_Sparrow is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -505,7 +501,6 @@ export Descriptor_Missile_AA_AIM9J_Sidewinder is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -626,7 +621,6 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -747,7 +741,6 @@ export Descriptor_Missile_AA_AIM9M_Sidewinder is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -868,7 +861,6 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -989,7 +981,6 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder_x2 is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -1110,7 +1101,6 @@ export Descriptor_Missile_AA_Matra_R530 is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -1231,7 +1221,6 @@ export Descriptor_Missile_AA_Matra_Super_530D is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -1352,7 +1341,6 @@ export Descriptor_Missile_AA_Matra_Super_530F is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -1473,7 +1461,6 @@ export Descriptor_Missile_AA_R13M is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -1594,7 +1581,6 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -1715,7 +1701,6 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor
@@ -13371,8 +13356,8 @@ export Descriptor_Missile_ATGM_SS11_x4 is TEntityDescriptor
                 AscendantPhaseConfig = nil
                 RecedingPhaseConfig = nil
                 CruiseAltitude = 0.0 * Metre
-                TimeMaxBetweenRandomMoveWhenUncontrollable = 2
-                TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+                TimeMaxBetweenRandomMoveWhenUncontrollable = 1
+                TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
                 TimeBetweenChaosUpdates = 0.1
                 RangeChaos = 1250
                 AngleMaxForRandomMouvUncontrollable = 0.00060
@@ -13851,8 +13836,8 @@ export Descriptor_Missile_ATGM_9K115_Metis_M is TEntityDescriptor
                 AscendantPhaseConfig = nil
                 RecedingPhaseConfig = nil
                 CruiseAltitude = 0.0 * Metre
-                TimeMaxBetweenRandomMoveWhenUncontrollable = 1
-                TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
+                TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+                TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
                 TimeBetweenChaosUpdates = 0.1
                 RangeChaos = 2000
                 AngleMaxForRandomMouvUncontrollable = 0.00060
@@ -21415,7 +21400,6 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
                 Flag_Detectable,
                 Flag_VehiculeVolant,
                 Flag_ProjectileFlying,
-                
             ]
         ),
             TPositionModuleDescriptor

@@ -1056,6 +1056,11 @@ GhostDepiction_M1025_Humvee_AGL_US is GhostVehicleDepictionTemplate
     Selector = Selector_M1025_Humvee_AGL_US
     Alternatives = Alternatives_M1025_Humvee_AGL_US
 )
+GhostDepiction_M1025_Humvee_AGL_nonPara_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M1025_Humvee_AGL_nonPara_US
+    Alternatives = Alternatives_M1025_Humvee_AGL_nonPara_US
+)
 GhostDepiction_M1025_Humvee_CMD_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M1025_Humvee_CMD_US
@@ -1225,6 +1230,11 @@ GhostDepiction_M1A1_Abrams_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M1A1_Abrams_US
     Alternatives = Alternatives_M1A1_Abrams_US
+)
+GhostDepiction_M1A1_Abrams_reco_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M1A1_Abrams_reco_US
+    Alternatives = Alternatives_M1A1_Abrams_reco_US
 )
 GhostDepiction_M1IP_Abrams_CMD_US is GhostVehicleDepictionTemplate
 (
@@ -1616,10 +1626,20 @@ GhostDepiction_T55A_CMD_DDR is GhostVehicleDepictionTemplate
     Selector = Selector_T55A_CMD_DDR
     Alternatives = Alternatives_T55A_CMD_DDR
 )
+GhostDepiction_T55A_CMD_SOV is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_T55A_CMD_SOV
+    Alternatives = Alternatives_T55A_CMD_SOV
+)
 GhostDepiction_T55A_DDR is GhostVehicleDepictionTemplate
 (
     Selector = Selector_T55A_DDR
     Alternatives = Alternatives_T55A_DDR
+)
+GhostDepiction_T55A_SOV is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_T55A_SOV
+    Alternatives = Alternatives_T55A_SOV
 )
 GhostDepiction_T62M1_SOV is GhostVehicleDepictionTemplate
 (

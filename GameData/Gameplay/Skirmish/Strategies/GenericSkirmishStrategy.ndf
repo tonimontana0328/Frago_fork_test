@@ -85,11 +85,6 @@ export Gen_Phase_Deploiement is TSequenceGeneratorDescriptor
     NbMacroActionAllowedToProduceSimultaneous = 4
     GeneratorList =
     [
-        ~/CaptureHalfZoneObjectif_Ceil,
-
-        // Capture de zones
-        ~/Attack_Objectives,
-
         //------------------------------
         // Support & Supply
         //------------------------------
@@ -97,9 +92,14 @@ export Gen_Phase_Deploiement is TSequenceGeneratorDescriptor
 
         ~/Supply_Skirmish,
 
-        ~/Reco,            // 40 par reco
+        ~/CaptureOneObjectif,
 
-        ~/Defense_Objectif,
+        // Capture de zones
+        ~/Attack_Objectives,
+
+        ~/Airstrike_Offensive_AA,,
+
+        ~/Reco,            // 40 par reco
 
         //------------------------------
         // Attaques principales
@@ -125,6 +125,7 @@ export Gen_Phase_Deploiement is TSequenceGeneratorDescriptor
         // Défenses Avions Arti
         //------------------------------
         ~/Supply_Skirmish_Allied,
+        ~/CaptureHalfZoneObjectif_Ceil,
 
     ] + ~/Defenses_Airstrike_Arti_Shuffle_Deploy
 
@@ -146,10 +147,6 @@ export Gen_Phase_Command is TSequenceGeneratorDescriptor
         // prioritaires sur les attaques. L'idée est de lancer ses attaques dès
         // le début, mais de renforcer les backlines avant de récupérer de nos pertes
         // Capture de zones
-        ~/CaptureHalfZoneObjectif_Ceil,
-
-        ~/Attack_Objectives,
-
         //------------------------------
         // Support & Supply
         //------------------------------
@@ -157,7 +154,20 @@ export Gen_Phase_Command is TSequenceGeneratorDescriptor
 
         ~/Supply_Skirmish,
 
+        ~/CaptureOneObjectif,
+
+        ~/Attack_Objectives,
+        ~/Airstrike_Offensive_AA,
+
         ~/Reco,
+
+        //------------------------------
+        // Attaques principales
+        //------------------------------
+        ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
+        ~/Attack_Helo,
+
+        ~/Defense_Objectif,
 
         //------------------------------
         // Défenses prioritaires
@@ -171,15 +181,11 @@ export Gen_Phase_Command is TSequenceGeneratorDescriptor
         ~/Defense_Static_AA,
         ~/Defense_Dynamic_AA,
 
-        ~/Defense_Objectif,
+
+        ~/CaptureHalfZoneObjectif_Ceil,
 
         ~/Attack_Filler,
 
-        //------------------------------
-        // Attaques principales
-        //------------------------------
-        ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
-        ~/Attack_Helo,
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
 
         ~/Attack_Adaptive,  // Faire du code pour adapater le budget en fonction de l'income
@@ -243,9 +249,9 @@ export Gen_Phase_LastHope is TSequenceGeneratorDescriptor
         //------------------------------
         // Attaques principales
         //------------------------------
-        ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
-        ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
-        ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
+        ~/Attack_Main,
+        ~/Attack_Main,
+        ~/Attack_Main,
         ~/Attack_Helo,
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
 

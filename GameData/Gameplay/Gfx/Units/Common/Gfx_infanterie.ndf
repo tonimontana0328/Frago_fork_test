@@ -5,20 +5,19 @@
 //------------------------------------------------------------------------------
 //----------------------------------ARMES USA-----------------------------------
 //------------------------------------------------------------------------------
-export ModelFile_M16   is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/M16A2.fbx'
+//OLD M16 export ModelFile_M16A2 is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/M16A2.Ase2NdfBin'
 
 export ModelFile_M72_LAW   is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/M72A4.Ase2NdfBin'
 export ModelFile_M47_DRAGON   is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/M47_Dragon_II.Ase2NdfBin'
 export ModelFile_Test_missile_AA_inf   is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/M72A4.Ase2NdfBin'
 export ModelFile_MANPAD_FIM92   is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/FIM-92_Stinger.Ase2NdfBin'
 
-
-
 export ModelFile_GrenUS is 'GameData:/Assets/3D/Units/Ammo/Grenades/Pineapple_grenade.fbx'
 
 export ModelFile_M14_Sniper is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/M14_Sniper_Rifle/M14_Sniper_Rifle.Ase2NdfBin'
 export ModelFile_M16A1_Carbine is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/M16A1_Carbine.Ase2NdfBin'
-export ModelFile_M16A2 is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/M16A2.Ase2NdfBin'
+export ModelFile_M16A2   is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/M16A2.fbx'
+export ModelFile_M16A1 is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/M16A1.fbx'
 export ModelFile_M24_Sniper is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/M24_Sniper_Rifle/M24_Sniper_Rifle.Ase2NdfBin'
 
 export ModelFile_MainNue is 'GameData:/Assets/3D/Units/Ammo/Armes/USA/main_nue.fbx'
@@ -237,6 +236,11 @@ export ModelFile_FireSupport_SOV_LOW is SOV_MotoStrelki_1_LOW
 
 //Reserve_SOV
 export ModelFile_Reserve_SOV is SOV_MotoStrelki_1
+export ModelFile_Reserve_SOV_02 is SOV_MotoStrelki_2
+export ModelFile_Reserve_SOV_03 is SOV_MotoStrelki_NCO
+export ModelFile_Reserve_SOV_04 is SOV_MotoStrelki_Officer
+export ModelFile_Reserve_SOV_05 is SOV_MotoStrelki_Sniper
+export ModelFile_Reserve_SOV_06 is SOV_MotoStrelki_spe
 export ModelFile_Reserve_SOV_LOW is SOV_MotoStrelki_1_LOW
 
 //MotRifles_BTR_SOV
@@ -728,6 +732,18 @@ export ModelFile_LightRifles_CMD_US_09 is US_GI_Sniper
 export ModelFile_LightRifles_CMD_US_10 is US_GI_Officer
 export ModelFile_LightRifles_CMD_US_LOW is 'GameData:/Assets/3D/Units/US/Infanterie/GI/GI_spe.Ase2NdfBin'
 
+//LightRifles_LAW_US
+export ModelFile_LightRifles_LAW_US is US_GI_1
+export ModelFile_LightRifles_LAW_US_02 is US_GI_1
+export ModelFile_LightRifles_LAW_US_03 is US_GI_2
+export ModelFile_LightRifles_LAW_US_04 is US_GI_2
+export ModelFile_LightRifles_LAW_US_05 is US_GI_NCO
+export ModelFile_LightRifles_LAW_US_06 is US_GI_NCO
+export ModelFile_LightRifles_LAW_US_07 is US_GI_spe
+export ModelFile_LightRifles_LAW_US_08 is US_GI_spe
+export ModelFile_LightRifles_LAW_US_09 is US_GI_Sniper
+export ModelFile_LightRifles_LAW_US_10 is US_GI_Officer
+export ModelFile_LightRifles_LAW_US_LOW is 'GameData:/Assets/3D/Units/US/Infanterie/GI/GI_spe.Ase2NdfBin'
 
 //LightRifles_RCL_US
 export ModelFile_LightRifles_RCL_US is US_GI_1
@@ -923,6 +939,18 @@ export ModelFile_NatGuard_Dragon_US_LOW is US_GI_1
 //NatGuard_LAW_US
 export ModelFile_NatGuard_LAW_US is US_GI_1
 export ModelFile_NatGuard_LAW_US_LOW is US_GI_1
+
+//Rifles_Cavalry_US
+export ModelFile_Rifles_Cavalry_US is US_GI_1
+export ModelFile_Rifles_Cavalry_US_02 is US_GI_1
+export ModelFile_Rifles_Cavalry_US_03 is US_GI_2
+export ModelFile_Rifles_Cavalry_US_04 is US_GI_2
+export ModelFile_Rifles_Cavalry_US_05 is US_GI_NCO
+export ModelFile_Rifles_Cavalry_US_06 is US_GI_spe
+export ModelFile_Rifles_Cavalry_US_07 is US_GI_Sniper
+export ModelFile_Rifles_Cavalry_US_08 is US_GI_Sniper
+export ModelFile_Rifles_Cavalry_US_09 is US_GI_Officer
+export ModelFile_Rifles_Cavalry_US_LOW is US_GI_1
 
 //Rifles_US
 export ModelFile_Rifles_US is US_GI_1
@@ -1247,17 +1275,33 @@ export ModelFile_Reserve_NL_LOW is US_GI_1
 export ModelFile_Engineers_Scout_NL is US_GI_1
 export ModelFile_Engineers_Scout_NL_LOW is US_GI_1
 
+//Mech_Rifles_M72_LAW_NL
+export ModelFile_Mech_Rifles_M72_LAW_NL is US_GI_1
+export ModelFile_Mech_Rifles_M72_LAW_NL_LOW is US_GI_1
+
 //Rifles_M72_LAW_NL
 export ModelFile_Rifles_M72_LAW_NL is US_GI_1
 export ModelFile_Rifles_M72_LAW_NL_LOW is US_GI_1
+
+//Mech_Rifles_Carl_NL
+export ModelFile_Mech_Rifles_Carl_NL is US_GI_1
+export ModelFile_Mech_Rifles_Carl_NL_LOW is US_GI_1
 
 //Rifles_Carl_NL
 export ModelFile_Rifles_Carl_NL is US_GI_1
 export ModelFile_Rifles_Carl_NL_LOW is US_GI_1
 
+//Mech_Rifles_Dragon_NL
+export ModelFile_Mech_Rifles_Dragon_NL is US_GI_1
+export ModelFile_Mech_Rifles_Dragon_NL_LOW is US_GI_1
+
 //Rifles_Dragon_NL
 export ModelFile_Rifles_Dragon_NL is US_GI_1
 export ModelFile_Rifles_Dragon_NL_LOW is US_GI_1
+
+//Mech_Rifles_CMD_NL
+export ModelFile_Mech_Rifles_CMD_NL is US_GI_1
+export ModelFile_Mech_Rifles_CMD_NL_LOW is US_GI_1
 
 //Rifles_CMD_NL
 export ModelFile_Rifles_CMD_NL is US_GI_1
@@ -1336,6 +1380,15 @@ Militarstreifen_1 is 'GameData:/Assets/3D/Units/DDR/Infanterie/Militarstreifen/M
 Militarstreifen_2 is 'GameData:/Assets/3D/Units/DDR/Infanterie/Militarstreifen/Militarstreifen_2.Ase2NdfBin'
 
 //------------------------------------------------------------------------------
+//Reserve_DDR
+export ModelFile_Reserve_DDR is DDR_MotSchutzen_1
+export ModelFile_Reserve_DDR_02 is DDR_MotSchutzen_2
+export ModelFile_Reserve_DDR_03 is DDR_MotSchutzen_NCO
+export ModelFile_Reserve_DDR_04 is DDR_MotSchutzen_Officer
+export ModelFile_Reserve_DDR_05 is DDR_MotSchutzen_Sniper
+export ModelFile_Reserve_DDR_06 is DDR_MotSchutzen_spe
+export ModelFile_Reserve_DDR_LOW is DDR_MotSchutzen_LOW
+
 //MotSchutzen_DDR
 export ModelFile_MotSchutzen_DDR is DDR_MotSchutzen_1
 export ModelFile_MotSchutzen_DDR_02 is DDR_MotSchutzen_2
@@ -1353,6 +1406,12 @@ export ModelFile_MP_DDR_LOW is Militarstreifen_2
 //Grenzer_CMD_DDR
 export ModelFile_Grenzer_CMD_DDR is 'GameData:/Assets/3D/Units/DDR/Infanterie/Grenzer/Grenzer_1.Ase2NdfBin'
 export ModelFile_Grenzer_CMD_DDR_LOW is 'GameData:/Assets/3D/Units/DDR/Infanterie/Grenzer/Grenzer_1.Ase2NdfBin'
+
+//Grenzer_Flam_DDR
+export ModelFile_Grenzer_Flam_DDR is 'GameData:/Assets/3D/Units/DDR/Infanterie/Grenzer/Grenzer_1.Ase2NdfBin'
+export ModelFile_Grenzer_Flam_DDR_02 is  'GameData:/Assets/3D/Units/DDR/Infanterie/Grenzer/Grenzer_2.Ase2NdfBin'
+export ModelFile_Grenzer_Flam_DDR_03 is  'GameData:/Assets/3D/Units/DDR/Infanterie/Grenzer/Grenzer_NCO.Ase2NdfBin'
+export ModelFile_Grenzer_Flam_DDR_LOW is 'GameData:/Assets/3D/Units/DDR/Infanterie/Grenzer/Grenzer_1.Ase2NdfBin'
 
 //Grenzer_DDR
 export ModelFile_Grenzer_DDR is     'GameData:/Assets/3D/Units/DDR/Infanterie/Grenzer/Grenzer_1.Ase2NdfBin'
@@ -1733,6 +1792,15 @@ FRP_2 is 'GameData:/Assets/3D/Units/RFA/Infanterie/FRP/FRP_2.Ase2NdfBin'
 //'GameData:/Assets/3D/Units/RFA/Infanterie/PzGrenadier/Feldjager_NCO.Ase2NdfBin'
 
 //------------------------------------------------------------------------------
+//SEK_RFA
+export ModelFile_SEK_RFA is RFA_BGS_1
+export ModelFile_SEK_RFA_02 is RFA_BGS_1
+export ModelFile_SEK_RFA_03 is RFA_BGS_1
+export ModelFile_SEK_RFA_04 is RFA_BGS_2
+export ModelFile_SEK_RFA_05 is RFA_BGS_2
+export ModelFile_SEK_RFA_06 is RFA_BGS_2
+export ModelFile_SEK_RFA_LOW is RFA_BGS_1
+
 //BGS_RFA
 export ModelFile_BGS_RFA is RFA_BGS_1
 export ModelFile_BGS_RFA_02 is RFA_BGS_1
@@ -2833,6 +2901,15 @@ export ModelFile_Rifles_CMD_BEL_04 is BEL_Linie_NCO
 export ModelFile_Rifles_CMD_BEL_05 is BEL_Linie_2
 export ModelFile_Rifles_CMD_BEL_06 is BEL_Linie_spe
 export ModelFile_Rifles_CMD_BEL_LOW is BEL_Linie_2
+
+//Reserve_BEL
+export ModelFile_Reserve_BEL is BEL_Linie_2
+export ModelFile_Reserve_BEL_02 is BEL_Linie_1
+export ModelFile_Reserve_BEL_03 is BEL_Linie_1
+export ModelFile_Reserve_BEL_04 is BEL_Linie_NCO
+export ModelFile_Reserve_BEL_05 is BEL_Linie_2
+export ModelFile_Reserve_BEL_06 is BEL_Linie_spe
+export ModelFile_Reserve_BEL_LOW is BEL_Linie_2
 
 //Rifles_AT_BEL
 export ModelFile_Rifles_AT_BEL is BEL_Linie_2

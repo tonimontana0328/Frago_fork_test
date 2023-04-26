@@ -84,10 +84,6 @@ export Hard_Phase_Deploiement is TSequenceGeneratorDescriptor
     NbMacroActionAllowedToProduceSimultaneous = 4
     GeneratorList =
     [
-        ~/CaptureHalfZoneObjectif_Ceil,
-
-        ~/Attack_Objectives,
-
         //------------------------------
         // Support & Supply
         //------------------------------
@@ -95,16 +91,20 @@ export Hard_Phase_Deploiement is TSequenceGeneratorDescriptor
 
         ~/Supply_Skirmish,
 
+        ~/CaptureOneObjectif,
+
+        ~/Attack_Objectives,
+
+
+        ~/Airstrike_Offensive_AA,
 
         ~/Reco,            // 40 par reco
-
-        ~/Defense_Objectif,
 
         //------------------------------
         // Attaques principales
         //------------------------------
         // Grosse attaque
-        ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200 => un cmd pas cher, une reco pas cher, et le reste de tanks pour fill le budget en random.
+        ~/Attack_Main,
         ~/Attack_Helo,
 
         ~/Defense_Static_AA,
@@ -112,20 +112,14 @@ export Hard_Phase_Deploiement is TSequenceGeneratorDescriptor
 
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
 
+        ~/CaptureHalfZoneObjectif_Ceil,
         // Reste du front
         ~/Attack_Adaptive,          // ~100
         ~/Attack_Adaptive,          // ~100
 
-
-        ~/Attack_Adaptive,          // ~100
         ~/Attack_Filler,            // budget 40
 
-        ~/CaptureAllZoneObjectif,
 
-        //------------------------------
-        // Supply
-        //------------------------------
-        ~/Supply_Skirmish_Allied,
 
         //------------------------------
         // Défenses Avions Arti
@@ -141,7 +135,7 @@ export Hard_Phase_Deploiement is TSequenceGeneratorDescriptor
 
         ~/Artillery_Sniper,
         ~/Artillery_Expensive,
-
+        ~/CaptureAllZoneObjectif,
     ] + ~/Defenses_Airstrike_Arti_Shuffle_Deploy
 
     //------------------------------
@@ -159,20 +153,28 @@ export Hard_Phase_Command is TSequenceGeneratorDescriptor
         // prioritaires sur les attaques. L'idée est de lancer ses attaques dès
         // le début, mais de renforcer les backlines avant de récupérer de nos pertes
         // Capture de zones
-        ~/CaptureHalfZoneObjectif_Ceil,
-
-        ~/Attack_Objectives,
-
         //------------------------------
         // Support & Supply
         //------------------------------
         ~/Support_Transports,
 
         ~/Supply_Skirmish,
+
+
+        ~/CaptureOneObjectif,
+
+        ~/Attack_Objectives,
+
+        ~/Airstrike_Offensive_AA,
+
         ~/Reco,
 
+        //------------------------------
+        // Attaques principales
+        //------------------------------
+        ~/Attack_Main,
+        ~/Attack_Helo,
 
-        ~/Attack_Filler,
         //------------------------------
         // Défenses prioritaires
         //------------------------------
@@ -187,20 +189,13 @@ export Hard_Phase_Command is TSequenceGeneratorDescriptor
         //Cet mission lance les objectifs restant
         ~/Defense_Objectif,
 
-        //------------------------------
-        // Attaques principales
-        //------------------------------
-        ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
-        ~/Attack_Helo,
-
-        ~/Defense_Static_AA,
-        ~/Defense_Dynamic_AA,
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
+
+        ~/CaptureHalfZoneObjectif_Ceil,
 
         ~/Attack_Adaptive,  // Faire du code pour adapater le budget en fonction de l'income
         ~/Attack_Adaptive,
-
-        ~/CaptureAllZoneObjectif,
+        ~/Attack_Filler,
 
         ~/Airstrike_Offense,
         ~/Airstrike_Defense,
@@ -219,13 +214,11 @@ export Hard_Phase_Command is TSequenceGeneratorDescriptor
         //Low prio mais peut servir si on n'a pas de zone dans nos couloirs
         ~/CaptureOneObjectifForAlliance,
 
-        ~/Airstrike_Offense,
-        ~/Airstrike_Defense,
-
         ~/Artillery_Sniper,
         ~/Artillery_Expensive,
 
         ~/Supply_Skirmish_Allied,
+        ~/CaptureAllZoneObjectif,
 
     ] + ~/Airstrike_Arti_Shuffle // On sort les défenses d'ici pour les mettre plus haut dans la prio
 
@@ -257,6 +250,13 @@ export Hard_Phase_LastHope is TSequenceGeneratorDescriptor
         ~/Supply_Skirmish,
         ~/Reco,
 
+        //------------------------------
+        // Attaques principales
+        //------------------------------
+        ~/Attack_Main,
+        ~/Attack_Main,
+        ~/Attack_Main,
+        ~/Attack_Helo,
 
         ~/Attack_Filler,
         //------------------------------
@@ -269,11 +269,6 @@ export Hard_Phase_LastHope is TSequenceGeneratorDescriptor
         //Cet mission lance les objectifs restant
         ~/Defense_Objectif,
 
-        //------------------------------
-        // Attaques principales
-        //------------------------------
-        ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
-        ~/Attack_Helo,
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
 
         ~/Attack_Adaptive,  // Faire du code pour adapater le budget en fonction de l'income

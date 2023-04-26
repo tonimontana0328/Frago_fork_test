@@ -67,7 +67,7 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                 [
                     0,  //NotActive
                     0.5,  //ToDefend
-                    0,  //ToCapture
+                    -0.5,  //ToCapture
                     0,  //CapturedNotActive
                 ]
             )
@@ -149,10 +149,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
                 MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
                 [
-                    0,  //NotActive
-                    0,  //ToDefend
-                    0,  //ToCapture
-                    0,  //CapturedNotActive
+                    -1,  //NotActive
+                    -1,  //ToDefend
+                    -1,  //ToCapture
+                    -1,  //CapturedNotActive
                 ]
             )
         ),

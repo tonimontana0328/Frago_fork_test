@@ -1504,6 +1504,7 @@ template UISpecificShowRoomGroupsDeckCreatorScreenViewDescriptor
 
     AddUnitSound = ~/SoundEvent_AddUnitToCombatGroup
     RemoveUnitSound = ~/SoundEvent_RemoveUnitFromCombatGroup
+    CycleToNextLightMapping = $/KeyboardOption/Mapping_NextLightMode
 
     ChallengeDescriptionType = <ChallengeDescriptionType>
     ChallengeMoreDescriptionType = <ChallengeMoreDescriptionType>

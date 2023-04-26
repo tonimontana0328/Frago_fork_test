@@ -191,13 +191,13 @@ TextStyleFactoryName is TTextStyleRTTI
 )
 TextStyleEngagement is TTextStyleRTTI
 (
-    ColorBottom     = [  100,   100,   100, 255]
-    ColorUp = [  200,   200,   200, 255]
-    ColorStroke = [  255,   255,   255, 255]
-    Stroke = true
+    ColorBottom     = [  255,   255,   255, 255]
+    ColorUp = [  255,   255,   255, 255]
+    ColorStroke = [  255,   255,   255, 0]
+    Stroke = false
     StrokeSize = 1
-    StrokeHardness = 0.10
-    TextThickness = 0.21
+    StrokeHardness = 0
+    TextThickness = 0.1
     FontSize = 1
     AllowSmallFont = true
 )

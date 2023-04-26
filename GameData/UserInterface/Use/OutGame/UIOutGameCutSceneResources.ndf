@@ -13,5 +13,4 @@ outGameCutSceneResources is TUISpecificOutGameCutSceneResources
 (
     UILayer = $/UserInterface/UILayer_Calque_CutScene_Video
     MainContainer = ~/CutSceneVideoContainer
-    SkipVideo = $/TestOption/SkipMovies
 )

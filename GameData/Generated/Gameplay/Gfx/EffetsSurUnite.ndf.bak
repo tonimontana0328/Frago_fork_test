@@ -2974,3 +2974,193 @@ export UnitEffect_sniper is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_engine_damaged is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{abb51106-2918-44c7-9580-9171890713c4}
+    NameForDebug       = 'engine_damaged'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseChassisRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusChassisRotationSpeed  = -50
+        ),
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Pourcentage
+            BonusSpeedBaseInPercent  = -50
+        ),
+    ]
+)
+export UnitEffect_engine_destroyed is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{6a898693-99a0-4466-8fa7-2a92f89cd531}
+    NameForDebug       = 'engine_destroyed'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseChassisRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusChassisRotationSpeed  = 0
+        ),
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Multiplicatif
+            BonusSpeedBaseInPercent  = 0
+        ),
+    ]
+)
+export UnitEffect_gun_jammed is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{bbe2aff7-e597-4437-a342-549fff824878}
+    NameForDebug       = 'gun_jammed'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseWeaponPorteeMaxDescriptor
+        (
+            ModifierType         = ~/ModifierType_Remplacement
+            BonusWeaponPorteeMax = ((0) * Metre)
+        ),
+        TUnitEffectIncreaseWeaponPorteeMaxHADescriptor
+        (
+            ModifierType           = ~/ModifierType_Remplacement
+            BonusWeaponPorteeMaxHA = ((0) * Metre)
+        ),
+        TUnitEffectIncreaseWeaponPorteeMaxProjectileDescriptor
+        (
+            ModifierType                   = ~/ModifierType_Remplacement
+            BonusWeaponPorteeMaxProjectile = ((0) * Metre)
+        ),
+        TUnitEffectIncreaseWeaponPorteeMaxTBADescriptor
+        (
+            ModifierType            = ~/ModifierType_Remplacement
+            BonusWeaponPorteeMaxTBA = ((0) * Metre)
+        ),
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Bloque_MoveAndAttack",
+            ]
+        ),
+    ]
+)
+export UnitEffect_tracks_broken is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{e56e531f-f4c4-47ad-957f-1582f21d65fb}
+    NameForDebug       = 'tracks_broken'
+    EffectsDescriptors = [
+        TUnitEffectStopWithInertiaEffectDescriptor
+        (
+            UpdateEachTick  = True
+        ),
+    ]
+)
+export UnitEffect_engine_fire is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{6999309d-755b-4b8e-9f96-249aaec4bad1}
+    NameForDebug       = 'engine_fire'
+    EffectsDescriptors = [
+        TUnitEffectHealOverTimeDescriptor
+        (
+            NbUpdatePerSecond  = 1
+            HealUnitsPerSecond = -0.2
+            DamageType = EDamageType/Physical
+        ),
+        TUnitEffectHealOverTimeDescriptor
+        (
+            NbUpdatePerSecond  = 1
+            HealUnitsPerSecond = -10
+            DamageType = EDamageType/Suppress
+        ),
+        TUnitEffectIncreaseChassisRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusChassisRotationSpeed  = -25
+        ),
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Pourcentage
+            BonusSpeedBaseInPercent  = -25
+        ),
+    ]
+)
+export UnitEffect_gunner_ko is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{db142ba4-2335-4dac-aab3-a892967f88e6}
+    NameForDebug       = 'gunner_ko'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseTurretRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusTurretRotationSpeed  = 0
+        ),
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Bloque_MoveAndAttack",
+            ]
+        ),
+        TUnitEffectHealOverTimeDescriptor
+        (
+            NbUpdatePerSecond  = 1
+            HealUnitsPerSecond = -20
+            DamageType = EDamageType/Suppress
+        ),
+    ]
+)
+export UnitEffect_driver_ko is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{e9df7e88-d0d3-465b-ae62-7121706cece0}
+    NameForDebug       = 'driver_ko'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseChassisRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusChassisRotationSpeed  = 0
+        ),
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Multiplicatif
+            BonusSpeedBaseInPercent  = 0
+        ),
+        TUnitEffectHealOverTimeDescriptor
+        (
+            NbUpdatePerSecond  = 1
+            HealUnitsPerSecond = -20
+            DamageType = EDamageType/Suppress
+        ),
+    ]
+)
+export UnitEffect_2_damage is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{5356e221-82fb-4956-9668-fa7ba4019745}
+    NameForDebug       = '2_damage'
+    EffectsDescriptors = [
+        TEffectInflictPhysicalDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            PhysicalDamageValue      = 2
+        ),
+    ]
+)
+export UnitEffect_3_damage is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{b5dfda72-18e5-43d9-a7b5-efacc0b00427}
+    NameForDebug       = '3_damage'
+    EffectsDescriptors = [
+        TEffectInflictPhysicalDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            PhysicalDamageValue      = 3
+        ),
+    ]
+)
+export UnitEffect_4_damage is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{5733467d-aeb2-48f1-b8e5-3db4966092f4}
+    NameForDebug       = '4_damage'
+    EffectsDescriptors = [
+        TEffectInflictPhysicalDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            PhysicalDamageValue      = 4
+        ),
+    ]
+)

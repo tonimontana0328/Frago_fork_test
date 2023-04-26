@@ -46,7 +46,7 @@ CriticalEffect_ArmourCracked_Desc is TCriticalEffectDescriptor
 (
     Token = 'CRITIC3'
     HappeningKey = 'critical_hull_break'
-    EffectsPack = ~/UnitEffect_Effet_Meurt
+    EffectsPack = ~/UnitEffect_Critic_Pert_2_PV
     TimeOut = 0
     RepairCost = -1
     Unique = False

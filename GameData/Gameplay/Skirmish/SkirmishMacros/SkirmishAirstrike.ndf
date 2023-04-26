@@ -19,7 +19,7 @@ private template Template_Airstrike
     MinimumResourceForLaunch:int = 0,
     AnnulerSupportSiAttaqueEchoue:bool = false,
     TypesDeRequetesAcceptees = ~/EAirStrikeRequestType/All,
-    PoolModel = ~/Pool_Airstrike_Defense
+    PoolModel = ~/Pool_Airstrike_AA
 ]
 is TMacroActionDescriptor_AirStrike_Specific
 (
@@ -38,8 +38,17 @@ export Airstrike_Defense is Template_Airstrike
 (
     AnnulerSupportSiAttaqueEchoue = false
     TypesDeRequetesAcceptees = ~/EAirStrikeRequestType/Defense // pas d'attaque du tout
-    PoolModel = ~/Pool_Airstrike_Defense
+    PoolModel = ~/Pool_Airstrike_AA
 )
+
+//-------------------------------------------------------------------------
+export Airstrike_Offensive_AA is Template_Airstrike
+(
+    AnnulerSupportSiAttaqueEchoue = false
+    TypesDeRequetesAcceptees = ~/EAirStrikeRequestType/Attack | ~/EAirStrikeRequestType/OpportunisticSingleTarget
+    PoolModel = ~/Pool_Airstrike_AA
+)
+
 //-------------------------------------------------------------------------
 export Airstrike_Offense is Template_Airstrike
 (
@@ -69,7 +78,7 @@ export Airstrike_Defense_Autogen is Template_Airstrike
     MinimumResourceForLaunch = ~/MinimumResourceForLaunch_Stage_1
     AnnulerSupportSiAttaqueEchoue = false
     TypesDeRequetesAcceptees = ~/EAirStrikeRequestType/Defense // pas d'attaque du tout
-    PoolModel = ~/Pool_Airstrike_Defense
+    PoolModel = ~/Pool_Airstrike_AA
 )
 //-------------------------------------------------------------------------
 //Principalement pour la defense BKT
@@ -78,7 +87,7 @@ export Airstrike_Defense_Autogen_Economic is Template_Airstrike
     MinimumResourceForLaunch = ~/MinimumResourceForLaunch_Economic
     AnnulerSupportSiAttaqueEchoue = false
     TypesDeRequetesAcceptees = ~/EAirStrikeRequestType/Defense // pas d'attaque du tout
-    PoolModel = ~/Pool_Airstrike_Defense
+    PoolModel = ~/Pool_Airstrike_AA
 )
 //-------------------------------------------------------------------------
 export Airstrike_Offense_Autogen is Template_Airstrike
@@ -99,7 +108,7 @@ export Airstrike_Assault_Autogen is Template_Airstrike
 
 // Pool Models
 //-------------------------------------------------------------------------
-export Pool_Airstrike_Defense is TPoolModel
+export Pool_Airstrike_AA is TPoolModel
 (
     ModelList = [
     TPoolElement(
@@ -107,6 +116,7 @@ export Pool_Airstrike_Defense is TPoolModel
         Required = true
         Nb = 1
         IndexPriorityOverPrice = true
+        PriceComparisonMethod = EPriceComparatorType/Cheapest
         TagsPriority = [
             "Avion_Chasseur",
             "Avion_Chasseur_Bombardier",
@@ -122,7 +132,8 @@ export Pool_Airstrike_Offense is TPoolModel
         DescriptorId = GUID:{80aa9d0f-d931-11e8-89ef-2c56dc4c150d}
         Required = true
         Nb = 1
-        IndexPriorityOverPrice = true
+        IndexPriorityOverPrice = false
+        PriceComparisonMethod = EPriceComparatorType/Cheapest
         TagsPriority = [
             "Avion_Bombardier",
             "Avion_Chasseur_Bombardier",
@@ -139,7 +150,8 @@ export Pool_Airstrike_Assault is TPoolModel
         DescriptorId = GUID:{80aa9d10-d931-11e8-9a73-2c56dc4c150d}
         Required = true
         Nb = 1
-        IndexPriorityOverPrice = true
+        IndexPriorityOverPrice = false
+        PriceComparisonMethod = EPriceComparatorType/Random
         TagsPriority = [
             "Avion_AT",
             "Avion_Assaut",
@@ -157,6 +169,7 @@ export Pool_Airstrike_SEAD is TPoolModel
         Required = true
         Nb = 1
         IndexPriorityOverPrice = true
+        PriceComparisonMethod = EPriceComparatorType/Cheapest
         TagsPriority = [
             "Avion_SEAD",
         ]

@@ -266,9 +266,9 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
             )
         ),
         ("BlackHorsesLastStand_01" ,    TitreChallenge2( TextureToken = 'BlackHorsesLastStand_01' )),
-        ("BlackHorsesLastStand_02" ,    TitreChallenge2 (TextureToken = 'BlackHorsesLastStand_02' {VideoName = "GameData:/Assets/Videos/challenge/BlackHorsesLastStand_02.webm"}   )),
-        ("BlackHorsesLastStand_03" ,    TitreChallenge2 (TextureToken = 'BlackHorsesLastStand_03' {VideoName = "GameData:/Assets/Videos/challenge/BlackHorsesLastStand_03.webm"}   )),
-        ("BlackHorsesLastStand_04" ,    TitreChallenge2 (TextureToken = 'BlackHorsesLastStand_04' {VideoName = "GameData:/Assets/Videos/challenge/BlackHorsesLastStand_04.webm" })),
+        ("BlackHorsesLastStand_02" ,    TitreChallenge2 (TextureToken = 'BlackHorsesLastStand_02' {VideoName = "GameData:Map/Scenario/challenge_BlackHorsesLastStand/Video/BlackHorsesLastStand_02.webm"}   )),
+        ("BlackHorsesLastStand_03" ,    TitreChallenge2 (TextureToken = 'BlackHorsesLastStand_03' {VideoName = "GameData:Map/Scenario/challenge_BlackHorsesLastStand/Video/BlackHorsesLastStand_03.webm"}   )),
+        ("BlackHorsesLastStand_04" ,    TitreChallenge2 (TextureToken = 'BlackHorsesLastStand_04' {VideoName = "GameData:Map/Scenario/challenge_BlackHorsesLastStand/Video/BlackHorsesLastStand_04.webm" })),
 
 
         ( "challenge_test",                     challenge (TextureToken = 'challenge_test' )),
@@ -277,24 +277,30 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
 
         // BlackHorsesLastStand
         ( "challenge_defense_1",             PORTRAIT_PauseAndTexture (TextureSteelman = 'challenge_defense_1' IsBriefing = true )),
-        ("intro_BlackHorsesLastStand" ,    TitreMissionFullscreen (VideoName = "GameData:/Assets/Videos/challenge/BlackHorsesLastStand/Intro_Operation_BlackHorse_2.webm" )),
+        ("test_a10" , Cutscene25 (VideoName = "GameData:Map/Scenario/challenge_BlackHorsesLastStand/Video/text_a10.webm" )),
+        ("panoramique" , CutscenePanoramique (VideoName = "GameData:Map/Scenario/challenge_BlackHorsesLastStand/Video/panoramique.webm" )),
 
         // RedJuggernaut
-        ("intro_RedJuggernaut" ,    TitreMissionFullscreen (VideoName = "GameData:/Assets/Videos/challenge/RedJuggernaut/Intro_Operation_Steam_Roller.webm" )),
+        ("intro_RedJuggernaut" ,    TitreMissionFullscreen (VideoName = "GameData:Map/Scenario/challenge_RedJuggernaut/Video/Intro_Operation_Steam_Roller.webm" )),
+        ("InsertRedjugIARegroup_25" , Cutscene25 (VideoName = "GameData:Map/Scenario/challenge_RedJuggernaut/Video/InsertRedjugIARegroup_25.webm" )),
+        ("InsertRedjugPlayerAttaque_cinemascope" , CutscenePanoramique (VideoName = "GameData:Map/Scenario/challenge_RedJuggernaut/Video/InsertRedjugPlayerAttaque_cinemascope.webm" )),
+        ("InsertRedjugInsertRedjugObjSupplies_25" , Cutscene25 (VideoName = "GameData:Map/Scenario/challenge_RedJuggernaut/Video/InsertRedjugObjSupplies_25.webm" )),
+        ("InsertRedjugLastZone_cinemascope" , CutscenePanoramique (VideoName = "GameData:Map/Scenario/challenge_RedJuggernaut/Video/InsertRedjugLastZone_cinemascope.webm" )),
+
         ( "RedJuggernaut_difficulty",               Difficulte (texture = 'RedJuggernaut' )),
 
         // BackhandBlow
 
-        ("intro_steelbeast" ,    TitreMissionFullscreen (VideoName = "GameData:/Assets/Videos/challenge/steelbeast/Intro_Operation_Effets_TV_No_Music_No_Title.webm" )),
+        ("intro_steelbeast" ,    TitreMissionFullscreen (VideoName = "GameData:Map/Scenario/challenge_BackhandBlow/Video/Intro_Operation_Effets_TV_No_Music_No_Title.webm" )),
         ( "steelbeast_difficulty",               Difficulte (texture = 'Steelbeast_Last_Frame_No_Effects' )),
 
         // TheKitzingenRuse
 
-        ("intro_TheKitzingenRuse" ,    TitreMissionFullscreen (VideoName = "GameData:/Assets/Videos/challenge/TheKitzingenRuse/Intro_Operation_The_Kitzingen_Ruse.webm" )),
+        ("intro_TheKitzingenRuse" ,    TitreMissionFullscreen (VideoName = "GameData:Map/Scenario/challenge_TheKitzingenRuse/Video/Intro_Operation_The_Kitzingen_Ruse.webm" )),
 
         // Gotterdammerung
 
-        ("intro_Gotterdammerung" ,    TitreMissionFullscreen (VideoName = "GameData:/Assets/Videos/challenge/Gotterdammerung/Intro_Operation_Gotterdammerung.webm" )),
+        ("intro_Gotterdammerung" ,    TitreMissionFullscreen (VideoName = "GameData:Map/Scenario/challenge_Gotterdammerung/Video//Intro_Operation_Gotterdammerung.webm" )),
 
         //-------------------------------------------------------------------------------------
         // Steelman
@@ -311,6 +317,7 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
 
         // generaux vide
         ( "general_DDR",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'general_DDR' )),
+        ( "general_DDR_noPause",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'general_DDR' HasButtons = false  )),
         ( "general_US",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'general_US' )),
         // tuto_1
         ( "Steelman_tuto_0",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman = 'Steelman_tuto_0' )),

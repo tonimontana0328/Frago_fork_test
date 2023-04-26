@@ -1056,6 +1056,11 @@ Alternatives_M1025_Humvee_AGL_US is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1025_Humvee_AGL_US_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1025_Humvee_AGL_US_LOW ),
 ]
+Alternatives_M1025_Humvee_AGL_nonPara_US is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1025_Humvee_AGL_nonPara_US ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1025_Humvee_AGL_nonPara_US_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1025_Humvee_AGL_nonPara_US_LOW ),
+]
 Alternatives_M1025_Humvee_CMD_US is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1025_Humvee_CMD_US ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1025_Humvee_CMD_US_MID ),
@@ -1225,6 +1230,11 @@ Alternatives_M1A1_Abrams_US is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1A1_Abrams_US ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1A1_Abrams_US_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1A1_Abrams_US_LOW DisabledOperators = [ 'tourelle2', 'tourelle3', 'tourelle4' ] ),
+]
+Alternatives_M1A1_Abrams_reco_US is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1A1_Abrams_reco_US ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1A1_Abrams_reco_US_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1A1_Abrams_reco_US_LOW DisabledOperators = [ 'tourelle2', 'tourelle3', 'tourelle4' ] ),
 ]
 Alternatives_M1IP_Abrams_CMD_US is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1IP_Abrams_CMD_US ),
@@ -1616,10 +1626,20 @@ Alternatives_T55A_CMD_DDR is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_T55A_CMD_DDR_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_T55A_CMD_DDR_LOW ),
 ]
+Alternatives_T55A_CMD_SOV is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_T55A_CMD_SOV ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_T55A_CMD_SOV_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_T55A_CMD_SOV_LOW ),
+]
 Alternatives_T55A_DDR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_T55A_DDR ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_T55A_DDR_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_T55A_DDR_LOW DisabledOperators = [ 'tourelle2' ] ),
+]
+Alternatives_T55A_SOV is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_T55A_SOV ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_T55A_SOV_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_T55A_SOV_LOW DisabledOperators = [ 'tourelle2' ] ),
 ]
 Alternatives_T62M1_SOV is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_T62M1_SOV ),

@@ -1,4 +1,4 @@
-private template template_ImpactActionHappening
+private template ImpactWrapper
 [
     Action
 ]
@@ -57,42 +57,4 @@ is TSequencingActionHappening
             )
         ]
     )
-)
-
-template ImpactConnector
-[
-    Action1,
-    Action2 = nil,
-    Action3 = nil,
-    Action4 = nil,
-    Action5 = nil,
-    Action6 = nil,
-    Action7 = nil,
-    Action8 = nil,
-    Action9 = nil,
-    Action10 = nil,
-    Action11 = nil,
-    Action12 = nil,
-    Action13 = nil,
-    Action14 = nil,
-    Action15 = nil,
-]
-is TRandomHappening
-(
-    Alternatives =
-    [ template_ImpactActionHappening( Action = <Action1> ) ]
-    + (<Action2> == nil ? [] : [ template_ImpactActionHappening( Action = <Action2> ) ] )
-    + (<Action3> == nil ? [] : [ template_ImpactActionHappening( Action = <Action3> ) ] )
-    + (<Action4> == nil ? [] : [ template_ImpactActionHappening( Action = <Action4> ) ] )
-    + (<Action5> == nil ? [] : [ template_ImpactActionHappening( Action = <Action5> ) ] )
-    + (<Action6> == nil ? [] : [ template_ImpactActionHappening( Action = <Action6> ) ] )
-    + (<Action7> == nil ? [] : [ template_ImpactActionHappening( Action = <Action7> ) ] )
-    + (<Action8> == nil ? [] : [ template_ImpactActionHappening( Action = <Action8> ) ] )
-    + (<Action9> == nil ? [] : [ template_ImpactActionHappening( Action = <Action9> ) ] )
-    + (<Action10> == nil ? [] : [ template_ImpactActionHappening( Action = <Action10> ) ] )
-    + (<Action11> == nil ? [] : [ template_ImpactActionHappening( Action = <Action11> ) ] )
-    + (<Action12> == nil ? [] : [ template_ImpactActionHappening( Action = <Action12> ) ] )
-    + (<Action13> == nil ? [] : [ template_ImpactActionHappening( Action = <Action13> ) ] )
-    + (<Action14> == nil ? [] : [ template_ImpactActionHappening( Action = <Action14> ) ] )
-    + (<Action15> == nil ? [] : [ template_ImpactActionHappening( Action = <Action15> ) ] )
 )

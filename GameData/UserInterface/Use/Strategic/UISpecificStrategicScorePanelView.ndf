@@ -116,14 +116,6 @@ private VictoryRatio is BUCKListDescriptor
                 TextToken = "SSC_VRATIO"
                 TextSize = "40"
                 TextColor = "BlancEquipe"
-
-                {Hint = BUCKSpecificHintableArea
-                                (
-                                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
-                                    HintTitleToken = ''
-                                    HintBodyToken = 'ops_ratiob'
-                                    HintExtendedToken = ''
-                                )}
             )
         ),
         BUCKListElementDescriptor
@@ -162,8 +154,6 @@ private VictoryRatio is BUCKListDescriptor
             )
         ),
     ]
-
-    //BackgroundComponents = [ PanelRoundedCorner()]
 )
 
 //-------------------------------------------------------------------------------------
@@ -387,7 +377,6 @@ PlayersTerritory is BUCKListDescriptor
         BUCKListElementDescriptor
         (
             ComponentDescriptor = TerritoryPerSideDisplay () // allié
-
         ),
         BUCKListElementDescriptor
         (
@@ -416,7 +405,6 @@ PlayersScore is BUCKListDescriptor
         BUCKListElementDescriptor
         (
             ComponentDescriptor = ScorePerSideDisplay () // allié
-
         ),
         BUCKListElementDescriptor
         (
@@ -449,11 +437,8 @@ is BUCKListDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [500,0]
+    )
 
-        )
-
-
-    //BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
     InterItemMargin = TRTTILength( Magnifiable = 6.0 )
     LastMargin = TRTTILength( Magnifiable = 0.0 )
     Axis = ~/ListAxis/Vertical
@@ -609,7 +594,7 @@ is BUCKListDescriptor
         //-------------------------------------------------------------------------------------
 
     ]
-    )
+)
 
 template Display2ColumnsScore
 [
@@ -683,7 +668,6 @@ ScoreTable is BUCKGridDescriptor
                         ([1,4], TemplateTextVictory (TextToken = 'SSC_v_2' BackgroundBlockColorToken = 'score_05')),
                             ([1,5], TemplateTextVictory (TextToken = 'SSC_v_4' BackgroundBlockColorToken = 'score_06')),
                                 ([1,6], TemplateTextVictory (TextToken = 'SSC_v_5')),
-
 
     ]
 )
@@ -761,11 +745,9 @@ template TemplateTextVictory
         VerticalAlignment = UIText_VerticalCenter
     )
 
-
     HasBorder = true
     BorderLineColorToken = 'SM_Grullo'
     BorderThicknessToken = '1'
-    //BordersToDraw = ~/TBorderSide/Bottom
 
     HasBackground = true
     BackgroundBlockColorToken = (<IsTitre> ? "SM_Ebony" : <BackgroundBlockColorToken>)

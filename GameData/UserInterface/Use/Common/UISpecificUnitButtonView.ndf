@@ -1240,7 +1240,7 @@ NbUnitInThePack is BUCKContainerDescriptor
                         TextToken = "HPROD_NBUX"
 
                         TextColor = "VertSecteur"
-                        TextSize = "10"
+                        TextSize = "13"
 
                          Hint = BUCKSpecificHintableArea
                         (
@@ -1279,7 +1279,7 @@ NbUnitInThePack is BUCKContainerDescriptor
                         TextToken = "HPROD_NBU"
 
                         TextColor = "VertSecteur"
-                        TextSize = "14"
+                        TextSize = "19"
 
                          Hint = BUCKSpecificHintableArea
                         (

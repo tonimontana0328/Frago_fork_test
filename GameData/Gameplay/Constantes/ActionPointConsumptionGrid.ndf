@@ -20,4 +20,5 @@ export ActionPointConsumptionGridConstants is TActionPointConsumptionGridConstan
     EpaisseurDeLaCourbe = 1200
     RemplirLePolygon = true
     CouleurDuRemplissage = RGBA [19,85,106,85]
+    CouleurDuRemplissageAvecAttaque = RGBA [38,170,212,85]
 )
