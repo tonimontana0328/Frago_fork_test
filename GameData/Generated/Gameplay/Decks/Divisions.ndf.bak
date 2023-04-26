@@ -272,6 +272,7 @@ Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_UH1H_supply_US, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VAB_CMD_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VAB_Mortar_81_FR, 1),
+        (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VAB_RASIT_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VLTT_P4_MILAN_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VLTT_P4_PC_FR, 1),
     ]
@@ -3089,7 +3090,7 @@ Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{4d41c309-2758-4f06-8995-2a3d07e56474}
     CfgName = 'WP_Unternehmen_Zentrum_multi'
-    DivisionName = 'SWKTJJKLTP'
+    DivisionName = 'CHKSNFWOEZ'
     DivisionNickname = ''
     DivisionDescription = ''
     DivisionPowerClassification = 'DC_PWR2'
@@ -3099,14 +3100,16 @@ Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi is TDeckDivisionDescriptor
     TypeHintTitleToken = ''
     TypeHintBodyToken = ''
     TypeHintExtendedToken = ''
-    DescriptionHintTitleToken = 'SWKTJJKLTP'
+    DescriptionHintTitleToken = 'CHKSNFWOEZ'
     DescriptionHintBodyToken = ''
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_2K12_KUB_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_2S1_Gvozdika_SOV, 2),
-        (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_AT_T12_Rapira_DDR, 1),
+        (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_2S3_DDR, 2),
+        (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_AT_D44_85mm_DDR, 1),
+        (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_AT_T12_Rapira_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_AT_ZiS2_57mm_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_ATteam_Fagot_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_ATteam_Fagot_FJ_DDR, 1),
