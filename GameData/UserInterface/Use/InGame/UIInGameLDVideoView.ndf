@@ -21,9 +21,10 @@ UIInGameLDVideoViewDescriptor is TUICommonLDVideoViewDescriptor
 
     ]
     MainComponentDescriptor = BUCKContainerDescriptor(ComponentFrame=TUIFramePropertyRTTI())
-    MainComponentContainerUniqueName = ""
+    MainComponentContainerUniqueName = "CutSceneVideoContainer"
     SkipVideoOption = $/TestOption/SkipMovies
     ShowSubtitles = $/GameplayOption/ShowSubtitles
+    VideoLoadingPriority = 1000
 )
 //-------------------------------------------------------------------------------------
 FullScreen_video_noSound is BUCKContainerDescriptor

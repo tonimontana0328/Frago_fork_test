@@ -2910,7 +2910,7 @@ export Descriptor_Deck_NATO_Garnison_Berlin_multi is TDeckDescriptor
         ),
         TDeckPackDescription
         (
-            ExperienceLevel = 2
+            ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_M109A2_HOWZ_US
         ),
         TDeckPackDescription

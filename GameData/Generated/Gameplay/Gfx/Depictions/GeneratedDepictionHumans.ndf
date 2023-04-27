@@ -2407,26 +2407,26 @@ HumanSubDepictionsShowroom_Mortier_107mm_US is
 ]
 HumanSubDepictions_Mortier_2B9_Vasilek_SOV is 
 [
-    SubDepiction_ServantLeft
+    SubDepiction_ATGMServantLeft
     (
-        MeshDescriptorHigh = MeshDescriptor_Servant_MotoStrelki_spe_G_SOV
-        MeshDescriptorLow = MeshDescriptor_Servant_MotoStrelki_spe_G_SOV_LOW
+        MeshDescriptorHigh = MeshDescriptor_Servant_G_VDV
+        MeshDescriptorLow = MeshDescriptor_Servant_G_VDV_LOW
     ),
-    SubDepiction_ServantRight
+    SubDepiction_ATGMServantRight
     (
-        MeshDescriptorHigh = MeshDescriptor_Servant_D_SOV
-        MeshDescriptorLow = MeshDescriptor_Servant_D_SOV_LOW
+        MeshDescriptorHigh = MeshDescriptor_Servant_Spe_D_VDV
+        MeshDescriptorLow = MeshDescriptor_Servant_Spe_D_VDV_LOW
     ),
 ]
 HumanSubDepictionsShowroom_Mortier_2B9_Vasilek_SOV is 
 [
-    ShowroomSubDepiction_ServantLeft
+    ShowroomSubDepiction_ATGMServantLeft
     (
-        MeshDescriptor = MeshDescriptor_Servant_MotoStrelki_spe_G_SOV
+        MeshDescriptor = MeshDescriptor_Servant_G_VDV
     ),
-    ShowroomSubDepiction_ServantRight
+    ShowroomSubDepiction_ATGMServantRight
     (
-        MeshDescriptor = MeshDescriptor_Servant_D_SOV
+        MeshDescriptor = MeshDescriptor_Servant_Spe_D_VDV
     ),
 ]
 HumanSubDepictions_Mortier_2S12_120mm_SOV is 
@@ -3513,8 +3513,8 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_Airborne_D_US SelectorId = [ "Mortier_107mm_Airborne_US", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_G_US SelectorId = [ "Mortier_107mm_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_GI_Officer_D_US SelectorId = [ "Mortier_107mm_US", "02" ] ),
-    TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_MotoStrelki_spe_G_SOV SelectorId = [ "Mortier_2B9_Vasilek_SOV", "01" ] ),
-    TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_D_SOV SelectorId = [ "Mortier_2B9_Vasilek_SOV", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_G_VDV SelectorId = [ "Mortier_2B9_Vasilek_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_Spe_D_VDV SelectorId = [ "Mortier_2B9_Vasilek_SOV", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_G_SOV SelectorId = [ "Mortier_2S12_120mm_SOV", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_D_SOV SelectorId = [ "Mortier_2S12_120mm_SOV", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_G_VDV SelectorId = [ "Mortier_2S12_120mm_VDV_SOV", "01" ] ),

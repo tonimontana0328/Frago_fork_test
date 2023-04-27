@@ -662,7 +662,6 @@ Functionality_MoveProduction   is 3
 Functionality_TrackCam         is 5
 Functionality_AutoAssign       is 6
 Functionality_HoldFire         is 7
-Functionality_SmartHoldFire    is 8
 Functionality_RiposteStance    is 9
 Functionality_AutoCover        is 10
 Functionality_Home             is 11
@@ -773,27 +772,6 @@ export CubeAction_Functionality_HoldFire is Template_CubeActionFunctionalityButt
 
     FunctionalityType       = Functionality_HoldFire
     Mapping                 = $/KeyboardOption/Mapping_HoldFire
-)
-
-export CubeAction_Functionality_SmartHoldFire is Template_CubeActionFunctionalityButtonInformationsDescriptor_WithSound
-(
-    CubeActionName          = "CubeAction_Order_SmartHoldFire"
-    DebugName               = "InGameCubeAction_ButtonSmartHoldFire"
-
-    CubeActionFunctionType = ~/TacticCubeActionFunctionType/TogglableOrders
-
-    ButtonTextToken         = 'ORD_SMHFR'
-    HintTitleToken          = 'ORD_SMHFR'
-    HintBodyToken           = 'HNT_SMHFR'
-    HintExtendedToken       = ''
-    HintDico                = ~/LocalisationConstantes/dico_interface_ingame
-    HintElements            = [
-                                    $/GameplayOption/SmartHoldFireMinAccuracy,
-                                    $/GameplayOption/SmartHoldFireMinPenetration
-                              ]
-
-    FunctionalityType       = Functionality_SmartHoldFire
-    Mapping                 = $/KeyboardOption/Mapping_SmartHoldFire
 )
 
 export CubeAction_Functionality_RiposteStance is Template_CubeActionFunctionalityButtonInformationsDescriptor_WithSound

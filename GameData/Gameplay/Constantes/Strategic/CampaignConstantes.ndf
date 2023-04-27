@@ -1,4 +1,4 @@
-ZocRadius is 1.9 * 500 * Metre
+ZocRadius is 1.9 * 500 * Metre //1.9
 
 StrategicCampaignConstantes is TStrategicCampaignConstantes
 (
@@ -44,7 +44,7 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
 
     ActionPointsPenaltyForAllAttackersIntercepted = 0 // embuscade
 
-    NbTurnToRepairDisabledUnit = 2
+    NbTurnToRepairDisabledUnit = 1
 
     //cosmetique des ordres
     BattleArrowStartFillColor = [168, 102, 32, 255]

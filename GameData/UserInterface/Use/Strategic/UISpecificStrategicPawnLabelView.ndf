@@ -548,7 +548,8 @@ private PANumber is BUCKTextDescriptor
     TextDico = ~/LocalisationConstantes/dico_interface_ingame
 
     TextColor = "SD2_Blanc184"
-    TextSize = "17"
+    // TextSize = "17"
+    TextSize = "1"
 )
 
 // -----------------------------------------------

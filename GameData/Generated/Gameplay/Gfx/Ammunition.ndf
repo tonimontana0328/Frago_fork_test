@@ -38469,7 +38469,7 @@ Ammo_Mortier_M40_107mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 4.0
     TempsEntreDeuxFx                  = 3.0
-    PorteeMaximale                    = ((15919) * Metre)
+    PorteeMaximale                    = ((13938) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -38542,7 +38542,7 @@ Ammo_Mortier_M40_107mm is TAmmunitionDescriptor
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
     FlightTimeForSpeed                    = 15.0
-    DistanceForSpeed                      = 15919.0 * Metre
+    DistanceForSpeed                      = 13938.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
 Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
@@ -38563,7 +38563,7 @@ Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 3.0
     TempsEntreDeuxFx                  = 3.0
-    PorteeMaximale                    = ((15919) * Metre)
+    PorteeMaximale                    = ((13938) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -38635,7 +38635,7 @@ Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
     FlightTimeForSpeed                    = 15.0
-    DistanceForSpeed                      = 15919.0 * Metre
+    DistanceForSpeed                      = 13938.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
 Ammo_Mortier_M40_towed_107mm_SMOKE is TAmmunitionDescriptor
@@ -48283,7 +48283,7 @@ Ammo_RocketInf_AT4_83mm is TAmmunitionDescriptor
     Name                              = 'EUBFZGPGSF'
     TypeName                          = 'NA'
     TypeCategoryName                  = 'NZWXQNJFDX'
-    Caliber                           = 'UHLFKCEAZR'
+    Caliber                           = 'MNSGAKYBGL'
     WeaponDescriptionToken            = 'YKOXTNOAFR'
     TraitsToken                       = [ 'STAT', 'HE', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_UnguidedMissile

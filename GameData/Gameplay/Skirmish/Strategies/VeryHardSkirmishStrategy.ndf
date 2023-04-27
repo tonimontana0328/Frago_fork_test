@@ -119,6 +119,8 @@ export VHard_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/Attack_Adaptive,          // ~100
         ~/Attack_Filler,            // budget 40
 
+        ~/CaptureHalfZoneObjectif_Ceil,
+
         //------------------------------
         // Défenses Avions Arti
         //------------------------------
@@ -194,9 +196,9 @@ export VHard_Phase_Command is TSequenceGeneratorDescriptor
         ~/Attack_Adaptive,
         ~/Attack_Filler,
 
-        ~/Airstrike_Offense,
-
         ~/CaptureHalfZoneObjectif_Ceil,
+
+        ~/Airstrike_Offense,
 
         //Low prio mais peut servir si on n'a pas de zone dans nos couloirs
 

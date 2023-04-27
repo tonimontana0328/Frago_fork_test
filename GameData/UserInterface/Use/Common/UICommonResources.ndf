@@ -142,7 +142,6 @@ SoundEvent_SelectOption                     is ClickSound_Change_Selector
 
 UICommonResource is TUISpecificResource
 (
-    DistortTextureDrawerAdditive    = $/UserInterface/UIDistortTextureDrawer_Additive
     DistortTextureDrawer            = $/UserInterface/UIDistortTextureDrawer
 
     UniformDrawer                   = $/UserInterface/UIUniformDrawer

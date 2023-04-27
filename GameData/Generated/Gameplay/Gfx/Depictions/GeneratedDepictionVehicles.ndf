@@ -479,6 +479,7 @@ Gfx_AML_60_FR_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_CriticalEffects,
         DepictionOperator_Chassis_MediumTank_AutoCanon,
         DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
         DepictionOperator_Turret_1_Aim,
         DepictionOperator_TurretSound_ST_BUK_SOVIET,
         DepictionOperator_Turret_1_HydraulicRecoil_AutoCannon,
@@ -486,7 +487,6 @@ Gfx_AML_60_FR_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
         DepictionOperator_AML_60_FR_Weapon1,
         DepictionOperator_AML_60_FR_Weapon2,
-        DepictionOperator_MovementFX_Amphibious,
     ]
 
     Actions = MAP[
@@ -496,7 +496,6 @@ Gfx_AML_60_FR_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
-            + DepictionAction_FX_Amphibious_NoPropulsion
 )
 // Dépiction de l'unité AML_90_FR
 DepictionOperator_AML_90_FR_Weapon1 is DepictionOperator_WeaponInstantFire
@@ -541,6 +540,7 @@ Gfx_AML_90_FR_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_CriticalEffects,
         DepictionOperator_Chassis_MediumTank_AutoCanon,
         DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
         DepictionOperator_Turret_1_Aim,
         DepictionOperator_TurretSound_ST_BUK_SOVIET,
         DepictionOperator_Turret_1_HydraulicRecoil_AutoCannon,
@@ -550,7 +550,6 @@ Gfx_AML_90_FR_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_AML_90_FR_Weapon2,
         DepictionOperator_AML_90_FR_Weapon3,
         DepictionOperator_AML_90_FR_Weapon5,
-        DepictionOperator_MovementFX_Amphibious,
     ]
 
     Actions = MAP[
@@ -562,7 +561,6 @@ Gfx_AML_90_FR_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
-            + DepictionAction_FX_Amphibious_NoPropulsion
 )
 // Dépiction de l'unité AMX_10_HOT_FR
 DepictionOperator_AMX_10_HOT_FR_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
@@ -15968,7 +15966,7 @@ Gfx_SPW_152K_DDR_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_CriticalEffects,
         DepictionOperator_Chassis_MediumTank_NoCanonRecoil,
         DepictionOperator_Propulsion_Wheels_Generic,
-        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_MovementFX_Standard,
     ]
 
     Actions = MAP[
@@ -15976,7 +15974,6 @@ Gfx_SPW_152K_DDR_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
-            + DepictionAction_FX_Amphibious_NoPropulsion
 
     SubDepictions = [
         SubDepictionTowedUnit,
@@ -17559,9 +17556,12 @@ Gfx_T72M_CMD_DDR_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_Turret_1_Aim,
         DepictionOperator_TurretSound_ST_T64_T72_T80,
         DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
         DepictionOperator_Turret_4_Aim,
         DepictionOperator_T72M_CMD_DDR_Weapon1,
         DepictionOperator_T72M_CMD_DDR_Weapon2,
+        DepictionOperator_T72M_CMD_DDR_Weapon3,
         DepictionOperator_T72M_CMD_DDR_Weapon4,
         DepictionOperator_T72M_CMD_DDR_Weapon5,
     ]
@@ -17569,37 +17569,13 @@ Gfx_T72M_CMD_DDR_Autogen is TacticVehicleDepictionTemplate
     Actions = MAP[
                 ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A26_T72M ),
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A26_T72M ),
+                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
                 ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm ),
                 ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
-
-    SubDepictions = [
-        TSubDepiction
-        (
-            Anchor = "base_tourelle_02"
-            Depiction = TDepictionTemplate
-            (
-                CoatingName = "T72M_CMD_DDR_turret2"
-                Selector = ~/OnlyHighDepictionSelector
-                DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_T72M_CMD_DDR_Tourelle_02 )
-                ]
-                Operators = [
-                    DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
-                    DepictionOperator_Turret_2_Aim,
-                    DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
-                    DepictionOperator_T72M_CMD_DDR_Weapon3,
-                ]
-                Actions = MAP[
-                    ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
-                ]
-            )
-        ),
-    ]
 )
 // Dépiction de l'unité T72M_DDR
 DepictionOperator_T72M_DDR_Weapon1 is DepictionOperator_WeaponInstantFire
@@ -17656,9 +17632,12 @@ Gfx_T72M_DDR_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_Turret_1_Aim,
         DepictionOperator_TurretSound_ST_T64_T72_T80,
         DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
         DepictionOperator_Turret_4_Aim,
         DepictionOperator_T72M_DDR_Weapon1,
         DepictionOperator_T72M_DDR_Weapon2,
+        DepictionOperator_T72M_DDR_Weapon3,
         DepictionOperator_T72M_DDR_Weapon4,
         DepictionOperator_T72M_DDR_Weapon5,
     ]
@@ -17666,37 +17645,13 @@ Gfx_T72M_DDR_Autogen is TacticVehicleDepictionTemplate
     Actions = MAP[
                 ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A26_T72M ),
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A26_T72M ),
+                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
                 ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm ),
                 ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
-
-    SubDepictions = [
-        TSubDepiction
-        (
-            Anchor = "base_tourelle_02"
-            Depiction = TDepictionTemplate
-            (
-                CoatingName = "T72M_DDR_turret2"
-                Selector = ~/OnlyHighDepictionSelector
-                DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_T72M_DDR_Tourelle_02 )
-                ]
-                Operators = [
-                    DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
-                    DepictionOperator_Turret_2_Aim,
-                    DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
-                    DepictionOperator_T72M_DDR_Weapon3,
-                ]
-                Actions = MAP[
-                    ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
-                ]
-            )
-        ),
-    ]
 )
 // Dépiction de l'unité T72_DDR
 DepictionOperator_T72_DDR_Weapon1 is DepictionOperator_WeaponInstantFire
@@ -18424,6 +18379,14 @@ DepictionOperator_TO_55_DDR_Weapon3 is DepictionOperator_WeaponInstantFire
     WeaponShootDataPropertyName = ["WeaponShootData_0_3", ]
     NbProj = 1
 )
+DepictionOperator_TO_55_DDR_Weapon4 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag4"
+    Anchors = ["fx_tourelle2_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 1
+)
 Gfx_TO_55_DDR_Autogen is TacticVehicleDepictionTemplate
 (
     CoatingName = 'TO_55_DDR'
@@ -18441,16 +18404,20 @@ Gfx_TO_55_DDR_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_Turret_1_Aim,
         DepictionOperator_TurretSound_ST_T64_T72_T80,
         DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
         DepictionOperator_Turret_4_Aim,
         DepictionOperator_TO_55_DDR_Weapon1,
         DepictionOperator_TO_55_DDR_Weapon2,
         DepictionOperator_TO_55_DDR_Weapon3,
+        DepictionOperator_TO_55_DDR_Weapon4,
     ]
 
     Actions = MAP[
                 ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_100mm_D10T_early ),
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_FLAMME_ATO54 ),
                 ( [ "weapon_effet_tag3" ], Weapon_Canon_HE_100mm_D10T_early ),
+                ( [ "weapon_effet_tag4" ], Weapon_HMG_12_7_mm_NSVT ),
             ]
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked
@@ -18478,6 +18445,14 @@ DepictionOperator_TO_55_SOV_Weapon3 is DepictionOperator_WeaponInstantFire
     WeaponShootDataPropertyName = ["WeaponShootData_0_3", ]
     NbProj = 1
 )
+DepictionOperator_TO_55_SOV_Weapon4 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag4"
+    Anchors = ["fx_tourelle2_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 1
+)
 Gfx_TO_55_SOV_Autogen is TacticVehicleDepictionTemplate
 (
     CoatingName = 'TO_55_SOV'
@@ -18495,16 +18470,20 @@ Gfx_TO_55_SOV_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_Turret_1_Aim,
         DepictionOperator_TurretSound_ST_T64_T72_T80,
         DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
         DepictionOperator_Turret_4_Aim,
         DepictionOperator_TO_55_SOV_Weapon1,
         DepictionOperator_TO_55_SOV_Weapon2,
         DepictionOperator_TO_55_SOV_Weapon3,
+        DepictionOperator_TO_55_SOV_Weapon4,
     ]
 
     Actions = MAP[
                 ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_100mm_D10T_early ),
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_FLAMME_ATO54 ),
                 ( [ "weapon_effet_tag3" ], Weapon_Canon_HE_100mm_D10T_early ),
+                ( [ "weapon_effet_tag4" ], Weapon_HMG_12_7_mm_NSVT ),
             ]
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked

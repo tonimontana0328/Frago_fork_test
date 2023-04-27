@@ -79,6 +79,10 @@ ChatTextFormatScript is TTextFormatScriptRTTI
             TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_GERW")
         ),
         (
+            "DDR",
+            TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_DDR")
+        ),
+        (
             "default",
             TTFSCommand_StyleChange
             (

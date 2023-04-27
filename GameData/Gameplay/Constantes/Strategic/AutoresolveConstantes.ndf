@@ -46,9 +46,49 @@ private DCA_air is TCombatAdvantageDefinition
     TagToCheckAgainst = [ 'Avion_SEAD']
 )
 
+private VeryLuckyDefender is TStrategicAutoresolveAlea
+(
+    TriggerWeight = 5
+    ModificationValue = -1.0
+    TextToken = "AAR_DVL"
+)
+
+private LuckyDefender is TStrategicAutoresolveAlea
+(
+    TriggerWeight = 20
+    ModificationValue = -0.25
+    TextToken = "AAR_DL"
+)
+
+private NeutralLuck is TStrategicAutoresolveAlea
+(
+    TriggerWeight = 60
+)
+
+private LuckyAttacker is TStrategicAutoresolveAlea
+(
+    TriggerWeight = 20
+    ModificationValue = 0.25
+    TextToken = "AAR_AL"
+)
+
+private VeryLuckyAttacker is TStrategicAutoresolveAlea
+(
+    TriggerWeight = 5
+    ModificationValue = 1.0
+    TextToken = "AAR_AVL"
+)
 
 StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
 (
+    Aleas = [
+        // ~/VeryLuckyDefender,
+        ~/LuckyDefender,
+        ~/NeutralLuck,
+        ~/LuckyAttacker,
+        // ~/VeryLuckyAttacker,
+    ]
+
     PertesAttaquant = perte_mixte_0
     PertesDefenseur = perte_mixte_0
 
@@ -99,7 +139,9 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
                 ( -1.5,     EVictoryType/TotalDefeat),
                 ( -1.0,     EVictoryType/MajorDefeat),
                 ( -0.5,     EVictoryType/MinorDefeat),
+
                 ( 0.0,      EVictoryType/Draw),
+
                 ( 0.5,      EVictoryType/MinorVictory),
                 ( 1.0,      EVictoryType/MajorVictory),
                 ( 1.5,      EVictoryType/TotalVictory),
@@ -201,15 +243,15 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
 // il n'est pas nécessaire que les colonnes soit consécutive
 perte_mixte_0 is
 [
-(-2 , 0.74),
+(-2 ,   0.74),
 (-1.5 , 0.55),
-(-1 , 0.42),
+(-1 ,   0.42),
 (-0.5 , 0.32),
-(0 , 0.24),
-(0.5 , 0.17),
-(1 , 0.11),
-(1.5 , 0.06),
-(2 , 0.01),
+(0 ,    0.24),
+(0.5 ,  0.17),
+(1 ,    0.11),
+(1.5 ,  0.06),
+(2 ,    0.01),
 ]
 
 //-------------------------------------------------------------------------------------/

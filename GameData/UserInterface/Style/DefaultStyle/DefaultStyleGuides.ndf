@@ -128,6 +128,7 @@ DefaultStyleGuide is TUIStyleGuide
         ("AutoResolve/Rapport",                           MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 24 ) ), ]),
 
 
+        ("1",                                               MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 1 ) ), ]),
         ("7",                                               MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 7 ) ), ]),
         ("8",                                               MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 8  ) ), ]),
         ("9",                                               MAP [ ( ~/ComponentState/Normal, TFloatRTTI( Value = 9 ) ), ]),
@@ -497,6 +498,7 @@ DefaultStyleGuide is TUIStyleGuide
 
         ("H2_bleu_2_60p",                  MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [19,85,106,152] ) ), ]),
         ("H2_bleu_2_40p",                  MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [19,85,106,102] ) ), ]),
+        ("H2_bleu_2_30p",                  MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [19,85,106,76] ) ), ]),
 
         // bleu clair
         ("H2_bleu_3",                      MAP [
@@ -553,6 +555,7 @@ DefaultStyleGuide is TUIStyleGuide
 
         ("Vert",                   MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Vert ) ), ]),
         ("Vert50p",                MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Vert50p ) ), ]),
+        ("Vert25p",                MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [127,255,117,64] ) ), ]),
 
         ("BeigeSteelman",          MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = BeigeSteelman ) ), ]),
         ("GrisSteelman",           MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = GrisSteelman ) ), ]),
@@ -680,6 +683,7 @@ DefaultStyleGuide is TUIStyleGuide
         ("GrisClair",                  MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = GrisClair ) ), ]),
         ("LightestGray",               MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = LightestGray ) ), ]),
         ("SeaBlue",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = SeaBlue ) ), ]),
+        ("SeaBlue50p",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [ 55, 100, 145, 130] ) ), ]),
         ("Cyan",                       MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Cyan ) ), ]),
         ("Cyan50p",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Cyan50p ) ), ]),
         ("Blanc",                      MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Blanc ) ), ]),
@@ -2436,7 +2440,7 @@ DefaultStyleGuide is TUIStyleGuide
         ("division_SOV_1",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [134,37,4,180] ) ), ]),
         ("division_SOV_2",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [116,90,35,180] ) ), ]),
 
-        ("division_DDR_1",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [34,22,13,180] ) ), ]),
+        ("division_DDR_1",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [139,65,5,220] ) ), ]),
 
         // OTAN DIVERS
         ("corps_otan",                            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [19,42,19,255] ) ),]),
@@ -3149,6 +3153,7 @@ DefaultStyleGuide is TUIStyleGuide
         ("JauneLeger2",                                 MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = JauneLeger2 ) ), ]),
         ("Gold",                                        MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Or4 ) ), ]),
         ("Rouge",                                       MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [255,0,0,255] ) ), ]),
+        ("Rouge64",                                     MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [255,0,0,64] ) ), ]),
         ("White",                                       MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [255,255,255,255] ) ), ]),
         ("TransparentWhite",                            MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [255,255,255,200] ) ), ]),
         ("AppleGreen",                                  MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = VertPomme ) ), ]),
@@ -3271,7 +3276,6 @@ DefaultStyleGuide is TUIStyleGuide
         ("ColorMultiply_Additive",                      MAP [ ( ~/ComponentState/Normal, $/UserInterface/UITextureDrawer_ColorMultiply_Additive ), ]),
         ("ColorMultiply_Grayscale",                     MAP [ ( ~/ComponentState/Normal, $/UserInterface/UITextureDrawer_ColorMultiply_Grayscale ), ]),
         ("ColorMultiply_Highlight",                     MAP [ ( ~/ComponentState/Normal, $/UserInterface/UITextureDrawer_ColorMultiply_Highlight ), ]),
-        ("MinimapWithFogOfWar",                         MAP [ ( ~/ComponentState/Normal, $/UserInterface/UITextureDrawer_MinimapWithFogOfWar ), ]),
 
         ("MonochromeMonitorEffect",                     MAP [ ( ~/ComponentState/Normal, TUITextureDrawer( ShaderDescriptor = $/M3D/Shader/ShaderMonochromeMonitorEffect ) ), ]),
     ]

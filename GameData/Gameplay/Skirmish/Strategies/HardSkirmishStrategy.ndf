@@ -33,7 +33,7 @@ export Hard_Condition_CommandPhase is TSequenceCondition_Phase
 export Hard_Condition_OpponentWinning is Template_SequenceConditionOpponentHasScoreHigher
 (
     ScorePointType = ~/EScorePointType/ZonePoint
-    RatioValue = 0.8
+    RatioValue = 0.7
 )
 //-------------------------------------------------------------------------
 //--------------------------- TRANSITIONS ---------------------------------

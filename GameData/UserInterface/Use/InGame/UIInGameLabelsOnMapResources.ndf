@@ -29,8 +29,43 @@ InGameLabelsOnMapResources is TUICommonGameplayLabelOnMapResources
 
     Labels = MAP
     [
+
+    //Labels Lieux
+
         (
-            'LabelVille', LabelTactique_Ville_taille(TextSize = '18' AltitudeMax = 1000000 )
+            'LabelVille',  LabelTactique_Ville_taille(TextSize = '18' AltitudeMax = 1000000 BackgroundBlockColorToken = 'Transparent')
+        ),
+
+        (
+            'LabelVilleWithBackground', LabelTactique_Ville_taille(TextSize = '18' AltitudeMax = 1000000 AltitudeMin = 75000 BackgroundBlockColorToken = 'Noir30')
+        ),
+
+       //Labels Divisions
+
+        (
+            'LabelRedDivision', LabelTactique_Ville_taille(TextSize = '18' AltitudeMax = 1000000 AltitudeMin = 75000 BackgroundBlockColorToken = 'Rouge64')
+        ),
+
+        (
+            'LabelBlueDivision', LabelTactique_Ville_taille(TextSize = '18' AltitudeMax = 1000000 AltitudeMin = 75000 BackgroundBlockColorToken = 'SeaBlue50p')
+        ),
+
+        (
+            'LabelGreenDivision', LabelTactique_Ville_taille(TextSize = '18' AltitudeMax = 1000000 AltitudeMin = 75000 BackgroundBlockColorToken = 'Vert25p')
+        ),
+
+        //Labels Compagnies
+
+        (
+            'LabelRedCompagny', LabelTactique_Ville_taille(TextSize = '18' AltitudeMax = 1000000 AltitudeMin = 75000 BackgroundBlockColorToken = 'Rouge64')
+        ),
+
+        (
+            'LabelBlueCompagny', LabelTactique_Ville_taille(TextSize = '18' AltitudeMax = 1000000 AltitudeMin = 75000 BackgroundBlockColorToken = 'SeaBlue50p')
+        ),
+
+        (
+            'LabelGreenCompagny', LabelTactique_Ville_taille(TextSize = '18' AltitudeMax = 1000000 AltitudeMin = 75000 BackgroundBlockColorToken = 'Vert25p')
         ),
     ]
 )

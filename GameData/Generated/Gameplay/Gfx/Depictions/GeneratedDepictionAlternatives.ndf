@@ -1754,12 +1754,12 @@ Alternatives_TOS1_Buratino_SOV is [
 Alternatives_TO_55_DDR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_TO_55_DDR ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_TO_55_DDR_MID ),
-    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_TO_55_DDR_LOW ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_TO_55_DDR_LOW DisabledOperators = [ 'tourelle2' ] ),
 ]
 Alternatives_TO_55_SOV is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_TO_55_SOV ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_TO_55_SOV_MID ),
-    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_TO_55_SOV_LOW ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_TO_55_SOV_LOW DisabledOperators = [ 'tourelle2' ] ),
 ]
 Alternatives_TPZ_Fuchs_1_RFA is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_TPZ_Fuchs_1_RFA ),

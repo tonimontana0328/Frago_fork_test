@@ -1788,18 +1788,22 @@ Feldjager_NCO is  'GameData:/Assets/3D/Units/RFA/Infanterie/PzGrenadier/Feldjage
 FRP_1 is 'GameData:/Assets/3D/Units/RFA/Infanterie/FRP/FRP_1.Ase2NdfBin'
 FRP_2 is 'GameData:/Assets/3D/Units/RFA/Infanterie/FRP/FRP_2.Ase2NdfBin'
 
+SEK_1 is 'GameData:/Assets/3D/Units/RFA/Infanterie/BGS/SEK_1.Ase2NdfBin'
+SEK_2 is 'GameData:/Assets/3D/Units/RFA/Infanterie/BGS/SEK_2.Ase2NdfBin'
+SEK_3 is 'GameData:/Assets/3D/Units/RFA/Infanterie/BGS/SEK_3.Ase2NdfBin'
+
 //'GameData:/Assets/3D/Units/RFA/Infanterie/PzGrenadier/Feldjager_2.Ase2NdfBin'
 //'GameData:/Assets/3D/Units/RFA/Infanterie/PzGrenadier/Feldjager_NCO.Ase2NdfBin'
 
 //------------------------------------------------------------------------------
 //SEK_RFA
-export ModelFile_SEK_RFA is RFA_BGS_1
-export ModelFile_SEK_RFA_02 is RFA_BGS_1
-export ModelFile_SEK_RFA_03 is RFA_BGS_1
-export ModelFile_SEK_RFA_04 is RFA_BGS_2
-export ModelFile_SEK_RFA_05 is RFA_BGS_2
-export ModelFile_SEK_RFA_06 is RFA_BGS_2
-export ModelFile_SEK_RFA_LOW is RFA_BGS_1
+export ModelFile_SEK_RFA is SEK_1
+export ModelFile_SEK_RFA_02 is SEK_1
+export ModelFile_SEK_RFA_03 is SEK_2
+export ModelFile_SEK_RFA_04 is SEK_2
+export ModelFile_SEK_RFA_05 is SEK_3
+export ModelFile_SEK_RFA_06 is SEK_3
+export ModelFile_SEK_RFA_LOW is SEK_1
 
 //BGS_RFA
 export ModelFile_BGS_RFA is RFA_BGS_1
