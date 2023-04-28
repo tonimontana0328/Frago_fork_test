@@ -25323,7 +25323,7 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 37.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -25418,7 +25418,7 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 25.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -25513,7 +25513,7 @@ Ammo_Howz_Canon_2A36_SP_152mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 56.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -25796,7 +25796,7 @@ Ammo_Howz_Canon_2A36_towed_152mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -25891,7 +25891,7 @@ Ammo_Howz_Canon_2A36_towed_152mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -25942,7 +25942,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((20000.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
+    DispersionAtMaxRange              = ((500) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
@@ -25986,7 +25986,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 54.0
+    TempsEntreDeuxSalves              = 67.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -26081,7 +26081,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 54.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -26176,7 +26176,7 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 37.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -26271,7 +26271,7 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 25.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -26366,7 +26366,7 @@ Ammo_Howz_Canon_2A65_SP_152mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 56.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -26554,7 +26554,7 @@ Ammo_Howz_Canon_2A65_SP_152mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 40.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -26649,7 +26649,7 @@ Ammo_Howz_Canon_2A65_towed_152mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -26744,7 +26744,7 @@ Ammo_Howz_Canon_2A65_towed_152mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -27029,7 +27029,7 @@ Ammo_Howz_Canon_A19_Howitzer_122mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 37.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -27217,7 +27217,7 @@ Ammo_Howz_Canon_A19_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 25.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -27312,7 +27312,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -27407,7 +27407,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -27502,7 +27502,7 @@ Ammo_Howz_Canon_D20_towed_152mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -27689,7 +27689,7 @@ Ammo_Howz_Canon_D20_towed_152mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -27784,7 +27784,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 56.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -27879,7 +27879,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 56.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -27974,7 +27974,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 40.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -28069,7 +28069,7 @@ Ammo_Howz_Canon_D30_Howitzer_122mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 37.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -28164,7 +28164,7 @@ Ammo_Howz_Canon_D30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 25.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -28259,7 +28259,7 @@ Ammo_Howz_Canon_DANA_SP_152mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 56.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -28446,7 +28446,7 @@ Ammo_Howz_Canon_DANA_SP_152mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 40.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -28541,7 +28541,7 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -28636,7 +28636,7 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -28731,7 +28731,7 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 56.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -28826,7 +28826,7 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 40.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -28921,7 +28921,7 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 56.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -29109,7 +29109,7 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 40.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -29204,7 +29204,7 @@ Ammo_Howz_Canon_L13A1__Howitzer_105mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 25.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -29299,7 +29299,7 @@ Ammo_Howz_Canon_L13A1_Howitzer_105mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 37.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -29394,7 +29394,7 @@ Ammo_Howz_Canon_M101_Howitzer_105mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 37.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -29489,7 +29489,7 @@ Ammo_Howz_Canon_M101_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 25.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -29584,7 +29584,7 @@ Ammo_Howz_Canon_M102_Howitzer_105mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 37.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -29679,7 +29679,7 @@ Ammo_Howz_Canon_M102_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 25.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -29774,7 +29774,7 @@ Ammo_Howz_Canon_M103_SP_105mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 37.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -29962,7 +29962,7 @@ Ammo_Howz_Canon_M103_SP_105mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 25.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -30013,7 +30013,7 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((20000.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
+    DispersionAtMaxRange              = ((650) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
@@ -30057,7 +30057,7 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 54.0
+    TempsEntreDeuxSalves              = 67.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 3
@@ -30152,7 +30152,7 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 54.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -30247,7 +30247,7 @@ Ammo_Howz_Canon_M114_39_Howitzer_155mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -30435,7 +30435,7 @@ Ammo_Howz_Canon_M114_39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -30530,7 +30530,7 @@ Ammo_Howz_Canon_M114_Howitzer_155mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -30718,7 +30718,7 @@ Ammo_Howz_Canon_M114_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -30767,7 +30767,7 @@ Ammo_Howz_Canon_M115_towed_203mm is TAmmunitionDescriptor
     PorteeMinimale                    = ((6000) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
+    DispersionAtMaxRange              = ((650) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
@@ -30811,7 +30811,7 @@ Ammo_Howz_Canon_M115_towed_203mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 54.0
+    TempsEntreDeuxSalves              = 67.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 3
@@ -30999,7 +30999,7 @@ Ammo_Howz_Canon_M115_towed_203mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 54.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 3
@@ -31094,7 +31094,7 @@ Ammo_Howz_Canon_M118_Howitzer_105mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 37.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -31189,7 +31189,7 @@ Ammo_Howz_Canon_M118_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 25.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -31284,7 +31284,7 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 56.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -31379,7 +31379,7 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 45.0
+    TempsEntreDeuxSalves              = 40.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -31474,7 +31474,7 @@ Ammo_Howz_Canon_M198_Howitzer_155mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -31618,7 +31618,7 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late is TAmmunitionDescriptor
     PorteeMinimale                    = ((6000) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
+    DispersionAtMaxRange              = ((650) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
@@ -31662,7 +31662,7 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 54.0
+    TempsEntreDeuxSalves              = 67.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 3
@@ -31757,7 +31757,7 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 54.0
+    TempsEntreDeuxSalves              = 50.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -31852,7 +31852,7 @@ Ammo_Howz_Canon_M30_Howitzer_122mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 37.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -32040,7 +32040,7 @@ Ammo_Howz_Canon_M30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 16.0
-    TempsEntreDeuxSalves              = 30.0
+    TempsEntreDeuxSalves              = 25.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
@@ -32135,7 +32135,7 @@ Ammo_Howz_Canon_M46_Howitzer_130mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -32230,7 +32230,7 @@ Ammo_Howz_Canon_M46_Howitzer_130mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -32325,7 +32325,7 @@ Ammo_Howz_Canon_M50_155mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -32420,7 +32420,7 @@ Ammo_Howz_Canon_M50_155mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -32515,7 +32515,7 @@ Ammo_Howz_Canon_TRF1_155mm is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -32610,7 +32610,7 @@ Ammo_Howz_Canon_TRF1_155mm_SMOKE is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 26.0
-    TempsEntreDeuxSalves              = 36.0
+    TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
@@ -46448,7 +46448,7 @@ Ammo_RocketArt_9M27F_HE_220mm is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 28.0
-    TempsEntreDeuxSalves              = 180.0
+    TempsEntreDeuxSalves              = 240.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 16
@@ -46923,7 +46923,7 @@ Ammo_RocketArt_LARS_110mm is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 28.0
-    TempsEntreDeuxSalves              = 160.0
+    TempsEntreDeuxSalves              = 210.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 12
@@ -47018,7 +47018,7 @@ Ammo_RocketArt_LARS_110mm_cluster is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 28.0
-    TempsEntreDeuxSalves              = 160.0
+    TempsEntreDeuxSalves              = 210.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 36
@@ -47113,7 +47113,7 @@ Ammo_RocketArt_M21OF_122mm is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 28.0
-    TempsEntreDeuxSalves              = 120.0
+    TempsEntreDeuxSalves              = 210.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 20
@@ -47209,7 +47209,7 @@ Ammo_RocketArt_M21OF_122mm_cluster is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 28.0
-    TempsEntreDeuxSalves              = 220.0
+    TempsEntreDeuxSalves              = 240.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 20
@@ -47305,7 +47305,7 @@ Ammo_RocketArt_M21OF_122mm_napalm is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 28.0
-    TempsEntreDeuxSalves              = 160.0
+    TempsEntreDeuxSalves              = 240.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 20
@@ -47401,7 +47401,7 @@ Ammo_RocketArt_M21OF_122mm_x12 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 28.0
-    TempsEntreDeuxSalves              = 90.0
+    TempsEntreDeuxSalves              = 160.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 12
