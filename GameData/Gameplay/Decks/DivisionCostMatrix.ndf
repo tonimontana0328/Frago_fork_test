@@ -25,7 +25,7 @@ MatrixCostName_US_3rd_Arm_multi is MAP
    ( EDefaultFactories/at,          [1, 1, 2, 3, 3, 3] ),//6;13   =AA
    ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
    ( EDefaultFactories/art,         [0,] ),//0...DEPREC
-   ( EDefaultFactories/Helis,       [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15
+   ( EDefaultFactories/Helis,       [1, 1, 2, 3, 3, 3, 3, 3] ),//8;15
    ( EDefaultFactories/air,         [1, 1, 2, 3, 3, 3] ),//6;13
    ( EDefaultFactories/defense,     [0,] ),//55cases 107pts...Coef 1,95
 ]
@@ -39,7 +39,7 @@ MatrixCostName_US_3rd_Arm_multi_2 is MAP
    ( EDefaultFactories/at,          [1, 2, 3, 3, 3, 3] ),//6;13   =AA
    ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
    ( EDefaultFactories/art,         [0,] ),//0...DEPREC
-   ( EDefaultFactories/Helis,       [1, 1, 1, 1, 2, 3, 3, 3] ),//8;15
+   ( EDefaultFactories/Helis,       [1, 1, 2, 3, 3, 3, 3, 3] ),//8;15
    ( EDefaultFactories/air,         [1, 1, 2, 2, 3, 3] ),//6;13
    ( EDefaultFactories/defense,     [0,] ),//55cases 107pts...Coef 1,95
 ]
