@@ -47318,7 +47318,7 @@ Ammo_RocketArt_M21OF_122mm_napalm is TAmmunitionDescriptor
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_m21of"
     SmokeDescriptor                   = nil
-    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen
+    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen_122mm_FRL
     FireTriggeringProbability         = 1.0
     TargetUnitCenter                  = True
     IgnoreInflammabilityConditions    = True

@@ -323,3 +323,49 @@ export Descriptor_Fire_NapalmMoyen is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_Fire_NapalmMoyen_122mm_FRL is TEntityDescriptor
+(
+    World              = WorldIndices_Fires
+    DescriptorId       = GUID:{9b688389-07f3-4d1e-9a21-ff2498ae9d21}
+    ClassNameForDebug  = 'Fire_NapalmMoyen'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        ~/EmptyTagsModuleDescriptor,
+        TPositionModuleDescriptor
+        (
+            UseFollowCam               = False
+            StickToGround              = True
+            InGeoDb                    = False
+            PorteurMustBeVisible       = True
+            ClampInWorld               = True
+            ClampOutMap                = False
+            RelativeScanningPosition   = [0,0,0]
+            LowAltitudeFlyingAltitude  = ((0) * Metre)
+            NearGroundFlyingAltitude   = ((0) * Metre)
+        ),
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            Depiction  = Template_DescriptorFire_Depiction
+            (
+                 Radius               = 300 * Metre
+                 FX                   = $/GFX/GameFx/fx_binder_fire_Napalm_Moyen
+                 Density              = 1
+            )
+            DefaultVisibility  = True
+        ),
+        TFireModuleDescriptor
+        (
+            TimeToLive                     = ((60) * Seconde)
+            TimeBeforeSpreading            = ((1) * Seconde)
+            TimeBeforeSpreadAttempt        = ((1) * Seconde)
+            SpreadProbability              = 1.0
+            IsNewFireProbability           = 0.4
+            Radius                         = ((300) * Metre)
+            AmmunitionForBurn              = Ammo_Degats_napalm_buratino
+            TimeBetweenBurns               = ((2) * Seconde)
+            OverridenSpreadDescriptor      = Descriptor_Fire_Incendie
+            SmokeDescriptor                = Descriptor_Smoke_FumiIncendie
+        ),
+    ]
+)
