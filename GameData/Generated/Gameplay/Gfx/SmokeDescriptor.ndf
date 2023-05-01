@@ -422,6 +422,24 @@ export Descriptor_Smoke_FumiIncendie is TEntityDescriptor
             LowAltitudeFlyingAltitude  = ((0) * Metre)
             NearGroundFlyingAltitude   = ((0) * Metre)
         ),
+		TApparenceModelModuleDescriptor
+        (
+            Depiction  = Template_DescriptorSmoke_Depiction
+
+            (
+                Radius  = 400 * Metre
+                Height  = 350 * Metre
+                Density = 1.0
+            )
+            DefaultVisibility  = False
+        ),
+        TSmokeModuleDescriptor
+        (
+            Altitude       = ((350) * Metre)
+            TimeToLive     = ((90) * Seconde)
+            Radius         = ((400) * Metre)
+            Terrain        = ~/SmokeHeavy
+        ), 
     ]
 )
 export Descriptor_Smoke_FumiNapalm is TEntityDescriptor
