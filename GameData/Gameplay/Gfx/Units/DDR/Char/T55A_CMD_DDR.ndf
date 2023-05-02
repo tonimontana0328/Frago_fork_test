@@ -1,4 +1,4 @@
-export ModelFile_T55A_CMD_DDR is 'GameData:/Assets/3D/Units/DDR/Char/T55_CMD/T55.Ase2NdfBin'
+export ModelFile_T55A_CMD_DDR is 'GameData:/Assets/3D/Units/DDR/Char/T55A_CMD/T55A_CMD.fbx'
 
 Modele_T55A_CMD_DDR is TResourceMultiMaterialMeshWithLod
 (
@@ -8,18 +8,12 @@ Modele_T55A_CMD_DDR is TResourceMultiMaterialMeshWithLod
 
 Modele_T55A_CMD_DDR_MID is TResourceMultiMaterialMeshWithLod
 (
-    FileName = 'GameData:/Assets/3D/Units/DDR/Char/T55_CMD/T55.Ase2NdfBin'
+    FileName = 'GameData:/Assets/3D/Units/DDR/Char/T55A_CMD/T55A_CMD.fbx'
     CivMask =  CivMask/Common
 )
 
 Modele_T55A_CMD_DDR_LOW is TResourceMultiMaterialMeshWithLod
 (
-    FileName = 'GameData:/Assets/3D/Units/DDR/Char/T55_CMD/T55.Ase2NdfBin'
-    CivMask =  CivMask/Common
-)
-
-Modele_T55A_CMD_DDR_Tourelle_02 is TResourceMultiMaterialMeshWithLod
-(
-    FileName = 'GameData:/Assets/3D/Units/DDR/Char/T55_AM2/DShK_127mm.Ase2NdfBin'
+    FileName = 'GameData:/Assets/3D/Units/DDR/Char/T55A_CMD/T55A_CMD.fbx'
     CivMask =  CivMask/Common
 )

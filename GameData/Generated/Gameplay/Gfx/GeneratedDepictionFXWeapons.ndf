@@ -6327,6 +6327,22 @@ FXWeapon_Mortier_Vasilek_indirect_82mm_towed is FiringAndProjectile
     ]
 )
 
+FXWeapon_Mortier_M1_81mm is FiringAndProjectile
+(
+    Happenings = [
+        FXFiring_4( Action = $/GFX/GameFx/fx_tir_mortier_107mm ),
+        FXProjectile_5( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm ),
+    ]
+)
+
+FXWeapon_Mortier_M1_81mm_SMOKE is FiringAndProjectile
+(
+    Happenings = [
+        FXFiring_4( Action = $/GFX/GameFx/fx_tir_mortier_107mm ),
+        FXProjectile_5( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm ),
+    ]
+)
+
 FXWeapon_PM_AKSU_74 is FiringAndProjectile
 (
     Happenings = [

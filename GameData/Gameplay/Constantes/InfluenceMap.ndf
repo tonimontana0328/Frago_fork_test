@@ -40,12 +40,14 @@ export InfluenceMapCstStrategic is TInfluenceMapConstantesDescriptor
 (
     InfluenceMapName = "Influence Map Strategic"
 
-    TailleDeCase = 250 * Metre // = 6500 Attention impacte lourdement sur les performances (à voir si il ne faudrait pas plutot faire un réglage sur la quantité de case par map, là on table sur 300x300)
+    // on mets la taille d'une case tel que representé en jeu soit 100m de côté
+    TailleDeCase = 100 * Metre
 
-    DefaultDecay = 0.1 //0.35
-    DefaultDecayIsolated = 0.1 //0.35
+    // pour plus d'info --> https://confluence.eugennet.com/pages/viewpage.action?pageId=29364229
+    DefaultDecay = 0.1
+    DefaultDecayIsolated = 0.1
     DefaultMomentum = 0.9
-    MinValueInfluenceForOwnership = 0.7 //0.4
+    MinValueInfluenceForOwnership = 0.3
 
     PasDeValeurMinPourCapturerEmptyOwner = true // Si cette valeur est a true et une valeur de MinValueInfluenceForOwnership suffisamment élevée, l'infmap va se comporter comme un fow
 

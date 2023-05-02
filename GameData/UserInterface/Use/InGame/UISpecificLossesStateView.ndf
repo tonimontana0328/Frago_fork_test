@@ -413,7 +413,6 @@ template Display3ColumnsTitrePerte
                         TextToken = 'LSPERC'
                         Alignment = UIText_Right
                         IsTitre = true
-                        IsPercentage = true
                     )
                 ),
             ]

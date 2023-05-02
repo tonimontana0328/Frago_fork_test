@@ -2884,7 +2884,7 @@ Ammo_Bomb_BIN_375kg_Napalm_x6 is TAmmunitionDescriptor
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Mk_77"
     SmokeDescriptor                   = nil
-    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen
+    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen_bomb_FRL
     FireTriggeringProbability         = 1.0
     TargetUnitCenter                  = True
     IgnoreInflammabilityConditions    = True
@@ -3732,7 +3732,7 @@ Ammo_Bomb_Bidons_Speciaux_Napalm_x4 is TAmmunitionDescriptor
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Mk_77"
     SmokeDescriptor                   = nil
-    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen
+    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen_bomb_FRL
     FireTriggeringProbability         = 1.0
     TargetUnitCenter                  = True
     IgnoreInflammabilityConditions    = True
@@ -5527,7 +5527,7 @@ Ammo_Bomb_Mk77_340kg_Napalm_x2 is TAmmunitionDescriptor
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Mk_77"
     SmokeDescriptor                   = nil
-    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen
+    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen_bomb_FRL
     FireTriggeringProbability         = 1.0
     TargetUnitCenter                  = True
     IgnoreInflammabilityConditions    = True
@@ -5622,7 +5622,7 @@ Ammo_Bomb_Mk77_340kg_Napalm_x4 is TAmmunitionDescriptor
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Mk_77"
     SmokeDescriptor                   = nil
-    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen
+    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen_bomb_FRL
     FireTriggeringProbability         = 1.0
     TargetUnitCenter                  = True
     IgnoreInflammabilityConditions    = True
@@ -6572,7 +6572,7 @@ Ammo_Bomb_ZB500_500kg_Napalm_x4 is TAmmunitionDescriptor
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_zb500"
     SmokeDescriptor                   = nil
-    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen
+    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen_bomb_FRL
     FireTriggeringProbability         = 1.0
     TargetUnitCenter                  = True
     IgnoreInflammabilityConditions    = True
@@ -6667,7 +6667,7 @@ Ammo_Bomb_ZB500_500kg_Napalm_x6 is TAmmunitionDescriptor
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_zb500"
     SmokeDescriptor                   = nil
-    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen
+    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen_bomb_FRL
     FireTriggeringProbability         = 1.0
     TargetUnitCenter                  = True
     IgnoreInflammabilityConditions    = True
@@ -47318,7 +47318,7 @@ Ammo_RocketArt_M21OF_122mm_napalm is TAmmunitionDescriptor
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_m21of"
     SmokeDescriptor                   = nil
-    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen_122mm_FRL
+    FireDescriptor                    = ~/Descriptor_Fire_NapalmMoyen
     FireTriggeringProbability         = 1.0
     TargetUnitCenter                  = True
     IgnoreInflammabilityConditions    = True

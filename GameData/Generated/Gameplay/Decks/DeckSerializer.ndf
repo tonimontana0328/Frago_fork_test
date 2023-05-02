@@ -375,6 +375,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_APC_RFA, 911),
         (Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_CMD_RFA, 912),
         (Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_IFV_RFA, 913),
+        (Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_PzGrenadier_RFA, 914),
         (Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Scout_RFA, 915),
         (Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Security_RFA, 916),
         (Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Tornado_IDS_CLUS_RFA, 918),

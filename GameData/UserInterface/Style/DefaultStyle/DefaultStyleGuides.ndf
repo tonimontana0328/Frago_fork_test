@@ -1397,6 +1397,12 @@ DefaultStyleGuide is TUIStyleGuide
                                                         ]),
 
         ("MoraleGauge",                                 MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [152, 115, 35, 255] ) ), ]),
+        ("ShowroomGray",                                MAP [
+                                                            ( ~/ComponentState/Normal, TColorRTTI( Color = Blanc184 ) ),
+                                                            ( ~/ComponentState/Highlighted, TColorRTTI( Color = Blanc7 ) ),
+                                                            ( ~/ComponentState/Clicked, TColorRTTI( Color = BlancPur ) ),
+                                                        ]),
+
 
         // Pour debug
         ("ScenarioDlc/Fond",                            MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = NoirPur50 ) ), ]),

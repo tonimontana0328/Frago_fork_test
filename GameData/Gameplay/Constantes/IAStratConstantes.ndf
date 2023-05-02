@@ -17,7 +17,7 @@ export IAStratConstantes is TIAStratConstantesDescriptor_Specific
 
     //--------------- Comportement des unités ----------------------------------------//
     CacherLesUnitesIdle = true
-    FollowUnitIfNoTarget = false
+    FollowUnitIfNoTarget = true
 
     AmplificateurDangerPonts = 20.0 //1800
 

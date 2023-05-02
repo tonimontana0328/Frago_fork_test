@@ -2073,17 +2073,6 @@ Gfx_T55A_CMD_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_T55A_CMD_DDR
     Selector = Selector_T55A_CMD_DDR
-    SubDepictions = 
-    [
-        TSubDepiction
-        (
-            Anchor = "base_tourelle_02"
-            Depiction = ShowroomDepictionTemplateInternal
-            (
-                MeshDescriptor = Modele_T55A_CMD_DDR_Tourelle_02
-            )
-        ),
-    ]
 )
 Gfx_T55A_CMD_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
@@ -2094,17 +2083,6 @@ Gfx_T55A_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_T55A_DDR
     Selector = Selector_T55A_DDR
-    SubDepictions = 
-    [
-        TSubDepiction
-        (
-            Anchor = "base_tourelle_02"
-            Depiction = ShowroomDepictionTemplateInternal
-            (
-                MeshDescriptor = Modele_T55A_DDR_Tourelle_02
-            )
-        ),
-    ]
 )
 Gfx_T55A_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
@@ -2150,33 +2128,11 @@ Gfx_T72M1_CMD_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_T72M1_CMD_DDR
     Selector = Selector_T72M1_CMD_DDR
-    SubDepictions = 
-    [
-        TSubDepiction
-        (
-            Anchor = "base_tourelle_02"
-            Depiction = ShowroomDepictionTemplateInternal
-            (
-                MeshDescriptor = Modele_T72M1_CMD_DDR_Tourelle_02
-            )
-        ),
-    ]
 )
 Gfx_T72M1_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_T72M1_DDR
     Selector = Selector_T72M1_DDR
-    SubDepictions = 
-    [
-        TSubDepiction
-        (
-            Anchor = "base_tourelle_02"
-            Depiction = ShowroomDepictionTemplateInternal
-            (
-                MeshDescriptor = Modele_T72M1_DDR_Tourelle_02
-            )
-        ),
-    ]
 )
 Gfx_T72M_CMD_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (

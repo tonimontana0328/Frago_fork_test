@@ -40,6 +40,8 @@ ShowRoomTexture_plastique_Foreground   is TUIResourceTexture_Common( FileName = 
 showRoomTexture_epingle is TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/ShowRoom/epingle.png" )
 showRoomTexture_epingle2 is TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/ShowRoom/epingle2.png" )
 
+showRoomTexture_LightCycle is TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/ShowRoom/LightCycleButton.png" )
+
 ShowRoomTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
 (
     Textures = MAP [
@@ -113,6 +115,10 @@ ShowRoomTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
                                                             (~/ComponentState/Normal, TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/ShowRoom/maximize.png" )),
                                                             (~/ComponentState/Toggled, TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/ShowRoom/minimize.png" )),
                                                             (~/ComponentState/ToggleHighlighted, TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/ShowRoom/minimize.png" )),
+                                                        ]),
+
+        ("ShowRoomTexture_LightCycle",                MAP [
+                                                            (~/ComponentState/Normal, showRoomTexture_LightCycle)
                                                         ]),
     ]
 )

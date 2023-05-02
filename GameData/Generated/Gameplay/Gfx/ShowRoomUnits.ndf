@@ -4466,7 +4466,6 @@ export Descriptor_ShowRoomUnit_BMP_1_CMD_SOV is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Axis
             MotherCountry                    = 'SOV'
-            Key                              = 117
             AcknowUnitType                   = ~/TAcknowUnitType_Command
             TypeUnitFormation                = 'Supply'
         ),
@@ -4627,7 +4626,6 @@ export Descriptor_ShowRoomUnit_BMP_3_SOV is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Axis
             MotherCountry                    = 'SOV'
-            Key                              = 109
             AcknowUnitType                   = ~/TAcknowUnitType_Tank
             TypeUnitFormation                = 'Char'
         ),
@@ -15345,7 +15343,6 @@ export Descriptor_ShowRoomUnit_M106A2_HOWZ_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 121
             AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
             TypeUnitFormation                = 'Artillerie'
         ),
@@ -15426,7 +15423,6 @@ export Descriptor_ShowRoomUnit_M109A2_HOWZ_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 112
             AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
             TypeUnitFormation                = 'Artillerie'
         ),
@@ -16607,7 +16603,6 @@ export Descriptor_ShowRoomUnit_M1_Abrams_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 97
             AcknowUnitType                   = ~/TAcknowUnitType_Tank
             TypeUnitFormation                = 'Char'
         ),
@@ -16728,7 +16723,6 @@ export Descriptor_ShowRoomUnit_M270_MLRS_cluster_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 108
             AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
             TypeUnitFormation                = 'Artillerie'
         ),
@@ -16919,7 +16913,6 @@ export Descriptor_ShowRoomUnit_M3A1_Bradley_CFV_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 98
             AcknowUnitType                   = ~/TAcknowUnitType_Reco
             TypeUnitFormation                = 'Reconnaissance'
         ),
@@ -17080,7 +17073,6 @@ export Descriptor_ShowRoomUnit_M48_Chaparral_MIM72F_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 115
             AcknowUnitType                   = ~/TAcknowUnitType_CanonAA
             TypeUnitFormation                = 'Artillerie'
         ),
@@ -26967,7 +26959,6 @@ export Descriptor_ShowRoomUnit_T64BV_SOV is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Axis
             MotherCountry                    = 'SOV'
-            Key                              = 110
             AcknowUnitType                   = ~/TAcknowUnitType_Tank
             TypeUnitFormation                = 'Char'
         ),
@@ -27008,7 +26999,6 @@ export Descriptor_ShowRoomUnit_T64B_SOV is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Axis
             MotherCountry                    = 'SOV'
-            Key                              = 119
             AcknowUnitType                   = ~/TAcknowUnitType_Tank
             TypeUnitFormation                = 'Char'
         ),
@@ -28221,7 +28211,6 @@ export Descriptor_ShowRoomUnit_Tunguska_2K22_SOV is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Axis
             MotherCountry                    = 'SOV'
-            Key                              = 103
             AcknowUnitType                   = ~/TAcknowUnitType_CanonAA
             TypeUnitFormation                = 'Artillerie'
         ),
@@ -30890,7 +30879,6 @@ export Descriptor_ShowRoomUnit_AH1F_ATAS_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 99
             AcknowUnitType                   = ~/TAcknowUnitType_HeliAttack
             TypeUnitFormation                = 'None'
         ),
@@ -31051,7 +31039,6 @@ export Descriptor_ShowRoomUnit_AH64_Apache_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 120
             AcknowUnitType                   = ~/TAcknowUnitType_HeliAttack
             TypeUnitFormation                = 'None'
         ),
@@ -34313,7 +34300,6 @@ export Descriptor_ShowRoomUnit_A10_Thunderbolt_II_ATGM_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 116
             AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
             TypeUnitFormation                = 'None'
         ),
@@ -34594,7 +34580,6 @@ export Descriptor_ShowRoomUnit_EF111_Raven_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 101
             AcknowUnitType                   = ~/TAcknowUnitType_AirSup
             TypeUnitFormation                = 'None'
         ),
@@ -34990,7 +34975,6 @@ export Descriptor_ShowRoomUnit_F111F_Aardvark_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 111
             AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
             TypeUnitFormation                = 'None'
         ),
@@ -35151,7 +35135,6 @@ export Descriptor_ShowRoomUnit_F15C_Eagle_AA_US is TEntityDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            Key                              = 102
             AcknowUnitType                   = ~/TAcknowUnitType_AirSup
             TypeUnitFormation                = 'None'
         ),

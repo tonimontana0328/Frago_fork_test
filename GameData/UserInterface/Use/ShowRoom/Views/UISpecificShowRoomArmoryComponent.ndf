@@ -619,148 +619,200 @@ UnitSkinButtonBigBorder is BUCKContainerDescriptor
 
 //-------------------------------------------------------------------------------------
 // affichage des pays & catégories d'unités
-private ShowroomTopFiltersList is BUCKListElementDescriptor
+private ShowroomTopFiltersList is BUCKListDescriptor
 (
-    ComponentDescriptor = BUCKListDescriptor
+    ElementName = "ShowroomTopFiltersList"
+    ComponentFrame = TUIFramePropertyRTTI
     (
-        ComponentFrame = TUIFramePropertyRTTI
-        (
-            RelativeWidthHeight = [0.0, 1.0]
-        )
-
-        FirstMargin = TRTTILength( Magnifiable = 0.0 )
-        InterItemMargin = TRTTILength( Magnifiable = 10.0 )
-        LastMargin = TRTTILength( Magnifiable = 30.0 )
-        Axis = ~/ListAxis/Horizontal
-
-        Elements =
-        [
-            // Alliance Filter
-
-            BUCKListElementSpacer( Magnifiable = 10.0 ),
-            BUCKListElementDescriptor
-            (
-                ComponentDescriptor = TexteIndicatifCategorie
-                (
-                    TextToken = 'Fil_allia'
-                    HasBorder = false
-                    AlignementToAnchor = [0.0, 0.5]
-                    AlignementToFather = [0.0, 0.5]
-                )
-            ),
-            BUCKListElementDescriptor
-            (
-                ComponentDescriptor = ShowroomTogglableFilterButton
-                (
-                    ElementName = "AllianceFilterAllies"
-                    TextureToken = "CommonTexture_MotherCountryFlag_NATO"
-                    SubComponentRelativeWidthHeight = [0.7, 0.7]
-                )
-            ),
-
-            BUCKListElementDescriptor
-            (
-                ComponentDescriptor = ShowroomTogglableFilterButton
-                (
-                    ElementName = "AllianceFilterAxis"
-                    TextureToken = "CommonTexture_MotherCountryFlag_WP"
-                    SubComponentRelativeWidthHeight = [0.7, 0.7]
-                )
-            ),
-
-            // Nation Filter
-
-            BUCKListElementSpacer( Magnifiable = 15.0 ),
-            BUCKListElementDescriptor
-            (
-                ComponentDescriptor = TexteIndicatifCategorie
-                (
-                    TextToken = 'Fil_pays'
-                    HasBorder = false
-                    AlignementToAnchor = [0.0, 0.5]
-                    AlignementToFather = [0.0, 0.5]
-                )
-            ),
-            BUCKListElementDescriptor
-            (
-                ComponentDescriptor = ShowroomTogglableFilterButton
-                (
-                    ElementName = "CountryFilterAll"
-                    TextToken = "ARMF_ALL"
-                )
-            ),
-            BUCKListElementDescriptor
-            (
-                ComponentDescriptor = BUCKRackDescriptor
-                (
-                    ElementName = "CountryFilterRack"
-                    ComponentFrame = TUIFramePropertyRTTI
-                    (
-                        RelativeWidthHeight = [0.0, 1.0]
-                    )
-
-                    FirstMargin = TRTTILength( Magnifiable = 0.0 )
-                    InterItemMargin = TRTTILength( Pixel = 5.0 )
-                    Axis = ~/ListAxis/Horizontal
-
-                    BladeDescriptor = ArmoryCountryFilterButtonDescriptor
-                )
-            ),
-
-            // Division filter
-
-            BUCKListElementSpacer( Magnifiable = 15.0 ),
-            BUCKListElementDescriptor
-            (
-                ComponentDescriptor = TexteIndicatifCategorie
-                (
-                    TextToken = 'Fil_div'
-                    HasBorder = false
-                    AlignementToAnchor = [0.0, 0.5]
-                    AlignementToFather = [0.0, 0.5]
-                )
-            ),
-            BUCKListElementDescriptor
-            (
-                ComponentDescriptor = BUCKSpecificScrollingContainerDescriptor
-                (
-
-                    ComponentFrame = TUIFramePropertyRTTI
-                    (
-                        MagnifiableWidthHeight= [832,0]
-                        RelativeWidthHeight = [0.0, 1]
-                    )
-                    ScrollStepSize = [44,0]
-                    HasHorizontalScrollbar = true
-                    HorizontalScrollbarComponentFrame = TUIFramePropertyRTTI
-                    (
-                        MagnifiableWidthHeight = [0.0, 10.0]
-                        MagnifiableOffset = [0,10]
-                        AlignementToAnchor = [0.0, 1.0]
-                        AlignementToFather = [0.0, 1.0]
-                    )
-
-                    Components =
-                    [
-                        BUCKRackDescriptor
-                        (
-                            ElementName = "DivisionFilterRack"
-                            ComponentFrame = TUIFramePropertyRTTI
-                            (
-                                RelativeWidthHeight = [0.0, 1.0]
-                            )
-
-                            FirstMargin = TRTTILength( Magnifiable = 0.0 )
-                            InterItemMargin = TRTTILength( Pixel = 4.0 )
-                            Axis = ~/ListAxis/Horizontal
-
-                            BladeDescriptor = ArmoryDivisionFilterButtonDescriptor
-                        )
-                    ]
-                )
-            ),
-        ]
+        RelativeWidthHeight = [0.0, 1.0]
     )
+
+    FirstMargin = TRTTILength( Magnifiable = 0.0 )
+    InterItemMargin = TRTTILength( Magnifiable = 10.0 )
+    LastMargin = TRTTILength( Magnifiable = 10.0 )
+    Axis = ~/ListAxis/Horizontal
+
+    Elements =
+    [
+        // Alliance Filter
+
+        BUCKListElementSpacer( Magnifiable = 10.0 ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = TexteIndicatifCategorie
+            (
+                ElementName = "AlliancesTitle"
+                TextToken = 'Fil_allia'
+                HasBorder = false
+                AlignementToAnchor = [0.0, 0.5]
+                AlignementToFather = [0.0, 0.5]
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ShowroomTogglableFilterButton
+            (
+                ElementName = "AllianceFilterAllies"
+                TextureToken = "CommonTexture_MotherCountryFlag_NATO"
+                SubComponentRelativeWidthHeight = [0.7, 0.7]
+            )
+        ),
+
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ShowroomTogglableFilterButton
+            (
+                ElementName = "AllianceFilterAxis"
+                TextureToken = "CommonTexture_MotherCountryFlag_WP"
+                SubComponentRelativeWidthHeight = [0.7, 0.7]
+            )
+        ),
+
+        // Nation Filter
+
+        BUCKListElementSpacer( Magnifiable = 15.0 ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = TexteIndicatifCategorie
+            (
+                ElementName = "CountriesTitle"
+                TextToken = 'Fil_pays'
+                HasBorder = false
+                AlignementToAnchor = [0.0, 0.5]
+                AlignementToFather = [0.0, 0.5]
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ShowroomTogglableFilterButton
+            (
+                ElementName = "CountryFilterAll"
+                TextToken = "ARMF_ALL"
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKRackDescriptor
+            (
+                ElementName = "CountryFilterRack"
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    RelativeWidthHeight = [0.0, 1.0]
+                )
+
+                FirstMargin = TRTTILength( Magnifiable = 0.0 )
+                InterItemMargin = TRTTILength( Pixel = 5.0 )
+                Axis = ~/ListAxis/Horizontal
+
+                BladeDescriptor = ArmoryCountryFilterButtonDescriptor
+            )
+        ),
+
+        // Division filter
+
+        BUCKListElementSpacer( Magnifiable = 15.0 ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = TexteIndicatifCategorie
+            (
+                ElementName = "DivisionsTitle"
+                TextToken = 'Fil_div'
+                HasBorder = false
+                AlignementToAnchor = [0.0, 0.5]
+                AlignementToFather = [0.0, 0.5]
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ExtendWeight = 1.0
+            ComponentDescriptor = BUCKSpecificScrollingContainerDescriptor
+            (
+                ElementName = "DivisionsScrollingContainer"
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    RelativeWidthHeight = [1.0, 1.0]
+                )
+
+                ScrollStepSize = [44.0, 0.0]
+                HasHorizontalScrollbar = true
+                HorizontalScrollbarComponentFrame = TUIFramePropertyRTTI
+                (
+                    MagnifiableWidthHeight = [0.0, 10.0]
+                    MagnifiableOffset = [0,10]
+                    AlignementToAnchor = [0.0, 1.0]
+                    AlignementToFather = [0.0, 1.0]
+                )
+
+                Components =
+                [
+                    BUCKRackDescriptor
+                    (
+                        ElementName = "DivisionFilterRack"
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            RelativeWidthHeight = [0.0, 1.0]
+                        )
+
+                        FirstMargin = TRTTILength( Magnifiable = 0.0 )
+                        InterItemMargin = TRTTILength( Pixel = 4.0 )
+                        Axis = ~/ListAxis/Horizontal
+
+                        BladeDescriptor = ArmoryDivisionFilterButtonDescriptor
+                    )
+                ]
+            )
+        )
+    ]
+)
+
+template ShowroomLightCycleButtonContainer
+[
+    MagnifiableOffset : float2,
+] is BUCKContainerDescriptor
+(
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        AlignementToAnchor = [1.0, 0.0]
+        AlignementToFather = [1.0, 0.0]
+        MagnifiableOffset = <MagnifiableOffset>
+    )
+
+    FitStyle = ~/ContainerFitStyle/FitToContent
+
+    Components =
+    [
+        ShowroomLightCycleButton
+    ]
+)
+
+//-------------------------------------------------------------------------------------
+
+ShowroomLightCycleButton is BUCKButtonDescriptor
+(
+    ElementName = "ShowroomLightCycleButton"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [30.0, 30.0]
+        AlignementToAnchor = [0.0, 0.5]
+        AlignementToFather = [0.0, 0.5]
+    )
+
+    Mapping = $/KeyboardOption/Mapping_NextLightMode
+
+    Components =
+    [
+        BUCKTextureDescriptor
+        (
+            TextureToken = "ShowRoomTexture_LightCycle"
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 1.0]
+            )
+
+            ResizeMode = ~/TextureResizeMode/UserDefined
+            TextureColorToken = "ShowroomGray"
+        )
+    ]
 )
 
 //-------------------------------------------------------------------------------------
@@ -782,6 +834,7 @@ private affichageCategorie is BUCKListElementDescriptor
 
 template TexteIndicatifCategorie
 [
+    ElementName : string,
     TextToken : string,
     HasBorder : bool = true,
     AlignementToFather : float2 = [0.5, 0.0],
@@ -789,6 +842,7 @@ template TexteIndicatifCategorie
 
 ] is BUCKTextDescriptor
 (
+    ElementName = <ElementName>
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [0.0, 20.0]
@@ -972,23 +1026,7 @@ ShowroomTopFiltersBarContainer is BUCKContainerDescriptor
 
     Components =
     [
-        BUCKListDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [0.0, 1.0]
-            )
-
-            Axis = ~/ListAxis/Horizontal
-            Elements =
-            [
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = ShowroomTopFiltersList
-                ),
-            ]
-        ),
-
+        ShowroomTopFiltersList
     ]
 )
 
@@ -996,12 +1034,14 @@ ShowroomTopFiltersBarContainer is BUCKContainerDescriptor
 
 template ShowroomVerticalFilterBarElement
 [
+    ElementName : string,
     ElementTitle : string,
     ComponentDescriptor : TBUCKContainerDescriptor
 ] is BUCKListElementDescriptor
 (
     ComponentDescriptor = BUCKListDescriptor
     (
+        ElementName = <ElementName> + "List"
         ComponentFrame = TUIFramePropertyRTTI
         (
             RelativeWidthHeight = [1.0, 0.0]
@@ -1012,7 +1052,7 @@ template ShowroomVerticalFilterBarElement
         [
             BUCKListElementDescriptor
             (
-                ComponentDescriptor = TexteIndicatifCategorie( TextToken = <ElementTitle>)
+                ComponentDescriptor = TexteIndicatifCategorie( TextToken = <ElementTitle> ElementName = <ElementName> + "Title")
             ),
             BUCKListElementSpacer(Magnifiable = 5.0),
             BUCKListElementDescriptor
@@ -1056,6 +1096,7 @@ ShowroomVerticalFilterBarContainer is PanelRoundedCorner
                 // affichage du filtre par nom
                 ShowroomVerticalFilterBarElement
                 (
+                    ElementName = "NameFilter"
                     ElementTitle = "Fil_nom"
                     ComponentDescriptor = UnitGridNameFilter
                 ),
@@ -1063,6 +1104,7 @@ ShowroomVerticalFilterBarContainer is PanelRoundedCorner
                 // affichage des catégories
                 ShowroomVerticalFilterBarElement
                 (
+                    ElementName = "CategoryFilters"
                     ElementTitle = "Fil_cat"
                     ComponentDescriptor = affichageCategorie
                 ),
@@ -1070,6 +1112,7 @@ ShowroomVerticalFilterBarContainer is PanelRoundedCorner
                 // affichage des types
                 ShowroomVerticalFilterBarElement
                 (
+                    ElementName = "TypeFilters"
                     ElementTitle = "Fil_role"
                     ComponentDescriptor = CategoryFiltersMainRack
                     (
@@ -1085,6 +1128,7 @@ ShowroomVerticalFilterBarContainer is PanelRoundedCorner
                 // affichge des valeurs
                 ShowroomVerticalFilterBarElement
                 (
+                    ElementName = "ValueFilters"
                     ElementTitle = "Fil_valeur"
                     ComponentDescriptor = CategoryFiltersMainRack
                     (
@@ -1149,7 +1193,8 @@ ArmoryMainComponentDescriptor is BUCKContainerDescriptor
             )
 
             FitStyle = ~/ContainerFitStyle/None
-        )
+        ),
+        ShowroomLightCycleButtonContainer(MagnifiableOffset = [-10.0, 65.0]),
     ]
 )
 
@@ -1358,6 +1403,5 @@ ArmoryComponentDescriptor is TUISpecificShowRoomArmoryComponentDescriptor
     SideBySideButtonComponentDescriptor = ~/SideBySideButtonDescriptor
     AnimationButtonComponentDescriptor = ~/AnimationButtonDescriptor
     MaxUnitByLineInUnitDivisionGrid = MaxUnitByLineInUnitDivisionGridArmory
-    CycleToNextLightMapping = $/KeyboardOption/Mapping_NextLightMode
     ShortcutUserInputLayer = $/M3D/Input/UserInputLayerHandler/InputLayer_InGameShortcuts
 )

@@ -1211,7 +1211,10 @@ private template DeckEditorTopBar
                     )
                 )
             ]
-        )
+        ),
+
+        // Light cycle button
+        ShowroomLightCycleButtonContainer(MagnifiableOffset = [-10.0, 60.0])
     ]
 )
 
@@ -1319,39 +1322,7 @@ private DeckEditorUnitsList is BUCKContainerDescriptor
 
     Components =
     [
-        ~/DeckPanelContentList,
-        ~/ShowDeckPanelButton
-    ]
-)
-
-//-------------------------------------------------------------------------------------
-
-DeckPanelAnimation is BUCKTranslationAnimatedContainerDescriptor
-(
-    ElementName = "DeckPanelAnimation"
-    ButtonNameForTrigger = "ShowDeckPanelButton"
-
-    FramePropertyBeforeAnimation = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight = [1.0, 1.0]
-        AlignementToAnchor = [0.5, 1.0]
-        AlignementToFather = [0.5, 1.0]
-        MagnifiableOffset = [0.0, -75.0]
-    )
-
-    UseRewind = true
-    AnimationTotalDuration = 0.10
-
-    FramePropertyAfterAnimation = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight = [1.0, 1.0]
-        AlignementToAnchor = [0.5, 1.0]
-        AlignementToFather = [0.5, 1.0]
-    )
-
-    Components =
-    [
-        ~/DeckEditorUnitsList
+        ~/DeckPanelContentList
     ]
 )
 
@@ -1360,41 +1331,6 @@ DeckEditorCloseButton is MainBackButtonContainer
 (
     ButtonDefaultToken = "BTN_CLOSE"
     BackMapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-)
-
-//-------------------------------------------------------------------------------------
-ShowDeckPanelButton is BUCKButtonDescriptor
-(
-    ElementName = "ShowDeckPanelButton"
-
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [25.0, 25.0]
-        AlignementToAnchor = [1.0, 0.0]
-        AlignementToFather = [1.0, 0.0]
-        MagnifiableOffset = [-10.0, 90.0]
-    )
-
-    IsTogglable = true
-    DefaultToggleValue = false
-    RadioButtonManager =  nil
-    CannotDeselect = false
-    ForceEvents = false
-    LeftClickSound = ~/SoundEvent_DeckEditorShowHideUnitsPanel
-
-    Components =
-    [
-        BUCKTextureDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [20.0, 20.0]
-            )
-            TextureToken = 'showRoomTexture_minimize'
-            TextureColorToken = 'MarronPanel_noir_toggled2'
-            Rotation = 180
-        ),
-    ]
 )
 
 //-------------------------------------------------------------------------------------
@@ -1564,7 +1500,7 @@ DeckCreatorScreenMainComponent is BUCKContainerDescriptor
     Components =
     [
         // affichage des éléments au centre bas
-        ~/DeckPanelAnimation,
+        ~/DeckEditorUnitsList,
         // affichage des unités disponibles
         ~/DivisionGridContainer,
         // barre supérieure
@@ -2005,7 +1941,6 @@ DeckCreatorScreenComponentDescriptor is TUISpecificShowRoomDeckCreatorScreenComp
     AddUnitSound = SoundEvent_DeckEditorAddUnit
     RemoveUnitSound = SoundEvent_DeckEditorRemoveUnit
     MaxUnitByLineInUnitDivisionGrid = MaxUnitByLineInUnitDivisionGridDeckCreator
-    CycleToNextLightMapping = $/KeyboardOption/Mapping_NextLightMode
 )
 
 //-------------------------------------------------------------------------------------
