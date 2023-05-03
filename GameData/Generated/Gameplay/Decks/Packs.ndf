@@ -15841,6 +15841,18 @@ Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_ZSU_23_Shilka_SOV is TDeckPackDe
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MiG_27M_sead_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{4f0da17b-a34d-412d-abdd-7d08c1ee5496}
+    CfgName = 'TOE_SOV_39_Gds_Rifle_multi_MiG_27M_sead_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_27M_sead_SOV
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_challenge_2K12_KUB_SOV is TDeckPackDescriptor
 (
     DescriptorId = GUID:{a15b6d5d-0a59-4c83-b01e-59d78dd9634e}
@@ -23641,6 +23653,18 @@ Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_UH60A_Supply_US is TDeckPackDesc
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_ATteam_ITOW_US is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{38187be0-b083-4e00-a6b3-ebbb9a84fc33}
+    CfgName = 'TOE_US_82nd_Airborne_multi_ATteam_ITOW_US'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_ITOW_US
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_US_8th_Inf_challenge_A10_Thunderbolt_II_ATGM_US is TDeckPackDescriptor
 (
     DescriptorId = GUID:{48dc24b1-c93b-4227-a700-00a993795bf7}
@@ -27430,6 +27454,18 @@ Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_ZSU_23_Shilka_SOV is TDeck
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_ZSU_23_Shilka_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Su_22_SEAD_DDR is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{8973ce0b-b7c6-47a1-923f-9d547ba3a54d}
+    CfgName = 'TOE_WP_Unternehmen_Zentrum_multi_Su_22_SEAD_DDR'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_22_SEAD_DDR
         ),
     ]
 )

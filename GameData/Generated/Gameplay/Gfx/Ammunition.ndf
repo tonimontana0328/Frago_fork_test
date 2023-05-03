@@ -25285,7 +25285,7 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm is TAmmunitionDescriptor
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 152 * Metre
-    PhysicalDamages                   = 2.074
+    PhysicalDamages                   = 2.17
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 305 * Metre
     SuppressDamages                   = 146.0
@@ -68700,7 +68700,7 @@ Ammo_SAM_MIM72G is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 2.0
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
-    PorteeMaximaleTBA                 = ((8490) * Metre)
+    PorteeMaximaleTBA                 = ((7995) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
     PorteeMaximaleHA                  = ((9976) * Metre)
     PorteeMinimale                    = ((0) * Metre)

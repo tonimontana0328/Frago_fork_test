@@ -12023,14 +12023,14 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1750 * Metre
+                    MaxAcceleration = 1200 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1750 * Metre
+                    MaxAcceleration = 1200 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -12040,8 +12040,8 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
                 TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
                 TimeBetweenChaosUpdates = 0.1
                 RangeChaos = 1250
-                AngleMaxForRandomMouvUncontrollable = 6.0
-                RotationSpeedWhenUncontrollable = 30
+                AngleMaxForRandomMouvUncontrollable = 0.00060
+                RotationSpeedWhenUncontrollable = 0.000030
                 TempsDemiTour = 0.1
             ),
             TModuleSelector
@@ -12143,14 +12143,14 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1750 * Metre
+                    MaxAcceleration = 1200 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1750 * Metre
+                    MaxAcceleration = 1200 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -12160,8 +12160,8 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
                 TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
                 TimeBetweenChaosUpdates = 0.1
                 RangeChaos = 1250
-                AngleMaxForRandomMouvUncontrollable = 6.0
-                RotationSpeedWhenUncontrollable = 30
+                AngleMaxForRandomMouvUncontrollable = 0.00060
+                RotationSpeedWhenUncontrollable = 0.000030
                 TempsDemiTour = 0.1
             ),
             TModuleSelector

@@ -184,15 +184,15 @@ MatrixCostName_RFA_2_PzGrenadier_challenge is MAP
 MatrixCostName_RFA_TerrKo_Sud_multi is MAP
 [
    ( EDefaultFactories/Logistic,    [1, 1, 1, 2, 3, 3, 3] ),//7;14
-   ( EDefaultFactories/reco,        [1, 2, 3, 3, 3] ),//5;12
+   ( EDefaultFactories/reco,        [1, 1, 1, 2, 3, 3] ),//5;12
    ( EDefaultFactories/infanterie,  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] ),//10;10
    ( EDefaultFactories/tank,        [1, 1, 2, 3, 3, 3] ),//6;13
-   ( EDefaultFactories/support,     [1, 1, 1, 2, 3, 3, 3] ),//7;14   =ART
+   ( EDefaultFactories/support,     [1, 1, 1, 3, 3, 3, 3] ),//7;14   =ART
    ( EDefaultFactories/at,          [1, 1, 1, 2, 3, 3, 3] ),//7;14  =AA
    ( EDefaultFactories/dca,         [0,] ),//0...DEPREC
    ( EDefaultFactories/art,         [0,] ),//0...DEPREC
    ( EDefaultFactories/Helis,       [1, 1, 2, 3, 3, 3] ),//6;13
-   ( EDefaultFactories/air,         [1, 1, 1, 2, 3, 3, 3] ),//7;14
+   ( EDefaultFactories/air,         [1, 1, 1, 1, 2, 3, 3] ),//7;14
    ( EDefaultFactories/defense,     [0,] ),//55cases 104pts coef 1,89
 ]
 
