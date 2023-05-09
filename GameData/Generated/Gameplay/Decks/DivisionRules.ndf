@@ -14825,7 +14825,7 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_M998_Humvee_US, ~/Descriptor_Unit_M151_MUTT_trans_US]
                         NumberOfUnitInPack = 8
-                        NumberOfUnitInPackXPMultiplier = [1.0, 1.0, 1.0, 1.0]
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
                 ]
             )
