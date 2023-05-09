@@ -1127,7 +1127,7 @@ Ammo_AutoCanon_AP_30mm_M230 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_FastCanon
     MinMaxCategory                    = MinMax_AutocanonHE
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap" Index=5)
+    Arme                              = TDamageTypeRTTI(Family="ap" Index=4)
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = [ 'CanonPetitM230AP' ]
     FxPower                           = EFXPower/Moyen
