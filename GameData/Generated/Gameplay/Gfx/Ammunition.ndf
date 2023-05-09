@@ -17566,6 +17566,7 @@ Ammo_DCA_1_canon_FK20_20mm_TOWED is TAmmunitionDescriptor
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((25) * Metre)
+	DispersionAtMinRange              = ((8) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 10 * Metre
@@ -17845,6 +17846,7 @@ Ammo_DCA_2_canon_FK20_20mm is TAmmunitionDescriptor
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((25) * Metre)
+	DispersionAtMinRange              = ((8) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 10 * Metre
@@ -17938,6 +17940,7 @@ Ammo_DCA_2_canon_Jod_SP_23mm is TAmmunitionDescriptor
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((25) * Metre)
+	DispersionAtMinRange              = ((8) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 12 * Metre
@@ -18031,6 +18034,7 @@ Ammo_DCA_2_canon_Jod_towed_23mm is TAmmunitionDescriptor
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((25) * Metre)
+	DispersionAtMinRange              = ((8) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 12 * Metre
@@ -18124,6 +18128,7 @@ Ammo_DCA_2_canon_ZU23_2_23mm is TAmmunitionDescriptor
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((25) * Metre)
+	DispersionAtMinRange              = ((8) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 12 * Metre
@@ -18217,6 +18222,7 @@ Ammo_DCA_2_canon_ZU23_2_23mm_TOWED is TAmmunitionDescriptor
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((25) * Metre)
+	DispersionAtMinRange              = ((8) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 12 * Metre
@@ -19232,8 +19238,8 @@ Ammo_DCA_4_canons_APZ23_23mm is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = [ 'CanonPetitAPZ23HEFI' ]
     FxPower                           = EFXPower/Moyen
-    TempsEntreDeuxTirs                = 0.4
-    TempsEntreDeuxFx                  = 0.2
+    TempsEntreDeuxTirs                = 0.25
+    TempsEntreDeuxFx                  = 0.15
     PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
@@ -19326,8 +19332,8 @@ Ammo_DCA_4_canons_AZP_23_Amur_23mm_Afghan is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = [ 'CanonPetitAPZ23HEFI' ]
     FxPower                           = EFXPower/Moyen
-    TempsEntreDeuxTirs                = 0.4
-    TempsEntreDeuxFx                  = 0.2
+    TempsEntreDeuxTirs                = 0.25
+    TempsEntreDeuxFx                  = 0.15
     PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
@@ -19419,8 +19425,8 @@ Ammo_DCA_4_canons_AZP_23_Amur_23mm_late is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = [ 'CanonPetitAPZ23HEFI' ]
     FxPower                           = EFXPower/Moyen
-    TempsEntreDeuxTirs                = 0.4
-    TempsEntreDeuxFx                  = 0.2
+    TempsEntreDeuxTirs                = 0.25
+    TempsEntreDeuxFx                  = 0.15
     PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
@@ -24253,7 +24259,7 @@ Ammo_Grenade_SMOKE is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
-    PhysicalDamages                   = 0.12
+    PhysicalDamages                   = 0.00
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 1 * Metre
     SuppressDamages                   = 7.0

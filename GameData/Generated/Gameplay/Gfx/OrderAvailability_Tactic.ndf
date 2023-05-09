@@ -4235,6 +4235,8 @@ Descriptor_OrderAvailability_Fallschirmjager_CMD_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+	"ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Fallschirmjager_CMD_RFA is [
     "Stop",
