@@ -17090,7 +17090,7 @@ Ammo_DCA_1_canon_53T2_20mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -17183,7 +17183,7 @@ Ammo_DCA_1_canon_53T2_20mm_TOWED is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -17276,7 +17276,7 @@ Ammo_DCA_1_canon_Bofors_40mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7500) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -17369,7 +17369,7 @@ Ammo_DCA_1_canon_Bofors_upgrade_40mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7500) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -17462,7 +17462,7 @@ Ammo_DCA_1_canon_FK20_20mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -17555,7 +17555,7 @@ Ammo_DCA_1_canon_FK20_20mm_TOWED is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -17649,7 +17649,7 @@ Ammo_DCA_1_canon_S60_57mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7500) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -17742,7 +17742,7 @@ Ammo_DCA_2_canon_2M3_25mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -17835,7 +17835,7 @@ Ammo_DCA_2_canon_FK20_20mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -17929,7 +17929,7 @@ Ammo_DCA_2_canon_Jod_SP_23mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -18023,7 +18023,7 @@ Ammo_DCA_2_canon_Jod_towed_23mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -18117,7 +18117,7 @@ Ammo_DCA_2_canon_ZU23_2_23mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -18211,7 +18211,7 @@ Ammo_DCA_2_canon_ZU23_2_23mm_TOWED is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -18305,7 +18305,7 @@ Ammo_DCA_2_canons_2A38M_30mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7500) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -18399,7 +18399,7 @@ Ammo_DCA_2_canons_HS_831_30mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7500) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -18493,7 +18493,7 @@ Ammo_DCA_2_canons_Oerlikon_GDF_002_35mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7995) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -18587,7 +18587,7 @@ Ammo_DCA_2_canons_Oerlikon_GDF_35mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7995) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -18681,7 +18681,7 @@ Ammo_DCA_2_canons_Oerlikon_GDF_35mm_NL is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7995) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -18775,7 +18775,7 @@ Ammo_DCA_2_canons_S60_57mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.6
     TempsEntreDeuxFx                  = 0.6
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7500) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -18868,7 +18868,7 @@ Ammo_DCA_2_canons_VDAA_20mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -18961,7 +18961,7 @@ Ammo_DCA_4_canon_KPV_14_5mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.4
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -19240,7 +19240,7 @@ Ammo_DCA_4_canons_APZ23_23mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.15
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -19334,7 +19334,7 @@ Ammo_DCA_4_canons_AZP_23_Amur_23mm_Afghan is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.15
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -19427,7 +19427,7 @@ Ammo_DCA_4_canons_AZP_23_Amur_23mm_late is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.25
     TempsEntreDeuxFx                  = 0.15
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -22396,7 +22396,7 @@ Ammo_Gatling_M61_Vulcan_20mm_late is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.05
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
@@ -22492,7 +22492,7 @@ Ammo_Gatling_M61_Vulcan_20mm_late_TOWED is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.05
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
