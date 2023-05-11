@@ -792,11 +792,6 @@ export UnitEffect_Choc is TEffectsPackDescriptor
             ModifierType                     = ~/ModifierType_Pourcentage
             ModificationTempsEntreDeuxTirs   = -20
         ),
-        TEffectInflictSuppressDamageDescriptor
-        (
-            ModifierType             = ~/ModifierType_Additionnel
-            SuppressDamageValue      = 100
-        ),
     ]
 )
 export UnitEffect_Critic_Bailed_Out is TEffectsPackDescriptor
