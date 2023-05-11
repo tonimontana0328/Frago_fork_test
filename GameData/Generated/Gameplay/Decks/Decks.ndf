@@ -3315,13 +3315,13 @@ export Descriptor_Deck_RDA_KdA_Bezirk_Erfurt_multi is TDeckDescriptor
         (
             ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_MotRifles_DDR
-            Transport = ~/Descriptor_Unit_BTR_50_DDR
+            Transport = ~/Descriptor_Unit_BTR_60_DDR
         ),
         TDeckPackDescription
         (
             ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_MotSchutzen_DDR
-            Transport = ~/Descriptor_Unit_W50_LA_A_DDR
+            Transport = ~/Descriptor_Unit_SPW_152K_DDR
         ),
         TDeckPackDescription
         (
@@ -7073,6 +7073,12 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_IA_OP_15_LMS_IA1 is TDeckDescri
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_challenge_IA_Ural_4320_SOV
         ),
+        TDeckPackDescription
+        (
+            ExperienceLevel = 1
+            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_challenge_IA_MANPAD_Igla_SOV
+            Transport = ~/Descriptor_Unit_UAZ_469_SOV
+        ),
     ]
     DeckCombatGroupList =
     [
@@ -7228,6 +7234,12 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_IA_OP_15_LMS_IA2 is TDeckDescri
             ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_challenge_IA_HvyScout_SOV
             Transport = ~/Descriptor_Unit_BMP_1P_reco_SOV
+        ),
+        TDeckPackDescription
+        (
+            ExperienceLevel = 1
+            DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_challenge_IA_MANPAD_Igla_SOV
+            Transport = ~/Descriptor_Unit_UAZ_469_SOV
         ),
     ]
     DeckCombatGroupList =

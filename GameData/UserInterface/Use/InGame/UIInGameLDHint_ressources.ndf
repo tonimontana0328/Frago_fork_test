@@ -31,7 +31,8 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
         ( "ConquestLocalPlayerHasAdvantageComponent", LDHintInfoIngameScore(FeedbackType = 'positive') ),
         ( "ConquestOpponentHasAdvantageComponent", LDHintInfoIngameScore(FeedbackType = 'negative') ),
 
-        ( "StrategicPlayerTurn", LDHintInfoIngameScore(FeedbackType = 'Steelman') ),
+        ( "StrategicPlayerTurn", LDHintInfoIngameScore_Steelman (FeedbackType = 'Steelman')        ),
+
 
 
         ( "SuperHint", SuperHint() ),
@@ -130,7 +131,9 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
         ( "combat_charRight", Hint_PauseAndTexture (TextureToken = "combat_charRight") ),
         ( "test_hint", Hint_PauseAndTexture (TextureToken = "test_hint") ),
         ( "hint", PORTRAIT_PauseAndTexture (TextureToken = "") ),
+        ( "cutscene_10", LDHint_cutscene_10 ),
         ( "hint_noPause", PORTRAIT_PauseAndTexture (TextureToken = "" HasButtons = false) ),
+
 
         ( "defeat", LDHINT_animationFinDePartie () ),
         ( "victory", LDHINT_animationFinDePartie (type = 'victory') ),

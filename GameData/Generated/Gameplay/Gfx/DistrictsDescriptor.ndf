@@ -13,6 +13,7 @@ export Descriptor_District_Quartier_Gros is TEntityDescriptor(
         (
             TagSet = [
                 "Standard",
+                "FOB",
             ]
         ),
         TFlagsModuleDescriptor
@@ -151,6 +152,7 @@ export Descriptor_District_Quartier_HLM is TEntityDescriptor(
         (
             TagSet = [
                 "Standard",
+                "FOB",
             ]
         ),
         TFlagsModuleDescriptor
@@ -289,6 +291,7 @@ export Descriptor_District_Quartier_Moyen is TEntityDescriptor(
         (
             TagSet = [
                 "Standard",
+                "FOB",
             ]
         ),
         TFlagsModuleDescriptor
@@ -427,6 +430,7 @@ export Descriptor_District_Quartier_Petit is TEntityDescriptor(
         (
             TagSet = [
                 "Standard",
+                "FOB",
             ]
         ),
         TFlagsModuleDescriptor

@@ -1088,6 +1088,7 @@ is TUISpecificUnitInfoSingleWeaponPanelViewDescriptor
     NoValueToken = "UIP_NOVAL"
     InfiniteToken = "UIP_INF"
     WeaponNameAndAmountToken = "UIPW_NUM"
+    WeaponBigStatTextToken = "UIPW_THSD"
 
     // Attributes whose value is prefered when lower
     SmallerIsBetterAttributes = ["WeaponAimingTime", "WeaponReloadTime", "WeaponSupplyCost"]

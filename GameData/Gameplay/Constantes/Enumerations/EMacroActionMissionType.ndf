@@ -21,4 +21,5 @@ EMacroActionMissionType is TBaseClass
     PlayerMissionAttack is 13
     PlayerMissionArtillery is 14
     CaptureCommandZone is 15
+    ProduceBuilding is 16
 )

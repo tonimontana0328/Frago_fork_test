@@ -3711,6 +3711,59 @@ TacticDepiction_Grenzer_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
   Surrogates = TacticDepiction_Grenzer_DDR_Surrogates
   Alternatives = TacticDepiction_Grenzer_DDR_Alternatives
 )
+// *****************************[ Grenzer_Flam_DDR ]*********************************
+Gfx_Grenzer_Flam_DDR is TemplateInfantryDepictionSquad
+(
+  SoundOperator = DepictionOperator_MovementSound_SM_Infanterie_GER
+)
+AllWeaponAlternatives_Grenzer_Flam_DDR is [
+  AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_AK74 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_LPO50 ),
+]
+AllWeaponSubDepiction_Grenzer_Flam_DDR is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Grenzer_Flam_DDR
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_KMS_72"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_flamethrower_LPO"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Grenzer_Flam_DDR is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Grenzer_Flam_DDR
+)
+SubDepictionFuel_Grenzer_Flam_DDR is TemplateWeaponAccessorySubDepiction
+(
+  EnabledValue = 'MeshAlternative_2'
+  ModelFile = ModelFile_LPO50_fuel
+)
+TacticDepiction_Grenzer_Flam_DDR_Surrogates is [['high', '01'], ['high', '02'], ['high', '03']]
+TacticDepiction_Grenzer_Flam_DDR_Alternatives is [
+  TDepictionDescriptor( SelectorId = ['high', '01'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Grenzer_Flam_DDR ) ),
+  TDepictionDescriptor( SelectorId = ['high', '02'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Grenzer_Flam_DDR_02 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '03'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Grenzer_Flam_DDR_03 ) ),
+  TDepictionDescriptor( SelectorId = ['low']  MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Grenzer_Flam_DDR_LOW ) ),
+]
+TacticDepiction_Grenzer_Flam_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Surrogates = TacticDepiction_Grenzer_Flam_DDR_Surrogates
+  Alternatives = TacticDepiction_Grenzer_Flam_DDR_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Grenzer_Flam_DDR, AllWeaponSubDepictionBackpack_Grenzer_Flam_DDR, SubDepictionFuel_Grenzer_Flam_DDR]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_Grenzer_Flam_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Surrogates = TacticDepiction_Grenzer_Flam_DDR_Surrogates
+  Alternatives = TacticDepiction_Grenzer_Flam_DDR_Alternatives
+)
 // *****************************[ Grenzer_Mot_DDR ]*********************************
 Gfx_Grenzer_Mot_DDR is TemplateInfantryDepictionSquad
 (
@@ -4652,6 +4705,67 @@ TacticDepiction_LightRifles_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhos
 (
   Surrogates = TacticDepiction_LightRifles_CMD_US_Surrogates
   Alternatives = TacticDepiction_LightRifles_CMD_US_Alternatives
+)
+// *****************************[ LightRifles_LAW_US ]*********************************
+Gfx_LightRifles_LAW_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_LightRifles_LAW_US is [
+  AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_M16A2 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_M249 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_M72A4 ),
+]
+AllWeaponSubDepiction_LightRifles_LAW_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_LightRifles_LAW_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_M249_5_56mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_LightRifles_LAW_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_LightRifles_LAW_US
+)
+TacticDepiction_LightRifles_LAW_US_Surrogates is [['high', '01'], ['high', '02'], ['high', '03'], ['high', '04'], ['high', '05'], ['high', '06'], ['high', '07'], ['high', '08'], ['high', '09'], ['high', '10']]
+TacticDepiction_LightRifles_LAW_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = ['high', '01'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_LightRifles_LAW_US ) ),
+  TDepictionDescriptor( SelectorId = ['high', '02'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_LightRifles_LAW_US_02 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '03'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_LightRifles_LAW_US_03 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '04'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_LightRifles_LAW_US_04 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '05'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_LightRifles_LAW_US_05 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '06'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_LightRifles_LAW_US_06 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '07'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_LightRifles_LAW_US_07 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '08'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_LightRifles_LAW_US_08 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '09'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_LightRifles_LAW_US_09 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '10'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_LightRifles_LAW_US_10 ) ),
+  TDepictionDescriptor( SelectorId = ['low']  MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_LightRifles_LAW_US_LOW ) ),
+]
+TacticDepiction_LightRifles_LAW_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Surrogates = TacticDepiction_LightRifles_LAW_US_Surrogates
+  Alternatives = TacticDepiction_LightRifles_LAW_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_LightRifles_LAW_US, AllWeaponSubDepictionBackpack_LightRifles_LAW_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_LightRifles_LAW_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Surrogates = TacticDepiction_LightRifles_LAW_US_Surrogates
+  Alternatives = TacticDepiction_LightRifles_LAW_US_Alternatives
 )
 // *****************************[ LightRifles_RCL_US ]*********************************
 Gfx_LightRifles_RCL_US is TemplateInfantryDepictionSquad
@@ -6998,6 +7112,63 @@ TacticDepiction_Rangers_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
   Surrogates = TacticDepiction_Rangers_CMD_US_Surrogates
   Alternatives = TacticDepiction_Rangers_CMD_US_Alternatives
 )
+// *****************************[ Reserve_DDR ]*********************************
+Gfx_Reserve_DDR is TemplateInfantryDepictionSquad
+(
+  SoundOperator = DepictionOperator_MovementSound_SM_Infanterie_GER
+)
+AllWeaponAlternatives_Reserve_DDR is [
+  AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_AK74 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_RPK ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_RPG7V ),
+]
+AllWeaponSubDepiction_Reserve_DDR is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Reserve_DDR
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_KMS_72"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_lMG_K_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_RPG7"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Reserve_DDR is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Reserve_DDR
+)
+TacticDepiction_Reserve_DDR_Surrogates is [['high', '01'], ['high', '02'], ['high', '03'], ['high', '04'], ['high', '05'], ['high', '06']]
+TacticDepiction_Reserve_DDR_Alternatives is [
+  TDepictionDescriptor( SelectorId = ['high', '01'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Reserve_DDR ) ),
+  TDepictionDescriptor( SelectorId = ['high', '02'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Reserve_DDR_02 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '03'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Reserve_DDR_03 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '04'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Reserve_DDR_04 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '05'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Reserve_DDR_05 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '06'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Reserve_DDR_06 ) ),
+  TDepictionDescriptor( SelectorId = ['low']  MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Reserve_DDR_LOW ) ),
+]
+TacticDepiction_Reserve_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Surrogates = TacticDepiction_Reserve_DDR_Surrogates
+  Alternatives = TacticDepiction_Reserve_DDR_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Reserve_DDR, AllWeaponSubDepictionBackpack_Reserve_DDR]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_Reserve_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Surrogates = TacticDepiction_Reserve_DDR_Surrogates
+  Alternatives = TacticDepiction_Reserve_DDR_Alternatives
+)
 // *****************************[ Reserve_Polizei_RFA ]*********************************
 Gfx_Reserve_Polizei_RFA is TemplateInfantryDepictionSquad
 (
@@ -8280,6 +8451,57 @@ TacticDepiction_SAS_UK_Ghost is TemplateInfantryDepictionFactoryGhost
   Surrogates = TacticDepiction_SAS_UK_Surrogates
   Alternatives = TacticDepiction_SAS_UK_Alternatives
 )
+// *****************************[ SEK_RFA ]*********************************
+Gfx_SEK_RFA is TemplateInfantryDepictionSquad
+(
+  SoundOperator = DepictionOperator_MovementSound_SM_Infanterie_GER
+)
+AllWeaponAlternatives_SEK_RFA is [
+  AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_MP5A3 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_PSG1 ),
+]
+AllWeaponSubDepiction_SEK_RFA is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_SEK_RFA
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_PM_MP_5A3"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_Sniper_PSG1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_SEK_RFA is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_SEK_RFA
+)
+TacticDepiction_SEK_RFA_Surrogates is [['high', '01'], ['high', '02'], ['high', '03'], ['high', '04'], ['high', '05'], ['high', '06']]
+TacticDepiction_SEK_RFA_Alternatives is [
+  TDepictionDescriptor( SelectorId = ['high', '01'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_SEK_RFA ) ),
+  TDepictionDescriptor( SelectorId = ['high', '02'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_SEK_RFA_02 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '03'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_SEK_RFA_03 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '04'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_SEK_RFA_04 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '05'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_SEK_RFA_05 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '06'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_SEK_RFA_06 ) ),
+  TDepictionDescriptor( SelectorId = ['low']  MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_SEK_RFA_LOW ) ),
+]
+TacticDepiction_SEK_RFA_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Surrogates = TacticDepiction_SEK_RFA_Surrogates
+  Alternatives = TacticDepiction_SEK_RFA_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_SEK_RFA, AllWeaponSubDepictionBackpack_SEK_RFA]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_SEK_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Surrogates = TacticDepiction_SEK_RFA_Surrogates
+  Alternatives = TacticDepiction_SEK_RFA_Alternatives
+)
 // *****************************[ Sapeurs_CMD_FR ]*********************************
 Gfx_Sapeurs_CMD_FR is TemplateInfantryDepictionSquad
 (
@@ -9298,6 +9520,57 @@ TacticDepiction_Scout_para_FR_Ghost is TemplateInfantryDepictionFactoryGhost
   Surrogates = TacticDepiction_Scout_para_FR_Surrogates
   Alternatives = TacticDepiction_Scout_para_FR_Alternatives
 )
+// *****************************[ Security_DDR ]*********************************
+Gfx_Security_DDR is TemplateInfantryDepictionSquad
+(
+  SoundOperator = DepictionOperator_MovementSound_SM_Infanterie_GER
+)
+AllWeaponAlternatives_Security_DDR is [
+  AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_AK74 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_RPK ),
+]
+AllWeaponSubDepiction_Security_DDR is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Security_DDR
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_Mpi_AK_74N"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_lMG_K_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Security_DDR is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Security_DDR
+)
+TacticDepiction_Security_DDR_Surrogates is [['high', '01'], ['high', '02'], ['high', '03'], ['high', '04'], ['high', '05'], ['high', '06']]
+TacticDepiction_Security_DDR_Alternatives is [
+  TDepictionDescriptor( SelectorId = ['high', '01'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Security_DDR ) ),
+  TDepictionDescriptor( SelectorId = ['high', '02'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Security_DDR_02 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '03'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Security_DDR_03 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '04'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Security_DDR_04 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '05'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Security_DDR_05 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '06'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Security_DDR_06 ) ),
+  TDepictionDescriptor( SelectorId = ['low']  MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Security_DDR_LOW ) ),
+]
+TacticDepiction_Security_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Surrogates = TacticDepiction_Security_DDR_Surrogates
+  Alternatives = TacticDepiction_Security_DDR_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Security_DDR, AllWeaponSubDepictionBackpack_Security_DDR]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_Security_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Surrogates = TacticDepiction_Security_DDR_Surrogates
+  Alternatives = TacticDepiction_Security_DDR_Alternatives
+)
 // *****************************[ Security_RFA ]*********************************
 Gfx_Security_RFA is TemplateInfantryDepictionSquad
 (
@@ -9342,6 +9615,49 @@ TacticDepiction_Security_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
   Surrogates = TacticDepiction_Security_RFA_Surrogates
   Alternatives = TacticDepiction_Security_RFA_Alternatives
+)
+// *****************************[ Security_UK ]*********************************
+Gfx_Security_UK is TemplateInfantryDepictionSquad
+(
+  SoundOperator = DepictionOperator_MovementSound_SM_Infanterie_UK
+)
+AllWeaponAlternatives_Security_UK is [
+  AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_L2A3 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_L1A1_SLR ),
+]
+AllWeaponSubDepiction_Security_UK is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Security_UK
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_PM_Sterling"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_L1A1_SLR"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Security_UK is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Security_UK
+)
+TacticDepiction_Security_UK_Alternatives is [
+  TDepictionDescriptor( SelectorId = ['high', '01'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Security_UK ) ),
+  TDepictionDescriptor( SelectorId = ['low']  MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Security_UK_LOW ) ),
+]
+TacticDepiction_Security_UK_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Alternatives = TacticDepiction_Security_UK_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Security_UK, AllWeaponSubDepictionBackpack_Security_UK]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_Security_UK_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Alternatives = TacticDepiction_Security_UK_Alternatives
 )
 // *****************************[ Sniper_ESR_BEL ]*********************************
 Gfx_Sniper_ESR_BEL is TemplateInfantryDepictionSquad
@@ -9887,6 +10203,63 @@ TacticDepiction_Territorial_UK_Ghost is TemplateInfantryDepictionFactoryGhost
 (
   Surrogates = TacticDepiction_Territorial_UK_Surrogates
   Alternatives = TacticDepiction_Territorial_UK_Alternatives
+)
+// *****************************[ VDV_Afgantsy_SOV ]*********************************
+Gfx_VDV_Afgantsy_SOV is TemplateInfantryDepictionSquad
+(
+  SoundOperator = DepictionOperator_MovementSound_SM_Infanterie_SOVIET
+)
+AllWeaponAlternatives_VDV_Afgantsy_SOV is [
+  AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_AKs74 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_RPK ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_Dragunov ),
+]
+AllWeaponSubDepiction_VDV_Afgantsy_SOV is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_VDV_Afgantsy_SOV
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_AKS_74"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_RPK_74_5_56mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_Sniper_SVD_Dragunov"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_VDV_Afgantsy_SOV is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_VDV_Afgantsy_SOV
+)
+TacticDepiction_VDV_Afgantsy_SOV_Surrogates is [['high', '01'], ['high', '02'], ['high', '03'], ['high', '04'], ['high', '05'], ['high', '06']]
+TacticDepiction_VDV_Afgantsy_SOV_Alternatives is [
+  TDepictionDescriptor( SelectorId = ['high', '01'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_VDV_Afgantsy_SOV ) ),
+  TDepictionDescriptor( SelectorId = ['high', '02'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_VDV_Afgantsy_SOV_02 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '03'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_VDV_Afgantsy_SOV_03 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '04'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_VDV_Afgantsy_SOV_04 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '05'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_VDV_Afgantsy_SOV_05 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '06'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_VDV_Afgantsy_SOV_06 ) ),
+  TDepictionDescriptor( SelectorId = ['low']  MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_VDV_Afgantsy_SOV_LOW ) ),
+]
+TacticDepiction_VDV_Afgantsy_SOV_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Surrogates = TacticDepiction_VDV_Afgantsy_SOV_Surrogates
+  Alternatives = TacticDepiction_VDV_Afgantsy_SOV_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_VDV_Afgantsy_SOV, AllWeaponSubDepictionBackpack_VDV_Afgantsy_SOV]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_VDV_Afgantsy_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Surrogates = TacticDepiction_VDV_Afgantsy_SOV_Surrogates
+  Alternatives = TacticDepiction_VDV_Afgantsy_SOV_Alternatives
 )
 // *****************************[ VDV_CMD_SOV ]*********************************
 Gfx_VDV_CMD_SOV is TemplateInfantryDepictionSquad
@@ -10504,6 +10877,7 @@ InfantryMimetic is MAP[
   ( 'GreenBerets_US', TacticDepiction_GreenBerets_US_Soldier ),
   ( 'Grenzer_CMD_DDR', TacticDepiction_Grenzer_CMD_DDR_Soldier ),
   ( 'Grenzer_DDR', TacticDepiction_Grenzer_DDR_Soldier ),
+  ( 'Grenzer_Flam_DDR', TacticDepiction_Grenzer_Flam_DDR_Soldier ),
   ( 'Grenzer_Mot_DDR', TacticDepiction_Grenzer_Mot_DDR_Soldier ),
   ( 'Groupe_AT_FR', TacticDepiction_Groupe_AT_FR_Soldier ),
   ( 'Groupe_AT_para_FR', TacticDepiction_Groupe_AT_para_FR_Soldier ),
@@ -10522,6 +10896,7 @@ InfantryMimetic is MAP[
   ( 'LRRP_UK', TacticDepiction_LRRP_UK_Soldier ),
   ( 'LRRP_US', TacticDepiction_LRRP_US_Soldier ),
   ( 'LightRifles_CMD_US', TacticDepiction_LightRifles_CMD_US_Soldier ),
+  ( 'LightRifles_LAW_US', TacticDepiction_LightRifles_LAW_US_Soldier ),
   ( 'LightRifles_RCL_US', TacticDepiction_LightRifles_RCL_US_Soldier ),
   ( 'MANPAD_Blowpipe_UK', TacticDepiction_MANPAD_Blowpipe_UK_Soldier ),
   ( 'MANPAD_Igla_DDR', TacticDepiction_MANPAD_Igla_DDR_Soldier ),
@@ -10566,6 +10941,7 @@ InfantryMimetic is MAP[
   ( 'RMP_UK', TacticDepiction_RMP_UK_Soldier ),
   ( 'Ranger_US', TacticDepiction_Ranger_US_Soldier ),
   ( 'Rangers_CMD_US', TacticDepiction_Rangers_CMD_US_Soldier ),
+  ( 'Reserve_DDR', TacticDepiction_Reserve_DDR_Soldier ),
   ( 'Reserve_Polizei_RFA', TacticDepiction_Reserve_Polizei_RFA_Soldier ),
   ( 'Reserviste_FR', TacticDepiction_Reserviste_FR_Soldier ),
   ( 'Rifles_APILAS_FR', TacticDepiction_Rifles_APILAS_FR_Soldier ),
@@ -10589,6 +10965,7 @@ InfantryMimetic is MAP[
   ( 'SAS_FR', TacticDepiction_SAS_FR_Soldier ),
   ( 'SAS_Sniper_FR', TacticDepiction_SAS_Sniper_FR_Soldier ),
   ( 'SAS_UK', TacticDepiction_SAS_UK_Soldier ),
+  ( 'SEK_RFA', TacticDepiction_SEK_RFA_Soldier ),
   ( 'Sapeurs_CMD_FR', TacticDepiction_Sapeurs_CMD_FR_Soldier ),
   ( 'Sapeurs_FR', TacticDepiction_Sapeurs_FR_Soldier ),
   ( 'Sapeurs_Flam_FR', TacticDepiction_Sapeurs_Flam_FR_Soldier ),
@@ -10608,7 +10985,9 @@ InfantryMimetic is MAP[
   ( 'Scout_US', TacticDepiction_Scout_US_Soldier ),
   ( 'Scout_VDV_SOV', TacticDepiction_Scout_VDV_SOV_Soldier ),
   ( 'Scout_para_FR', TacticDepiction_Scout_para_FR_Soldier ),
+  ( 'Security_DDR', TacticDepiction_Security_DDR_Soldier ),
   ( 'Security_RFA', TacticDepiction_Security_RFA_Soldier ),
+  ( 'Security_UK', TacticDepiction_Security_UK_Soldier ),
   ( 'Sniper_ESR_BEL', TacticDepiction_Sniper_ESR_BEL_Soldier ),
   ( 'Sniper_FJ_DDR', TacticDepiction_Sniper_FJ_DDR_Soldier ),
   ( 'Sniper_Fern_RFA', TacticDepiction_Sniper_Fern_RFA_Soldier ),
@@ -10620,6 +10999,7 @@ InfantryMimetic is MAP[
   ( 'Spetsnaz_SOV', TacticDepiction_Spetsnaz_SOV_Soldier ),
   ( 'Territorial_CMD_UK', TacticDepiction_Territorial_CMD_UK_Soldier ),
   ( 'Territorial_UK', TacticDepiction_Territorial_UK_Soldier ),
+  ( 'VDV_Afgantsy_SOV', TacticDepiction_VDV_Afgantsy_SOV_Soldier ),
   ( 'VDV_CMD_SOV', TacticDepiction_VDV_CMD_SOV_Soldier ),
   ( 'VDV_HMG_SOV', TacticDepiction_VDV_HMG_SOV_Soldier ),
   ( 'VDV_Mech_SOV', TacticDepiction_VDV_Mech_SOV_Soldier ),
@@ -10702,6 +11082,7 @@ InfantryMimeticGhost is MAP[
   ( 'GreenBerets_US', TacticDepiction_GreenBerets_US_Ghost ),
   ( 'Grenzer_CMD_DDR', TacticDepiction_Grenzer_CMD_DDR_Ghost ),
   ( 'Grenzer_DDR', TacticDepiction_Grenzer_DDR_Ghost ),
+  ( 'Grenzer_Flam_DDR', TacticDepiction_Grenzer_Flam_DDR_Ghost ),
   ( 'Grenzer_Mot_DDR', TacticDepiction_Grenzer_Mot_DDR_Ghost ),
   ( 'Groupe_AT_FR', TacticDepiction_Groupe_AT_FR_Ghost ),
   ( 'Groupe_AT_para_FR', TacticDepiction_Groupe_AT_para_FR_Ghost ),
@@ -10720,6 +11101,7 @@ InfantryMimeticGhost is MAP[
   ( 'LRRP_UK', TacticDepiction_LRRP_UK_Ghost ),
   ( 'LRRP_US', TacticDepiction_LRRP_US_Ghost ),
   ( 'LightRifles_CMD_US', TacticDepiction_LightRifles_CMD_US_Ghost ),
+  ( 'LightRifles_LAW_US', TacticDepiction_LightRifles_LAW_US_Ghost ),
   ( 'LightRifles_RCL_US', TacticDepiction_LightRifles_RCL_US_Ghost ),
   ( 'MANPAD_Blowpipe_UK', TacticDepiction_MANPAD_Blowpipe_UK_Ghost ),
   ( 'MANPAD_Igla_DDR', TacticDepiction_MANPAD_Igla_DDR_Ghost ),
@@ -10764,6 +11146,7 @@ InfantryMimeticGhost is MAP[
   ( 'RMP_UK', TacticDepiction_RMP_UK_Ghost ),
   ( 'Ranger_US', TacticDepiction_Ranger_US_Ghost ),
   ( 'Rangers_CMD_US', TacticDepiction_Rangers_CMD_US_Ghost ),
+  ( 'Reserve_DDR', TacticDepiction_Reserve_DDR_Ghost ),
   ( 'Reserve_Polizei_RFA', TacticDepiction_Reserve_Polizei_RFA_Ghost ),
   ( 'Reserviste_FR', TacticDepiction_Reserviste_FR_Ghost ),
   ( 'Rifles_APILAS_FR', TacticDepiction_Rifles_APILAS_FR_Ghost ),
@@ -10787,6 +11170,7 @@ InfantryMimeticGhost is MAP[
   ( 'SAS_FR', TacticDepiction_SAS_FR_Ghost ),
   ( 'SAS_Sniper_FR', TacticDepiction_SAS_Sniper_FR_Ghost ),
   ( 'SAS_UK', TacticDepiction_SAS_UK_Ghost ),
+  ( 'SEK_RFA', TacticDepiction_SEK_RFA_Ghost ),
   ( 'Sapeurs_CMD_FR', TacticDepiction_Sapeurs_CMD_FR_Ghost ),
   ( 'Sapeurs_FR', TacticDepiction_Sapeurs_FR_Ghost ),
   ( 'Sapeurs_Flam_FR', TacticDepiction_Sapeurs_Flam_FR_Ghost ),
@@ -10806,7 +11190,9 @@ InfantryMimeticGhost is MAP[
   ( 'Scout_US', TacticDepiction_Scout_US_Ghost ),
   ( 'Scout_VDV_SOV', TacticDepiction_Scout_VDV_SOV_Ghost ),
   ( 'Scout_para_FR', TacticDepiction_Scout_para_FR_Ghost ),
+  ( 'Security_DDR', TacticDepiction_Security_DDR_Ghost ),
   ( 'Security_RFA', TacticDepiction_Security_RFA_Ghost ),
+  ( 'Security_UK', TacticDepiction_Security_UK_Ghost ),
   ( 'Sniper_ESR_BEL', TacticDepiction_Sniper_ESR_BEL_Ghost ),
   ( 'Sniper_FJ_DDR', TacticDepiction_Sniper_FJ_DDR_Ghost ),
   ( 'Sniper_Fern_RFA', TacticDepiction_Sniper_Fern_RFA_Ghost ),
@@ -10818,6 +11204,7 @@ InfantryMimeticGhost is MAP[
   ( 'Spetsnaz_SOV', TacticDepiction_Spetsnaz_SOV_Ghost ),
   ( 'Territorial_CMD_UK', TacticDepiction_Territorial_CMD_UK_Ghost ),
   ( 'Territorial_UK', TacticDepiction_Territorial_UK_Ghost ),
+  ( 'VDV_Afgantsy_SOV', TacticDepiction_VDV_Afgantsy_SOV_Ghost ),
   ( 'VDV_CMD_SOV', TacticDepiction_VDV_CMD_SOV_Ghost ),
   ( 'VDV_HMG_SOV', TacticDepiction_VDV_HMG_SOV_Ghost ),
   ( 'VDV_Mech_SOV', TacticDepiction_VDV_Mech_SOV_Ghost ),
@@ -10900,6 +11287,7 @@ TransportedInfantryAlternativesCount is MAP[
   ('GreenBerets_US', 10),
   ('Grenzer_CMD_DDR', 1),
   ('Grenzer_DDR', 3),
+  ('Grenzer_Flam_DDR', 3),
   ('Grenzer_Mot_DDR', 3),
   ('Groupe_AT_FR', 6),
   ('Groupe_AT_para_FR', 6),
@@ -10918,6 +11306,7 @@ TransportedInfantryAlternativesCount is MAP[
   ('LRRP_UK', 3),
   ('LRRP_US', 6),
   ('LightRifles_CMD_US', 10),
+  ('LightRifles_LAW_US', 10),
   ('LightRifles_RCL_US', 10),
   ('MANPAD_Blowpipe_UK', 6),
   ('MANPAD_Igla_DDR', 2),
@@ -10962,6 +11351,7 @@ TransportedInfantryAlternativesCount is MAP[
   ('RMP_UK', 2),
   ('Ranger_US', 10),
   ('Rangers_CMD_US', 10),
+  ('Reserve_DDR', 6),
   ('Reserve_Polizei_RFA', 2),
   ('Reserviste_FR', 6),
   ('Rifles_APILAS_FR', 6),
@@ -10985,6 +11375,7 @@ TransportedInfantryAlternativesCount is MAP[
   ('SAS_FR', 6),
   ('SAS_Sniper_FR', 2),
   ('SAS_UK', 3),
+  ('SEK_RFA', 6),
   ('Sapeurs_CMD_FR', 4),
   ('Sapeurs_FR', 6),
   ('Sapeurs_Flam_FR', 6),
@@ -11004,7 +11395,9 @@ TransportedInfantryAlternativesCount is MAP[
   ('Scout_US', 10),
   ('Scout_VDV_SOV', 6),
   ('Scout_para_FR', 4),
+  ('Security_DDR', 6),
   ('Security_RFA', 6),
+  ('Security_UK', 1),
   ('Sniper_ESR_BEL', 2),
   ('Sniper_FJ_DDR', 2),
   ('Sniper_Fern_RFA', 2),
@@ -11016,6 +11409,7 @@ TransportedInfantryAlternativesCount is MAP[
   ('Spetsnaz_SOV', 6),
   ('Territorial_CMD_UK', 2),
   ('Territorial_UK', 2),
+  ('VDV_Afgantsy_SOV', 6),
   ('VDV_CMD_SOV', 6),
   ('VDV_HMG_SOV', 6),
   ('VDV_Mech_SOV', 6),
@@ -11467,6 +11861,9 @@ TransportedInfantryAlternatives is [
   AlternativeWithId( SelectorId = ['Grenzer_DDR', '01'] ModelFile = ModelFile_Grenzer_DDR ),
   AlternativeWithId( SelectorId = ['Grenzer_DDR', '02'] ModelFile = ModelFile_Grenzer_DDR_02 ),
   AlternativeWithId( SelectorId = ['Grenzer_DDR', '03'] ModelFile = ModelFile_Grenzer_DDR_03 ),
+  AlternativeWithId( SelectorId = ['Grenzer_Flam_DDR', '01'] ModelFile = ModelFile_Grenzer_Flam_DDR ),
+  AlternativeWithId( SelectorId = ['Grenzer_Flam_DDR', '02'] ModelFile = ModelFile_Grenzer_Flam_DDR_02 ),
+  AlternativeWithId( SelectorId = ['Grenzer_Flam_DDR', '03'] ModelFile = ModelFile_Grenzer_Flam_DDR_03 ),
   AlternativeWithId( SelectorId = ['Grenzer_Mot_DDR', '01'] ModelFile = ModelFile_Grenzer_Mot_DDR ),
   AlternativeWithId( SelectorId = ['Grenzer_Mot_DDR', '02'] ModelFile = ModelFile_Grenzer_Mot_DDR_02 ),
   AlternativeWithId( SelectorId = ['Grenzer_Mot_DDR', '03'] ModelFile = ModelFile_Grenzer_Mot_DDR_03 ),
@@ -11557,6 +11954,16 @@ TransportedInfantryAlternatives is [
   AlternativeWithId( SelectorId = ['LightRifles_CMD_US', '08'] ModelFile = ModelFile_LightRifles_CMD_US_08 ),
   AlternativeWithId( SelectorId = ['LightRifles_CMD_US', '09'] ModelFile = ModelFile_LightRifles_CMD_US_09 ),
   AlternativeWithId( SelectorId = ['LightRifles_CMD_US', '10'] ModelFile = ModelFile_LightRifles_CMD_US_10 ),
+  AlternativeWithId( SelectorId = ['LightRifles_LAW_US', '01'] ModelFile = ModelFile_LightRifles_LAW_US ),
+  AlternativeWithId( SelectorId = ['LightRifles_LAW_US', '02'] ModelFile = ModelFile_LightRifles_LAW_US_02 ),
+  AlternativeWithId( SelectorId = ['LightRifles_LAW_US', '03'] ModelFile = ModelFile_LightRifles_LAW_US_03 ),
+  AlternativeWithId( SelectorId = ['LightRifles_LAW_US', '04'] ModelFile = ModelFile_LightRifles_LAW_US_04 ),
+  AlternativeWithId( SelectorId = ['LightRifles_LAW_US', '05'] ModelFile = ModelFile_LightRifles_LAW_US_05 ),
+  AlternativeWithId( SelectorId = ['LightRifles_LAW_US', '06'] ModelFile = ModelFile_LightRifles_LAW_US_06 ),
+  AlternativeWithId( SelectorId = ['LightRifles_LAW_US', '07'] ModelFile = ModelFile_LightRifles_LAW_US_07 ),
+  AlternativeWithId( SelectorId = ['LightRifles_LAW_US', '08'] ModelFile = ModelFile_LightRifles_LAW_US_08 ),
+  AlternativeWithId( SelectorId = ['LightRifles_LAW_US', '09'] ModelFile = ModelFile_LightRifles_LAW_US_09 ),
+  AlternativeWithId( SelectorId = ['LightRifles_LAW_US', '10'] ModelFile = ModelFile_LightRifles_LAW_US_10 ),
   AlternativeWithId( SelectorId = ['LightRifles_RCL_US', '01'] ModelFile = ModelFile_LightRifles_RCL_US ),
   AlternativeWithId( SelectorId = ['LightRifles_RCL_US', '02'] ModelFile = ModelFile_LightRifles_RCL_US_02 ),
   AlternativeWithId( SelectorId = ['LightRifles_RCL_US', '03'] ModelFile = ModelFile_LightRifles_RCL_US_03 ),
@@ -11800,6 +12207,12 @@ TransportedInfantryAlternatives is [
   AlternativeWithId( SelectorId = ['Rangers_CMD_US', '08'] ModelFile = ModelFile_Rangers_CMD_US_08 ),
   AlternativeWithId( SelectorId = ['Rangers_CMD_US', '09'] ModelFile = ModelFile_Rangers_CMD_US_09 ),
   AlternativeWithId( SelectorId = ['Rangers_CMD_US', '10'] ModelFile = ModelFile_Rangers_CMD_US_10 ),
+  AlternativeWithId( SelectorId = ['Reserve_DDR', '01'] ModelFile = ModelFile_Reserve_DDR ),
+  AlternativeWithId( SelectorId = ['Reserve_DDR', '02'] ModelFile = ModelFile_Reserve_DDR_02 ),
+  AlternativeWithId( SelectorId = ['Reserve_DDR', '03'] ModelFile = ModelFile_Reserve_DDR_03 ),
+  AlternativeWithId( SelectorId = ['Reserve_DDR', '04'] ModelFile = ModelFile_Reserve_DDR_04 ),
+  AlternativeWithId( SelectorId = ['Reserve_DDR', '05'] ModelFile = ModelFile_Reserve_DDR_05 ),
+  AlternativeWithId( SelectorId = ['Reserve_DDR', '06'] ModelFile = ModelFile_Reserve_DDR_06 ),
   AlternativeWithId( SelectorId = ['Reserve_Polizei_RFA', '01'] ModelFile = ModelFile_Reserve_Polizei_RFA ),
   AlternativeWithId( SelectorId = ['Reserve_Polizei_RFA', '02'] ModelFile = ModelFile_Reserve_Polizei_RFA_02 ),
   AlternativeWithId( SelectorId = ['Reserviste_FR', '01'] ModelFile = ModelFile_Reserviste_FR ),
@@ -11951,6 +12364,12 @@ TransportedInfantryAlternatives is [
   AlternativeWithId( SelectorId = ['SAS_UK', '01'] ModelFile = ModelFile_SAS_UK ),
   AlternativeWithId( SelectorId = ['SAS_UK', '02'] ModelFile = ModelFile_SAS_UK_02 ),
   AlternativeWithId( SelectorId = ['SAS_UK', '03'] ModelFile = ModelFile_SAS_UK_03 ),
+  AlternativeWithId( SelectorId = ['SEK_RFA', '01'] ModelFile = ModelFile_SEK_RFA ),
+  AlternativeWithId( SelectorId = ['SEK_RFA', '02'] ModelFile = ModelFile_SEK_RFA_02 ),
+  AlternativeWithId( SelectorId = ['SEK_RFA', '03'] ModelFile = ModelFile_SEK_RFA_03 ),
+  AlternativeWithId( SelectorId = ['SEK_RFA', '04'] ModelFile = ModelFile_SEK_RFA_04 ),
+  AlternativeWithId( SelectorId = ['SEK_RFA', '05'] ModelFile = ModelFile_SEK_RFA_05 ),
+  AlternativeWithId( SelectorId = ['SEK_RFA', '06'] ModelFile = ModelFile_SEK_RFA_06 ),
   AlternativeWithId( SelectorId = ['Sapeurs_CMD_FR', '01'] ModelFile = ModelFile_Sapeurs_CMD_FR ),
   AlternativeWithId( SelectorId = ['Sapeurs_CMD_FR', '02'] ModelFile = ModelFile_Sapeurs_CMD_FR_02 ),
   AlternativeWithId( SelectorId = ['Sapeurs_CMD_FR', '03'] ModelFile = ModelFile_Sapeurs_CMD_FR_03 ),
@@ -12049,12 +12468,19 @@ TransportedInfantryAlternatives is [
   AlternativeWithId( SelectorId = ['Scout_para_FR', '02'] ModelFile = ModelFile_Scout_para_FR_02 ),
   AlternativeWithId( SelectorId = ['Scout_para_FR', '03'] ModelFile = ModelFile_Scout_para_FR_03 ),
   AlternativeWithId( SelectorId = ['Scout_para_FR', '04'] ModelFile = ModelFile_Scout_para_FR_04 ),
+  AlternativeWithId( SelectorId = ['Security_DDR', '01'] ModelFile = ModelFile_Security_DDR ),
+  AlternativeWithId( SelectorId = ['Security_DDR', '02'] ModelFile = ModelFile_Security_DDR_02 ),
+  AlternativeWithId( SelectorId = ['Security_DDR', '03'] ModelFile = ModelFile_Security_DDR_03 ),
+  AlternativeWithId( SelectorId = ['Security_DDR', '04'] ModelFile = ModelFile_Security_DDR_04 ),
+  AlternativeWithId( SelectorId = ['Security_DDR', '05'] ModelFile = ModelFile_Security_DDR_05 ),
+  AlternativeWithId( SelectorId = ['Security_DDR', '06'] ModelFile = ModelFile_Security_DDR_06 ),
   AlternativeWithId( SelectorId = ['Security_RFA', '01'] ModelFile = ModelFile_Security_RFA ),
   AlternativeWithId( SelectorId = ['Security_RFA', '02'] ModelFile = ModelFile_Security_RFA_02 ),
   AlternativeWithId( SelectorId = ['Security_RFA', '03'] ModelFile = ModelFile_Security_RFA_03 ),
   AlternativeWithId( SelectorId = ['Security_RFA', '04'] ModelFile = ModelFile_Security_RFA_04 ),
   AlternativeWithId( SelectorId = ['Security_RFA', '05'] ModelFile = ModelFile_Security_RFA_05 ),
   AlternativeWithId( SelectorId = ['Security_RFA', '06'] ModelFile = ModelFile_Security_RFA_06 ),
+  AlternativeWithId( SelectorId = ['Security_UK', '01'] ModelFile = ModelFile_Security_UK ),
   AlternativeWithId( SelectorId = ['Sniper_ESR_BEL', '01'] ModelFile = ModelFile_Sniper_ESR_BEL ),
   AlternativeWithId( SelectorId = ['Sniper_ESR_BEL', '02'] ModelFile = ModelFile_Sniper_ESR_BEL_02 ),
   AlternativeWithId( SelectorId = ['Sniper_FJ_DDR', '01'] ModelFile = ModelFile_Sniper_FJ_DDR ),
@@ -12087,6 +12513,12 @@ TransportedInfantryAlternatives is [
   AlternativeWithId( SelectorId = ['Territorial_CMD_UK', '02'] ModelFile = ModelFile_Territorial_CMD_UK_02 ),
   AlternativeWithId( SelectorId = ['Territorial_UK', '01'] ModelFile = ModelFile_Territorial_UK ),
   AlternativeWithId( SelectorId = ['Territorial_UK', '02'] ModelFile = ModelFile_Territorial_UK_02 ),
+  AlternativeWithId( SelectorId = ['VDV_Afgantsy_SOV', '01'] ModelFile = ModelFile_VDV_Afgantsy_SOV ),
+  AlternativeWithId( SelectorId = ['VDV_Afgantsy_SOV', '02'] ModelFile = ModelFile_VDV_Afgantsy_SOV_02 ),
+  AlternativeWithId( SelectorId = ['VDV_Afgantsy_SOV', '03'] ModelFile = ModelFile_VDV_Afgantsy_SOV_03 ),
+  AlternativeWithId( SelectorId = ['VDV_Afgantsy_SOV', '04'] ModelFile = ModelFile_VDV_Afgantsy_SOV_04 ),
+  AlternativeWithId( SelectorId = ['VDV_Afgantsy_SOV', '05'] ModelFile = ModelFile_VDV_Afgantsy_SOV_05 ),
+  AlternativeWithId( SelectorId = ['VDV_Afgantsy_SOV', '06'] ModelFile = ModelFile_VDV_Afgantsy_SOV_06 ),
   AlternativeWithId( SelectorId = ['VDV_CMD_SOV', '01'] ModelFile = ModelFile_VDV_CMD_SOV ),
   AlternativeWithId( SelectorId = ['VDV_CMD_SOV', '02'] ModelFile = ModelFile_VDV_CMD_SOV_02 ),
   AlternativeWithId( SelectorId = ['VDV_CMD_SOV', '03'] ModelFile = ModelFile_VDV_CMD_SOV_03 ),

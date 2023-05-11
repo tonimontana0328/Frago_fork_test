@@ -401,6 +401,46 @@ export Descriptor_ShowRoomUnit_AML_60_FR is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_ShowRoomUnit_AML_60_Gendarmerie_FR is TEntityDescriptor
+(
+    DescriptorId        = GUID:{2d2c4219-2949-4b1d-be30-c64ae6d8610a}
+    ClassNameForDebug   = "ShowRoomUnit_AML_60_Gendarmerie_FR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_AML_60_Gendarmerie_FR_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_AML_60_Gendarmerie_FR
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Vehicle'
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
 export Descriptor_ShowRoomUnit_AML_90_FR is TEntityDescriptor
 (
     DescriptorId        = GUID:{2003d380-4201-4780-a029-53d45c9acf15}
@@ -5264,6 +5304,46 @@ export Descriptor_ShowRoomUnit_BTR_60_CMD_SOV is TEntityDescriptor
         WeaponManager is TModuleSelector
         (
             Default        = $/GFX/Everything/WeaponDescriptor_BTR_60_CMD_SOV
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Vehicle'
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_BTR_60_DDR is TEntityDescriptor
+(
+    DescriptorId        = GUID:{e3fa91f5-2748-416e-926a-a32604352efa}
+    ClassNameForDebug   = "ShowRoomUnit_BTR_60_DDR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'DDR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Transport
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_BTR_60_DDR_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_BTR_60_DDR
             Selection      = [~/NilDescriptorIfCadavre]
         ),
         ~/LinkTeamModuleDescriptor,
@@ -11370,6 +11450,82 @@ export Descriptor_ShowRoomUnit_Grenzer_DDR is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_ShowRoomUnit_Grenzer_Flam_DDR is TEntityDescriptor
+(
+    DescriptorId        = GUID:{c2f124de-18c0-4001-a788-9efc9992c22f}
+    ClassNameForDebug   = "ShowRoomUnit_Grenzer_Flam_DDR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'DDR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Recon_INF
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = ~/InfantryDepictionSquadShowroom
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_Grenzer_Flam_DDR
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 7
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'Grenzer_Flam_DDR'
+                    WeaponUnitFXKey     = 'Grenzer_Flam_DDR'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 9 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierColumnDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[1,]),
+                                        (1,[0,]),
+                                        (2,[0,]),
+                                        (3,[0,]),
+                                        (4,[0,]),
+                                        (5,[0,]),
+                                        (6,[0,]),
+                                      ]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Inf'
+            SpawnType = EShowroomSpawnType/Infantry
+        ),
+    ]
+)
 export Descriptor_ShowRoomUnit_Grenzer_Mot_DDR is TEntityDescriptor
 (
     DescriptorId        = GUID:{48fa4c79-eb3d-467b-b9bc-b338dc5c1a99}
@@ -14892,6 +15048,85 @@ export Descriptor_ShowRoomUnit_LightRifles_CMD_US is TEntityDescriptor
                                         (3,[0,]),
                                         (4,[0,]),
                                         (5,[0,2,]),
+                                      ]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Inf'
+            SpawnType = EShowroomSpawnType/Infantry
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_LightRifles_LAW_US is TEntityDescriptor
+(
+    DescriptorId        = GUID:{88a0812b-54f8-41aa-9c0b-d838446ece3a}
+    ClassNameForDebug   = "ShowRoomUnit_LightRifles_LAW_US"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = ~/InfantryDepictionSquadShowroom
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_LightRifles_LAW_US
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 10
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'LightRifles_LAW_US'
+                    WeaponUnitFXKey     = 'LightRifles_LAW_US'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 12 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierColumnDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[1,]),
+                                        (1,[1,]),
+                                        (2,[0,]),
+                                        (3,[0,]),
+                                        (4,[0,]),
+                                        (5,[0,]),
+                                        (6,[0,]),
+                                        (7,[0,]),
+                                        (8,[0,]),
+                                        (9,[0,2,]),
                                       ]
         ),
         ~/LinkTeamModuleDescriptor,
@@ -22249,6 +22484,84 @@ export Descriptor_ShowRoomUnit_Rangers_CMD_US is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_ShowRoomUnit_Reserve_DDR is TEntityDescriptor
+(
+    DescriptorId        = GUID:{7c972dc2-3594-491c-ba47-791324082198}
+    ClassNameForDebug   = "ShowRoomUnit_Reserve_DDR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'DDR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = ~/InfantryDepictionSquadShowroom
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_Reserve_DDR
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 9
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'Reserve_DDR'
+                    WeaponUnitFXKey     = 'Reserve_DDR'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 11 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierColumnDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[2,]),
+                                        (1,[1,]),
+                                        (2,[1,]),
+                                        (3,[0,]),
+                                        (4,[0,]),
+                                        (5,[0,]),
+                                        (6,[0,]),
+                                        (7,[0,]),
+                                        (8,[0,]),
+                                      ]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Inf'
+            SpawnType = EShowroomSpawnType/Infantry
+        ),
+    ]
+)
 export Descriptor_ShowRoomUnit_Reserve_Polizei_RFA is TEntityDescriptor
 (
     DescriptorId        = GUID:{095e3f2f-af52-4a07-bd5d-87f1a5da2f65}
@@ -24092,6 +24405,81 @@ export Descriptor_ShowRoomUnit_SAS_UK is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_ShowRoomUnit_SEK_RFA is TEntityDescriptor
+(
+    DescriptorId        = GUID:{9a963c00-df1f-401d-a2cf-03adc0fc477f}
+    ClassNameForDebug   = "ShowRoomUnit_SEK_RFA"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'RFA'
+            AcknowUnitType                   = ~/TAcknowUnitType_Recon_INF
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = ~/InfantryDepictionSquadShowroom
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_SEK_RFA
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 6
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'SEK_RFA'
+                    WeaponUnitFXKey     = 'SEK_RFA'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 8 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierLineDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[1,]),
+                                        (1,[0,]),
+                                        (2,[0,]),
+                                        (3,[0,]),
+                                        (4,[0,]),
+                                        (5,[0,]),
+                                      ]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Inf'
+            SpawnType = EShowroomSpawnType/Infantry
+        ),
+    ]
+)
 export Descriptor_ShowRoomUnit_SPW_152K_DDR is TEntityDescriptor
 (
     DescriptorId        = GUID:{ba48b733-6a9c-402c-b462-2e9afd650440}
@@ -25619,6 +26007,82 @@ export Descriptor_ShowRoomUnit_Scout_para_FR is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_ShowRoomUnit_Security_DDR is TEntityDescriptor
+(
+    DescriptorId        = GUID:{18b53a03-96c1-4a1b-b7ab-63edb48170f6}
+    ClassNameForDebug   = "ShowRoomUnit_Security_DDR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'DDR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = ~/InfantryDepictionSquadShowroom
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_Security_DDR
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 7
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'Security_DDR'
+                    WeaponUnitFXKey     = 'Security_DDR'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 9 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierColumnDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[1,]),
+                                        (1,[0,]),
+                                        (2,[0,]),
+                                        (3,[0,]),
+                                        (4,[0,]),
+                                        (5,[0,]),
+                                        (6,[0,]),
+                                      ]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Inf'
+            SpawnType = EShowroomSpawnType/Infantry
+        ),
+    ]
+)
 export Descriptor_ShowRoomUnit_Security_RFA is TEntityDescriptor
 (
     DescriptorId        = GUID:{ba74f17e-f68b-4019-8d80-ac0d5ad4f0a1}
@@ -25681,6 +26145,85 @@ export Descriptor_ShowRoomUnit_Security_RFA is TEntityDescriptor
                                         (8,[0,]),
                                         (9,[0,]),
                                         (10,[0,]),
+                                      ]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Inf'
+            SpawnType = EShowroomSpawnType/Infantry
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_Security_UK is TEntityDescriptor
+(
+    DescriptorId        = GUID:{193df342-5e19-464b-a42a-c82fc1e7be0b}
+    ClassNameForDebug   = "ShowRoomUnit_Security_UK"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'UK'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = ~/InfantryDepictionSquadShowroom
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_Security_UK
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 10
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'Security_UK'
+                    WeaponUnitFXKey     = 'Security_UK'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 12 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierColumnDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[1,]),
+                                        (1,[1,]),
+                                        (2,[1,]),
+                                        (3,[1,]),
+                                        (4,[1,]),
+                                        (5,[1,]),
+                                        (6,[1,]),
+                                        (7,[0,]),
+                                        (8,[0,]),
+                                        (9,[0,]),
                                       ]
         ),
         ~/LinkTeamModuleDescriptor,
@@ -29494,6 +30037,82 @@ export Descriptor_ShowRoomUnit_VBL_Reco_FR is TEntityDescriptor
         (
             Token = 'Vehicle'
             SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_VDV_Afgantsy_SOV is TEntityDescriptor
+(
+    DescriptorId        = GUID:{27588552-94f9-41e9-a6a1-3d14fbbbb8d8}
+    ClassNameForDebug   = "ShowRoomUnit_VDV_Afgantsy_SOV"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = ~/InfantryDepictionSquadShowroom
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_VDV_Afgantsy_SOV
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 7
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'VDV_Afgantsy_SOV'
+                    WeaponUnitFXKey     = 'VDV_Afgantsy_SOV'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 9 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierColumnDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[2,]),
+                                        (1,[1,]),
+                                        (2,[1,]),
+                                        (3,[0,]),
+                                        (4,[0,]),
+                                        (5,[0,]),
+                                        (6,[0,]),
+                                      ]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Inf'
+            SpawnType = EShowroomSpawnType/Infantry
         ),
     ]
 )

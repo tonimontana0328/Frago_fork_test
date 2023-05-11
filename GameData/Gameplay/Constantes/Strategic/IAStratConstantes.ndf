@@ -15,7 +15,6 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
     MinimumRankForWeakestBattleUnitDefensePoint = 0 //Attention, ça commence à 0
     MinimumRankForStrongestBattleUnitDefensePoint = 1 //Attention, ça commence à 0
     MinimumRankForSupportUnitDefensePoint = 2 //Attention, ça commence à 0
-    AttackPointMaxCaseFromFrontLine = 2
 
     MinPowerValueForPowerfullPawn = 10 * 1666 // valeur du pion dit "powerfull"
 

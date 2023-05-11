@@ -3,7 +3,7 @@ GameRulesHelper is TUITacticalGameRulesHelper
     TimeStepMessage = "REM_TIME"
     TimeInMinutesStepList = [10,5,4,3,2,1]
 
-    SuddenDeathTokens = [ "SUDD_ENEAL", "SUDD_ALLAL", "SUDD_LOCAL" ]
+    SuddenDeathTokens = [ "SUDD_ENEAL", "SUDD_ALLAL", "SUDD_LOCAL", "SUDD_NEUT" ]
 
     StandardStepMessages = TUITacticalGameRulesHelperStepMessages
     (
@@ -114,7 +114,7 @@ GameRulesHelper is TUITacticalGameRulesHelper
 
     TimeToShowStepMessageInSecond = 5
 
-    ComponentToUseForSuddenDeathMessage = [ "SuddenDeathVictoryComponent","SuddenDeathWarningComponent","SuddenDeathAlertComponent" ]
+    ComponentToUseForSuddenDeathMessage = [ "SuddenDeathVictoryComponent","SuddenDeathWarningComponent","SuddenDeathAlertComponent","SuddenDeathWarningComponent" ]
 
     ComponentToUseForRemainingTimeMessage = "RemainingTimeAlertComponent"
     ComponentToUseForLocalPlayerAllianceMessage = "ConquestLocalPlayerHasAdvantageComponent"

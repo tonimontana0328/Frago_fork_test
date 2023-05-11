@@ -1,8 +1,7 @@
 HUDReplayResource is TUISpecificInGameReplayResource
 (
     HideUIKeyInterceptor = $/M3D/Input/UserInputLayerHandler/InputLayer_ShowUIForGameReplay
-    HideRenderLayers = ~/InterfaceNonArrayLayersFinal
-    HideRenderLayersArray = ~/InterfaceArrayLayersFinal
+    HideRenderLayers = ~/InterfaceLayers
 
     VideoModeValue = $/M3D/Scene/ShootVideoMode
 

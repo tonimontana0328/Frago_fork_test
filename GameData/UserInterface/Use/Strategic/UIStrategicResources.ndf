@@ -19,7 +19,6 @@ StrategicResource is TUISpecificStrategicResources
         ("UISpecificLossesStateViewDescriptor", ~/UISpecificLossesStateViewDescriptor),
         ("UISpecificUnitInfoPanelViewDescriptor", UISpecificUnitInfoPanelViewDescriptor(MainComponentContainerUniqueName = "BUCKSpecificUnitInfoPanelMainComponentContainer" UseForStrategic = True)),
         ("UISpecificStrategicDateViewDescriptor", ~/UISpecificStrategicDateViewDescriptor),
-        ("UIStrategicProductionMenuStrategicPointsViewDescriptor", ~/UIStrategicProductionMenuStrategicPointsViewDescriptor ),
         ("UISpecificSelectionPanelPawnViewDescriptor", UISpecificSelectionPanelPawnViewDescriptorTemplate(MainComponentContainerUniqueName = "BUCKSpecificSelectionPanelPawnMainComponentContainer" ContainsCubeAction = true)),
         ("UISpecificStrategicSpawnPointViewDescriptor", ~/UISpecificStrategicSpawnPointViewDescriptor),
         ("UIUnitLabelAggregateContainerDescriptor", ~/UISpecificStrategicUnitLabelAggregateContainerDescriptor),
@@ -319,22 +318,7 @@ private StrategicMainContainerResource is TUICommonMainContainerResource
                                     FitStyle = ~/ContainerFitStyle/FitToContentHorizontally
 
                                 )
-                            ),
-                            // income point
-                            BUCKListElementDescriptor
-                            (
-                                ComponentDescriptor = BUCKContainerDescriptor
-                                (
-                                    UniqueName = "StrategicProductionMenuStrategicPointsContainer"
-                                    ComponentFrame = TUIFramePropertyRTTI
-                                    (
-                                        AlignementToAnchor = [0.0, 0.0]
-                                        AlignementToFather = [0.0, 0.0]
-                                    )
-
-                                    FitStyle = ~/ContainerFitStyle/FitToContent
-                                )
-                            ),
+                            )
                         ]
                     ),
 

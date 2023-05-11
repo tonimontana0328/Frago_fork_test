@@ -625,6 +625,7 @@ private BUCKSpecificDivisionSelectionMainComponentDescriptor is SpecificModaleWi
                 MagnifiableOffset = [10.0, -110.0]
             )
 
+            IsForModale = true
             UseExcelStyle = true
             HasBackgroundAll = true
             BackgroundAllBlockColorToken = 'VertLogin'

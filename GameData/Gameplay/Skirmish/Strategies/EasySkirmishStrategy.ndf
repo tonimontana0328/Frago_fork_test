@@ -75,6 +75,8 @@ export Easy_Phase_Deploiement is TSequenceGeneratorDescriptor
     NbMacroActionAllowedToProduceSimultaneous = 4
     GeneratorList =
     [
+        ~/FOB_Skirmish,
+
         ~/CaptureOneObjectif,
 
         // On garde quand même une attaque objective pour allez prendre les zones de commandement

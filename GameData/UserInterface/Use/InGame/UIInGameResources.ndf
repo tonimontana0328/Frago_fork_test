@@ -182,7 +182,8 @@ InGameMainContainerResource is TUICommonMainContainerResource
                             Axis = ~/ListAxis/Horizontal
                             BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
-                            InterItemMargin = TRTTILength(Pixel = 50)
+                            InterItemMargin = TRTTILength(Magnifiable = 2)
+                            LastMargin = TRTTILength(Magnifiable = 10)
 
                             Elements =
                             [

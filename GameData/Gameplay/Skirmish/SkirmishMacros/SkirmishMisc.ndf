@@ -115,7 +115,6 @@ export Reco_Autogen is Template_Reco
 )
 
 //-------------------------------------------------------------------------
-
 // Pool Models
 //-------------------------------------------------------------------------
 export Pool_Reco_Skirmish is TPoolModel
@@ -141,3 +140,33 @@ BasicAirstrikeSupport is
 [
     (["Avion_Assaut", "Chasseur_Bombardier", "Bombardier",], 2),
 ]
+
+//-------------------------------------------------------------------------
+export FOB_Skirmish is TMacroActionDescriptor_ProduceBuilding
+(
+    ParametresDeMission =
+    [
+        TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
+        TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_FOB_Skirmish] DisableReinforcement = true),
+        TDisableProductionRoadSnappingSettingHolder(),
+    ]
+)
+
+//-------------------------------------------------------------------------
+// Pool Models
+//-------------------------------------------------------------------------
+export Pool_FOB_Skirmish is TPoolModel
+(
+    ModelList = [
+    TPoolElement(
+        DescriptorId = GUID:{ade6a527-109e-41c5-99b6-a830a332cf5f}
+        Required = true
+        Nb = 1
+        IndexPriorityOverPrice = true
+        PriceComparisonMethod = EPriceComparatorType/Random
+        TagsPriority = [
+            "FOB",
+        ]
+    ),
+    ]
+)

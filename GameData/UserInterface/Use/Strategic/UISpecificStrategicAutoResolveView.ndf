@@ -54,7 +54,7 @@ template PertesSurTerrainBlade
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     RelativeWidthHeight = [1.0, 0.0]
-                    MagnifiableWidthHeight = [0.0, 14.0]
+                    MagnifiableWidthHeight = [0.0, 20.0]
                     AlignementToFather = [0.5, 0.0]
                     AlignementToAnchor = [0.5, 0.0]
                 )
@@ -72,7 +72,7 @@ template PertesSurTerrainBlade
 
                 TextToken = "AR_ADCBT"
                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                TextSize = "14"
+                TextSize = "16"
                 TextColor = "PureBlack"
             )
         ),
@@ -92,7 +92,7 @@ template PertesSurTerrainBlade
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     RelativeWidthHeight = [1.0, 0.0]
-                    MagnifiableWidthHeight = [0.0, 26.0]
+                    MagnifiableWidthHeight = [0.0, 30.0]
                     AlignementToFather = [0.5, 0.5]
                     AlignementToAnchor = [0.5, 0.5]
                 )
@@ -108,7 +108,7 @@ template PertesSurTerrainBlade
                 BigLineAction = ~/BigLineAction/MultiLine
 
                 TextStyle = "Default"
-                TypefaceToken = "UIMainFont"
+                TypefaceToken = "Eurostyle_Italic"
 
                 TextToken = <ContentToken>
                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
@@ -191,7 +191,7 @@ is BUCKContainerDescriptor
                                 TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
 
                                 TextStyle = "Default"
-                                TypefaceToken = "UIMainFont"
+                                TypefaceToken = "Bombardier"
 
                                 TextToken = <AttackerText>
                                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
@@ -235,7 +235,7 @@ is BUCKContainerDescriptor
 
                                 TextToken = <TitleText>
                                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                                TextSize = <IsRapport> ? "16" : "12"
+                                TextSize = <IsRapport> ? "18" : "12"
                                 TextColor = "BlancEquipe"
                             )
                         ]
@@ -271,7 +271,7 @@ is BUCKContainerDescriptor
                                 TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
 
                                 TextStyle = "Default"
-                                TypefaceToken = "UIMainFont"
+                                TypefaceToken = "Bombardier"
 
                                 TextToken = <DefenderText>
                                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
@@ -371,7 +371,7 @@ AutoResolveArmyForcesAndRatio is BUCKContainerDescriptor
                                 TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
 
                                 TextStyle = "Default"
-                                TypefaceToken = "UIMainFont"
+                                TypefaceToken = "Bombardier"
 
                                 TextToken = "AR_ADCBT"
                                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
@@ -411,7 +411,7 @@ AutoResolveArmyForcesAndRatio is BUCKContainerDescriptor
                                 TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
 
                                 TextStyle = "Default"
-                                TypefaceToken = "Liberator"
+                                TypefaceToken = "Eurostyle_Medium"
 
                                 TextToken = "AR_RATIO"
                                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
@@ -451,7 +451,7 @@ AutoResolveArmyForcesAndRatio is BUCKContainerDescriptor
                                 TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
 
                                 TextStyle = "Default"
-                                TypefaceToken = "UIMainFont"
+                                TypefaceToken = "Bombardier"
 
                                 TextToken = "AR_ADCBT"
                                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
@@ -515,11 +515,11 @@ template AutoResolveCombatResultSubTitle
     TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
 
     TextStyle = "Default"
-    TypefaceToken = "Liberator"
+    TypefaceToken = "Eurostyle"
 
     TextToken = <TextToken>
     TextDico = ~/LocalisationConstantes/dico_interface_ingame
-    TextSize = "12"
+    TextSize = "14"
     TextColor = "AutoResolve/Information"
 
     Components =
@@ -575,7 +575,7 @@ private template PertesSurTerrainMainComponent
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     RelativeWidthHeight = [1.0, 0.0]
-                    MagnifiableWidthHeight = [0.0, 16.0]
+                    MagnifiableWidthHeight = [0.0, 36.0]
                     AlignementToFather = [0.5, 0.0]
                     AlignementToAnchor = [0.5, 0.0]
                 )
@@ -589,11 +589,11 @@ private template PertesSurTerrainMainComponent
                 TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
 
                 TextStyle = "Default"
-                TypefaceToken = "Liberator"
+                TypefaceToken = "Eurostyle"
 
                 TextToken = <TitleTextToken>
                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                TextSize = "12"
+                TextSize = "18"
                 TextColor = "AutoResolve/Information"
             )
         ),
@@ -694,7 +694,7 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
     BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
     FirstMargin  = TRTTILength (Magnifiable = 0.0)
     InterItemMargin  = TRTTILength (Magnifiable = 0.0)
-    LastMargin  = TRTTILength (Magnifiable = 10.0)
+    // LastMargin  = TRTTILength (Magnifiable = 10.0)
 
     Elements =
     [
@@ -721,10 +721,11 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
 
                 VerticalFitStyle = ~/FitStyle/FitToContent
                 HorizontalFitStyle = ~/FitStyle/UserDefined
-                TextPadding = TRTTILength4(Magnifiable = [4.0, 10.0, 4.0, 0.0])
+                TextPadding = TRTTILength4(Magnifiable = [4.0, 10.0, 0.0, 10.0])
                 BigLineAction = ~/BigLineAction/MultiLine
                 TextStyle = "Default"
                 TypefaceToken = "Eurostyle_Heavy"
+
 
                 TextToken = "AR_Result"
                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
@@ -732,7 +733,7 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
                 TextColor = "BlancEquipe"
             )
         ),
-        BUCKListElementSpacer(Magnifiable = 25.0),
+        // BUCKListElementSpacer(Magnifiable = 25.0),
         //-------------------------------------------------------------------------------------
         // Détail du rapport de force
         BUCKListElementDescriptor
@@ -828,6 +829,7 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
                 AttackerText = ""
                 TitleText = "AR_RDC"
                 DefenderText = ""
+                TitleTypefaceToken = "Eurostyle"
                 IsRapport = true
             )
         ),
@@ -901,7 +903,8 @@ template ListOfLosses
         RelativeWidthHeight = [1, 0.0]
     )
 
-    FirstMargin = TRTTILength( Magnifiable = 5.0 )
+    FirstMargin = TRTTILength( Magnifiable = 15.0 )
+    LastMargin = TRTTILength( Magnifiable = 10.0 )
     Axis = ~/ListAxis/Vertical
     Elements =
     [
@@ -920,12 +923,12 @@ template ListOfLosses
                 TextStyle = "Default"
                 HorizontalFitStyle = ~/FitStyle/UserDefined
                 VerticalFitStyle = ~/FitStyle/UserDefined
-                TypefaceToken = "Liberator"
+                TypefaceToken = "Eurostyle_Medium"
                 BigLineAction = ~/BigLineAction/MultiLine
                 TextToken = "SBO_PTOT"
                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
                 TextColor = "BlancTexte"
-                TextSize = "14"
+                TextSize = "16"
             )
         ),
         BUCKListElementDescriptor
@@ -1191,7 +1194,7 @@ is BUCKContainerDescriptor
                         HorizontalFitStyle = ~/FitStyle/FitToContent
                         VerticalFitStyle = ~/FitStyle/UserDefined
                         TextStyle = "Default"
-                        TypefaceToken = "Liberator"
+                        TypefaceToken = "Eurostyle"
 
                         TextToken = <IsAttacker> ? "AR_ATQ" : "AR_DEF"
 
@@ -1286,7 +1289,7 @@ is BUCKContainerDescriptor
                                 HorizontalFitStyle = ~/FitStyle/FitToContent
 
                                 TextStyle = "Default"
-                                TypefaceToken = "UIMainFont"
+                                TypefaceToken = "Bombardier"
 
                                 TextToken = <StrengthTextToken>
                                 TextDico = ~/LocalisationConstantes/dico_interface_ingame

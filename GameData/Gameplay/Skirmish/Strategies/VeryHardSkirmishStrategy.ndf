@@ -84,6 +84,8 @@ export VHard_Phase_Deploiement is TSequenceGeneratorDescriptor
     NbMacroActionAllowedToProduceSimultaneous = 4
     GeneratorList =
     [
+        ~/FOB_Skirmish,
+
         //------------------------------
         // Support & Supply
         //------------------------------

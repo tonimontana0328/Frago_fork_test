@@ -689,8 +689,7 @@ StrategicLobbyLeftPage is BUCKContainerDescriptor
                     [
                         PlayerContainer
                         (
-                            // inversion du joueur à droite pour avoir Otan affiché avant Pacte
-                            ElementName = "RightPlayer"
+                            ElementName = "LeftPlayer"
                         )
                     ]
                 ),
@@ -740,7 +739,7 @@ StrategicLobbyRightPage is BUCKContainerDescriptor
                     [
                         PlayerContainer
                         (
-                            ElementName = "LeftPlayer"
+                            ElementName = "RightPlayer"
                         )
                     ]
 

@@ -54,6 +54,11 @@ Gfx_AML_60_FR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Alternatives = Alternatives_AML_60_FR
     Selector = Selector_AML_60_FR
 )
+Gfx_AML_60_Gendarmerie_FR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_AML_60_Gendarmerie_FR
+    Selector = Selector_AML_60_Gendarmerie_FR
+)
 Gfx_AML_90_FR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_AML_90_FR
@@ -544,6 +549,11 @@ Gfx_BTR_60_CMD_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_BTR_60_CMD_SOV
     Selector = Selector_BTR_60_CMD_SOV
+)
+Gfx_BTR_60_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_BTR_60_DDR
+    Selector = Selector_BTR_60_DDR
 )
 Gfx_BTR_60_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (

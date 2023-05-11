@@ -191,14 +191,13 @@ Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_81mm_mortar_UK, 1),
-        (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_AML_60_FR, 1),
+        (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_AML_60_Gendarmerie_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_AMX_13_90mm_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_AMX_30_B_CMD_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_AMX_30_B_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_ATteam_Milan_1_UK, 2),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_ATteam_Milan_2_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Alouette_III_reco_FR, 1),
-        (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_BGS_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Bedford_MJ_4t_UK, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_DCA_53T2_20mm_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_DCA_Javelin_LML_UK, 1),

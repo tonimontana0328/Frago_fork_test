@@ -13,6 +13,7 @@ export Descriptor_UnitCadavre_Quartier_Gros is TEntityDescriptor(
         (
             TagSet = [
                 "Standard",
+                "FOB",
             ]
         ),
         TFlagsModuleDescriptor
@@ -79,6 +80,7 @@ export Descriptor_UnitCadavre_Quartier_HLM is TEntityDescriptor(
         (
             TagSet = [
                 "Standard",
+                "FOB",
             ]
         ),
         TFlagsModuleDescriptor
@@ -145,6 +147,7 @@ export Descriptor_UnitCadavre_Quartier_Moyen is TEntityDescriptor(
         (
             TagSet = [
                 "Standard",
+                "FOB",
             ]
         ),
         TFlagsModuleDescriptor
@@ -211,6 +214,7 @@ export Descriptor_UnitCadavre_Quartier_Petit is TEntityDescriptor(
         (
             TagSet = [
                 "Standard",
+                "FOB",
             ]
         ),
         TFlagsModuleDescriptor

@@ -487,6 +487,7 @@ export SFXWeapon_MANPAD_Javelin is $/SoundDescriptors/SoundHappening_FULDA_Sting
 export SFXWeapon_MANPAD_Strela2M is $/SoundDescriptors/SoundHappening_FULDA_Stinger_Firing
 export SFXWeapon_MANPAD_igla is $/SoundDescriptors/SoundHappening_FULDA_Stinger_Firing
 export SFXWeapon_MMG_AANF1_7_62mm is $/SoundDescriptors/SoundHappening_FULDA_AANF1_Firing
+export SFXWeapon_MMG_AANF1_7_62mm_x2 is $/SoundDescriptors/SoundHappening_FULDA_AANF1_Firing
 export SFXWeapon_MMG_FN_MAG_7_62mm is $/SoundDescriptors/SoundHappening_FULDA_L37A2_Firing
 export SFXWeapon_MMG_HK21_7_62mm is $/SoundDescriptors/SoundHappening_FULDA_HK21_Firing
 export SFXWeapon_MMG_L37A2_7_62mm is $/SoundDescriptors/SoundHappening_FULDA_L37A2_Firing

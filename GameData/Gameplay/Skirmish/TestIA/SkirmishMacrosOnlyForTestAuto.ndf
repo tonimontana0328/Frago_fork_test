@@ -195,7 +195,6 @@ export Artillery_OnlyTestAuto is TMacroActionDescriptor_Artillery_Specific
         ),
 
         TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_Artillery_TestAuto] DistanceToOptimumStartDuringDeployment = 3000*Metre),
-        TArtilleryDeployOnRoadSettingHolder(),
         TIgnoreSafePathSettingHolder(), //on esquive pas la menace sur le chemin
         TForcedPlacementSettingHolder(ForcedCorridor = [5]),
     ]

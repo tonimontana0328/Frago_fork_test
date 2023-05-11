@@ -811,7 +811,17 @@ ShowroomLightCycleButton is BUCKButtonDescriptor
 
             ResizeMode = ~/TextureResizeMode/UserDefined
             TextureColorToken = "ShowroomGray"
+        ),
+        BUCKSpecificHintableArea
+        (
+            HintTitleToken = 'cycli_t'
+            HintBodyToken = 'cycli_b'
+            // HintExtendedToken ='pip_hqe'
+            DicoToken = ~/LocalisationConstantes/dico_interface_outgame
         )
+
+
+
     ]
 )
 

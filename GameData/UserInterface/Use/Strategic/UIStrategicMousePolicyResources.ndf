@@ -414,7 +414,7 @@ StrategicMouseWidgetSelector_Default is TUIStrategicMouseWidgetSelectorDefault
         (Cursor_OrderAlly        , ~/MouseWidget_StrategicOrderNeutralLand),
         (Cursor_OrderPlayer      , ~/MouseWidget_MultiSelectionStrategic),
         (Cursor_OrderEnemy       , ~/MouseWidget_AssaultPossible),
-        (Cursor_OrderInvalid     , ~/MouseWidget_AssaultImpossible),
+        (Cursor_OrderInvalid     , ~/DefaultMouseWidget), // assaut impossible
         (Cursor_OrderNeutralLand , ~/MouseWidget_StrategicOrderNeutralLand),
         (Cursor_SelectNeutralLand, ~/MouseWidget_StrategicSelectNeutralLand),
     ]
@@ -432,6 +432,7 @@ StrategicMouseWidgetSelector_Default is TUIStrategicMouseWidgetSelectorDefault
     TooCloseToken   = "MP_TOOCL"
     OutOfRangeToken = "MP_OORANGE"
     KilometersToken = "RANGE_KM"
+    AttackAvailableToken = "CUR_ASSAUL"
 )
 
 StrategicMouseWidgetSelector_DenyOrder is TUIStrategicMouseWidgetSelectorOrder

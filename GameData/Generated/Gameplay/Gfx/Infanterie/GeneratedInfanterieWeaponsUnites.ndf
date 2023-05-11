@@ -1828,6 +1828,19 @@ InfantryWeapon_PM_C8_Carbine is TIntroduceMobileHappening
     )
 )
 
+InfantryWeapon_Sniper_PSG1 is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_Sniper_Lourd_12_7_Douille_2,
+            fx_Traine_Sniper_7_62_2_False_00_00,
+            SFXWeapon_Sniper_PSG1,
+        ]
+    )
+)
+
 InfantryWeapon_PM_MPi_AKSU_74NK is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
@@ -2578,6 +2591,7 @@ InfantryHappenings is MAP[
   ( ['FireEffect_Sniper_L96A1'], InfantryWeapon_Sniper_L96A1 ),
   ( ['FireEffect_Sniper_M14'], InfantryWeapon_Sniper_M14 ),
   ( ['FireEffect_Sniper_M24'], InfantryWeapon_Sniper_M24 ),
+  ( ['FireEffect_Sniper_PSG1'], InfantryWeapon_Sniper_PSG1 ),
   ( ['FireEffect_Sniper_SVD_Dragunov'], InfantryWeapon_Sniper_SVD_Dragunov ),
   ( ['FireEffect_Sniper_VSS_Vintorez'], InfantryWeapon_Sniper_VSS_Vintorez ),
   ( ['FireEffect_flamethrower_LFP54'], InfantryWeapon_flamethrower_LFP54 ),

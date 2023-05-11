@@ -1,4 +1,4 @@
-InterfaceNonArrayLayersFinal is [
+InterfaceLayers is [
     $/M3D/Scene/ShadingScene/Calque_OpaqueLevelBuild_Depiction_SelectionMask,
     $/M3D/Scene/ShadingScene/Calque_Opaque_Depiction_SelectionMask,
     $/M3D/Scene/ShadingScene/Calque_Fleche_GD,
@@ -24,14 +24,13 @@ InterfaceNonArrayLayersFinal is [
     $/M3D/Scene/Scene3D_AfterPostProcess/pictograph/Render/Calque_FeedbackRenderToolbox_Solid_AlwaysOnTop,
     $/M3D/Scene/Scene3D_AfterPostProcess/pictograph/Render/Calque_FeedbackRenderToolbox_Circle_AlwaysOnTop,
     $/M3D/Scene/Scene3D_AfterPostProcess/pictograph/Render/Calque_FeedbackRenderToolbox_Line_AlwaysOnTop,
-]
 
-InterfaceArrayLayersFinal is [
     $/M3D/Scene/Scene_2D_Interface/CalqueArray_Objective,
     $/M3D/Scene/Scene_2D_Interface/CalqueArray_Labels,
     $/M3D/Scene/Scene_2D_Interface/CalqueArray_2DInterface_InGame,
     $/M3D/Scene/Scene_2D_Interface/CalqueArray_2DInterface_OutGame,
     $/M3D/Scene/Scene_2D_Interface/CalqueArray_2DInterface_ShowRoom,
+    $/M3D/Scene/Scene_2D_Interface/CalqueArray_2DInterfaceLDHint,
 
     $/M3D/Scene/Scene_2D_TopInterface/CalqueArray_Modal,
     $/M3D/Scene/Scene_2D_TopInterface/CalqueArray_Hint,

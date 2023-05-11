@@ -2798,6 +2798,32 @@ FXWeapon_DCA_1_canon_S60_57mm is FiringAndProjectile
     ]
 )
 
+FXWeapon_DCA_1_canon_T20_20mm is FiringAndProjectile
+(
+    Happenings = [
+        TRandomHappening
+        (
+            Alternatives =
+            [
+                FXFiring_5( Action = $/GFX/GameFx/fx_tir_obus_FK20_simple_douilles_eject_1 ),
+                FXFiring_5( Action = $/GFX/GameFx/fx_tir_obus_FK20_simple_douilles_eject_2 ),
+                FXFiring_5( Action = $/GFX/GameFx/fx_tir_obus_FK20_simple_douilles_eject_3 ),
+            ]
+        ),
+        TRandomHappening
+        (
+            Alternatives =
+            [
+                FXProjectile_6( Action = $/GFX/GameFx/fx_traine_2A38_1 ),
+                FXProjectile_6( Action = $/GFX/GameFx/fx_traine_2A38_2 ),
+                FXProjectile_6( Action = $/GFX/GameFx/fx_traine_2A38_3 ),
+                FXProjectile_6( Action = $/GFX/GameFx/fx_traine_2A38_4 ),
+                FXProjectile_6( Action = $/GFX/GameFx/fx_traine_2A38_5 ),
+            ]
+        ),
+    ]
+)
+
 FXWeapon_DCA_2_canon_2M3_25mm is FiringAndProjectile
 (
     Happenings = [
@@ -5509,6 +5535,23 @@ FXWeapon_M185_155mm_NUKE is FiringAndProjectile
 )
 
 FXWeapon_MMG_AANF1_7_62mm is FiringAndProjectile
+(
+    Happenings = [
+        TRandomHappening
+        (
+            Alternatives =
+            [
+                FXFiring_5( Action = $/GFX/GameFx/fx_tir_mitrailleuse_M240_douilles_eject_1 ),
+                FXFiring_5( Action = $/GFX/GameFx/fx_tir_mitrailleuse_M240_douilles_eject_2 ),
+                FXFiring_5( Action = $/GFX/GameFx/fx_tir_mitrailleuse_M240_douilles_eject_3 ),
+                FXFiring_5( Action = $/GFX/GameFx/fx_tir_mitrailleuse_M240_douilles_eject_4 ),
+            ]
+        ),
+        FXProjectile_6( Action = $/GFX/GameFx/fx_traine_M240 ),
+    ]
+)
+
+FXWeapon_MMG_AANF1_7_62mm_x2 is FiringAndProjectile
 (
     Happenings = [
         TRandomHappening

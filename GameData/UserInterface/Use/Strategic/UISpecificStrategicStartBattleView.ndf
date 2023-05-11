@@ -995,14 +995,14 @@ PanelAide is PanelRoundedCorner
                         ComponentFrame = TUIFramePropertyRTTI
                         (
                             RelativeWidthHeight = [1.0, 0.0]
-                            MagnifiableWidthHeight = [0.0, 20.0]
+                            // MagnifiableWidthHeight = [0.0, 20.0]
                         )
 
                         ParagraphStyle = paragraphStyleTextCenter
                         TextStyle = "Default"
 
                         HorizontalFitStyle = ~/FitStyle/UserDefined
-                        VerticalFitStyle = ~/FitStyle/UserDefined
+                        VerticalFitStyle = ~/FitStyle/FitToContent
 
                         TypefaceToken = "Eurostyle_Heavy"
                         BigLineAction = ~/BigLineAction/MultiLine
@@ -1010,7 +1010,7 @@ PanelAide is PanelRoundedCorner
                         TextToken = 'prep_q'
                         TextDico = ~/LocalisationConstantes/dico_interface_ingame
 
-                        TextColor = "SM_Grullo"
+                        TextColor = "BlancEquipe"
                         TextSize = "24"
                     )
                 ),
@@ -1027,9 +1027,14 @@ PanelAide is PanelRoundedCorner
                             AlignementToAnchor = [0.5, 0.0]
                         )
 
-                        ParagraphStyle = ~/CenteredParagraphStyle
+                        ParagraphStyle = TParagraphStyleRTTI
+                        (
+                            Alignment = UIText_Center
+                            VerticalAlignment = UIText_VerticalCenter
+                            InterLine = 0.3
+                        )
                         TextStyle = "Default"
-                        TextPadding =  TRTTILength4( Magnifiable = [20.0, 2.0, 20.0, 20.0] )
+                        TextPadding =  TRTTILength4( Magnifiable = [20.0, 2.0, 20.0, 2.0] )
                         HorizontalFitStyle = ~/FitStyle/UserDefined
                         VerticalFitStyle = ~/FitStyle/FitToContent
 
@@ -1039,7 +1044,7 @@ PanelAide is PanelRoundedCorner
                         TextToken = 'prep_b'
                         TextDico = ~/LocalisationConstantes/dico_interface_ingame
 
-                        TextColor = "SM_paleSilver"
+                        TextColor = "BlancEquipe"
                         TextSize = "14"
                     )
                 ),

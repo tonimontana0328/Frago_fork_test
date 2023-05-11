@@ -51,6 +51,11 @@ GhostDepiction_AML_60_FR is GhostVehicleDepictionTemplate
     Selector = Selector_AML_60_FR
     Alternatives = Alternatives_AML_60_FR
 )
+GhostDepiction_AML_60_Gendarmerie_FR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_AML_60_Gendarmerie_FR
+    Alternatives = Alternatives_AML_60_Gendarmerie_FR
+)
 GhostDepiction_AML_90_FR is GhostVehicleDepictionTemplate
 (
     Selector = Selector_AML_90_FR
@@ -480,6 +485,11 @@ GhostDepiction_BTR_60_CMD_SOV is GhostVehicleDepictionTemplate
 (
     Selector = Selector_BTR_60_CMD_SOV
     Alternatives = Alternatives_BTR_60_CMD_SOV
+)
+GhostDepiction_BTR_60_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_BTR_60_DDR
+    Alternatives = Alternatives_BTR_60_DDR
 )
 GhostDepiction_BTR_60_SOV is GhostVehicleDepictionTemplate
 (

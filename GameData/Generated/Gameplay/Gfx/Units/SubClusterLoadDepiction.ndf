@@ -97,6 +97,7 @@ export TransactionGenerated is TNDFTransactionFileList
         'GameData:/Gameplay/Gfx/Units/DDR/Char/BTR_50_DDR.ndf',
         'GameData:/Gameplay/Gfx/Units/DDR/Vehicule/BTR_60_CMD_DDR.ndf',
         'GameData:/Gameplay/Gfx/Units/SOV/Vehicule/BTR_60_CMD_SOV.ndf',
+        'GameData:/Gameplay/Gfx/Units/DDR/Vehicule/BTR_60_DDR.ndf',
         'GameData:/Gameplay/Gfx/Units/SOV/Vehicule/BTR_60_SOV.ndf',
         'GameData:/Gameplay/Gfx/Units/DDR/Vehicule/BTR_70_DDR.ndf',
         'GameData:/Gameplay/Gfx/Units/SOV/Vehicule/BTR_70_SOV.ndf',

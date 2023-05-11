@@ -217,6 +217,7 @@ is TMacroActionDescriptor_CorridorAttack_Specific
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = <RatioMinimumPourAttaquer> UtiliserMenaceLaPlusProcheAuLieuDeLaPlusFaible = true),
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
         TCorridorPlacementSettingHolder(StayInCorridorIfp = true MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
+        TDisableProductionRoadSnappingSettingHolder(),
     ]
     +
     <AdditionnalParameter>

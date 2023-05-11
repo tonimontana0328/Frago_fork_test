@@ -406,6 +406,15 @@ export ModelFile_VDV_HMG_SOV_06 is SOV_VDV_spe
 export ModelFile_VDV_HMG_SOV_LOW is SOV_VDV_1_LOW
 
 
+//VDV_Afgantsy_SOV
+export ModelFile_VDV_Afgantsy_SOV is SOV_VDV_1
+export ModelFile_VDV_Afgantsy_SOV_02 is SOV_VDV_2
+export ModelFile_VDV_Afgantsy_SOV_03 is SOV_VDV_NCO
+export ModelFile_VDV_Afgantsy_SOV_04 is SOV_VDV_Officer
+export ModelFile_VDV_Afgantsy_SOV_05 is SOV_VDV_Sniper
+export ModelFile_VDV_Afgantsy_SOV_06 is SOV_VDV_spe
+export ModelFile_VDV_Afgantsy_SOV_LOW is SOV_VDV_1_LOW
+
 //VDV_SOV
 export ModelFile_VDV_SOV is SOV_VDV_1
 export ModelFile_VDV_SOV_02 is SOV_VDV_2
@@ -1677,6 +1686,15 @@ export ModelFile_MotRifles_HMG_DDR_05 is DDR_MotSchutzen_Sniper
 export ModelFile_MotRifles_HMG_DDR_06 is DDR_MotSchutzen_spe
 export ModelFile_MotRifles_HMG_DDR_LOW is DDR_MotSchutzen_LOW
 
+//Security_DDR
+export ModelFile_Security_DDR is DDR_MotSchutzen_1
+export ModelFile_Security_DDR_02 is DDR_MotSchutzen_2
+export ModelFile_Security_DDR_03 is DDR_MotSchutzen_NCO
+export ModelFile_Security_DDR_04 is DDR_MotSchutzen_Officer
+export ModelFile_Security_DDR_05 is DDR_MotSchutzen_Sniper
+export ModelFile_Security_DDR_06 is DDR_MotSchutzen_spe
+export ModelFile_Security_DDR_LOW is DDR_MotSchutzen_LOW
+
 //MotRifles_DDR
 export ModelFile_MotRifles_DDR is DDR_MotSchutzen_1
 export ModelFile_MotRifles_DDR_02 is DDR_MotSchutzen_2
@@ -2141,10 +2159,18 @@ CRAP_NCO is 'GameData:/Assets/3D/Units/FR/Infanterie/CRAP/CRAP_NCO.Ase2NdfBin'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Alpins/Alpin_NCO.Ase2NdfBin'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/RCAM/RCAM.Ase2NdfBin'
 //------------------------------------------------------------------------------
+//Sniper_Hubert_FR
+export ModelFile_Sniper_Hubert_FR is CRAP_2
+export ModelFile_Sniper_Hubert_FR_LOW is CRAP_3
+
 //SAS_Sniper_FR
 export ModelFile_SAS_Sniper_FR is CRAP_2
 export ModelFile_SAS_Sniper_FR_02 is CRAP_3
 export ModelFile_SAS_Sniper_FR_LOW is CRAP_3
+
+//LRRP_Para_FR
+export ModelFile_LRRP_Para_FR is CRAP_1
+export ModelFile_LRRP_Para_FR_LOW is BEL_ESR_1
 
 //LRRP_FR
 export ModelFile_LRRP_FR is CRAP_1
@@ -2224,6 +2250,10 @@ export ModelFile_Scout_FR_02 is FR_Chasseur_2
 export ModelFile_Scout_FR_03 is FR_Chasseur_NCO
 export ModelFile_Scout_FR_04 is FR_Chasseur_spe
 export ModelFile_Scout_FR_LOW is FR_Chasseur_LOW
+
+//Commandos_Legion_FR
+export ModelFile_Commandos_Legion_FR is FR_Chasseur_1
+export ModelFile_Commandos_Legion_FR_LOW is FR_Chasseur_LOW
 
 //Commandos_FR
 export ModelFile_Commandos_FR is FR_Chasseur_1
@@ -2409,6 +2439,42 @@ export ModelFile_Rifles_Aero_FR_04 is FR_Chasseur_Sniper
 export ModelFile_Rifles_Aero_FR_05 is FR_RCAM
 export ModelFile_Rifles_Aero_FR_06 is FR_Chasseur_2
 export ModelFile_Rifles_Aero_FR_LOW is FR_Chasseur_LOW
+
+//Sapeurs_Legion_CMD_FR
+export ModelFile_Sapeurs_Legion_CMD_FR is FR_Chasseur_1
+export ModelFile_Sapeurs_Legion_CMD_FR_LOW is FR_Chasseur_LOW
+
+//Sapeurs_Legion_FR
+export ModelFile_Sapeurs_Legion_FR is FR_Chasseur_1
+export ModelFile_Sapeurs_Legion_FR_LOW is FR_Chasseur_LOW
+
+//Sapeurs_Legion_Flam_FR
+export ModelFile_Sapeurs_Legion_Flam_FR is FR_Chasseur_1
+export ModelFile_Sapeurs_Legion_Flam_FR_LOW is FR_Chasseur_LOW
+
+//Rifles_Legion_APILAS_FR
+export ModelFile_Rifles_Legion_APILAS_FR is FR_Chasseur_1
+export ModelFile_Rifles_Legion_APILAS_FR_LOW is FR_Chasseur_LOW
+
+//Rifles_Legion_CMD_FR
+export ModelFile_Rifles_Legion_CMD_FR is FR_Chasseur_1
+export ModelFile_Rifles_Legion_CMD_FR_LOW is FR_Chasseur_LOW
+
+//Rifles_Legion_FR
+export ModelFile_Rifles_Legion_FR is FR_Chasseur_1
+export ModelFile_Rifles_Legion_FR_LOW is FR_Chasseur_LOW
+
+//Rifles_RIMa_APILAS_FR
+export ModelFile_Rifles_RIMa_APILAS_FR is FR_Chasseur_1
+export ModelFile_Rifles_RIMa_APILAS_FR_LOW is FR_Chasseur_LOW
+
+//Rifles_RIMa_CMD_FR
+export ModelFile_Rifles_RIMa_CMD_FR is FR_Chasseur_1
+export ModelFile_Rifles_RIMa_CMD_FR_LOW is FR_Chasseur_LOW
+
+//Rifles_RIMa_FR
+export ModelFile_Rifles_RIMa_FR is FR_Chasseur_1
+export ModelFile_Rifles_RIMa_FR_LOW is FR_Chasseur_LOW
 
 //Rifles_FR
 export ModelFile_Rifles_FR is  FR_Chasseur_1

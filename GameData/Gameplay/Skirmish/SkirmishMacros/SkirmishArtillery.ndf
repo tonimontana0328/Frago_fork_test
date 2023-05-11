@@ -33,7 +33,6 @@ is TMacroActionDescriptor_Artillery_Specific
         <ArtilleryStrikeSettingHolder>,
 
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
-        TArtilleryDeployOnRoadSettingHolder(),
     ]
     +
     <ParametresDeMission>
@@ -122,7 +121,6 @@ export Artillery_Sniper is TMacroActionDescriptor_Artillery_Specific
                 (["Helo"], 0.5),
             ]
         ),
-        TArtilleryDeployOnRoadSettingHolder(),
     ]
 )
 //-------------------------------------------------------------------------
@@ -188,7 +186,6 @@ export Artillery_Support is TMacroActionDescriptor_Artillery_Specific
         ),
 
         TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_Artillery_Support] DistanceToOptimumStartDuringDeployment = 3000*Metre),
-        TArtilleryDeployOnRoadSettingHolder(),
     ]
 )
 //-------------------------------------------------------------------------
@@ -224,7 +221,6 @@ export GenBTAtk_Artillery_Support is TMacroActionDescriptor_Artillery_Specific
         ),
 
         TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_Artillery_Support] DistanceToOptimumStartDuringDeployment = 3000*Metre),
-        TArtilleryDeployOnRoadSettingHolder(),
     ]
 )
 //-------------------------------------------------------------------------
@@ -246,7 +242,6 @@ is TMacroActionDescriptor_Artillery_Specific
         TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_Artillery_Expensive] ProdProperties = [TProdProperty_LaunchAsSoonAsPossible]DistanceToOptimumStartDuringDeployment = 3000*Metre),
 
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
-        TArtilleryDeployOnRoadSettingHolder(),
     ] + <ArtilleryStrikeSettingHolder>
 )
 //-------------------------------------------------------------------------
@@ -344,7 +339,6 @@ export GenBTDef_Artillery_FrontLane is TMacroActionDescriptor_Artillery_Specific
         ),
         TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_Artillery_Support] DistanceToOptimumStartDuringDeployment = 3000*Metre),
         TForcedPlacementSettingHolder(OrderedPrioritaryZoneWeightList = [1]),
-        TArtilleryDeployOnRoadSettingHolder(),
     ]
 )
 //-------------------------------------------------------------------------

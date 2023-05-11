@@ -213,7 +213,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                TurretSpeed = TMinMaxValue (
                        Min = 60 // Canon HE 60mm CM60A1
-                       Max = 120 // Canon HE 105mm CN_105_F1 BRENNUS
+                       Max = 120 // Canon HE 105mm F2_BK_MECA_L48
               )
          )
        ),
@@ -257,7 +257,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                TurretSpeed = TMinMaxValue (
                        Min = 60 // HMG 12 7 mm M2HB
-                       Max = 360 // MMG M240 7 62mm
+                       Max = 360 // MMG PKT 7 62mm
                )
                Accuracy = TMinMaxValue (
                        Min = 15 // MMG PKT 7 62mm
@@ -265,7 +265,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                AccuracyMovement = TMinMaxValue (
                        Min = 0 // MMG team 7 62mm AANF1
-                       Max = 10 // MMG AANF1 7 62mm
+                       Max = 10 // MMG AANF1 7 62mm x2
                )
                RateOfFire = TMinMaxValue (
                        Min = 375.0 // HMG 12 7 mm M2HB
@@ -1368,8 +1368,8 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 441 // AGM ARMAT
                )
                SplashDamageRadius = TMinMaxValue (
-                       Min = 14 * Metre // AGM AGM88 HARM
-                       Max = 14 * Metre // AGM AGM88 HARM
+                       Min = 40 * Metre // AGM AGM88 HARM
+                       Max = 50 * Metre // AGM ARMAT
                )
                MaxRange = TMinMaxValue (
                        Min = 12452 // AGM AGM45 Shrike

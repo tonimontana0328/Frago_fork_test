@@ -47,6 +47,7 @@ export IAStratConstantes is TIAStratConstantesDescriptor_Specific
         (EMacroActionMissionType/CorridorDynamicDefense, ['Avion','InfmapCommander']),
         (EMacroActionMissionType/ObjectiveAttack, ['Avion','InfmapCommander']),
         (EMacroActionMissionType/CaptureCommandZone, ['Avion']), //Ne surtout pas ajouter InfmapCommander
+        (EMacroActionMissionType/ProduceBuilding, ['Avion', 'InfmapCommander']),
     ]
 
     //--------------- Connaissance des zones ----------------------------------------//

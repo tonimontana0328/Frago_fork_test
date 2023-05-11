@@ -655,6 +655,71 @@ Descriptor_UnitCadavre_AML_60_FR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_AML_60_Gendarmerie_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{f8f5f969-ebd5-4084-acc1-c076bfc78398}
+    ClassNameForDebug  = 'Unit_CadavreAML_60_Gendarmerie_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = True
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_faible
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_AML_60_Gendarmerie_FR/WeaponManager,
+                   $/GFX/Everything/Descriptor_Unit_AML_60_Gendarmerie_FR/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_AML_60_Gendarmerie_FR/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_AML_60_Gendarmerie_FR/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_AML_60_Gendarmerie_FR/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_AML_60_Gendarmerie_FR/WeaponManager,
+            $/GFX/Everything/Descriptor_Unit_AML_60_Gendarmerie_FR/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_AML_60_Gendarmerie_FR/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_AML_60_Gendarmerie_FR/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_AML_60_Gendarmerie_FR/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_AML_90_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{d181fef2-65d9-4bc1-b56e-309bdbe07299}
@@ -7546,6 +7611,73 @@ Descriptor_UnitCadavre_BTR_60_CMD_SOV is TEntityDescriptor
             $/GFX/Everything/Descriptor_Unit_BTR_60_CMD_SOV/LandMovement,
             $/GFX/Everything/Descriptor_Unit_BTR_60_CMD_SOV/GenericMovement,
             $/GFX/Everything/Descriptor_Unit_BTR_60_CMD_SOV/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_BTR_60_DDR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{62ec3052-24f8-4593-bedf-e8efb4f51f17}
+    ClassNameForDebug  = 'Unit_CadavreBTR_60_DDR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'DDR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Transport
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = True
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_faible
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/WeaponManager,
+                   $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/FacingInfos,
+                   $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/Transporter,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/WeaponManager,
+            $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/FacingInfos,
+            $/GFX/Everything/Descriptor_Unit_BTR_60_DDR/Transporter,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -14512,6 +14644,69 @@ Descriptor_UnitCadavre_Grenzer_DDR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Grenzer_Flam_DDR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{6d8d221b-86db-4ab0-9b31-9ac5d541a9b6}
+    ClassNameForDebug  = 'Unit_CadavreGrenzer_Flam_DDR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'DDR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Recon_INF
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = True
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDuration_Infanterie
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_infanterie
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_Grenzer_Flam_DDR/GroupeCombat,
+                   $/GFX/Everything/Descriptor_Unit_Grenzer_Flam_DDR/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_Grenzer_Flam_DDR/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_Grenzer_Flam_DDR/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_Grenzer_Flam_DDR/GroupeCombat,
+            $/GFX/Everything/Descriptor_Unit_Grenzer_Flam_DDR/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_Grenzer_Flam_DDR/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_Grenzer_Flam_DDR/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Grenzer_Mot_DDR is TEntityDescriptor
 (
     DescriptorId       = GUID:{4987b8a6-883d-4ee0-9825-c71838fbe16d}
@@ -19225,6 +19420,69 @@ Descriptor_UnitCadavre_LightRifles_CMD_US is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_LightRifles_LAW_US is TEntityDescriptor
+(
+    DescriptorId       = GUID:{a4ad4d06-c1ac-491a-9dff-0441bb5063e7}
+    ClassNameForDebug  = 'Unit_CadavreLightRifles_LAW_US'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = True
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDuration_Infanterie
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_infanterie
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_LightRifles_LAW_US/GroupeCombat,
+                   $/GFX/Everything/Descriptor_Unit_LightRifles_LAW_US/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_LightRifles_LAW_US/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_LightRifles_LAW_US/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_LightRifles_LAW_US/GroupeCombat,
+            $/GFX/Everything/Descriptor_Unit_LightRifles_LAW_US/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_LightRifles_LAW_US/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_LightRifles_LAW_US/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_LightRifles_RCL_US is TEntityDescriptor
 (
     DescriptorId       = GUID:{10ae5732-5de1-40f6-addf-15f18ffed884}
@@ -21751,7 +22009,7 @@ Descriptor_UnitCadavre_M1A1_Abrams_reco_US is TEntityDescriptor
                 CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
                 CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
                 FadingDuration = 1
-                DeathExplosionAmmo = ~/Ammo_Mort_Unite_faible
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_forte
                 ModuleDescriptorsToSteal =
                 [
                    $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/WeaponManager,
@@ -28811,6 +29069,69 @@ Descriptor_UnitCadavre_Rangers_CMD_US is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Reserve_DDR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{53e1292a-2eb7-4c1a-b8a5-0dc0f7c4e7c8}
+    ClassNameForDebug  = 'Unit_CadavreReserve_DDR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'DDR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = True
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDuration_Infanterie
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_infanterie
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_Reserve_DDR/GroupeCombat,
+                   $/GFX/Everything/Descriptor_Unit_Reserve_DDR/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_Reserve_DDR/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_Reserve_DDR/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_Reserve_DDR/GroupeCombat,
+            $/GFX/Everything/Descriptor_Unit_Reserve_DDR/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_Reserve_DDR/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_Reserve_DDR/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Reserve_Polizei_RFA is TEntityDescriptor
 (
     DescriptorId       = GUID:{25e79f7a-3839-4bcc-abd8-651d0ecbf66e}
@@ -30394,6 +30715,69 @@ Descriptor_UnitCadavre_SAS_UK is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_SEK_RFA is TEntityDescriptor
+(
+    DescriptorId       = GUID:{22cb99dc-47f2-4bd9-86a6-a2b267edc4fc}
+    ClassNameForDebug  = 'Unit_CadavreSEK_RFA'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'RFA'
+            AcknowUnitType                   = ~/TAcknowUnitType_Recon_INF
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = True
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDuration_Infanterie
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_infanterie
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_SEK_RFA/GroupeCombat,
+                   $/GFX/Everything/Descriptor_Unit_SEK_RFA/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_SEK_RFA/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_SEK_RFA/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_SEK_RFA/GroupeCombat,
+            $/GFX/Everything/Descriptor_Unit_SEK_RFA/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_SEK_RFA/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_SEK_RFA/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_SPW_152K_DDR is TEntityDescriptor
 (
     DescriptorId       = GUID:{c91f98bc-05b3-4cb0-b122-76da2a0a53a7}
@@ -31790,6 +32174,69 @@ Descriptor_UnitCadavre_Scout_para_FR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Security_DDR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{c389931b-b448-4b76-bcbe-049f4cad0da2}
+    ClassNameForDebug  = 'Unit_CadavreSecurity_DDR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'DDR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = True
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDuration_Infanterie
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_infanterie
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_Security_DDR/GroupeCombat,
+                   $/GFX/Everything/Descriptor_Unit_Security_DDR/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_Security_DDR/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_Security_DDR/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_Security_DDR/GroupeCombat,
+            $/GFX/Everything/Descriptor_Unit_Security_DDR/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_Security_DDR/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_Security_DDR/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Security_RFA is TEntityDescriptor
 (
     DescriptorId       = GUID:{6e2483f5-a8df-4c48-a483-bf0e7a5368ae}
@@ -31849,6 +32296,69 @@ Descriptor_UnitCadavre_Security_RFA is TEntityDescriptor
             $/GFX/Everything/Descriptor_Unit_Security_RFA/LandMovement,
             $/GFX/Everything/Descriptor_Unit_Security_RFA/GenericMovement,
             $/GFX/Everything/Descriptor_Unit_Security_RFA/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Security_UK is TEntityDescriptor
+(
+    DescriptorId       = GUID:{d7de3de5-695a-4ee5-904c-fd0e1aec3c6a}
+    ClassNameForDebug  = 'Unit_CadavreSecurity_UK'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'UK'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = True
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDuration_Infanterie
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_infanterie
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_Security_UK/GroupeCombat,
+                   $/GFX/Everything/Descriptor_Unit_Security_UK/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_Security_UK/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_Security_UK/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_Security_UK/GroupeCombat,
+            $/GFX/Everything/Descriptor_Unit_Security_UK/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_Security_UK/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_Security_UK/FacingInfos,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -37583,6 +38093,69 @@ Descriptor_UnitCadavre_VBL_Reco_FR is TEntityDescriptor
             $/GFX/Everything/Descriptor_Unit_VBL_Reco_FR/LandMovement,
             $/GFX/Everything/Descriptor_Unit_VBL_Reco_FR/GenericMovement,
             $/GFX/Everything/Descriptor_Unit_VBL_Reco_FR/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_VDV_Afgantsy_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{1ea6d573-3fe6-4b83-b75d-267a7817a7d1}
+    ClassNameForDebug  = 'Unit_CadavreVDV_Afgantsy_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = True
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDuration_Infanterie
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_infanterie
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_VDV_Afgantsy_SOV/GroupeCombat,
+                   $/GFX/Everything/Descriptor_Unit_VDV_Afgantsy_SOV/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_VDV_Afgantsy_SOV/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_VDV_Afgantsy_SOV/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_VDV_Afgantsy_SOV/GroupeCombat,
+            $/GFX/Everything/Descriptor_Unit_VDV_Afgantsy_SOV/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_VDV_Afgantsy_SOV/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_VDV_Afgantsy_SOV/FacingInfos,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]

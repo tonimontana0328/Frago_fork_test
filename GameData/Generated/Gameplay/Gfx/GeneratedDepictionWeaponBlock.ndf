@@ -137,6 +137,14 @@ Weapon_HMG_12_7_mm_M2HB is TCompositeHappening
         SFXWeapon_HMG_12_7_mm_M2HB,
     ]
 )
+Weapon_MMG_AANF1_7_62mm_x2 is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_MMG_AANF1_7_62mm_x2,
+        SFXWeapon_MMG_AANF1_7_62mm_x2,
+    ]
+)
 Weapon_Canon_AP_90_mm_GIAT_F1 is TCompositeHappening
 (
     SubHappenings = 
@@ -2097,22 +2105,7 @@ Weapon_Mortier_81mm_SMOKE is TCompositeHappening
         SFXWeapon_Mortier_81mm_SMOKE,
     ]
 )
-Weapon_AutoCanon_AP_T20_20mm is TCompositeHappening
-(
-    SubHappenings = 
-    [
-        FXWeapon_AutoCanon_AP_T20_20mm,
-        SFXWeapon_AutoCanon_AP_T20_20mm,
-    ]
-)
-Weapon_AutoCanon_HE_T20_20mm is TCompositeHappening
-(
-    SubHappenings = 
-    [
-        FXWeapon_AutoCanon_HE_T20_20mm,
-        SFXWeapon_AutoCanon_HE_T20_20mm,
-    ]
-)
+Weapon_DCA_1_canon_T20_20mm is FXWeapon_DCA_1_canon_T20_20mm
 Weapon_Mistral is TCompositeHappening
 (
     SubHappenings = 

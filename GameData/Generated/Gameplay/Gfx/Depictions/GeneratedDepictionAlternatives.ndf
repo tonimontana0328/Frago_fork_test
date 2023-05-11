@@ -51,6 +51,11 @@ Alternatives_AML_60_FR is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_AML_60_FR_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_AML_60_FR_LOW DisabledOperators = [ 'tourelle4' ] ),
 ]
+Alternatives_AML_60_Gendarmerie_FR is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_AML_60_Gendarmerie_FR ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_AML_60_Gendarmerie_FR_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_AML_60_Gendarmerie_FR_LOW DisabledOperators = [ 'tourelle4' ] ),
+]
 Alternatives_AML_90_FR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_AML_90_FR ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_AML_90_FR_MID ),
@@ -84,12 +89,12 @@ Alternatives_AMX_10_P_VOA_FR is [
 Alternatives_AMX_10_RCR_FR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_AMX_10_RCR_FR ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_AMX_10_RCR_FR_MID ),
-    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_AMX_10_RCR_FR_LOW DisabledOperators = [ 'tourelle4' ] ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_AMX_10_RCR_FR_LOW DisabledOperators = [ 'tourelle2' ] ),
 ]
 Alternatives_AMX_10_RC_FR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_AMX_10_RC_FR ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_AMX_10_RC_FR_MID ),
-    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_AMX_10_RC_FR_LOW DisabledOperators = [ 'tourelle4' ] ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_AMX_10_RC_FR_LOW DisabledOperators = [ 'tourelle2' ] ),
 ]
 Alternatives_AMX_13_90mm_FR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_AMX_13_90mm_FR ),
@@ -480,6 +485,11 @@ Alternatives_BTR_60_CMD_SOV is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_BTR_60_CMD_SOV ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_BTR_60_CMD_SOV_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_BTR_60_CMD_SOV_LOW DisabledOperators = [ 'tourelle1', 'tourelle4' ] ),
+]
+Alternatives_BTR_60_DDR is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_BTR_60_DDR ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_BTR_60_DDR_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_BTR_60_DDR_LOW DisabledOperators = [ 'tourelle1', 'tourelle4' ] ),
 ]
 Alternatives_BTR_60_SOV is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_BTR_60_SOV ),

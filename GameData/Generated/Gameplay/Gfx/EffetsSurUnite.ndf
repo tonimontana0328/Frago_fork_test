@@ -2920,6 +2920,11 @@ export UnitEffect_reserviste is TEffectsPackDescriptor
             BonusDamage         = 1.5
             DamageType          = EDamageType/Suppress
         ),
+        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Multiplicatif
+            ModificationTempsEntreDeuxSalves = 1.1
+        ),
     ]
 )
 export UnitEffect_resolute is TEffectsPackDescriptor
