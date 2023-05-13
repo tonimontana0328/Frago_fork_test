@@ -11903,14 +11903,14 @@ export Descriptor_Missile_ATGM_HOT1 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil

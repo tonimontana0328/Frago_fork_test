@@ -17118,7 +17118,7 @@ Ammo_DCA_1_canon_53T2_20mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -17211,7 +17211,7 @@ Ammo_DCA_1_canon_53T2_20mm_TOWED is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -17304,7 +17304,7 @@ Ammo_DCA_1_canon_Bofors_40mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -17397,7 +17397,7 @@ Ammo_DCA_1_canon_Bofors_upgrade_40mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -17490,7 +17490,7 @@ Ammo_DCA_1_canon_FK20_20mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -17584,7 +17584,7 @@ Ammo_DCA_1_canon_FK20_20mm_TOWED is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -17677,7 +17677,7 @@ Ammo_DCA_1_canon_S60_57mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -17770,7 +17770,7 @@ Ammo_DCA_1_canon_T20_20mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -17863,7 +17863,7 @@ Ammo_DCA_2_canon_2M3_25mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -17957,7 +17957,7 @@ Ammo_DCA_2_canon_FK20_20mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -18051,7 +18051,7 @@ Ammo_DCA_2_canon_Jod_SP_23mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -18145,7 +18145,7 @@ Ammo_DCA_2_canon_Jod_towed_23mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -18239,7 +18239,7 @@ Ammo_DCA_2_canon_ZU23_2_23mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -18333,7 +18333,7 @@ Ammo_DCA_2_canon_ZU23_2_23mm_TOWED is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 2
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (

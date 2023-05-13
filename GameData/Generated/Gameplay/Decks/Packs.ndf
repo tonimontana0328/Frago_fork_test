@@ -8259,7 +8259,7 @@ Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_IFV_RFA is TDeckPack
 )
 Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_PzGrenadier_RFA is TDeckPackDescriptor
 (
-    DescriptorId = GUID:{a0da4fe5-5da5-41d0-ad10-d6aafc0fb606}
+    DescriptorId = GUID:{190d8fb1-62f9-43bf-8069-daacbe10726c}
     CfgName = 'TOE_RFA_5_Panzer_multi_PzGrenadier_RFA'
     TransporterAndUnitsList =
     [
