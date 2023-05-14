@@ -72801,7 +72801,7 @@ Ammo_HMG_12_7_mm_avenger_M3P_AP_FRL is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 6 * Metre
-    PhysicalDamages                   = 0.36
+    PhysicalDamages                   = 0.18
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 53 * Metre
     SuppressDamages                   = 24.0
