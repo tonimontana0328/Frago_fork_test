@@ -165,5 +165,7 @@ private EffectsPacksList is TGameplayEffectsPacksList
         ~/UnitEffect_resolute,
         ~/UnitEffect_security,
         ~/UnitEffect_sniper,
+        ~/UnitEffect_health50percent,
+        ~/UnitEffect_health25percent,
     ]
 )

@@ -2974,3 +2974,47 @@ export UnitEffect_sniper is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_health50percent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{9f632aec-adc8-4c86-9919-114e8ede4130}
+    NameForDebug       = 'damaged1'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseTurretRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusTurretRotationSpeed  = -10
+        ),
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Pourcentage
+            BonusSpeedBaseInPercent  = -10
+        ),
+        TUnitEffectIncreaseTurretRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusTurretRotationSpeed  = -10
+        ),
+    ]
+)
+export UnitEffect_health25percent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{a8fad349-d291-42e9-b069-af6ddfb8f3c3}
+    NameForDebug       = 'damaged2'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseTurretRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusTurretRotationSpeed  = -20
+        ),
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Pourcentage
+            BonusSpeedBaseInPercent  = -20
+        ),
+        TUnitEffectIncreaseTurretRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusTurretRotationSpeed  =-20
+        ),
+    ]
+)
