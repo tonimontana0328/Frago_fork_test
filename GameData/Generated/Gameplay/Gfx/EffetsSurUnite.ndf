@@ -2981,7 +2981,7 @@ export UnitEffect_health50percent is TEffectsPackDescriptor
     EffectsDescriptors = [
         TUnitEffectIncreaseTurretRotationSpeedDescriptor
         (
-            ModifierType       = ~/ModifierType_Multiplicatif
+            ModifierType       = ~/ModifierType_Pourcentage
             BonusTurretRotationSpeed  = -10
         ),
         TUnitEffectIncreaseSpeedDescriptor
@@ -3003,7 +3003,7 @@ export UnitEffect_health25percent is TEffectsPackDescriptor
     EffectsDescriptors = [
         TUnitEffectIncreaseTurretRotationSpeedDescriptor
         (
-            ModifierType       = ~/ModifierType_Multiplicatif
+            ModifierType       = ~/ModifierType_Pourcentage
             BonusTurretRotationSpeed  = -20
         ),
         TUnitEffectIncreaseSpeedDescriptor
