@@ -2812,6 +2812,7 @@ Descriptor_OrderAvailability_Commandos_FR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_DCA_53T2_20mm_FR is [
     "Stop",
@@ -4253,6 +4254,7 @@ Descriptor_OrderAvailability_Fallschirm_B1_RFA is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Fallschirm_RFA is [
     "Stop",
@@ -4339,6 +4341,7 @@ Descriptor_OrderAvailability_Fallschirmjager_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Fallschirmjager_FalseFlag_CMD_DDR is [
     "Stop",
@@ -4360,8 +4363,7 @@ Descriptor_OrderAvailability_Fallschirmjager_FalseFlag_CMD_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
-    "ShootOnPositionSmoke",
-    "ShootOnPositionWithoutCorrectionSmoke",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Fallschirmjager_FalseFlag_DDR is [
     "Stop",
@@ -4383,6 +4385,7 @@ Descriptor_OrderAvailability_Fallschirmjager_FalseFlag_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Fallschirmjager_FlaseFlag_Demo_DDR is [
     "Stop",
@@ -4404,6 +4407,7 @@ Descriptor_OrderAvailability_Fallschirmjager_FlaseFlag_Demo_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Fallschirmjager_HMG_DDR is [
     "Stop",
@@ -4425,6 +4429,7 @@ Descriptor_OrderAvailability_Fallschirmjager_HMG_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Fallschirmjager_Metys_DDR is [
     "Stop",
@@ -4446,6 +4451,7 @@ Descriptor_OrderAvailability_Fallschirmjager_Metys_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Fallschirmjager_Scout_RFA is [
     "Stop",
@@ -4527,6 +4533,7 @@ Descriptor_OrderAvailability_Fernspaher_RFA is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Ferret_Mk2_UK is [
     "Stop",
@@ -4713,6 +4720,7 @@ Descriptor_OrderAvailability_GreenBerets_MP5_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_GreenBerets_US is [
     "Stop",
@@ -4734,6 +4742,7 @@ Descriptor_OrderAvailability_GreenBerets_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Grenzer_CMD_DDR is [
     "Stop",
@@ -5972,6 +5981,7 @@ Descriptor_OrderAvailability_LRRP_FR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_LRRP_UK is [
     "Stop",
@@ -5993,6 +6003,7 @@ Descriptor_OrderAvailability_LRRP_UK is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_LRRP_US is [
     "Stop",
@@ -6014,6 +6025,7 @@ Descriptor_OrderAvailability_LRRP_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_LandRover_CMD_UK is [
     "Stop",
@@ -9452,6 +9464,7 @@ Descriptor_OrderAvailability_Ranger_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Rangers_CMD_US is [
     "Stop",
@@ -9981,6 +9994,7 @@ Descriptor_OrderAvailability_SAS_FR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_SAS_Sniper_FR is [
     "Stop",
@@ -10002,6 +10016,7 @@ Descriptor_OrderAvailability_SAS_Sniper_FR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_SAS_UK is [
     "Stop",
@@ -10023,6 +10038,7 @@ Descriptor_OrderAvailability_SAS_UK is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_SEK_RFA is [
     "Stop",
@@ -10353,6 +10369,7 @@ Descriptor_OrderAvailability_Scout_LRRP_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Scout_LRRP_SOV is [
     "Stop",
@@ -10374,6 +10391,7 @@ Descriptor_OrderAvailability_Scout_LRRP_SOV is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Scout_RFA is [
     "Stop",
@@ -10626,6 +10644,7 @@ Descriptor_OrderAvailability_Sniper_FJ_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Sniper_Fern_RFA is [
     "Stop",
@@ -10647,6 +10666,7 @@ Descriptor_OrderAvailability_Sniper_Fern_RFA is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Sniper_Spetsnaz_SOV is [
     "Stop",
@@ -10668,6 +10688,7 @@ Descriptor_OrderAvailability_Sniper_Spetsnaz_SOV is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Sniper_UK is [
     "Stop",
@@ -10793,6 +10814,7 @@ Descriptor_OrderAvailability_Spetsnaz_FireSupport_SOV is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_Spetsnaz_SOV is [
     "Stop",
@@ -10814,6 +10836,7 @@ Descriptor_OrderAvailability_Spetsnaz_SOV is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootDefensiveSmoke",
 ]
 Descriptor_OrderAvailability_T34_85M_DDR is [
     "Stop",
