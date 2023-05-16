@@ -1239,6 +1239,8 @@ Descriptor_OrderAvailability_AeroRifles_CMD_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_AeroRifles_US is [
     "Stop",
@@ -1281,6 +1283,8 @@ Descriptor_OrderAvailability_Airborne_CMD_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Airborne_Dragon_US is [
     "Stop",
@@ -1323,6 +1327,8 @@ Descriptor_OrderAvailability_Airborne_Engineer_CMD_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Airborne_Engineers_Flash_US is [
     "Stop",
@@ -1533,6 +1539,8 @@ Descriptor_OrderAvailability_Airmobile_CMD_UK is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Airmobile_MILAN_UK is [
     "Stop",
@@ -3119,6 +3127,8 @@ Descriptor_OrderAvailability_Engineer_CMD_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Engineers_AGI_DDR is [
     "Stop",
@@ -3182,6 +3192,8 @@ Descriptor_OrderAvailability_Engineers_AT_UK is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Engineers_CMD_DDR is [
     "Stop",
@@ -3203,6 +3215,8 @@ Descriptor_OrderAvailability_Engineers_CMD_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Engineers_CMD_RFA is [
     "Stop",
@@ -3224,6 +3238,8 @@ Descriptor_OrderAvailability_Engineers_CMD_RFA is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Engineers_CMD_SOV is [
     "Stop",
@@ -3245,6 +3261,8 @@ Descriptor_OrderAvailability_Engineers_CMD_SOV is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Engineers_CMD_UK is [
     "Stop",
@@ -3266,6 +3284,8 @@ Descriptor_OrderAvailability_Engineers_CMD_UK is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Engineers_CMD_VDV_SOV is [
     "Stop",
@@ -3287,6 +3307,8 @@ Descriptor_OrderAvailability_Engineers_CMD_VDV_SOV is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Engineers_DDR is [
     "Stop",
@@ -4304,6 +4326,8 @@ Descriptor_OrderAvailability_Fallschirmjager_CMD_RFA is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Fallschirmjager_DDR is [
     "Stop",
@@ -4346,6 +4370,8 @@ Descriptor_OrderAvailability_Fallschirmjager_FalseFlag_CMD_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Fallschirmjager_FalseFlag_DDR is [
     "Stop",
@@ -4675,6 +4701,8 @@ Descriptor_OrderAvailability_GreenBerets_CMD_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_GreenBerets_MP5_US is [
     "Stop",
@@ -4738,6 +4766,8 @@ Descriptor_OrderAvailability_Grenzer_CMD_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Grenzer_DDR is [
     "Stop",
@@ -5778,6 +5808,8 @@ Descriptor_OrderAvailability_Jager_CMD_RFA is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Jager_RFA is [
     "Stop",
@@ -5864,6 +5896,8 @@ Descriptor_OrderAvailability_KSM_CMD_RFA is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_KanJagdPanzer_RFA is [
     "Stop",
@@ -5907,6 +5941,8 @@ Descriptor_OrderAvailability_KdA_CMD_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_KdA_DDR is [
     "Stop",
@@ -6280,6 +6316,8 @@ Descriptor_OrderAvailability_LightRifles_CMD_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_LightRifles_LAW_US is [
     "Stop",
@@ -8775,6 +8813,8 @@ Descriptor_OrderAvailability_MotRifles_CMD_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_MotRifles_CMD_SOV is [
     "Stop",
@@ -8796,6 +8836,8 @@ Descriptor_OrderAvailability_MotRifles_CMD_SOV is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_MotRifles_DDR is [
     "Stop",
@@ -9130,6 +9172,8 @@ Descriptor_OrderAvailability_Panzergrenadier_CMD_RFA is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Panzergrenadier_IFV_RFA is [
     "Stop",
@@ -9172,6 +9216,8 @@ Descriptor_OrderAvailability_Para_CMD_FR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Para_FR is [
     "Stop",
@@ -9235,6 +9281,8 @@ Descriptor_OrderAvailability_Para_Sapeurs_CMD_FR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Para_Sapeurs_FR is [
     "Stop",
@@ -9298,6 +9346,8 @@ Descriptor_OrderAvailability_Paratroopers_CMD_UK is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Paratroopers_MILAN_TA_UK is [
     "Stop",
@@ -9443,6 +9493,8 @@ Descriptor_OrderAvailability_Rangers_CMD_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Reserve_DDR is [
     "Stop",
@@ -9569,6 +9621,8 @@ Descriptor_OrderAvailability_Rifles_Aero_CMD_FR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Rifles_Aero_FR is [
     "Stop",
@@ -9611,6 +9665,8 @@ Descriptor_OrderAvailability_Rifles_CMD_FR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Rifles_CMD_UK is [
     "Stop",
@@ -9632,6 +9688,8 @@ Descriptor_OrderAvailability_Rifles_CMD_UK is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Rifles_CMD_US is [
     "Stop",
@@ -9653,6 +9711,8 @@ Descriptor_OrderAvailability_Rifles_CMD_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Rifles_FR is [
     "Stop",
@@ -9821,6 +9881,8 @@ Descriptor_OrderAvailability_Rifles_half_CMD_US is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Rifles_half_Dragon_US is [
     "Stop",
@@ -9922,6 +9984,8 @@ Descriptor_OrderAvailability_SAS_CMD_FR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_SAS_FR is [
     "Stop",
@@ -10052,6 +10116,8 @@ Descriptor_OrderAvailability_Sapeurs_CMD_FR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Sapeurs_FR is [
     "Stop",
@@ -10226,6 +10292,8 @@ Descriptor_OrderAvailability_Scout_CMD_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Scout_CMD_RFA is [
     "Stop",
@@ -10247,6 +10315,8 @@ Descriptor_OrderAvailability_Scout_CMD_RFA is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Scout_DDR is [
     "Stop",
@@ -10728,6 +10798,8 @@ Descriptor_OrderAvailability_Spetsnaz_CMD_SOV is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Spetsnaz_FireSupport_SOV is [
     "Stop",
@@ -11658,6 +11730,8 @@ Descriptor_OrderAvailability_Territorial_CMD_UK is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Territorial_UK is [
     "Stop",
@@ -12409,6 +12483,8 @@ Descriptor_OrderAvailability_VDV_CMD_SOV is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_VDV_HMG_SOV is [
     "Stop",
@@ -12727,6 +12803,8 @@ Descriptor_OrderAvailability_Volkspolizei_CMD_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Volkspolizei_DDR is [
     "Stop",
@@ -12787,6 +12865,8 @@ Descriptor_OrderAvailability_Wachregiment_CMD_DDR is [
     "AIDefend",
     "AIAttack",
     "AIStop",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
 ]
 Descriptor_OrderAvailability_Wachregiment_DDR is [
     "Stop",
