@@ -32233,7 +32233,7 @@ Ammo_Howz_Canon_M46_Howitzer_130mm is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 26.0
+    TempsDeVisee                      = 20
     TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -32328,7 +32328,7 @@ Ammo_Howz_Canon_M46_Howitzer_130mm_SMOKE is TAmmunitionDescriptor
              EDiceHitModifier/Suppress,
          ]
     )
-    TempsDeVisee                      = 26.0
+    TempsDeVisee                      = 20
     TempsEntreDeuxSalves              = 30.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
