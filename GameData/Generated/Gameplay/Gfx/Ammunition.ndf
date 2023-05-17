@@ -17742,7 +17742,7 @@ Ammo_DCA_1_canon_T20_20mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.2
     TempsEntreDeuxFx                  = 0.2
-    PorteeMaximale                    = ((2901) * Metre)
+    PorteeMaximale                    = ((3962) * Metre)
     PorteeMinimaleTBA                 = ((100) * Metre)
     PorteeMaximaleTBA                 = ((7004) * Metre)
     PorteeMinimaleHA                  = ((100) * Metre)
