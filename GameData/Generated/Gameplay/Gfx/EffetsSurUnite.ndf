@@ -3018,3 +3018,87 @@ export UnitEffect_health25percent is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_Choc_FRL_missile_3 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{98e2bb73-9383-4a10-b6fa-4fbbb2b971ea}
+    NameForDebug       = 'Choc'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 100
+        ),
+    ]
+)
+export UnitEffect_Choc_FRL_missile_4 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{7dda7ed6-4690-45ab-86de-4ed36653ca75}
+    NameForDebug       = 'Choc'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 100
+        ),
+    ]
+)
+export UnitEffect_Choc_FRL_missile_5 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{e3c950f2-c1a8-468f-92f4-e71f96f6b9cf}
+    NameForDebug       = 'Choc'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 100
+        ),
+    ]
+)
+export UnitEffect_Choc_FRL_missile_6 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{0ffd9593-590e-46d4-a1f1-d58ac4b1d4a7}
+    NameForDebug       = 'Choc'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 100
+        ),
+    ]
+)
+export UnitEffect_Choc_FRL_missile_7 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{e2df3498-d0e3-4f4d-900d-903b287f3c38}
+    NameForDebug       = 'Choc'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 100
+        ),
+    ]
+)
+export UnitEffect_Choc_FRL_missile_8 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{2eae08ef-6dd2-405f-a2db-e28a1fde9856}
+    NameForDebug       = 'Choc'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 100
+        ),
+    ]
+)
+export UnitEffect_Choc_FRL_missile_9 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{552d725c-a36a-486b-b32b-3adeeae7113c}
+    NameForDebug       = 'Choc'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 100
+        ),
+    ]
+)
