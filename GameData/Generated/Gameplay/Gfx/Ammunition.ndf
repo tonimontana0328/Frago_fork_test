@@ -65325,8 +65325,8 @@ Ammo_Bomb_GBU_10_x1 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
-             (EBaseHitValueModifier/Moving, 50),
+             (EBaseHitValueModifier/Idling, 70),
+             (EBaseHitValueModifier/Moving, 70),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -65415,8 +65415,8 @@ Ammo_Bomb_GBU_10_x2 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
-             (EBaseHitValueModifier/Moving, 50),
+             (EBaseHitValueModifier/Idling, 70),
+             (EBaseHitValueModifier/Moving, 70),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -65505,8 +65505,8 @@ Ammo_Bomb_GBU_12_x1 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
-             (EBaseHitValueModifier/Moving, 50),
+             (EBaseHitValueModifier/Idling, 70),
+             (EBaseHitValueModifier/Moving, 70),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -65595,8 +65595,8 @@ Ammo_Bomb_GBU_12_x2 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
-             (EBaseHitValueModifier/Moving, 50),
+             (EBaseHitValueModifier/Idling, 70),
+             (EBaseHitValueModifier/Moving, 70),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -65685,8 +65685,8 @@ Ammo_Bomb_GBU_27_x1 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
-             (EBaseHitValueModifier/Moving, 50),
+             (EBaseHitValueModifier/Idling, 70),
+             (EBaseHitValueModifier/Moving, 70),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -65774,8 +65774,8 @@ Ammo_Bomb_GBU_27_x2 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 50),
-             (EBaseHitValueModifier/Moving, 50),
+             (EBaseHitValueModifier/Idling, 70),
+             (EBaseHitValueModifier/Moving, 70),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
