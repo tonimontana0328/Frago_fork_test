@@ -24626,12 +24626,12 @@ Ammo_HMG_12_7_mm_M2HB is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
-    DispersionAtMinRange              = ((5) * Metre)
+    DispersionAtMaxRange              = ((9) * Metre)
+    DispersionAtMinRange              = ((4) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.404
+    PhysicalDamages                   = 0.28
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 24.0
@@ -24720,12 +24720,12 @@ Ammo_HMG_12_7_mm_M85 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
-    DispersionAtMinRange              = ((5) * Metre)
+    DispersionAtMaxRange              = ((9) * Metre)
+    DispersionAtMinRange              = ((4) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.404
+    PhysicalDamages                   = 0.28
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 24.0
@@ -24814,12 +24814,12 @@ Ammo_HMG_12_7_mm_NSVT is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
-    DispersionAtMinRange              = ((5) * Metre)
+    DispersionAtMaxRange              = ((9) * Metre)
+    DispersionAtMinRange              = ((4) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.404
+    PhysicalDamages                   = 0.28
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 24.0
@@ -24908,12 +24908,12 @@ Ammo_HMG_12_7_mm_avenger_M3P is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
-    DispersionAtMinRange              = ((5) * Metre)
+    DispersionAtMaxRange              = ((7) * Metre)
+    DispersionAtMinRange              = ((3) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 6 * Metre
-    PhysicalDamages                   = 0.72
+    PhysicalDamages                   = 0.28
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 53 * Metre
     SuppressDamages                   = 24.0
@@ -24937,8 +24937,8 @@ Ammo_HMG_12_7_mm_avenger_M3P is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 35),
-             (EBaseHitValueModifier/Moving, 15),
+             (EBaseHitValueModifier/Idling, 40),
+             (EBaseHitValueModifier/Moving, 20),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -25002,12 +25002,12 @@ Ammo_HMG_14_5_mm_KPVT is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
-    DispersionAtMinRange              = ((5) * Metre)
+    DispersionAtMaxRange              = ((9) * Metre)
+    DispersionAtMinRange              = ((4) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.438
+    PhysicalDamages                   = 0.29
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 28.0
@@ -25096,12 +25096,12 @@ Ammo_HMG_team_12_7_mm_M2HB is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
-    DispersionAtMinRange              = ((5) * Metre)
+    DispersionAtMaxRange              = ((8) * Metre)
+    DispersionAtMinRange              = ((4) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.404
+    PhysicalDamages                   = 0.28
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 24.0
@@ -25190,8 +25190,8 @@ Ammo_HMG_team_12_7_mm_NSV is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
-    DispersionAtMinRange              = ((5) * Metre)
+    DispersionAtMaxRange              = ((8) * Metre)
+    DispersionAtMinRange              = ((4) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
@@ -25284,12 +25284,12 @@ Ammo_HMG_team_14_5_mm_KPVT is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((15) * Metre)
-    DispersionAtMinRange              = ((5) * Metre)
+    DispersionAtMaxRange              = ((8) * Metre)
+    DispersionAtMinRange              = ((4) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
-    PhysicalDamages                   = 0.438
+    PhysicalDamages                   = 0.29
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 20 * Metre
     SuppressDamages                   = 28.0
@@ -72819,7 +72819,7 @@ Ammo_HMG_12_7_mm_avenger_M3P_AP_FRL is TAmmunitionDescriptor
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-         DescriptorId          = GUID:{058d54ad-206e-4337-bdfd-1cd3ba96d9af}
+         DescriptorId          = GUID:{38807db1-9b9b-4d03-a753-427e9afb9a03}
          BaseCriticModifier = 25
          BaseEffectModifier = 0
          BaseHitValueModifiers =
