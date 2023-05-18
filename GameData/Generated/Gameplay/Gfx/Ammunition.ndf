@@ -73442,12 +73442,12 @@ Ammo_AutoCanon_HE_M693_F1_20mm_FAKE_FRL is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.075
     TempsEntreDeuxFx                  = 0.075
-    PorteeMaximale                    = ((4457) * Metre)
+    PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
-    PorteeMaximaleTBA                 = ((4033) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
     PorteeMaximaleHA                  = ((0) * Metre)
-    PorteeMinimale                    = ((100) * Metre)
+    PorteeMinimale                    = ((0) * Metre)
     AltitudeAPorteeMinimale           = ((15.0) * Metre)
     AltitudeAPorteeMaximale           = ((30.0) * Metre)
     AffecteParNombre                  = True
