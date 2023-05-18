@@ -35821,8 +35821,8 @@ Ammo_MMG_team_7_62mm_MG3 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = [ 'MitrailleuseMG3Externe' ]
     FxPower                           = EFXPower/Moyen
-    TempsEntreDeuxTirs                = 0.2
-    TempsEntreDeuxFx                  = 0.2
+    TempsEntreDeuxTirs                = 0.18
+    TempsEntreDeuxFx                  = 0.18
     PorteeMaximale                    = ((3396) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
