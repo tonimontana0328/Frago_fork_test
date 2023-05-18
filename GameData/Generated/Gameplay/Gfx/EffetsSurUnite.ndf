@@ -780,17 +780,17 @@ export UnitEffect_Choc is TEffectsPackDescriptor
         ),
         TBonusWeaponAimtimeEffectDescriptor
         (
-            BonusAimtime = 0.8
+            BonusAimtime = 0.9
         ),
         TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
         (
             ModifierType                     = ~/ModifierType_Pourcentage
-            ModificationTempsEntreDeuxSalves = -20
+            ModificationTempsEntreDeuxSalves = -10
         ),
         TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
         (
             ModifierType                     = ~/ModifierType_Pourcentage
-            ModificationTempsEntreDeuxTirs   = -20
+            ModificationTempsEntreDeuxTirs   = -10
         ),
     ]
 )

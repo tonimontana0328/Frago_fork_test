@@ -1821,7 +1821,9 @@ is TUISpecificUnitInfoPanelViewDescriptor
         ("Infantry",listeAffichageInfoUnit_Infanterie),
 
         ("VehiculeSupplier", listeAffichageInfoUnit_Supply),
-
+		
+        ("Supply_ifv_FRL", listeAffichageInfoUnit_Supply_IFV_FRL),
+		
         ("HelicoDefault", listeAffichageInfoUnit_HelicoDefault),
 
         ("HelicoTransporter", listeAffichageInfoUnit_HelicoTransport),
@@ -1893,7 +1895,13 @@ listeAffichageInfoUnit_Supply is
     "AttributeAmphibious","AttributeSpeed",  "AttributeRoadSpeed",
     "AttributeAdvanceDeployment", "AttributeSupply", "EMPTY_SLOT1",
 ]
-
+listeAffichageInfoUnit_Supply_IFV_FRL is
+[
+    "AttributeMaxDamages","AttributeOptics", "AttributeStealth",
+    "AttributeAmphibious","AttributeSpeed",  "AttributeRoadSpeed",
+    "AttributeAutonomy","AttributeFuel","AttributeAdvanceDeployment",
+    "AttributeTransportSize", "AttributeSupply","EMPTY_SLOT2",
+]
 listeAffichageInfoUnit_Air is
 [
     "AttributeMaxDamages", "AttributeAirOptics", "AttributeECM", ,
