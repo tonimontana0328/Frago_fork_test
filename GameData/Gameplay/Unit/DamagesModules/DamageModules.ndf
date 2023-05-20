@@ -64,7 +64,7 @@ Airplane_SuppressDamagesRegenRatioList is
 ]
 
 // si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
-Airplane_SuppressDamagesRegenRatioOutOfRange is 10
+Airplane_SuppressDamagesRegenRatioOutOfRange is 100
 
 // Points de "stun" récupérés par seconde
 Airplane_StunDamagesRegen is 9999
@@ -74,7 +74,7 @@ Airplane_MaxStunDamages is 9999
 
 Airplane_MaxSuppressionDamages is 500
 
-
+Airplane_ASF_FRL_MaxSuppressionDamages is 1000
 
 // -------------------------------------------------------------------------------------------------
 // Bunker

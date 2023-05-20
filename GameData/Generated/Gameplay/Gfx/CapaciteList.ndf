@@ -1920,8 +1920,8 @@ export Capacite_Choc_FRL_missile_4 is TCapaciteDescriptor
     AreaShape            = ~/CapaciteAreaShape_circulaire
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
-    Radius              = 990.00 * Metre
-    Range               = 990.00 * Metre
+    Radius              = 490.00 * Metre
+    Range               = 490.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.01
@@ -1966,8 +1966,8 @@ export Capacite_Choc_FRL_missile_5 is TCapaciteDescriptor
     AreaShape            = ~/CapaciteAreaShape_circulaire
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
-    Radius              = 990.00 * Metre
-    Range               = 990.00 * Metre
+    Radius              = 590.00 * Metre
+    Range               = 590.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.01
@@ -2012,8 +2012,8 @@ export Capacite_Choc_FRL_missile_6 is TCapaciteDescriptor
     AreaShape            = ~/CapaciteAreaShape_circulaire
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
-    Radius              = 990.00 * Metre
-    Range               = 990.00 * Metre
+    Radius              = 690.00 * Metre
+    Range               = 690.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.01
@@ -2058,8 +2058,8 @@ export Capacite_Choc_FRL_missile_7 is TCapaciteDescriptor
     AreaShape            = ~/CapaciteAreaShape_circulaire
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
-    Radius              = 990.00 * Metre
-    Range               = 990.00 * Metre
+    Radius              = 790.00 * Metre
+    Range               = 790.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.01
@@ -2104,8 +2104,8 @@ export Capacite_Choc_FRL_missile_8 is TCapaciteDescriptor
     AreaShape            = ~/CapaciteAreaShape_circulaire
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
-    Radius              = 990.00 * Metre
-    Range               = 990.00 * Metre
+    Radius              = 890.00 * Metre
+    Range               = 890.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.01
@@ -2182,5 +2182,14 @@ export Capacite_Choc_FRL_missile_9 is TCapaciteDescriptor
         "Air"
     ]
 )//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //

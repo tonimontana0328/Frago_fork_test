@@ -3026,7 +3026,7 @@ export UnitEffect_Choc_FRL_missile_3 is TEffectsPackDescriptor
         TEffectInflictSuppressDamageDescriptor
         (
             ModifierType             = ~/ModifierType_Additionnel
-            SuppressDamageValue      = 100
+            SuppressDamageValue      = 50
         ),
     ]
 )
@@ -3038,7 +3038,7 @@ export UnitEffect_Choc_FRL_missile_4 is TEffectsPackDescriptor
         TEffectInflictSuppressDamageDescriptor
         (
             ModifierType             = ~/ModifierType_Additionnel
-            SuppressDamageValue      = 100
+            SuppressDamageValue      = 50
         ),
     ]
 )
@@ -3050,7 +3050,7 @@ export UnitEffect_Choc_FRL_missile_5 is TEffectsPackDescriptor
         TEffectInflictSuppressDamageDescriptor
         (
             ModifierType             = ~/ModifierType_Additionnel
-            SuppressDamageValue      = 100
+            SuppressDamageValue      = 50
         ),
     ]
 )
@@ -3062,7 +3062,7 @@ export UnitEffect_Choc_FRL_missile_6 is TEffectsPackDescriptor
         TEffectInflictSuppressDamageDescriptor
         (
             ModifierType             = ~/ModifierType_Additionnel
-            SuppressDamageValue      = 100
+            SuppressDamageValue      = 50
         ),
     ]
 )
@@ -3074,7 +3074,7 @@ export UnitEffect_Choc_FRL_missile_7 is TEffectsPackDescriptor
         TEffectInflictSuppressDamageDescriptor
         (
             ModifierType             = ~/ModifierType_Additionnel
-            SuppressDamageValue      = 100
+            SuppressDamageValue      = 50
         ),
     ]
 )
@@ -3086,7 +3086,7 @@ export UnitEffect_Choc_FRL_missile_8 is TEffectsPackDescriptor
         TEffectInflictSuppressDamageDescriptor
         (
             ModifierType             = ~/ModifierType_Additionnel
-            SuppressDamageValue      = 100
+            SuppressDamageValue      = 50
         ),
     ]
 )
@@ -3098,7 +3098,7 @@ export UnitEffect_Choc_FRL_missile_9 is TEffectsPackDescriptor
         TEffectInflictSuppressDamageDescriptor
         (
             ModifierType             = ~/ModifierType_Additionnel
-            SuppressDamageValue      = 100
+            SuppressDamageValue      = 50
         ),
     ]
 )
