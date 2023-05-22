@@ -3102,3 +3102,117 @@ export UnitEffect_Choc_FRL_missile_9 is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_Arty_FRL_1 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{22b2e6ea-759d-4516-b84b-bd41dbff0f75}
+    NameForDebug       = 'Choc'
+    EffectsDescriptors = [
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            BonusAimtime = 1.0
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Pourcentage
+            ModificationTempsEntreDeuxSalves = -10
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Pourcentage
+            ModificationTempsEntreDeuxTirs   = -10
+        ),
+    ]
+)
+export UnitEffect_Arty_FRL_2 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{fb1b3245-d32c-48b0-a04e-38d909ff7199}
+    NameForDebug       = 'Choc'
+    EffectsDescriptors = [
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            BonusAimtime = 0.9
+        ),
+		TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Multiplicatif
+            ModificationTempsEntreDeuxSalves = 0.9
+        ),
+		TUnitEffectIncreaseDispersionDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusDispersion  = -5
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Pourcentage
+            ModificationTempsEntreDeuxSalves = -10
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Pourcentage
+            ModificationTempsEntreDeuxTirs   = -10
+        ),
+    ]
+)
+export UnitEffect_Arty_FRL_3 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{d827449e-5d50-4999-a983-c09a6c5cc627}
+    NameForDebug       = 'Choc'
+    EffectsDescriptors = [
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            BonusAimtime = 0.6
+        ),
+		TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Multiplicatif
+            ModificationTempsEntreDeuxSalves = 0.6
+        ),
+		TUnitEffectIncreaseDispersionDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusDispersion  = -15
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Pourcentage
+            ModificationTempsEntreDeuxSalves = -20
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Pourcentage
+            ModificationTempsEntreDeuxTirs   = -20
+        ),
+    ]
+)
+export UnitEffect_Arty_FRL_4 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{81d7c623-4f0b-4c2e-9bc3-1aa8f39ad819}
+    NameForDebug       = 'Choc'
+    EffectsDescriptors = [
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            BonusAimtime = 0.4
+        ),
+		TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Multiplicatif
+            ModificationTempsEntreDeuxSalves = 0.4
+        ),
+		TUnitEffectIncreaseDispersionDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusDispersion  = -25
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Pourcentage
+            ModificationTempsEntreDeuxSalves = -30
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Pourcentage
+            ModificationTempsEntreDeuxTirs   = -30
+        ),
+    ]
+)
