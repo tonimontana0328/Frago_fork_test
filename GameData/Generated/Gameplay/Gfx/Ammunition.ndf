@@ -52082,7 +52082,7 @@ Ammo_SAW_Bren_L4A4 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((3042) * Metre)
+    PorteeMaximale                    = ((2406) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -52175,7 +52175,7 @@ Ammo_SAW_FALO is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((3042) * Metre)
+    PorteeMaximale                    = ((2406) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -52268,7 +52268,7 @@ Ammo_SAW_HK21_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((3042) * Metre)
+    PorteeMaximale                    = ((2406) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -52361,7 +52361,7 @@ Ammo_SAW_L86A1_5_56mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((3042) * Metre)
+    PorteeMaximale                    = ((2406) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -52454,7 +52454,7 @@ Ammo_SAW_M249_5_56mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((3042) * Metre)
+    PorteeMaximale                    = ((2406) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -52547,7 +52547,7 @@ Ammo_SAW_Minimi_5_56mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((3042) * Metre)
+    PorteeMaximale                    = ((2406) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -52640,7 +52640,7 @@ Ammo_SAW_RPK_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((3042) * Metre)
+    PorteeMaximale                    = ((2406) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -52733,7 +52733,7 @@ Ammo_SAW_RPK_74_5_56mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((3042) * Metre)
+    PorteeMaximale                    = ((2406) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -52826,7 +52826,7 @@ Ammo_SAW_lMG_K_7_62mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 1.0
     TempsEntreDeuxFx                  = 1.0
-    PorteeMaximale                    = ((3042) * Metre)
+    PorteeMaximale                    = ((2406) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
