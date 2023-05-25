@@ -1192,7 +1192,6 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_Reserviste_FR, 1936),
         (Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_LandRover_WOMBAT_UK, 1937),
         (Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_CH47D_Chinook_supply_UK, 1938),
-        (Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Gazelle_CMD_UK, 1939),
         (Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Gazelle_SNEB_UK, 1940),
         (Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_HeimatschutzJager_RFA, 1941),
         (Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Iltis_MILAN_RFA, 1942),
