@@ -6811,19 +6811,19 @@ export Descriptor_Deck_WP_Unternehmen_Zentrum_multi is TDeckDescriptor
         ),
         TDeckPackDescription
         (
-            ExperienceLevel = 1
+            ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MotRifles_HMG_SOV
             Transport = ~/Descriptor_Unit_BMP_1PG_SOV
         ),
         TDeckPackDescription
         (
-            ExperienceLevel = 1
+            ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MotRifles_SOV
             Transport = ~/Descriptor_Unit_BMP_1P_SOV
         ),
         TDeckPackDescription
         (
-            ExperienceLevel = 1
+            ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MFRW_RM70_DDR
         ),
         TDeckPackDescription
@@ -6907,7 +6907,7 @@ export Descriptor_Deck_WP_Unternehmen_Zentrum_multi is TDeckDescriptor
         ),
         TDeckPackDescription
         (
-            ExperienceLevel = 2
+            ExperienceLevel = 3
             DeckPack = ~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MANPAD_Strela_2M_FJ_DDR
             Transport = ~/Descriptor_Unit_UAZ_469_trans_DDR
         ),

@@ -13446,6 +13446,21 @@ Descriptor_OrderAvailability_Gazelle_20mm_reco_FR is [
     "AIAttack",
     "AIStop",
 ]
+Descriptor_OrderAvailability_Gazelle_CMD_UK is [
+    "Stop",
+    "Move",
+    "FollowFormation",
+    "Spread",
+    "Land",
+    "GoUp",
+    "GoDown",
+    "ChangeAltitude",
+    "AskForSupply",
+    "GoGetSupply",
+    "AIDefend",
+    "AIAttack",
+    "AIStop",
+]
 Descriptor_OrderAvailability_Gazelle_HOT_2_FR is [
     "Stop",
     "Move",

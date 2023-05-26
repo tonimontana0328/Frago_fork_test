@@ -41514,6 +41514,71 @@ Descriptor_UnitCadavre_Gazelle_20mm_reco_FR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Gazelle_CMD_UK is TEntityDescriptor
+(
+    DescriptorId       = GUID:{67b000b6-2fe0-4923-99e5-073766f13001}
+    ClassNameForDebug  = 'Unit_CadavreGazelle_CMD_UK'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'UK'
+            AcknowUnitType                   = ~/TAcknowUnitType_HeliAttack
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((300) * Metre)
+                NearGroundFlyingAltitude   = ((50) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = False
+                KillAsHelico = True
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Helico_Leger
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/HelicopterMovement,
+                   $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/HeliApparence,
+                   $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/HelicopterMovement,
+            $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/HeliApparence,
+            $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Gazelle_HOT_2_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{e1b3d2d0-1563-4702-9499-7bc01a40921b}

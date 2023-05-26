@@ -652,6 +652,8 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
         ( ~/Descriptor_Unit_Gazelle_UK, ~/Descriptor_ShowRoomUnit_Gazelle_UK ),
         ( ~/Descriptor_Unit_Gazelle_reco_FR, ~/Descriptor_ShowRoomUnit_Gazelle_reco_FR ),
         ( ~/Descriptor_Unit_Gazelle_trans_UK, ~/Descriptor_ShowRoomUnit_Gazelle_trans_UK ),
+        ( ~/Descriptor_Unit_Gazelle_CMD_UK, ~/Descriptor_ShowRoomUnit_Gazelle_CMD_UK ),
+
         ( ~/Descriptor_Unit_Ka_50_AA_SOV, ~/Descriptor_ShowRoomUnit_Ka_50_AA_SOV ),
         ( ~/Descriptor_Unit_Ka_50_SOV, ~/Descriptor_ShowRoomUnit_Ka_50_SOV ),
         ( ~/Descriptor_Unit_Lynx_AH_Mk1_TOW_UK, ~/Descriptor_ShowRoomUnit_Lynx_AH_Mk1_TOW_UK ),

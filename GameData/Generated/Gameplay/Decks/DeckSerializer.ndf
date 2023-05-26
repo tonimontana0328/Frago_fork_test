@@ -2933,6 +2933,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_Sniper_UK, 1599),
         (Descriptor_Unit_Sniper_US, 1600),
         (Descriptor_Unit_UAZ_469_MP_SOV, 1644),
+        (Descriptor_Unit_Gazelle_CMD_UK, 1670),
         (Descriptor_Unit_FOB_SOV, 1732),
         (Descriptor_Unit_FOB_US, 1733),
         (Descriptor_Unit_FOB_DDR, 1753),

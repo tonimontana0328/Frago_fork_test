@@ -644,6 +644,7 @@ AllUnitsTactic is [
     ~/Descriptor_Unit_Gazelle_20mm_FR,
     ~/Descriptor_Unit_Gazelle_20mm_reco_FR,
     ~/Descriptor_Unit_Gazelle_HOT_2_FR,
+    ~/Descriptor_Unit_Gazelle_CMD_UK,
     ~/Descriptor_Unit_Gazelle_HOT_FR,
     ~/Descriptor_Unit_Gazelle_Mistral_FR,
     ~/Descriptor_Unit_Gazelle_SNEB_UK,
