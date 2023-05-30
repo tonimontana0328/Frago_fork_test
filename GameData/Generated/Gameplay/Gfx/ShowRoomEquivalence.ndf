@@ -732,6 +732,8 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
         ( ~/Descriptor_Unit_F111F_Aardvark_US, ~/Descriptor_ShowRoomUnit_F111F_Aardvark_US ),
         ( ~/Descriptor_Unit_F111F_Aardvark_napalm_US, ~/Descriptor_ShowRoomUnit_F111F_Aardvark_napalm_US ),
         ( ~/Descriptor_Unit_F117_Nighthawk_US, ~/Descriptor_ShowRoomUnit_F117_Nighthawk_US ),
+        ( ~/Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL, ~/Descriptor_ShowRoomUnit_F117_Nighthawk_US ),
+
         ( ~/Descriptor_Unit_F15C_Eagle_AA2_US, ~/Descriptor_ShowRoomUnit_F15C_Eagle_AA2_US ),
         ( ~/Descriptor_Unit_F15C_Eagle_AA_US, ~/Descriptor_ShowRoomUnit_F15C_Eagle_AA_US ),
         ( ~/Descriptor_Unit_F16C_LGB_US, ~/Descriptor_ShowRoomUnit_F16C_LGB_US ),
