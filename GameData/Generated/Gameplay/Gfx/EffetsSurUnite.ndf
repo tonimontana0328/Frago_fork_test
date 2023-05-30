@@ -2841,29 +2841,18 @@ export UnitEffect_electronic_warfare is TEffectsPackDescriptor
         TUnitEffectIncreaseWeaponPrecisionArretDescriptor
         (
             ModifierType                  = ~/ModifierType_Pourcentage
-            BonusWeaponPrecisionArret = -40
+            BonusWeaponPrecisionArret = -30
         ),
         TUnitEffectIncreaseWeaponPrecisionMouvementDescriptor
         (
             ModifierType                  = ~/ModifierType_Pourcentage
-            BonusWeaponPrecisionMouvement = -40
+            BonusWeaponPrecisionMouvement = -30
         ),
         TUnitEffectShowLabelIconDescriptor
         (
             TextureToken         = "icone_gsr"
             CanBeSeenByEnemy         = false
         ),
-        TUnitEffectIncreaseOpticalStrengthDescriptor
-        (
-            ModifierType         = ~/ModifierType_Additionnel
-            BonusOpticalStrength = -40
-        ),
-        TBonusWeaponAimtimeEffectDescriptor
-        (
-            BonusAimtime = 1
-        ),
-        
-
     ]
 )
 export UnitEffect_evac_avion is TEffectsPackDescriptor
