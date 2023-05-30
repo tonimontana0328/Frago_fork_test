@@ -70837,7 +70837,7 @@ Ammo_DCA_2_canon_ZU23_2_23mm_maxrange_FRL is TAmmunitionDescriptor
 Ammo_Gatling_m134_7_62mm_x2_FRL is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{a777e3af-7823-45ab-ae4e-5d27e17b7ef3}
-    Name                              = 'BKKBGGBUOP'
+    Name                              = 'RHRBIPUIMD'
     TypeName                          = 'NA'
     TypeCategoryName                  = 'ZJQCIJREVP'
     Caliber                           = 'BWOITRZMKN'
