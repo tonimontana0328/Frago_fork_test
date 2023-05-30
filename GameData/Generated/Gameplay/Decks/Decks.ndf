@@ -1242,6 +1242,12 @@ export Descriptor_Deck_US_3rd_Arm_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_US_3rd_Arm_multi
     DeckPackList =
     [
+
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 2
@@ -2440,6 +2446,12 @@ export Descriptor_Deck_US_82nd_Airborne_multi is TDeckDescriptor
         TDeckPackDescription
         (
             ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL
+        ),
+
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_EF111_Raven_US_FRL
         ),
         TDeckPackDescription
@@ -2650,7 +2662,11 @@ export Descriptor_Deck_US_8th_Inf_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_US_8th_Inf_multi
     DeckPackList =
     [
-
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 2

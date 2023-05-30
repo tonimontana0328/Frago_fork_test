@@ -24949,3 +24949,15 @@ Descriptor_Deck_Pack_EF111_Raven_US_FRL is TDeckPackDescriptor
         ),
     ]
 )
+Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{07a4797e-7959-48c6-8adb-7c7862efeb48}
+    CfgName = 'Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL
+        ),
+    ]
+)

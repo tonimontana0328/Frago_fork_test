@@ -2427,7 +2427,8 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
     DescriptionHintBodyToken = ''
     DescriptionHintExtendedToken = ''
     PackList = MAP
-    [
+    [        
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_A10_Thunderbolt_II_ATGM_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_A10_Thunderbolt_II_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_AH1F_Cobra_US, 4),
@@ -2521,7 +2522,7 @@ Descriptor_Deck_Division_US_82nd_Airborne_multi is TDeckDivisionDescriptor
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
-
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
 		(~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_A10_Thunderbolt_II_US, 1),
 		(~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_A10_Thunderbolt_II_ATGM_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_A10_Thunderbolt_II_Rkt_US, 1),
@@ -2713,6 +2714,7 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
 [		(~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_A10_Thunderbolt_II_ATGM_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_A10_Thunderbolt_II_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_AH1F_Cobra_US, 4),
