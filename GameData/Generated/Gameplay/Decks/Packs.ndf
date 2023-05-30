@@ -24937,3 +24937,15 @@ Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Su_22_SEAD_DDR is TDeckPac
         ),
     ]
 )
+Descriptor_Deck_Pack_EF111_Raven_US_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1f19cd02-aab4-4e80-9536-88f83cc86847}
+    CfgName = 'Descriptor_Deck_Pack_EF111_Raven_US'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_EF111_Raven_US
+        ),
+    ]
+)

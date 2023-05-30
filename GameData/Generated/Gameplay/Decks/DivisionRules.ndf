@@ -13334,6 +13334,14 @@ private DivisionRules is TDeckDivisionRules
             (
                 UnitRuleList =
                 [
+
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_EF111_Raven_US
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
 					TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_A10_Thunderbolt_II_US
@@ -14350,7 +14358,13 @@ private DivisionRules is TDeckDivisionRules
             TDeckDivisionRule
             (
                 UnitRuleList =
-                [
+[					TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_EF111_Raven_US
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
 					TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_M270_MLRS_cluster_US
