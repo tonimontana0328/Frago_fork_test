@@ -7178,28 +7178,7 @@ Descriptor_OrderAvailability_M1A1_Abrams_US is [
     "AIAttack",
     "AIStop",
 ]
-Descriptor_OrderAvailability_M1A1_Abrams_reco_US is [
-    "Stop",
-    "Move",
-    "FollowFormation",
-    "QuickMove",
-    "Attack",
-    "FastMoveAndAttack",
-    "MoveAndAttack",
-    "Spread",
-    "Reverse",
-    "Shoot",
-    "ShootOnPosition",
-    "ShootOnPositionWithoutCorrection",
-    "ShootDefensiveSmoke",
-    "AskForSupply",
-    "GoGetSupply",
-    "LoadIntoTransport",
-    "Load",
-    "AIDefend",
-    "AIAttack",
-    "AIStop",
-]
+
 Descriptor_OrderAvailability_M1IP_Abrams_CMD_US is [
     "Stop",
     "Move",

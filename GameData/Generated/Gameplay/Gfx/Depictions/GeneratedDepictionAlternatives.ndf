@@ -1246,11 +1246,7 @@ Alternatives_M1A1_Abrams_US is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1A1_Abrams_US_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1A1_Abrams_US_LOW DisabledOperators = [ 'tourelle2', 'tourelle3', 'tourelle4' ] ),
 ]
-Alternatives_M1A1_Abrams_reco_US is [
-    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1A1_Abrams_reco_US ),
-    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1A1_Abrams_reco_US_MID ),
-    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1A1_Abrams_reco_US_LOW DisabledOperators = [ 'tourelle2', 'tourelle3', 'tourelle4' ] ),
-]
+
 Alternatives_M1IP_Abrams_CMD_US is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1IP_Abrams_CMD_US ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1IP_Abrams_CMD_US_MID ),

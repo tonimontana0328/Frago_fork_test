@@ -343,7 +343,6 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
         ( ~/Descriptor_Unit_M1A1HA_Abrams_US, ~/Descriptor_ShowRoomUnit_M1A1HA_Abrams_US ),
         ( ~/Descriptor_Unit_M1A1_Abrams_CMD_US, ~/Descriptor_ShowRoomUnit_M1A1_Abrams_CMD_US ),
         ( ~/Descriptor_Unit_M1A1_Abrams_US, ~/Descriptor_ShowRoomUnit_M1A1_Abrams_US ),
-        ( ~/Descriptor_Unit_M1A1_Abrams_reco_US, ~/Descriptor_ShowRoomUnit_M1A1_Abrams_reco_US ),
         ( ~/Descriptor_Unit_M1IP_Abrams_CMD_US, ~/Descriptor_ShowRoomUnit_M1IP_Abrams_CMD_US ),
         ( ~/Descriptor_Unit_M1IP_Abrams_US, ~/Descriptor_ShowRoomUnit_M1IP_Abrams_US ),
         ( ~/Descriptor_Unit_M1_Abrams_CMD_US, ~/Descriptor_ShowRoomUnit_M1_Abrams_CMD_US ),

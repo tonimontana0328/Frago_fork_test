@@ -1246,11 +1246,7 @@ GhostDepiction_M1A1_Abrams_US is GhostVehicleDepictionTemplate
     Selector = Selector_M1A1_Abrams_US
     Alternatives = Alternatives_M1A1_Abrams_US
 )
-GhostDepiction_M1A1_Abrams_reco_US is GhostVehicleDepictionTemplate
-(
-    Selector = Selector_M1A1_Abrams_reco_US
-    Alternatives = Alternatives_M1A1_Abrams_reco_US
-)
+
 GhostDepiction_M1IP_Abrams_CMD_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M1IP_Abrams_CMD_US

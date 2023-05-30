@@ -1643,11 +1643,7 @@ Gfx_M1A1_Abrams_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Alternatives = Alternatives_M1A1_Abrams_US
     Selector = Selector_M1A1_Abrams_US
 )
-Gfx_M1A1_Abrams_reco_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
-(
-    Alternatives = Alternatives_M1A1_Abrams_reco_US
-    Selector = Selector_M1A1_Abrams_reco_US
-)
+
 Gfx_M1IP_Abrams_CMD_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_M1IP_Abrams_CMD_US
