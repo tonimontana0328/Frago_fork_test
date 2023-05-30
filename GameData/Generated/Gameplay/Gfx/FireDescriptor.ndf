@@ -369,3 +369,49 @@ export Descriptor_Fire_NapalmMoyen_bomb_FRL is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_Fire_Nuke is TEntityDescriptor
+(
+    World              = WorldIndices_Fires
+    DescriptorId       = GUID:{d0433a16-5de1-43e4-9149-a330de06cd01}
+    ClassNameForDebug  = 'Fire_Nuke'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        ~/EmptyTagsModuleDescriptor,
+        TPositionModuleDescriptor
+        (
+            UseFollowCam               = False
+            StickToGround              = True
+            InGeoDb                    = False
+            PorteurMustBeVisible       = True
+            ClampInWorld               = True
+            ClampOutMap                = False
+            RelativeScanningPosition   = [0,0,0]
+            LowAltitudeFlyingAltitude  = ((0) * Metre)
+            NearGroundFlyingAltitude   = ((0) * Metre)
+        ),
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            Depiction  = Template_DescriptorFire_Depiction
+            (
+                 Radius               = 800 * Metre
+                 FX                   = $/GFX/GameFx/fx_binder_fire_Napalm_Leger
+                 Density              = 1
+            )
+            DefaultVisibility  = True
+        ),
+        TFireModuleDescriptor
+        (
+            TimeToLive                     = ((60) * Seconde)
+            TimeBeforeSpreading            = ((1) * Seconde)
+            TimeBeforeSpreadAttempt        = ((1) * Seconde)
+            SpreadProbability              = 1.0
+            IsNewFireProbability           = 0.5
+            Radius                         = ((800) * Metre)
+            AmmunitionForBurn              = Ammo_Degats_napalm_leger
+            TimeBetweenBurns               = ((5) * Seconde)
+            OverridenSpreadDescriptor      = Descriptor_Fire_Incendie
+            SmokeDescriptor                = Descriptor_Smoke_FumiIncendie_bomb_FRL
+        ),
+    ]
+)

@@ -14374,12 +14374,11 @@ private DivisionRules is TDeckDivisionRules
                 UnitRuleList =
 [					TDeckUniteRule
                     (
-                        UnitDescriptor = ~/Descriptor_Unit_F117_Nighthawk_US
+                        UnitDescriptor = ~/Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 1
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
-    
                    TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_EF111_Raven_US

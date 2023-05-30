@@ -73708,8 +73708,8 @@ Ammo_Bomb_GBU_27_x1_nuke_FRL is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{e4f5cace-5f67-47fa-8e23-621b2b81fefc}
     Name                              = 'WWQICVFGFH'
-    TypeName                          = 'NA'
-    TypeCategoryName                  = 'KKZDHFFCTH'
+    TypeName                          = 'SACLOSM'
+    TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'ASGRSVCWQS'
     WeaponDescriptionToken            = 'RDHZLCYGPG'
     TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
@@ -73736,7 +73736,7 @@ Ammo_Bomb_GBU_27_x1_nuke_FRL is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 800 * Metre
     PhysicalDamages                   = 102.4
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 1600 * Metre
+    RadiusSplashSuppressDamages       = 2000 * Metre
     SuppressDamages                   = 800.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
@@ -73784,9 +73784,11 @@ Ammo_Bomb_GBU_27_x1_nuke_FRL is TAmmunitionDescriptor
     AffichageMunitionParSalve         = 1
     MissileTimeBetweenCorrections     = 10.0
     MissileDescriptor                 = ~/Descriptor_Missile_Bomb_GBU_27_x1
-    WeaponForceNote                   = 2
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_GBU_10"
     SmokeDescriptor                   = nil
-    FireDescriptor                    = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Nuke
+    IgnoreInflammabilityConditions    = True
+    FireTriggeringProbability         = 1
     TargetUnitCenter                  = False
     CanHarmAirplanes                  = True
     IsHarmlessForAllies               = False
