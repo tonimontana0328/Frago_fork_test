@@ -20,6 +20,8 @@ Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+
+        (~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_AML_60_FR, 3),
         (~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_AML_90_FR, 2),
         (~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_ATteam_Milan_1_para_FR, 1),
@@ -105,6 +107,7 @@ Descriptor_Deck_Division_FR_5e_Blindee_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_AMX_10_HOT_FR, 2),
         (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_AMX_10_PC_CMD_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_AMX_10_P_VOA_FR, 1),
@@ -190,6 +193,7 @@ Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_81mm_mortar_UK, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_AML_60_Gendarmerie_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_AMX_13_90mm_FR, 1),
@@ -304,6 +308,7 @@ Descriptor_Deck_Division_RDA_4_MSD_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_2K12_KUB_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_2S1_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_2S3_DDR, 2),
@@ -417,6 +422,7 @@ Descriptor_Deck_Division_RDA_7_Panzer_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_2K12_KUB_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_2S1_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_2S3_DDR, 2),
@@ -512,6 +518,7 @@ Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_2S7M_Malka_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_AT_D44_85mm_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_AT_T12_Rapira_DDR, 1),
@@ -706,6 +713,7 @@ Descriptor_Deck_Division_RFA_2_PzGrenadier_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_ATteam_Milan_1_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_ATteam_Milan_2_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_ATteam_Milan_2_para_RFA, 2),
@@ -808,6 +816,7 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_AH64_Apache_emp2_US, 4),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_ATteam_Milan_1_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_ATteam_Milan_2_RFA, 1),
@@ -1075,6 +1084,7 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_AMX_10_RC_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_ATteam_Milan_1_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_ATteam_Milan_2_FR, 1),
@@ -1271,6 +1281,7 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_2S9_Nona_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_AT_D44_85mm_VDV_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_ATteam_RCL_SPG9_VDV_SOV, 1),
@@ -1575,6 +1586,7 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_2K12_KUB_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_2S1_Gvozdika_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_2S3M_Akatsiya_SOV, 2),
@@ -1876,6 +1888,7 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_2K12_KUB_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_2S1_Gvozdika_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_2S3M_Akatsiya_SOV, 2),
@@ -1970,6 +1983,7 @@ Descriptor_Deck_Division_UK_1st_Armoured_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_81mm_mortar_UK, 1),
         (~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_ATteam_Milan_1_UK, 1),
         (~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_ATteam_Milan_2_UK, 1),
@@ -2056,6 +2070,7 @@ Descriptor_Deck_Division_UK_2nd_Infantry_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_81mm_mortar_UK, 3),
         (~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_AT_Group_TA_UK, 2),
         (~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_ATteam_Milan_1_UK, 1),
@@ -2816,6 +2831,7 @@ Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_2K12_KUB_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_2S1_Gvozdika_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_2S3_DDR, 2),

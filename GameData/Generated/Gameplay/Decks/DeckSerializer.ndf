@@ -2953,6 +2953,10 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_Security_DDR, 1938),
         (Descriptor_Unit_VDV_Afgantsy_SOV, 1939),
 		(Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL, 5001),
+		(Descriptor_Unit_Su_24M_SOV_NUKE_FRL, 5002),
+        (Descriptor_Unit_Jaguar_HE_FR_NUKE_FRL, 5003),
+        (Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL, 5004),
+
 
     ]
 )

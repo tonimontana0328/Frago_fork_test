@@ -7,6 +7,12 @@ export Descriptor_Deck_FR_11e_Para_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_FR_11e_Para_multi
     DeckPackList =
     [
+
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 2
@@ -207,6 +213,12 @@ export Descriptor_Deck_UK_1st_Armoured_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_UK_1st_Armoured_multi
     DeckPackList =
     [
+
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 2
@@ -407,6 +419,12 @@ export Descriptor_Deck_RFA_2_PzGrenadier_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_RFA_2_PzGrenadier_multi
     DeckPackList =
     [
+
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 2
@@ -609,6 +627,12 @@ export Descriptor_Deck_UK_2nd_Infantry_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_UK_2nd_Infantry_multi
     DeckPackList =
     [
+
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 2
@@ -820,6 +844,11 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi
     DeckPackList =
     [
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 2
@@ -1037,6 +1066,11 @@ export Descriptor_Deck_SOV_39_Gds_Rifle_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi
     DeckPackList =
     [
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 2
@@ -1447,6 +1481,11 @@ export Descriptor_Deck_RDA_4_MSD_multi is TDeckDescriptor
     [
         TDeckPackDescription
         (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
+        ),
+        TDeckPackDescription
+        (
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_T813_DDR
         ),
@@ -1648,6 +1687,12 @@ export Descriptor_Deck_FR_5e_Blindee_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_FR_5e_Blindee_multi
     DeckPackList =
     [
+
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 2
@@ -1846,6 +1891,12 @@ export Descriptor_Deck_RFA_5_Panzer_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_RFA_5_Panzer_multi
     DeckPackList =
     [
+
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 2
@@ -2041,6 +2092,11 @@ export Descriptor_Deck_RDA_7_Panzer_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_RDA_7_Panzer_multi
     DeckPackList =
     [
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 1
@@ -2241,6 +2297,11 @@ export Descriptor_Deck_SOV_79_Gds_Tank_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_SOV_79_Gds_Tank_multi
     DeckPackList =
     [
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 2
@@ -2875,6 +2936,11 @@ export Descriptor_Deck_NATO_Garnison_Berlin_multi is TDeckDescriptor
         TDeckPackDescription
         (
             ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
+        ),
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VAB_CMD_FR
         ),
         TDeckPackDescription
@@ -3070,6 +3136,11 @@ export Descriptor_Deck_RDA_KdA_Bezirk_Erfurt_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi
     DeckPackList =
     [
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 1
@@ -6573,6 +6644,11 @@ export Descriptor_Deck_RFA_TerrKdo_Sud_multi is TDeckDescriptor
         TDeckPackDescription
         (
             ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
+        ),
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_M577_RFA
         ),
         TDeckPackDescription
@@ -6780,6 +6856,11 @@ export Descriptor_Deck_WP_Unternehmen_Zentrum_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi
     DeckPackList =
     [
+        TDeckPackDescription
+        (
+            ExperienceLevel = 2
+            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
+        ),
         TDeckPackDescription
         (
             ExperienceLevel = 3
