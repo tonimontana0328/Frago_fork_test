@@ -1937,6 +1937,11 @@ Alternatives_Ural_4320_SOV is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Ural_4320_SOV_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_Ural_4320_SOV_LOW ),
 ]
+Alternatives_Ural_4320_trans_SOV is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Ural_4320_trans_SOV ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Ural_4320_trans_SOV_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_Ural_4320_trans_SOV_LOW ),
+]
 Alternatives_VAB_CMD_FR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_VAB_CMD_FR ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_VAB_CMD_FR_MID ),
