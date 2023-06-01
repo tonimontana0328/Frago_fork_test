@@ -407,9 +407,9 @@ export Descriptor_Fire_Nuke is TEntityDescriptor
             TimeBeforeSpreadAttempt        = ((1) * Seconde)
             SpreadProbability              = 1.0
             IsNewFireProbability           = 0.5
-            Radius                         = ((800) * Metre)
+            Radius                         = ((1200) * Metre)
             AmmunitionForBurn              = Ammo_Degats_napalm_leger
-            TimeBetweenBurns               = ((5) * Seconde)
+            TimeBetweenBurns               = ((30) * Seconde)
             OverridenSpreadDescriptor      = Descriptor_Fire_Incendie
             SmokeDescriptor                = Descriptor_Smoke_FumiIncendie_bomb_FRL
         ),
