@@ -374,6 +374,7 @@ export TransactionGenerated is TNDFTransactionFileList
         'GameData:/Gameplay/Gfx/Units/RFA/Vehicule/Unimog_trans_RFA.ndf',
         'GameData:/Gameplay/Gfx/Units/DDR/Vehicule/Ural_4320_DDR.ndf',
         'GameData:/Gameplay/Gfx/Units/SOV/Vehicule/Ural_4320_SOV.ndf',
+        'GameData:/Gameplay/Gfx/Units/SOV/Vehicule/Ural_4320_trans_SOV.ndf',
         'GameData:/Gameplay/Gfx/Units/FR/Vehicule/VAB_CMD_FR.ndf',
         'GameData:/Gameplay/Gfx/Units/FR/Vehicule/VAB_FR.ndf',
         'GameData:/Gameplay/Gfx/Units/FR/Vehicule/VAB_HOT_FR.ndf',

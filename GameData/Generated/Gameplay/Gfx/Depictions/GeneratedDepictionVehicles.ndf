@@ -12495,8 +12495,6 @@ Gfx_M1A1_Abrams_US_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_CriticalFX_Tank
             + Eject_Actions_M1A1_Abrams_US
 )
-
-
 // Dépiction de l'unité M1IP_Abrams_CMD_US
 DepictionOperator_M1IP_Abrams_CMD_US_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -19751,6 +19749,35 @@ Gfx_Ural_4320_SOV_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
+)
+// Dépiction de l'unité Ural_4320_trans_SOV
+Gfx_Ural_4320_trans_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'Ural_4320_trans_SOV'
+    Selector = Selector_Ural_4320_trans_SOV
+    Alternatives = Alternatives_Ural_4320_trans_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        DepictionOperator_MovementSound_SM_Ural,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+        SubDepictionTowedUnit,
+    ]
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator ]
 )
 // Dépiction de l'unité VAB_CMD_FR
 DepictionOperator_VAB_CMD_FR_Weapon1 is DepictionOperator_WeaponContinuousFire

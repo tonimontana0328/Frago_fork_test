@@ -1586,7 +1586,7 @@ export Capacite_electronic_warfare is TCapaciteDescriptor
     NameToken        = "None"
     CumulEffect          = ~/CapaciteCumulEffect_jamais
     Declenchement        = ~/CapaciteDeclenchementType_automatique
-    TypeCible            = ~/CapaciteTypeCible_unite
+    TypeCible               = ~/CapaciteTypeCible_unite
     TargetTeamFilter     = ~/CapaciteTargetFilter_ennemi
     InfluenceMapAlliance = ~/AllianceRelation/vide
     TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
@@ -1598,7 +1598,7 @@ export Capacite_electronic_warfare is TCapaciteDescriptor
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.00
-    Cooldown            = 1.00
+    Cooldown            = 0.1
     CheckVisibility     = False
     AllowReflexDuringCast   = True
     AllowMovementDuringCast = True
@@ -1619,7 +1619,7 @@ export Capacite_electronic_warfare is TCapaciteDescriptor
     TargetMySelf           = True
     FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_anyalliance
     DisplayRangeColor      = RGBA[0,255,255,255]
-    DisplayRangeThickness  = 0.40
+    DisplayRangeThickness  = 0.1
     Price = MAP[]
     TagsCiblePossible = [
         "AA_radar",
@@ -2182,4 +2182,86 @@ export Capacite_Choc_FRL_missile_9 is TCapaciteDescriptor
         "Air"
     ]
 )//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
