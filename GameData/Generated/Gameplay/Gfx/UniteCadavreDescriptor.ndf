@@ -37436,6 +37436,71 @@ Descriptor_UnitCadavre_Ural_4320_SOV is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Ural_4320_trans_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{e30edf60-e9d4-4d39-a9aa-743238859668}
+    ClassNameForDebug  = 'Unit_CadavreUral_4320_trans_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Transport
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = True
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_faible
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/FacingInfos,
+                   $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/Transporter,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/FacingInfos,
+            $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/Transporter,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_VAB_CMD_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{90657013-ca1f-4c08-b835-9eceb1127aae}
