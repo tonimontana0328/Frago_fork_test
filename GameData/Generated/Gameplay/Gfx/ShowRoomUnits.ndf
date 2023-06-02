@@ -39776,3 +39776,163 @@ export Descriptor_ShowRoomUnit_Tornado_IDS_RFA is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_ShowRoomUnit_Tornado_ADV_HE_UK_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{3985a1c4-5d08-45fe-a2a8-c45959daf620}
+    ClassNameForDebug   = "ShowRoomUnit_Tornado_ADV_HE_UK_NUKE_FLR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'UK'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_Tornado_ADV_HE_UK_Showroom_Autogen
+            GameplayBBoxBoneName               = ''
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'BigVehicle'
+            SpawnType = EShowroomSpawnType/Airplane
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_Su_24M_SOV_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{808408d3-391f-48d6-bb82-b6d3f96decec}
+    ClassNameForDebug   = "ShowRoomUnit_Su_24M_SOV_NUKE_FR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_Su_24M_SOV_Showroom_Autogen
+            GameplayBBoxBoneName               = ''
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'VeryBigVehicle'
+            SpawnType = EShowroomSpawnType/Airplane
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_F117_Nighthawk_US_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{1c422e75-cdbb-422b-b45c-a7cf170d20db}
+    ClassNameForDebug   = "ShowRoomUnit_F117_Nighthawk_US_NUKE_FR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_F117_Nighthawk_US_Showroom_Autogen
+            GameplayBBoxBoneName               = ''
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_F117_Nighthawk_US_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'BigVehicle'
+            SpawnType = EShowroomSpawnType/Airplane
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_Jaguar_HE_FR_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{cc61e221-4eac-4e29-b378-a0f46a8465e8}
+    ClassNameForDebug   = "ShowRoomUnit_Jaguar_HE_FR_NUKE_FR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_Jaguar_HE_FR_Showroom_Autogen
+            GameplayBBoxBoneName               = ''
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'BigVehicle'
+            SpawnType = EShowroomSpawnType/Airplane
+        ),
+    ]
+)
