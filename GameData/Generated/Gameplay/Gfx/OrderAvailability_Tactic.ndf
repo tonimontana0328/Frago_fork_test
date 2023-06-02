@@ -12218,6 +12218,24 @@ Descriptor_OrderAvailability_Ural_4320_SOV is [
     "AIStop",
     "AISupply",
 ]
+Descriptor_OrderAvailability_Ural_4320_trans_SOV is [
+    "Stop",
+    "Sell",
+    "Move",
+    "FollowFormation",
+    "QuickMove",
+    "Spread",
+    "Reverse",
+    "AskForSupply",
+    "GoGetSupply",
+    "UnloadFromTransport",
+    "UnloadAtPosition",
+    "UnloadSelf",
+    "LoadIntoTransport",
+    "Load",
+    "LoadUnit",
+    "AIStop",
+]
 Descriptor_OrderAvailability_VAB_CMD_FR is [
     "Stop",
     "Move",
