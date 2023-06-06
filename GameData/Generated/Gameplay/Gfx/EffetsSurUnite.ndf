@@ -1656,7 +1656,7 @@ export UnitEffect_GroundUnit_Cohesion_Low is TEffectsPackDescriptor
         TUnitEffectIncreaseSpeedDescriptor
         (
             ModifierType             = ~/ModifierType_Pourcentage
-            BonusSpeedBaseInPercent  = -50
+            BonusSpeedBaseInPercent  = -35
         ),
         TBonusWeaponAimtimeEffectDescriptor
         (
@@ -1691,7 +1691,7 @@ export UnitEffect_GroundUnit_Cohesion_Mediocre is TEffectsPackDescriptor
         TUnitEffectIncreaseSpeedDescriptor
         (
             ModifierType             = ~/ModifierType_Pourcentage
-            BonusSpeedBaseInPercent  = -25
+            BonusSpeedBaseInPercent  = -20
         ),
         TBonusWeaponAimtimeEffectDescriptor
         (
