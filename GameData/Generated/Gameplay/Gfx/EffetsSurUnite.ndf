@@ -1154,13 +1154,31 @@ export UnitEffect_Critic_Visee_50 is TEffectsPackDescriptor
 )
 export UnitEffect_Critic_Vitesse_50 is TEffectsPackDescriptor
 (
-    DescriptorId       = GUID:{d2e316e9-b884-42ee-aac9-67d478c885ad}
+    DescriptorId       = GUID:{ca302fb2-1bd3-4d92-9978-160bafdf2fb7}
     NameForDebug       = 'Critic_Vitesse_50'
     EffectsDescriptors = [
         TUnitEffectIncreaseSpeedDescriptor
         (
             ModifierType             = ~/ModifierType_Multiplicatif
             BonusSpeedBaseInPercent  = 0.5
+        ),
+        
+    ]
+)
+export UnitEffect_Critic_Vitesse_30 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{d2e316e9-b884-42ee-aac9-67d478c885ad}
+    NameForDebug       = 'Critic_Vitesse_30'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Pourcentage
+            BonusSpeedBaseInPercent  = -30
+        ),
+            TUnitEffectIncreaseChassisRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusChassisRotationSpeed  = -30
         ),
     ]
 )
