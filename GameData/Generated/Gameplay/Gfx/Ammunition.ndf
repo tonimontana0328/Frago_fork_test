@@ -261,7 +261,7 @@ Ammo_AutoCanon_AP_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 2
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = False
     CanShootWhileMoving               = True
@@ -1283,7 +1283,7 @@ Ammo_AutoCanon_AP_M693_F1_20mm is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 2
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = False
     CanShootWhileMoving               = True
@@ -1655,7 +1655,7 @@ Ammo_AutoCanon_HE_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 2
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -2687,7 +2687,7 @@ Ammo_AutoCanon_HE_M693_F1_20mm is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 2
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -40311,7 +40311,7 @@ Ammo_Mortier_Vasilek_82mm is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -40404,7 +40404,7 @@ Ammo_Mortier_Vasilek_82mm_towed is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -40498,7 +40498,7 @@ Ammo_Mortier_Vasilek_indirect_82mm is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -40592,7 +40592,7 @@ Ammo_Mortier_Vasilek_indirect_82mm_towed is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -73404,7 +73404,7 @@ Ammo_AutoCanon_HE_20mm_MK_20_Rh_202_FAKE_FRL is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 2
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -73497,7 +73497,7 @@ Ammo_AutoCanon_HE_M693_F1_20mm_FAKE_FRL is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 2
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -73591,7 +73591,7 @@ Ammo_Mortier_Vasilek_indirect_82mm_smoke_FRL is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -73685,7 +73685,7 @@ Ammo_Mortier_Vasilek_indirect_82mm_towed_smoke_FRL is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False

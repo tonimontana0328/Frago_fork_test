@@ -4138,7 +4138,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Panzergrenadier_IFV_RFA
                         AvailableWithoutTransport = False
-                        AvailableTransportList = [~/Descriptor_Unit_Marder_1A2_MILAN_RFA, ~/Descriptor_Unit_Marder_1A2_RFA, ~/Descriptor_Unit_Marder_1A3_MILAN_RFA, ~/Descriptor_Unit_Marder_1A3_RFA, ~/Descriptor_Unit_Unimog_trans_RFA]
+                        AvailableTransportList = [~/Descriptor_Unit_Marder_1A2_MILAN_RFA, ~/Descriptor_Unit_Marder_1A2_RFA, ~/Descriptor_Unit_Marder_1A3_MILAN_RFA, ~/Descriptor_Unit_Marder_1A3_RFA,Descriptor_Unit_Marder_1A3_MILAN2_RFA_FRL, ~/Descriptor_Unit_Unimog_trans_RFA]
                         NumberOfUnitInPack = 9
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
