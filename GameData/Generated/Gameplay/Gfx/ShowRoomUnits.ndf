@@ -21404,7 +21404,7 @@ export Descriptor_ShowRoomUnit_Panzergrenadier_IFV_RFA is TEntityDescriptor
             (
                 Default        = TInfantrySquadModuleDescriptor
                 (
-                    NbSoldatInGroupeCombat = 5
+                    NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Panzergrenadier_IFV_RFA'
                     WeaponUnitFXKey     = 'Panzergrenadier_IFV_RFA'
@@ -21431,7 +21431,8 @@ export Descriptor_ShowRoomUnit_Panzergrenadier_IFV_RFA is TEntityDescriptor
                                         (1,[0,]),
                                         (2,[0,]),
                                         (3,[0,]),
-                                        (4,[0,2,]),
+                                        (4,[0,]),
+                                        (5,[0,2,]),
                                       ]
         ),
         ~/LinkTeamModuleDescriptor,
