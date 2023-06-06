@@ -61677,7 +61677,7 @@ Ammo_ATGM_9M117_Bastion is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 45),
+             (EBaseHitValueModifier/Idling, 40),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
