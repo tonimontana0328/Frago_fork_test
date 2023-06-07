@@ -32995,7 +32995,7 @@ Ammo_Lance_grenade_AGS17 is TAmmunitionDescriptor
     NbTirParSalves                    = 8
     SupplyCost                        = 8
     NbSalvosShootOnPosition           = 1
-    CanShootOnPosition                = True
+    CanShootOnPosition                = False
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 16
@@ -33086,12 +33086,12 @@ Ammo_Lance_grenade_Mk19_40mm is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 16
+    SupplyCost                        = 8
     NbSalvosShootOnPosition           = 1
-    CanShootOnPosition                = True
+    CanShootOnPosition                = False
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 16
+    AffichageMunitionParSalve         = 8
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_mk19"
     SmokeDescriptor                   = nil
@@ -73886,5 +73886,192 @@ Ammo_Bomb_GBU_27_x1_nuke_PART2_FRL is TAmmunitionDescriptor
     CanHarmAirplanes                  = True
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Lance_grenade_Mk19_40mm_indirectfire_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{d9fc59c7-91d4-420f-bf11-93ade4a6c219}
+    Name                              = 'LSHCZPRPRM'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'DOXFRWXQZK'
+    Caliber                           = 'SSSIABNVRC'
+    WeaponDescriptionToken            = 'DRUUTWCUTU'
+    TraitsToken                       = [ 'STAT', 'HE','IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Mortier
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="he" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    ImpactHappening                   = [ 'LanceGrenadeAGS17' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.18
+    TempsEntreDeuxFx                  = 0.18
+    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((1000) * Metre)
+    AltitudeAPorteeMinimale           = ((300.0) * Metre)
+    AltitudeAPorteeMaximale           = ((15000.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.02
+    DispersionAtMaxRange              = ((0) * Metre)
+    DispersionAtMinRange              = ((0) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 75 * Metre
+    PhysicalDamages                   = 0.4
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 100 * Metre
+    SuppressDamages                   = 60
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 1
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{53fc1d16-d33a-498b-bd14-72616eed0d9f}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 0),
+             (EBaseHitValueModifier/Moving, 0),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    TempsDeVisee                      = 20
+    TempsEntreDeuxSalves              = 10
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 32
+    SupplyCost                        = 32
+    NbSalvosShootOnPosition           = 3
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 32
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_mk19"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 10
+    DistanceForSpeed                      = 7000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Lance_grenade_AGS17_indirectfire_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{4a97e9bf-7227-4917-825b-84c5df5ede78}
+    Name                              = 'HWAVYQVEYD'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'DOXFRWXQZK'
+    Caliber                           = 'ZEOWUWRKVR'
+    WeaponDescriptionToken            = 'DRUUTWCUTU'
+    TraitsToken                       = [ 'STAT', 'HE','IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Mortier
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="he" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    ImpactHappening                   = [ 'LanceGrenadeAGS17' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.18
+    TempsEntreDeuxFx                  = 0.18
+    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((1000) * Metre)
+    AltitudeAPorteeMinimale           = ((300.0) * Metre)
+    AltitudeAPorteeMaximale           = ((15000.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.02
+    DispersionAtMaxRange              = ((0) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 85 * Metre
+    PhysicalDamages                   = 0.3
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 110 * Metre
+    SuppressDamages                   = 45.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 1
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{5d31b5bd-436a-470d-9ae0-c228a39222a9}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 0),
+             (EBaseHitValueModifier/Moving, 0),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    TempsDeVisee                      = 20
+    TempsEntreDeuxSalves              = 10
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 29
+    SupplyCost                        = 29
+    NbSalvosShootOnPosition           = 3
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 29
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_AGS_17"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 10
+    DistanceForSpeed                      = 7000.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
