@@ -4700,7 +4700,7 @@ Ammo_Bomb_GBU_24_x2 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -65287,7 +65287,7 @@ Ammo_Bomb_GBU_10_x1 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -65377,7 +65377,7 @@ Ammo_Bomb_GBU_10_x2 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -65467,7 +65467,7 @@ Ammo_Bomb_GBU_12_x1 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -65557,7 +65557,7 @@ Ammo_Bomb_GBU_12_x2 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -65647,7 +65647,7 @@ Ammo_Bomb_GBU_27_x1 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -66001,7 +66001,7 @@ Ammo_Bomb_KAB_500Kr_x1 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8419) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -66091,7 +66091,7 @@ Ammo_Bomb_KAB_500Kr_x2 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12528) * Metre)
+    PorteeMaximale                    = ((8419) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -73722,7 +73722,7 @@ Ammo_Bomb_GBU_27_x1_nuke_FRL is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -73815,7 +73815,7 @@ Ammo_Bomb_GBU_27_x1_nuke_PART2_FRL is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
