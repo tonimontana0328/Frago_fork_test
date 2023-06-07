@@ -3140,15 +3140,10 @@ export UnitEffect_Arty_FRL_1 is TEffectsPackDescriptor
         (
             BonusAimtime = 1.0
         ),
-        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
-        (
-            ModifierType                     = ~/ModifierType_Pourcentage
-            ModificationTempsEntreDeuxSalves = -10
-        ),
         TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
         (
             ModifierType                     = ~/ModifierType_Pourcentage
-            ModificationTempsEntreDeuxTirs   = -10
+            ModificationTempsEntreDeuxTirs   = -5
         ),
     ]
 )
@@ -3161,20 +3156,10 @@ export UnitEffect_Arty_FRL_2 is TEffectsPackDescriptor
         (
             BonusAimtime = 0.9
         ),
-		TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
-        (
-            ModifierType                     = ~/ModifierType_Multiplicatif
-            ModificationTempsEntreDeuxSalves = 0.9
-        ),
 		TUnitEffectIncreaseDispersionDescriptor
         (
             ModifierType       = ~/ModifierType_Pourcentage
             BonusDispersion  = -5
-        ),
-        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
-        (
-            ModifierType                     = ~/ModifierType_Pourcentage
-            ModificationTempsEntreDeuxSalves = -10
         ),
         TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
         (
@@ -3190,27 +3175,17 @@ export UnitEffect_Arty_FRL_3 is TEffectsPackDescriptor
     EffectsDescriptors = [
         TBonusWeaponAimtimeEffectDescriptor
         (
-            BonusAimtime = 0.6
-        ),
-		TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
-        (
-            ModifierType                     = ~/ModifierType_Multiplicatif
-            ModificationTempsEntreDeuxSalves = 0.6
+            BonusAimtime = 0.8
         ),
 		TUnitEffectIncreaseDispersionDescriptor
         (
             ModifierType       = ~/ModifierType_Pourcentage
             BonusDispersion  = -15
         ),
-        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
-        (
-            ModifierType                     = ~/ModifierType_Pourcentage
-            ModificationTempsEntreDeuxSalves = -20
-        ),
         TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
         (
             ModifierType                     = ~/ModifierType_Pourcentage
-            ModificationTempsEntreDeuxTirs   = -20
+            ModificationTempsEntreDeuxTirs   = -15
         ),
     ]
 )
@@ -3221,27 +3196,17 @@ export UnitEffect_Arty_FRL_4 is TEffectsPackDescriptor
     EffectsDescriptors = [
         TBonusWeaponAimtimeEffectDescriptor
         (
-            BonusAimtime = 0.4
-        ),
-		TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
-        (
-            ModifierType                     = ~/ModifierType_Multiplicatif
-            ModificationTempsEntreDeuxSalves = 0.4
+            BonusAimtime = 0.7
         ),
 		TUnitEffectIncreaseDispersionDescriptor
         (
             ModifierType       = ~/ModifierType_Pourcentage
             BonusDispersion  = -25
         ),
-        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
-        (
-            ModifierType                     = ~/ModifierType_Pourcentage
-            ModificationTempsEntreDeuxSalves = -30
-        ),
         TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
         (
             ModifierType                     = ~/ModifierType_Pourcentage
-            ModificationTempsEntreDeuxTirs   = -30
+            ModificationTempsEntreDeuxTirs   = -20
         ),
     ]
 )
