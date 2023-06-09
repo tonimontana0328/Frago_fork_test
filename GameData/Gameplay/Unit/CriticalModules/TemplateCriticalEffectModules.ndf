@@ -1237,7 +1237,7 @@ PackEffetCritique_VehiculeStandard is
     CriticalEffect_AmmoExplosion(Roll = (4,4)),
     CriticalEffect_FuelExplosion(Roll = (5,5)),
     CriticalEffect_CompReset(Roll = (6,7)),
-    //CriticalEffect_BailedOut(Roll = (7,7)),
+    CriticalEffect_TracksBroken(Roll = (7,7)),
     CriticalEffect_ArmourCracked (Roll = (8,8)),
     CriticalEffect_Spalling (Roll = (9,9)),
     CriticalEffect_TurretStuck(Roll = (11,12)),
@@ -1245,7 +1245,7 @@ PackEffetCritique_VehiculeStandard is
 
     CriticalEffect_EngineDestroyed(Roll = (103,103)),
     //CriticalEffect_TracksBroken(Roll = (110,110)),
-
+	//CriticalEffect_BailedOut(Roll = (7,7)),
 
 ]
 
