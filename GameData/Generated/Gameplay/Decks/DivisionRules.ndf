@@ -3771,7 +3771,7 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_MAN_Kat_6x6_trans_RFA]
                         NumberOfUnitInPack = 2
-                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.3, 0.0]
                     ),
                     TDeckUniteRule
                     (
@@ -5670,7 +5670,7 @@ private DivisionRules is TDeckDivisionRules
                     (
                         UnitDescriptor = ~/Descriptor_Unit_ATteam_Milan_2_FR
                         AvailableWithoutTransport = False
-                        AvailableTransportList = [~/Descriptor_Unit_Super_Puma_FR]
+                        AvailableTransportList = [~/Descriptor_Unit_Super_Puma_FR, ~/Descriptor_Unit_Iltis_trans_RFA]
                         NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
@@ -5726,7 +5726,7 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_MAN_Kat_6x6_trans_RFA]
                         NumberOfUnitInPack = 2
-                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.3, 0.0]
                     ),
                     TDeckUniteRule
                     (

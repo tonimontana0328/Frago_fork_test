@@ -17780,8 +17780,8 @@ Ammo_DCA_1_canon_T20_20mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 5),
-             (EBaseHitValueModifier/Moving, 2),
+             (EBaseHitValueModifier/Idling, 15),
+             (EBaseHitValueModifier/Moving, 5),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -25520,7 +25520,7 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -25803,7 +25803,7 @@ Ammo_Howz_Canon_2A36_SP_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -25993,7 +25993,7 @@ Ammo_Howz_Canon_2A36_towed_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -26183,7 +26183,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 2
+    SupplyCost                        = 160
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -26373,7 +26373,7 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -26656,7 +26656,7 @@ Ammo_Howz_Canon_2A65_SP_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -26846,7 +26846,7 @@ Ammo_Howz_Canon_2A65_towed_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -27036,7 +27036,7 @@ Ammo_Howz_Canon_2B16_NONA_K_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -27319,7 +27319,7 @@ Ammo_Howz_Canon_A19_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -27509,7 +27509,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -27791,7 +27791,7 @@ Ammo_Howz_Canon_D20_towed_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -28076,7 +28076,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -28266,7 +28266,7 @@ Ammo_Howz_Canon_D30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -28548,7 +28548,7 @@ Ammo_Howz_Canon_DANA_SP_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -28738,7 +28738,7 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -28928,7 +28928,7 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -29211,7 +29211,7 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -29306,7 +29306,7 @@ Ammo_Howz_Canon_L13A1__Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -29591,7 +29591,7 @@ Ammo_Howz_Canon_M101_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -29781,7 +29781,7 @@ Ammo_Howz_Canon_M102_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -30064,7 +30064,7 @@ Ammo_Howz_Canon_M103_SP_105mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -30254,7 +30254,7 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 205
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -30537,7 +30537,7 @@ Ammo_Howz_Canon_M114_39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -30820,7 +30820,7 @@ Ammo_Howz_Canon_M114_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -31101,7 +31101,7 @@ Ammo_Howz_Canon_M115_towed_203mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 3
-    SupplyCost                        = 3
+    SupplyCost                        = 220
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -31291,7 +31291,7 @@ Ammo_Howz_Canon_M118_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -31481,7 +31481,7 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -31671,7 +31671,7 @@ Ammo_Howz_Canon_M198_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -31859,7 +31859,7 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 2
+    SupplyCost                        = 220
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -32142,7 +32142,7 @@ Ammo_Howz_Canon_M30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -32332,7 +32332,7 @@ Ammo_Howz_Canon_M46_Howitzer_130mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 100
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -32522,7 +32522,7 @@ Ammo_Howz_Canon_M50_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -32712,7 +32712,7 @@ Ammo_Howz_Canon_TRF1_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -32901,7 +32901,7 @@ Ammo_Howz_Canon_ZiS3_Howitzer_76mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 90
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -37402,7 +37402,7 @@ Ammo_Mortier_2S12_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -37777,7 +37777,7 @@ Ammo_Mortier_81mm_61C_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -37871,7 +37871,7 @@ Ammo_Mortier_81mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -37965,7 +37965,7 @@ Ammo_Mortier_81mm_SMOKE_TOWED is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -38247,7 +38247,7 @@ Ammo_Mortier_81mm_towed_61C_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -38435,7 +38435,7 @@ Ammo_Mortier_L16_82mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -38623,7 +38623,7 @@ Ammo_Mortier_M29_81mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -38811,7 +38811,7 @@ Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 50
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -38904,7 +38904,7 @@ Ammo_Mortier_M40_towed_107mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 50
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -39185,7 +39185,7 @@ Ammo_Mortier_M43_160mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -39466,7 +39466,7 @@ Ammo_Mortier_PM43_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -39654,7 +39654,7 @@ Ammo_Mortier_RT61_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -39842,7 +39842,7 @@ Ammo_Mortier_RT61_towed_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -40030,7 +40030,7 @@ Ammo_Mortier_Tampella_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -40218,7 +40218,7 @@ Ammo_Mortier_Tampella_towed_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -58964,7 +58964,7 @@ Ammo_AGM_AGM88_HARM is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 2.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((16980) * Metre)
+    PorteeMaximale                    = ((14999) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -59144,7 +59144,7 @@ Ammo_AGM_ALARM is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 2.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((16980) * Metre)
+    PorteeMaximale                    = ((14999) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -60840,7 +60840,7 @@ Ammo_AGM_Kh58U is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 2.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((16980) * Metre)
+    PorteeMaximale                    = ((14999) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
