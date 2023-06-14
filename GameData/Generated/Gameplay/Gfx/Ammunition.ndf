@@ -3,9 +3,9 @@ Ammo_Grenade_Satchel_Charge_NUKE_FRL is TAmmunitionDescriptor
     DescriptorId                      = GUID:{b8c3eb79-71dc-44f3-b5c3-f47c21b4f208}
     Name                              = 'WWQICVFGFH'
     TypeName                          = 'NA'
-    TypeCategoryName                  = 'QOYCTTAUEL'
+    TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'ASGRSVCWQS'
-    WeaponDescriptionToken            = 'RDHZLCYGPG'
+    WeaponDescriptionToken            = 'LZZCUILBCY'
     TraitsToken                       = [ 'STAT', 'HE', 'CAC', ]
     WeaponCursorType                  = Weapon_Cursor_None
     MinMaxCategory                    = MinMax_Grenade
@@ -80,7 +80,7 @@ Ammo_Grenade_Satchel_Charge_NUKE_FRL is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     MissileDescriptor                 = nil
-    InterfaceWeaponTexture            = "Texture_Interface_Weapon_m185"
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_satchel"
     SmokeDescriptor                   = nil
     FireDescriptor                    = ~/Descriptor_Fire_Nuke
     IgnoreInflammabilityConditions    = True
@@ -92,7 +92,7 @@ Ammo_Grenade_Satchel_Charge_NUKE_FRL is TAmmunitionDescriptor
     FlightTimeForSpeed                    = 20
     DistanceForSpeed                      = 2000.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
-)// Ne pas éditer, ce fichier est auto-généré !
+)// Ne pas ï¿½diter, ce fichier est auto-gï¿½nï¿½rï¿½ !
 
 
 Ammo_AutoCanon_AP_20mm_M621_GIAT is TAmmunitionDescriptor
