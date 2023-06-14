@@ -1,4 +1,98 @@
-// Ne pas Ã©diter, ce fichier est auto-gÃ©nÃ©rÃ© !
+Ammo_Grenade_Satchel_Charge_NUKE_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{b8c3eb79-71dc-44f3-b5c3-f47c21b4f208}
+    Name                              = 'WWQICVFGFH'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'QOYCTTAUEL'
+    Caliber                           = 'ASGRSVCWQS'
+    WeaponDescriptionToken            = 'RDHZLCYGPG'
+    TraitsToken                       = [ 'STAT', 'HE', 'CAC', ]
+    WeaponCursorType                  = Weapon_Cursor_None
+    MinMaxCategory                    = MinMax_Grenade
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="howz_bombe" Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    //IsGrenade                    = true
+    ImpactHappening                   = [ 'ArtillerieM185155MmNUKE' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 2.0
+    TempsEntreDeuxFx                  = 2.0
+    PorteeMaximale                    = ((600) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((0) * Metre)
+    AltitudeAPorteeMinimale           = ((0.1) * Metre)
+    AltitudeAPorteeMaximale           = ((60.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((10) * Metre)
+    DispersionAtMinRange              = ((5) * Metre)
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 1500 * Metre
+    PhysicalDamages                   = 50
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 4000 * Metre
+    SuppressDamages                   = 800
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 5
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{1a3844e1-f9fb-447f-8c50-0123bdda7723}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 40),
+             (EBaseHitValueModifier/Moving, 25),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    TempsDeVisee                      = 15
+    TempsEntreDeuxSalves              = 4.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 1
+    SupplyCost                        = 1
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 1
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_m185"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Nuke
+    IgnoreInflammabilityConditions    = True
+    FireTriggeringProbability         = 1
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = False
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = True
+    FlightTimeForSpeed                    = 20
+    DistanceForSpeed                      = 2000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)// Ne pas éditer, ce fichier est auto-généré !
 
 
 Ammo_AutoCanon_AP_20mm_M621_GIAT is TAmmunitionDescriptor
@@ -233,7 +327,7 @@ Ammo_AutoCanon_AP_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 10
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -261,7 +355,7 @@ Ammo_AutoCanon_AP_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 5
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = False
     CanShootWhileMoving               = True
@@ -1255,7 +1349,7 @@ Ammo_AutoCanon_AP_M693_F1_20mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 10
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -1283,7 +1377,7 @@ Ammo_AutoCanon_AP_M693_F1_20mm is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 5
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = False
     CanShootWhileMoving               = True
@@ -1627,7 +1721,7 @@ Ammo_AutoCanon_HE_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 10
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -1655,7 +1749,7 @@ Ammo_AutoCanon_HE_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 5
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -2659,7 +2753,7 @@ Ammo_AutoCanon_HE_M693_F1_20mm is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 10
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -2687,7 +2781,7 @@ Ammo_AutoCanon_HE_M693_F1_20mm is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 5
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -4700,7 +4794,7 @@ Ammo_Bomb_GBU_24_x2 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -17780,8 +17874,8 @@ Ammo_DCA_1_canon_T20_20mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 5),
-             (EBaseHitValueModifier/Moving, 2),
+             (EBaseHitValueModifier/Idling, 15),
+             (EBaseHitValueModifier/Moving, 5),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -25520,7 +25614,7 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -25803,7 +25897,7 @@ Ammo_Howz_Canon_2A36_SP_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -25993,7 +26087,7 @@ Ammo_Howz_Canon_2A36_towed_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -26183,7 +26277,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 2
+    SupplyCost                        = 160
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -26373,7 +26467,7 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -26656,7 +26750,7 @@ Ammo_Howz_Canon_2A65_SP_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -26846,7 +26940,7 @@ Ammo_Howz_Canon_2A65_towed_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -27036,7 +27130,7 @@ Ammo_Howz_Canon_2B16_NONA_K_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -27319,7 +27413,7 @@ Ammo_Howz_Canon_A19_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -27509,7 +27603,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -27791,7 +27885,7 @@ Ammo_Howz_Canon_D20_towed_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -28076,7 +28170,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -28266,7 +28360,7 @@ Ammo_Howz_Canon_D30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -28548,7 +28642,7 @@ Ammo_Howz_Canon_DANA_SP_152mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -28738,7 +28832,7 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -28928,7 +29022,7 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -29211,7 +29305,7 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -29306,7 +29400,7 @@ Ammo_Howz_Canon_L13A1__Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -29591,7 +29685,7 @@ Ammo_Howz_Canon_M101_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -29781,7 +29875,7 @@ Ammo_Howz_Canon_M102_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -30064,7 +30158,7 @@ Ammo_Howz_Canon_M103_SP_105mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -30254,7 +30348,7 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 205
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -30537,7 +30631,7 @@ Ammo_Howz_Canon_M114_39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -30820,7 +30914,7 @@ Ammo_Howz_Canon_M114_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -31101,7 +31195,7 @@ Ammo_Howz_Canon_M115_towed_203mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 3
-    SupplyCost                        = 3
+    SupplyCost                        = 220
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -31291,7 +31385,7 @@ Ammo_Howz_Canon_M118_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -31481,7 +31575,7 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -31671,7 +31765,7 @@ Ammo_Howz_Canon_M198_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -31859,7 +31953,7 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 2
+    SupplyCost                        = 220
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -32142,7 +32236,7 @@ Ammo_Howz_Canon_M30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -32332,7 +32426,7 @@ Ammo_Howz_Canon_M46_Howitzer_130mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 100
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -32522,7 +32616,7 @@ Ammo_Howz_Canon_M50_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -32712,7 +32806,7 @@ Ammo_Howz_Canon_TRF1_155mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -32901,7 +32995,7 @@ Ammo_Howz_Canon_ZiS3_Howitzer_76mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
-    SupplyCost                        = 6
+    SupplyCost                        = 90
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -32993,9 +33087,9 @@ Ammo_Lance_grenade_AGS17 is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 8
+    SupplyCost                        = 24
     NbSalvosShootOnPosition           = 1
-    CanShootOnPosition                = True
+    CanShootOnPosition                = False
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 16
@@ -33086,12 +33180,12 @@ Ammo_Lance_grenade_Mk19_40mm is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 16
+    SupplyCost                        = 24
     NbSalvosShootOnPosition           = 1
-    CanShootOnPosition                = True
+    CanShootOnPosition                = False
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 16
+    AffichageMunitionParSalve         = 8
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_mk19"
     SmokeDescriptor                   = nil
@@ -37402,7 +37496,7 @@ Ammo_Mortier_2S12_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -37777,7 +37871,7 @@ Ammo_Mortier_81mm_61C_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -37871,7 +37965,7 @@ Ammo_Mortier_81mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -37965,7 +38059,7 @@ Ammo_Mortier_81mm_SMOKE_TOWED is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -38247,7 +38341,7 @@ Ammo_Mortier_81mm_towed_61C_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -38435,7 +38529,7 @@ Ammo_Mortier_L16_82mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -38623,7 +38717,7 @@ Ammo_Mortier_M29_81mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 40
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -38811,7 +38905,7 @@ Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 50
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -38904,7 +38998,7 @@ Ammo_Mortier_M40_towed_107mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 5
-    SupplyCost                        = 5
+    SupplyCost                        = 50
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -39185,7 +39279,7 @@ Ammo_Mortier_M43_160mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -39466,7 +39560,7 @@ Ammo_Mortier_PM43_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -39654,7 +39748,7 @@ Ammo_Mortier_RT61_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -39842,7 +39936,7 @@ Ammo_Mortier_RT61_towed_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -40030,7 +40124,7 @@ Ammo_Mortier_Tampella_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -40218,7 +40312,7 @@ Ammo_Mortier_Tampella_towed_120mm_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 4
+    SupplyCost                        = 48
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -40311,7 +40405,7 @@ Ammo_Mortier_Vasilek_82mm is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -40404,7 +40498,7 @@ Ammo_Mortier_Vasilek_82mm_towed is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -40498,7 +40592,7 @@ Ammo_Mortier_Vasilek_indirect_82mm is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -40592,7 +40686,7 @@ Ammo_Mortier_Vasilek_indirect_82mm_towed is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -48240,7 +48334,7 @@ Ammo_RocketAvion_S13_122mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{ee9f29e7-9115-41ff-a162-771bbc85c1bf}
          BaseCriticModifier = 25
-         BaseEffectModifier = 0
+         BaseEffectModifier = 140
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -48429,7 +48523,7 @@ Ammo_RocketInf_APILAS is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{a29eb63a-8c6b-4b34-a053-f4a0e618341e}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -48521,7 +48615,7 @@ Ammo_RocketInf_AT4_83mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{57768644-7e87-44ef-a8d0-4611bc442700}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -48613,7 +48707,7 @@ Ammo_RocketInf_Armbrust is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{dce9e3ae-8c14-48ef-b8b2-630451e0a326}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -48705,7 +48799,7 @@ Ammo_RocketInf_Blindicide_RL_100 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{0514ab8d-7231-4b39-a33c-c5299709188e}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -48796,7 +48890,7 @@ Ammo_RocketInf_Blindicide_RL_83 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{7221fae6-e7f1-4d8c-9635-b946c6c26354}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -48887,7 +48981,7 @@ Ammo_RocketInf_Carl_Gustav is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{3dd0e744-dd67-458f-bffd-c97825bdc3f8}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -49073,7 +49167,7 @@ Ammo_RocketInf_LAW_80 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{689c1807-1451-42db-8cd4-fbb46b46fd8c}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -49165,7 +49259,7 @@ Ammo_RocketInf_LRAC_F1 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{57f5635b-d32b-4f4e-9162-88d997c073d5}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -49257,7 +49351,7 @@ Ammo_RocketInf_M20_SuperBaz is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{2c330be7-b69e-439b-8bad-86a9067c71e4}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -49442,7 +49536,7 @@ Ammo_RocketInf_M40A1_RCL_106mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{f93573a5-624e-493e-96df-81e37d68d00d}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -49811,7 +49905,7 @@ Ammo_RocketInf_M67_RCL_90mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{bf611cda-84cf-468d-9517-d7fc613fc1cc}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -49996,11 +50090,11 @@ Ammo_RocketInf_M72_LAW_66mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{b6d92112-4ad2-4cb6-ab44-e4e5e74da917}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 45),
+             (EBaseHitValueModifier/Idling, 40),
              (EBaseHitValueModifier/Moving, 0),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
@@ -50088,7 +50182,7 @@ Ammo_RocketInf_PzF_3 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{c5785902-72bc-415b-981f-96ad49eb72ea}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50180,7 +50274,7 @@ Ammo_RocketInf_PzF_44 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{f53426cc-b355-4724-a9e2-86aee498a6ed}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50272,7 +50366,7 @@ Ammo_RocketInf_RPG16 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{a708eca7-6d31-48d0-bab6-b317f86d8033}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50363,7 +50457,7 @@ Ammo_RocketInf_RPG18_64mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{7c843a44-46f3-4e2e-9dce-7a6291bd9151}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50455,7 +50549,7 @@ Ammo_RocketInf_RPG2 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{c77db438-f269-49ec-97de-5113eacad57d}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50547,7 +50641,7 @@ Ammo_RocketInf_RPG22_72_5mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{3f8def75-d824-4c54-b874-f5cef801af8c}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50639,7 +50733,7 @@ Ammo_RocketInf_RPG26_72_5mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{4a24e9bd-edd6-4069-bdaa-583cacb3fa2f}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50731,7 +50825,7 @@ Ammo_RocketInf_RPG27_105mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{55dee2f4-f556-4e16-a5b3-da9be452daf4}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -50823,7 +50917,7 @@ Ammo_RocketInf_RPG29_105mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{31366f4a-e9ae-4c77-bceb-11b4f6d35921}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51009,7 +51103,7 @@ Ammo_RocketInf_RPG7 is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{fa4e94f7-05c3-486b-a40a-6db6f2447b41}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51101,7 +51195,7 @@ Ammo_RocketInf_RPG76_Komar is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{0103ebb7-73a7-461a-aa98-821887cd82b6}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51192,7 +51286,7 @@ Ammo_RocketInf_RPG7V_85mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{c3fd76aa-dcda-4e45-b29a-f03286b780ae}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51284,7 +51378,7 @@ Ammo_RocketInf_RPG7VL is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{94cc467f-2224-4bd8-90fb-f48175673005}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51376,7 +51470,7 @@ Ammo_RocketInf_RPG7VR_105mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{afaeb0b0-54f2-43a0-9a48-8161cadda58a}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51468,7 +51562,7 @@ Ammo_RocketInf_RPG7VR_64mm is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{4d8e01f2-90f5-4771-9c67-cf83518cd576}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -51560,7 +51654,7 @@ Ammo_RocketInf_RPO_RYS is TAmmunitionDescriptor
     (
          DescriptorId          = GUID:{9fa37648-ccf5-4410-a470-439916e08e79}
          BaseCriticModifier = 0
-         BaseEffectModifier = 0
+         BaseEffectModifier = -185
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
@@ -58964,7 +59058,7 @@ Ammo_AGM_AGM88_HARM is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 2.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((16980) * Metre)
+    PorteeMaximale                    = ((14999) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -59144,7 +59238,7 @@ Ammo_AGM_ALARM is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 2.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((16980) * Metre)
+    PorteeMaximale                    = ((14999) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -60840,7 +60934,7 @@ Ammo_AGM_Kh58U is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 2.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((16980) * Metre)
+    PorteeMaximale                    = ((14999) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -65287,7 +65381,7 @@ Ammo_Bomb_GBU_10_x1 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -65377,7 +65471,7 @@ Ammo_Bomb_GBU_10_x2 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -65467,7 +65561,7 @@ Ammo_Bomb_GBU_12_x1 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -65557,7 +65651,7 @@ Ammo_Bomb_GBU_12_x2 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -65647,7 +65741,7 @@ Ammo_Bomb_GBU_27_x1 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -66001,7 +66095,7 @@ Ammo_Bomb_KAB_500Kr_x1 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8419) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -66091,7 +66185,7 @@ Ammo_Bomb_KAB_500Kr_x2 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12528) * Metre)
+    PorteeMaximale                    = ((8419) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -73376,7 +73470,7 @@ Ammo_AutoCanon_HE_20mm_MK_20_Rh_202_FAKE_FRL is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 10
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73404,7 +73498,7 @@ Ammo_AutoCanon_HE_20mm_MK_20_Rh_202_FAKE_FRL is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 5
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -73469,7 +73563,7 @@ Ammo_AutoCanon_HE_M693_F1_20mm_FAKE_FRL is TAmmunitionDescriptor
     FX_tir_sans_physic                = False
     FX_frottement                     = 0.0
     NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 5
+    ShotsBeforeMaxNoise               = 10
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -73497,7 +73591,7 @@ Ammo_AutoCanon_HE_M693_F1_20mm_FAKE_FRL is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 10
-    SupplyCost                        = 5
+    SupplyCost                        = 10
     NbSalvosShootOnPosition           = 3
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -73591,7 +73685,7 @@ Ammo_Mortier_Vasilek_indirect_82mm_smoke_FRL is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -73685,7 +73779,7 @@ Ammo_Mortier_Vasilek_indirect_82mm_towed_smoke_FRL is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 32
+    SupplyCost                        = 16
     NbSalvosShootOnPosition           = 2
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -73722,7 +73816,7 @@ Ammo_Bomb_GBU_27_x1_nuke_FRL is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -73815,7 +73909,7 @@ Ammo_Bomb_GBU_27_x1_nuke_PART2_FRL is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 0.1
     TempsEntreDeuxFx                  = 0.1
-    PorteeMaximale                    = ((12028) * Metre)
+    PorteeMaximale                    = ((8985) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -73886,5 +73980,192 @@ Ammo_Bomb_GBU_27_x1_nuke_PART2_FRL is TAmmunitionDescriptor
     CanHarmAirplanes                  = True
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Lance_grenade_Mk19_40mm_indirectfire_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{d9fc59c7-91d4-420f-bf11-93ade4a6c219}
+    Name                              = 'LSHCZPRPRM'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'DOXFRWXQZK'
+    Caliber                           = 'SSSIABNVRC'
+    WeaponDescriptionToken            = 'DRUUTWCUTU'
+    TraitsToken                       = [ 'STAT', 'HE','IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Mortier
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="he" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    ImpactHappening                   = [ 'LanceGrenadeAGS17' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.18
+    TempsEntreDeuxFx                  = 0.18
+    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((1000) * Metre)
+    AltitudeAPorteeMinimale           = ((300.0) * Metre)
+    AltitudeAPorteeMaximale           = ((15000.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.02
+    DispersionAtMaxRange              = ((0) * Metre)
+    DispersionAtMinRange              = ((0) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 75 * Metre
+    PhysicalDamages                   = 0.4
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 100 * Metre
+    SuppressDamages                   = 60
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 1
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{53fc1d16-d33a-498b-bd14-72616eed0d9f}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 0),
+             (EBaseHitValueModifier/Moving, 0),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    TempsDeVisee                      = 20
+    TempsEntreDeuxSalves              = 10
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 32
+    SupplyCost                        = 96
+    NbSalvosShootOnPosition           = 3
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 32
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_mk19"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 10
+    DistanceForSpeed                      = 7000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Lance_grenade_AGS17_indirectfire_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{4a97e9bf-7227-4917-825b-84c5df5ede78}
+    Name                              = 'HWAVYQVEYD'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'DOXFRWXQZK'
+    Caliber                           = 'ZEOWUWRKVR'
+    WeaponDescriptionToken            = 'DRUUTWCUTU'
+    TraitsToken                       = [ 'STAT', 'HE','IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Mortier
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="he" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    ImpactHappening                   = [ 'LanceGrenadeAGS17' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.18
+    TempsEntreDeuxFx                  = 0.18
+    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((1000) * Metre)
+    AltitudeAPorteeMinimale           = ((300.0) * Metre)
+    AltitudeAPorteeMaximale           = ((15000.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.02
+    DispersionAtMaxRange              = ((0) * Metre)
+    DispersionWithoutSorting          = True
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 85 * Metre
+    PhysicalDamages                   = 0.3
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 110 * Metre
+    SuppressDamages                   = 45.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 1
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{5d31b5bd-436a-470d-9ae0-c228a39222a9}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 0),
+             (EBaseHitValueModifier/Moving, 0),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    TempsDeVisee                      = 20
+    TempsEntreDeuxSalves              = 10
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 29
+    SupplyCost                        = 87
+    NbSalvosShootOnPosition           = 3
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 29
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_AGS_17"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 10
+    DistanceForSpeed                      = 7000.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )

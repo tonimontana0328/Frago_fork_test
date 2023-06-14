@@ -218,7 +218,7 @@ export Descriptor_Fire_NapalmLeger is TEntityDescriptor
         ),
         TFireModuleDescriptor
         (
-            TimeToLive                     = ((60) * Seconde)
+            TimeToLive                     = ((30) * Seconde)
             TimeBeforeSpreading            = ((1) * Seconde)
             TimeBeforeSpreadAttempt        = ((1) * Seconde)
             SpreadProbability              = 1.0

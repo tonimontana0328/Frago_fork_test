@@ -1,6 +1,3 @@
-// Ne pas éditer, ce fichier est auto-généré !
-
-
 Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_AML_60_FR is TDeckPackDescriptor
 (
     DescriptorId = GUID:{9a620b53-6a5f-424b-9839-d136953cde3e}
@@ -11005,6 +11002,18 @@ Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_25BM_SOV is TDeckPackDesc
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_31M_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{23e71a11-97d4-4e37-bcba-b003bcf47c64}
+    CfgName = 'TOE_SOV_35_AirAslt_Brig_multi_MiG_31M_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_31M_SOV
+        ),
+    ]
+)
 Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_25RBF_SOV is TDeckPackDescriptor
 (
     DescriptorId = GUID:{8c4f1494-f79a-478a-96f3-ddeac99847a6}
@@ -16222,6 +16231,18 @@ Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MiG_27M_sead_SOV is TDeckPackDesc
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_MiG_27M_sead_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MiG_29_AA_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{040d1856-f989-49c5-85a6-27f40a2fca10}
+    CfgName = 'TOE_SOV_79_Gds_Tank_multi_MiG_29_AA_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MiG_29_AA_SOV
         ),
     ]
 )
@@ -24961,7 +24982,6 @@ Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL is TDeckPackDescriptor
         ),
     ]
 )
-
 Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL is TDeckPackDescriptor
 (
     DescriptorId = GUID:{7b566b35-6551-4460-818e-a0b72d738220}
@@ -24974,7 +24994,6 @@ Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL is TDeckPackDescriptor
         ),
     ]
 )
-
 Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL is TDeckPackDescriptor
 (
     DescriptorId = GUID:{9d228f49-519c-4334-a89b-51b1a7cc2a8e}
@@ -24987,7 +25006,6 @@ Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL is TDeckPackDescriptor
         ),
     ]
 )
-
 Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL is TDeckPackDescriptor
 (
     DescriptorId = GUID:{07365209-d0cb-4c49-9527-432d802fff24}
@@ -24997,6 +25015,30 @@ Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL is TDeckPackDescriptor
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{85d5231c-6dae-488e-a7bf-1c61db2885e3}
+    CfgName = 'Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3491a2ae-ff8c-489c-9651-a77d3fa984c7}
+    CfgName = 'Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL
         ),
     ]
 )

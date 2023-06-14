@@ -1,4 +1,314 @@
-// Ne pas Ã©diter, ce fichier est auto-gÃ©nÃ©rÃ© !
+export Descriptor_ShowRoomUnit_Tornado_ADV_HE_UK_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{3985a1c4-5d08-45fe-a2a8-c45959daf620}
+    ClassNameForDebug   = "ShowRoomUnit_Tornado_ADV_HE_UK_NUKE_FLR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'UK'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_Tornado_ADV_HE_UK_Showroom_Autogen
+            GameplayBBoxBoneName               = ''
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'BigVehicle'
+            SpawnType = EShowroomSpawnType/Airplane
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_Su_24M_SOV_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{808408d3-391f-48d6-bb82-b6d3f96decec}
+    ClassNameForDebug   = "ShowRoomUnit_Su_24M_SOV_NUKE_FR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_Su_24M_SOV_Showroom_Autogen
+            GameplayBBoxBoneName               = ''
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'VeryBigVehicle'
+            SpawnType = EShowroomSpawnType/Airplane
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_F117_Nighthawk_US_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{1c422e75-cdbb-422b-b45c-a7cf170d20db}
+    ClassNameForDebug   = "ShowRoomUnit_F117_Nighthawk_US_NUKE_FR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_F117_Nighthawk_US_Showroom_Autogen
+            GameplayBBoxBoneName               = ''
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_F117_Nighthawk_US_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'BigVehicle'
+            SpawnType = EShowroomSpawnType/Airplane
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_Jaguar_HE_FR_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{cc61e221-4eac-4e29-b378-a0f46a8465e8}
+    ClassNameForDebug   = "ShowRoomUnit_Jaguar_HE_FR_NUKE_FR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_Jaguar_HE_FR_Showroom_Autogen
+            GameplayBBoxBoneName               = ''
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'BigVehicle'
+            SpawnType = EShowroomSpawnType/Airplane
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_Scout_LRRP_SOV_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{3870523c-9394-4e54-bcb2-6c35c041576a}
+    ClassNameForDebug   = "ShowRoomUnit_Scout_LRRP_SOV_NUKE_FRL"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = ~/InfantryDepictionSquadShowroom
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_Scout_LRRP_SOV_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 6
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'Scout_LRRP_SOV'
+                    WeaponUnitFXKey     = 'Scout_LRRP_SOV'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 8 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierLineDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[1,]),
+                                        (1,[0,]),
+                                        (2,[0,]),
+                                        (3,[0,]),
+                                        (4,[0,]),
+                                        (5,[0,2,]),
+                                      ]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_SF
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Inf'
+            SpawnType = EShowroomSpawnType/Infantry
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_GreenBerets_MP5_US_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{18aa7ca3-f1e9-4332-8068-3b93a44eab88}
+    ClassNameForDebug   = "ShowRoomUnit_GreenBerets_MP5_US_NUKE_FRL"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject       = False
+            Depiction            = ~/InfantryDepictionSquadShowroom
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_GreenBerets_MP5_US_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 6
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'GreenBerets_MP5_US'
+                    WeaponUnitFXKey     = 'GreenBerets_MP5_US'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 8 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierLineDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[0,]),
+                                        (1,[0,]),
+                                        (2,[0,]),
+                                        (3,[0,]),
+                                        (4,[0,2,]),
+                                        (5,[0,1,]),
+                                      ]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_SF
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Inf'
+            SpawnType = EShowroomSpawnType/Infantry
+        ),
+    ]
+)
+// Ne pas éditer, ce fichier est auto-généré !
 
 
 export Descriptor_ShowRoomUnit_2K12_KUB_DDR is TEntityDescriptor
@@ -21404,7 +21714,7 @@ export Descriptor_ShowRoomUnit_Panzergrenadier_IFV_RFA is TEntityDescriptor
             (
                 Default        = TInfantrySquadModuleDescriptor
                 (
-                    NbSoldatInGroupeCombat = 5
+                    NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
                     InfantryMimeticName = 'Panzergrenadier_IFV_RFA'
                     WeaponUnitFXKey     = 'Panzergrenadier_IFV_RFA'
@@ -21431,7 +21741,8 @@ export Descriptor_ShowRoomUnit_Panzergrenadier_IFV_RFA is TEntityDescriptor
                                         (1,[0,]),
                                         (2,[0,]),
                                         (3,[0,]),
-                                        (4,[0,2,]),
+                                        (4,[0,]),
+                                        (5,[0,2,]),
                                       ]
         ),
         ~/LinkTeamModuleDescriptor,
@@ -39776,28 +40087,28 @@ export Descriptor_ShowRoomUnit_Tornado_IDS_RFA is TEntityDescriptor
         ),
     ]
 )
-export Descriptor_ShowRoomUnit_Tornado_ADV_HE_UK_NUKE_FRL is TEntityDescriptor
+export Descriptor_ShowRoomUnit_Marder_1A3_MILAN2_RFA_FRL is TEntityDescriptor
 (
-    DescriptorId        = GUID:{3985a1c4-5d08-45fe-a2a8-c45959daf620}
-    ClassNameForDebug   = "ShowRoomUnit_Tornado_ADV_HE_UK_NUKE_FLR"
+    DescriptorId        = GUID:{d7da2eb5-2f11-4e4a-a01e-12bacd85868d}
+    ClassNameForDebug   = "ShowRoomUnit_Marder_1A3_MILAN2_RFA_FRÖ"
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
             Nationalite                      = ENationalite/Allied
-            MotherCountry                    = 'UK'
-            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
-            TypeUnitFormation                = 'None'
+            MotherCountry                    = 'RFA'
+            AcknowUnitType                   = ~/TAcknowUnitType_Tank
+            TypeUnitFormation                = 'Char'
         ),
         ~/ShowroomPositionModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
             PickableObject                     = True
-            Depiction                          = ~/Gfx_Tornado_ADV_HE_UK_Showroom_Autogen
-            GameplayBBoxBoneName               = ''
+            Depiction                          = ~/Gfx_Marder_1A3_MILAN_RFA_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
         ),
         WeaponManager is TModuleSelector
         (
-            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
+            Default        = $/GFX/Everything/WeaponDescriptor_Marder_1A3_MILAN2_RFA_FRL
             Selection      = [~/NilDescriptorIfCadavre]
         ),
         ~/LinkTeamModuleDescriptor,
@@ -39811,73 +40122,33 @@ export Descriptor_ShowRoomUnit_Tornado_ADV_HE_UK_NUKE_FRL is TEntityDescriptor
         ),
         TCameraShowroomModuleDescriptor
         (
-            Token = 'BigVehicle'
-            SpawnType = EShowroomSpawnType/Airplane
+            Token = 'MBT'
+            SpawnType = EShowroomSpawnType/Vehicle
         ),
     ]
 )
-export Descriptor_ShowRoomUnit_Su_24M_SOV_NUKE_FRL is TEntityDescriptor
+export Descriptor_ShowRoomUnit_M2A2_Bradley_TOW1_IFV_US_FRL is TEntityDescriptor
 (
-    DescriptorId        = GUID:{808408d3-391f-48d6-bb82-b6d3f96decec}
-    ClassNameForDebug   = "ShowRoomUnit_Su_24M_SOV_NUKE_FR"
-    ModulesDescriptors = [
-        TTypeUnitModuleDescriptor
-        (
-            Nationalite                      = ENationalite/Axis
-            MotherCountry                    = 'SOV'
-            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
-            TypeUnitFormation                = 'None'
-        ),
-        ~/ShowroomPositionModuleDescriptor,
-        TApparenceModelModuleDescriptor
-        (
-            PickableObject                     = True
-            Depiction                          = ~/Gfx_Su_24M_SOV_Showroom_Autogen
-            GameplayBBoxBoneName               = ''
-        ),
-        WeaponManager is TModuleSelector
-        (
-            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
-        ),
-        ~/LinkTeamModuleDescriptor,
-        ~/EffectApplierModuleDescriptor,
-        TExperienceModuleDescriptor
-        (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
-            CanWinExperience = True
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
-            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
-        ),
-        TCameraShowroomModuleDescriptor
-        (
-            Token = 'VeryBigVehicle'
-            SpawnType = EShowroomSpawnType/Airplane
-        ),
-    ]
-)
-export Descriptor_ShowRoomUnit_F117_Nighthawk_US_NUKE_FRL is TEntityDescriptor
-(
-    DescriptorId        = GUID:{1c422e75-cdbb-422b-b45c-a7cf170d20db}
-    ClassNameForDebug   = "ShowRoomUnit_F117_Nighthawk_US_NUKE_FR"
+    DescriptorId        = GUID:{39c269c1-c042-4903-982f-2dc3e1bb1e50}
+    ClassNameForDebug   = "ShowRoomUnit_M2A2_Bradley_TOW1_IFV_US_FRL"
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
             Nationalite                      = ENationalite/Allied
             MotherCountry                    = 'US'
-            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
-            TypeUnitFormation                = 'None'
+            AcknowUnitType                   = ~/TAcknowUnitType_Tank
+            TypeUnitFormation                = 'Char'
         ),
         ~/ShowroomPositionModuleDescriptor,
         TApparenceModelModuleDescriptor
         (
             PickableObject                     = True
-            Depiction                          = ~/Gfx_F117_Nighthawk_US_Showroom_Autogen
-            GameplayBBoxBoneName               = ''
+            Depiction                          = ~/Gfx_M2A2_Bradley_IFV_US_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
         ),
         WeaponManager is TModuleSelector
         (
-            Default        = $/GFX/Everything/WeaponDescriptor_F117_Nighthawk_US_NUKE_FRL
+            Default        = $/GFX/Everything/WeaponDescriptor_M2A2_Bradley_TOW1_IFV_US_FRL
             Selection      = [~/NilDescriptorIfCadavre]
         ),
         ~/LinkTeamModuleDescriptor,
@@ -39891,48 +40162,8 @@ export Descriptor_ShowRoomUnit_F117_Nighthawk_US_NUKE_FRL is TEntityDescriptor
         ),
         TCameraShowroomModuleDescriptor
         (
-            Token = 'BigVehicle'
-            SpawnType = EShowroomSpawnType/Airplane
-        ),
-    ]
-)
-export Descriptor_ShowRoomUnit_Jaguar_HE_FR_NUKE_FRL is TEntityDescriptor
-(
-    DescriptorId        = GUID:{cc61e221-4eac-4e29-b378-a0f46a8465e8}
-    ClassNameForDebug   = "ShowRoomUnit_Jaguar_HE_FR_NUKE_FR"
-    ModulesDescriptors = [
-        TTypeUnitModuleDescriptor
-        (
-            Nationalite                      = ENationalite/Allied
-            MotherCountry                    = 'FR'
-            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
-            TypeUnitFormation                = 'None'
-        ),
-        ~/ShowroomPositionModuleDescriptor,
-        TApparenceModelModuleDescriptor
-        (
-            PickableObject                     = True
-            Depiction                          = ~/Gfx_Jaguar_HE_FR_Showroom_Autogen
-            GameplayBBoxBoneName               = ''
-        ),
-        WeaponManager is TModuleSelector
-        (
-            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
-        ),
-        ~/LinkTeamModuleDescriptor,
-        ~/EffectApplierModuleDescriptor,
-        TExperienceModuleDescriptor
-        (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
-            CanWinExperience = True
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
-            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
-        ),
-        TCameraShowroomModuleDescriptor
-        (
-            Token = 'BigVehicle'
-            SpawnType = EShowroomSpawnType/Airplane
+            Token = 'MBT'
+            SpawnType = EShowroomSpawnType/Vehicle
         ),
     ]
 )

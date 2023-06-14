@@ -1,9 +1,5 @@
-// Ne pas éditer, ce fichier est auto-généré !
-
-
 DeckSerializer is TDeckSerializer
 (
-
     DivisionIds = MAP
     [
         (Descriptor_Deck_Division_RDA_7_Panzer_multi, 9),
@@ -37,7 +33,6 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Division_US_8th_Inf_challenge_IA, 190),
         (Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA, 192),
     ]
-
     PackIds = MAP
     [
         (Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_AH1F_Cobra_US, 365),
@@ -579,6 +574,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_23ML_SOV, 1132),
         (Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_25BM_SOV, 1133),
         (Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_25RBF_SOV, 1134),
+        		(Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_31M_SOV, 696969),
         (Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_27M_bombe_SOV, 1135),
         (Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_27M_napalm_SOV, 1136),
         (Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_27M_rkt_SOV, 1137),
@@ -2952,12 +2948,13 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_SEK_RFA, 1924),
         (Descriptor_Unit_Security_DDR, 1938),
         (Descriptor_Unit_VDV_Afgantsy_SOV, 1939),
-        (Descriptor_Unit_Ural_4320_trans_SOV, 1954),
-		(Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL, 5001),
-		(Descriptor_Unit_Su_24M_SOV_NUKE_FRL, 5002),
+        (Descriptor_Unit_Marder_1A3_MILAN2_RFA_FRL, 5006),
+        (Descriptor_Unit_M2A2_Bradley_TOW1_IFV_US_FRL, 5007),
+        		(Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL, 5001),
+        		(Descriptor_Unit_Su_24M_SOV_NUKE_FRL, 5002),
         (Descriptor_Unit_Jaguar_HE_FR_NUKE_FRL, 5003),
         (Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL, 5004),
-
-
+        (Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL, 6000),
+        (Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL, 6001),
     ]
 )

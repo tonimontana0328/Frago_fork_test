@@ -1,6 +1,3 @@
-// Ne pas éditer, ce fichier est auto-généré !
-
-
 Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{beaeddc6-2819-4025-b72f-9448e16b39ec}
@@ -20,8 +17,6 @@ Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-
-        (~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_AML_60_FR, 3),
         (~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_AML_90_FR, 2),
         (~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_ATteam_Milan_1_para_FR, 1),
@@ -79,13 +74,15 @@ Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_VLRA_supply_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_VLTT_P4_MILAN_para_FR, 2),
         (~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_VLTT_P4_PC_FR, 1),
+        (~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_FR_11e_Para_multi
-    EmblemTexture     = "Texture_Division_Emblem_FR_11e_Para"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_FR_11e_Para"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "FR"
 )
 Descriptor_Deck_Division_FR_5e_Blindee_multi is TDeckDivisionDescriptor
@@ -107,7 +104,6 @@ Descriptor_Deck_Division_FR_5e_Blindee_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_AMX_10_HOT_FR, 2),
         (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_AMX_10_PC_CMD_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_AMX_10_P_VOA_FR, 1),
@@ -165,13 +161,15 @@ Descriptor_Deck_Division_FR_5e_Blindee_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_VBL_Reco_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_VLTT_P4_MILAN_FR, 2),
         (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_VLTT_P4_PC_FR, 1),
+        (~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_FR_5e_Blindee_multi
-    EmblemTexture     = "Texture_Division_Emblem_FR_5eDB"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_FR_5eDB"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture   = "Texture_Division_Type_armored"
     CountryId = "FR"
 )
 Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
@@ -193,7 +191,6 @@ Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_81mm_mortar_UK, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_AML_60_Gendarmerie_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_AMX_13_90mm_FR, 1),
@@ -280,13 +277,15 @@ Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VAB_RASIT_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VLTT_P4_MILAN_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VLTT_P4_PC_FR, 1),
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_NATO_Garnison_Berlin_multi
-    EmblemTexture     = "Texture_Division_Emblem_Berlin_Command"
-    StrategicLabelColor     = "Orange"
+    EmblemTexture = "Texture_Division_Emblem_Berlin_Command"
+    StrategicLabelColor = "Orange"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "UK"
 )
 Descriptor_Deck_Division_RDA_4_MSD_multi is TDeckDivisionDescriptor
@@ -308,7 +307,6 @@ Descriptor_Deck_Division_RDA_4_MSD_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_2K12_KUB_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_2S1_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_2S3_DDR, 2),
@@ -394,13 +392,14 @@ Descriptor_Deck_Division_RDA_4_MSD_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_TO_55_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_UAZ_469_SPG9_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_ZSU_23_Shilka_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RDA_4_MSD_multi
-    EmblemTexture     = "Texture_Division_Emblem_4_MSD_DDR"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_4_MSD_DDR"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "DDR"
 )
 Descriptor_Deck_Division_RDA_7_Panzer_multi is TDeckDivisionDescriptor
@@ -422,7 +421,6 @@ Descriptor_Deck_Division_RDA_7_Panzer_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_2K12_KUB_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_2S1_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_2S3_DDR, 2),
@@ -490,13 +488,15 @@ Descriptor_Deck_Division_RDA_7_Panzer_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_TO_55_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_UAZ_469_SPG9_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_ZSU_23_Shilka_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),  
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RDA_7_Panzer_multi
-    EmblemTexture     = "Texture_Division_Emblem_7_Panzerdivision_DDR"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_7_Panzerdivision_DDR"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture   = "Texture_Division_Type_armored"
     CountryId = "DDR"
 )
 Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi is TDeckDivisionDescriptor
@@ -518,7 +518,6 @@ Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_2S7M_Malka_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_AT_D44_85mm_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_AT_T12_Rapira_DDR, 1),
@@ -596,13 +595,15 @@ Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_Volkspolizei_CMD_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_Volkspolizei_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_ZSU_57_2_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),  
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RDA_KdA_Bezirk_Erfurt_multi
-    EmblemTexture     = "Texture_Division_Emblem_RDA_KDA_Erfurt"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_RDA_KDA_Erfurt"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "DDR"
 )
 Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA is TDeckDivisionDescriptor
@@ -688,10 +689,10 @@ Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RFA_5_Panzer_challenge
-    EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_5_Panzerdivision_RFA"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture   = "Texture_Division_Type_armored"
     CountryId = "RFA"
 )
 Descriptor_Deck_Division_RFA_2_PzGrenadier_multi is TDeckDivisionDescriptor
@@ -713,7 +714,6 @@ Descriptor_Deck_Division_RFA_2_PzGrenadier_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_ATteam_Milan_1_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_ATteam_Milan_2_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_ATteam_Milan_2_para_RFA, 2),
@@ -788,13 +788,15 @@ Descriptor_Deck_Division_RFA_2_PzGrenadier_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Tornado_IDS_HE1_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Tornado_IDS_MW1_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Unimog_S_404_RFA, 2),
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RFA_2_PzGrenadier_multi
-    EmblemTexture     = "Texture_Division_Emblem_2_PzGrenDivision_RFA"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_2_PzGrenDivision_RFA"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "RFA"
 )
 Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
@@ -816,7 +818,6 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_AH64_Apache_emp2_US, 4),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_ATteam_Milan_1_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_ATteam_Milan_2_RFA, 1),
@@ -880,13 +881,15 @@ Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Tornado_IDS_HE1_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Tornado_IDS_MW1_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Unimog_S_404_RFA, 2),
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RFA_5_Panzer_multi
-    EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_5_Panzerdivision_RFA"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture   = "Texture_Division_Type_armored"
     CountryId = "RFA"
 )
 Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge is TDeckDivisionDescriptor
@@ -971,10 +974,10 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RFA_TerrKo_Sud_multi
-    EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "RFA"
 )
 Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge_IA is TDeckDivisionDescriptor
@@ -1059,10 +1062,10 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_challenge_IA is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RFA_TerrKo_Sud_multi
-    EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "RFA"
 )
 Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi is TDeckDivisionDescriptor
@@ -1084,7 +1087,6 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_AMX_10_RC_FR, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_ATteam_Milan_1_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_ATteam_Milan_2_FR, 1),
@@ -1148,16 +1150,18 @@ Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_UH1D_Supply_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_Unimog_S_404_RFA, 2),
         (~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_VLTT_P4_MILAN_FR, 1),
-		(~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_F4_Wild_Weasel_US, 1),
-		(~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_cluster_US, 1),
+        		(~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_F4_Wild_Weasel_US, 1),
+        		(~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_cluster_US, 1),
         (~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_AMX_30_B2_FR, 1),
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_RFA_TerrKo_Sud_multi
-    EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "RFA"
 )
 Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge is TDeckDivisionDescriptor
@@ -1256,10 +1260,10 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge is TDeckDivisionDescripto
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_35_AirAslt_Brig_multi
-    EmblemTexture     = "Texture_Division_Emblem_35th_VDV_Brigade"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_35th_VDV_Brigade"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "SOV"
 )
 Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi is TDeckDivisionDescriptor
@@ -1281,7 +1285,6 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_2S9_Nona_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_AT_D44_85mm_VDV_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_ATteam_RCL_SPG9_VDV_SOV, 1),
@@ -1316,6 +1319,7 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_23ML_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_25BM_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_25RBF_SOV, 1),
+        		(~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_31M_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_27K_LGB_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_27M_bombe_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_27M_napalm_SOV, 1),
@@ -1360,13 +1364,15 @@ Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_VDV_Metis_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_VDV_SOV, 4),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_ZSU_23_Shilka_Afghan_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),   
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_35_AirAslt_Brig_multi
-    EmblemTexture     = "Texture_Division_Emblem_35th_VDV_Brigade"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_35th_VDV_Brigade"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "SOV"
 )
 Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge is TDeckDivisionDescriptor
@@ -1462,10 +1468,10 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_39_Gds_Rifle_multi
-    EmblemTexture     = "Texture_Division_Emblem_39th_gmsd"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_39th_gmsd"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "SOV"
 )
 Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge_IA is TDeckDivisionDescriptor
@@ -1561,10 +1567,10 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge_IA is TDeckDivisionDescripto
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_39_Gds_Rifle_multi
-    EmblemTexture     = "Texture_Division_Emblem_39th_gmsd"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_39th_gmsd"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "SOV"
 )
 Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
@@ -1586,7 +1592,6 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_2K12_KUB_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_2S1_Gvozdika_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_2S3M_Akatsiya_SOV, 2),
@@ -1661,14 +1666,16 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_UAZ_469_SPG9_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Ural_4320_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_ZSU_23_Shilka_SOV, 2),
-		(~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MiG_27M_sead_SOV, 1),
+        		(~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MiG_27M_sead_SOV, 1),
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),  
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_39_Gds_Rifle_multi
-    EmblemTexture     = "Texture_Division_Emblem_39th_gmsd"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_39th_gmsd"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "SOV"
 )
 Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge is TDeckDivisionDescriptor
@@ -1764,10 +1771,10 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_79_Gds_Tank_challenge
-    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture   = "Texture_Division_Type_armored"
     CountryId = "SOV"
 )
 Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge_IA is TDeckDivisionDescriptor
@@ -1863,10 +1870,10 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge_IA is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_79_Gds_Tank_challenge
-    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture   = "Texture_Division_Type_armored"
     CountryId = "SOV"
 )
 Descriptor_Deck_Division_SOV_79_Gds_Tank_multi is TDeckDivisionDescriptor
@@ -1888,7 +1895,6 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_2K12_KUB_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_2S1_Gvozdika_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_2S3M_Akatsiya_SOV, 2),
@@ -1917,7 +1923,7 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MiG_23ML_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MiG_23P_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MiG_27M_sead_SOV, 1),
-        (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MiG_31M_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MiG_29_AA_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Mi_24P_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Mi_24V_AA_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Mi_24V_AT_SOV, 1),
@@ -1955,13 +1961,15 @@ Descriptor_Deck_Division_SOV_79_Gds_Tank_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Tunguska_2K22_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_UAZ_469_AGL_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Ural_4320_SOV, 2),
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),  
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_79_Gds_Tank_multi
-    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture   = "Texture_Division_Type_armored"
     CountryId = "SOV"
 )
 Descriptor_Deck_Division_UK_1st_Armoured_multi is TDeckDivisionDescriptor
@@ -1983,7 +1991,6 @@ Descriptor_Deck_Division_UK_1st_Armoured_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_81mm_mortar_UK, 1),
         (~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_ATteam_Milan_1_UK, 1),
         (~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_ATteam_Milan_2_UK, 1),
@@ -2042,13 +2049,15 @@ Descriptor_Deck_Division_UK_1st_Armoured_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Tornado_ADV_UK, 2),
         (~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Tornado_ADV_clu_UK, 1),
         (~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Tracked_Rapier_UK, 2),
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_UK_1st_Armoured_multi
-    EmblemTexture     = "Texture_Division_Emblem_UK_1st_Armoured"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_UK_1st_Armoured"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture   = "Texture_Division_Type_armored"
     CountryId = "UK"
 )
 Descriptor_Deck_Division_UK_2nd_Infantry_multi is TDeckDivisionDescriptor
@@ -2070,7 +2079,6 @@ Descriptor_Deck_Division_UK_2nd_Infantry_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_81mm_mortar_UK, 3),
         (~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_AT_Group_TA_UK, 2),
         (~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_ATteam_Milan_1_UK, 1),
@@ -2138,14 +2146,16 @@ Descriptor_Deck_Division_UK_2nd_Infantry_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Territorial_UK, 4),
         (~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Tornado_ADV_HE_UK, 2),
         (~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Tracked_Rapier_UK, 1),
-		(~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Tornado_ADV_SEAD_UK, 1),
+        		(~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Tornado_ADV_SEAD_UK, 1),
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_UK_2nd_Infantry_multi
-    EmblemTexture     = "Texture_Division_Emblem_UK_2nd_Infantry"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_UK_2nd_Infantry"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "UK"
 )
 Descriptor_Deck_Division_US_11ACR_multi_HB is TDeckDivisionDescriptor
@@ -2234,10 +2244,10 @@ Descriptor_Deck_Division_US_11ACR_multi_HB is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_Challenge
-    EmblemTexture     = "Texture_Division_Emblem_11ACR"
-    StrategicLabelColor     = "Orange"
+    EmblemTexture = "Texture_Division_Emblem_11ACR"
+    StrategicLabelColor = "Orange"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armoredRecon"
+    TypeTexture   = "Texture_Division_Type_armoredRecon"
     CountryId = "US"
 )
 Descriptor_Deck_Division_US_3rd_Arm_challenge is TDeckDivisionDescriptor
@@ -2326,10 +2336,10 @@ Descriptor_Deck_Division_US_3rd_Arm_challenge is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_US_3rd_Arm_challenge
-    EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_3rd_Armored_Division"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture   = "Texture_Division_Type_armored"
     CountryId = "US"
 )
 Descriptor_Deck_Division_US_3rd_Arm_challenge_IA is TDeckDivisionDescriptor
@@ -2418,10 +2428,10 @@ Descriptor_Deck_Division_US_3rd_Arm_challenge_IA is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_US_3rd_Arm_challenge
-    EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_3rd_Armored_Division"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture   = "Texture_Division_Type_armored"
     CountryId = "US"
 )
 Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
@@ -2442,8 +2452,7 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
     DescriptionHintBodyToken = ''
     DescriptionHintExtendedToken = ''
     PackList = MAP
-    [        
-        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+    [
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_A10_Thunderbolt_II_ATGM_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_A10_Thunderbolt_II_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_AH1F_Cobra_US, 4),
@@ -2508,13 +2517,15 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_Sniper_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_UH60A_CO_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_UH60A_Supply_US, 1),
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_US_3rd_Arm_multi
-    EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_3rd_Armored_Division"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_armored"
+    TypeTexture   = "Texture_Division_Type_armored"
     CountryId = "US"
 )
 Descriptor_Deck_Division_US_82nd_Airborne_multi is TDeckDivisionDescriptor
@@ -2536,10 +2547,8 @@ Descriptor_Deck_Division_US_82nd_Airborne_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
-        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
-		(~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_A10_Thunderbolt_II_US, 1),
-		(~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_A10_Thunderbolt_II_ATGM_US, 2),
+        		(~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_A10_Thunderbolt_II_US, 1),
+        		(~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_A10_Thunderbolt_II_ATGM_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_A10_Thunderbolt_II_Rkt_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH1F_ATAS_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH1F_Cobra_US, 4),
@@ -2601,14 +2610,17 @@ Descriptor_Deck_Division_US_82nd_Airborne_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_OH58_CS_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_Sniper_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_UH60A_Supply_US, 1),
-		//(~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_ATteam_ITOW_US, 1),
+        		//(~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_ATteam_ITOW_US, 1),
+        (~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_US_82nd_Airborne_multi
-    EmblemTexture     = "Texture_Division_Emblem_82nd_airborne"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_82nd_airborne"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "US"
 )
 Descriptor_Deck_Division_US_8th_Inf_challenge_IA is TDeckDivisionDescriptor
@@ -2704,10 +2716,10 @@ Descriptor_Deck_Division_US_8th_Inf_challenge_IA is TDeckDivisionDescriptor
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_US_8th_Inf_multi
-    EmblemTexture     = "Texture_Division_Emblem_8th_infantry_division"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_8th_infantry_division"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "US"
 )
 Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
@@ -2728,8 +2740,7 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
     DescriptionHintBodyToken = ''
     DescriptionHintExtendedToken = ''
     PackList = MAP
-[		(~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
-        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+    [
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_A10_Thunderbolt_II_ATGM_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_A10_Thunderbolt_II_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_AH1F_Cobra_US, 4),
@@ -2802,14 +2813,17 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Sniper_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_UH60A_CO_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_UH60A_Supply_US, 1),
-		(~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_cluster_US, 1),
+        		(~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M270_MLRS_cluster_US, 1),
+        	(~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_US_8th_Inf_multi
-    EmblemTexture     = "Texture_Division_Emblem_8th_infantry_division"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_8th_infantry_division"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "US"
 )
 Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi is TDeckDivisionDescriptor
@@ -2831,7 +2845,6 @@ Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_2K12_KUB_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_2S1_Gvozdika_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_2S3_DDR, 2),
@@ -2932,13 +2945,15 @@ Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Wachregiment_SMG_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_ZSU_23_Shilka_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_ZSU_23_Shilka_SOV, 1),
-		(~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Su_22_SEAD_DDR, 1),
+        		(~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Su_22_SEAD_DDR, 1),
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_WP_Unternehmen_Zentrum_multi
-    EmblemTexture     = "Texture_Division_Emblem_WP_Unternehmen_Stoss"
-    StrategicLabelColor     = "BlancEquipe"
+    EmblemTexture = "Texture_Division_Emblem_WP_Unternehmen_Stoss"
+    StrategicLabelColor = "BlancEquipe"
     PortraitTexture   = "Texture_Division_Portrait_default"
-    TypeTexture       = "Texture_Division_Type_infantryReg"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
     CountryId = "DDR"
 )
