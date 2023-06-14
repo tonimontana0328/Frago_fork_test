@@ -394,7 +394,7 @@ export Descriptor_Fire_Nuke is TEntityDescriptor
         (
             Depiction  = Template_DescriptorFire_Depiction
             (
-                 Radius               = 800 * Metre
+                 Radius               = 1000 * Metre
                  FX                   = $/GFX/GameFx/fx_binder_fire_Napalm_Leger
                  Density              = 1
             )
@@ -402,7 +402,7 @@ export Descriptor_Fire_Nuke is TEntityDescriptor
         ),
         TFireModuleDescriptor
         (
-            TimeToLive                     = ((60) * Seconde)
+            TimeToLive                     = ((180) * Seconde)
             TimeBeforeSpreading            = ((1) * Seconde)
             TimeBeforeSpreadAttempt        = ((1) * Seconde)
             SpreadProbability              = 1.0
