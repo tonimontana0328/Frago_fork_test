@@ -110,7 +110,7 @@ private UnitNameAndRightListNameOnly is BUCKContainerDescriptor
                 ),
                 BUCKListElementDescriptor
                 (
-                    ComponentDescriptor = ~/LabelFeedbackIcons
+                    ComponentDescriptor = LabelFeedbackIcons()
                 ),
             ]
         ),

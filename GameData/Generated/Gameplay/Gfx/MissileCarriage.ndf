@@ -2647,6 +2647,35 @@ MissileCarriage_T64B_SOV_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// T80BV_Beast_SOV : ['ATGM 9M128 Agona']
+MissileCarriage_T80BV_Beast_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = Modele_T80BV_Beast_SOV
+    PylonSet = ~/DepictionPylonSet_ATGM
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
+MissileCarriage_T80BV_Beast_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = Modele_T80BV_Beast_SOV
+    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
 // T80BV_SOV : ['ATGM 9M112 1 Kobra']
 MissileCarriage_T80BV_SOV is TMissileCarriageConnoisseur
 (
@@ -3209,6 +3238,49 @@ MissileCarriage_AH1F_ATAS_US_Showroom is TMissileCarriageConnoisseur
         (
             Count = 4
             MissileType = eAAM
+            WeaponIndex = 3
+        ),
+    ]
+)
+// AH1F_CNITE_US : ['RocketAir Hydra 70mm x19'] ['ATGM BGM71D TOW 2 x4']
+MissileCarriage_AH1F_CNITE_US is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = Modele_AH1F_CNITE_US
+    PylonSet = ~/DepictionPylonSet_Helico_Default
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 38
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAGM
+            WeaponIndex = 3
+        ),
+    ]
+)
+MissileCarriage_AH1F_CNITE_US_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = Modele_AH1F_CNITE_US
+    PylonSet = ~/DepictionPylonSet_Helico_Default_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 38
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAGM
             WeaponIndex = 3
         ),
     ]
@@ -8728,6 +8800,35 @@ MissileCarriage_Su_24MP_SOV_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// Su_24M_LGB_SOV : ['Bomb KAB 1500Kr x2']
+MissileCarriage_Su_24M_LGB_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = Modele_Su_24M_LGB_SOV
+    PylonSet = ~/DepictionPylonSet_Airplane_SOV
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
+MissileCarriage_Su_24M_LGB_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = Modele_Su_24M_LGB_SOV
+    PylonSet = ~/DepictionPylonSet_Airplane_SOV_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
 // Su_24M_SOV : ['Bomb FAB 500kg x8']
 MissileCarriage_Su_24M_SOV is TMissileCarriageConnoisseur
 (
@@ -8747,6 +8848,37 @@ MissileCarriage_Su_24M_SOV is TMissileCarriageConnoisseur
 MissileCarriage_Su_24M_SOV_Showroom is TMissileCarriageConnoisseur
 (
     MeshDescriptor = Modele_Su_24M_SOV
+    PylonSet = ~/DepictionPylonSet_Airplane_SOV_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 8
+            MissileType = eAGM
+            MountingType = eMountingBomb
+            WeaponIndex = 1
+        ),
+    ]
+)
+// Su_24M_clu2_SOV : ['Bomb CLU RBK 500kg x8']
+MissileCarriage_Su_24M_clu2_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = Modele_Su_24M_clu2_SOV
+    PylonSet = ~/DepictionPylonSet_Airplane_SOV
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 8
+            MissileType = eAGM
+            MountingType = eMountingBomb
+            WeaponIndex = 1
+        ),
+    ]
+)
+MissileCarriage_Su_24M_clu2_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = Modele_Su_24M_clu2_SOV
     PylonSet = ~/DepictionPylonSet_Airplane_SOV_Showroom
     WeaponInfos = 
     [

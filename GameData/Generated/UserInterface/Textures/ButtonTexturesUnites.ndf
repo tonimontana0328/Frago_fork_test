@@ -1603,6 +1603,12 @@ Texture_Button_Unit_Howz_M46_130mm_DDR is TUIResourceTextureWithUsefulnessMask
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/Howz_M46_130mm_DDR.png'
 )
+Texture_Button_Unit_Howz_MstaB_150mm_SOV is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/Howz_MstaB_150mm_SOV.png'
+)
 Texture_Button_Unit_Howz_ZiS3_76mm_DDR is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
@@ -2035,6 +2041,12 @@ Texture_Button_Unit_M1A1_Abrams_US is TUIResourceTextureWithUsefulnessMask
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/M1A1_Abrams_US.png'
 )
+Texture_Button_Unit_M1A1_Abrams_reco_US is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/M1A1_Abrams_reco_US.png'
+)
 Texture_Button_Unit_M1IP_Abrams_CMD_US is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
@@ -2443,6 +2455,12 @@ Texture_Button_Unit_Mortier_2B9_Vasilek_SOV is TUIResourceTextureWithUsefulnessM
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/Mortier_2B9_Vasilek_SOV.png'
 )
+Texture_Button_Unit_Mortier_2B9_Vasilek_nonPara_SOV is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/Mortier_2B9_Vasilek_SOV.png'
+)
 Texture_Button_Unit_Mortier_2S12_120mm_SOV is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
@@ -2748,6 +2766,12 @@ Texture_Button_Unit_Rifles_CMD_US is TUIResourceTextureWithUsefulnessMask
     TypeMask = TypeMask/BuildMenu
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/Rifles_CMD_US.png'
+)
+Texture_Button_Unit_Rifles_Cavalry_US is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/LightRifles_RCL_US.png'
 )
 Texture_Button_Unit_Rifles_FR is TUIResourceTextureWithUsefulnessMask
 (
@@ -3187,6 +3211,12 @@ Texture_Button_Unit_T72_DDR is TUIResourceTextureWithUsefulnessMask
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/T72_DDR.png'
 )
+Texture_Button_Unit_T80BV_Beast_SOV is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/T80BV_SOV.png'
+)
 Texture_Button_Unit_T80BV_CMD_SOV is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
@@ -3473,7 +3503,7 @@ Texture_Button_Unit_Ural_4320_trans_SOV is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
     CivMask  = CivMask/Common
-    FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/default.png'
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/Ural_4320_trans_SOV.png'
 )
 Texture_Button_Unit_VAB_CMD_FR is TUIResourceTextureWithUsefulnessMask
 (
@@ -3703,6 +3733,12 @@ Texture_Button_Unit_AH1F_ATAS_US is TUIResourceTextureWithUsefulnessMask
     TypeMask = TypeMask/BuildMenu
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/AH1F_ATAS_US.png'
+)
+Texture_Button_Unit_AH1F_CNITE_US is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/AH1F_CNITE_US.png'
 )
 Texture_Button_Unit_AH1F_Cobra_US is TUIResourceTextureWithUsefulnessMask
 (
@@ -4863,11 +4899,23 @@ Texture_Button_Unit_Su_24MP_SOV is TUIResourceTextureWithUsefulnessMask
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/Su_24MP_SOV.png'
 )
+Texture_Button_Unit_Su_24M_LGB_SOV is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/Su_24M_LGB_SOV.png'
+)
 Texture_Button_Unit_Su_24M_SOV is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/Su_24M_SOV.png'
+)
+Texture_Button_Unit_Su_24M_clu2_SOV is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/Su_24M_clu2_SOV.png'
 )
 Texture_Button_Unit_Su_24M_clu_SOV is TUIResourceTextureWithUsefulnessMask
 (
@@ -5282,6 +5330,7 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_Howz_M102_105mm_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Howz_M102_105mm_US), ]),
         ("Texture_Button_Unit_Howz_M198_155mm_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Howz_M198_155mm_US), ]),
         ("Texture_Button_Unit_Howz_M46_130mm_DDR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Howz_M46_130mm_DDR), ]),
+        ("Texture_Button_Unit_Howz_MstaB_150mm_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Howz_MstaB_150mm_SOV), ]),
         ("Texture_Button_Unit_Howz_ZiS3_76mm_DDR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Howz_ZiS3_76mm_DDR), ]),
         ("Texture_Button_Unit_HvyScout_DDR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_HvyScout_DDR), ]),
         ("Texture_Button_Unit_HvyScout_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_HvyScout_SOV), ]),
@@ -5354,6 +5403,7 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_M1A1HA_Abrams_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1A1HA_Abrams_US), ]),
         ("Texture_Button_Unit_M1A1_Abrams_CMD_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1A1_Abrams_CMD_US), ]),
         ("Texture_Button_Unit_M1A1_Abrams_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1A1_Abrams_US), ]),
+        ("Texture_Button_Unit_M1A1_Abrams_reco_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1A1_Abrams_reco_US), ]),
         ("Texture_Button_Unit_M1IP_Abrams_CMD_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1IP_Abrams_CMD_US), ]),
         ("Texture_Button_Unit_M1IP_Abrams_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1IP_Abrams_US), ]),
         ("Texture_Button_Unit_M1_Abrams_CMD_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_M1_Abrams_CMD_US), ]),
@@ -5422,6 +5472,7 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_Mortier_107mm_Airborne_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Mortier_107mm_Airborne_US), ]),
         ("Texture_Button_Unit_Mortier_107mm_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Mortier_107mm_US), ]),
         ("Texture_Button_Unit_Mortier_2B9_Vasilek_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Mortier_2B9_Vasilek_SOV), ]),
+        ("Texture_Button_Unit_Mortier_2B9_Vasilek_nonPara_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Mortier_2B9_Vasilek_nonPara_SOV), ]),
         ("Texture_Button_Unit_Mortier_2S12_120mm_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Mortier_2S12_120mm_SOV), ]),
         ("Texture_Button_Unit_Mortier_2S12_120mm_VDV_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Mortier_2S12_120mm_VDV_SOV), ]),
         ("Texture_Button_Unit_Mortier_MORT61_120mm_FR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Mortier_MORT61_120mm_FR), ]),
@@ -5473,6 +5524,7 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_Rifles_CMD_FR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Rifles_CMD_FR), ]),
         ("Texture_Button_Unit_Rifles_CMD_UK", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Rifles_CMD_UK), ]),
         ("Texture_Button_Unit_Rifles_CMD_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Rifles_CMD_US), ]),
+        ("Texture_Button_Unit_Rifles_Cavalry_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Rifles_Cavalry_US), ]),
         ("Texture_Button_Unit_Rifles_FR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Rifles_FR), ]),
         ("Texture_Button_Unit_Rifles_HMG_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Rifles_HMG_US), ]),
         ("Texture_Button_Unit_Rifles_LAW_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Rifles_LAW_US), ]),
@@ -5546,6 +5598,7 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_T72M_CMD_DDR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_T72M_CMD_DDR), ]),
         ("Texture_Button_Unit_T72M_DDR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_T72M_DDR), ]),
         ("Texture_Button_Unit_T72_DDR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_T72_DDR), ]),
+        ("Texture_Button_Unit_T80BV_Beast_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_T80BV_Beast_SOV), ]),
         ("Texture_Button_Unit_T80BV_CMD_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_T80BV_CMD_SOV), ]),
         ("Texture_Button_Unit_T80BV_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_T80BV_SOV), ]),
         ("Texture_Button_Unit_T80B_CMD_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_T80B_CMD_SOV), ]),
@@ -5632,6 +5685,7 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_ZSU_23_Shilka_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_ZSU_23_Shilka_SOV), ]),
         ("Texture_Button_Unit_ZSU_57_2_DDR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_ZSU_57_2_DDR), ]),
         ("Texture_Button_Unit_AH1F_ATAS_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_AH1F_ATAS_US), ]),
+        ("Texture_Button_Unit_AH1F_CNITE_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_AH1F_CNITE_US), ]),
         ("Texture_Button_Unit_AH1F_Cobra_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_AH1F_Cobra_US), ]),
         ("Texture_Button_Unit_AH1F_HeavyHog_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_AH1F_HeavyHog_US), ]),
         ("Texture_Button_Unit_AH1S_Cobra_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_AH1S_Cobra_US), ]),
@@ -5825,7 +5879,9 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_Su_22_clu_DDR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Su_22_clu_DDR), ]),
         ("Texture_Button_Unit_Su_22_nplm_DDR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Su_22_nplm_DDR), ]),
         ("Texture_Button_Unit_Su_24MP_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Su_24MP_SOV), ]),
+        ("Texture_Button_Unit_Su_24M_LGB_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Su_24M_LGB_SOV), ]),
         ("Texture_Button_Unit_Su_24M_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Su_24M_SOV), ]),
+        ("Texture_Button_Unit_Su_24M_clu2_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Su_24M_clu2_SOV), ]),
         ("Texture_Button_Unit_Su_24M_clu_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Su_24M_clu_SOV), ]),
         ("Texture_Button_Unit_Su_24M_nplm_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Su_24M_nplm_SOV), ]),
         ("Texture_Button_Unit_Su_25_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Su_25_SOV), ]),

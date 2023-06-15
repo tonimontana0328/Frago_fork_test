@@ -184,7 +184,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 18.0 // Canon HE 165mm AVRE
                )
                Accuracy = TMinMaxValue (
-                       Min = 30 // Canon AP 2A18 122mm
+                       Min = 0 // Howz Canon 2A65 SP 152mm Direct
                        Max = 70 // Canon HE 142mm AVRE
                )
                AccuracyMovement = TMinMaxValue (
@@ -304,7 +304,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 244 * Metre // Mortier Tampella 120mm
                )
                MaxRange = TMinMaxValue (
-                       Min = 425 // SMOKE_Vehicle_Grenadex8
+                       Min = 920 // SMOKE_Vehicle_Grenadex8
                        Max = 15919 // Mortier M40 tower 107mm
                )
                MaxRangeTBA = TMinMaxValue (
@@ -1288,7 +1288,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                // PhysicalDamages x weapon_count_ (Number of weapons)
                PhysicalDamages = TMinMaxValue (
                        Min = 1.54 // Bomb Bidons Speciaux Napalm x4
-                       Max = 27.75 // Bomb GBU 27 x1
+                       Max = 45.0 // Bomb KAB 1500Kr x2
                )
                // SuppressDamages x weapon_count_ (Number of weapons)
                SuppressDamages = TMinMaxValue (

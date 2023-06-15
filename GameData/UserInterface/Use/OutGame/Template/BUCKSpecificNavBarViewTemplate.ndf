@@ -48,23 +48,3 @@ template MainBackButtonContainer
     ]
 )
 
-//------------------------------------------------------------------------------
-
-template UISpecificNavBarViewDescriptor
-[
-    BackButtonDefaultToken : string = "AB_QUIT",
-    BackMapping : TEugBMutablePBaseClass = TEugBMutablePBaseClass(Value = TUserInputMapping(KeyboardEventID = UserInputKeyboard/KEY_ESCAPE)),
-    MainComponentContainerUniqueName : string = "",
-    ButtonLeftClickSound : TSoundDescriptor = nil,
-]
-is TUISpecificNavBarViewDescriptor
-(
-    MainComponentDescriptor = MainBackButtonContainer
-    (
-        ButtonDefaultToken = <BackButtonDefaultToken>
-        BackMapping = <BackMapping>
-        ButtonLeftClickSound = <ButtonLeftClickSound>
-    )
-    MainComponentContainerUniqueName = <MainComponentContainerUniqueName>
-)
-

@@ -70,7 +70,7 @@ ModelFile_Missile_Metis is       'GameData:/Assets/3D/Units/Ammo/Missiles/SOV/Me
 ModelFile_Missile_S_24_240mm is       'GameData:/Assets/3D/Units/Ammo/Roquettes/SOV/S24_240mm/S24_240mm.Ase2NdfBin'
 ModelFile_Missile_9M330_Tor is       'GameData:/Assets/3D/Units/Ammo/Missiles/SOV/9M330/9M330.Ase2NdfBin'
 ModelFile_Missile_KAB_500Kr is    'GameData:/Assets/3D/Units/Ammo/Bombes/SOV/KAB_500Kr/KAB_500Kr.Ase2NdfBin'
-ModelFile_Missile_KAB_1500Kr is    'GameData:/Assets/3D/Units/Ammo/Bombes/SOV/KAB_1500Kr/KAB_1500Kr.Ase2NdfBin'
+ModelFile_Missile_KAB_1500Kr is    'GameData:/Assets/3D/Units/Ammo/Bombes/SOV/KAB_1500Kr/KAB_1500Kr.fbx'
 ModelFile_Missile_Vympel_R27ER is 'GameData:/Assets/3D/Units/Ammo/Missiles/SOV/Vympel_R27ER/Vympel_R27ER.Ase2NdfBin'
 
 //old

@@ -7650,6 +7650,66 @@ TacticDepiction_Rifles_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
   Surrogates = TacticDepiction_Rifles_CMD_US_Surrogates
   Alternatives = TacticDepiction_Rifles_CMD_US_Alternatives
 )
+// *****************************[ Rifles_Cavalry_US ]*********************************
+Gfx_Rifles_Cavalry_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_Rifles_Cavalry_US is [
+  AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_M16A2 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_M249 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_AT_4 ),
+]
+AllWeaponSubDepiction_Rifles_Cavalry_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Rifles_Cavalry_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_M249_5_56mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_AT4_83mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Rifles_Cavalry_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Rifles_Cavalry_US
+)
+TacticDepiction_Rifles_Cavalry_US_Surrogates is [['high', '01'], ['high', '02'], ['high', '03'], ['high', '04'], ['high', '05'], ['high', '06'], ['high', '07'], ['high', '08'], ['high', '09']]
+TacticDepiction_Rifles_Cavalry_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = ['high', '01'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_Cavalry_US ) ),
+  TDepictionDescriptor( SelectorId = ['high', '02'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_Cavalry_US_02 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '03'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_Cavalry_US_03 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '04'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_Cavalry_US_04 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '05'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_Cavalry_US_05 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '06'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_Cavalry_US_06 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '07'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_Cavalry_US_07 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '08'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_Cavalry_US_08 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '09'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_Cavalry_US_09 ) ),
+  TDepictionDescriptor( SelectorId = ['low']  MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_Cavalry_US_LOW ) ),
+]
+TacticDepiction_Rifles_Cavalry_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Surrogates = TacticDepiction_Rifles_Cavalry_US_Surrogates
+  Alternatives = TacticDepiction_Rifles_Cavalry_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Rifles_Cavalry_US, AllWeaponSubDepictionBackpack_Rifles_Cavalry_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_Rifles_Cavalry_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Surrogates = TacticDepiction_Rifles_Cavalry_US_Surrogates
+  Alternatives = TacticDepiction_Rifles_Cavalry_US_Alternatives
+)
 // *****************************[ Rifles_FR ]*********************************
 Gfx_Rifles_FR is TemplateInfantryDepictionSquad
 (
@@ -10951,6 +11011,7 @@ InfantryMimetic is MAP[
   ( 'Rifles_CMD_FR', TacticDepiction_Rifles_CMD_FR_Soldier ),
   ( 'Rifles_CMD_UK', TacticDepiction_Rifles_CMD_UK_Soldier ),
   ( 'Rifles_CMD_US', TacticDepiction_Rifles_CMD_US_Soldier ),
+  ( 'Rifles_Cavalry_US', TacticDepiction_Rifles_Cavalry_US_Soldier ),
   ( 'Rifles_FR', TacticDepiction_Rifles_FR_Soldier ),
   ( 'Rifles_HMG_US', TacticDepiction_Rifles_HMG_US_Soldier ),
   ( 'Rifles_LAW_US', TacticDepiction_Rifles_LAW_US_Soldier ),
@@ -11156,6 +11217,7 @@ InfantryMimeticGhost is MAP[
   ( 'Rifles_CMD_FR', TacticDepiction_Rifles_CMD_FR_Ghost ),
   ( 'Rifles_CMD_UK', TacticDepiction_Rifles_CMD_UK_Ghost ),
   ( 'Rifles_CMD_US', TacticDepiction_Rifles_CMD_US_Ghost ),
+  ( 'Rifles_Cavalry_US', TacticDepiction_Rifles_Cavalry_US_Ghost ),
   ( 'Rifles_FR', TacticDepiction_Rifles_FR_Ghost ),
   ( 'Rifles_HMG_US', TacticDepiction_Rifles_HMG_US_Ghost ),
   ( 'Rifles_LAW_US', TacticDepiction_Rifles_LAW_US_Ghost ),
@@ -11361,6 +11423,7 @@ TransportedInfantryAlternativesCount is MAP[
   ('Rifles_CMD_FR', 4),
   ('Rifles_CMD_UK', 6),
   ('Rifles_CMD_US', 10),
+  ('Rifles_Cavalry_US', 9),
   ('Rifles_FR', 6),
   ('Rifles_HMG_US', 10),
   ('Rifles_LAW_US', 6),
@@ -12265,6 +12328,15 @@ TransportedInfantryAlternatives is [
   AlternativeWithId( SelectorId = ['Rifles_CMD_US', '08'] ModelFile = ModelFile_Rifles_CMD_US_08 ),
   AlternativeWithId( SelectorId = ['Rifles_CMD_US', '09'] ModelFile = ModelFile_Rifles_CMD_US_09 ),
   AlternativeWithId( SelectorId = ['Rifles_CMD_US', '10'] ModelFile = ModelFile_Rifles_CMD_US_10 ),
+  AlternativeWithId( SelectorId = ['Rifles_Cavalry_US', '01'] ModelFile = ModelFile_Rifles_Cavalry_US ),
+  AlternativeWithId( SelectorId = ['Rifles_Cavalry_US', '02'] ModelFile = ModelFile_Rifles_Cavalry_US_02 ),
+  AlternativeWithId( SelectorId = ['Rifles_Cavalry_US', '03'] ModelFile = ModelFile_Rifles_Cavalry_US_03 ),
+  AlternativeWithId( SelectorId = ['Rifles_Cavalry_US', '04'] ModelFile = ModelFile_Rifles_Cavalry_US_04 ),
+  AlternativeWithId( SelectorId = ['Rifles_Cavalry_US', '05'] ModelFile = ModelFile_Rifles_Cavalry_US_05 ),
+  AlternativeWithId( SelectorId = ['Rifles_Cavalry_US', '06'] ModelFile = ModelFile_Rifles_Cavalry_US_06 ),
+  AlternativeWithId( SelectorId = ['Rifles_Cavalry_US', '07'] ModelFile = ModelFile_Rifles_Cavalry_US_07 ),
+  AlternativeWithId( SelectorId = ['Rifles_Cavalry_US', '08'] ModelFile = ModelFile_Rifles_Cavalry_US_08 ),
+  AlternativeWithId( SelectorId = ['Rifles_Cavalry_US', '09'] ModelFile = ModelFile_Rifles_Cavalry_US_09 ),
   AlternativeWithId( SelectorId = ['Rifles_FR', '01'] ModelFile = ModelFile_Rifles_FR ),
   AlternativeWithId( SelectorId = ['Rifles_FR', '02'] ModelFile = ModelFile_Rifles_FR_02 ),
   AlternativeWithId( SelectorId = ['Rifles_FR', '03'] ModelFile = ModelFile_Rifles_FR_03 ),

@@ -304,8 +304,8 @@ export Capacite_Choc is TCapaciteDescriptor
     AreaShape            = ~/CapaciteAreaShape_circulaire
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
-    Radius              = 990.00 * Metre
-    Range               = 990.00 * Metre
+    Radius              = 150.00 * Metre
+    Range               = 900.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.00
@@ -316,9 +316,10 @@ export Capacite_Choc is TCapaciteDescriptor
     CanBeCastFromTransport  = True
     CastEffectDuration = -1.00
     CastEffectBound    = True
-    TargetEffect         = ~/UnitEffect_Choc
+    TargetEffect         = ~/UnitEffect_Placebo
     TargetEffectDuration = 1.00
-    SelfEffectDuration   = 0.00
+    SelfEffect       = ~/UnitEffect_Choc
+    SelfEffectDuration   = 1.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
     MaxTargetNb            = -1
@@ -333,6 +334,7 @@ export Capacite_Choc is TCapaciteDescriptor
     DisplayRangeThickness  = 0.00
     Price = MAP[]
     TagsCiblePossible = [
+        "GroundUnits",
     ]
 
 )
@@ -2184,6 +2186,31 @@ export Capacite_Choc_FRL_missile_9 is TCapaciteDescriptor
 )//
 //
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //

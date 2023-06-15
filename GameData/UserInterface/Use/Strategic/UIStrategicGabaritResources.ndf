@@ -34,7 +34,7 @@ StrategicFeedbackAreaOfEffectRangeGabaritResource is TStrategicFeedbackUICommonG
 
 StrategicFeedbackAreaOfEffectRadiusGabaritResource is TStrategicFeedbackUICommonGabaritDefinition
 (
-    CircleColor = [160,250,250,255]
+    CircleColor = [40.0, 62.0, 62.0, 128.0]
     CircleThickness = 1.0
     TextStyle       = TTextStyleRTTI
     (

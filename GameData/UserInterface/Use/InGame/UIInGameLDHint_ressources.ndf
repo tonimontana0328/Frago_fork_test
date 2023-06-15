@@ -83,8 +83,8 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
         ( "Spotlight_logInf",         Spotlight_LD
             (
                 UniqueName = "Spotlight_logInf"
-                MagnifiableWidthHeight = [58.0, 35.0]
-                MagnifiableOffset = [23.0, 2.0]
+                MagnifiableWidthHeight = [57.0, 36.0]
+                MagnifiableOffset = [23.0-15, 2.0]
                 AlignementToAnchor = [0.0, 0.0]
                 AlignementToFather = [0.0, 0.0]
             )
@@ -92,8 +92,8 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
         ( "Spotlight_logRec",         Spotlight_LD
             (
                 UniqueName = "Spotlight_logRec"
-                MagnifiableWidthHeight = [57.0, 35.0]
-                MagnifiableOffset = [82.0, 2.0]
+                MagnifiableWidthHeight = [57.0, 36.0]
+                MagnifiableOffset = [82.0-16, 2.0]
                 AlignementToAnchor = [0.0, 0.0]
                 AlignementToFather = [0.0, 0.0]
             )
@@ -299,7 +299,13 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
         // generaux vide
         ( "general_DDR",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'general_DDR' )),
         ( "general_DDR_noPause",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'general_DDR' HasButtons = false  )),
-        ( "general_DDR_2_noPause",             PORTRAIT_Steelman (Texture = 'general_DDR_2' HasButtons = false  )),
+
+        // ( "general_DDR_2_noPause",             PORTRAIT_Steelman (Texture = 'general_DDR_2' HasButtons = false portrait_name = 'gen_01' )),
+        ( "general_DDR_2",             PORTRAIT_Steelman (Texture = 'general_DDR_2' HasButtons = false  portrait_name = 'ddr_gen_1')),
+        ( "RFA_oberst_1",             PORTRAIT_Steelman (Texture = 'RFA_oberst_1' HasButtons = false  portrait_name = 'rfa_ob_1')),
+        ( "RFA_major_1",             PORTRAIT_Steelman (Texture = 'RFA_major_1' HasButtons = false  portrait_name = 'rfa_maj_1')),
+        ( "RFA_major_2",             PORTRAIT_Steelman (Texture = 'RFA_major_2' HasButtons = false  portrait_name = 'rfa_maj_2')),
+
         ( "general_RFA_2_noPause",             PORTRAIT_Steelman (Texture = 'general_RFA_2' HasButtons = false  )),
         ( "general_RFA_2",             PORTRAIT_Steelman (Texture = 'general_RFA_2' HasButtons = true  )),
         ( "general_US",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'general_US' )),
@@ -464,7 +470,12 @@ UseInGame_AdditionalLDHintTextureBank is TBUCKToolAdditionalTextureBank
 
     ( "general_DDR",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/general_DDR.png' ))] ),
     ( "general_DDR_2",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/general_DDR_2.png' ))] ),
+
     ( "general_RFA_2",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/general_RFA_2.png' ))] ),
+    ( "RFA_oberst_1",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/RFA_oberst_1.png' ))] ),
+    ( "RFA_major_1",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/RFA_major_1.png' ))] ),
+    ( "RFA_major_2",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/RFA_major_2.png' ))] ),
+
     ( "general_US",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/general_US.png' ))] ),
     // bad h.
     ( "bad_hersfeld_sov_01",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/bad_hersfeld/sov_01.png' ))] ),

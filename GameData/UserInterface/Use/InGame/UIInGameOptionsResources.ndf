@@ -13,7 +13,6 @@ optionsResources is TUISpecificInGameOptionsResources
     NumberOfLinesInMultipleSelection    = $/GUIOption/NumberOfLinesInMultipleSelection
     ProdMenuBehavior                    = $/GUIOption/ProdMenuBehavior
     LabelTacticAggregationType          = $/GUIOption/TacticLabelAggregation
-    AllowStrategicAggregation           = $/GUIOption/AllowStrategicAggregation
     DisplayAutoDeploy                   = $/GUIOption/ShowAutoDeploy
     CurrentComparator                   = $/GUIOption/UnitComparisonDisplayMode
 )

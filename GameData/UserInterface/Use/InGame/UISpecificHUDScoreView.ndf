@@ -154,14 +154,45 @@ private template AllianceScoreLine
                                 [
                                     BUCKListElementDescriptor
                                     (
+                                        ExtendWeight = 1.0
                                         ComponentDescriptor = BUCKTextDescriptor
                                         (
                                             ElementName = <ElementName> + "Text"
                                             ComponentFrame = TUIFramePropertyRTTI
                                             (
+                                                RelativeWidthHeight = [1.0, 1.0]
+                                                AlignementToFather = [0.0, 0.5]
+                                                AlignementToAnchor = [0.0, 0.5]
+                                            )
+
+                                            TextStyle = "Default"
+
+                                            ParagraphStyle = TParagraphStyleRTTI
+                                            (
+                                                Alignment = UIText_Left
+                                                VerticalAlignment = UIText_VerticalCenter
+                                            )
+
+                                            TextSize = <GaugeTextSize>
+                                            TextColor = "BlancEquipe"
+                                            TextToken = "DES_VALUE"
+                                            TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                                            TypefaceToken = "UIMainFont"
+
+                                            BigLineAction = ~/BigLineAction/CutByDots
+
+                                            HorizontalFitStyle = ~/FitStyle/UserDefined
+                                            VerticalFitStyle = ~/FitStyle/UserDefined
+                                        )
+                                    ),
+                                    BUCKListElementDescriptor
+                                    (
+                                        ComponentDescriptor = BUCKTextDescriptor
+                                        (
+                                            ElementName = <ElementName> + "VictoryTimer"
+                                            ComponentFrame = TUIFramePropertyRTTI
+                                            (
                                                 RelativeWidthHeight = [0.0, 1.0]
-                                                MagnifiableWidthHeight = [300.0, -4.0]
-                                                MagnifiableOffset = [0.0, 0.0]
                                                 AlignementToFather = [0.0, 0.5]
                                                 AlignementToAnchor = [0.0, 0.5]
                                             )
@@ -174,27 +205,27 @@ private template AllianceScoreLine
                                                 VerticalAlignment = UIText_VerticalCenter
                                             )
 
-                                            TextSize = <GaugeTextSize>
+                                            TextSize = "10"
                                             TextColor = "BlancEquipe"
-                                            TextToken = "DES_VALUE"
+                                            TextToken = "VIC_TIMR"
                                             TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                                            TypefaceToken = "UIMainFont"
+                                            TypefaceToken = "Eurostyle"
 
                                             BigLineAction = ~/BigLineAction/CutByDots
 
-                                            HorizontalFitStyle = ~/FitStyle/MinBetweenUserDefinedAndContent
+                                            HorizontalFitStyle = ~/FitStyle/FitToContent
                                             VerticalFitStyle = ~/FitStyle/UserDefined
                                         )
                                     ),
+                                    BUCKListElementSpacer(Magnifiable = 10.0),
                                     BUCKListElementDescriptor
                                     (
-                                        ExtendWeight = 1.0
                                         ComponentDescriptor = BUCKTextDescriptor
                                         (
                                             ElementName = <ElementName> + "IncomeText"
                                             ComponentFrame = TUIFramePropertyRTTI
                                             (
-                                                RelativeWidthHeight = [1.0, 1.0]
+                                                RelativeWidthHeight = [0.0, 1.0]
                                                 AlignementToFather = [0.0, 0.5]
                                                 AlignementToAnchor = [0.0, 0.5]
                                             )
@@ -215,7 +246,7 @@ private template AllianceScoreLine
 
                                             BigLineAction = ~/BigLineAction/CutByDots
 
-                                            HorizontalFitStyle = ~/FitStyle/UserDefined
+                                            HorizontalFitStyle = ~/FitStyle/FitToContent
                                             VerticalFitStyle = ~/FitStyle/UserDefined
                                         )
                                     )

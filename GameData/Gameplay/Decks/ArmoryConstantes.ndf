@@ -2,5 +2,5 @@
 //     tu veux une banane?
 armoryConstantes is TArmoryConstantes
 (
-    HalfSeparationEntreDeuxUnitSiDeuxUnit = [2* 200.0, 2.5 * 215.0, 0.0]
+    HalfSeparationEntreDeuxUnitSiDeuxUnit = [2* 200.0, 2.8 * 215.0, 0.0]
 )

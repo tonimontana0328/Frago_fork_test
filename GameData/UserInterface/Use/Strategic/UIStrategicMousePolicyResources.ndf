@@ -500,7 +500,7 @@ StrategicMouseWidgetSelector_BoxingOrder is TUIStrategicMouseWidgetSelectorOrder
     ValidOrderToken = "CUR_BOXVAL"
     InvalidOrderToken = "CUR_BOXINV"
 
-    SignpostTitleToken = "SIG_BOXTIT"
+    SignpostTitleToken = "ORD_ARDENY"
     SignpostBodyToken = "SIG_BOXBOD"
 )
 

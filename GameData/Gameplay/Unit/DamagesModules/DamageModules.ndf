@@ -12,9 +12,6 @@ Infanterie_SuppressDamagesRegenRatioList is
     // [20,    40],
 ]
 
-// si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
-Infanterie_SuppressDamagesRegenRatioOutOfRange is 10
-
 // Points de "stun" récupérés par seconde
 Infanterie_StunDamagesRegen is 1
 
@@ -38,9 +35,6 @@ GroundUnit_SuppressDamagesRegenRatioList is
     // [10,    10],
 ]
 
-// si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
-GroundUnit_SuppressDamagesRegenRatioOutOfRange is 10
-
 // Points de "stun" récupérés par seconde
 GroundUnit_StunDamagesRegen is 1
 
@@ -63,9 +57,6 @@ Airplane_SuppressDamagesRegenRatioList is
     // [10,    10],
 ]
 
-// si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
-Airplane_SuppressDamagesRegenRatioOutOfRange is 100
-
 // Points de "stun" récupérés par seconde
 Airplane_StunDamagesRegen is 9999
 
@@ -86,9 +77,6 @@ Bunker_SuppressDamagesRegenRatioList is
 [
     [30, 10],   // 10s => regen x1
 ]
-
-// si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
-Bunker_SuppressDamagesRegenRatioOutOfRange is 10
 
 // Points de "stun" récupérés par seconde
 Bunker_StunDamagesRegen is 9999
@@ -112,14 +100,11 @@ Helico_SuppressDamagesRegenRatioList is
     [10,    10],
 ]
 
-// si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
-Helico_SuppressDamagesRegenRatioOutOfRange is 10
-
 // Points de "stun" récupérés par seconde
 Helico_StunDamagesRegen is 1
 
 // Dégâts de "stun" que l'unité doit atteindre pour être stunned (dégâts augmentant avec les dégâts de suppressions et regénérés avec StunDamagesRegen)
-Helico_MaxStunDamages is 150
+Helico_MaxStunDamages is 300
 
 Helico_MaxSuppressionDamages is 500
 
@@ -135,9 +120,6 @@ Building_SuppressDamagesRegenRatioList is
 [
     [30, 10],   // 10s => regen x1
 ]
-
-// si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
-Building_SuppressDamagesRegenRatioOutOfRange is 20
 
 // Points de "stun" récupérés par seconde
 Building_StunDamagesRegen is 5
@@ -158,9 +140,6 @@ Missile_SuppressDamagesRegenRatioList is
 [
     [30, 5],    // 10s => regen x1
 ]
-
-// si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
-Missile_SuppressDamagesRegenRatioOutOfRange is 20
 
 // Points de "stun" récupérés par seconde
 Missile_StunDamagesRegen is 5

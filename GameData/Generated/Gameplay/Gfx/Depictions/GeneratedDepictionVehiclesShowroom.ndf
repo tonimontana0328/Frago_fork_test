@@ -1125,6 +1125,12 @@ Gfx_Howz_M46_130mm_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Selector = Selector_Howz_M46_130mm_DDR
     SubDepictions = HumanSubDepictionsShowroom_Howz_M46_130mm_DDR
 )
+Gfx_Howz_MstaB_150mm_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_Howz_MstaB_150mm_SOV
+    Selector = Selector_Howz_MstaB_150mm_SOV
+    SubDepictions = HumanSubDepictionsShowroom_Howz_MstaB_150mm_SOV
+)
 Gfx_Howz_ZiS3_76mm_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_Howz_ZiS3_76mm_DDR
@@ -1643,6 +1649,11 @@ Gfx_M1A1_Abrams_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Alternatives = Alternatives_M1A1_Abrams_US
     Selector = Selector_M1A1_Abrams_US
 )
+Gfx_M1A1_Abrams_reco_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_M1A1_Abrams_reco_US
+    Selector = Selector_M1A1_Abrams_reco_US
+)
 Gfx_M1IP_Abrams_CMD_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_M1IP_Abrams_CMD_US
@@ -1935,6 +1946,12 @@ Gfx_Mortier_2B9_Vasilek_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Selector = Selector_Mortier_2B9_Vasilek_SOV
     SubDepictions = HumanSubDepictionsShowroom_Mortier_2B9_Vasilek_SOV
 )
+Gfx_Mortier_2B9_Vasilek_nonPara_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_Mortier_2B9_Vasilek_nonPara_SOV
+    Selector = Selector_Mortier_2B9_Vasilek_nonPara_SOV
+    SubDepictions = HumanSubDepictionsShowroom_Mortier_2B9_Vasilek_nonPara_SOV
+)
 Gfx_Mortier_2S12_120mm_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_Mortier_2S12_120mm_SOV
@@ -2159,6 +2176,11 @@ Gfx_T72_DDR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_T72_DDR
     Selector = Selector_T72_DDR
+)
+Gfx_T80BV_Beast_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_T80BV_Beast_SOV
+    Selector = Selector_T80BV_Beast_SOV
 )
 Gfx_T80BV_CMD_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (

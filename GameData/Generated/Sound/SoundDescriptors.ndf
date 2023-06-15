@@ -4460,6 +4460,71 @@ export SoundHappening_FULDA_DRAGON_Firing is TSoundHappening
     )
     Volume = 2
 )
+export SoundHappening_FULDA_DShKM is TSoundHappening
+(
+    SoundDescList = TSoundDescriptorList
+    (
+        Items = 
+        [
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Mitrailleuse_lourde
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/HMG/DShK_Firing_1.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Mitrailleuse_lourde
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/HMG/DShK_Firing_2.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Mitrailleuse_lourde
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/HMG/DShK_Firing_3.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Mitrailleuse_lourde
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/HMG/DShK_Firing_4.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Mitrailleuse_lourde
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/HMG/DShK_Firing_5.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Mitrailleuse_lourde
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/HMG/DShK_Firing_6.wav"
+                )
+                UseSpecialLoop = False
+            ),
+        ]
+        PlayInRandomOrder = True
+    )
+    Volume = 1
+)
 export SoundHappening_FULDA_Drop_Bomb is TSoundHappening
 (
     SoundDescList = TSoundDescriptorList

@@ -46,7 +46,7 @@ is TDepictionTemplate
             ),
     ]
     Operators = [
-        DepictionOperator_Shader_Ghost,
+        DepictionOperator_Shader_GhostTactic,
     ]
 )
 

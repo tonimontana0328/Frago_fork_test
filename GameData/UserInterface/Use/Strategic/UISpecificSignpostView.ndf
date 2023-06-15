@@ -4,12 +4,16 @@ BUCKSpecificSimpleSignMainComponentDescriptor is BUCKListDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [1.0, 0.0]
+        MagnifiableOffset = [20,0]
     )
 
-    HasBackground = true
-    BackgroundBlockColorToken = "DarkGray"
+    // HasBackground = true
+    // BackgroundBlockColorToken = "SM_Noir_80"
 
-    InterItemMargin = TRTTILength( Pixel = 2.0 )
+    // InterItemMargin = TRTTILength( Pixel = 2.0 )
+    FirstMargin = TRTTILength( Magnifiable = 20.0 )
+    InterItemMargin = TRTTILength( Magnifiable = 10.0 )
+    LastMargin = TRTTILength( Magnifiable = 20.0 )
 
     Axis = ~/ListAxis/Vertical
 
@@ -35,7 +39,7 @@ BUCKSpecificSimpleSignMainComponentDescriptor is BUCKListDescriptor
                 )
 
                 TextStyle = 'Default'
-                TypefaceToken = "UIMainFont"
+                TypefaceToken = "Liberator"
 
                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
                 TextSize = 'Strategic/Signpost/Title'
@@ -44,7 +48,7 @@ BUCKSpecificSimpleSignMainComponentDescriptor is BUCKListDescriptor
         ),
         BUCKListElementDescriptor
         (
-            ExtendWeight = 1
+            // ExtendWeight = 1
 
             ComponentDescriptor = BUCKTextDescriptor
             (
@@ -73,6 +77,15 @@ BUCKSpecificSimpleSignMainComponentDescriptor is BUCKListDescriptor
                 TextColor = 'LightestGray'
             )
         ),
+    ]
+
+    BackgroundComponents =
+    [
+        PanelRoundedCorner
+        (
+            BackgroundBlockColorToken = 'SM_Noir_80'
+            BorderLineColorToken = 'Transparent'
+        )
     ]
 )
 

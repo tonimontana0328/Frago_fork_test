@@ -270,10 +270,19 @@ template TemplateInfantryDepictionFactoryGhost
 [
     Alternatives,
     Surrogates = [['high', '01']]
-] is TemplateInfantryDepictionFactory
+] is TDepictionTemplate
 (
     ResidentMaterialTags = [ MaterialTagGhost ]
-    Alternatives = <Alternatives>
+    Scaler = CommonInfantryScaler
+    Selector = TInfantryLodSelector
+    (
+        HighSurrogates = <Surrogates>
+        HighLowLimitInMeter = LodHighLowLimit_Infantry
+        LowNoneLimitInMeter = LodLowNoneLimit_Infantry
+        CameraMoverManagerModernWarfare = $/Camera/CameraMoverManager
+        OptionalLimit = $/GraphicOption/ModelQuality
+    )
+    DepictionAlternatives = <Alternatives> + [DepictionDescriptor_LOD_InfantryNone]
     Operators = [ DepictionOperator_FreezeAnimation_Ghost, DepictionOperator_Shader_Ghost ]
 )
 
@@ -336,7 +345,7 @@ template TransportedInfantryDepiction
         OptionalLimit = $/GraphicOption/ModelQuality
     )
 
-    Operators = [ TCosmeticFreezeSkeletalAnimationOperatorDesc(Animation = FusilierTransport), DepictionOperator_Shader_Ghost ]
+    Operators = [ TCosmeticFreezeSkeletalAnimationOperatorDesc(Animation = FusilierTransport), DepictionOperator_Shader_GhostTactic ]
 
     DepictionAlternatives = <Alternatives>
         + [ DepictionDescriptor_LOD_High( MeshDescriptor = FuldaSoldier ) ] //pour avoir un 'high' pour le skeleton
@@ -344,16 +353,13 @@ template TransportedInfantryDepiction
 
 template GhostUnitDepictionTemplate
 [ Selector, Scaler, Alternatives ]
-is TTimelyDepictionReceiverFactory
+is TDepictionTemplate
 (
-    DepictionTemplate = TDepictionTemplate
-    (
-        ResidentMaterialTags = [ MaterialTagGhost ]
-        Scaler = <Scaler>
-        Selector = <Selector>
-        DepictionAlternatives = <Alternatives>
-        Operators = [ DepictionOperator_Shader_Ghost ]
-    )
+    ResidentMaterialTags = [ MaterialTagGhost ]
+    Scaler = <Scaler>
+    Selector = <Selector>
+    DepictionAlternatives = <Alternatives>
+    Operators = [ DepictionOperator_Shader_Ghost ]
 )
 
 template GhostVehicleDepictionTemplate

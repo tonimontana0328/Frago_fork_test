@@ -423,6 +423,126 @@ Gfx_AH1F_ATAS_US_Autogen is TacticAerialDepictionTemplate
 
         SubDepictionGenerators = [ SubGenerators_AH1F_ATAS_US ]
 )
+// Dépiction de l'unité AH1F_CNITE_US
+Op_AH1F_CNITE_US_Weapon1 is DepictionOperator_WeaponContinuousFire
+(
+    Anchors = 
+    [
+        "fx_tourelle1_tir_01",
+    ]
+    FireEffectTag = "weapon_effet_tag1"
+    NbFX = 1
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+)
+Op_AH1F_CNITE_US_Weapon2 is DepictionOperator_WeaponContinuousFire
+(
+    Anchors = 
+    [
+        "fx_tourelle1_tir_01",
+    ]
+    FireEffectTag = "weapon_effet_tag2"
+    NbFX = 1
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_2"
+    WeaponShootDataPropertyName = "WeaponShootData_0_2"
+)
+Op_AH1F_CNITE_US_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
+(
+    Connoisseur = MissileCarriage_AH1F_CNITE_US
+    FireEffectTag = "weapon_effet_tag3"
+    NbProj = 1
+    WeaponIndex = 3
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_3",
+    ]
+)
+Op_AH1F_CNITE_US_Weapon4 is DepictionOperator_WeaponMissileCarriageFire
+(
+    Connoisseur = MissileCarriage_AH1F_CNITE_US
+    FireEffectTag = "weapon_effet_tag4"
+    NbProj = 1
+    WeaponIndex = 2
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_4",
+    ]
+)
+Gfx_AH1F_CNITE_US_Autogen is TacticAerialDepictionTemplate
+(
+        CoatingName = 'AH1F_CNITE_US'
+        Selector = SpecificHelicoDepictionSelector
+        Alternatives = Alternatives_AH1F_CNITE_US
+
+        Operators = 
+        [
+            DepictionOperator_MovementSound_SM_Helico_petit,
+            DepictionOperator_Turret_1_Aim,
+            Op_AH1F_CNITE_US_Weapon1,
+            Op_AH1F_CNITE_US_Weapon2,
+            Op_AH1F_CNITE_US_Weapon3,
+            Op_AH1F_CNITE_US_Weapon4,
+            DepictionOperator_CriticalEffects,
+            DepictionOperator_HelicopterLanding,
+            DepictionOperator_GroundPuff_Helico,
+            DepictionOperator_ShadowPointCloudProvider,
+            DepictionOperator_Rotors
+            (
+                RotorList = 
+                [
+                    TRotor
+                    (
+                        BladesBoneName = "helice_ls_1"
+                        BlurActionId = 
+                        [
+                            "FX_Helice_1",
+                        ]
+                        Clockwise = False
+                        NbBlade = 2
+                        RotationAxis = VECTOR[0, 0, 1]
+                        RotationSpeed = 242
+                        RotorBoneName = "bloc_moteur_1"
+                    ),
+                    TRotor
+                    (
+                        BladesBoneName = "helice_ls_2"
+                        BlurActionId = 
+                        [
+                            "FX_Helice_2",
+                        ]
+                        Clockwise = False
+                        NbBlade = 2
+                        RotationAxis = VECTOR[0, 1, 0]
+                        RotationSpeed = 242
+                        RotorBoneName = "bloc_moteur_2"
+                    ),
+                ]
+            ),
+            DepictionOperator_Feedback_Degat_Level1,
+            DepictionOperator_Feedback_Degat_Level2,
+            DepictionOperator_Heat,
+            DepictionOperator_TurretCannonGatling_SlowRotation( XAxisHasTargetPhysicalPropertyName = "tourelle1target" XAxisRotationNode = "canon_01" ),
+            DepictionOperator_Flares,
+        ]
+        Actions = MAP[
+                    ( [ "weapon_effet_tag1" ], Weapon_Gatling_M197_20mm ),
+                    ( [ "weapon_effet_tag2" ], Weapon_Gatling_AP_M197_20mm ),
+                    ( [ "weapon_effet_tag3" ], Weapon_ATGM_BGM71D_TOW_2_x4 ),
+                    ( [ "weapon_effet_tag4" ], Weapon_RocketAir_Hydra_70mm_x19 ),
+                ]
+                + DepictionAction_Stress_And_Wrecked_Helicopter
+                + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1400 PaleCount = 2 RotationAxis = VECTOR[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
+                + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 350 PaleCount = 2 RotationAxis = VECTOR[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
+                + DepictionAction_CriticalFX_Helicopter
+                + DepictionAction_Flare_Simple
+
+        SubDepictions = [
+            SubDepiction_Pilote1(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_US MeshDescriptorLow = MeshDescriptor_Pilote_Helico_US_LOW),
+            SubDepiction_Pilote2(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_US MeshDescriptorLow = MeshDescriptor_Pilote_Helico_US_LOW),
+        ]
+
+        SubDepictionGenerators = [ SubGenerators_AH1F_CNITE_US ]
+)
 // Dépiction de l'unité AH1F_Cobra_US
 Op_AH1F_Cobra_US_Weapon1 is DepictionOperator_WeaponContinuousFire
 (
@@ -14233,6 +14353,52 @@ Gfx_Su_24MP_SOV_Autogen is TacticAerialDepictionTemplate
 
         SubDepictionGenerators = [ SubGenerators_Su_24MP_SOV ]
 )
+// Dépiction de l'unité Su_24M_LGB_SOV
+Op_Su_24M_LGB_SOV_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
+(
+    Connoisseur = MissileCarriage_Su_24M_LGB_SOV
+    FireEffectTag = "weapon_effet_tag1"
+    NbProj = 2
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_1",
+        "WeaponShootData_1_1",
+    ]
+)
+Gfx_Su_24M_LGB_SOV_Autogen is TacticAerialDepictionTemplate
+(
+        CoatingName = 'Su_24M_LGB_SOV'
+        Selector = SpecificAirplaneDepictionSelector
+        Alternatives = Alternatives_Su_24M_LGB_SOV
+
+        Operators = 
+        [
+            DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU24,
+            Op_Su_24M_LGB_SOV_Weapon1,
+            DepictionOperator_CriticalEffects,
+            DepictionOperator_AirplaneParts,
+            DepictionOperator_Airplane,
+            DepictionOperator_AirplaneShadow,
+            DepictionOperator_Feedback_Degat_Level1,
+            DepictionOperator_Feedback_Degat_Level2,
+            DepictionOperator_Flares,
+        ]
+        Actions = MAP[
+                    ( [ "weapon_effet_tag1" ], Weapon_Bomb_KAB_1500Kr_x2 ),
+                ]
+                + DepictionAction_Stress_And_Wrecked_Avion
+                + DepictionAction_CriticalFX_Airplane
+                + DepictionAction_MovementFX_DoubleReactorAirplane
+                + DepictionAction_Flare_Simple
+
+        SubDepictions = [
+            SubDepiction_Pilote1(MeshDescriptorHigh = MeshDescriptor_Pilote_SOV MeshDescriptorLow = MeshDescriptor_Pilote_SOV_LOW),
+            SubDepiction_Pilote2(MeshDescriptorHigh = MeshDescriptor_Pilote_SOV MeshDescriptorLow = MeshDescriptor_Pilote_SOV_LOW),
+        ]
+
+        SubDepictionGenerators = [ SubGenerators_Su_24M_LGB_SOV ]
+)
 // Dépiction de l'unité Su_24M_SOV
 Op_Su_24M_SOV_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
 (
@@ -14277,6 +14443,51 @@ Gfx_Su_24M_SOV_Autogen is TacticAerialDepictionTemplate
         ]
 
         SubDepictionGenerators = [ SubGenerators_Su_24M_SOV ]
+)
+// Dépiction de l'unité Su_24M_clu2_SOV
+Op_Su_24M_clu2_SOV_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
+(
+    Connoisseur = MissileCarriage_Su_24M_clu2_SOV
+    FireEffectTag = "weapon_effet_tag1"
+    NbProj = 1
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_1",
+    ]
+)
+Gfx_Su_24M_clu2_SOV_Autogen is TacticAerialDepictionTemplate
+(
+        CoatingName = 'Su_24M_clu2_SOV'
+        Selector = SpecificAirplaneDepictionSelector
+        Alternatives = Alternatives_Su_24M_clu2_SOV
+
+        Operators = 
+        [
+            DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU24,
+            Op_Su_24M_clu2_SOV_Weapon1,
+            DepictionOperator_CriticalEffects,
+            DepictionOperator_AirplaneParts,
+            DepictionOperator_Airplane,
+            DepictionOperator_AirplaneShadow,
+            DepictionOperator_Feedback_Degat_Level1,
+            DepictionOperator_Feedback_Degat_Level2,
+            DepictionOperator_Flares,
+        ]
+        Actions = MAP[
+                    ( [ "weapon_effet_tag1" ], Weapon_Bomb_CLU_RBK_500kg_x8 ),
+                ]
+                + DepictionAction_Stress_And_Wrecked_Avion
+                + DepictionAction_CriticalFX_Airplane
+                + DepictionAction_MovementFX_DoubleReactorAirplane
+                + DepictionAction_Flare_Simple
+
+        SubDepictions = [
+            SubDepiction_Pilote1(MeshDescriptorHigh = MeshDescriptor_Pilote_SOV MeshDescriptorLow = MeshDescriptor_Pilote_SOV_LOW),
+            SubDepiction_Pilote2(MeshDescriptorHigh = MeshDescriptor_Pilote_SOV MeshDescriptorLow = MeshDescriptor_Pilote_SOV_LOW),
+        ]
+
+        SubDepictionGenerators = [ SubGenerators_Su_24M_clu2_SOV ]
 )
 // Dépiction de l'unité Su_24M_clu_SOV
 Op_Su_24M_clu_SOV_Weapon1 is DepictionOperator_WeaponMissileCarriageFire

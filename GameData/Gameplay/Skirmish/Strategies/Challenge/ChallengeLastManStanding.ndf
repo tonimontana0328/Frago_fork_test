@@ -1,0 +1,138 @@
+//-------------------------------------------------------------------------
+//----------------------------- STRATEGY ----------------------------------
+//-------------------------------------------------------------------------
+export ChallengeLastManStandingStrategy is TIAGeneralStrategy
+(
+    StrategyName = "ChalLMSAI"
+    FirstGenerator = ChalLastManStanding_Choose_Strategy
+    ConstantesMap = MAP[
+        ("ForceTacticalMoveAndAttack", TEugBBoolean(Value = true)),
+    ]
+    AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
+    TransitionList =
+    [
+        ChalLastManStanding_Transition_StartToPhaseCommand,
+        ChalLastManStanding_Transition_StartToGeneric,
+        ChalLastManStanding_Transition_DeployToCommandPhase,
+    ]
+)
+
+//-------------------------------------------------------------------------
+//---------------------------- CONDITIONS ---------------------------------
+//-------------------------------------------------------------------------
+export ChalLastManStanding_Condition_GotoGeneric is TSequenceCondition_True
+(
+)
+//-------------------------------------------------------------------------
+export ChalLastManStanding_Condition_CommandPhase is TSequenceCondition_Phase
+(
+    PhaseType = CommandPhase
+)
+
+//-------------------------------------------------------------------------
+//--------------------------- TRANSITIONS ---------------------------------
+//-------------------------------------------------------------------------
+export ChalLastManStanding_Transition_StartToPhaseCommand is TIAGeneralStrategyTransition
+(
+    Origine = ChalLastManStanding_Choose_Strategy
+    Condition = ChalLastManStanding_Condition_CommandPhase
+    Destination = ChalLastManStanding_Phase_Command
+)
+export ChalLastManStanding_Transition_StartToGeneric is TIAGeneralStrategyTransition
+(
+    Origine = ChalLastManStanding_Choose_Strategy
+    Condition = ChalLastManStanding_Condition_GotoGeneric
+    Destination = ChalLastManStanding_Phase_Deploiement
+)
+//-------------------------------------------------------------------------
+export ChalLastManStanding_Transition_DeployToCommandPhase is TIAGeneralStrategyTransition
+(
+    Origine = ChalLastManStanding_Phase_Deploiement
+    Condition = ChalLastManStanding_Condition_CommandPhase
+    Destination = ChalLastManStanding_Phase_Command
+)
+
+//-------------------------------------------------------------------------
+//------------------------------ PHASES -----------------------------------
+//-------------------------------------------------------------------------
+export ChalLastManStanding_Choose_Strategy is TSequenceGeneratorDescriptor
+(
+    // Fake phase qui permet juste d'orienter la strategie dans la direction voulue
+    NbMacroActionAllowedToProduceSimultaneous = 9001
+    GeneratorList =
+    [
+        ~/Support_Transports,
+        ~/Supply_Skirmish,
+    ]
+)
+//-------------------------------------------------------------------------
+export ChalLastManStanding_Phase_Deploiement is TSequenceGeneratorDescriptor
+(
+    NbMacroActionAllowedToProduceSimultaneous = 4
+    GeneratorList =
+    [
+        ~/Support_Transports,
+        ~/Supply_Skirmish,
+
+        ~/Challenge_CaptureOneObjectif_LowCost, //Dependant du deck estimation 125
+
+        ~/Attack_Main, //Environ 400
+
+        ~/Airstrike_Assault,
+        ~/Airstrike_Offense,
+
+        ~/Attack_Helo, //Environ 250
+
+        ~/Defense_Objectif, //Chere mais dépendant du nombre d'objectif et de la capture
+
+        ~/Artillery_TriggerHappy_1for2Corridors,
+
+        ~/Challenge_CaptureAllZoneObjectif,
+
+        ~/Artillery_Expensive,
+    ]
+    ScalingGeneratorList = ~/Challenge_LastManStanding_Scaling
+)
+//-------------------------------------------------------------------------
+export ChalLastManStanding_Phase_Command is TSequenceGeneratorDescriptor
+(
+    NbMacroActionAllowedToProduceSimultaneous = 3
+    GeneratorList =
+    [
+        ~/Support_Transports,
+        ~/Supply_Skirmish,
+
+        ~/Challenge_CaptureOneObjectif_LowCost, //Dependant du deck estimation 125
+
+        ~/Attack_Main, //Environ 400
+
+        ~/Airstrike_Assault,
+        ~/Airstrike_Offense,
+
+        ~/Attack_Helo, //Environ 250
+
+        ~/Defense_Objectif, //Chere mais dépendant du nombre d'objectif et de la capture
+
+        ~/Artillery_TriggerHappy_1for2Corridors,
+
+        ~/Challenge_CaptureAllZoneObjectif,
+
+        ~/Artillery_Expensive,
+        ~/Attack_Adaptive,          // Environ 200
+    ]
+    ScalingGeneratorList = ~/Challenge_LastManStanding_Scaling
+)
+
+Challenge_LastManStanding_Scaling is
+[
+    ~/Attack_Main_Autogen,
+    ~/Attack_Helo_Autogen,
+
+    ~/Attack_Adaptive_Autogen,
+
+    ~/Airstrike_Assault_Autogen,
+    ~/Airstrike_Offense_Autogen,
+    ~/Airstrike_Defense_Autogen,
+
+    ~/Artillery_TriggerHappy_Autogen,
+]

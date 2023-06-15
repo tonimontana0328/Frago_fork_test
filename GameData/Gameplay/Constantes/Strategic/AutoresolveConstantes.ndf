@@ -12,6 +12,7 @@ private NoRecoAdvantage is TCombatAdvantageDefinition
     AdvantageValue = 0.5
     // Alexis test à remplacer quand NoInfantryAdvantage fonctionnera
     TextToken = 'CA_RECO'
+    ShowTextForAdvantageWinner = false
     TagToCheck = ['Char_Reco', 'Helo_Reco', 'Infanterie_Reco', 'Vehicule_Reco']
     TagToCheckAgainst = ['Char_Reco', 'Helo_Reco', 'Infanterie_Reco', 'Vehicule_Reco']
 )
@@ -20,6 +21,7 @@ private NoAAAdvantage is TCombatAdvantageDefinition
 (
     AdvantageValue = 1
     TextToken = 'CA_AA'
+    ShowTextForAdvantageWinner = false
     TagToCheck = [ 'Helo', 'Avion' ]
     TagToCheckAgainst = [ 'Canon_AA', 'Avion_Chasseur','Canon_AA_Standard', 'Avion' ]
 )
@@ -27,6 +29,7 @@ private NoHeavyTank_advantage is TCombatAdvantageDefinition
 (
     AdvantageValue = 0.5
     TextToken = 'CA_HT'
+    ShowTextForAdvantageWinner = false
     TagToCheck = [ 'SM_charLourd' ]
     TagToCheckAgainst = [ 'SM_charLourd' ]
 )
@@ -35,6 +38,7 @@ private NoATAdvantage is TCombatAdvantageDefinition
 (
     AdvantageValue = 1
     TextToken = 'CA_AT'
+    ShowTextForAdvantageWinner = false
     TagToCheck = [ 'Char', 'ChasseurDeChar','Avion_AT',]
     TagToCheckAgainst = [ 'Char', 'ChasseurDeChar','Avion_AT',]
 )
@@ -42,6 +46,7 @@ private NoCMD_Advantage is TCombatAdvantageDefinition
 (
     AdvantageValue = 2
     TextToken = 'CA_CMD'
+    ShowTextForAdvantageWinner = false
     TagToCheck = [ 'Commandant']
     TagToCheckAgainst = [ 'Commandant']
 )
@@ -49,6 +54,7 @@ private NoInfantryAdvantage is TCombatAdvantageDefinition
 (
     AdvantageValue = 2
     TextToken = 'CA_INF'
+    ShowTextForAdvantageWinner = false
     TagToCheck = [ 'Infanterie' ]
     TagToCheckAgainst = [ 'Infanterie']
 )
@@ -56,6 +62,7 @@ private NoSupply_Advantage is TCombatAdvantageDefinition
 (
     AdvantageValue = 0.5
     TextToken = 'CA_supply'
+    ShowTextForAdvantageWinner = false
     TagToCheck = [ 'Helo_Logistique', 'Vehicule_Logistique']
     TagToCheckAgainst = [ 'Helo_Logistique', 'Vehicule_Logistique']
 )
@@ -63,15 +70,25 @@ private NoAirSupport_Advantage is TCombatAdvantageDefinition
 (
     AdvantageValue = 0.5
     TextToken = 'CA_airsup'
+    ShowTextForAdvantageWinner = false
     TagToCheck = [ 'Avion']
     TagToCheckAgainst = [ 'Avion']
 )
 private DCA_air is TCombatAdvantageDefinition
 (
-    AdvantageValue = 2
+    AdvantageValue = 15
     TextToken = 'CA_DCA'
+    ShowTextForAdvantageWinner = true
     TagToCheck = [ 'Canon_AA' ]
     TagToCheckAgainst = [ 'Avion_SEAD']
+)
+private interception_air_air is TCombatAdvantageDefinition
+(
+    AdvantageValue = 15
+    TextToken = 'CA_intAA'
+    ShowTextForAdvantageWinner = true
+    TagToCheck = [ 'Avion_Chasseur' ]
+    TagToCheckAgainst = [ 'Avion_Chasseur']
 )
 
 private VeryLuckyDefender is TStrategicAutoresolveAlea
@@ -93,6 +110,11 @@ private NeutralLuck is TStrategicAutoresolveAlea
     TriggerWeight = 60
 )
 
+private InterceptionNeutralLuck is TStrategicAutoresolveAlea
+(
+    TriggerWeight = 83
+)
+
 private LuckyAttacker is TStrategicAutoresolveAlea
 (
     TriggerWeight = 20
@@ -100,21 +122,49 @@ private LuckyAttacker is TStrategicAutoresolveAlea
     TextToken = "AAR_AL"
 )
 
-private VeryLuckyAttacker is TStrategicAutoresolveAlea
+// private VeryLuckyAttacker is TStrategicAutoresolveAlea
+// (
+//     TriggerWeight = 16
+//     ModificationValue = 15
+//     TextToken = "AAR_AVL"
+// )
+
+private LuckyHostile is TStrategicAutoresolveAlea
 (
-    TriggerWeight = 5
-    ModificationValue = 1.0
-    TextToken = "AAR_AVL"
+    TriggerWeight = 16
+    ModificationValue = 15
+    TextToken = "AAR_HL"
 )
+
+
 
 StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
 (
-    Aleas = [
-        // ~/VeryLuckyDefender,
-        ~/LuckyDefender,
-        ~/NeutralLuck,
-        ~/LuckyAttacker,
-        // ~/VeryLuckyAttacker,
+    AleasByCombatType = MAP
+    [
+        ( EStrategicBattleType_GroundStrategicBattle,
+            [
+                // ~/VeryLuckyDefender,
+                ~/LuckyDefender,
+                ~/NeutralLuck,
+                ~/LuckyAttacker,
+                // ~/VeryLuckyAttacker,
+            ]
+        ),
+        ( EStrategicBattleType_AerialStrategicBattle,
+            [
+
+                ~/InterceptionNeutralLuck,
+                ~/LuckyHostile,
+
+            ]
+        ),
+        ( EStrategicBattleType_AirGroundStrategicBattle,
+            [
+                ~/InterceptionNeutralLuck,
+                ~/LuckyHostile,
+            ]
+        ),
     ]
 
     PertesAttaquant = perte_mixte_0
@@ -151,7 +201,7 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
         ),
         ( EStrategicBattleType_AerialStrategicBattle, MAP
             [
-                ( ~/EAutoresolveAvantage_NoAntiAirVersusAir,   ~/NoAAAdvantage ),
+                ( ~/EAutoresolveAvantage_interception_air_air,   ~/interception_air_air ),
             ]
         ),
         ( EStrategicBattleType_AirGroundStrategicBattle, MAP

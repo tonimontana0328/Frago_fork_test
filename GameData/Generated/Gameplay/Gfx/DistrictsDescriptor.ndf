@@ -73,34 +73,28 @@ export Descriptor_District_Quartier_Gros is TEntityDescriptor(
                 LowAltitudeFlyingAltitude  = ((0) * Metre)
                 NearGroundFlyingAltitude   = ((0) * Metre)
             ),
+            TBaseDamageModuleDescriptor
+            (
+                MaxPhysicalDamages = 45
+                MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+                MaxStunDamages = ~/Building_MaxStunDamages
+            ),
             TDamageModuleDescriptor
             (
-                CommonDamageDescriptor = TDamageDescriptor
+                SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+                StunDamagesRegen = ~/Building_StunDamagesRegen
+                BlindageProperties = TBlindageProperties
                 (
-                    SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
-                    SuppressDamagesRegenRatioOutOfRange = ~/Building_SuppressDamagesRegenRatioOutOfRange
-                    StunDamagesRegen = ~/Building_StunDamagesRegen
-                    StunFreezesUnits = False
-                    BlindageProperties = TBlindageProperties
-                    (
-                        ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorTop = ArmorDescriptor_Batiment_1
-                    )
-                    MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
-                    MaxStunDamages = ~/Building_MaxStunDamages
+                    ArmorDescriptorFront = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorSides = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorRear = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorTop = ArmorDescriptor_Batiment_1
                 )
-                MaxDamages = 45
-                KillWhenDamagesReachMax = false
+                KillWhenDamagesReachMax = False
                 HitRollSize = 5.0
                 HitRollECM = 0.0
                 AutoOrientation = False
-                SkipCadavreCreation  = True
                 UseTopArmorAgainstFire = True
-                PhysicalDamageLevelsPack = nil
-                SuppressDamageLevelsPack = nil
-                StunDamageLevelsPack = nil
             ),
         ~/DistrictSelectionModuleDescriptor,
         TShootingPointsModuleDescriptor
@@ -212,34 +206,28 @@ export Descriptor_District_Quartier_HLM is TEntityDescriptor(
                 LowAltitudeFlyingAltitude  = ((0) * Metre)
                 NearGroundFlyingAltitude   = ((0) * Metre)
             ),
+            TBaseDamageModuleDescriptor
+            (
+                MaxPhysicalDamages = 90
+                MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+                MaxStunDamages = ~/Building_MaxStunDamages
+            ),
             TDamageModuleDescriptor
             (
-                CommonDamageDescriptor = TDamageDescriptor
+                SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+                StunDamagesRegen = ~/Building_StunDamagesRegen
+                BlindageProperties = TBlindageProperties
                 (
-                    SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
-                    SuppressDamagesRegenRatioOutOfRange = ~/Building_SuppressDamagesRegenRatioOutOfRange
-                    StunDamagesRegen = ~/Building_StunDamagesRegen
-                    StunFreezesUnits = False
-                    BlindageProperties = TBlindageProperties
-                    (
-                        ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorTop = ArmorDescriptor_Batiment_1
-                    )
-                    MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
-                    MaxStunDamages = ~/Building_MaxStunDamages
+                    ArmorDescriptorFront = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorSides = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorRear = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorTop = ArmorDescriptor_Batiment_1
                 )
-                MaxDamages = 90
                 KillWhenDamagesReachMax = False
                 HitRollSize = 5.0
                 HitRollECM = 0.0
                 AutoOrientation = False
-                SkipCadavreCreation  = True
                 UseTopArmorAgainstFire = True
-                PhysicalDamageLevelsPack = nil
-                SuppressDamageLevelsPack = nil
-                StunDamageLevelsPack = nil
             ),
         ~/DistrictSelectionModuleDescriptor,
         TShootingPointsModuleDescriptor
@@ -351,34 +339,28 @@ export Descriptor_District_Quartier_Moyen is TEntityDescriptor(
                 LowAltitudeFlyingAltitude  = ((0) * Metre)
                 NearGroundFlyingAltitude   = ((0) * Metre)
             ),
+            TBaseDamageModuleDescriptor
+            (
+                MaxPhysicalDamages = 15
+                MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+                MaxStunDamages = ~/Building_MaxStunDamages
+            ),
             TDamageModuleDescriptor
             (
-                CommonDamageDescriptor = TDamageDescriptor
+                SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+                StunDamagesRegen = ~/Building_StunDamagesRegen
+                BlindageProperties = TBlindageProperties
                 (
-                    SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
-                    SuppressDamagesRegenRatioOutOfRange = ~/Building_SuppressDamagesRegenRatioOutOfRange
-                    StunDamagesRegen = ~/Building_StunDamagesRegen
-                    StunFreezesUnits = False
-                    BlindageProperties = TBlindageProperties
-                    (
-                        ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorTop = ArmorDescriptor_Batiment_1
-                    )
-                    MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
-                    MaxStunDamages = ~/Building_MaxStunDamages
+                    ArmorDescriptorFront = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorSides = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorRear = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorTop = ArmorDescriptor_Batiment_1
                 )
-                MaxDamages = 15
-                KillWhenDamagesReachMax = false
+                KillWhenDamagesReachMax = False
                 HitRollSize = 5.0
                 HitRollECM = 0.0
                 AutoOrientation = False
-                SkipCadavreCreation  = True
                 UseTopArmorAgainstFire = True
-                PhysicalDamageLevelsPack = nil
-                SuppressDamageLevelsPack = nil
-                StunDamageLevelsPack = nil
             ),
         ~/DistrictSelectionModuleDescriptor,
         TShootingPointsModuleDescriptor
@@ -490,34 +472,28 @@ export Descriptor_District_Quartier_Petit is TEntityDescriptor(
                 LowAltitudeFlyingAltitude  = ((0) * Metre)
                 NearGroundFlyingAltitude   = ((0) * Metre)
             ),
+            TBaseDamageModuleDescriptor
+            (
+                MaxPhysicalDamages = 15
+                MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+                MaxStunDamages = ~/Building_MaxStunDamages
+            ),
             TDamageModuleDescriptor
             (
-                CommonDamageDescriptor = TDamageDescriptor
+                SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+                StunDamagesRegen = ~/Building_StunDamagesRegen
+                BlindageProperties = TBlindageProperties
                 (
-                    SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
-                    SuppressDamagesRegenRatioOutOfRange = ~/Building_SuppressDamagesRegenRatioOutOfRange
-                    StunDamagesRegen = ~/Building_StunDamagesRegen
-                    StunFreezesUnits = False
-                    BlindageProperties = TBlindageProperties
-                    (
-                        ArmorDescriptorFront = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorSides = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorRear = ArmorDescriptor_Batiment_1
-                        ArmorDescriptorTop = ArmorDescriptor_Batiment_1
-                    )
-                    MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
-                    MaxStunDamages = ~/Building_MaxStunDamages
+                    ArmorDescriptorFront = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorSides = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorRear = ArmorDescriptor_Batiment_1
+                    ArmorDescriptorTop = ArmorDescriptor_Batiment_1
                 )
-                MaxDamages = 15
-                KillWhenDamagesReachMax = false
+                KillWhenDamagesReachMax = False
                 HitRollSize = 5.0
                 HitRollECM = 0.0
                 AutoOrientation = False
-                SkipCadavreCreation  = True
                 UseTopArmorAgainstFire = True
-                PhysicalDamageLevelsPack = nil
-                SuppressDamageLevelsPack = nil
-                StunDamageLevelsPack = nil
             ),
         ~/DistrictSelectionModuleDescriptor,
         TShootingPointsModuleDescriptor

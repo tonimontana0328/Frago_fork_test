@@ -92,10 +92,9 @@ ListeDesActionsSolo is BUCKListDescriptor
             ExtendWeight = 1.0
             ComponentDescriptor = ThumbnailSoloDescriptor
             (
-                ElementName = "HUBArmyGeneralButton"
+                ElementName = "HUBStrategicButton"
                 TextToken = "SGP_CAMP"
                 ForceEvents = true
-                Locked = true
                 LeftClickSound = SoundEvent_EnterSoloCampaign
             )
         ),
@@ -139,20 +138,18 @@ ListeDesActionsSolo is BUCKListDescriptor
 )
 
 //-------------------------------------------------------------------------------------
-private SoloRadioButtonManager is TBUCKRadioButtonManager()
+private ThumbnailSoloRadioButtonManager is TBUCKRadioButtonManager()
 
 template ThumbnailSoloDescriptor
 [
     TextToken : string,
     ElementName: string,
     DefaultToggleValue: boolean = false,
-    IsTogglable: boolean = true,
     ForceEvents: boolean = false,
     TextColor : string = "menu_titre_solo",
     TextSize : string = "28",
     DecalageTextureSurvol : float2 = [-15.0, 40.0],
     TextureColorToken : string = '',
-    Locked: boolean = false,
     LeftClickSound : TSoundDescriptor = nil,
 ]
  is BUCKButtonDescriptor
@@ -165,10 +162,10 @@ template ThumbnailSoloDescriptor
         MagnifiableWidthHeight = [291.0, 0.0]
     )
 
-    IsTogglable = <IsTogglable>
+    IsTogglable = true
     DefaultToggleValue = <DefaultToggleValue>
-    RadioButtonManager = <IsTogglable> ? ~/SoloRadioButtonManager : nil
-    CannotDeselect = <IsTogglable>
+    RadioButtonManager = ~/ThumbnailSoloRadioButtonManager
+    CannotDeselect = true
     ForceEvents = <ForceEvents>
 
     LeftClickSound = <LeftClickSound>
@@ -223,35 +220,40 @@ template ThumbnailSoloDescriptor
         ),
         BUCKContainerDescriptor
         (
+            ElementName = <ElementName> + "LockedOverlay"
             ComponentFrame = TUIFramePropertyRTTI
             (
                 MagnifiableWidthHeight = [282,172]
                 MagnifiableOffset = [2,47]
             )
 
-            HasBackground = <Locked>
-            BackgroundBlockColorToken = (<Locked> ? "SD2_Blanc184_70" : "")
-        ),
-        BUCKTextDescriptor
-        (
-            ParagraphStyle = TParagraphStyleRTTI
-            (
-                VerticalAlignment = ~/UIText_VerticalCenter
-                Alignment = ~/UIText_Center
-            )
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 0.0]
-                MagnifiableWidthHeight = [0,20]
-                MagnifiableOffset = [0, 110]
-        )
+            HasBackground = True
+            BackgroundBlockColorToken = "SD2_Blanc184_70"
 
-            TextColor = "Blanc"
-            TextSize  = "40"
-            TextStyle = "Default"
-            TypefaceToken = "Liberator"
-            TextToken = (<Locked> ? "AB_BLCK_EA" : "")
-            TextDico = ~/LocalisationConstantes/dico_interface_outgame
+            Components =
+            [
+                BUCKTextDescriptor
+                (
+                    ParagraphStyle = TParagraphStyleRTTI
+                    (
+                        VerticalAlignment = ~/UIText_VerticalCenter
+                        Alignment = ~/UIText_Center
+                    )
+                    ComponentFrame = TUIFramePropertyRTTI
+                    (
+                        RelativeWidthHeight = [1.0, 0.0]
+                        MagnifiableWidthHeight = [0.0, 20.0]
+                        MagnifiableOffset = [0.0, 63.0]
+                    )
+
+                    TextColor = "Blanc"
+                    TextSize  = "40"
+                    TextStyle = "Default"
+                    TypefaceToken = "Liberator"
+                    TextToken = ("AB_BLCK_EA")
+                    TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                ),
+            ]
         ),
     ]
 )

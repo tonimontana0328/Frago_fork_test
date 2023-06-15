@@ -133,7 +133,7 @@ UnitLabelIconList is BUCKListDescriptor
                     MagnifiableWidthHeight = [IconeSize, IconeSize]
                 )
 
-                TextureToken = "UseStrategic_Labels_Boxing"
+                TextureToken = "UseStrategic_Labels_FortificationAntiAir"
                 TextureFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
             )
         ),
@@ -746,8 +746,8 @@ template PawnLabelViewDescriptor
     EngagementTextAttackedToken = "LABEL_ATT"
     EngagementTextEngagedToken = "LABEL_ENGD"
 
-    EngagementAnimDuration = 3 // Durée de l'animation de grossissement, en secondes
-    EngagementAnimScale = 0.1 // L'échelle va varier de 1 à (1+EngagementPhaseAnimScale). Négatif autorisé
+    EngagementAnimDuration = 10 // Durée de l'animation de grossissement, en secondes
+    EngagementAnimScale = 0.5 // L'échelle va varier de 1 à (1+EngagementPhaseAnimScale). Négatif autorisé
     EngagementAnimRandomStart = 0.5 // Décalage aléatoire max en secondes au démarrage.
     LabelTransparencyIfNoEngagement = 0.2 //Transparence de l'étiquette des unités qui ne peuvent pas participer au combat (cf. CantFightUnitAlpha)
 

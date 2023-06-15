@@ -45,6 +45,7 @@ template BUCKSpecificDropdownDescriptor
     ItemComponents : LIST<TBUCKContainerDescriptor> = [],
     ItemsTextTypefaceToken : string = "UIMainFont",
     ItemsTextPadding : TRTTILength4 = TRTTILength4(Magnifiable = [20.0, 5.0, 0.0, 5.0]),
+    ItemMagnifiableHeight : float = 30.0,
 
     Components : LIST<TBUCKContainerDescriptor> = [],
 
@@ -145,7 +146,7 @@ is BUCKDropdownDescriptor
     (
         ComponentFrame = TUIFramePropertyRTTI
         (
-            MagnifiableWidthHeight = [0.0, 30]
+            MagnifiableWidthHeight = [0.0, <ItemMagnifiableHeight>]
             RelativeWidthHeight = [1.0, 0.0]
         )
 
