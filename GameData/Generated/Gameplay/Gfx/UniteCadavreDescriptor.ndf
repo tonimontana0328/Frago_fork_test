@@ -54453,3 +54453,70 @@ Descriptor_UnitCadavre_Tornado_IDS_RFA is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_M113_ACAV_US_nonrecce_FRL is TEntityDescriptor
+(
+    DescriptorId       = GUID:{f99c6edc-5854-46be-9000-643a06701bf4}
+    ClassNameForDebug  = 'UnitCadavre_M113_ACAV_US_nonrecce_FRL'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_Transport
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = True
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_faible
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/WeaponManager,
+                   $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/FacingInfos,
+                   $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/Transporter,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/WeaponManager,
+            $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/FacingInfos,
+            $/GFX/Everything/Descriptor_Unit_M113_ACAV_US/Transporter,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)

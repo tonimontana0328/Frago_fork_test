@@ -65940,7 +65940,7 @@ Ammo_Bomb_KAB_1500Kr_x1 is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 255 * Metre
     PhysicalDamages                   = 45.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 150 * Metre
+    RadiusSplashSuppressDamages       = 300 * Metre
     SuppressDamages                   = 990.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
@@ -66031,7 +66031,7 @@ Ammo_Bomb_KAB_1500Kr_x2 is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 255 * Metre
     PhysicalDamages                   = 45.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 150 * Metre
+    RadiusSplashSuppressDamages       = 300 * Metre
     SuppressDamages                   = 990.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
