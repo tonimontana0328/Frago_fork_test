@@ -65940,7 +65940,7 @@ Ammo_Bomb_KAB_1500Kr_x1 is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 255 * Metre
     PhysicalDamages                   = 45.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 150 * Metre
+    RadiusSplashSuppressDamages       = 300 * Metre
     SuppressDamages                   = 990.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
@@ -65953,6 +65953,8 @@ Ammo_Bomb_KAB_1500Kr_x1 is TAmmunitionDescriptor
     FX_frottement                     = 0.4
     NoiseDissimulationMalus           = 1.0
     ShotsBeforeMaxNoise               = 3
+    IsFireAndForget                   = True
+
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -66029,7 +66031,7 @@ Ammo_Bomb_KAB_1500Kr_x2 is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 255 * Metre
     PhysicalDamages                   = 45.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 150 * Metre
+    RadiusSplashSuppressDamages       = 300 * Metre
     SuppressDamages                   = 990.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
@@ -66041,6 +66043,7 @@ Ammo_Bomb_KAB_1500Kr_x2 is TAmmunitionDescriptor
     FX_tir_sans_physic                = True
     FX_frottement                     = 0.4
     NoiseDissimulationMalus           = 1.0
+    IsFireAndForget                   = True
     ShotsBeforeMaxNoise               = 3
     TargetsDistricts                  = True
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
