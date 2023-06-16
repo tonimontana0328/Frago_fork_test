@@ -8666,6 +8666,8 @@ Descriptor_OrderAvailability_Mortier_2B9_Vasilek_nonPara_SOV is [
     "Shoot",
     "ShootOnPosition",
     "ShootOnPositionWithoutCorrection",
+    "ShootOnPositionSmoke",
+    "ShootOnPositionWithoutCorrectionSmoke",
     "AskForSupply",
     "GoGetSupply",
     "LoadIntoTransport",
