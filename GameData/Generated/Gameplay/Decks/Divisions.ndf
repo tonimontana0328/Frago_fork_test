@@ -2706,6 +2706,7 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_HEMTT_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_HMGteam_M2HB_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_HMGteam_M60_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_LRRP_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M106A2_HOWZ_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M109A2_HOWZ_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M113A1_TOW_US, 1),

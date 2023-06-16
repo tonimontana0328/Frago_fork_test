@@ -12155,6 +12155,13 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 10
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
+					TDeckUniteRule
+					(
+                        UnitDescriptor = ~/Descriptor_Unit_Tornado_ADV_SEAD_UK
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.0]
+                    ),
                 ]
             )
         ),
