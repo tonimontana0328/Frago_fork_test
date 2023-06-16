@@ -124,7 +124,7 @@ UISpecificHUDAlertPanelViewDescriptor is TUISpecificHUDAlertPanelViewDescriptor
     AlertLineDescriptor = ~/AlertLine
     EmptyLineDescriptor = ~/EmptyLine
     MaxLineNb = MinimapMagnifiableSize div AlertLineHeight - 1
-    LineDisplayDuration = 60
+    LineDisplayDuration = 20
 
     //------------------------------------------------------------------------------
     // Les messages sont définies dans AlertMessageType.ndf

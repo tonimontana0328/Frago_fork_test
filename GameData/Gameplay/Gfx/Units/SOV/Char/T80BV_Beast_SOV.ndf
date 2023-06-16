@@ -1,0 +1,19 @@
+export ModelFile_T80BV_Beast_SOV is 'GameData:/Assets/3D/Units/URSS/Char/T80BV_Beast/T80BV_Beast.fbx'
+
+Modele_T80BV_Beast_SOV is TResourceMultiMaterialMeshWithLod
+(
+    FileName = ModelFile_T80BV_Beast_SOV
+    CivMask =  CivMask/Common
+)
+
+Modele_T80BV_Beast_SOV_MID is TResourceMultiMaterialMeshWithLod
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Char/T80BV_Beast/T80BV_Beast.fbx'
+    CivMask =  CivMask/Common
+)
+
+Modele_T80BV_Beast_SOV_LOW is TResourceMultiMaterialMeshWithLod
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Char/T80BV_Beast/T80BV_Beast.fbx'
+    CivMask =  CivMask/Common
+)

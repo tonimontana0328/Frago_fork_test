@@ -4,11 +4,40 @@ MainMenuModCenterFontSize is "23"
 MainMenuArmoryFontSize is "25"
 
 //------------------------------------------------------------------------------
-private UIWelcomeNavBarViewDescriptor is UISpecificNavBarViewDescriptor
+private UIWelcomeQuitButton is BUCKButtonDescriptor
 (
-    MainComponentContainerUniqueName = "SpecificNavBarWelcomeDescriptorMainContainer"
-    BackMapping = nil
-    ButtonLeftClickSound = SoundEvent_QuitGame
+    ElementName = "QuitButton"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [200.0, 60.0]
+        AlignementToAnchor = [0.0, 1.0]
+        AlignementToFather = [0.0, 1.0]
+    )
+    HasBackground = true
+    BackgroundBlockColorToken = "HUBOutGameNavBar/ButtonOverlay"
+    LeftClickSound = ~/SoundEvent_QuitGame
+
+    Components =
+    [
+        BUCKTextDescriptor
+        (
+            ParagraphStyle = TParagraphStyleRTTI
+            (
+                VerticalAlignment = ~/UIText_VerticalCenter
+                Alignment = ~/UIText_Center
+            )
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 1.0]
+            )
+            TextColor = "ListeExcel/Cartouche"
+            TextSize  = "28"
+            TextStyle = "Default"
+            TypefaceToken = "UIMainFont"
+            TextDico = ~/LocalisationConstantes/dico_interface_outgame
+            TextToken = "AB_QUIT"
+        ),
+    ]
 )
 
 //------------------------------------------------------------------------------
@@ -821,7 +850,7 @@ private MainOutGameWelcomeDescriptor is BUCKContainerDescriptor
 )
 //------------------------------------------------------------------------------
 
-private UISpecificOutGameWelcomeAndNavBarDescriptor is BUCKContainerDescriptor
+private UISpecificOutGameWelcomeDescriptor is BUCKContainerDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (
@@ -830,16 +859,7 @@ private UISpecificOutGameWelcomeAndNavBarDescriptor is BUCKContainerDescriptor
     Components =
     [
         ~/MainOutGameWelcomeDescriptor,
-
-        BUCKContainerDescriptor
-        (
-            UniqueName = "SpecificNavBarWelcomeDescriptorMainContainer"
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 0.05]
-                RelativeOffset = [0.0, 0.95]
-            )
-        ),
+        ~/UIWelcomeQuitButton,
     ]
 )
 
@@ -847,8 +867,7 @@ private UISpecificOutGameWelcomeAndNavBarDescriptor is BUCKContainerDescriptor
 
 UISpecificOutGameWelcomeViewDescriptor is TUISpecificOutGameWelcomeViewDescriptor
 (
-    MainComponentDescriptor = ~/UISpecificOutGameWelcomeAndNavBarDescriptor
-    NavBarViewDescriptor = ~/UIWelcomeNavBarViewDescriptor
+    MainComponentDescriptor = ~/UISpecificOutGameWelcomeDescriptor
     TextureNameBackgroundOnline = "Outgame_backgroundOfflineHomeScreen"
     TextureNameBackgroundOffline = "Outgame_backgroundOfflineHomeScreen"
     MainComponentContainerUniqueName = ""

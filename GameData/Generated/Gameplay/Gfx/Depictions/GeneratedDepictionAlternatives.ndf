@@ -956,6 +956,11 @@ Alternatives_Howz_M46_130mm_DDR is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Howz_M46_130mm_DDR_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_Howz_M46_130mm_DDR_LOW ),
 ]
+Alternatives_Howz_MstaB_150mm_SOV is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Howz_MstaB_150mm_SOV ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Howz_MstaB_150mm_SOV_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_Howz_MstaB_150mm_SOV_LOW ),
+]
 Alternatives_Howz_ZiS3_76mm_DDR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Howz_ZiS3_76mm_DDR ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Howz_ZiS3_76mm_DDR_MID ),
@@ -1246,7 +1251,11 @@ Alternatives_M1A1_Abrams_US is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1A1_Abrams_US_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1A1_Abrams_US_LOW DisabledOperators = [ 'tourelle2', 'tourelle3', 'tourelle4' ] ),
 ]
-
+Alternatives_M1A1_Abrams_reco_US is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1A1_Abrams_reco_US ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1A1_Abrams_reco_US_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1A1_Abrams_reco_US_LOW DisabledOperators = [ 'tourelle2', 'tourelle3', 'tourelle4' ] ),
+]
 Alternatives_M1IP_Abrams_CMD_US is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1IP_Abrams_CMD_US ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1IP_Abrams_CMD_US_MID ),
@@ -1507,6 +1516,11 @@ Alternatives_Mortier_2B9_Vasilek_SOV is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Mortier_2B9_Vasilek_SOV_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_Mortier_2B9_Vasilek_SOV_LOW DisabledOperators = [ 'tourelle1' ] ),
 ]
+Alternatives_Mortier_2B9_Vasilek_nonPara_SOV is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Mortier_2B9_Vasilek_nonPara_SOV ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Mortier_2B9_Vasilek_nonPara_SOV_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_Mortier_2B9_Vasilek_nonPara_SOV_LOW DisabledOperators = [ 'tourelle1' ] ),
+]
 Alternatives_Mortier_2S12_120mm_SOV is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Mortier_2S12_120mm_SOV ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Mortier_2S12_120mm_SOV_MID ),
@@ -1711,6 +1725,11 @@ Alternatives_T72_DDR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_T72_DDR ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_T72_DDR_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_T72_DDR_LOW DisabledOperators = [ 'tourelle2' ] ),
+]
+Alternatives_T80BV_Beast_SOV is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_T80BV_Beast_SOV ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_T80BV_Beast_SOV_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_T80BV_Beast_SOV_LOW DisabledOperators = [ 'tourelle2', 'tourelle4' ] ),
 ]
 Alternatives_T80BV_CMD_SOV is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_T80BV_CMD_SOV ),

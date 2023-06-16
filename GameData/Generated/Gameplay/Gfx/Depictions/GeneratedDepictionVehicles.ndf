@@ -1024,7 +1024,7 @@ Gfx_AMX_10_RC_FR_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_AMX_10_RC_FR_Weapon3,
@@ -1189,7 +1189,7 @@ Gfx_AMX_13_VCI_12_7mm_FR_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_AMX_13_VCI_12_7mm_FR_Weapon1,
@@ -6485,7 +6485,7 @@ Gfx_FV103_Spartan_BEL_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_FV103_Spartan_BEL_Weapon1,
@@ -6553,7 +6553,7 @@ Gfx_FV103_Spartan_UK_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_FV103_Spartan_UK_Weapon1,
@@ -7364,7 +7364,7 @@ Gfx_FV432_Mortar_UK_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_FV432_Mortar_UK_Weapon3,
@@ -7484,7 +7484,7 @@ Gfx_FV432_UK_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_FV432_UK_Weapon1,
@@ -9212,6 +9212,58 @@ Gfx_Howz_M46_130mm_DDR_Autogen is TacticVehicleDepictionTemplate
     SubDepictions = [
     ] + HumanSubDepictions_Howz_M46_130mm_DDR
 )
+// Dépiction de l'unité Howz_MstaB_150mm_SOV
+DepictionOperator_Howz_MstaB_150mm_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_Howz_MstaB_150mm_SOV_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+DepictionOperator_Howz_MstaB_150mm_SOV_Weapon3 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag3"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_3", ]
+    NbProj = 1
+)
+Gfx_Howz_MstaB_150mm_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'Howz_MstaB_150mm_SOV'
+    Selector = Selector_Howz_MstaB_150mm_SOV
+    Alternatives = Alternatives_Howz_MstaB_150mm_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Howz_MstaB_150mm_SOV_Weapon1,
+        DepictionOperator_Howz_MstaB_150mm_SOV_Weapon2,
+        DepictionOperator_Howz_MstaB_150mm_SOV_Weapon3,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_Carriable_Canon_Arms25,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Howz_Canon_2A65_towed_152mm ),
+                ( [ "weapon_effet_tag2" ], Weapon_Howz_Canon_2A65_towed_152mm_SMOKE ),
+                ( [ "weapon_effet_tag3" ], Weapon_Howz_Canon_2A65_SP_152mm_Direct ),
+            ]
+            + DepictionAction_CriticalFX_Towed
+
+    SubDepictions = [
+    ] + HumanSubDepictions_Howz_MstaB_150mm_SOV
+)
 // Dépiction de l'unité Howz_ZiS3_76mm_DDR
 DepictionOperator_Howz_ZiS3_76mm_DDR_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -9308,7 +9360,7 @@ Gfx_Iltis_MILAN_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Iltis_MILAN_RFA_Weapon1,
                 ]
@@ -9389,7 +9441,7 @@ Gfx_Iltis_reco_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_Iltis_reco_RFA_Weapon1,
@@ -9483,7 +9535,7 @@ Gfx_Jaguar_1_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Jaguar_1_RFA_Weapon1,
                 ]
@@ -9547,7 +9599,7 @@ Gfx_Jaguar_2_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Jaguar_2_RFA_Weapon1,
                 ]
@@ -9852,7 +9904,7 @@ Gfx_Lars_2_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_Lars_2_RFA_Weapon2,
@@ -9950,7 +10002,7 @@ Gfx_Leopard_1A1_CMD_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_Leopard_1A1_CMD_RFA_Weapon3,
@@ -10048,7 +10100,7 @@ Gfx_Leopard_1A1_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_Leopard_1A1_RFA_Weapon3,
@@ -10146,7 +10198,7 @@ Gfx_Leopard_1A5_CMD_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_Leopard_1A5_CMD_RFA_Weapon3,
@@ -10244,7 +10296,7 @@ Gfx_Leopard_1A5_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_Leopard_1A5_RFA_Weapon3,
@@ -10975,7 +11027,7 @@ Gfx_M109A2_HOWZ_US_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_M109A2_HOWZ_US_Weapon3,
@@ -11117,7 +11169,7 @@ Gfx_M109A3G_HOWZ_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_M109A3G_HOWZ_RFA_Weapon3,
@@ -11271,7 +11323,7 @@ Gfx_M113A1G_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_M113A1G_RFA_Weapon1,
@@ -11339,7 +11391,7 @@ Gfx_M113A1G_reco_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_M113A1G_reco_RFA_Weapon1,
@@ -11433,7 +11485,7 @@ Gfx_M113A1_TOW_US_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_M113A1_TOW_US_Weapon2,
                 ]
                 Actions = MAP[
@@ -11631,7 +11683,7 @@ Gfx_M113_Dragon_US_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_M113_Dragon_US_Weapon2,
                 ]
@@ -11707,7 +11759,7 @@ Gfx_M113_GreenArcher_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_M113_GreenArcher_RFA_Weapon1,
@@ -11782,7 +11834,7 @@ Gfx_M113_GreenArcher_UK_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_M113_GreenArcher_UK_Weapon1,
@@ -11857,7 +11909,7 @@ Gfx_M113_PzMorser_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_M113_PzMorser_RFA_Weapon2,
@@ -11967,7 +12019,7 @@ Gfx_M151A2_scout_US_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_M151A2_scout_US_Weapon1,
@@ -12494,6 +12546,106 @@ Gfx_M1A1_Abrams_US_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
             + Eject_Actions_M1A1_Abrams_US
+)
+// Dépiction de l'unité M1A1_Abrams_reco_US
+DepictionOperator_M1A1_Abrams_reco_US_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_M1A1_Abrams_reco_US_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+DepictionOperator_M1A1_Abrams_reco_US_Weapon3 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag3"
+    Anchors = ["fx_tourelle2_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_3"
+    NbFX = 1
+)
+DepictionOperator_M1A1_Abrams_reco_US_Weapon4 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag4"
+    Anchors = ["fx_tourelle3_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 1
+)
+DepictionOperator_M1A1_Abrams_reco_US_Weapon5 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
+)
+DepictionOperator_M1A1_Abrams_reco_US_Weapon6 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag6"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_6", ]
+    NbProj = 1
+)
+Gfx_M1A1_Abrams_reco_US_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'M1A1_Abrams_reco_US'
+    Selector = Selector_M1A1_Abrams_reco_US
+    Alternatives = Alternatives_M1A1_Abrams_reco_US
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        DepictionOperator_MovementSound_SM_M1_Abrams,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_HeavyTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_TurretSound_ST_M1,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_3_Aim,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_M1A1_Abrams_reco_US_Weapon1,
+        DepictionOperator_M1A1_Abrams_reco_US_Weapon2,
+        DepictionOperator_M1A1_Abrams_reco_US_Weapon3,
+        DepictionOperator_M1A1_Abrams_reco_US_Weapon4,
+        DepictionOperator_M1A1_Abrams_reco_US_Weapon5,
+        DepictionOperator_M1A1_Abrams_reco_US_Weapon6,
+        DepictionOperator_Heat,
+        DepictionOperator_EjectableProps_Vehicle
+        (
+            AdditionalEjectableNodes = 
+            [
+                "tourelle_01",
+                "tourelle_02",
+            ]
+            ArmorPlateCount = 5
+            PropCount = 8
+            TrapdoorCount = 2
+        ),
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_120_mm_L52_M68 ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_120_mm_L52_M68 ),
+                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_M2HB ),
+                ( [ "weapon_effet_tag4" ], Weapon_MMG_M240_abrams_7_62mm ),
+                ( [ "weapon_effet_tag5" ], Weapon_MMG_M240_7_62mm ),
+                ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+            + Eject_Actions_M1A1_Abrams_reco_US
 )
 // Dépiction de l'unité M1IP_Abrams_CMD_US
 DepictionOperator_M1IP_Abrams_CMD_US_Weapon1 is DepictionOperator_WeaponInstantFire
@@ -14264,7 +14416,7 @@ Gfx_MCV_80_Warrior_MILAN_UK_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_MCV_80_Warrior_MILAN_UK_Weapon3,
                 ]
@@ -14605,7 +14757,7 @@ Gfx_MTLB_Vasilek_SOV_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_MTLB_Vasilek_SOV_Weapon1,
                     DepictionOperator_MTLB_Vasilek_SOV_Weapon2,
@@ -15251,6 +15403,48 @@ Gfx_Mortier_2B9_Vasilek_SOV_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictions = [
     ] + HumanSubDepictions_Mortier_2B9_Vasilek_SOV
+)
+// Dépiction de l'unité Mortier_2B9_Vasilek_nonPara_SOV
+DepictionOperator_Mortier_2B9_Vasilek_nonPara_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_Mortier_2B9_Vasilek_nonPara_SOV_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+Gfx_Mortier_2B9_Vasilek_nonPara_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'Mortier_2B9_Vasilek_nonPara_SOV'
+    Selector = Selector_Mortier_2B9_Vasilek_nonPara_SOV
+    Alternatives = Alternatives_Mortier_2B9_Vasilek_nonPara_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Mortier_2B9_Vasilek_nonPara_SOV_Weapon1,
+        DepictionOperator_Mortier_2B9_Vasilek_nonPara_SOV_Weapon2,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_Carriable_Canon_Arms30,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Mortier_Vasilek_82mm_towed ),
+                ( [ "weapon_effet_tag2" ], Weapon_Mortier_Vasilek_indirect_82mm_towed ),
+            ]
+            + DepictionAction_CriticalFX_Towed
+
+    SubDepictions = [
+    ] + HumanSubDepictions_Mortier_2B9_Vasilek_nonPara_SOV
 )
 // Dépiction de l'unité Mortier_2S12_120mm_SOV
 DepictionOperator_Mortier_2S12_120mm_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
@@ -16013,7 +16207,7 @@ Gfx_SPW_152K_DDR_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_SPW_152K_DDR_Weapon1,
@@ -17660,6 +17854,82 @@ Gfx_T72_DDR_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
 )
+// Dépiction de l'unité T80BV_Beast_SOV
+DepictionOperator_T80BV_Beast_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_T80BV_Beast_SOV_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+DepictionOperator_T80BV_Beast_SOV_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
+(
+    FireEffectTag = "weapon_effet_tag3"
+    Connoisseur = MissileCarriage_T80BV_Beast_SOV
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = ["WeaponShootData_0_3", ]
+    NbProj = 1
+)
+DepictionOperator_T80BV_Beast_SOV_Weapon4 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag4"
+    Anchors = ["fx_tourelle2_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 1
+)
+DepictionOperator_T80BV_Beast_SOV_Weapon6 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag6"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_6", ]
+    NbProj = 1
+)
+Gfx_T80BV_Beast_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'T80BV_Beast_SOV'
+    Selector = Selector_T80BV_Beast_SOV
+    Alternatives = Alternatives_T80BV_Beast_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        DepictionOperator_MovementSound_SM_T80_Turbine,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_HeavyTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_TurretSound_ST_T64_T72_T80,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_T80BV_Beast_SOV_Weapon1,
+        DepictionOperator_T80BV_Beast_SOV_Weapon2,
+        DepictionOperator_T80BV_Beast_SOV_Weapon3,
+        DepictionOperator_T80BV_Beast_SOV_Weapon4,
+        DepictionOperator_T80BV_Beast_SOV_Weapon6,
+        DepictionOperator_Heat,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A46M_T80B ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A46M_T80B ),
+                ( [ "weapon_effet_tag3" ], Weapon_ATGM_9M128_Agona ),
+                ( [ "weapon_effet_tag4" ], Weapon_HMG_12_7_mm_NSVT ),
+                ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+)
 // Dépiction de l'unité T80BV_CMD_SOV
 DepictionOperator_T80BV_CMD_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -17953,17 +18223,6 @@ Gfx_T80B_SOV_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_T80B_SOV_Weapon4,
         DepictionOperator_T80B_SOV_Weapon6,
         DepictionOperator_Heat,
-        DepictionOperator_EjectableProps_Vehicle
-        (
-            AdditionalEjectableNodes = 
-            [
-                "tourelle_01",
-                "tourelle_02",
-            ]
-            ArmorPlateCount = 0
-            PropCount = 3
-            TrapdoorCount = 0
-        ),
     ]
 
     Actions = MAP[
@@ -17976,7 +18235,6 @@ Gfx_T80B_SOV_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
-            + Eject_Actions_T80B_SOV
 )
 // Dépiction de l'unité T80UD_SOV
 DepictionOperator_T80UD_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
@@ -18483,7 +18741,7 @@ Gfx_TPZ_Fuchs_1_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_TPZ_Fuchs_1_RFA_Weapon1,
@@ -18551,7 +18809,7 @@ Gfx_TPZ_Fuchs_CMD_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_TPZ_Fuchs_CMD_RFA_Weapon1,
@@ -18625,7 +18883,7 @@ Gfx_TPZ_Fuchs_MILAN_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_TPZ_Fuchs_MILAN_RFA_Weapon1,
@@ -18647,7 +18905,7 @@ Gfx_TPZ_Fuchs_MILAN_RFA_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_TPZ_Fuchs_MILAN_RFA_Weapon2,
                 ]
@@ -19283,7 +19541,7 @@ Gfx_UAZ_469_Reco_DDR_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_UAZ_469_Reco_DDR_Weapon1,
@@ -19341,7 +19599,7 @@ Gfx_UAZ_469_Reco_SOV_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_UAZ_469_Reco_SOV_Weapon1,
@@ -19824,7 +20082,7 @@ Gfx_VAB_CMD_FR_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_VAB_CMD_FR_Weapon1,
@@ -19882,7 +20140,7 @@ Gfx_VAB_FR_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_1_Aim,
                     DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
                     DepictionOperator_VAB_FR_Weapon1,
@@ -19993,7 +20251,7 @@ Gfx_VAB_MILAN_FR_Autogen is TacticVehicleDepictionTemplate
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
-                    DepictionOperator_Shader_Ghost,
+                    DepictionOperator_Shader_GhostTactic,
                     DepictionOperator_Turret_2_Aim,
                     DepictionOperator_VAB_MILAN_FR_Weapon2,
                 ]

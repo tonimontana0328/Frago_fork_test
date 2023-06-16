@@ -1005,7 +1005,7 @@ is BUCKSensibleAreaDescriptor
                 ),
                 BUCKListElementDescriptor
                 (
-                    ComponentDescriptor = ~/LabelFeedbackIcons
+                    ComponentDescriptor = LabelFeedbackIcons()
                 ),
             ]
         ),
@@ -1027,10 +1027,13 @@ private template LabelFeedbackIcon
 
 //-------------------------------------------------------------------------------------
 
-LabelFeedbackIcons is TBUCKSpecificLabelFeedbackIconsDescriptor
+template LabelFeedbackIcons
+[
+    ComponentFrame : TUIFramePropertyRTTI = TUIFramePropertyRTTI(),
+] is TBUCKSpecificLabelFeedbackIconsDescriptor
 (
     ElementName = "FeedbackIcons"
-    ComponentFrame = TUIFramePropertyRTTI()
+    ComponentFrame = <ComponentFrame>
 
     IsClippable = true
 

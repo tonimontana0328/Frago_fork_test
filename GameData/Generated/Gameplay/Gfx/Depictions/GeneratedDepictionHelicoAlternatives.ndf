@@ -25,6 +25,12 @@ Alternatives_AH1F_ATAS_US is
     DepictionDescriptor_LOD_HelicoMid( MeshDescriptor = Modele_AH1F_ATAS_US_MID ),
     DepictionDescriptor_LOD_HelicoLow( MeshDescriptor = Modele_AH1F_ATAS_US_LOW ),
 ]
+Alternatives_AH1F_CNITE_US is 
+[
+    DepictionDescriptor_LOD_HelicoHigh( MeshDescriptor = Modele_AH1F_CNITE_US ),
+    DepictionDescriptor_LOD_HelicoMid( MeshDescriptor = Modele_AH1F_CNITE_US_MID ),
+    DepictionDescriptor_LOD_HelicoLow( MeshDescriptor = Modele_AH1F_CNITE_US_LOW ),
+]
 Alternatives_AH1F_Cobra_US is 
 [
     DepictionDescriptor_LOD_HelicoHigh( MeshDescriptor = Modele_AH1F_Cobra_US ),
@@ -1117,11 +1123,23 @@ Alternatives_Su_24MP_SOV is
     DepictionDescriptor_LOD_AirplaneMid( MeshDescriptor = Modele_Su_24MP_SOV_MID ),
     DepictionDescriptor_LOD_AirplaneLow( MeshDescriptor = Modele_Su_24MP_SOV_LOW ),
 ]
+Alternatives_Su_24M_LGB_SOV is 
+[
+    DepictionDescriptor_LOD_AirplaneHigh( MeshDescriptor = Modele_Su_24M_LGB_SOV ),
+    DepictionDescriptor_LOD_AirplaneMid( MeshDescriptor = Modele_Su_24M_LGB_SOV_MID ),
+    DepictionDescriptor_LOD_AirplaneLow( MeshDescriptor = Modele_Su_24M_LGB_SOV_LOW ),
+]
 Alternatives_Su_24M_SOV is 
 [
     DepictionDescriptor_LOD_AirplaneHigh( MeshDescriptor = Modele_Su_24M_SOV ),
     DepictionDescriptor_LOD_AirplaneMid( MeshDescriptor = Modele_Su_24M_SOV_MID ),
     DepictionDescriptor_LOD_AirplaneLow( MeshDescriptor = Modele_Su_24M_SOV_LOW ),
+]
+Alternatives_Su_24M_clu2_SOV is 
+[
+    DepictionDescriptor_LOD_AirplaneHigh( MeshDescriptor = Modele_Su_24M_clu2_SOV ),
+    DepictionDescriptor_LOD_AirplaneMid( MeshDescriptor = Modele_Su_24M_clu2_SOV_MID ),
+    DepictionDescriptor_LOD_AirplaneLow( MeshDescriptor = Modele_Su_24M_clu2_SOV_LOW ),
 ]
 Alternatives_Su_24M_clu_SOV is 
 [

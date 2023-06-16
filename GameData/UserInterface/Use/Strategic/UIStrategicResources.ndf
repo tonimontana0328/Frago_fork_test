@@ -21,14 +21,12 @@ StrategicResource is TUISpecificStrategicResources
         ("UISpecificStrategicDateViewDescriptor", ~/UISpecificStrategicDateViewDescriptor),
         ("UISpecificSelectionPanelPawnViewDescriptor", UISpecificSelectionPanelPawnViewDescriptorTemplate(MainComponentContainerUniqueName = "BUCKSpecificSelectionPanelPawnMainComponentContainer" ContainsCubeAction = true)),
         ("UISpecificStrategicSpawnPointViewDescriptor", ~/UISpecificStrategicSpawnPointViewDescriptor),
-        ("UIUnitLabelAggregateContainerDescriptor", ~/UISpecificStrategicUnitLabelAggregateContainerDescriptor),
         ("MenuButtonDescriptor", ~/UISpecificMenuButtonViewDescriptor),
         ("ScorePanelDescriptor", UISpecificStrategicScorePanelViewDescriptor(isEndgame = false)),
         ("UISpecificStrategicCubeActionViewDescriptor", ~/UISpecificStrategicCubeActionViewDescriptor),
         ("UISpecificStrategicBattleOrderPanelViewDescriptor", ~/UISpecificStrategicBattleOrderPanelViewDescriptor),
         ("StrategicProductionMenu", ~/UIStrategicProductionMenuViewDescriptor),
         ("StrategicPawnLabel", ~/UISpecificStrategicPawnLabelViewDescriptor),
-        ("StrategicPawnAggregationLabel", ~/UISpecificStrategicPawnLabelAggregationViewDescriptor),
         ("StrategicTacticalPreparation", ~/UISpecificStrategicTacticalPreparationViewDescriptor),
         ("StrategicConnectedPlayersDescriptor", ~/UISpecificStrategicConnectedPlayersViewDescriptor),
         ("UICommonHUDPingDisplayViewDescriptor", ~/UICommonHUDPingDisplayViewDescriptor),
@@ -111,9 +109,25 @@ private StrategicBottomScreen is BUCKListDescriptor
 
                 Axis = ~/ListAxis/Vertical
                 BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+                InterItemMargin = TRTTILength( Magnifiable = 20.0 )
 
                 Elements =
                 [
+                    BUCKListElementDescriptor
+                   (
+                        ComponentDescriptor =  BUCKContainerDescriptor
+                        (
+                            UniqueName = "SpecificSignpostViewMainContainer"
+
+                            ComponentFrame = TUIFramePropertyRTTI
+                            (
+                                MagnifiableWidthHeight = [337.0, 78.0]
+                                // AlignementToAnchor = [1.0, 1.0]
+                                // AlignementToFather = [1.0, 1.0]
+                                // MagnifiableOffset = [20.0, 0.0]
+                            )
+                        )
+                    ),
                     BUCKListElementDescriptor
                     (
                         ComponentDescriptor = BUCKContainerDescriptor
@@ -406,21 +420,21 @@ private StrategicMainContainerResource is TUICommonMainContainerResource
                             RelativeWidthHeight = [1.0, 1.0]
                         )
 
-                        Components =
-                        [
-                            BUCKContainerDescriptor
-                            (
-                                UniqueName = "SpecificSignpostViewMainContainer"
+                        // Components =
+                        // [
+                        //     BUCKContainerDescriptor
+                        //     (
+                        //         UniqueName = "SpecificSignpostViewMainContainer"
 
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    MagnifiableWidthHeight = [337.0, 78.0]
-                                    AlignementToAnchor = [1.0, 1.0]
-                                    AlignementToFather = [1.0, 1.0]
-                                    MagnifiableOffset = [0.0, -150.0]
-                                )
-                            )
-                        ]
+                        //         ComponentFrame = TUIFramePropertyRTTI
+                        //         (
+                        //             MagnifiableWidthHeight = [337.0, 78.0]
+                        //             AlignementToAnchor = [1.0, 1.0]
+                        //             AlignementToFather = [1.0, 1.0]
+                        //             MagnifiableOffset = [0.0, -150.0]
+                        //         )
+                        //     )
+                        // ]
                     ),
 
                     BUCKContainerDescriptor

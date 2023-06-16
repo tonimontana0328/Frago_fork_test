@@ -794,6 +794,13 @@ export UnitEffect_Choc is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_Placebo is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{5e6eb10f-c221-4c05-97f6-657a2d8349d9}
+    NameForDebug       = 'Placebo'
+    EffectsDescriptors = [
+    ]
+)
 export UnitEffect_Critic_Bailed_Out is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{abec5c8e-e288-49ca-a6f9-a0b097c165a1}

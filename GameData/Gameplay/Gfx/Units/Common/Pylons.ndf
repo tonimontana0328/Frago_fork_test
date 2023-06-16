@@ -32,7 +32,7 @@ template PylonDepictionCommon [ DepictionDescriptor, NoShadow = False ] is TDepi
     ShadowLessInitialValue = <NoShadow>
     Selector = SpecificPylonDepictionSelector
     DepictionAlternatives = [ <DepictionDescriptor> ]
-    Operators = [ DepictionOperator_Shader_Ghost ]
+    Operators = [ DepictionOperator_Shader_GhostTactic ]
 )
 
 template PylonDepictionVehicle [ ModelFile ] is PylonDepictionCommon

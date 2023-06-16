@@ -1088,7 +1088,7 @@ DefaultStyleGuide is TUIStyleGuide
                                                                             ( ~/ComponentState/Highlighted, TColorRTTI( Color = BlancPur ) ),
                                                                             ]),
         ("AlertPanel/Gradient0",                                        MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Transparent ) ), ]),
-        ("AlertPanel/Gradient1",                                        MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [0,0,0,200] ) ), ]),
+        ("AlertPanel/Gradient1",                                        MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [19,85,106,191] ) ), ]),
         ("Label/Gradient0",                                             MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Transparent ) ), ]),
         ("Label/Gradient05",                                             MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [0,0,0,70] ) ), ]),
         ("Label/Gradient1",                                             MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Noir ) ), ]),
@@ -1175,6 +1175,12 @@ DefaultStyleGuide is TUIStyleGuide
                                                                         ]),
         //-------------------------------------------------------------------------------------
 
+        ("UIPlayerSpecific/StratLabelIcon",                         MAP [
+                                                                            ( ~/ComponentState/Normal, TColorRTTI( Color = [210,210,210,255] ) ),
+                                                                            ( ~/ComponentState/Highlighted, TColorRTTI( Color = BlancPur ) ),
+                                                                            ( ~/ComponentState/Toggled, TColorRTTI( Color = BlancPur ) ),
+                                                                            ( ~/ComponentState/ToggleHighlighted, TColorRTTI( Color = [202,223,229,255] ) ),
+                                                                        ]),
         ("UIPlayerSpecific/Red/StratLabelIcon",                         MAP [
                                                                             ( ~/ComponentState/Normal, TColorRTTI( Color = BlancPur ) ),
                                                                             ( ~/ComponentState/Toggled, TColorRTTI( Color = BlancPur ) ),
@@ -2416,9 +2422,19 @@ DefaultStyleGuide is TUIStyleGuide
                                                     ]),
         ("SM_Grullo_2",                           MAP [
                                                         ( ~/ComponentState/Normal,                 TColorRTTI( Color = Grullo ) ),
-                                                        // ( ~/ComponentState/Highlighted,                 TColorRTTI( Color = [210,216,240,255] ) ),
-                                                        // ( ~/ComponentState/Grayed,                 TColorRTTI( Color = [210,216,240,50] ) ),
+                                                        ( ~/ComponentState/Highlighted,                 TColorRTTI( Color = [190, 185, 165, 255] ) ),
+                                                        ( ~/ComponentState/Grayed,                 TColorRTTI( Color = [210,216,240,50] ) ),
                                                     ]),
+        ("SM_LDhint_fond",                           MAP [
+                                                        ( ~/ComponentState/Normal,                 TColorRTTI( Color = [46,58,47,210] ) ),
+                                                    ]),
+        ("SM_LDhint_texte_gen",                           MAP [
+                                                        ( ~/ComponentState/Normal,                 TColorRTTI( Color = [46,58,47,255] ) ),
+                                                    ]),
+        ("SM_LDhint_texte",                           MAP [
+                                                        ( ~/ComponentState/Normal,                 TColorRTTI( Color = [166,178,167,255] ) ),
+                                                    ]),
+
         ("SM_renfort_fleche", MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = Grullo ) ),]),
         ("SM_DarkLava",                         MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = DarkLava ) ),]),
 

@@ -385,6 +385,7 @@ export SFXWeapon_GatlingAir_M61_Vulcan_20mm is $/SoundDescriptors/SoundHappening
 export SFXWeapon_GatlingAir_Mauser_BK_27mm is $/SoundDescriptors/SoundHappening_FULDA_Mauser_BK27
 export SFXWeapon_GatlingAir_Mauser_BK_27mm_x2 is $/SoundDescriptors/SoundHappening_FULDA_Mauser_BK27
 export SFXWeapon_GatlingAir_NR30_30mm_x2 is $/SoundDescriptors/SoundHappening_SD_GSh_301
+export SFXWeapon_HMG_12_7_mm_DShKM is $/SoundDescriptors/SoundHappening_FULDA_DShKM
 export SFXWeapon_HMG_12_7_mm_M2HB is $/SoundDescriptors/SoundHappening_FULDA_Cal50
 export SFXWeapon_HMG_12_7_mm_M85 is $/SoundDescriptors/SoundHappening_FULDA_Cal50
 export SFXWeapon_HMG_12_7_mm_NSVT is $/SoundDescriptors/SoundHappening_FULDA_NSV

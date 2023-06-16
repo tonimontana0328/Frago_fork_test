@@ -252,6 +252,7 @@ private AggregatedUnitLabelUnitIcon is TBUCKSpecificLabelUnitIconDescriptor
     HasBorder = false
     BorderThicknessToken = '2'
     BorderLineColorToken = 'Blanc'
+
     HasBackground = true
     LocalRenderLayer = 2
     BackgroundLocalRenderLayer = 1
@@ -292,6 +293,13 @@ private AggregatedUnitLabelUnitIcon is TBUCKSpecificLabelUnitIconDescriptor
             ]
         ),
         SmartChipList(LocalRenderLayer = 3),
+        LabelFeedbackIcons
+        (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                AlignementToFather = [1.0, 0.0]
+            )
+        ),
     ]
 )
 

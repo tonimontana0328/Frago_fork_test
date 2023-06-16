@@ -80,6 +80,83 @@ BUCKMultiDescriptor is BUCKContainerDescriptor
 
     ]
 )
+
+//-------------------------------------------------------------------------------------
+
+template ThumbnailMultiDescriptor
+[
+    TextToken : string,
+    ElementName: string,
+    DecalageTextureSurvol : float2 = [-15.0, 40.0],
+    IsTogglable: boolean = true,
+    TextColor : string = "menu_titre_solo",
+    TextSize : string = "28",
+    TextureColorToken : string = '',
+    LeftClickSound : TSoundDescriptor = nil,
+]
+ is BUCKButtonDescriptor
+(
+    ElementName = <ElementName>
+
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        RelativeWidthHeight = [0.0, 1.0]
+        MagnifiableWidthHeight = [291.0, 0.0]
+    )
+
+    LeftClickSound = <LeftClickSound>
+
+    Components =
+    [
+        BUCKTextureDescriptor
+        (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                MagnifiableWidthHeight = [293.0, 38.0]
+                AlignementToFather = [0.5, 0.0]
+                AlignementToAnchor = [0.5, 0.0]
+                MagnifiableOffset = [0.0, -10.0]
+            )
+            TextureFrame = TUIFramePropertyRTTI(RelativeWidthHeight = [1.0, 1.0])
+            TextureToken =  'Outgame_survol_menuSolo'
+            TextureColorToken = <TextureColorToken>
+        ),
+        BUCKTextDescriptor
+        (
+            ParagraphStyle = TParagraphStyleRTTI
+            (
+                VerticalAlignment = ~/UIText_Bottom
+                Alignment = ~/UIText_Center
+            )
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 0.0]
+                MagnifiableWidthHeight = [0.0, 25.0]
+            )
+            HasBackground = false
+            BackgroundBlockColorToken = "BlancLight"
+            TextColor = <TextColor>
+            TextSize  = <TextSize>
+            TextStyle = "Default"
+            TypefaceToken = "Liberator"
+            TextToken = <TextToken>
+            TextDico = ~/LocalisationConstantes/dico_interface_outgame
+
+            TextPadding = TRTTILength4( Magnifiable = [0.0, 0.0, 0.0, 2.0] )
+        ),
+        BUCKTextureDescriptor
+        (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                MagnifiableWidthHeight = [321.0, 211.0]
+                MagnifiableOffset = <DecalageTextureSurvol>
+            )
+            TextureFrame = TUIFramePropertyRTTI(RelativeWidthHeight = [1.0, 1.0])
+            TextureToken =  'Outgame_survol_photoSolo'
+        ),
+    ]
+)
+
 //-------------------------------------------------------------------------------------
 private AffichageBoutonPrimaireMulti is BUCKListDescriptor
 (
@@ -96,7 +173,7 @@ private AffichageBoutonPrimaireMulti is BUCKListDescriptor
     [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ThumbnailSoloDescriptor
+            ComponentDescriptor = ThumbnailMultiDescriptor
             (
                 ElementName = 'HostButton'
                 TextToken = 'CB_CREATE'
@@ -104,13 +181,12 @@ private AffichageBoutonPrimaireMulti is BUCKListDescriptor
                 TextColor = 'Noir_multi2'
                 TextSize = '25'
                 TextureColorToken = 'Noir'
-                IsTogglable = false
                 LeftClickSound = SoundEvent_MultiClickHostGame
             )
        ),
        BUCKListElementDescriptor
         (
-            ComponentDescriptor = ThumbnailSoloDescriptor
+            ComponentDescriptor = ThumbnailMultiDescriptor
             (
                 ElementName = "HUBMultiRankedButton"
                 TextToken = "MP_RANKED"
@@ -123,7 +199,7 @@ private AffichageBoutonPrimaireMulti is BUCKListDescriptor
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ThumbnailSoloDescriptor
+            ComponentDescriptor = ThumbnailMultiDescriptor
             (
                 ElementName = "HUBMultiLoadButton"
                 TextToken = "AB_LOADING"

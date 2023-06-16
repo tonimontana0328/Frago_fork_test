@@ -74,4 +74,7 @@ export WeaponConstantes is TWeaponConstantsDescriptor
     // Valeurs de EfficientShot par défaut
     EfficientShotMinAccuracy = 0.0
     EfficientShotMinPenetration = 0.4
+
+    // Garder synchro avec DEFENSIVESMOKERANGEMAX dans AmmunitionFileWriter_ModernWarfare.py
+    DefensiveSmokeRangeMax = 250.0 * Metre
 )

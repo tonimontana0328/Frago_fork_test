@@ -326,6 +326,21 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
             )
         ),
         (
+            "large",
+            TTFSCommand_StyleChange
+            (
+                Style = TTextStyleRTTI
+                (
+                    FontSize    = 1.4
+                    ColorBottom = [0, 0, 0, 0]
+                    ColorUp     = [0, 0, 0, 0]
+                    ColorStroke = [0, 0, 0, 0]
+                    Stroke = false
+                    AllowSmallFont = true
+                )
+            )
+        ),
+        (
             "dateSM",
             TTFSCommand_StyleChange
             (
@@ -2265,8 +2280,8 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
             TTFSCommand_UISymbol
             (
                 TextureToken = "Icon_Locked"
-                BBMin=[0, -0.7, 0]
-                BBMax=[0.7, 0, 0]
+                BBMin=[0, -0.8, 0]
+                BBMax=[1, 0.2, 0]
                 ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
             )
         ),

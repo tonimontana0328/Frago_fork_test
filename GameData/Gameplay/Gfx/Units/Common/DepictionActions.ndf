@@ -359,25 +359,13 @@ is TSequencingActionHappening
 // *** CriticalFX *************************************************************************************************************************
 // ****************************************************************************************************************************************
 
-// À maintenir synchro avec ApparenceModelModule.cpp.
-ETeamStatus is TBaseClass
-(
-    Player  is 0
-    Ally    is 1
-    Neutral is 2
-    Enemy   is 3
-    Invalid is 4
-)
-
 template template_HappeningFXandSound [ FXHappening, SoundHappening ] is TCompositeHappening(
     SubHappenings = [ <FXHappening>, <SoundHappening> ]
 )
 
-template template_HappeningOnlyOnPlayer [ Happening ] is TSwitchOnEnumHappening
+template template_HappeningOnlyOnPlayer [ Happening ] is TOnlyOnPlayerHappening
 (
-    Happenings = MAP[ (ETeamStatus/Player, <Happening>) ]
-    PropertyName = "team_status"
-    DefaultEnumValue = ETeamStatus/Player
+    Happening = <Happening>
 )
 
 template template_HappeningFXWithAnchor[ FX, Anchor ] is TIntroduceMobileHappening

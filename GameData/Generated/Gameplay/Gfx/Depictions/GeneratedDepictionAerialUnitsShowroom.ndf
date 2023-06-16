@@ -70,6 +70,30 @@ Gfx_AH1F_ATAS_US_Showroom_Autogen is ShowroomAerialDepictionTemplate
         SubGenerators_Showroom_AH1F_ATAS_US,
     ]
 )
+Gfx_AH1F_CNITE_US_Showroom_Autogen is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = Modele_AH1F_CNITE_US
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = VECTOR[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = VECTOR[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_AH1F_CNITE_US,
+    ]
+)
 Gfx_AH1F_Cobra_US_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = Modele_AH1F_Cobra_US
@@ -3569,6 +3593,21 @@ Gfx_Su_24MP_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
         ),
     ]
 )
+Gfx_Su_24M_LGB_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = Modele_Su_24M_LGB_SOV
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_Su_24M_LGB_SOV,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = Modele_Su_24M_LGB_SOV_train
+        ),
+    ]
+)
 Gfx_Su_24M_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = Modele_Su_24M_SOV
@@ -3581,6 +3620,21 @@ Gfx_Su_24M_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
         ShowroomLandingGear
         (
             MeshDescriptor = Modele_Su_24M_SOV_train
+        ),
+    ]
+)
+Gfx_Su_24M_clu2_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = Modele_Su_24M_clu2_SOV
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_Su_24M_clu2_SOV,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = Modele_Su_24M_clu2_SOV_train
         ),
     ]
 )

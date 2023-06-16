@@ -41,6 +41,8 @@ UseStrategic_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("UseStrategic_SelectionPawnPanel_HQ",                       MAP [(~/ComponentState/Normal, ~/UseStrategic_SelectionPawnPanel_HQ)] ),
         ("UseStrategic_SelectionPawnPanel_Motorised",                MAP [(~/ComponentState/Normal, ~/UseStrategic_SelectionPawnPanel_Motor)] ),
 
+        ("UseStrategic_PrepareBattle_AddPawn",                       MAP [(~/ComponentState/Normal, ~/UseStrategic_PrepareBattle_AddPawn)] ),
+
         ("UseStrategic_Labels_Terrain_TerrainUrbain",                MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/terrain_urbain.png"))] ),
         ("UseStrategic_Labels_Terrain_TerrainForet",                 MAP [(~/ComponentState/Normal, ~/UseStrategic_Labels_Terrain_TerrainForet)] ),
         ("UseStrategic_Labels_Terrain_TerrainPlaine",                       MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/terrain_plaine.png"))] ),
@@ -158,6 +160,7 @@ UseStrategic_SelectionPanel_Evasion                      is TUIResourceTexture_I
 UseStrategic_SelectionPanel_Attack                       is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseStrategic/SelectionPanel/Attack.png")
 UseStrategic_SelectionPanel_Defense                      is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseStrategic/SelectionPanel/Defense.png")
 
+UseStrategic_PrepareBattle_AddPawn                       is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/AddPawnToBattle.png")
 
 
 UseStrategic_SelectionPanel_Wrench                       is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseStrategic/SelectionPanel/icone_molette.png")

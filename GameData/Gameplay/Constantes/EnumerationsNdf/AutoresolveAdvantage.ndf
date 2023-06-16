@@ -8,6 +8,7 @@ EAutoresolveAvantage_NoInfantry_vs_Infantry is 5
 EAutoresolveAvantage_NoCMD_vs_CMD is 6
 EAutoresolveAvantage_NoSupply_vs_Supply is 7
 EAutoresolveAvantage_NoAir_vs_Air is 8
+EAutoresolveAvantage_interception_air_air is 9
 
 AutoresolveAvantage_Enum is EAutoresolveAdvantage
 (
@@ -21,5 +22,6 @@ AutoresolveAvantage_Enum is EAutoresolveAdvantage
         "EAutoresolveAvantage_NoCMD_vs_CMD",
         "EAutoresolveAvantage_NoSupply_vs_Supply",
         "EAutoresolveAvantage_NoAir_vs_Air",
+        "EAutoresolveAvantage_interception_air_air",
     ]
 )

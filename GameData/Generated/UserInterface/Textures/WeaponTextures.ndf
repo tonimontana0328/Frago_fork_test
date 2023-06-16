@@ -142,6 +142,10 @@ Texture_Interface_Weapon_2A18_AP is TUIResourceTexture_Common
 (
     FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/2A18_AP.png"
 )
+Texture_Interface_Weapon_zis_2_57 is TUIResourceTexture_Common
+(
+    FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/zis_2_57.png"
+)
 Texture_Interface_Weapon_2A28_grom is TUIResourceTexture_Common
 (
     FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/2A28_grom.png"
@@ -886,6 +890,14 @@ Texture_Interface_Weapon_GBU_10 is TUIResourceTexture_Common
 (
     FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/GBU_10.png"
 )
+Texture_Interface_Weapon_GBU_27 is TUIResourceTexture_Common
+(
+    FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/GBU_27.png"
+)
+Texture_Interface_Weapon_KAB_1500Kr is TUIResourceTexture_Common
+(
+    FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/KAB_1500Kr.png"
+)
 Texture_Interface_Weapon_KAB_500Kr is TUIResourceTexture_Common
 (
     FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/KAB_500Kr.png"
@@ -1015,6 +1027,7 @@ WeaponAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Interface_Weapon_2A46_64BV", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_2A46_64BV)]),
         ("Texture_Interface_Weapon_2A46_T80", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_2A46_T80)]),
         ("Texture_Interface_Weapon_2A18_AP", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_2A18_AP)]),
+        ("Texture_Interface_Weapon_zis_2_57", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_zis_2_57)]),
         ("Texture_Interface_Weapon_2A28_grom", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_2A28_grom)]),
         ("Texture_Interface_Weapon_D56T", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_D56T)]),
         ("Texture_Interface_Weapon_Scorpion_Canon", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_Scorpion_Canon)]),
@@ -1201,6 +1214,8 @@ WeaponAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Interface_Weapon_Metis", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_Metis)]),
         ("Texture_Interface_Weapon_BGL_400", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_BGL_400)]),
         ("Texture_Interface_Weapon_GBU_10", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_GBU_10)]),
+        ("Texture_Interface_Weapon_GBU_27", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_GBU_27)]),
+        ("Texture_Interface_Weapon_KAB_1500Kr", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_KAB_1500Kr)]),
         ("Texture_Interface_Weapon_KAB_500Kr", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_KAB_500Kr)]),
         ("Texture_Interface_Weapon_s_24", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_s_24)]),
         ("Texture_Interface_Weapon_Javelin", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_Javelin)]),

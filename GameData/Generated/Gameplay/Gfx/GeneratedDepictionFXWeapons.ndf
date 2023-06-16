@@ -664,6 +664,8 @@ FXWeapon_Bomb_CLU_RBK_250kg_x8 is TIntroduceMobileHappening( Happening = FXProje
 
 FXWeapon_Bomb_CLU_RBK_500kg_x2 is TIntroduceMobileHappening( Happening = FXProjectile_3( Action = $/GFX/GameFx/fx_traine_bombe_Mk20_Rockeye_II ) )
 
+FXWeapon_Bomb_CLU_RBK_500kg_x8 is TIntroduceMobileHappening( Happening = FXProjectile_3( Action = $/GFX/GameFx/fx_traine_bombe_Mk20_Rockeye_II ) )
+
 FXWeapon_Bomb_FAB_250kg_x4 is TIntroduceMobileHappening( Happening = FXProjectile_3( Action = $/GFX/GameFx/fx_traine_bombe_FAB250 ) )
 
 FXWeapon_Bomb_FAB_500kg_x4 is TIntroduceMobileHappening( Happening = FXProjectile_3( Action = $/GFX/GameFx/fx_traine_bombe_FAB500 ) )

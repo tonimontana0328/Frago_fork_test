@@ -19,6 +19,11 @@ AutoResolveSeparator is BUCKContainerDescriptor
 )
 
 LargeurMainComponent is 600.0
+
+AutoresolveColumnWidth is 80.0
+AutoresolveColumnExternalMargin is 50.0
+
+
 //---------------------------------------------------------------
 template PertesSurTerrainBlade
 [
@@ -156,20 +161,21 @@ is BUCKContainerDescriptor
 
             Axis = ~/ListAxis/Horizontal
             BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
-            FirstMargin  = TRTTILength (Magnifiable = 10.0)
-            LastMargin  = TRTTILength (Magnifiable = 10.0)
+            FirstMargin  = TRTTILength (Magnifiable = AutoresolveColumnExternalMargin)
+            LastMargin  = TRTTILength (Magnifiable = AutoresolveColumnExternalMargin)
 
             Elements =
             [
                 BUCKListElementDescriptor
                 (
-                    ExtendWeight = 0.25
                     ComponentDescriptor = BUCKContainerDescriptor
                     (
                         ComponentFrame = TUIFramePropertyRTTI
                         (
-                            RelativeWidthHeight = [1.0, 1.0]
+                            RelativeWidthHeight = [0.0, 1.0]
+                            MagnifiableWidthHeight = [AutoresolveColumnWidth, 0.0]
                         )
+
                         Components =
                         [
                             BUCKTextDescriptor
@@ -199,6 +205,18 @@ is BUCKContainerDescriptor
                                 TextColor = "AutoResolve/ATQ"
                             )
                         ]
+                    )
+                ),
+                BUCKListElementDescriptor
+                (
+                    ExtendWeight = 0.5
+                    ComponentDescriptor = BUCKContainerDescriptor
+                    (
+                        ElementName = <LineName> + "LeftSpacer"
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            RelativeWidthHeight = [1.0, 1.0]
+                        )
                     )
                 ),
                 BUCKListElementDescriptor
@@ -243,13 +261,26 @@ is BUCKContainerDescriptor
                 ),
                 BUCKListElementDescriptor
                 (
-                    ExtendWeight = 0.25
+                    ExtendWeight = 0.5
                     ComponentDescriptor = BUCKContainerDescriptor
                     (
+                        ElementName = <LineName> + "RightSpacer"
                         ComponentFrame = TUIFramePropertyRTTI
                         (
                             RelativeWidthHeight = [1.0, 1.0]
                         )
+                    )
+                ),
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = BUCKContainerDescriptor
+                    (
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            RelativeWidthHeight = [0.0, 1.0]
+                            MagnifiableWidthHeight = [AutoresolveColumnWidth, 0.0]
+                        )
+
                         Components =
                         [
                             BUCKTextDescriptor
@@ -336,20 +367,21 @@ AutoResolveArmyForcesAndRatio is BUCKContainerDescriptor
 
             Axis = ~/ListAxis/Horizontal
             BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
-            FirstMargin  = TRTTILength (Magnifiable = 10.0)
-            LastMargin  = TRTTILength (Magnifiable = 10.0)
+            FirstMargin  = TRTTILength (Magnifiable = AutoresolveColumnExternalMargin)
+            LastMargin  = TRTTILength (Magnifiable = AutoresolveColumnExternalMargin)
 
             Elements =
             [
                 BUCKListElementDescriptor
                 (
-                    ExtendWeight = 0.25
                     ComponentDescriptor = BUCKContainerDescriptor
                     (
                         ComponentFrame = TUIFramePropertyRTTI
                         (
-                            RelativeWidthHeight = [1.0, 1.0]
+                            RelativeWidthHeight = [0.0, 1.0]
+                            MagnifiableWidthHeight = [AutoresolveColumnWidth, 0.0]
                         )
+
                         Components =
                         [
                             BUCKTextDescriptor
@@ -423,13 +455,14 @@ AutoResolveArmyForcesAndRatio is BUCKContainerDescriptor
                 ),
                 BUCKListElementDescriptor
                 (
-                    ExtendWeight = 0.25
                     ComponentDescriptor = BUCKContainerDescriptor
                     (
                         ComponentFrame = TUIFramePropertyRTTI
                         (
-                            RelativeWidthHeight = [1.0, 1.0]
+                            RelativeWidthHeight = [0.0, 1.0]
+                            MagnifiableWidthHeight = [AutoresolveColumnWidth, 0.0]
                         )
+
                         Components =
                         [
                             BUCKTextDescriptor
@@ -762,7 +795,6 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
                             StrengthTextureToken = "UseStrategic_SelectionPanel_Attack"
                             StrengthTextToken = "AR_AVAL"
                             StrengthTextColor = "AutoResolve/ATQ"
-                            StrengthHorizontalAlignment = 0.3
                         )
                     ),
                     BUCKListElementDescriptor
@@ -777,7 +809,6 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
                             StrengthTextureToken = "UseStrategic_SelectionPanel_Defense"
                             StrengthTextToken = "AR_ADEF"
                             StrengthTextColor = "AutoResolve/DEF"
-                            StrengthHorizontalAlignment = 0.7
                         )
                     )
                 ]
@@ -1128,7 +1159,6 @@ template TitreJoueur
     StrengthTextureToken : string,
     StrengthTextToken : string,
     StrengthTextColor : string,
-    StrengthHorizontalAlignment : float,
 ]
 is BUCKContainerDescriptor
 (
@@ -1139,6 +1169,7 @@ is BUCKContainerDescriptor
 
     Components =
     [
+        // Display of backgrounds, flag and "attacker/defender" text
         BUCKListDescriptor
         (
             ComponentFrame = TUIFramePropertyRTTI
@@ -1228,82 +1259,105 @@ is BUCKContainerDescriptor
                 ),
             ] )
         ),
-        BUCKContainerDescriptor
+
+        // Army strengths display
+        ArmyStrengthDisplay
         (
+            ElementName = <ElementName>
+            StrengthTextureToken = <StrengthTextureToken>
+            StrengthTextToken = <StrengthTextToken>
+            StrengthTextColor = <StrengthTextColor>
+            IsAttacker = <IsAttacker>
+        ),
+    ]
+)
+
+
+//---------------------------------------------------------------
+
+template ArmyStrengthDisplay
+[
+    ElementName : string,
+    StrengthTextureToken : string,
+    StrengthTextToken : string,
+    StrengthTextColor : string,
+    IsAttacker : bool,
+
+] is BUCKContainerDescriptor
+(
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        RelativeWidthHeight = [0.0, 1.0]
+        MagnifiableWidthHeight = [AutoresolveColumnWidth, 0.0]
+        AlignementToAnchor = [<IsAttacker> ? 0.0 : 1.0, 0.5]
+        AlignementToFather = [<IsAttacker> ? 0.0 : 1.0, 0.5]
+        MagnifiableOffset = [<IsAttacker> ? AutoresolveColumnExternalMargin : -AutoresolveColumnExternalMargin, 0.0]
+    )
+
+    Components =
+    [
+        BUCKListDescriptor
+        (
+            ElementName = <ElementName> + "StrengthContainer"
             ComponentFrame = TUIFramePropertyRTTI
             (
-                RelativeWidthHeight = [0.25, 1.0]
+                AlignementToFather = [0.5, 0.5]
                 AlignementToAnchor = [0.5, 0.5]
-                AlignementToFather = [<StrengthHorizontalAlignment>, 0.5]
             )
+            Axis = ~/ListAxis/Horizontal
+            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
-            Components =
+            Elements =
             [
-                BUCKListDescriptor
+                BUCKListElementDescriptor
                 (
-                    ElementName = <ElementName> + "StrengthContainer"
-                    ComponentFrame = TUIFramePropertyRTTI
+                    ComponentDescriptor = BUCKTextureDescriptor
                     (
-                        AlignementToFather = [0.5, 0.5]
-                        AlignementToAnchor = [0.5, 0.5]
-                    )
-                    Axis = ~/ListAxis/Horizontal
-                    BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
-
-                    Elements =
-                    [
-                        BUCKListElementDescriptor
+                        ComponentFrame = TUIFramePropertyRTTI
                         (
-                            ComponentDescriptor = BUCKTextureDescriptor
-                            (
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    MagnifiableWidthHeight = [16.0, 16.0]
-                                    AlignementToFather = [0.0, 0.5]
-                                    AlignementToAnchor = [0.0, 0.5]
-                                )
-
-                                ResizeMode = ~/TextureResizeMode/UserDefined
-
-                                TextureColorToken = "SM_paleSilver"
-                                TextureToken = <StrengthTextureToken>
-                            )
-                        ),
-                        BUCKListElementDescriptor
-                        (
-                            ComponentDescriptor = BUCKTextDescriptor
-                            (
-                                ElementName = <ElementName> + "StrengthText"
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    MagnifiableWidthHeight = [0.0, 32.0]
-                                )
-
-                                ParagraphStyle = TParagraphStyleRTTI
-                                (
-                                    Alignment = ~/UIText_Center
-                                    VerticalAlignment = ~/UIText_VerticalCenter
-                                )
-
-                                TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
-                                HorizontalFitStyle = ~/FitStyle/FitToContent
-
-                                TextStyle = "Default"
-                                TypefaceToken = "Bombardier"
-
-                                TextToken = <StrengthTextToken>
-                                TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                                TextSize = "AutoResolve/Information"
-                                TextColor = <StrengthTextColor>
-                            )
+                            MagnifiableWidthHeight = [16.0, 16.0]
+                            AlignementToFather = [0.0, 0.5]
+                            AlignementToAnchor = [0.0, 0.5]
                         )
-                    ]
+
+                        ResizeMode = ~/TextureResizeMode/UserDefined
+
+                        TextureColorToken = "SM_paleSilver"
+                        TextureToken = <StrengthTextureToken>
+                    )
+                ),
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = BUCKTextDescriptor
+                    (
+                        ElementName = <ElementName> + "StrengthText"
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            MagnifiableWidthHeight = [0.0, 32.0]
+                        )
+
+                        ParagraphStyle = TParagraphStyleRTTI
+                        (
+                            Alignment = ~/UIText_Center
+                            VerticalAlignment = ~/UIText_VerticalCenter
+                        )
+
+                        TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
+                        HorizontalFitStyle = ~/FitStyle/FitToContent
+
+                        TextStyle = "Default"
+                        TypefaceToken = "Bombardier"
+
+                        TextToken = <StrengthTextToken>
+                        TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                        TextSize = "AutoResolve/Information"
+                        TextColor = <StrengthTextColor>
+                    )
                 )
             ]
         )
     ]
 )
-
 
 //---------------------------------------------------------------
 
@@ -1370,7 +1424,7 @@ UISpecificStrategicAutoResolveViewDescriptor is TUISpecificStrategicAutoResolveV
         (~/EVictoryType/TotalVictory, "StAP_CAToW"),
         (~/EVictoryType/NotSpecified, "StAP_CON"),
     ]
-
+// interception DCA
     AirGroundVictoryTokens = MAP
     [
         (~/EVictoryType/TotalDefeat,  "AG_d"),
@@ -1395,15 +1449,16 @@ UISpecificStrategicAutoResolveViewDescriptor is TUISpecificStrategicAutoResolveV
         (~/EVictoryType/NotSpecified, "StAP_CON"),
     ]
 
+// interception Air-Air
     AerialVictoryTokens = MAP
     [
-        (~/EVictoryType/TotalDefeat,  "AUAiAi_def"),
-        (~/EVictoryType/MajorDefeat,  "AUAiAi_def"),
-        (~/EVictoryType/MinorDefeat,  "AUAiAi_def"),
-        (~/EVictoryType/Draw,         "AUAiAi_dr"),
-        (~/EVictoryType/MinorVictory, "AUAiAi_vi"),
-        (~/EVictoryType/MajorVictory, "AUAiAi_vi"),
-        (~/EVictoryType/TotalVictory, "AUAiAi_vi"),
+        (~/EVictoryType/TotalDefeat,  "AG_d"),
+        (~/EVictoryType/MajorDefeat,  "AG_d"),
+        (~/EVictoryType/MinorDefeat,  "AG_d"),
+        (~/EVictoryType/Draw,         "AG_draw"),
+        (~/EVictoryType/MinorVictory, "AG_v"),
+        (~/EVictoryType/MajorVictory, "AG_v"),
+        (~/EVictoryType/TotalVictory, "AG_v"),
         (~/EVictoryType/NotSpecified, "StAP_CON"),
     ]
 )

@@ -1,0 +1,19 @@
+export ModelFile_AH1F_CNITE_US is 'GameData:/Assets/3D/Units/US/Helico/AH1F_CNITE/AH1F_CNITE.fbx'
+
+Modele_AH1F_CNITE_US is TResourceMultiMaterialMeshWithLod
+(
+    FileName = ModelFile_AH1F_CNITE_US
+    CivMask =  CivMask/Common
+)
+
+Modele_AH1F_CNITE_US_MID is TResourceMultiMaterialMeshWithLod
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/AH1F_CNITE/AH1F_CNITE.fbx'
+    CivMask =  CivMask/Common
+)
+
+Modele_AH1F_CNITE_US_LOW is TResourceMultiMaterialMeshWithLod
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/AH1F_CNITE/AH1F_CNITE.fbx'
+    CivMask =  CivMask/Common
+)

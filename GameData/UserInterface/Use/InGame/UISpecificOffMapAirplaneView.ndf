@@ -2,36 +2,34 @@
 // -------------------------------------------------------------------------------------------------
 
 // Unit texture + Unit name + specialty + experience
-OffMapAirplaneMainContent is BUCKContainerDescriptor
+OffMapAirplaneMainContent is BUCKListDescriptor
 (
     ElementName = "OffMapAirplaneMainContent"
-    ComponentFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
 
-    Components =
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        RelativeWidthHeight = [0.0, 1.0]
+    )
+
+    Axis = ~/ListAxis/Horizontal
+    FirstMargin = TRTTILength( Magnifiable = 12.0 )
+    LastMargin = TRTTILength( Magnifiable = 12.0 )
+    InterItemMargin = TRTTILength( Magnifiable = 10.0 )
+
+    Elements =
     [
-        BUCKListDescriptor
+        BUCKListElementDescriptor
         (
-            ComponentFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [0.0, 1.0] )
-
-            Axis = ~/ListAxis/Horizontal
-            FirstMargin = TRTTILength( Magnifiable = 12.0 )
-            LastMargin = TRTTILength( Magnifiable = 12.0 )
-            InterItemMargin = TRTTILength( Magnifiable = 10.0 )
-
-            Elements =
-            [
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = ~/OffMapArtillerySpecialtyTexture
-                ),
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = ~/OffMapUnitExperience
-                ),
-            ]
+            ComponentDescriptor = ~/OffMapArtillerySpecialtyTexture
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ~/OffMapUnitExperience
         ),
     ]
 )
+
+// -------------------------------------------------------------------------------------------------
 
 OffMapAirplaneComponentDimension is [83.25, 54.0]
 
@@ -63,15 +61,15 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
             BigBorderBackgroundColorToken = "BoutonTemps"
             BackgroundBlockColorToken  = "BoutonTemps"
             TextColorToken = "ButtonHUD/Text2"
+
             IsTogglable = true
-            //HasBackground = true
             HasBorder = true
 
             Components =
             [
-                     ~/OffMapAirplaneMainContent,
-                     IconeUnite,
-                    BlocNom_status_jauge,
+                ~/OffMapAirplaneMainContent,
+                ~/IconeUnite,
+                ~/BlocNom_status_jauge,
             ]
         ),
         // bouton EVAC
@@ -95,13 +93,13 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
                 (
                     ComponentFrame = TUIFramePropertyRTTI
                     (
-                        RelativeWidthHeight = [1,1]
+                        RelativeWidthHeight = [1.0, 1.0]
                     )
 
                     TextureToken = 'icone_evacuation'
                     TextureFrame = TUIFramePropertyRTTI
                     (
-                        RelativeWidthHeight = [1, 1]
+                        RelativeWidthHeight = [1.0, 1.0]
                         AlignementToFather = [0.5, 0.5]
                         AlignementToAnchor = [0.5, 0.5]
                     )
@@ -110,7 +108,6 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
 
                 BUCKSpecificHintableArea
                 (
-
                     DicoToken = ~/LocalisationConstantes/dico_interface_ingame
                     HintTitleToken = "HOM_EVAT"
                     HintBodyToken = "HOM_EVAB"
@@ -119,9 +116,10 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
             ]
         )
     ]
-
 )
+
 //-------------------------------------------------------------------------------------
+
 BlocNom_status_jauge is BUCKListDescriptor
 (
     ElementName = 'BlocNom_status_jauge'
@@ -132,10 +130,11 @@ BlocNom_status_jauge is BUCKListDescriptor
         AlignementToAnchor  = [0.0, 1.0]
         AlignementToFather  = [0.0, 1.0]
     )
+
     Axis = ~/ListAxis/Vertical
+
     Elements =
     [
-
         BUCKListElementDescriptor
         (
             ComponentDescriptor = ~/StateGauge
@@ -146,7 +145,6 @@ BlocNom_status_jauge is BUCKListDescriptor
             ComponentDescriptor = ~/NomUnite
         ),
     ]
-
 )
 
 //-------------------------------------------------------------------------------------
@@ -194,7 +192,9 @@ StatusUnite is BUCKTextDescriptor
         HintExtendedToken = "HOM_STATE"
     )
 )
+
 //-------------------------------------------------------------------------------------
+
 NomUnite is BUCKTextDescriptor
 (
     ElementName = "UnitName"
@@ -234,7 +234,9 @@ NomUnite is BUCKTextDescriptor
         HintExtendedToken = "HOM_UNNAME"
     )
 )
+
 //-------------------------------------------------------------------------------------
+
 IconeUnite is BUCKContainerDescriptor
 (
     ElementName = "IconeUnite"
@@ -246,17 +248,13 @@ IconeUnite is BUCKContainerDescriptor
         AlignementToAnchor = [0.0, 0.5]
     )
 
-
-
     Components =
     [
         BUCKTextureDescriptor
         (
             ElementName = 'UnitTexture'
             ComponentFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
-
             TextureFrame   = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
-            //TextureColorToken = "Fulda2_Orange100"
         ),
 
         BUCKSpecificHintableArea
@@ -271,6 +269,7 @@ IconeUnite is BUCKContainerDescriptor
 )
 
 //-------------------------------------------------------------------------------------
+
 StateGauge is BUCKGaugeDescriptor
 (
     ElementName = 'StateGauge'
@@ -309,10 +308,12 @@ StateGauge is BUCKGaugeDescriptor
             HintBodyToken = "HPD_UEXPB"
             HintExtendedToken = "HPD_UEXPE"
         ),
-        StatusUnite,
+        ~/StatusUnite,
     ]
 )
+
 //-------------------------------------------------------------------------------------
+
 UISpecificOffMapAirplaneViewDescriptor is TUISpecificOffMapAirplaneViewDescriptor
 (
     MainComponentDescriptor = ~/BUCKSpecificOffMapAirplaneMainComponentDescriptor

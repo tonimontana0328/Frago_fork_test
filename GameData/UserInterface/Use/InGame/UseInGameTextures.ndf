@@ -194,6 +194,7 @@ UseInGame_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("icone_leader",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/leader.png' )), ] ),
         ("icone_mp",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/mp.png' )), ] ),
         ("icone_gsr",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/gsr.png' )), ] ),
+        ("icone_shock",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/shock.png' )), ] ),
         ("icone_security",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/security.png' )), ] ),
         ("icone_sniper",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/sniper.png' )), ] ),
 
