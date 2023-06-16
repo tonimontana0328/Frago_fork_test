@@ -47060,24 +47060,24 @@ Ammo_RocketArt_BM27_220mm is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/Artillerie
     ImpactHappening                   = [ 'RoquetteM26M270227MmCluster' ]
     FxPower                           = EFXPower/Moyen
-    TempsEntreDeuxTirs                = 2.55
-    TempsEntreDeuxFx                  = 3.0
+    TempsEntreDeuxTirs                = 1.0
+    TempsEntreDeuxFx                  = 1.0
     PorteeMaximale                    = ((99899) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
     PorteeMaximaleHA                  = ((0) * Metre)
-    PorteeMinimale                    = ((20000) * Metre)
+    PorteeMinimale                    = ((5000) * Metre)
     AltitudeAPorteeMinimale           = ((750.0) * Metre)
     AltitudeAPorteeMaximale           = ((10000.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((1000) * Metre)
-    DispersionAtMinRange              = ((1000) * Metre)
+    DispersionAtMaxRange              = ((1500) * Metre)
+    DispersionAtMinRange              = ((700) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 323 * Metre
-    PhysicalDamages                   = 1.62
+    RadiusSplashPhysicalDamages       = 315 * Metre
+    PhysicalDamages                   = 1.612
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 285 * Metre
     SuppressDamages                   = 285.0
@@ -47116,8 +47116,8 @@ Ammo_RocketArt_BM27_220mm is TAmmunitionDescriptor
          ]
     )
     MaxSuccessiveHitCount             = 1
-    TempsDeVisee                      = 33.0
-    TempsEntreDeuxSalves              = 144.0
+    TempsDeVisee                      = 28.0
+    TempsEntreDeuxSalves              = 180.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 12
