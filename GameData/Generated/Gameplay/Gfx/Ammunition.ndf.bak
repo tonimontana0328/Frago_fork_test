@@ -25476,7 +25476,7 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 202 * Metre
+    RadiusSplashPhysicalDamages       = 152 * Metre
     PhysicalDamages                   = 2.17
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 305 * Metre
@@ -26181,7 +26181,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late is TAmmunitionDescriptor
     TempsEntreDeuxSalves              = 67.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
-    NbTirParSalves                    = 3
+    NbTirParSalves                    = 2
     SupplyCost                        = 160
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
@@ -26276,7 +26276,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
     TempsEntreDeuxSalves              = 45.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
-    NbTirParSalves                    = 3
+    NbTirParSalves                    = 2
     SupplyCost                        = 160
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
@@ -26329,7 +26329,7 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 202 * Metre
+    RadiusSplashPhysicalDamages       = 152 * Metre
     PhysicalDamages                   = 2.074
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 305 * Metre
@@ -26519,11 +26519,11 @@ Ammo_Howz_Canon_2A65_SP_152mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 194 * Metre
-    PhysicalDamages                   = 3.7
+    RadiusSplashPhysicalDamages       = 190 * Metre
+    PhysicalDamages                   = 3.04
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 388 * Metre
-    SuppressDamages                   = 194.0
+    RadiusSplashSuppressDamages       = 380 * Metre
+    SuppressDamages                   = 190.0
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = True
@@ -27182,7 +27182,7 @@ Ammo_Howz_Canon_A19_Howitzer_122mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 202 * Metre
+    RadiusSplashPhysicalDamages       = 152 * Metre
     PhysicalDamages                   = 2.074
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 305 * Metre
@@ -27463,7 +27463,7 @@ Ammo_Howz_Canon_D20_Howitzer_152mm is TAmmunitionDescriptor
     DispersionAtMaxRange              = ((500) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
-    CorrectedShotDispersionMultiplier = 0.65
+    CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 274 * Metre
     PhysicalDamages                   = 3.7
@@ -27935,7 +27935,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm is TAmmunitionDescriptor
     DispersionAtMaxRange              = ((500) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
-    CorrectedShotDispersionMultiplier = 0.65
+    CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 190 * Metre
     PhysicalDamages                   = 3.74
@@ -28030,7 +28030,7 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late is TAmmunitionDescriptor
     DispersionAtMaxRange              = ((500) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
-    CorrectedShotDispersionMultiplier = 0.65
+    CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 190 * Metre
     PhysicalDamages                   = 3.74
@@ -28222,7 +28222,7 @@ Ammo_Howz_Canon_D30_Howitzer_122mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 202 * Metre
+    RadiusSplashPhysicalDamages       = 152 * Metre
     PhysicalDamages                   = 2.174
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 305 * Metre
@@ -28692,7 +28692,7 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm is TAmmunitionDescriptor
     DispersionAtMaxRange              = ((500) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
-    CorrectedShotDispersionMultiplier = 0.65
+    CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 274 * Metre
     PhysicalDamages                   = 3.75
@@ -28882,7 +28882,7 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm is TAmmunitionDescriptor
     DispersionAtMaxRange              = ((500) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
-    CorrectedShotDispersionMultiplier = 0.65
+    CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 274 * Metre
     PhysicalDamages                   = 3.75
@@ -29072,7 +29072,7 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm is TAmmunitionDescriptor
     DispersionAtMaxRange              = ((500) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
-    CorrectedShotDispersionMultiplier = 0.65
+    CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 274 * Metre
     PhysicalDamages                   = 3.75
@@ -29452,7 +29452,7 @@ Ammo_Howz_Canon_L13A1_Howitzer_105mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 174 * Metre
+    RadiusSplashPhysicalDamages       = 134 * Metre
     PhysicalDamages                   = 1.912
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 268 * Metre
@@ -29547,7 +29547,7 @@ Ammo_Howz_Canon_M101_Howitzer_105mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 174 * Metre
+    RadiusSplashPhysicalDamages       = 134 * Metre
     PhysicalDamages                   = 1.912
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 268 * Metre
@@ -29737,7 +29737,7 @@ Ammo_Howz_Canon_M102_Howitzer_105mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 174 * Metre
+    RadiusSplashPhysicalDamages       = 134 * Metre
     PhysicalDamages                   = 1.912
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 268 * Metre
@@ -30398,7 +30398,7 @@ Ammo_Howz_Canon_M114_39_Howitzer_155mm is TAmmunitionDescriptor
     DispersionAtMaxRange              = ((500) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
-    CorrectedShotDispersionMultiplier = 0.65
+    CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 274 * Metre
     PhysicalDamages                   = 3.1
@@ -30681,7 +30681,7 @@ Ammo_Howz_Canon_M114_Howitzer_155mm is TAmmunitionDescriptor
     DispersionAtMaxRange              = ((500) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
-    CorrectedShotDispersionMultiplier = 0.65
+    CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 274 * Metre
     PhysicalDamages                   = 3.1
@@ -31247,7 +31247,7 @@ Ammo_Howz_Canon_M118_Howitzer_105mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 174 * Metre
+    RadiusSplashPhysicalDamages       = 134 * Metre
     PhysicalDamages                   = 2.012
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 268 * Metre
@@ -31435,7 +31435,7 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm is TAmmunitionDescriptor
     DispersionAtMaxRange              = ((500) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
-    CorrectedShotDispersionMultiplier = 0.65
+    CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 274 * Metre
     PhysicalDamages                   = 3.75
@@ -31625,7 +31625,7 @@ Ammo_Howz_Canon_M198_Howitzer_155mm is TAmmunitionDescriptor
     DispersionAtMaxRange              = ((500) * Metre)
     DispersionAtMinRange              = ((500) * Metre)
     DispersionWithoutSorting          = True
-    CorrectedShotDispersionMultiplier = 0.65
+    CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 274 * Metre
     PhysicalDamages                   = 3.75
@@ -32005,7 +32005,7 @@ Ammo_Howz_Canon_M30_Howitzer_122mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotDispersionMultiplier = 0.7
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamages       = 202 * Metre
+    RadiusSplashPhysicalDamages       = 152 * Metre
     PhysicalDamages                   = 2.074
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 305 * Metre

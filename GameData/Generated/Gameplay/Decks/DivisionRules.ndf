@@ -9189,13 +9189,6 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 9
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
-                    TDeckUniteRule
-                    (
-                        UnitDescriptor = ~/Descriptor_Unit_T80BV_CMD_SOV
-                        AvailableWithoutTransport = True
-                        NumberOfUnitInPack = 3
-                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.5]
-                    ),
 					TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_T80BV_SOV
