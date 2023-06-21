@@ -26953,3 +26953,125 @@ Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Su_22_SEAD_DDR is TDeckPac
         ),
     ]
 )
+Descriptor_Deck_Pack_101st_multi_Unit_M1025_Humvee_TOW_para_US_101st_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b88ed6fb-f12d-46f7-aed4-4db23b42ed33}
+    CfgName = '101st_multi_Unit_M1025_Humvee_TOW_para_US_101st_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_M1025_Humvee_TOW_para_US_101st_FRL
+        ),
+    ]
+)
+
+Descriptor_Deck_Pack_101st_multi_Unit_Airborne_Scout_US_101st_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7abc9f42-b58b-4341-a5ef-76a989bba209}
+    CfgName = 'Unit_Airborne_Scout_US_101st_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Airborne_Scout_US_101st_FRL
+        ),
+    ]
+)
+
+Descriptor_Deck_Pack_101st_multi_Unit_LRRP_US_101st_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7ec3807b-f844-4804-b1bf-943c1ff0d3a6}
+    CfgName = 'Unit_Airborne_Scout_US_101st_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_LRRP_US_101st_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_101st_multi_GreenBerets_US_101st_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{ba693379-6d41-4e74-8076-47d4f68a6dd9}
+    CfgName = 'Unit_GreenBerets_US_101st_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_GreenBerets_US_101st_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_101st_multi_MANPAD_Stinger_C_para_US_101st_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7aaa12fc-05c1-4cb4-a975-7860e7d83864}
+    CfgName = 'MANPAD_Stinger_C_para_US_101st_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_MANPAD_Stinger_C_para_US_101st_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_101st_multi_AH64_Apache_US_ATAS_101st_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{9f8ee7f9-211b-42f7-acca-550f28f97204}
+    CfgName = 'AH64_Apache_US_ATAS_101st_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AH64_Apache_US_ATAS_101st_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_101st_multi_F15C_Eagle_AA2_US is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{dd6365ee-333a-4169-9da6-00acb07ae1fa}
+    CfgName = 'F15C_Eagle_AA2_US'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_F15C_Eagle_AA2_US
+        ),
+    ]
+)
+Descriptor_Deck_Pack_101st_multi_ATteam_ITOW_US_101st_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c8ca94fe-774f-4c03-b02e-e6958a88326f}
+    CfgName = 'Deck_Pack_101st_multi_ATteam_ITOW_US_101st_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_ITOW_US_101st_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_101st_multi_AF16E_AA_US_101st_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{baf3025b-6735-441b-b724-5198486d8c84}
+    CfgName = 'Deck_Pack_101st_multi_F16E_AA_US_101st_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_F16E_AA_US_101st_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_101st_multi_F117_Nighthawk_US_101st_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{19b0fd2a-f875-48ed-b682-2a2e2c4358e5}
+    CfgName = 'Descriptor_Unit_F117_Nighthawk_US_101st_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_F117_Nighthawk_US_101st_FRL
+        ),
+    ]
+)

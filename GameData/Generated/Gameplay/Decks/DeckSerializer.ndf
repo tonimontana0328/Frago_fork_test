@@ -39,6 +39,8 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Division_US_8th_Inf_challenge_IA, 190),
         (Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA, 192),
         (Descriptor_Deck_Division_SOV_119IndTkBrig_multi, 195),
+        (Descriptor_Deck_Division_101st, 34),
+
     ]
 
     PackIds = MAP
@@ -3134,6 +3136,23 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_Marder_1A3_MILAN2_RFA_FRL, 5006),
         (Descriptor_Unit_M2A2_Bradley_TOW1_IFV_US_FRL, 5007),
         (Descriptor_Unit_M113_ACAV_US_nonrecce_FRL, 5008),
+        (Descriptor_Unit_M1025_Humvee_TOW_para_US_101st_FRL, 20009),
+        (Descriptor_Unit_CH47_Chinook_US_101st_FRL, 20010),
+        (Descriptor_Unit_UH60A_Black_Hawk_US_101st_FRL, 20011),
+        (Descriptor_Unit_UH60A_Black_Hawk_US_Nonarme_101st_FRL, 20012),
+        (Descriptor_Unit_Airborne_Scout_US_101st_FRL, 20013),
+        (Descriptor_Unit_AH6C_Little_Bird_US_unarmed_FRL, 20014),
+        (Descriptor_Unit_M1025_Humvee_AGL_US_101st_FRL, 20015),
+        (Descriptor_Unit_M1025_Humvee_scout_US_101st_FRL, 20016),
+        (Descriptor_Unit_LRRP_US_101st_FRL, 20017),
+        (Descriptor_Unit_GreenBerets_US_101st_FRL, 20018),
+        (Descriptor_Unit_MANPAD_Stinger_C_para_US_101st_FRL, 20019),
+        (Descriptor_Unit_AH64_Apache_US_ATAS_101st_FRL, 20020),
+        (Descriptor_Unit_ATteam_ITOW_US_101st_FRL, 20021),
+        (Descriptor_Unit_F16E_AA_US_101st_FRL, 20022),
+        (Descriptor_Unit_F117_Nighthawk_US_101st_FRL, 20023),
+
+
 
 
         
