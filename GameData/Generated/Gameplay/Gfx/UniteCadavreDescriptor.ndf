@@ -35401,7 +35401,7 @@ Descriptor_UnitCadavre_TO_55_DDR is TEntityDescriptor
                 CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
                 CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
                 FadingDuration = 1
-                DeathExplosionAmmo = ~/Ammo_Mort_Unite_forte
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_flamer_FRL
                 ModuleDescriptorsToSteal =
                 [
                    $/GFX/Everything/Descriptor_Unit_TO_55_DDR/WeaponManager,
@@ -35466,7 +35466,7 @@ Descriptor_UnitCadavre_TO_55_SOV is TEntityDescriptor
                 CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
                 CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
                 FadingDuration = 1
-                DeathExplosionAmmo = ~/Ammo_Mort_Unite_forte
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_flamer_FRL
                 ModuleDescriptorsToSteal =
                 [
                    $/GFX/Everything/Descriptor_Unit_TO_55_SOV/WeaponManager,
