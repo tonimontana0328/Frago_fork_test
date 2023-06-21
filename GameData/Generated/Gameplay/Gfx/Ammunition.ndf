@@ -66974,6 +66974,93 @@ Ammo_MANPAD_FIM92 is TAmmunitionDescriptor
     PiercingWeapon                    = False
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
+Ammo_MANPAD_FIM92_FRL_Slow is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{9a5a917d-3612-4de8-8817-2d5017c9879c}
+    Name                              = 'WPAPQRTROO'
+    TypeName                          = 'SACLOSM'
+    TypeCategoryName                  = 'RGUHEGFUDW'
+    Caliber                           = 'CNSCMZKXCN'
+    WeaponDescriptionToken            = ''
+    TraitsToken                       = [ 'STAT', 'F&F', ]
+    WeaponCursorType                  = Weapon_Cursor_AirMissile
+    MinMaxCategory                    = MinMax_SAM
+    Level                             = 1
+    Arme                              = TDamageTypeRTTI(Family="missile_he" Index=1)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MissileAA9K38Igla' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 2.0
+    TempsEntreDeuxFx                  = 2.0
+    PorteeMaximale                    = ((0) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((7500) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((7004) * Metre)
+    PorteeMinimale                    = ((0) * Metre)
+    AngleDispersion                   = 0.02
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 120 * Metre
+    PhysicalDamages                   = 5.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 120 * Metre
+    SuppressDamages                   = 240.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    FX_vitesse_de_depart              = 14000 * Metre
+    FX_acceleration_max               = 8000 * Metre
+    FX_tir_sans_physic                = True
+    FX_frottement                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    IsFireAndForget                   = True
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{0b67695c-eb52-4173-bc7f-2104f64581a6}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 55),
+             (EBaseHitValueModifier/Moving, 0),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    TempsDeVisee                      = 2.3
+    TempsEntreDeuxSalves              = 10.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 1
+    SupplyCost                        = 20
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 1
+    MissileTimeBetweenCorrections     = 1.0
+    MissileDescriptor                 = ~/Descriptor_Missile_MANPAD_FIM92
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_fim92"
+    WeaponForceNote                   = 2
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
 Ammo_MANPAD_Javelin is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{4afedd01-6f94-4ce2-b71e-212d80025f26}
