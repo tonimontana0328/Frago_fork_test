@@ -255,6 +255,10 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
                 CountryTexture = 'CommonTexture_MotherCountryFlag_DDR'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
             ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
+            ),
     ]
 )
 export Descriptor_Unit_FOB_FR is TEntityDescriptor
@@ -510,6 +514,10 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
                 ButtonTexture = 'Texture_Button_Unit_FOB_FR'
                 CountryTexture = 'CommonTexture_MotherCountryFlag_FR'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
+            ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
             ),
     ]
 )
@@ -767,6 +775,10 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
                 CountryTexture = 'CommonTexture_MotherCountryFlag_RFA'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
             ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
+            ),
     ]
 )
 export Descriptor_Unit_FOB_SOV is TEntityDescriptor
@@ -1022,6 +1034,10 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
                 ButtonTexture = 'Texture_Button_Unit_FOB_SOV'
                 CountryTexture = 'CommonTexture_MotherCountryFlag_SOV'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
+            ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
             ),
     ]
 )
@@ -1279,6 +1295,10 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
                 CountryTexture = 'CommonTexture_MotherCountryFlag_UK'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
             ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
+            ),
     ]
 )
 export Descriptor_Unit_FOB_US is TEntityDescriptor
@@ -1534,6 +1554,10 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
                 ButtonTexture = 'Texture_Button_Unit_FOB_US'
                 CountryTexture = 'CommonTexture_MotherCountryFlag_US'
                 TypeStrategicCount = ETypeStrategicCount/NotCounted
+            ),
+			TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
             ),
     ]
 )

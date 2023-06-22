@@ -218,7 +218,7 @@ export Descriptor_Fire_NapalmLeger is TEntityDescriptor
         ),
         TFireModuleDescriptor
         (
-            TimeToLive                     = ((30) * Seconde)
+            TimeToLive                     = ((60) * Seconde)
             TimeBeforeSpreading            = ((1) * Seconde)
             TimeBeforeSpreadAttempt        = ((1) * Seconde)
             SpreadProbability              = 1.0
@@ -362,6 +362,52 @@ export Descriptor_Fire_NapalmMoyen_bomb_FRL is TEntityDescriptor
             SpreadProbability              = 1.0
             IsNewFireProbability           = 0.8
             Radius                         = ((400) * Metre)
+            AmmunitionForBurn              = Ammo_Degats_napalm_buratino
+            TimeBetweenBurns               = ((1) * Seconde)
+            OverridenSpreadDescriptor      = Descriptor_Fire_Incendie
+            SmokeDescriptor                = Descriptor_Smoke_FumiIncendie_bomb_FRL
+        ),
+    ]
+)
+export Descriptor_Fire_NapalmMoyen_bomb_to55_death is TEntityDescriptor
+(
+    World              = WorldIndices_Fires
+    DescriptorId       = GUID:{e3234625-5055-4b91-924b-fb86f191b408}
+    ClassNameForDebug  = 'Fire_NapalmMoyen_'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        ~/EmptyTagsModuleDescriptor,
+        TPositionModuleDescriptor
+        (
+            UseFollowCam               = False
+            StickToGround              = True
+            InGeoDb                    = False
+            PorteurMustBeVisible       = True
+            ClampInWorld               = True
+            ClampOutMap                = False
+            RelativeScanningPosition   = [0,0,0]
+            LowAltitudeFlyingAltitude  = ((0) * Metre)
+            NearGroundFlyingAltitude   = ((0) * Metre)
+        ),
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            Depiction  = Template_DescriptorFire_Depiction
+            (
+                 Radius               = 300 * Metre
+                 FX                   = $/GFX/GameFx/fx_binder_fire_Napalm_Moyen
+                 Density              = 1
+            )
+            DefaultVisibility  = True
+        ),
+        TFireModuleDescriptor
+        (
+            TimeToLive                     = ((60) * Seconde)
+            TimeBeforeSpreading            = ((1) * Seconde)
+            TimeBeforeSpreadAttempt        = ((1) * Seconde)
+            SpreadProbability              = 1.0
+            IsNewFireProbability           = 0.5
+            Radius                         = ((300) * Metre)
             AmmunitionForBurn              = Ammo_Degats_napalm_buratino
             TimeBetweenBurns               = ((1) * Seconde)
             OverridenSpreadDescriptor      = Descriptor_Fire_Incendie

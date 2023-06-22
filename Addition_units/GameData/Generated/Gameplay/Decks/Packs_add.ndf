@@ -1,0 +1,88 @@
+Descriptor_Deck_Pack_EF111_Raven_US_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{1f19cd02-aab4-4e80-9536-88f83cc86847}
+    CfgName = 'Descriptor_Deck_Pack_EF111_Raven_US'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_EF111_Raven_US
+        ),
+    ]
+)
+Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{07a4797e-7959-48c6-8adb-7c7862efeb48}
+    CfgName = 'Deck_Pack_F117_Nighthawk_US_NUKE'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL
+        ),
+    ]
+)
+
+Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7b566b35-6551-4460-818e-a0b72d738220}
+    CfgName = 'Descriptor_Deck_Pack_Su_24M_SOV_NUKE'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Su_24M_SOV_NUKE_FRL
+        ),
+    ]
+)
+
+Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{9d228f49-519c-4334-a89b-51b1a7cc2a8e}
+    CfgName = 'Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Jaguar_HE_FR_NUKE_FRL
+        ),
+    ]
+)
+
+Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{07365209-d0cb-4c49-9527-432d802fff24}
+    CfgName = 'Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL
+        ),
+    ]
+)
+
+Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{85d5231c-6dae-488e-a7bf-1c61db2885e3}
+    CfgName = 'Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{3491a2ae-ff8c-489c-9651-a77d3fa984c7}
+    CfgName = 'Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL
+        ),
+    ]
+)

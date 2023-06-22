@@ -1,0 +1,864 @@
+export Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId       = GUID:{28555e61-e49c-4118-b1f3-542ef3395ed3}
+    ClassNameForDebug  = 'Unit_GreenBerets_MP5_US_NUKE_FRL'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+                Flag_Infanterie,
+                
+                
+            ]
+        ),
+        ~/TargetManagerModuleSelector,
+        TemplateUnitCriticalModule(Module=~/CriticalEffectModule_Infanterie),
+            ~/TargetCoordinatorModuleSelector,
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = True
+                StickToGround              = True
+                InGeoDb                    = True
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/PlayerMissionModuleDescriptor,
+        ~/InflammableModuleDescriptorUnit,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+                "Unite",
+                "UNITE_GreenBerets_MP5_US",
+                "Infanterie_Reco",
+                "Infanterie",
+                "Inf_quartier_ok",
+                "Crew",
+                "Reco",
+                "AllowedForMissileRoE",
+                "Radio",
+                "GroundUnits",
+            ]
+        ),
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_SF
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TVisibilityModuleDescriptor
+        (
+            AutoRevealType       = EAutoRevealType/AutoRevealAllies
+            UnitConcealmentBonus = 2.5
+            VisionUnitType       = EVisionUnitType/AlwaysOnGround
+            UnitIsStealth        = False
+            HideFromDebug        = False
+        ),
+        ApparenceModel is
+            TApparenceModelModuleDescriptor
+            (
+                PickableObject       = False
+                Depiction            = ~/Gfx_GreenBerets_MP5_US
+            ),
+            TModuleSelector
+            (
+                Default        = TAutoCoverModuleDescriptor
+                (
+                    AutoCoverRange             = 350*Metre
+                    OccupationRadius           = 100*Metre
+                    TerrainListMask            = ~/ETerrainType/None | ~/ETerrainType/Tranchee | ~/ETerrainType/Batiment | ~/ETerrainType/Ruin | ~/ETerrainType/NidMitrailleuse | ~/ETerrainType/ForetLegere
+                    TerrainList                = [~/ETerrainType/Tranchee, ~/ETerrainType/Batiment, ~/ETerrainType/Ruin, ~/ETerrainType/NidMitrailleuse, ~/ETerrainType/ForetLegere, ]
+                    UseTerrainsForEscape       = True
+                )
+                Selection      = [ ~/NilDescriptorIfCadavre ]
+            ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_GreenBerets_MP5_US_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 6
+                    MaxSuppressionDamages = ~/Infanterie_MaxSuppressionDamages
+                    MaxStunDamages = ~/Infanterie_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_GroundUnits_packSupp
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Unit_packStun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default        = TDamageModuleDescriptor
+                (
+                    SuppressDamagesRegenRatio = ~/Infanterie_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Infanterie_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
+                    (
+                        ArmorDescriptorFront = ArmorDescriptor_Infanterie_1
+                        ArmorDescriptorSides = ArmorDescriptor_Infanterie_1
+                        ArmorDescriptorRear = ArmorDescriptor_Infanterie_1
+                        ArmorDescriptorTop = ArmorDescriptor_Infanterie_1
+                    )
+                    KillWhenDamagesReachMax = True
+                    HitRollSize = 0.0
+                    HitRollECM = 0.0
+                    AutoOrientation = True
+                    UseTopArmorAgainstFire = True
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+             TDangerousnessModuleDescriptor
+             (
+                 Dangerousness  = 11
+             ),
+             TModuleSelector
+             (
+                 Default = TRoutModuleDescriptor
+                 (
+                     MoralLevel = 0
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 6
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'GreenBerets_MP5_US'
+                    WeaponUnitFXKey     = 'GreenBerets_MP5_US'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 8 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierLineDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[0,]),
+                                        (1,[0,]),
+                                        (2,[0,]),
+                                        (3,[0,]),
+                                        (4,[0,2,]),
+                                        (5,[0,1,]),
+                                      ]
+        ),
+        FacingInfos is TModuleSelector
+        (
+            Default   = TFacingInfosModuleDescriptor
+            (
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        GenericMovement is TModuleSelector
+        (
+            Default        = TGenericMovementModuleDescriptor
+            (
+               MaxSpeed         = 66 * Metre
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        LandMovement is TModuleSelector
+            (
+                Default        = TLandMovementModuleDescriptor
+                (
+                    UnitMovingType = EUnitMovingType/Infantry
+                    PathfindType = ~/PathfindTypes/Infantry
+                    PreferredLayerMask = EWorldFloorLayer/All
+                    VitesseCombat = ((75) * Metre)
+                    SpeedBonusOnRoad = 0.0
+                    MaxAcceleration = ((30.0) * Metre)
+                    MaxDeceleration = ((155.0) * Metre)
+                    TempsDemiTour = 0.1
+                    VehicleSubType = LandVehicleSubType/Infantry
+                    StartTime = (0 * Seconde)
+                    StopTime = (0 * Seconde)
+                    RotationStartTime = (0 * Seconde)
+                    RotationStopTime = (0 * Seconde)
+                )
+                Selection = [~/NilDescriptorIfCadavre]
+            ),
+            TModuleSelector
+            (
+                Default        = TScannerConfigurationDescriptor
+                (
+                    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
+                    DoesNotCountInScannerAbsoluteMaxRange = False
+                    PorteeVisionTBA = ((0.0) * Metre)
+                    PorteeVisionFOW = ((0.0) * Metre)
+                    DetectionTBA = ((14000) * Metre)
+                    PorteeVision = ((10000) * Metre)
+                    PorteeIdentification = 0.0
+                    OpticalStrength = 191.025
+                    OpticalStrengthAltitude = 40
+                    UnitDetectStealthUnit = False
+                    SpecializedDetections = MAP [
+                        ( EVisionUnitType/AlwaysInHighAltitude, 16000.0 * Metre ),
+                    ]
+                    SpecializedOpticalStrengths = MAP [
+                    ]
+                    IgnoreObstacles = MAP []
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 0.56
+                TimeBetweenEachIdentifyRoll = 4.0
+                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
+                (
+                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
+                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
+                    Exposant                                 = DefaultExposant
+                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
+                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
+                    ExposantEnMouvement                      = DefaultExposantEnMouvement
+                )
+            )
+        ),
+            TTransportableModuleDescriptor
+            (
+                Categories                             = []
+                TransportedTexture                     = "UseInGame_Transport_RECO"
+                TransportedSoldier                     = 'GreenBerets_MP5_US'
+                NbSeatsOccupied                        = 3
+                TimeToLoad                             = 0
+                IsTowable                              = False
+                    SuppressDamageRatioIfTransporterKilled = DefaultTransportableSuppressDamageRatioIfTransporterKilled
+                    TransportListAvailableForSpawn         = []
+            ),
+        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_GreenBerets_MP5_US ),
+            TModuleSelector
+            (
+                Default        = TIAStratModuleDescriptor
+                (
+                    DatabaseId = 0
+                    GameplayBehavior = EGameplayBehavior/Nothing | EGameplayBehavior/TacticalAttackInCover
+                )
+                Selection      = [~/NilDescriptorIfCadavre]
+            ),
+        ~/IAStratZoneIndexModuleDescriptor,
+            TModuleSelector
+        (
+            Default        = TStateEngineCompanyModuleDescriptor
+            (
+                InitialStateId = 'CompanyInit'
+                StateEngineUpdateMode = WorldControllerAccess_InWorld
+            )
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        TStateEngineModuleDescriptor
+        (
+            InitialStateId = 'UnitIdle'
+            StateEngineUpdateMode = WorldControllerAccess_InWorld
+        ),
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+            TModuleSelector
+            (
+                Default        = TCapaciteModuleDescriptor
+                (
+                    DefaultSkillList = [
+                        ~/Capacite_Choc,
+                    ]
+                    PostOrderSkillList = MAP [
+                    ]
+                )
+                Selection      = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default = TProductionModuleDescriptor
+                (
+                    Factory            = EDefaultFactories/Infantry
+                    ProductionTime     = 5
+                    ProductionRessourcesNeeded = MAP [
+                        (~/Resource_CommandPoints, 400),
+                        (~/Resource_Tickets, 3),
+                    ]
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        ~/InfluencePositionModuleDescriptor,
+        ~/InfluenceDataModuleDescriptor,
+             TModuleSelector
+             (
+                 Default = TAutomaticBehaviorModuleDescriptor
+                 (
+                     CanAssist = False
+                     AssistRequestBroadcastRadius = 0.0 * Metre
+                     DistanceToFlee = 1000 * Metre
+                     MaxDistanceForOffensiveReaction = 1000 * Metre
+                     MaxDistanceForOffensiveReactionOnFlyingTarget = 0.0 * Metre
+                     MaxDistanceForEngagement = 0.0 * Metre
+                     SearchedTagsInEngagementTarget = [
+                        "AllUnits",
+                     ]
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        TCubeActionModuleDescriptor
+        (
+            CubeActionDescriptor = ~/CubeAction_Menu_Ordres_infs_simplifie
+        ),
+            TMinimapDisplayModuleDescriptor
+            (
+                Texture = "Texture_Minimap_Unit_inf"
+                GhostTexture = "Texture_Minimap_Unit_inf"
+                IsAlwaysVisible = False
+                UseTeamColor = True
+                FollowUnitOrientation = False
+            ),
+        TOrderConfigModuleDescriptor
+        (
+                ValidOrders = ~/Descriptor_OrderAvailability_GreenBerets_MP5_US
+        ),
+        TOrderableModuleDescriptor
+        (
+            UnlockableOrders = ~/Descriptor_OrderAvailability_GreenBerets_MP5_US
+        ),
+        ~/OrderDisplayModuleDescriptor,
+            ~/GroupableUnitModuleSelector,
+            TTacticalLabelModuleDescriptor
+            (
+                MultiSelectionSortingOrder = 18065
+                UnitName                   = 'ZKRSXZTEJE'
+                IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_RECO_inf",
+                        "Texture_RECO_inf"
+                    ]
+                )
+                DefaultSpecialtyToken      = "tank_B"
+                UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_infantry_nonIdentifie",
+                        "Texture_infantry_nonIdentifie"
+                    ]
+                )
+                PositionHeightOffset = 1000.0
+                NbSoldiers                 = 6
+            ),
+            TModuleSelector
+            (
+                Default        = TLinkToDistrictModuleDescriptor()
+                Selection      = [~/NilDescriptorIfCadavre]
+            ),
+        TLinkToTrenchModuleDescriptor
+        (
+        ),
+        ~/TargetDataModuleDescriptor,
+        ~/PackSignauxModuleDescriptor,
+            TStrategicDataModuleDescriptor
+                (
+                    UnitAttackValue = 66
+                    UnitDefenseValue = 66
+                    UnitBonusXpPerLevelValue = 1
+                    CompanyDissolutionTransferTo = [
+                        "Stab",
+                    ]
+             ),
+            TUnitUIModuleDescriptor
+            (
+                UnitRole = 'tank_B'
+                SpecialtiesList = [
+                    'reco',
+                    '_reco',
+                    '_sf',
+                    '_choc',
+                ]
+                NameToken = 'ZKRSXZTEJE'
+                InfoPanelConfigurationToken = 'Infantry'
+                TypeSpecificToken = ''
+                RealRoadSpeed = 20
+                IsAce = False
+                    UpgradeFromUnit = Descriptor_Unit_Airborne_Scout_US
+                GenerateName = true
+                MenuIconTexture = 'Texture_RTS_H_RECO_inf'
+                ButtonTexture = 'Texture_Button_Unit_GreenBerets_MP5_US'
+                CountryTexture = 'CommonTexture_MotherCountryFlag_US'
+                TypeStrategicCount = ETypeStrategicCount/Soldier
+            ),
+            TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 7000.0 * Metre
+            ),
+    ]
+)
+
+export Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId       = GUID:{9815db1d-b96d-49a0-91e1-c7b7ec83063c}
+    ClassNameForDebug  = 'Unit_Scout_LRRP_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+                Flag_Infanterie,
+                
+                
+            ]
+        ),
+        ~/TargetManagerModuleSelector,
+        TemplateUnitCriticalModule(Module=~/CriticalEffectModule_Infanterie),
+            ~/TargetCoordinatorModuleSelector,
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = True
+                StickToGround              = True
+                InGeoDb                    = True
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/PlayerMissionModuleDescriptor,
+        ~/InflammableModuleDescriptorUnit,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+                "Unite",
+                "UNITE_Scout_LRRP_SOV",
+                "Infanterie_Reco",
+                "Infanterie",
+                "Inf_quartier_ok",
+                "Crew",
+                "Reco",
+                "AllowedForMissileRoE",
+                "Radio",
+                "GroundUnits",
+            ]
+        ),
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_SF
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TVisibilityModuleDescriptor
+        (
+            AutoRevealType       = EAutoRevealType/AutoRevealAllies
+            UnitConcealmentBonus = 2.5
+            VisionUnitType       = EVisionUnitType/AlwaysOnGround
+            UnitIsStealth        = False
+            HideFromDebug        = False
+        ),
+        ApparenceModel is
+            TApparenceModelModuleDescriptor
+            (
+                PickableObject       = False
+                Depiction            = ~/Gfx_Scout_LRRP_SOV
+            ),
+            TModuleSelector
+            (
+                Default        = TAutoCoverModuleDescriptor
+                (
+                    AutoCoverRange             = 350*Metre
+                    OccupationRadius           = 100*Metre
+                    TerrainListMask            = ~/ETerrainType/None | ~/ETerrainType/Tranchee | ~/ETerrainType/Batiment | ~/ETerrainType/Ruin | ~/ETerrainType/NidMitrailleuse | ~/ETerrainType/ForetLegere
+                    TerrainList                = [~/ETerrainType/Tranchee, ~/ETerrainType/Batiment, ~/ETerrainType/Ruin, ~/ETerrainType/NidMitrailleuse, ~/ETerrainType/ForetLegere, ]
+                    UseTerrainsForEscape       = True
+                )
+                Selection      = [ ~/NilDescriptorIfCadavre ]
+            ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_Scout_LRRP_SOV_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 6
+                    MaxSuppressionDamages = ~/Infanterie_MaxSuppressionDamages
+                    MaxStunDamages = ~/Infanterie_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_GroundUnits_packSupp
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Unit_packStun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default        = TDamageModuleDescriptor
+                (
+                    SuppressDamagesRegenRatio = ~/Infanterie_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Infanterie_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
+                    (
+                        ArmorDescriptorFront = ArmorDescriptor_Infanterie_1
+                        ArmorDescriptorSides = ArmorDescriptor_Infanterie_1
+                        ArmorDescriptorRear = ArmorDescriptor_Infanterie_1
+                        ArmorDescriptorTop = ArmorDescriptor_Infanterie_1
+                    )
+                    KillWhenDamagesReachMax = True
+                    HitRollSize = 0.0
+                    HitRollECM = 0.0
+                    AutoOrientation = True
+                    UseTopArmorAgainstFire = False
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+             TDangerousnessModuleDescriptor
+             (
+                 Dangerousness  = 7
+             ),
+             TModuleSelector
+             (
+                 Default = TRoutModuleDescriptor
+                 (
+                     MoralLevel = 0
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        GroupeCombat is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadModuleDescriptor
+                (
+                    NbSoldatInGroupeCombat = 6
+                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+                    InfantryMimeticName = 'Scout_LRRP_SOV'
+                    WeaponUnitFXKey     = 'Scout_LRRP_SOV'
+                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
+                    BoundingBoxSize     = 8 * Metre
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        GroupeCombatPositions is
+            TModuleSelector
+            (
+                Default        = TInfantrySquadSlotPositionsModuleDescriptor
+                (
+                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+                    SquadFormationDescriptor = ~/SoldierLineDescriptor
+                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+                )
+                Selection      = [ NilDescriptorIfCadavre ]
+            ),
+        TInfantrySquadWeaponAssignmentModuleDescriptor
+        (
+            InitialSoldiersToTurretIndexMap = MAP[
+                                        (0,[1,]),
+                                        (1,[0,]),
+                                        (2,[0,]),
+                                        (3,[0,]),
+                                        (4,[0,]),
+                                        (5,[0,2,]),
+                                      ]
+        ),
+        FacingInfos is TModuleSelector
+        (
+            Default   = TFacingInfosModuleDescriptor
+            (
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        GenericMovement is TModuleSelector
+        (
+            Default        = TGenericMovementModuleDescriptor
+            (
+               MaxSpeed         = 66 * Metre
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        LandMovement is TModuleSelector
+            (
+                Default        = TLandMovementModuleDescriptor
+                (
+                    UnitMovingType = EUnitMovingType/Infantry
+                    PathfindType = ~/PathfindTypes/Infantry
+                    PreferredLayerMask = EWorldFloorLayer/All
+                    VitesseCombat = ((75) * Metre)
+                    SpeedBonusOnRoad = 0.0
+                    MaxAcceleration = ((30.0) * Metre)
+                    MaxDeceleration = ((155.0) * Metre)
+                    TempsDemiTour = 0.1
+                    VehicleSubType = LandVehicleSubType/Infantry
+                    StartTime = (0 * Seconde)
+                    StopTime = (0 * Seconde)
+                    RotationStartTime = (0 * Seconde)
+                    RotationStopTime = (0 * Seconde)
+                )
+                Selection = [~/NilDescriptorIfCadavre]
+            ),
+            TModuleSelector
+            (
+                Default        = TScannerConfigurationDescriptor
+                (
+                    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
+                    DoesNotCountInScannerAbsoluteMaxRange = False
+                    PorteeVisionTBA = ((0.0) * Metre)
+                    PorteeVisionFOW = ((0.0) * Metre)
+                    DetectionTBA = ((14000) * Metre)
+                    PorteeVision = ((10000) * Metre)
+                    PorteeIdentification = 0.0
+                    OpticalStrength = 191.025
+                    OpticalStrengthAltitude = 40
+                    UnitDetectStealthUnit = False
+                    SpecializedDetections = MAP [
+                        ( EVisionUnitType/AlwaysInHighAltitude, 16000.0 * Metre ),
+                    ]
+                    SpecializedOpticalStrengths = MAP [
+                    ]
+                    IgnoreObstacles = MAP []
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 0.56
+                TimeBetweenEachIdentifyRoll = 4.0
+                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
+                (
+                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
+                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
+                    Exposant                                 = DefaultExposant
+                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
+                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
+                    ExposantEnMouvement                      = DefaultExposantEnMouvement
+                )
+            )
+        ),
+            TTransportableModuleDescriptor
+            (
+                Categories                             = []
+                TransportedTexture                     = "UseInGame_Transport_RECO"
+                TransportedSoldier                     = 'Scout_LRRP_SOV'
+                NbSeatsOccupied                        = 3
+                TimeToLoad                             = 0
+                IsTowable                              = False
+                    SuppressDamageRatioIfTransporterKilled = DefaultTransportableSuppressDamageRatioIfTransporterKilled
+                    TransportListAvailableForSpawn         = []
+            ),
+        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_Scout_LRRP_SOV ),
+            TModuleSelector
+            (
+                Default        = TIAStratModuleDescriptor
+                (
+                    DatabaseId = 0
+                    GameplayBehavior = EGameplayBehavior/Nothing | EGameplayBehavior/TacticalAttackInCover
+                )
+                Selection      = [~/NilDescriptorIfCadavre]
+            ),
+        ~/IAStratZoneIndexModuleDescriptor,
+            TModuleSelector
+        (
+            Default        = TStateEngineCompanyModuleDescriptor
+            (
+                InitialStateId = 'CompanyInit'
+                StateEngineUpdateMode = WorldControllerAccess_InWorld
+            )
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        TStateEngineModuleDescriptor
+        (
+            InitialStateId = 'UnitIdle'
+            StateEngineUpdateMode = WorldControllerAccess_InWorld
+        ),
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+            TModuleSelector
+            (
+                Default        = TCapaciteModuleDescriptor
+                (
+                    DefaultSkillList = [
+                        ~/Capacite_Choc,
+                        ~/Capacite_GSR,
+                    ]
+                    PostOrderSkillList = MAP [
+                    ]
+                )
+                Selection      = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default = TProductionModuleDescriptor
+                (
+                    Factory            = EDefaultFactories/Infantry
+                    ProductionTime     = 5
+                    ProductionRessourcesNeeded = MAP [
+                        (~/Resource_CommandPoints, 500),
+                        (~/Resource_Tickets, 3),
+                    ]
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        ~/InfluencePositionModuleDescriptor,
+        ~/InfluenceDataModuleDescriptor,
+             TModuleSelector
+             (
+                 Default = TAutomaticBehaviorModuleDescriptor
+                 (
+                     CanAssist = False
+                     AssistRequestBroadcastRadius = 0.0 * Metre
+                     DistanceToFlee = 1000 * Metre
+                     MaxDistanceForOffensiveReaction = 1000 * Metre
+                     MaxDistanceForOffensiveReactionOnFlyingTarget = 0.0 * Metre
+                     MaxDistanceForEngagement = 0.0 * Metre
+                     SearchedTagsInEngagementTarget = [
+                        "AllUnits",
+                     ]
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        TCubeActionModuleDescriptor
+        (
+            CubeActionDescriptor = ~/CubeAction_Menu_Ordres_infs_simplifie
+        ),
+            TMinimapDisplayModuleDescriptor
+            (
+                Texture = "Texture_Minimap_Unit_inf"
+                GhostTexture = "Texture_Minimap_Unit_inf"
+                IsAlwaysVisible = False
+                UseTeamColor = True
+                FollowUnitOrientation = False
+            ),
+        TOrderConfigModuleDescriptor
+        (
+                ValidOrders = ~/Descriptor_OrderAvailability_Scout_LRRP_SOV
+        ),
+        TOrderableModuleDescriptor
+        (
+            UnlockableOrders = ~/Descriptor_OrderAvailability_Scout_LRRP_SOV
+        ),
+        ~/OrderDisplayModuleDescriptor,
+            ~/GroupableUnitModuleSelector,
+            TTacticalLabelModuleDescriptor
+            (
+                MultiSelectionSortingOrder = 18080
+                UnitName                   = 'QVXJDDQWRD'
+                IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_RECO_inf",
+                        "Texture_RECO_inf"
+                    ]
+                )
+                DefaultSpecialtyToken      = "tank_A"
+                UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_infantry_nonIdentifie",
+                        "Texture_infantry_nonIdentifie"
+                    ]
+                )
+                PositionHeightOffset = 1000.0
+                NbSoldiers                 = 6
+            ),
+            TModuleSelector
+            (
+                Default        = TLinkToDistrictModuleDescriptor()
+                Selection      = [~/NilDescriptorIfCadavre]
+            ),
+        TLinkToTrenchModuleDescriptor
+        (
+        ),
+        ~/TargetDataModuleDescriptor,
+        ~/PackSignauxModuleDescriptor,
+            TStrategicDataModuleDescriptor
+                (
+                    UnitAttackValue = 81
+                    UnitDefenseValue = 81
+                    UnitBonusXpPerLevelValue = 1
+                    CompanyDissolutionTransferTo = [
+                        "Stab",
+                    ]
+             ),
+            TUnitUIModuleDescriptor
+            (
+                UnitRole = 'tank_A'
+                SpecialtiesList = [
+                    'reco',
+                    '_reco',
+                    '_sf',
+                    '_choc',
+                    '_para',
+                ]
+                NameToken = 'QVXJDDQWRD'
+                InfoPanelConfigurationToken = 'Infantry'
+                TypeSpecificToken = ''
+                RealRoadSpeed = 20
+                IsAce = False
+                GenerateName = true
+                MenuIconTexture = 'Texture_RTS_H_RECO_inf'
+                ButtonTexture = 'Texture_Button_Unit_Scout_LRRP_SOV'
+                CountryTexture = 'CommonTexture_MotherCountryFlag_SOV'
+                TypeStrategicCount = ETypeStrategicCount/Soldier
+            ),
+            TDeploymentShiftModuleDescriptor
+            (
+                DeploymentShift = 10000.0 * Metre
+            ),
+    ]
+)

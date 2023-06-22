@@ -1,0 +1,6 @@
+        ( ~/Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL, ~/Descriptor_ShowRoomUnit_F117_Nighthawk_US_NUKE_FRL ),
+        ( ~/Descriptor_Unit_Jaguar_HE_FR_NUKE_FRL, ~/Descriptor_ShowRoomUnit_Jaguar_HE_FR_NUKE_FRL ),
+        ( ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL, ~/Descriptor_ShowRoomUnit_Su_24M_SOV_NUKE_FRL ),
+        ( ~/Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL, ~/Descriptor_ShowRoomUnit_Tornado_ADV_HE_UK_NUKE_FRL ),
+        ( ~/Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL, ~/Descriptor_ShowRoomUnit_GreenBerets_MP5_US_NUKE_FRL ),
+        ( ~/Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL, ~/Descriptor_ShowRoomUnit_Scout_LRRP_SOV_NUKE_FRL ),

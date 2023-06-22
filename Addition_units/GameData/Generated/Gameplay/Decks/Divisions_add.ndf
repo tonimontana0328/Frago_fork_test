@@ -1,0 +1,645 @@
+// Ne pas éditer, ce fichier est auto-généré !
+
+Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{beaeddc6-2819-4025-b72f-9448e16b39ec}
+    CfgName = 'FR_11e_Para_multi'
+    DivisionName = 'PPYRYDDJRK'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'FR', 'Allied', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{49f1d04a-4063-462a-aba5-10edea838f30}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'PPYRYDDJRK'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_FR_11e_Para_multi
+    EmblemTexture     = "Texture_Division_Emblem_FR_11e_Para"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "FR"
+)
+
+
+Descriptor_Deck_Division_SOV_119IndTkBrig_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{b611cb29-bf44-4d02-a529-36312df5ec2c}
+    CfgName = 'SOV_119IndTkBrig_multi'
+    DivisionName = 'QGUHEAAYWW'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'armored', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{1c7f453f-fa05-4d46-b5ed-e0d66c03cd51}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'QGUHEAAYWW'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_SOV_119IndTkBrig_multi
+    EmblemTexture = "Texture_Division_Emblem_SOV_119OdtTP"
+    StrategicLabelColor = "SovDivision2"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture   = "Texture_Division_Type_armored"
+    CountryId = "SOV"
+)
+Descriptor_Deck_Division_US_11ACR_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{73e51c86-2d41-4fd7-818a-a8f5b288ab4b}
+    CfgName = 'US_11ACR_multi'
+    DivisionName = 'AJSWBANTOA'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'US', 'Allied', 'armoredRecon', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{be30a65f-04f6-49cb-8154-5cd555c59bf3}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'AJSWBANTOA'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_US_11ACR_multi
+    EmblemTexture = "Texture_Division_Emblem_11ACR"
+    StrategicLabelColor = "Orange"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture   = "Texture_Division_Type_armoredRecon"
+    CountryId = "US"
+)
+Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{beaeddc6-2819-4025-b72f-9448e16b39ec}
+    CfgName = 'FR_11e_Para_multi'
+    DivisionName = 'PPYRYDDJRK'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'FR', 'Allied', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{49f1d04a-4063-462a-aba5-10edea838f30}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'PPYRYDDJRK'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_FR_11e_Para_multi
+    EmblemTexture     = "Texture_Division_Emblem_FR_11e_Para"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "FR"
+)
+Descriptor_Deck_Division_FR_5e_Blindee_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{3eea10f1-c482-46f2-a747-f49879749d82}
+    CfgName = 'FR_5e_Blindee_multi'
+    DivisionName = 'MVUBDSQMBB'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'FR', 'Allied', 'armored', 'DC_PWR1']
+    UncensoredHintGUID = GUID:{40b72f70-b2c4-416a-b4c6-49e068ce5d6c}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'MVUBDSQMBB'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_FR_5e_Blindee_multi
+    EmblemTexture     = "Texture_Division_Emblem_FR_5eDB"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "FR"
+)
+Descriptor_Deck_Division_NATO_Garnison_Berlin_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{9ab11079-b134-4ec3-beba-48cf4e885757}
+    CfgName = 'NATO_Garnison_Berlin_multi'
+    DivisionName = 'EYKCGOHKBG'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'UK', 'Allied', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{f9325a45-e75f-4e40-99a1-4e8578603d16}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'EYKCGOHKBG'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_NATO_Garnison_Berlin_multi
+    EmblemTexture     = "Texture_Division_Emblem_Berlin_Command"
+    StrategicLabelColor     = "Orange"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "UK"
+)
+Descriptor_Deck_Division_RDA_4_MSD_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{97b5d7d2-0a51-461e-b97e-617dd6892858}
+    CfgName = 'RDA_4_MSD_multi'
+    DivisionName = 'XPXHEQABVZ'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'DDR', 'Axis', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{3f55ba72-997e-4059-a052-1b247e15068d}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'XPXHEQABVZ'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),
+            ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_RDA_4_MSD_multi
+    EmblemTexture     = "Texture_Division_Emblem_4_MSD_DDR"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "DDR"
+)
+Descriptor_Deck_Division_RDA_7_Panzer_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{81abdbb9-422f-47b0-a073-013c920c04fb}
+    CfgName = 'RDA_7_Panzer_multi'
+    DivisionName = 'NIZAYXAMPN'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'DDR', 'Axis', 'armored', 'DC_PWR1']
+    UncensoredHintGUID = GUID:{e49e3e74-e952-44fc-9e3d-5383f90bbbf3}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'NIZAYXAMPN'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),  
+          ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_RDA_7_Panzer_multi
+    EmblemTexture     = "Texture_Division_Emblem_7_Panzerdivision_DDR"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "DDR"
+)
+Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{bd44546a-1cab-43a2-b38e-a44595ac1968}
+    CfgName = 'RDA_KdA_Bezirk_Erfurt_multi'
+    DivisionName = 'OVYVCMLGYY'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR3'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'DDR', 'Axis', 'infantryReg', 'DC_PWR3']
+    UncensoredHintGUID = GUID:{502c965f-50c5-4546-83f4-a4b371801203}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'OVYVCMLGYY'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),  
+          ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_RDA_KdA_Bezirk_Erfurt_multi
+    EmblemTexture     = "Texture_Division_Emblem_RDA_KDA_Erfurt"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "DDR"
+)
+Descriptor_Deck_Division_RFA_2_PzGrenadier_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{15fa50e1-7534-4f5c-ae1c-afd4098c6ce2}
+    CfgName = 'RFA_2_PzGrenadier_multi'
+    DivisionName = 'XKYVHEFNED'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'RFA', 'Allied', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{250e247f-03cb-4ed2-b806-e6571e79df42}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'XKYVHEFNED'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_RFA_2_PzGrenadier_multi
+    EmblemTexture     = "Texture_Division_Emblem_2_PzGrenDivision_RFA"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "RFA"
+)
+Descriptor_Deck_Division_RFA_5_Panzer_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{ec8b43f9-6e9b-40de-8167-304ef4370747}
+    CfgName = 'RFA_5_Panzer_multi'
+    DivisionName = 'WOEQADLOKM'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'RFA', 'Allied', 'armored', 'DC_PWR1']
+    UncensoredHintGUID = GUID:{e6a81e32-9f6f-44dc-b174-e2960db98693}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'WOEQADLOKM'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_RFA_5_Panzer_multi
+    EmblemTexture     = "Texture_Division_Emblem_5_Panzerdivision_RFA"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "RFA"
+)
+Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{a461f564-2c09-471b-9a6b-2c134dd87802}
+    CfgName = 'RFA_TerrKdo_Sud_multi'
+    DivisionName = 'BIHXAJRCJA'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR3'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'RFA', 'Allied', 'infantryReg', 'DC_PWR3']
+    UncensoredHintGUID = GUID:{39f2e89a-3eca-489d-a3f3-38a6632ac042}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'BIHXAJRCJA'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_RFA_TerrKo_Sud_multi
+    EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "RFA"
+)
+
+Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{7076e442-e50d-4f50-8b1d-7e8c2ad404e3}
+    CfgName = 'SOV_35_AirAslt_Brig_multi'
+    DivisionName = 'PFEYNGDKVR'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{5d5bba86-358d-461b-9f33-96989aa779eb}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'PFEYNGDKVR'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),   
+         ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_SOV_35_AirAslt_Brig_multi
+    EmblemTexture     = "Texture_Division_Emblem_35th_VDV_Brigade"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "SOV"
+)
+Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{b8baa312-d7a5-4e10-a32a-ac72a9dd15f2}
+    CfgName = 'SOV_39_Gds_Rifle_multi'
+    DivisionName = 'QBSDOMYDBX'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{3c103436-2925-4ace-bed8-1cafcfc97404}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'QBSDOMYDBX'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),  
+          ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_SOV_39_Gds_Rifle_multi
+    EmblemTexture     = "Texture_Division_Emblem_39th_gmsd"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "SOV"
+)
+
+Descriptor_Deck_Division_SOV_79_Gds_Tank_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{52703924-4dca-4647-b0d5-376d8410b4a8}
+    CfgName = 'SOV_79_Gds_Tank_multi'
+    DivisionName = 'ABQKCQLERY'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'armored', 'DC_PWR1']
+    UncensoredHintGUID = GUID:{74a91277-6641-475c-836e-3e80ccd6fab5}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'ABQKCQLERY'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),  
+          ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_SOV_79_Gds_Tank_multi
+    EmblemTexture     = "Texture_Division_Emblem_79th_gtd"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "SOV"
+)
+Descriptor_Deck_Division_UK_1st_Armoured_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{5dff6faa-211f-4743-b3ef-9737d350978f}
+    CfgName = 'UK_1st_Armoured_multi'
+    DivisionName = 'YPUIEGDPJD'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'UK', 'Allied', 'armored', 'DC_PWR1']
+    UncensoredHintGUID = GUID:{100bb3ae-0015-45de-8d7d-d4322ec01ea8}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'YPUIEGDPJD'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_UK_1st_Armoured_multi
+    EmblemTexture     = "Texture_Division_Emblem_UK_1st_Armoured"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "UK"
+)
+Descriptor_Deck_Division_UK_2nd_Infantry_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{e27fa0f1-53f1-472c-8380-cad2de5b77fb}
+    CfgName = 'UK_2nd_Infantry_multi'
+    DivisionName = 'RSIUYDSXND'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'UK', 'Allied', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{fafc62ba-1dd3-4d48-bc9b-1f391fbd6193}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'RSIUYDSXND'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_UK_2nd_Infantry_multi
+    EmblemTexture     = "Texture_Division_Emblem_UK_2nd_Infantry"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "UK"
+)
+Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{462b0cc2-0952-47d9-baf9-ad3af39c68a9}
+    CfgName = 'US_3rd_Arm_multi'
+    DivisionName = 'RSEACNWCQI'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'US', 'Allied', 'armored', 'DC_PWR1']
+    UncensoredHintGUID = GUID:{928dfcfc-1248-4059-9841-43ea75066a47}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'RSEACNWCQI'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [        
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_US_3rd_Arm_multi
+    EmblemTexture     = "Texture_Division_Emblem_3rd_Armored_Division"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "US"
+)
+Descriptor_Deck_Division_US_82nd_Airborne_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{27ac92b1-73ed-4c9c-80d3-9044aa08c38f}
+    CfgName = 'US_82nd_Airborne_multi'
+    DivisionName = 'TATZFZUVYM'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'US', 'Allied', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{4f78be24-e814-4626-8b2a-48b221de055a}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'TATZFZUVYM'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_US_82nd_Airborne_multi
+    EmblemTexture     = "Texture_Division_Emblem_82nd_airborne"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "US"
+)
+Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{f483cb5b-aaf9-4e87-9bc1-05644a246a0c}
+    CfgName = 'US_8th_Inf_multi'
+    DivisionName = 'ECGMWQOEZA'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'US', 'Allied', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{7fae1ab3-a0c1-4d30-bfba-3af1d2a79538}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'ECGMWQOEZA'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [	
+    	(~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_US_8th_Inf_multi
+    EmblemTexture     = "Texture_Division_Emblem_8th_infantry_division"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "US"
+)
+Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{4d41c309-2758-4f06-8995-2a3d07e56474}
+    CfgName = 'WP_Unternehmen_Zentrum_multi'
+    DivisionName = 'CHKSNFWOEZ'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'DDR', 'Axis', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{92c84a4e-cbbb-48b2-a6cf-6ef189dadec4}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'CHKSNFWOEZ'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),
+
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_WP_Unternehmen_Zentrum_multi
+    EmblemTexture     = "Texture_Division_Emblem_WP_Unternehmen_Stoss"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "DDR"
+)
