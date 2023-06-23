@@ -40577,8 +40577,8 @@ export Descriptor_ShowRoomUnit_GreenBerets_US_101st_FRL is TEntityDescriptor
                 (
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
-                    InfantryMimeticName = 'GreenBerets_US'
-                    WeaponUnitFXKey     = 'GreenBerets_US'
+                    InfantryMimeticName = 'GreenBerets_US_101st_FRL'
+                    WeaponUnitFXKey     = 'GreenBerets_US_101st_FRL'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
                 )
