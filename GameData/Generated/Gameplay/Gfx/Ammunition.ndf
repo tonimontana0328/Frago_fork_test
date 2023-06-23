@@ -33043,6 +33043,7 @@ Ammo_Lance_grenade_AGS17 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((100.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
+    DispersionAtMinRange              = ((15) * Metre)
     DispersionAtMaxRange              = ((30) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -33136,8 +33137,9 @@ Ammo_Lance_grenade_Mk19_40mm is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((40.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((30) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionAtMaxRange              = ((60) * Metre)
+    DispersionAtMinRange              = ((30) * Metre)
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 22 * Metre
     PhysicalDamages                   = 0.4
@@ -74111,6 +74113,7 @@ Ammo_Lance_grenade_Mk19_40mm_HEDP_FRL is TAmmunitionDescriptor
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((60) * Metre)
+    DispersionAtMinRange              = ((30) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
@@ -74476,6 +74479,7 @@ Ammo_Lance_grenade_Mk19_40mm_HEDP_fireonthemove_FRL is TAmmunitionDescriptor
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((60) * Metre)
+    DispersionAtMinRange              = ((30) * Metre)
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 5 * Metre
@@ -74568,8 +74572,9 @@ Ammo_Lance_grenade_Mk19_40mm_fireonthemove_FRL is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((40.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((30) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionAtMaxRange              = ((60) * Metre)
+    DispersionAtMinRange              = ((30) * Metre)
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 22 * Metre
     PhysicalDamages                   = 0.4
