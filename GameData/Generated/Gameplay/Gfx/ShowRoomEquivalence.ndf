@@ -867,5 +867,7 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
         ( ~/Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL, ~/Descriptor_ShowRoomUnit_Tornado_ADV_HE_UK_NUKE_FRL ),
         ( ~/Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL, ~/Descriptor_ShowRoomUnit_GreenBerets_MP5_US_NUKE_FRL ),
         ( ~/Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL, ~/Descriptor_ShowRoomUnit_Scout_LRRP_SOV_NUKE_FRL ),
+        ( ~/Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL, ~/Descriptor_ShowRoomUnit_Harrier_RKT1_UK ),       
+         ( ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL, ~/Descriptor_ShowRoomUnit_F111F_Aardvark_US_NUKE_FRL ),
     ]
 )

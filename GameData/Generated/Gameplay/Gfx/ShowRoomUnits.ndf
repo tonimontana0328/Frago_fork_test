@@ -308,6 +308,46 @@ export Descriptor_ShowRoomUnit_GreenBerets_MP5_US_NUKE_FRL is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_ShowRoomUnit_F111F_Aardvark_US_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{88a231da-34e8-4652-8c16-a2ee3870b58b}
+    ClassNameForDebug   = "ShowRoomUnit_F111F_Aardvark_US_NUKE_FRL"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_F111F_Aardvark_US_Showroom_Autogen
+            GameplayBBoxBoneName               = ''
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_F111F_Aardvark_US_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'VeryBigVehicle'
+            SpawnType = EShowroomSpawnType/Airplane
+        ),
+    ]
+)
 // Ne pas éditer, ce fichier est auto-généré !
 
 
@@ -40887,8 +40927,8 @@ export Descriptor_ShowRoomUnit_GreenBerets_US_101st_FRL is TEntityDescriptor
                 (
                     NbSoldatInGroupeCombat = 6
                     SquadDataDescriptor = ~/SoldierSquadDataDescriptor
-                    InfantryMimeticName = 'GreenBerets_US'
-                    WeaponUnitFXKey     = 'GreenBerets_US'
+                    InfantryMimeticName = 'GreenBerets_US_101st_FRL'
+                    WeaponUnitFXKey     = 'GreenBerets_US_101st_FRL'
                     MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
                     BoundingBoxSize     = 8 * Metre
                 )

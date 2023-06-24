@@ -1,3 +1,5 @@
+// Ne pas éditer, ce fichier est auto-généré !
+
 export Descriptor_Pack_Division_101st is TDeckDescriptor
 (
     DeckName = ''
@@ -400,6 +402,7 @@ export Descriptor_Deck_SOV_119IndTkBrig_multi is TDeckDescriptor
     [
     ]
 )
+
 export Descriptor_Deck_US_11ACR_multi is TDeckDescriptor
 (
     DeckName = 'OMKNNBKHMP'
@@ -588,6 +591,7 @@ export Descriptor_Deck_US_11ACR_multi is TDeckDescriptor
     [
     ]
 )
+
 export Descriptor_Deck_FR_11e_Para_multi is TDeckDescriptor
 (
     DeckName = 'WLWREMUQDM'
@@ -782,16 +786,12 @@ export Descriptor_Deck_FR_11e_Para_multi is TDeckDescriptor
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_Gazelle_HOT_2_FR
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_UK_1st_Armoured_multi is TDeckDescriptor
 (
     DeckName = 'SPPIBGCIEO'
@@ -986,16 +986,12 @@ export Descriptor_Deck_UK_1st_Armoured_multi is TDeckDescriptor
             ExperienceLevel = 3
             DeckPack = ~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Challenger_1_Mk1_UK
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_RFA_2_PzGrenadier_multi is TDeckDescriptor
 (
     DeckName = 'SJEUHLLSUW'
@@ -1192,16 +1188,12 @@ export Descriptor_Deck_RFA_2_PzGrenadier_multi is TDeckDescriptor
             ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Iltis_RFA
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_UK_2nd_Infantry_multi is TDeckDescriptor
 (
     DeckName = 'IZKHKZIDDK'
@@ -1407,16 +1399,12 @@ export Descriptor_Deck_UK_2nd_Infantry_multi is TDeckDescriptor
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Tornado_ADV_HE_UK
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_SOV_35_AirAslt_Brig_multi is TDeckDescriptor
 (
     DeckName = 'YNAUCTRMPT'
@@ -1628,16 +1616,12 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_multi is TDeckDescriptor
             ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_Mi_24V_AT_SOV
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_SOV_39_Gds_Rifle_multi is TDeckDescriptor
 (
     DeckName = 'FUYDALAZVW'
@@ -1837,16 +1821,12 @@ export Descriptor_Deck_SOV_39_Gds_Rifle_multi is TDeckDescriptor
             ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Su_24M_clu_SOV
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_US_3rd_Arm_multi is TDeckDescriptor
 (
     DeckName = 'TQXYVWPZPX'
@@ -2038,16 +2018,12 @@ export Descriptor_Deck_US_3rd_Arm_multi is TDeckDescriptor
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_OH58D_Kiowa_Warrior_US
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_RDA_4_MSD_multi is TDeckDescriptor
 (
     DeckName = 'XIFZOCAFNM'
@@ -2245,16 +2221,12 @@ export Descriptor_Deck_RDA_4_MSD_multi is TDeckDescriptor
             ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_Mi_2_reco_DDR
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_FR_5e_Blindee_multi is TDeckDescriptor
 (
     DeckName = 'TCZKSWDELJ'
@@ -2447,16 +2419,12 @@ export Descriptor_Deck_FR_5e_Blindee_multi is TDeckDescriptor
             ExperienceLevel = 3
             DeckPack = ~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_AMX_30_B2_FR
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_RFA_5_Panzer_multi is TDeckDescriptor
 (
     DeckName = 'KVLJLGACXW'
@@ -2646,16 +2614,12 @@ export Descriptor_Deck_RFA_5_Panzer_multi is TDeckDescriptor
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_F4F_Phantom_II_AA_RFA
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_RDA_7_Panzer_multi is TDeckDescriptor
 (
     DeckName = 'LEMYLDJQWR'
@@ -2850,16 +2814,12 @@ export Descriptor_Deck_RDA_7_Panzer_multi is TDeckDescriptor
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_T813_DDR
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_SOV_79_Gds_Tank_multi is TDeckDescriptor
 (
     DeckName = 'LNBIAFZBOR'
@@ -3056,16 +3016,12 @@ export Descriptor_Deck_SOV_79_Gds_Tank_multi is TDeckDescriptor
             ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Su_24M_nplm_SOV
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_US_82nd_Airborne_multi is TDeckDescriptor
 (
     DeckName = 'IVFJTYBZIP'
@@ -3268,21 +3224,12 @@ export Descriptor_Deck_US_82nd_Airborne_multi is TDeckDescriptor
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_F16E_SEAD_US
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_EF111_Raven_US_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_US_8th_Inf_multi is TDeckDescriptor
 (
     DeckName = 'QIKQSUGNCO'
@@ -3482,6 +3429,7 @@ export Descriptor_Deck_US_8th_Inf_multi is TDeckDescriptor
     [
     ]
 )
+
 export Descriptor_Deck_NATO_Garnison_Berlin_multi is TDeckDescriptor
 (
     DeckName = 'IXRSLWBRMB'
@@ -3674,16 +3622,12 @@ export Descriptor_Deck_NATO_Garnison_Berlin_multi is TDeckDescriptor
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_VAB_RASIT_FR
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_RDA_KdA_Bezirk_Erfurt_multi is TDeckDescriptor
 (
     DeckName = 'XHUXDTIZRS'
@@ -3890,16 +3834,12 @@ export Descriptor_Deck_RDA_KdA_Bezirk_Erfurt_multi is TDeckDescriptor
             ExperienceLevel = 3
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_T55A_DDR
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_Ally is TDeckDescriptor
 (
     DeckName = 'QTYATWRDBA'
@@ -4044,6 +3984,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_Ally is TDeckDescriptor
     [
     ]
 )
+
 export Descriptor_Deck_SOV_39_Gds_Rifle_challenge_IA_OP_01_DEP_IA is TDeckDescriptor
 (
     DeckName = 'QPWYLUTPYN'
@@ -4176,6 +4117,7 @@ export Descriptor_Deck_SOV_39_Gds_Rifle_challenge_IA_OP_01_DEP_IA is TDeckDescri
     [
     ]
 )
+
 export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
 (
     DeckName = 'VXJMVTRDUH'
@@ -4298,12 +4240,12 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
     [
         TDeckCombatGroupDescriptor
         (
-            Name = "BETUFEMGDL"
+        Name = "BETUFEMGDL"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SLWSVLLPZP"
+                Name = "SLWSVLLPZP"
                     PackIndexUnitNumberList =
                     [
                         (2,1),
@@ -4313,7 +4255,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "DLZTKEQFFT"
+                Name = "DLZTKEQFFT"
                     PackIndexUnitNumberList =
                     [
                         (16,1),
@@ -4323,7 +4265,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "UQOKRWWLYC"
+                Name = "UQOKRWWLYC"
                     PackIndexUnitNumberList =
                     [
                         (16,1),
@@ -4333,7 +4275,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "EBAXRQFWNO"
+                Name = "EBAXRQFWNO"
                     PackIndexUnitNumberList =
                     [
                         (8,2),
@@ -4343,7 +4285,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "FQMCKESHIX"
+                Name = "FQMCKESHIX"
                     PackIndexUnitNumberList =
                     [
                         (5,4),
@@ -4354,12 +4296,12 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "HYKDXVFKPJ"
+        Name = "HYKDXVFKPJ"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "QPXHKBIWGL"
+                Name = "QPXHKBIWGL"
                     PackIndexUnitNumberList =
                     [
                         (14,1),
@@ -4369,7 +4311,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "OIQGCEKCDM"
+                Name = "OIQGCEKCDM"
                     PackIndexUnitNumberList =
                     [
                         (9,1),
@@ -4378,7 +4320,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "CRZWJJYXZT"
+                Name = "CRZWJJYXZT"
                     PackIndexUnitNumberList =
                     [
                         (9,1),
@@ -4387,7 +4329,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "OPDTEQBKBP"
+                Name = "OPDTEQBKBP"
                     PackIndexUnitNumberList =
                     [
                         (13,4),
@@ -4395,7 +4337,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "EHFLKHNINV"
+                Name = "EHFLKHNINV"
                     PackIndexUnitNumberList =
                     [
                         (6,4),
@@ -4405,12 +4347,12 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "cha_1"
+        Name = "cha_1"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "FCSWUWUIEP"
+                Name = "FCSWUWUIEP"
                     PackIndexUnitNumberList =
                     [
                         (15,2),
@@ -4420,6 +4362,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_PLAYER is TDeckDescriptor
         ),
     ]
 )
+
 export Descriptor_Deck_RFA_TerrKdo_Sud_challenge_IA_OP_02_TRG_IA1 is TDeckDescriptor
 (
     DeckName = 'NAOILKROPM'
@@ -4437,6 +4380,7 @@ export Descriptor_Deck_RFA_TerrKdo_Sud_challenge_IA_OP_02_TRG_IA1 is TDeckDescri
     [
     ]
 )
+
 export Descriptor_Deck_RFA_TerrKdo_Sud_challenge_IA_OP_02_TRG_IA2 is TDeckDescriptor
 (
     DeckName = 'BPVVKTKQJC'
@@ -4454,6 +4398,7 @@ export Descriptor_Deck_RFA_TerrKdo_Sud_challenge_IA_OP_02_TRG_IA2 is TDeckDescri
     [
     ]
 )
+
 export Descriptor_Deck_US_3rd_Arm_challenge_IA_OP_03_STR_IA1 is TDeckDescriptor
 (
     DeckName = 'TVZCDBWAMF'
@@ -4627,6 +4572,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_IA_OP_03_STR_IA1 is TDeckDescriptor
     [
     ]
 )
+
 export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescriptor
 (
     DeckName = 'SJOVWSADJC'
@@ -4776,12 +4722,12 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
     [
         TDeckCombatGroupDescriptor
         (
-            Name = "ZOMQAFHITM"
+        Name = "ZOMQAFHITM"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SUJBJHQBBH"
+                Name = "SUJBJHQBBH"
                     PackIndexUnitNumberList =
                     [
                         (0,1),
@@ -4790,7 +4736,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "EBAXRQFWNO"
+                Name = "EBAXRQFWNO"
                     PackIndexUnitNumberList =
                     [
                         (2,2),
@@ -4799,7 +4745,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "HBLUTIMQXB"
+                Name = "HBLUTIMQXB"
                     PackIndexUnitNumberList =
                     [
                         (5,2),
@@ -4809,7 +4755,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "KPNJIRFMVK"
+                Name = "KPNJIRFMVK"
                     PackIndexUnitNumberList =
                     [
                         (7,4),
@@ -4820,12 +4766,12 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "YHHKVXFYTB"
+        Name = "YHHKVXFYTB"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SUJBJHQBBH"
+                Name = "SUJBJHQBBH"
                     PackIndexUnitNumberList =
                     [
                         (9,1),
@@ -4835,7 +4781,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AEHXPSCGSH"
+                Name = "AEHXPSCGSH"
                     PackIndexUnitNumberList =
                     [
                         (10,3),
@@ -4843,7 +4789,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "TXLIVWUPSM"
+                Name = "TXLIVWUPSM"
                     PackIndexUnitNumberList =
                     [
                         (10,3),
@@ -4851,7 +4797,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "WAKIQBNMIP"
+                Name = "WAKIQBNMIP"
                     PackIndexUnitNumberList =
                     [
                         (11,3),
@@ -4859,7 +4805,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "JFDLGUGPAH"
+                Name = "JFDLGUGPAH"
                     PackIndexUnitNumberList =
                     [
                         (11,3),
@@ -4869,12 +4815,12 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "BIUSBBTLXM"
+        Name = "BIUSBBTLXM"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SUJBJHQBBH"
+                Name = "SUJBJHQBBH"
                     PackIndexUnitNumberList =
                     [
                         (9,1),
@@ -4884,7 +4830,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AEHXPSCGSH"
+                Name = "AEHXPSCGSH"
                     PackIndexUnitNumberList =
                     [
                         (10,3),
@@ -4892,7 +4838,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "TXLIVWUPSM"
+                Name = "TXLIVWUPSM"
                     PackIndexUnitNumberList =
                     [
                         (10,3),
@@ -4900,7 +4846,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "WAKIQBNMIP"
+                Name = "WAKIQBNMIP"
                     PackIndexUnitNumberList =
                     [
                         (11,3),
@@ -4908,7 +4854,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "JFDLGUGPAH"
+                Name = "JFDLGUGPAH"
                     PackIndexUnitNumberList =
                     [
                         (11,3),
@@ -4918,12 +4864,12 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "CDWDIWURMP"
+        Name = "CDWDIWURMP"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SUJBJHQBBH"
+                Name = "SUJBJHQBBH"
                     PackIndexUnitNumberList =
                     [
                         (17,1),
@@ -4932,7 +4878,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AEHXPSCGSH"
+                Name = "AEHXPSCGSH"
                     PackIndexUnitNumberList =
                     [
                         (18,3),
@@ -4942,7 +4888,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "TXLIVWUPSM"
+                Name = "TXLIVWUPSM"
                     PackIndexUnitNumberList =
                     [
                         (18,3),
@@ -4954,12 +4900,12 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "cha_2"
+        Name = "cha_2"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "EBAXRQFWNO"
+                Name = "EBAXRQFWNO"
                     PackIndexUnitNumberList =
                     [
                         (21,1),
@@ -4968,7 +4914,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AEHXPSCGSH"
+                Name = "AEHXPSCGSH"
                     PackIndexUnitNumberList =
                     [
                         (24,2),
@@ -4976,7 +4922,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "TXLIVWUPSM"
+                Name = "TXLIVWUPSM"
                     PackIndexUnitNumberList =
                     [
                         (23,2),
@@ -4984,7 +4930,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "WAKIQBNMIP"
+                Name = "WAKIQBNMIP"
                     PackIndexUnitNumberList =
                     [
                         (25,2),
@@ -4994,6 +4940,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
         ),
     ]
 )
+
 export Descriptor_Deck_US_3rd_Arm_challenge_IA_OP_04_BOH_IA1 is TDeckDescriptor
 (
     DeckName = 'EXWMONBGDV'
@@ -5146,6 +5093,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_IA_OP_04_BOH_IA1 is TDeckDescriptor
     [
     ]
 )
+
 export Descriptor_Deck_US_11ACR_multi_HB_OP_04_BOH_IA2 is TDeckDescriptor
 (
     DeckName = 'HDMUSORRRN'
@@ -5222,6 +5170,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_04_BOH_IA2 is TDeckDescriptor
     [
     ]
 )
+
 export Descriptor_Deck_RFA_TerrKdo_Sud_challenge_IA_OP_04_BOH_IA3 is TDeckDescriptor
 (
     DeckName = 'PJQELQWBBX'
@@ -5420,6 +5369,7 @@ export Descriptor_Deck_RFA_TerrKdo_Sud_challenge_IA_OP_04_BOH_IA3 is TDeckDescri
     [
     ]
 )
+
 export Descriptor_Deck_RDA_11MSD_challenge_OP_08_CONV_IA2 is TDeckDescriptor
 (
     DeckName = 'UFWUXIBVOT'
@@ -5588,6 +5538,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_08_CONV_IA2 is TDeckDescriptor
     [
     ]
 )
+
 export Descriptor_Deck_SOV_79_Gds_Tank_challenge_IA_OP_09_STB_IA is TDeckDescriptor
 (
     DeckName = 'IBNYUGGVGI'
@@ -5748,6 +5699,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_IA_OP_09_STB_IA is TDeckDescrip
     [
     ]
 )
+
 export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
 (
     DeckName = 'XIGLNUDIWS'
@@ -5864,12 +5816,12 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
     [
         TDeckCombatGroupDescriptor
         (
-            Name = "ZRMILCMBPM"
+        Name = "ZRMILCMBPM"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SUJBJHQBBH"
+                Name = "SUJBJHQBBH"
                     PackIndexUnitNumberList =
                     [
                         (3,1),
@@ -5879,7 +5831,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AFXAGTUHDY"
+                Name = "AFXAGTUHDY"
                     PackIndexUnitNumberList =
                     [
                         (9,3),
@@ -5889,7 +5841,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "ZISMTAUYGO"
+                Name = "ZISMTAUYGO"
                     PackIndexUnitNumberList =
                     [
                         (7,2),
@@ -5899,7 +5851,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "JYZDSITBSM"
+                Name = "JYZDSITBSM"
                     PackIndexUnitNumberList =
                     [
                         (11,4),
@@ -5907,7 +5859,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SRHWTUYLYQ"
+                Name = "SRHWTUYLYQ"
                     PackIndexUnitNumberList =
                     [
                         (0,12),
@@ -5917,12 +5869,12 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "YRYIJYWVRT"
+        Name = "YRYIJYWVRT"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SUJBJHQBBH"
+                Name = "SUJBJHQBBH"
                     PackIndexUnitNumberList =
                     [
                         (13,1),
@@ -5930,7 +5882,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AEHXPSCGSH"
+                Name = "AEHXPSCGSH"
                     PackIndexUnitNumberList =
                     [
                         (12,4),
@@ -5938,7 +5890,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "TXLIVWUPSM"
+                Name = "TXLIVWUPSM"
                     PackIndexUnitNumberList =
                     [
                         (12,4),
@@ -5946,7 +5898,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "WAKIQBNMIP"
+                Name = "WAKIQBNMIP"
                     PackIndexUnitNumberList =
                     [
                         (12,4),
@@ -5956,12 +5908,12 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "LGWJRRZQVH"
+        Name = "LGWJRRZQVH"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SUJBJHQBBH"
+                Name = "SUJBJHQBBH"
                     PackIndexUnitNumberList =
                     [
                         (14,2),
@@ -5969,7 +5921,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AEHXPSCGSH"
+                Name = "AEHXPSCGSH"
                     PackIndexUnitNumberList =
                     [
                         (16,4),
@@ -5978,7 +5930,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "TXLIVWUPSM"
+                Name = "TXLIVWUPSM"
                     PackIndexUnitNumberList =
                     [
                         (16,4),
@@ -5989,12 +5941,12 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "cha_1"
+        Name = "cha_1"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "FCSWUWUIEP"
+                Name = "FCSWUWUIEP"
                     PackIndexUnitNumberList =
                     [
                         (19,2),
@@ -6004,6 +5956,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_OP_09_STB_Player is TDeckDescriptor
         ),
     ]
 )
+
 export Descriptor_Deck_US_3rd_Arm_challenge_IA_OP_11_RGA_IA1 is TDeckDescriptor
 (
     DeckName = 'GCOZBJCCFF'
@@ -6138,6 +6091,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_IA_OP_11_RGA_IA1 is TDeckDescriptor
     [
     ]
 )
+
 export Descriptor_Deck_US_3rd_Arm_challenge_IA_OP_11_RGA_IA2 is TDeckDescriptor
 (
     DeckName = 'IDICNZQQRP'
@@ -6299,6 +6253,7 @@ export Descriptor_Deck_US_3rd_Arm_challenge_IA_OP_11_RGA_IA2 is TDeckDescriptor
     [
     ]
 )
+
 export Descriptor_Deck_RFA_12_Panzer_challenge_IA_OP_11_RGA_IA3 is TDeckDescriptor
 (
     DeckName = 'QPYAJTGPPN'
@@ -6371,6 +6326,7 @@ export Descriptor_Deck_RFA_12_Panzer_challenge_IA_OP_11_RGA_IA3 is TDeckDescript
     [
     ]
 )
+
 export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
 (
     DeckName = 'FEFCMHCUVX'
@@ -6561,12 +6517,12 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
     [
         TDeckCombatGroupDescriptor
         (
-            Name = "LSKTJWMLCY"
+        Name = "LSKTJWMLCY"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "QPXHKBIWGL"
+                Name = "QPXHKBIWGL"
                     PackIndexUnitNumberList =
                     [
                         (4,1),
@@ -6576,7 +6532,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AAIWEZVTZN"
+                Name = "AAIWEZVTZN"
                     PackIndexUnitNumberList =
                     [
                         (26,3),
@@ -6584,7 +6540,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "FGPDEUABPI"
+                Name = "FGPDEUABPI"
                     PackIndexUnitNumberList =
                     [
                         (31,4),
@@ -6593,7 +6549,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "FPKZLIBICB"
+                Name = "FPKZLIBICB"
                     PackIndexUnitNumberList =
                     [
                         (15,2),
@@ -6603,7 +6559,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "OPDTEQBKBP"
+                Name = "OPDTEQBKBP"
                     PackIndexUnitNumberList =
                     [
                         (19,3),
@@ -6614,12 +6570,12 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "IHCDFIICYD"
+        Name = "IHCDFIICYD"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "QPXHKBIWGL"
+                Name = "QPXHKBIWGL"
                     PackIndexUnitNumberList =
                     [
                         (7,1),
@@ -6629,7 +6585,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "OIQGCEKCDM"
+                Name = "OIQGCEKCDM"
                     PackIndexUnitNumberList =
                     [
                         (5,3),
@@ -6638,7 +6594,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "CRZWJJYXZT"
+                Name = "CRZWJJYXZT"
                     PackIndexUnitNumberList =
                     [
                         (5,3),
@@ -6647,7 +6603,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "XSQBUZHFTL"
+                Name = "XSQBUZHFTL"
                     PackIndexUnitNumberList =
                     [
                         (5,3),
@@ -6658,12 +6614,12 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "VWPETUIMJA"
+        Name = "VWPETUIMJA"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "QPXHKBIWGL"
+                Name = "QPXHKBIWGL"
                     PackIndexUnitNumberList =
                     [
                         (7,1),
@@ -6673,7 +6629,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "OIQGCEKCDM"
+                Name = "OIQGCEKCDM"
                     PackIndexUnitNumberList =
                     [
                         (5,3),
@@ -6682,7 +6638,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "CRZWJJYXZT"
+                Name = "CRZWJJYXZT"
                     PackIndexUnitNumberList =
                     [
                         (5,3),
@@ -6691,7 +6647,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "XSQBUZHFTL"
+                Name = "XSQBUZHFTL"
                     PackIndexUnitNumberList =
                     [
                         (5,3),
@@ -6702,12 +6658,12 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "VGGMGCGPJS"
+        Name = "VGGMGCGPJS"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "QPXHKBIWGL"
+                Name = "QPXHKBIWGL"
                     PackIndexUnitNumberList =
                     [
                         (7,1),
@@ -6715,7 +6671,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "OIQGCEKCDM"
+                Name = "OIQGCEKCDM"
                     PackIndexUnitNumberList =
                     [
                         (11,1),
@@ -6724,7 +6680,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "CRZWJJYXZT"
+                Name = "CRZWJJYXZT"
                     PackIndexUnitNumberList =
                     [
                         (11,1),
@@ -6735,12 +6691,12 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "cha_4"
+        Name = "cha_4"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "OIQGCEKCDM"
+                Name = "OIQGCEKCDM"
                     PackIndexUnitNumberList =
                     [
                         (17,2),
@@ -6748,7 +6704,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "CRZWJJYXZT"
+                Name = "CRZWJJYXZT"
                     PackIndexUnitNumberList =
                     [
                         (30,2),
@@ -6756,7 +6712,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "XSQBUZHFTL"
+                Name = "XSQBUZHFTL"
                     PackIndexUnitNumberList =
                     [
                         (18,1),
@@ -6766,6 +6722,7 @@ export Descriptor_Deck_RDA_11MSD_challenge_OP_11_RGA_Player is TDeckDescriptor
         ),
     ]
 )
+
 export Descriptor_Deck_RFA_TerrKdo_Sud_challenge_IA_OP_12_AA_IA1 is TDeckDescriptor
 (
     DeckName = 'VAFLSUNPTO'
@@ -6855,6 +6812,7 @@ export Descriptor_Deck_RFA_TerrKdo_Sud_challenge_IA_OP_12_AA_IA1 is TDeckDescrip
     [
     ]
 )
+
 export Descriptor_Deck_US_8th_Inf_challenge_IA_OP_12_AA_IA2 is TDeckDescriptor
 (
     DeckName = 'QIKVIPSJXZ'
@@ -6967,6 +6925,7 @@ export Descriptor_Deck_US_8th_Inf_challenge_IA_OP_12_AA_IA2 is TDeckDescriptor
     [
     ]
 )
+
 export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDescriptor
 (
     DeckName = 'HUSOTKTUJT'
@@ -7112,12 +7071,12 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
     [
         TDeckCombatGroupDescriptor
         (
-            Name = "ZOMQAFHITM"
+        Name = "ZOMQAFHITM"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SUJBJHQBBH"
+                Name = "SUJBJHQBBH"
                     PackIndexUnitNumberList =
                     [
                         (0,2),
@@ -7126,7 +7085,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "EBAXRQFWNO"
+                Name = "EBAXRQFWNO"
                     PackIndexUnitNumberList =
                     [
                         (2,4),
@@ -7134,7 +7093,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "JYZDSITBSM"
+                Name = "JYZDSITBSM"
                     PackIndexUnitNumberList =
                     [
                         (3,4),
@@ -7143,7 +7102,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "HBLUTIMQXB"
+                Name = "HBLUTIMQXB"
                     PackIndexUnitNumberList =
                     [
                         (6,2),
@@ -7152,7 +7111,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SRHWTUYLYQ"
+                Name = "SRHWTUYLYQ"
                     PackIndexUnitNumberList =
                     [
                         (8,12),
@@ -7163,12 +7122,12 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "MWICGOJROV"
+        Name = "MWICGOJROV"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SUJBJHQBBH"
+                Name = "SUJBJHQBBH"
                     PackIndexUnitNumberList =
                     [
                         (9,1),
@@ -7178,7 +7137,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "EBAXRQFWNO"
+                Name = "EBAXRQFWNO"
                     PackIndexUnitNumberList =
                     [
                         (2,2),
@@ -7187,7 +7146,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AEHXPSCGSH"
+                Name = "AEHXPSCGSH"
                     PackIndexUnitNumberList =
                     [
                         (1,3),
@@ -7197,7 +7156,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "TXLIVWUPSM"
+                Name = "TXLIVWUPSM"
                     PackIndexUnitNumberList =
                     [
                         (1,3),
@@ -7207,7 +7166,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "WAKIQBNMIP"
+                Name = "WAKIQBNMIP"
                     PackIndexUnitNumberList =
                     [
                         (1,3),
@@ -7219,12 +7178,12 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "GHUYXATXPF"
+        Name = "GHUYXATXPF"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SUJBJHQBBH"
+                Name = "SUJBJHQBBH"
                     PackIndexUnitNumberList =
                     [
                         (13,1),
@@ -7234,7 +7193,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "EBAXRQFWNO"
+                Name = "EBAXRQFWNO"
                     PackIndexUnitNumberList =
                     [
                         (19,3),
@@ -7244,7 +7203,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AEHXPSCGSH"
+                Name = "AEHXPSCGSH"
                     PackIndexUnitNumberList =
                     [
                         (14,3),
@@ -7254,7 +7213,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "TXLIVWUPSM"
+                Name = "TXLIVWUPSM"
                     PackIndexUnitNumberList =
                     [
                         (14,3),
@@ -7264,7 +7223,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "WAKIQBNMIP"
+                Name = "WAKIQBNMIP"
                     PackIndexUnitNumberList =
                     [
                         (14,3),
@@ -7276,12 +7235,12 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
         ),
         TDeckCombatGroupDescriptor
         (
-            Name = "cha_2"
+        Name = "cha_2"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AIIMCNDONF"
+                Name = "AIIMCNDONF"
                     PackIndexUnitNumberList =
                     [
                         (15,2),
@@ -7289,7 +7248,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "MMISGNOMQO"
+                Name = "MMISGNOMQO"
                     PackIndexUnitNumberList =
                     [
                         (16,2),
@@ -7297,7 +7256,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "HBLUTIMQXB"
+                Name = "HBLUTIMQXB"
                     PackIndexUnitNumberList =
                     [
                         (17,2),
@@ -7305,7 +7264,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "OMMSABUJXJ"
+                Name = "OMMSABUJXJ"
                     PackIndexUnitNumberList =
                     [
                         (23,2),
@@ -7315,6 +7274,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
         ),
     ]
 )
+
 export Descriptor_Deck_US_11ACR_multi_HB_OP_13_SRV_Player is TDeckDescriptor
 (
     DeckName = 'AGIJLLLSGC'
@@ -7369,7 +7329,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_13_SRV_Player is TDeckDescriptor
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SLWSVLLPZP"
+                Name = "SLWSVLLPZP"
                     PackIndexUnitNumberList =
                     [
                         (3,2),
@@ -7377,7 +7337,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_13_SRV_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AIIMCNDONF"
+                Name = "AIIMCNDONF"
                     PackIndexUnitNumberList =
                     [
                         (2,2),
@@ -7386,7 +7346,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_13_SRV_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "AFXAGTUHDY"
+                Name = "AFXAGTUHDY"
                     PackIndexUnitNumberList =
                     [
                         (4,2),
@@ -7394,7 +7354,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_13_SRV_Player is TDeckDescriptor
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "SRHWTUYLYQ"
+                Name = "SRHWTUYLYQ"
                     PackIndexUnitNumberList =
                     [
                         (6,2),
@@ -7405,6 +7365,7 @@ export Descriptor_Deck_US_11ACR_multi_HB_OP_13_SRV_Player is TDeckDescriptor
         ),
     ]
 )
+
 export Descriptor_Deck_SOV_79_Gds_Tank_challenge_IA_OP_15_LMS_IA1 is TDeckDescriptor
 (
     DeckName = 'EDQLAONOLE'
@@ -7464,6 +7425,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_IA_OP_15_LMS_IA1 is TDeckDescri
     [
     ]
 )
+
 export Descriptor_Deck_SOV_79_Gds_Tank_challenge_IA_OP_15_LMS_IA2 is TDeckDescriptor
 (
     DeckName = 'NEPZAQDRRN'
@@ -7625,6 +7587,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_IA_OP_15_LMS_IA2 is TDeckDescri
     [
     ]
 )
+
 export Descriptor_Deck_SOV_79_Gds_Tank_challenge_IA_OP_15_LMS_IA3 is TDeckDescriptor
 (
     DeckName = 'AMGJNIXTWY'
@@ -7734,6 +7697,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_IA_OP_15_LMS_IA3 is TDeckDescri
     [
     ]
 )
+
 export Descriptor_Deck_RFA_TerrKdo_Sud_multi is TDeckDescriptor
 (
     DeckName = 'NJBZGXXVJA'
@@ -7938,16 +7902,12 @@ export Descriptor_Deck_RFA_TerrKdo_Sud_multi is TDeckDescriptor
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_F4F_Phantom_II_HE1_RFA
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 export Descriptor_Deck_WP_Unternehmen_Zentrum_multi is TDeckDescriptor
 (
     DeckName = 'RZLAXHJMFD'
@@ -8148,16 +8108,12 @@ export Descriptor_Deck_WP_Unternehmen_Zentrum_multi is TDeckDescriptor
             DeckPack = ~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MANPAD_Igla_SOV
             Transport = ~/Descriptor_Unit_UAZ_469_SOV
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 2
-            DeckPack = ~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL
-        ),
     ]
     DeckCombatGroupList =
     [
     ]
 )
+
 private DeckList is TDeckDescriptorList
 (
     DeckListForAutoFill =
@@ -8183,6 +8139,7 @@ private DeckList is TDeckDescriptorList
         ~/Descriptor_Deck_RFA_TerrKdo_Sud_multi,
         ~/Descriptor_Deck_WP_Unternehmen_Zentrum_multi,
     ]
+
     DeckListForIdentifier =
     [
         ~/Descriptor_Deck_US_11ACR_multi_HB_OP_01_DEP_Ally,

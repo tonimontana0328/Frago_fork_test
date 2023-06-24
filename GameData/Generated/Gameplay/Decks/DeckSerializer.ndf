@@ -3151,5 +3151,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL, 5004),
         (Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL, 6000),
         (Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL, 6001),
+        (Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL, 25001),
+        (Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL, 25002),
     ]
 )
