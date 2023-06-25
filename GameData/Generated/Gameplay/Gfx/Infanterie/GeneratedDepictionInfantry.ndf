@@ -9145,7 +9145,7 @@ Gfx_Scout_LRRP_SOV is TemplateInfantryDepictionSquad
 )
 AllWeaponAlternatives_Scout_LRRP_SOV is [
   AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_AS_Val ),
-  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_Dragunov ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_VSS_Vintorez ),
   AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_RPG22 ),
 ]
 AllWeaponSubDepiction_Scout_LRRP_SOV is TemplateAllSubWeaponDepiction
@@ -9159,7 +9159,7 @@ AllWeaponSubDepiction_Scout_LRRP_SOV is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_Sniper_SVD_Dragunov"]
+      FireEffectTag = ["FireEffect_Sniper_VSS_Vintorez"]
       WeaponShootDataPropertyName = "WeaponShootData_0_2"
     ),
     DepictionOperator_WeaponInstantFireInfantry
