@@ -861,6 +861,7 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
         ( ~/Descriptor_Unit_ATteam_ITOW_US_101st_FRL, ~/Descriptor_ShowRoomUnit_ATteam_ITOW_US ),
         ( ~/Descriptor_Unit_F16E_AA_US_101st_FRL, ~/Descriptor_ShowRoomUnit_F16E_AA_US_101st_FRL ),
         ( ~/Descriptor_Unit_F117_Nighthawk_US_101st_FRL, ~/Descriptor_ShowRoomUnit_F117_Nighthawk_US_101st_FRL ),
+        ( ~/Descriptor_Unit_Rifles_US_Dualat_FRL, ~/Descriptor_ShowRoomUnit_Rifles_US_Dualat_FRL ),
 
     ]
 )

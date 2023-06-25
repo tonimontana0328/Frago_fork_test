@@ -10935,7 +10935,75 @@ TacticDepiction_GreenBerets_US_Ghost_101st_FRL is TemplateInfantryDepictionFacto
   Surrogates = TacticDepiction_GreenBerets_US_Surrogates_101st_FRL
   Alternatives = TacticDepiction_GreenBerets_US_Alternatives_101st_FRL
 )
-// *****************************[ Grenzer_CMD_DDR ]*********************************
+// *****************************[ Rifles_US_Dualat_FRL ]*********************************
+Gfx_Rifles_US_Dualat_FRL is TemplateInfantryDepictionSquad
+(
+  SoundOperator = DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_Rifles_US_Dualat_FRL is [
+  AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_M16A2 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_M249 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_M47_DRAGON_II ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_4'] ModelFile = ModelFile_M72A4 ),
+
+]
+AllWeaponSubDepiction_Rifles_US_Dualat_FRL is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Rifles_US_Dualat_FRL
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_M249_5_56mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_M47_DRAGON_II"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Rifles_US_Dualat_FRL is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Rifles_US_Dualat_FRL
+)
+TacticDepiction_Rifles_US_Dualat_FRL_Surrogates is [['high', '01'], ['high', '02'], ['high', '03'], ['high', '04'], ['high', '05'], ['high', '06'], ['high', '07'], ['high', '08'], ['high', '09'], ['high', '10']]
+TacticDepiction_Rifles_US_Dualat_FRL_Alternatives is [
+  TDepictionDescriptor( SelectorId = ['high', '01'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_US ) ),
+  TDepictionDescriptor( SelectorId = ['high', '02'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_US_02 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '03'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_US_03 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '04'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_US_04 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '05'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_US_05 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '06'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_US_06 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '07'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_US_07 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '08'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_US_08 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '09'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_US_09 ) ),
+  TDepictionDescriptor( SelectorId = ['high', '10'] MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_US_10 ) ),
+  TDepictionDescriptor( SelectorId = ['low']  MeshDescriptor = TemplateMeshDescriptor( ModelFile = ModelFile_Rifles_US_LOW ) ),
+]
+TacticDepiction_Rifles_US_Dualat_FRL_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Surrogates = TacticDepiction_Rifles_US_Dualat_FRL_Surrogates
+  Alternatives = TacticDepiction_Rifles_US_Dualat_FRL_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Rifles_US_Dualat_FRL, AllWeaponSubDepictionBackpack_Rifles_US_Dualat_FRL]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_Rifles_US_Dualat_FRL_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Surrogates = TacticDepiction_Rifles_US_Dualat_FRL_Surrogates
+  Alternatives = TacticDepiction_Rifles_US_Dualat_FRL_Alternatives
+)
+
 InfantryMimetic is MAP[
   ( 'AT_Group_TA_UK', TacticDepiction_AT_Group_TA_UK_Soldier ),
   ( 'AeroRifles_CMD_US', TacticDepiction_AeroRifles_CMD_US_Soldier ),
@@ -11142,6 +11210,7 @@ InfantryMimetic is MAP[
   ( 'Wachregiment_CMD_DDR', TacticDepiction_Wachregiment_CMD_DDR_Soldier ),
   ( 'Wachregiment_DDR', TacticDepiction_Wachregiment_DDR_Soldier ),
   ( 'Wachregiment_SMG_DDR', TacticDepiction_Wachregiment_SMG_DDR_Soldier ),
+  ( 'Rifles_US_Dualat_FRL', TacticDepiction_Rifles_US_Dualat_FRL_Soldier ),
 ]
 
 InfantryMimeticGhost is MAP[
@@ -11348,6 +11417,8 @@ InfantryMimeticGhost is MAP[
   ( 'Wachregiment_CMD_DDR', TacticDepiction_Wachregiment_CMD_DDR_Ghost ),
   ( 'Wachregiment_DDR', TacticDepiction_Wachregiment_DDR_Ghost ),
   ( 'Wachregiment_SMG_DDR', TacticDepiction_Wachregiment_SMG_DDR_Ghost ),
+  ( 'Rifles_US_Dualat_FRL', TacticDepiction_Rifles_US_Dualat_FRL_Ghost ),
+
 ]
 
 TransportedInfantryAlternativesCount is MAP[
@@ -11555,6 +11626,8 @@ TransportedInfantryAlternativesCount is MAP[
   ('Wachregiment_CMD_DDR', 6),
   ('Wachregiment_DDR', 6),
   ('Wachregiment_SMG_DDR', 6),
+  ('Rifles_US_Dualat_FRL', 10),
+
 ]
 
 TransportedInfantryAlternatives is [
@@ -12733,6 +12806,16 @@ TransportedInfantryAlternatives is [
   AlternativeWithId( SelectorId = ['Wachregiment_SMG_DDR', '04'] ModelFile = ModelFile_Wachregiment_SMG_DDR_04 ),
   AlternativeWithId( SelectorId = ['Wachregiment_SMG_DDR', '05'] ModelFile = ModelFile_Wachregiment_SMG_DDR_05 ),
   AlternativeWithId( SelectorId = ['Wachregiment_SMG_DDR', '06'] ModelFile = ModelFile_Wachregiment_SMG_DDR_06 ),
+    AlternativeWithId( SelectorId = ['_Rifles_US_Dualat_FRL', '01'] ModelFile = ModelFile_Rifles_US ),
+  AlternativeWithId( SelectorId = ['_Rifles_US_Dualat_FRL', '02'] ModelFile = ModelFile_Rifles_US_02 ),
+  AlternativeWithId( SelectorId = ['_Rifles_US_Dualat_FRL', '03'] ModelFile = ModelFile_Rifles_US_03 ),
+  AlternativeWithId( SelectorId = ['_Rifles_US_Dualat_FRL', '04'] ModelFile = ModelFile_Rifles_US_04 ),
+  AlternativeWithId( SelectorId = ['_Rifles_US_Dualat_FRL', '05'] ModelFile = ModelFile_Rifles_US_05 ),
+  AlternativeWithId( SelectorId = ['_Rifles_US_Dualat_FRL', '06'] ModelFile = ModelFile_Rifles_US_06 ),
+  AlternativeWithId( SelectorId = ['_Rifles_US_Dualat_FRL', '07'] ModelFile = ModelFile_Rifles_US_07 ),
+  AlternativeWithId( SelectorId = ['_Rifles_US_Dualat_FRL', '08'] ModelFile = ModelFile_Rifles_US_08 ),
+  AlternativeWithId( SelectorId = ['_Rifles_US_Dualat_FRL', '09'] ModelFile = ModelFile_Rifles_US_09 ),
+  AlternativeWithId( SelectorId = ['_Rifles_US_Dualat_FRL', '10'] ModelFile = ModelFile_Rifles_US_10 ),
 ]
 
 template GeneratedTransportedInfantryDepiction [ Index ] is TransportedInfantryDepiction

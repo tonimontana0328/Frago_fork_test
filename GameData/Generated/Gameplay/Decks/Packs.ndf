@@ -27075,3 +27075,15 @@ Descriptor_Deck_Pack_101st_multi_F117_Nighthawk_US_101st_FRL is TDeckPackDescrip
         ),
     ]
 )
+Descriptor_Deck_Pack_11acr_multi_Rifles_US_Dualat_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{8510c985-aff0-4fef-8168-84753ef40ab1}
+    CfgName = 'Deck_Pack_11acr_multi_Rifles_US_Dualat_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Rifles_US_Dualat_FRL
+        ),
+    ]
+)
