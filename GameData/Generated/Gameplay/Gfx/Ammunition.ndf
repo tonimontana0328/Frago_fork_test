@@ -17224,8 +17224,8 @@ Ammo_DCA_1_canon_53T2_20mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 5),
-             (EBaseHitValueModifier/Moving, 2),
+             (EBaseHitValueModifier/Idling, 15),
+             (EBaseHitValueModifier/Moving, 5),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -17876,7 +17876,7 @@ Ammo_DCA_1_canon_T20_20mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 30),
+             (EBaseHitValueModifier/Idling, 15),
              (EBaseHitValueModifier/Moving, 5),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
