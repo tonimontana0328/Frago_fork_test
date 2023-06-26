@@ -27087,3 +27087,15 @@ Descriptor_Deck_Pack_11acr_multi_Rifles_US_Dualat_FRL is TDeckPackDescriptor
         ),
     ]
 )
+Descriptor_Deck_Pack_11acr_multi_Scout_US_2man_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b761cdc5-526d-4abc-a10c-46a01781df20}
+    CfgName = 'Deck_Pack_11acr_multi_Scout_US_2man_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Scout_US_2man_FRL
+        ),
+    ]
+)
