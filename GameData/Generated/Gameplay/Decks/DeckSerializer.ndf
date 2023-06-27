@@ -3130,6 +3130,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_Marder_1A3_MILAN2_RFA_FRL, 5006),
         (Descriptor_Unit_M2A2_Bradley_TOW1_IFV_US_FRL, 5007),
         (Descriptor_Unit_M113_ACAV_US_nonrecce_FRL, 5008),
+        //101st
         (Descriptor_Unit_M1025_Humvee_TOW_para_US_101st_FRL, 20009),
         (Descriptor_Unit_CH47_Chinook_US_101st_FRL, 20010),
         (Descriptor_Unit_UH60A_Black_Hawk_US_101st_FRL, 20011),
@@ -3145,6 +3146,9 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_ATteam_ITOW_US_101st_FRL, 20021),
         (Descriptor_Unit_F16E_AA_US_101st_FRL, 20022),
         (Descriptor_Unit_F117_Nighthawk_US_101st_FRL, 20023),
+        //
+        (Descriptor_Unit_Rifles_US_Dualat_FRL, 20024),
+        (Descriptor_Unit_Scout_US_2man_FRL, 20025),
         		(Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL, 5001),
         		(Descriptor_Unit_Su_24M_SOV_NUKE_FRL, 5002),
         (Descriptor_Unit_Jaguar_HE_FR_NUKE_FRL, 5003),
@@ -3153,5 +3157,6 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL, 6001),
         (Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL, 25001),
         (Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL, 25002),
+        (Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL, 25003),
     ]
 )

@@ -861,6 +861,8 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
         ( ~/Descriptor_Unit_ATteam_ITOW_US_101st_FRL, ~/Descriptor_ShowRoomUnit_ATteam_ITOW_US ),
         ( ~/Descriptor_Unit_F16E_AA_US_101st_FRL, ~/Descriptor_ShowRoomUnit_F16E_AA_US_101st_FRL ),
         ( ~/Descriptor_Unit_F117_Nighthawk_US_101st_FRL, ~/Descriptor_ShowRoomUnit_F117_Nighthawk_US_101st_FRL ),
+        ( ~/Descriptor_Unit_Rifles_US_Dualat_FRL, ~/Descriptor_ShowRoomUnit_Rifles_US_Dualat_FRL ),
+        ( ~/Descriptor_Unit_Scout_US_2man_FRL, ~/Descriptor_ShowRoomUnit_Scout_US_2man_FRL ),
         ( ~/Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL, ~/Descriptor_ShowRoomUnit_F117_Nighthawk_US_NUKE_FRL ),
         ( ~/Descriptor_Unit_Jaguar_HE_FR_NUKE_FRL, ~/Descriptor_ShowRoomUnit_Jaguar_HE_FR_NUKE_FRL ),
         ( ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL, ~/Descriptor_ShowRoomUnit_Su_24M_SOV_NUKE_FRL ),
@@ -868,6 +870,8 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
         ( ~/Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL, ~/Descriptor_ShowRoomUnit_GreenBerets_MP5_US_NUKE_FRL ),
         ( ~/Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL, ~/Descriptor_ShowRoomUnit_Scout_LRRP_SOV_NUKE_FRL ),
         ( ~/Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL, ~/Descriptor_ShowRoomUnit_Harrier_RKT1_UK ),       
-         ( ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL, ~/Descriptor_ShowRoomUnit_F111F_Aardvark_US_NUKE_FRL ),
+        ( ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL, ~/Descriptor_ShowRoomUnit_F111F_Aardvark_US_NUKE_FRL ),
+        ( ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL, ~/Descriptor_ShowRoomUnit_F111F_Aardvark_US_MEGA_FRL ),
+
     ]
 )

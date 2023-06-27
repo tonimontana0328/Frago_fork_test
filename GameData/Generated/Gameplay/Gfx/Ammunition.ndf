@@ -280,6 +280,101 @@ Ammo_GatlingAir_ADEN_25mm_x2_VTOL_FRL is TAmmunitionDescriptor
     FlightTimeForSpeed                    = 0.85
     DistanceForSpeed                      = 5000.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Bomb_Mk82_250kg_x48_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{021da042-eb75-44d0-ba7b-46b7522f773b}
+    Name                              = 'PZKMCADNSZ'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'ODPPNIUOYS'
+    Caliber                           = 'RIXCQEWRSL'
+    WeaponDescriptionToken            = 'KCDGBXHFKO'
+    TraitsToken                       = [ 'MOTION', 'HE', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Bombe
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="howz_bombe" Index=1)
+    ProjectileType                    = EProjectileType/Bombe
+    ImpactHappening                   = [ 'BombeMk81' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.05
+    TempsEntreDeuxFx                  = 0.05
+    PorteeMaximale                    = ((425) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((0) * Metre)
+    AltitudeAPorteeMinimale           = ((37.5) * Metre)
+    AltitudeAPorteeMaximale           = ((75.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((120) * Metre)
+    DispersionAtMinRange              = ((120) * Metre)
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 300 * Metre
+    PhysicalDamages                   = 4.3
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 590 * Metre
+    SuppressDamages                   = 450.0
+    AllowSuppressDamageWhenNoImpact                = False
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.2
+    NoiseDissimulationMalus           = 1.0
+    ShotsBeforeMaxNoise               = 3
+    TargetsDistricts                  = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{01817095-cbb7-49ec-95ed-0c8565869764}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 30),
+             (EBaseHitValueModifier/Moving, 30),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    MaxSuccessiveHitCount             = 1
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 48
+    SupplyCost                        = 480
+    NbSalvosShootOnPosition           = 1
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 48
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_mk81"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.4
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    DistanceForSpeed                      = 0.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    UnitWeight                        = 500.0
 )// Ne pas éditer, ce fichier est auto-généré !
 
 
@@ -17506,8 +17601,8 @@ Ammo_DCA_1_canon_53T2_20mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 5),
-             (EBaseHitValueModifier/Moving, 2),
+             (EBaseHitValueModifier/Idling, 15),
+             (EBaseHitValueModifier/Moving, 5),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -41164,12 +41259,12 @@ Ammo_PM_AS_Val is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 8
-    SupplyCost                        = 1
+    SupplyCost                        = 8
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 12
+    AffichageMunitionParSalve         = 24
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AS_Val"
     SmokeDescriptor                   = nil
@@ -42198,7 +42293,7 @@ Ammo_PM_VSS_Vintorez is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 1
+    SupplyCost                        = 3
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
@@ -54732,7 +54827,7 @@ Ammo_Sniper_VSS_Vintorez is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 1
+    SupplyCost                        = 5
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -71394,7 +71489,7 @@ Ammo_Gatling_m134_7_62mm_x2_FRL is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 20
+    AffichageMunitionParSalve         = 100
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_m134"
     SmokeDescriptor                   = nil

@@ -27070,6 +27070,30 @@ Descriptor_Deck_Pack_101st_multi_F117_Nighthawk_US_101st_FRL is TDeckPackDescrip
         ),
     ]
 )
+Descriptor_Deck_Pack_11acr_multi_Rifles_US_Dualat_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{8510c985-aff0-4fef-8168-84753ef40ab1}
+    CfgName = 'Deck_Pack_11acr_multi_Rifles_US_Dualat_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Rifles_US_Dualat_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_11acr_multi_Scout_US_2man_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b761cdc5-526d-4abc-a10c-46a01781df20}
+    CfgName = 'Deck_Pack_11acr_multi_Scout_US_2man_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Scout_US_2man_FRL
+        ),
+    ]
+)
 Descriptor_Deck_Pack_EF111_Raven_US_FRL is TDeckPackDescriptor
 (
     DescriptorId = GUID:{1f19cd02-aab4-4e80-9536-88f83cc86847}
@@ -27175,6 +27199,18 @@ Descriptor_Deck_Pack_Harrier_RKT1_UK_VTOL_FRL is TDeckPackDescriptor
         TDeckTransporterAndUnitsDescriptor
         (
             UnitDescriptor = Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c49c25bd-0f44-4807-970a-53bf318f9791}
+    CfgName = 'Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
         ),
     ]
 )

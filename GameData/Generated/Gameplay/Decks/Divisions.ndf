@@ -2389,7 +2389,7 @@ Descriptor_Deck_Division_US_11ACR_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_M1A1_Abrams_CMD_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_M1A1_Abrams_US, 6),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_M1A1_Abrams_reco_US, 2),
-        (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_M3A1_Bradley_CFV_US, 2),
+        //(~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_M3A1_Bradley_CFV_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_M577_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_M728_CEV_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_MANPAD_Redeye_RFA, 1),
@@ -2400,13 +2400,15 @@ Descriptor_Deck_Division_US_11ACR_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_Panzergrenadier_CMD_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_Panzergrenadier_IFV_RFA, 1),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_Rifles_Cavalry_US, 1),
-        (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_Rifles_LAW_US, 1),
+        (~/Descriptor_Deck_Pack_11acr_multi_Rifles_US_Dualat_FRL, 2),
+        (~/Descriptor_Deck_Pack_11acr_multi_Scout_US_2man_FRL, 2),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_Scout_US, 2),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_UH60A_CO_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_UH60A_Supply_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_Unimog_S_404_RFA, 2),
         (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
@@ -2777,6 +2779,7 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_UH60A_Supply_US, 1),
         (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
@@ -2873,6 +2876,7 @@ Descriptor_Deck_Division_US_82nd_Airborne_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
         (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
@@ -3077,6 +3081,7 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
         	(~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
         (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
@@ -3305,6 +3310,7 @@ Descriptor_Deck_Division_101st is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
         (~/Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_US_101st

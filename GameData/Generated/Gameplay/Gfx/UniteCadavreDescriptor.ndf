@@ -22930,6 +22930,8 @@ Descriptor_UnitCadavre_M3A1_Bradley_CFV_US is TEntityDescriptor
                    $/GFX/Everything/Descriptor_Unit_M3A1_Bradley_CFV_US/GenericMovement,
                    $/GFX/Everything/Descriptor_Unit_M3A1_Bradley_CFV_US/FacingInfos,
                    $/GFX/Everything/Descriptor_Unit_M3A1_Bradley_CFV_US/MissileCarriage,
+                    $/GFX/Everything/Descriptor_Unit_M3A1_Bradley_CFV_US/Transporter,
+
                 ]
             ),
             $/GFX/Everything/Descriptor_Unit_M3A1_Bradley_CFV_US/WeaponManager,
@@ -22938,6 +22940,7 @@ Descriptor_UnitCadavre_M3A1_Bradley_CFV_US is TEntityDescriptor
             $/GFX/Everything/Descriptor_Unit_M3A1_Bradley_CFV_US/GenericMovement,
             $/GFX/Everything/Descriptor_Unit_M3A1_Bradley_CFV_US/FacingInfos,
             $/GFX/Everything/Descriptor_Unit_M3A1_Bradley_CFV_US/MissileCarriage,
+            $/GFX/Everything/Descriptor_Unit_M3A1_Bradley_CFV_US/Transporter,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]

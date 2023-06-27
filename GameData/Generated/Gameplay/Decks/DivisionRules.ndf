@@ -521,6 +521,13 @@ private DivisionRules is TDeckDivisionRules
                     ),
                     TDeckUniteRule
                     (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
+                    TDeckUniteRule
+                    (
                         UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
@@ -12877,10 +12884,10 @@ private DivisionRules is TDeckDivisionRules
                     ),
                     TDeckUniteRule
                     (
-                        UnitDescriptor = ~/Descriptor_Unit_Rifles_LAW_US
+                        UnitDescriptor = ~/Descriptor_Unit_Rifles_US_Dualat_FRL
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_M113A3_US, ~/Descriptor_Unit_M113_Dragon_US,~/Descriptor_Unit_M113_ACAV_US_nonrecce_FRL]
-                        NumberOfUnitInPack = 9
+                        NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
                     TDeckUniteRule
@@ -12889,6 +12896,14 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_M998_Humvee_US, ~/Descriptor_Unit_M1025_Humvee_scout_US,~/Descriptor_Unit_M113_ACAV_US]
                         NumberOfUnitInPack = 9
+                        NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_Scout_US_2man_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [~/Descriptor_Unit_M3A1_Bradley_CFV_US]
+                        NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
                     TDeckUniteRule
@@ -12925,6 +12940,13 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
                     ),
                     TDeckUniteRule
                     (
@@ -14865,6 +14887,13 @@ private DivisionRules is TDeckDivisionRules
                     ),
                     TDeckUniteRule
                     (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
+                    TDeckUniteRule
+                    (
                         UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
@@ -15366,6 +15395,13 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
                     ),
                     TDeckUniteRule
                     (
@@ -16480,6 +16516,13 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
                     ),
                     TDeckUniteRule
                     (
