@@ -11418,6 +11418,7 @@ InfantryMimeticGhost is MAP[
   ( 'Wachregiment_DDR', TacticDepiction_Wachregiment_DDR_Ghost ),
   ( 'Wachregiment_SMG_DDR', TacticDepiction_Wachregiment_SMG_DDR_Ghost ),
   ( 'Rifles_US_Dualat_FRL', TacticDepiction_Rifles_US_Dualat_FRL_Ghost ),
+  ( 'GreenBerets_US_101st_FRL', TacticDepiction_GreenBerets_US_Ghost_101st_FRL ),
 
 ]
 
