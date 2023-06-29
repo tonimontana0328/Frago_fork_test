@@ -74896,7 +74896,7 @@ Ammo_Howz_Canon_ZiS3_Howitzer_76mm_indencendairy_FRL is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 12.0
-    TempsEntreDeuxSalves              = 60.0
+    TempsEntreDeuxSalves              = 200.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 6
