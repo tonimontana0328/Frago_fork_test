@@ -615,3 +615,44 @@ export Descriptor_Smoke_FumiIncendie_bomb_NUKE_FRL is TEntityDescriptor
         ), 
     ]
 )
+export Descriptor_Smoke_FumiIncendie_bomb_FRL_small is TEntityDescriptor
+(
+    World        = WorldIndices_Smokes
+    DescriptorId       = GUID:{9637e4fc-c8df-48f3-8d50-01e90c6e6145}
+    ClassNameForDebug  = 'Smoke_FumiIncendie'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        ~/EmptyTagsModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TPositionModuleDescriptor
+        (
+            UseFollowCam               = False
+            StickToGround              = True
+            InGeoDb                    = False
+            PorteurMustBeVisible       = True
+            ClampInWorld               = True
+            ClampOutMap                = False
+            RelativeScanningPosition   = [0,0,0]
+            LowAltitudeFlyingAltitude  = ((0) * Metre)
+            NearGroundFlyingAltitude   = ((0) * Metre)
+        ),
+		TApparenceModelModuleDescriptor
+        (
+            Depiction  = Template_DescriptorSmoke_Depiction
+
+            (
+                Radius  = 150 * Metre
+                Height  = 350 * Metre
+                Density = 1.0
+            )
+            DefaultVisibility  = False
+        ),
+        TSmokeModuleDescriptor
+        (
+            Altitude       = ((350) * Metre)
+            TimeToLive     = ((60) * Seconde)
+            Radius         = ((150) * Metre)
+            Terrain        = ~/SmokeHeavy
+        ), 
+    ]
+)
