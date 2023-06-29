@@ -461,3 +461,49 @@ export Descriptor_Fire_Nuke is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_Fire_NapalmMoyen_small_zis3 is TEntityDescriptor
+(
+    World              = WorldIndices_Fires
+    DescriptorId       = GUID:{82c07fe3-eef0-4d2f-a45d-5398f0502942}
+    ClassNameForDebug  = 'Fire_NapalmMoyen'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        ~/EmptyTagsModuleDescriptor,
+        TPositionModuleDescriptor
+        (
+            UseFollowCam               = False
+            StickToGround              = True
+            InGeoDb                    = False
+            PorteurMustBeVisible       = True
+            ClampInWorld               = True
+            ClampOutMap                = False
+            RelativeScanningPosition   = [0,0,0]
+            LowAltitudeFlyingAltitude  = ((0) * Metre)
+            NearGroundFlyingAltitude   = ((0) * Metre)
+        ),
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            Depiction  = Template_DescriptorFire_Depiction
+            (
+                 Radius               = 150* Metre
+                 FX                   = $/GFX/GameFx/fx_binder_fire_Napalm_Moyen
+                 Density              = 1
+            )
+            DefaultVisibility  = True
+        ),
+        TFireModuleDescriptor
+        (
+            TimeToLive                     = ((60) * Seconde)
+            TimeBeforeSpreading            = ((1) * Seconde)
+            TimeBeforeSpreadAttempt        = ((1) * Seconde)
+            SpreadProbability              = 1.0
+            IsNewFireProbability           = 0.5
+            Radius                         = ((150) * Metre)
+            AmmunitionForBurn              = Ammo_Degats_napalm_buratino_small
+            TimeBetweenBurns               = ((1) * Seconde)
+            OverridenSpreadDescriptor      = Descriptor_Fire_Incendie
+            SmokeDescriptor                = Descriptor_Smoke_FumiIncendie_bomb_FRL_small
+        ),
+    ]
+)
