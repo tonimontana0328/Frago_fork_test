@@ -40,6 +40,8 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA, 192),
         (Descriptor_Deck_Division_SOV_119IndTkBrig_multi, 195),
         (Descriptor_Deck_Division_101st, 34),
+        (Descriptor_Deck_Division_SOV_Afganski, 35),
+
 
     ]
 
@@ -3155,6 +3157,9 @@ DeckSerializer is TDeckSerializer
         //
         (Descriptor_Unit_Rifles_US_Dualat_FRL, 20024),
         (Descriptor_Unit_Scout_US_2man_FRL, 20025),
+        (Descriptor_Unit_ATteam_RCL_SPG9_VDV_SOV_af_FRL, 20026),
+        (Descriptor_Unit_BMP_2_SOV_recon_FRL, 20027),
+
 
 
 

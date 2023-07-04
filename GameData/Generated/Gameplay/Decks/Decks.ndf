@@ -1,4 +1,15 @@
 // Ne pas éditer, ce fichier est auto-généré !
+export Descriptor_Pack_Division_SOV_Afganski is TDeckDescriptor
+(
+    DeckName = ''
+    DeckDivision = ~/Descriptor_Deck_Division_SOV_Afganski
+    DeckPackList =
+    [
+    ]
+    DeckCombatGroupList =
+    [
+    ]
+)
 
 export Descriptor_Pack_Division_101st is TDeckDescriptor
 (

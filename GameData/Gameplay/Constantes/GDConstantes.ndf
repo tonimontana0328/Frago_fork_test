@@ -120,7 +120,7 @@ Constantes is TTunableConstante
     // Angle max avec la direction (0,0,1) EN DEGRES -- DOIT ETRE > 0 (sinon je pense que ça va être la daube) -- VOIR AVEC UN DEV POUR CHANGER LA VALEUR C'EST TRES SENSIBLE !!!
     // Si on dépasse cette valeur l'hélico peut avoir du mal à s'orienter dans la bonne direction pour atterrir et ne jamais trouver la bonne série de commande pour atterrir.
     // Une solution serait de reset les commandes pour recommencer l'algo, mais ça peut aussi avoir des conséquences sur d'autre mouvement ce truc, donc à faire uniquement si on sent le besoin.
-    MaxTerrainAngleForLanding = 8
+    MaxTerrainAngleForLanding = 25
 
     // Distance en dessous de laquelle un ordre de déplacement d'hélicoptère déclenche un vol en basse altitude. Cette distance est en mètres.
     DistanceDeVolTBAEnMetres = 500

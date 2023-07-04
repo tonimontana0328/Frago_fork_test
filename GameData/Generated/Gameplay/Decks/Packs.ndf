@@ -27099,3 +27099,39 @@ Descriptor_Deck_Pack_11acr_multi_Scout_US_2man_FRL is TDeckPackDescriptor
         ),
     ]
 )
+Descriptor_Deck_Pack_af_multi_ATteam_RCL_SPG9_VDV_SOV_af_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{0ac90315-3b4f-4acc-8abb-1be3e13c0d56}
+    CfgName = 'Deck_Pack_af_multi_ATteam_RCL_SPG9_VDV_SOV_af_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ATteam_RCL_SPG9_VDV_SOV_af_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_AT_D44_85mm_SOV is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{b27ae3de-3613-4068-934c-ab39ce92b84a}
+    CfgName = 'Deck_Pack_AT_D44_85mm_SOV'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_AT_D44_85mm_SOV
+        ),
+    ]
+)
+Descriptor_Deck_Pack_BMP_2_SOV_recon_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{432f19a2-ea81-4924-9731-46afede385e2}
+    CfgName = 'Deck_Pack_BMP_2_SOV_recon_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_BMP_2_SOV_recon_FRL
+        ),
+    ]
+)
