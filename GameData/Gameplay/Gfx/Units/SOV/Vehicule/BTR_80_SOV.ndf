@@ -1,19 +1,14 @@
-export ModelFile_BTR_80_SOV is 'GameData:/Assets/3D/Units/URSS/APC/BTR_80/BTR_80.Ase2NdfBin'
-
-Modele_BTR_80_SOV is TResourceMultiMaterialMeshWithLod
+export Modele_BTR_80_SOV is TemplateMeshDescriptor
 (
-    FileName     = ModelFile_BTR_80_SOV
-    CivMask =  CivMask/Common
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BTR_80/BTR_80.Ase2NdfBin'
 )
 
-Modele_BTR_80_SOV_MID is TResourceMultiMaterialMeshWithLod
+export Modele_BTR_80_SOV_MID is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BTR_80_MID/BTR_80_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_BTR_80_SOV_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_BTR_80_SOV_LOW is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/URSS/APC/LODS/BTR_80_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

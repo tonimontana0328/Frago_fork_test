@@ -869,7 +869,7 @@ SkirmishProductionMenuCombatGroupButton is BUCKSpecificButton
     TextColorToken = "ButtonHUD/Text2_pawn"
     TextSizeToken = "14"
     ButtonRelativeWidthHeight = [0.0, 0.0]
-    ButtonMagnifiableWidthHeight = [150, 30.0]
+    ButtonMagnifiableWidthHeight = [130, 30.0]
     ButtonMagnifiableOffset = [0.0, -2.0]
     TextTypefaceToken = "Eurostyle_Italic"
     IsTogglable = true
@@ -881,6 +881,8 @@ SkirmishProductionMenuCombatGroupButton is BUCKSpecificButton
 
     HasText = true
     TextElementName = "ButtonTextElement"
+    BigLineAction = ~/BigLineAction/ResizeFont
+    TextPadding = TRTTILength4( Magnifiable = [2.0, 0.0, 2.0, 0.0])
 
     TextDico = ~/LocalisationConstantes/dico_interface_ingame
     HintDico = ~/LocalisationConstantes/dico_interface_ingame

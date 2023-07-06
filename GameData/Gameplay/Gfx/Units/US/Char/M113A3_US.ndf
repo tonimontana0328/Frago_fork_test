@@ -1,19 +1,14 @@
-export ModelFile_M113A3_US is 'GameData:/Assets/3D/Units/US/APC/M113A3/M113A3.Ase2NdfBin'
-
-Modele_M113A3_US is TResourceMultiMaterialMeshWithLod
+export Modele_M113A3_US is TemplateMeshDescriptor
 (
-    FileName = ModelFile_M113A3_US
-    CivMask =  CivMask/Common
+    FileName = 'GameData:/Assets/3D/Units/US/APC/M113A3/M113A3.Ase2NdfBin'
 )
 
-Modele_M113A3_US_MID is TResourceMultiMaterialMeshWithLod
+export Modele_M113A3_US_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/APC/M113A3_MID/M113A3_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_M113A3_US_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_M113A3_US_LOW is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/APC/LODS/M113A3_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

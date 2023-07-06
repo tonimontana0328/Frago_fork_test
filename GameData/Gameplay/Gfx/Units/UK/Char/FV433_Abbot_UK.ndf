@@ -1,20 +1,15 @@
-export ModelFile_FV433_Abbot_UK is 'GameData:/Assets/3D/Units/UK/Artillerie/FV433_Abbot/FV433_Abbot.Ase2NdfBin'
-
-Modele_FV433_Abbot_UK is TResourceMultiMaterialMeshWithLod
+export Modele_FV433_Abbot_UK is TemplateMeshDescriptor
 (
-    FileName = ModelFile_FV433_Abbot_UK
-    CivMask =  CivMask/Common
+    FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/FV433_Abbot/FV433_Abbot.Ase2NdfBin'
 )
 
-Modele_FV433_Abbot_UK_MID is TResourceMultiMaterialMeshWithLod
+export Modele_FV433_Abbot_UK_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/FV433_Abbot_MID/FV433_Abbot_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_FV433_Abbot_UK_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_FV433_Abbot_UK_LOW is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/LODS/FV433_Abbot_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 

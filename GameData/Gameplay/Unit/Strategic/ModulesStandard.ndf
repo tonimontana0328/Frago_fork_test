@@ -23,7 +23,6 @@ StrategicSelectionModuleDescriptor is TSelectionModuleDescriptor
 
 PawnPositionModuleDescriptor is TPositionModuleDescriptor
 (
-    UseFollowCam               = False
     StickToGround              = True
     InGeoDb                    = True
     PorteurMustBeVisible       = True

@@ -63,7 +63,6 @@ export Descriptor_District_Quartier_Gros is TEntityDescriptor(
         ~/InflammableModuleDescriptorDistrict,
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -196,7 +195,6 @@ export Descriptor_District_Quartier_HLM is TEntityDescriptor(
         ~/InflammableModuleDescriptorDistrict,
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -329,7 +327,6 @@ export Descriptor_District_Quartier_Moyen is TEntityDescriptor(
         ~/InflammableModuleDescriptorDistrict,
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -400,9 +397,9 @@ export Descriptor_District_Quartier_Moyen is TEntityDescriptor(
         ~/TargetDataModuleDescriptor,
     ]
 )
-export Descriptor_District_Quartier_Petit is TEntityDescriptor(
-    DescriptorId        = GUID:{94b2df0a-d28f-4733-a456-6b242611009b}
-    ClassNameForDebug   = 'Quartier_Petit'
+export Descriptor_District_Quartier_Moyen_resistant_mieux is TEntityDescriptor(
+    DescriptorId        = GUID:{9efebf25-6b32-4903-91d0-912fc061ec1c}
+    ClassNameForDebug   = 'Quartier_Moyen_resistant_mieux'
     ModulesDescriptors  =
     [
         TTypeUnitModuleDescriptor
@@ -428,12 +425,12 @@ export Descriptor_District_Quartier_Petit is TEntityDescriptor(
                 Default        = TDistrictModuleDescriptor
                 (
                     DamageTakenMultiplier           = MAP [
-                       ("artillerie", 0.8),
-                       ("bombe", 0.8),
-                       ("cluster", 0.8),
-                       ("flamme", 2.0),
-                       ("he", 0.8),
-                       ("roquette", 0.8),
+                       ("artillerie", 1.0),
+                       ("bombe", 1.0),
+                       ("cluster", 1.0),
+                       ("flamme", 1.0),
+                       ("he", 1.0),
+                       ("roquette", 1.0),
                     ]
                 )
                 Selection      = [ ~/NilDescriptorIfCadavre ]
@@ -462,7 +459,6 @@ export Descriptor_District_Quartier_Petit is TEntityDescriptor(
         ~/InflammableModuleDescriptorDistrict,
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -474,7 +470,7 @@ export Descriptor_District_Quartier_Petit is TEntityDescriptor(
             ),
             TBaseDamageModuleDescriptor
             (
-                MaxPhysicalDamages = 15
+                MaxPhysicalDamages = 60
                 MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
                 MaxStunDamages = ~/Building_MaxStunDamages
             ),
@@ -489,7 +485,7 @@ export Descriptor_District_Quartier_Petit is TEntityDescriptor(
                     ArmorDescriptorRear = ArmorDescriptor_Batiment_1
                     ArmorDescriptorTop = ArmorDescriptor_Batiment_1
                 )
-                KillWhenDamagesReachMax = False
+                KillWhenDamagesReachMax = True
                 HitRollSize = 5.0
                 HitRollECM = 0.0
                 AutoOrientation = False
@@ -521,7 +517,7 @@ export Descriptor_District_Quartier_Petit is TEntityDescriptor(
                 )
                 Selection      = [~/NilDescriptorIfCadavre]
             ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_Quartier_Petit ),
+        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_Quartier_Moyen_resistant_mieux ),
             TMinimapDisplayModuleDescriptor
             (
                 Texture = "Texture_Minimap_Unit_inf"

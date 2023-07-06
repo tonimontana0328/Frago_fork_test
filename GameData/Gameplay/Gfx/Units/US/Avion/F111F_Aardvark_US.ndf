@@ -1,25 +1,19 @@
-export ModelFile_F111F_Aardvark_US is 'GameData:/Assets/3D/Units/US/Avion/Aardvark_F_111F/Aardvark_F_111F.Ase2NdfBin'
-
-Modele_F111F_Aardvark_US is TResourceMultiMaterialMeshWithLod
+export Modele_F111F_Aardvark_US is TemplateMeshDescriptor
 (
-    FileName = ModelFile_F111F_Aardvark_US
-    CivMask =  CivMask/Common
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/Aardvark_F_111F/Aardvark_F_111F.Ase2NdfBin'
 )
 
-Modele_F111F_Aardvark_US_MID is TResourceMultiMaterialMeshWithLod
+export Modele_F111F_Aardvark_US_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/Aardvark_F_111F_MID/Aardvark_F_111F_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_F111F_Aardvark_US_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_F111F_Aardvark_US_LOW is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/LODS/Aardvark_F_111F_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_F111F_Aardvark_US_train is TResourceMultiMaterialMeshWithLod
+export Modele_F111F_Aardvark_US_train is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/Aardvark_F_111F/Aardvark_F_111F_train.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

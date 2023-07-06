@@ -1,19 +1,14 @@
-export ModelFile_FV107_Scimitar_BEL is 'GameData:/Assets/3D/Units/BEL/Char/FV107_Scimitar/FV107_Scimitar.Ase2NdfBin'
-
-Modele_FV107_Scimitar_BEL is TResourceMultiMaterialMeshWithLod
+export Modele_FV107_Scimitar_BEL is TemplateMeshDescriptor
 (
-    FileName = ModelFile_FV107_Scimitar_BEL
-    CivMask =  CivMask/Common
+    FileName = 'GameData:/Assets/3D/Units/BEL/Char/FV107_Scimitar/FV107_Scimitar.Ase2NdfBin'
 )
 
-Modele_FV107_Scimitar_BEL_MID is TResourceMultiMaterialMeshWithLod
+export Modele_FV107_Scimitar_BEL_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/BEL/Char/FV107_Scimitar_MID/FV107_Scimitar_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_FV107_Scimitar_BEL_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_FV107_Scimitar_BEL_LOW is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/BEL/Char/LODS/FV107_Scimitar_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

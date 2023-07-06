@@ -3215,7 +3215,7 @@ Texture_Button_Unit_T80BV_Beast_SOV is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
     CivMask  = CivMask/Common
-    FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/T80BV_SOV.png'
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/T80BV_Beast_SOV.png'
 )
 Texture_Button_Unit_T80BV_CMD_SOV is TUIResourceTextureWithUsefulnessMask
 (

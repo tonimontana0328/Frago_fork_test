@@ -20,209 +20,222 @@ private template BUCKSpecificUnitButtonMainComponentDescriptor
     ShowAddUnitButton : bool = false,
     ShowRemoveUnitButton : bool = false,
 ]
-is BUCKListDescriptor
+is BUCKDraggableContainerDescriptor
 (
-    ElementName = "BUCKSpecificUnitButtonMainComponent"
-
     ComponentFrame = TUIFramePropertyRTTI
     (
         AlignementToFather = <ComponentFrameAlignment>
         AlignementToAnchor = <ComponentFrameAlignment>
     )
 
-    Axis = ~/ListAxis/Vertical
-    BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+    ElementName = "BUCKSpecificUnitDraggable"
+    FitStyle = ~/ContainerFitStyle/FitToContent
 
-    MagnifierMultiplication = <MagnifierMultiplication>
+    HidePointerEvents = true
+    GridAlign = true
+    PointerDistanceBeforeDrag = 40.0
 
-    Elements =
+    Components =
     [
-        BUCKListElementDescriptor
+        BUCKListDescriptor
         (
-            ComponentDescriptor = BUCKListDescriptor
-            (
-                Axis = ~/ListAxis/Horizontal
-                ChildFitToContent = true
-                BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
-                Elements =
-                [
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = MainUnitButton
-                        (
-                            IsTogglable = <IsTogglable>
-                            IsFocusable = <IsFocusable>
-                            CannotDeselect = <CannotDeselect>
-                            ForceEvents = <ForceEvents>
-                            RadioButtonManager = <RadioButtonManager>
+            ElementName = "BUCKSpecificUnitButtonMainComponent"
 
-                            OffsetForSpecialtyIcon = <OffsetForSpecialtyIcon>
-                            ShowXPButtons = <ShowXPButtons>
-                            ShowAddUnitButton = <ShowAddUnitButton>
-                            ShowRemoveUnitButton = <ShowRemoveUnitButton>
-                        )
-                    ),
+            Axis = ~/ListAxis/Vertical
+            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = BUCKRackDescriptor
-                        (
-                            ElementName = "UnitSkinButtonRack"
+            MagnifierMultiplication = <MagnifierMultiplication>
 
-                            Axis = ~/ListAxis/Horizontal
-                            ComponentFrame = TUIFramePropertyRTTI
-                            (
-                                RelativeWidthHeight = [0.0, 1.0]
-                            )
-
-                            BladeDescriptor = ~/UnitSkinButton
-                        )
-                    )
-                ]
-            )
-        ),
-
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKListDescriptor
-            (
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    RelativeWidthHeight = [1.0, 0.0]
-                )
-
-                Axis = ~/ListAxis/Vertical
-                BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
-                InterItemMargin = TRTTILength( Magnifiable = UnitButtonUnitButtonAndAloneUnitButtonContainerInterItemMargin )
-
-                Elements =
-                [
-                    // Alone Unit Button
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = UnitButtonUnitAloneButton
-                        (
-                            IsTogglable = <IsTogglable>
-                            CannotDeselect = <CannotDeselect>
-                            ForceEvents = <ForceEvents>
-                            RadioButtonManager = <RadioButtonManager>
-                        )
-                    ),
-                ]
-            )
-        ),
-    ]
-
-    ForegroundComponents =
-    [
-        // Sensible area used to manage the additional unit's container's display
-        ~/UnitButtonUnitContainerGlobalSensibleArea,
-
-        BUCKContainerDescriptor
-        (
-            ElementName = "DLCForeground"
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 1.0]
-            )
-
-            HasBackground = true
-            BackgroundBlockColorToken = "Black40"
-
-            Components =
+            Elements =
             [
-                BUCKListDescriptor
+                BUCKListElementDescriptor
                 (
+                    ComponentDescriptor = BUCKListDescriptor
+                    (
+                        Axis = ~/ListAxis/Horizontal
+                        ChildFitToContent = true
+                        BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+                        Elements =
+                        [
+                            BUCKListElementDescriptor
+                            (
+                                ComponentDescriptor = MainUnitButton
+                                (
+                                    IsTogglable = <IsTogglable>
+                                    IsFocusable = <IsFocusable>
+                                    CannotDeselect = <CannotDeselect>
+                                    ForceEvents = <ForceEvents>
+                                    RadioButtonManager = <RadioButtonManager>
+
+                                    OffsetForSpecialtyIcon = <OffsetForSpecialtyIcon>
+                                    ShowXPButtons = <ShowXPButtons>
+                                    ShowAddUnitButton = <ShowAddUnitButton>
+                                    ShowRemoveUnitButton = <ShowRemoveUnitButton>
+                                )
+                            ),
+
+                            BUCKListElementDescriptor
+                            (
+                                ComponentDescriptor = BUCKRackDescriptor
+                                (
+                                    ElementName = "UnitSkinButtonRack"
+
+                                    Axis = ~/ListAxis/Horizontal
+                                    ComponentFrame = TUIFramePropertyRTTI
+                                    (
+                                        RelativeWidthHeight = [0.0, 1.0]
+                                    )
+
+                                    BladeDescriptor = ~/UnitSkinButton
+                                )
+                            )
+                        ]
+                    )
+                ),
+
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = BUCKListDescriptor
+                    (
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            RelativeWidthHeight = [1.0, 0.0]
+                        )
+
+                        Axis = ~/ListAxis/Vertical
+                        BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
+                        InterItemMargin = TRTTILength( Magnifiable = UnitButtonUnitButtonAndAloneUnitButtonContainerInterItemMargin )
+
+                        Elements =
+                        [
+                            // Alone Unit Button
+                            BUCKListElementDescriptor
+                            (
+                                ComponentDescriptor = UnitButtonUnitAloneButton
+                                (
+                                    IsTogglable = <IsTogglable>
+                                    CannotDeselect = <CannotDeselect>
+                                    ForceEvents = <ForceEvents>
+                                    RadioButtonManager = <RadioButtonManager>
+                                )
+                            ),
+                        ]
+                    )
+                ),
+            ]
+
+            ForegroundComponents =
+            [
+                // Sensible area used to manage the additional unit's container's display
+                ~/UnitButtonUnitContainerGlobalSensibleArea,
+
+                BUCKContainerDescriptor
+                (
+                    ElementName = "DLCForeground"
                     ComponentFrame = TUIFramePropertyRTTI
                     (
-                        RelativeWidthHeight = [1.0, 0.0]
-                        AlignementToFather = [0.0, 0.5]
-                        AlignementToAnchor = [0.0, 0.5]
+                        RelativeWidthHeight = [1.0, 1.0]
                     )
 
-                    Axis = ~/ListAxis/Vertical
+                    HasBackground = true
+                    BackgroundBlockColorToken = "Black40"
 
-                    Elements =
+                    Components =
                     [
-                        BUCKListElementDescriptor
+                        BUCKListDescriptor
                         (
-                            ComponentDescriptor = BUCKTextureDescriptor
+                            ComponentFrame = TUIFramePropertyRTTI
                             (
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    MagnifiableWidthHeight = [40.0, 40.0]
-                                    AlignementToFather = [0.5, 0.0]
-                                    AlignementToAnchor = [0.5, 0.0]
-                                )
-
-                                TextureFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
-                                TextureToken = "UseOutGame_Cadenas"
+                                RelativeWidthHeight = [1.0, 0.0]
+                                AlignementToFather = [0.0, 0.5]
+                                AlignementToAnchor = [0.0, 0.5]
                             )
-                        ),
 
-                        BUCKListElementDescriptor
-                        (
-                            ComponentDescriptor = BUCKTextDescriptor
-                            (
-                                ComponentFrame = TUIFramePropertyRTTI()
+                            Axis = ~/ListAxis/Vertical
 
-                                ParagraphStyle = TParagraphStyleRTTI
+                            Elements =
+                            [
+                                BUCKListElementDescriptor
                                 (
-                                    Alignment = UIText_Center
-                                    VerticalAlignment = UIText_VerticalCenter
-                                    InterLine = 0
-                                )
+                                    ComponentDescriptor = BUCKTextureDescriptor
+                                    (
+                                        ComponentFrame = TUIFramePropertyRTTI
+                                        (
+                                            MagnifiableWidthHeight = [40.0, 40.0]
+                                            AlignementToFather = [0.5, 0.0]
+                                            AlignementToAnchor = [0.5, 0.0]
+                                        )
 
-                                TextStyle = "Default"
+                                        TextureFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
+                                        TextureToken = "UseOutGame_Cadenas"
+                                    )
+                                ),
 
-                                HorizontalFitStyle = ~/FitStyle/FitToParent
-                                VerticalFitStyle = ~/FitStyle/FitToContent
-
-                                TypefaceToken = "UIMainFont"
-                                BigLineAction = ~/BigLineAction/CutByDots
-
-                                TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                                TextToken = "DLC"
-                                TextColor = "SD2_Blanc184"
-                                TextSize = "SD2_Petit"
-                            )
-                        ),
-
-                        BUCKListElementDescriptor
-                        (
-                            ComponentDescriptor = BUCKTextDescriptor
-                            (
-                                ElementName = 'MissingDLC'
-                                ComponentFrame = TUIFramePropertyRTTI()
-
-                                ParagraphStyle = TParagraphStyleRTTI
+                                BUCKListElementDescriptor
                                 (
-                                    Alignment = UIText_Center
-                                    VerticalAlignment = UIText_VerticalCenter
-                                    InterLine = 0
-                                )
+                                    ComponentDescriptor = BUCKTextDescriptor
+                                    (
+                                        ComponentFrame = TUIFramePropertyRTTI()
 
-                                TextStyle = "Default"
+                                        ParagraphStyle = TParagraphStyleRTTI
+                                        (
+                                            Alignment = UIText_Center
+                                            VerticalAlignment = UIText_VerticalCenter
+                                            InterLine = 0
+                                        )
 
-                                HorizontalFitStyle = ~/FitStyle/FitToParent
-                                VerticalFitStyle = ~/FitStyle/FitToContent
+                                        TextStyle = "Default"
 
-                                TypefaceToken = "UIMainFont"
-                                BigLineAction = ~/BigLineAction/CutByDots
+                                        HorizontalFitStyle = ~/FitStyle/FitToParent
+                                        VerticalFitStyle = ~/FitStyle/FitToContent
 
-                                TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                                        TypefaceToken = "UIMainFont"
+                                        BigLineAction = ~/BigLineAction/CutByDots
 
-                                TextColor = "SD2_Blanc184"
-                                TextSize = "SD2_Petit"
-                            )
-                        ),
+                                        TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                                        TextToken = "DLC"
+                                        TextColor = "SD2_Blanc184"
+                                        TextSize = "SD2_Petit"
+                                    )
+                                ),
+
+                                BUCKListElementDescriptor
+                                (
+                                    ComponentDescriptor = BUCKTextDescriptor
+                                    (
+                                        ElementName = 'MissingDLC'
+                                        ComponentFrame = TUIFramePropertyRTTI()
+
+                                        ParagraphStyle = TParagraphStyleRTTI
+                                        (
+                                            Alignment = UIText_Center
+                                            VerticalAlignment = UIText_VerticalCenter
+                                            InterLine = 0
+                                        )
+
+                                        TextStyle = "Default"
+
+                                        HorizontalFitStyle = ~/FitStyle/FitToParent
+                                        VerticalFitStyle = ~/FitStyle/FitToContent
+
+                                        TypefaceToken = "UIMainFont"
+                                        BigLineAction = ~/BigLineAction/CutByDots
+
+                                        TextDico = ~/LocalisationConstantes/dico_interface_outgame
+
+                                        TextColor = "SD2_Blanc184"
+                                        TextSize = "SD2_Petit"
+                                    )
+                                ),
+                            ]
+                        )
                     ]
-                )
+                ),
             ]
-        ),
-    ]
 
-     BackgroundComponents = <BackgroundComponents>
+            BackgroundComponents = <BackgroundComponents>
+        )
+    ]
 )
 
 // -------------------------------------------------------------------------------------------------
@@ -274,7 +287,8 @@ is BUCKButtonDescriptor
     CannotDeselect = <CannotDeselect>
     ForceEvents = <ForceEvents>
     RadioButtonManager = <RadioButtonManager>
-    HidePointerEvents = true
+    HidePointerEvents = false
+    MaskEvents = false
     IsFocusable = <IsFocusable>
 
     HasBackground = false
@@ -405,8 +419,7 @@ template UnitCornerButton
     BigLineAction = ~/BigLineAction/ResizeFont
 
     MaskEvents = false
-    HidePointerEvents = true
-    PointerEventsToAllow = ~/EAllowablePointerEventType/Move
+    HidePointerEvents = false
 )
 
 ////-------------------------------------------------------------------------------------

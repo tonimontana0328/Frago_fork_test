@@ -26,7 +26,6 @@ export Descriptor_UnitCadavre_Quartier_Gros is TEntityDescriptor(
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -93,7 +92,6 @@ export Descriptor_UnitCadavre_Quartier_HLM is TEntityDescriptor(
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -160,7 +158,6 @@ export Descriptor_UnitCadavre_Quartier_Moyen is TEntityDescriptor(
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -202,9 +199,9 @@ export Descriptor_UnitCadavre_Quartier_Moyen is TEntityDescriptor(
             $/GFX/Everything/Descriptor_District_Quartier_Moyen/ApparenceModel,
     ]
 )
-export Descriptor_UnitCadavre_Quartier_Petit is TEntityDescriptor(
-    DescriptorId       = GUID:{13ae5be5-0bac-4531-87f3-3edc1fd98974}
-    ClassNameForDebug  = 'CadavreQuartier_Petit'
+export Descriptor_UnitCadavre_Quartier_Moyen_resistant_mieux is TEntityDescriptor(
+    DescriptorId       = GUID:{52588dea-92d2-4879-9832-73a058dafb34}
+    ClassNameForDebug  = 'CadavreQuartier_Moyen_resistant_mieux'
     ModulesDescriptors =
     [
         TTypeUnitModuleDescriptor
@@ -227,7 +224,6 @@ export Descriptor_UnitCadavre_Quartier_Petit is TEntityDescriptor(
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -263,9 +259,9 @@ export Descriptor_UnitCadavre_Quartier_Petit is TEntityDescriptor(
                 DeathExplosionAmmo = nil
                 ModuleDescriptorsToSteal =
                 [
-                   $/GFX/Everything/Descriptor_District_Quartier_Petit/ApparenceModel,
+                   $/GFX/Everything/Descriptor_District_Quartier_Moyen_resistant_mieux/ApparenceModel,
                 ]
             ),
-            $/GFX/Everything/Descriptor_District_Quartier_Petit/ApparenceModel,
+            $/GFX/Everything/Descriptor_District_Quartier_Moyen_resistant_mieux/ApparenceModel,
     ]
 )

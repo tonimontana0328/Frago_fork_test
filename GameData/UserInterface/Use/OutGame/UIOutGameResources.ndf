@@ -34,7 +34,7 @@ export OutGameResourceSpecific is TUISpecificOutGameResources
     UserInputBinder             = $/GameOptionsInterface/UserInputBinder
     UIOffscreenSceneFactory     = $/M3D/Scene/SceneFactory_UIOffscreen
     LevelUpAnimResource         = ~/LevelUpAnimResourceWg2
-    WaitAnimResource            = ~/waitAnimResource
+    WaitAnimResource            = ~/WaitAnimResource
     LoadingResource             = ~/SpecificOutGameLoadingPanelResource
     LoginResource               = ~/LoginResource
     EscapePanelResources        = ~/EscapePanelResource

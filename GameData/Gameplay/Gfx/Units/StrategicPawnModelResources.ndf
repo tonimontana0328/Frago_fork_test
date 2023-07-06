@@ -1,61 +1,58 @@
 //------------------------------------------------------------------------------
 //******************************************************************************
 //------------------------------------------------------------------------------
-private StrategicInfantryAnimationFileName is 'Fusilier_Steelman.Ase2NdfBin'
-private StrategicInfantryRunAnimationFileName is 'Fusilier_Run.Ase2NdfBin'
 
-//------------------------------------------------------------------------------
-//******************************************************************************
-//------------------------------------------------------------------------------
+export Rien is TemplateMeshDescriptor
+(
+    FileName = 'CommonData:/Assets/3D/Misc/Rien.Ase2NdfBin'
+)
 //------------------------------------------------------------------------------
 //--------------------Socle différent pour chaque camp--------------------------
 //------------------------------------------------------------------------------
-private MeshModele_Socle_USA is TResourceMultiMaterialMeshWithLod
+export MeshModele_Socle_US is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/Common/Strategic/Socle_USA.fbx'
-    CivMask =  CivMask/Common
 )
-private MeshModele_Socle_RFA is TResourceMultiMaterialMeshWithLod
+export MeshModele_Socle_RFA is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/Common/Strategic/Socle_RFA.fbx'
-    CivMask =  CivMask/Common
 )
 
-private MeshModele_Socle_SOV is TResourceMultiMaterialMeshWithLod
+export MeshModele_Socle_SOV is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/Common/Strategic/Socle_SOV.fbx'
-    CivMask =  CivMask/Common
 )
-private MeshModele_Socle_DDR is TResourceMultiMaterialMeshWithLod
+export MeshModele_Socle_DDR is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/Common/Strategic/Socle_DDR.fbx'
-    CivMask =  CivMask/Common
 )
 
-//----- CLD : Nécessaire pour Python PawnDepiction Gen
-private MeshModele_Socle_US is MeshModele_Socle_USA
-private MeshModele_Socle_UK is MeshModele_Socle_USA
-private MeshModele_Socle_BEL is MeshModele_Socle_USA
+// Placeholders
+export MeshModele_Socle_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/Common/Strategic/Socle_USA.fbx'
+)
+export MeshModele_Socle_BEL is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/Common/Strategic/Socle_USA.fbx'
+)
 
 //------------------------------------------------------------------------------
 //--------------------3 tailles différentes pour la tige------------------------
 //------------------------------------------------------------------------------
-private MeshModele_Tige_longue is TResourceMultiMaterialMeshWithLod
+export MeshModele_Tige_longue is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/Common/Strategic/Tige_longue.fbx'
-    CivMask =  CivMask/Common
 )
 
-private MeshModele_Tige_courte is TResourceMultiMaterialMeshWithLod
+export MeshModele_Tige_courte is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/Common/Strategic/Tige_courte.fbx'
-    CivMask =  CivMask/Common
 )
 
-private MeshModele_Tige_moyenne is TResourceMultiMaterialMeshWithLod
+export MeshModele_Tige_moyenne is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/Common/Strategic/Tige_moyenne.fbx'
-    CivMask =  CivMask/Common
 )
 //------------------------------------------------------------------------------
 //******************************************************************************

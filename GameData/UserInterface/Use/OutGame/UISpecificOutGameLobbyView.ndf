@@ -675,7 +675,7 @@ BUCKSpecificOutGameLobbyMainComponentDescriptor is  BUCKContainerDescriptor
             FramePropertyBeforeAnimation = TUIFramePropertyRTTI
             (
                 RelativeWidthHeight = [1.0, 1.0]
-                AlignementToAnchor = [0.5, 0.3]
+                AlignementToAnchor = [0.5, 0.50]
                 AlignementToFather = [0.5, 1.0]
             )
 
@@ -876,6 +876,7 @@ ShowHideButton is BUCKButtonDescriptor
 
 //-------------------------------------------------------------------------------------
 
+// Modal needs to be updated to WARNO style when it will be possible to show it
 ModaleConfirmUseDlcContentWindowFrame is SpecificModaleWindowFrame
 (
     ContentMagnifiableWidthHeight = [550.0, 150.0]

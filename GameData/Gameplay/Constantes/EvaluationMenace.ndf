@@ -1,7 +1,7 @@
 export EvaluationMenaceConstantes is TEvaluationMenaceConstantesDescriptor
 (
     // Valeurs en metres
-    CercleMenace       = 1000 * Metre
+    CercleMenace       = 10000 * Metre
 
     EscapeRadius = 6500 * Metre
 

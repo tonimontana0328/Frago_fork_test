@@ -1,19 +1,14 @@
-export ModelFile_FV107_Scimitar_UK is 'GameData:/Assets/3D/Units/UK/Char/FV107_Scimitar/FV107_Scimitar.Ase2NdfBin'
-
-Modele_FV107_Scimitar_UK is TResourceMultiMaterialMeshWithLod
+export Modele_FV107_Scimitar_UK is TemplateMeshDescriptor
 (
-    FileName = ModelFile_FV107_Scimitar_UK
-    CivMask =  CivMask/Common
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/FV107_Scimitar/FV107_Scimitar.Ase2NdfBin'
 )
 
-Modele_FV107_Scimitar_UK_MID is TResourceMultiMaterialMeshWithLod
+export Modele_FV107_Scimitar_UK_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/UK/Char/FV107_Scimitar_MID/FV107_Scimitar_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_FV107_Scimitar_UK_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_FV107_Scimitar_UK_LOW is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/UK/Char/LODS/FV107_Scimitar_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

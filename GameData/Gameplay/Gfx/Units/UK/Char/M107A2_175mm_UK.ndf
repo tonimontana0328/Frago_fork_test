@@ -1,20 +1,15 @@
-export ModelFile_M107A2_175mm_UK is 'GameData:/Assets/3D/Units/UK/Artillerie/M107_A2_175mm/M107_A2_175mm.Ase2NdfBin'
-
-Modele_M107A2_175mm_UK is TResourceMultiMaterialMeshWithLod
+export Modele_M107A2_175mm_UK is TemplateMeshDescriptor
 (
-    FileName = ModelFile_M107A2_175mm_UK
-    CivMask =  CivMask/Common
+    FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/M107_A2_175mm/M107_A2_175mm.Ase2NdfBin'
 )
 
-Modele_M107A2_175mm_UK_MID is TResourceMultiMaterialMeshWithLod
+export Modele_M107A2_175mm_UK_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/M107_A2_175mm_MID/M107_A2_175mm_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_M107A2_175mm_UK_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_M107A2_175mm_UK_LOW is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/LODS/M107_A2_175mm_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 

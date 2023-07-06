@@ -24,21 +24,18 @@ private DisabledOperatorLow is DisabledOperatorMid + [
 // ****************************************************************************************************************************************
 template DepictionDescriptor_LOD_High
 [
-    MeshDescriptor,
-    MaterialTags = nil,
+    MeshDescriptor : TResourceMultiMaterialMesh,
     SelectorId = 'high'
 ]
 is TDepictionDescriptor
 (
     SelectorId = [<SelectorId>]
     MeshDescriptor = <MeshDescriptor>
-    AdditionalMaterialTags = <MaterialTags>
 )
 // ****************************************************************************************************************************************
 template DepictionDescriptor_LOD_Mid
 [
-    MeshDescriptor,
-    MaterialTags = nil,
+    MeshDescriptor : TResourceMultiMaterialMesh,
     SelectorId = 'mid'
 ]
 is TDepictionDescriptor
@@ -46,13 +43,11 @@ is TDepictionDescriptor
     SelectorId = [<SelectorId>]
     MeshDescriptor = <MeshDescriptor>
     DisabledOperators = DisabledOperatorMid
-    AdditionalMaterialTags = <MaterialTags>
 )
 // ****************************************************************************************************************************************
 template DepictionDescriptor_LOD_Low
 [
-    MeshDescriptor,
-    MaterialTags = nil,
+    MeshDescriptor : TResourceMultiMaterialMesh,
     SelectorId = 'low',
     DisabledOperators = []
 ]
@@ -61,99 +56,18 @@ is TDepictionDescriptor
     SelectorId = [<SelectorId>]
     MeshDescriptor = <MeshDescriptor>
     DisabledOperators = DisabledOperatorLow + <DisabledOperators>
-    AdditionalMaterialTags = <MaterialTags>
 )
 // ****************************************************************************************************************************************
 // *** Avions *****************************************************************************************************************************
 // ****************************************************************************************************************************************
-AirplaneAdditionalMaterialTags is TAdditionalMaterialTags(Tags=['Airplane'])
-// ****************************************************************************************************************************************
-template DepictionDescriptor_LOD_AirplaneHigh
-[
-    MeshDescriptor,
-]
-is TDepictionDescriptor
-(
-    SelectorId = ['high']
-    MeshDescriptor = <MeshDescriptor>
-    AdditionalMaterialTags = ~/AirplaneAdditionalMaterialTags
-)
-// ****************************************************************************************************************************************
-template DepictionDescriptor_LOD_AirplaneMid
-[
-    MeshDescriptor,
-]
-is TDepictionDescriptor
-(
-    SelectorId = ['mid']
-    MeshDescriptor = <MeshDescriptor>
-    AdditionalMaterialTags = ~/AirplaneAdditionalMaterialTags
-)
-// ****************************************************************************************************************************************
-template DepictionDescriptor_LOD_AirplaneLow
-[
-    MeshDescriptor,
-]
-is TDepictionDescriptor
-(
-    SelectorId = ['low']
-    MeshDescriptor = <MeshDescriptor>
-    AdditionalMaterialTags = ~/AirplaneAdditionalMaterialTags
-)
-
+AirplaneAdditionalMaterialTag is 'Airplane'
 // ****************************************************************************************************************************************
 // *** Hélicos ****************************************************************************************************************************
 // ****************************************************************************************************************************************
-HelicoAdditionalMaterialTags is TAdditionalMaterialTags(Tags=['Helico'])
-// ****************************************************************************************************************************************
-template DepictionDescriptor_LOD_HelicoHigh
-[
-    MeshDescriptor,
-]
-is TDepictionDescriptor
-(
-    SelectorId = ['high']
-    MeshDescriptor = <MeshDescriptor>
-    AdditionalMaterialTags = ~/HelicoAdditionalMaterialTags
-)
-// ****************************************************************************************************************************************
-template DepictionDescriptor_LOD_HelicoMid
-[
-    MeshDescriptor,
-]
-is TDepictionDescriptor
-(
-    SelectorId = ['mid']
-    MeshDescriptor = <MeshDescriptor>
-    AdditionalMaterialTags = ~/HelicoAdditionalMaterialTags
-)
-// ****************************************************************************************************************************************
-template DepictionDescriptor_LOD_HelicoLow
-[
-    MeshDescriptor,
-]
-is TDepictionDescriptor
-(
-    SelectorId = ['low']
-    MeshDescriptor = <MeshDescriptor>
-    DisabledOperators = ['tourelle1'] // On désactive l'éventuelle gatling des hélicoptères
-    AdditionalMaterialTags = ~/HelicoAdditionalMaterialTags
-)
-
+HelicoAdditionalMaterialTag is 'Helico'
 // ****************************************************************************************************************************************
 // *** infantrie **************************************************************************************************************************
 // ****************************************************************************************************************************************
-template AlternativeWithId
-[
-    SelectorId,
-    ModelFile,
-]
-is TDepictionDescriptor
-(
-    SelectorId = <SelectorId>
-    MeshDescriptor = TemplateMeshDescriptor( ModelFile = <ModelFile> )
-)
-
 AlternativeNone is TDepictionDescriptor
 (
     SelectorId = ['none']
@@ -162,7 +76,7 @@ AlternativeNone is TDepictionDescriptor
 
 template DepictionDescriptor_LOD_InfantryHigh
 [
-    MeshDescriptor
+    MeshDescriptor : TResourceMultiMaterialMesh
 ]
 is TDepictionDescriptor
 (
@@ -172,7 +86,7 @@ is TDepictionDescriptor
 
 template DepictionDescriptor_LOD_InfantryLow
 [
-    MeshDescriptor
+    MeshDescriptor : TResourceMultiMaterialMesh
 ]
 is TDepictionDescriptor
 (
@@ -217,7 +131,7 @@ template TemplateAllSubBackpackWeaponDepiction
 
 template TemplateWeaponAccessorySubDepiction
 [
-    ModelFile,
+    MeshDescriptor,
     EnabledValue,
 ] is TSubDepiction
 (
@@ -233,7 +147,7 @@ template TemplateWeaponAccessorySubDepiction
             EnabledValue = <EnabledValue>
         )
         DepictionAlternatives = [
-          AlternativeWithId( SelectorId = ['high'] ModelFile = <ModelFile> ),
+          TDepictionDescriptor( SelectorId = ['high'] MeshDescriptor = <MeshDescriptor> ),
         ]
     )
 )
@@ -309,7 +223,7 @@ template TemplateInfantryDepictionSquad
   (
     Selector = OnlyHighDepictionSelector
     DepictionAlternatives = [
-      DepictionDescriptor_LOD_High(MeshDescriptor = ~/Modele_Rien),
+      DepictionDescriptor_LOD_High(MeshDescriptor = $/GFX/DepictionResources/Rien),
     ]
     Operators = [ <SoundOperator> ]
   )
@@ -321,15 +235,9 @@ InfantryDepictionSquadShowroom is TTimelyDepictionReceiverFactory
   (
     Selector = OnlyHighDepictionSelector
     DepictionAlternatives = [
-      DepictionDescriptor_LOD_High(MeshDescriptor = ~/Modele_Rien),
+      DepictionDescriptor_LOD_High(MeshDescriptor = $/GFX/DepictionResources/Rien),
     ]
   )
-)
-// mesh d'infanterie compatible avec le nouveau squelette.
-private FuldaSoldier is TResourceMultiMaterialMesh
-(
-    FileName = 'GameData:/Assets/3D/Units/US/Infanterie/Test_Soldier/Fulda_Soldier.Ase2NdfBin'
-    UsefulnessMask = CivMask/Common + TypeMask/Common
 )
 
 template TransportedInfantryDepiction
@@ -345,10 +253,10 @@ template TransportedInfantryDepiction
         OptionalLimit = $/GraphicOption/ModelQuality
     )
 
-    Operators = [ TCosmeticFreezeSkeletalAnimationOperatorDesc(Animation = FusilierTransport), DepictionOperator_Shader_GhostTactic ]
+    Operators = [ TCosmeticFreezeSkeletalAnimationOperatorDesc(Animation = $/GFX/DepictionResources/FusilierTransport), DepictionOperator_Shader_GhostTactic ]
 
     DepictionAlternatives = <Alternatives>
-        + [ DepictionDescriptor_LOD_High( MeshDescriptor = FuldaSoldier ) ] //pour avoir un 'high' pour le skeleton
+        + [ DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/FuldaSoldier ) ] //pour avoir un 'high' pour le skeleton
 )
 
 template GhostUnitDepictionTemplate
@@ -413,12 +321,14 @@ template TacticAerialDepictionTemplate
     Operators,
     Actions,
     SubDepictions = [],
-    SubDepictionGenerators = []
+    SubDepictionGenerators = [],
+    ResidentMaterialTags = []
 ]
 is TTimelyDepictionReceiverFactory
 (
     DepictionTemplate = TDepictionTemplate
     (
+        ResidentMaterialTags = <ResidentMaterialTags>
         CoatingName = <CoatingName>
         Scaler = SpecificFlyingScaler
         Selector = <Selector>

@@ -635,16 +635,20 @@ template DisplayAttackAndDefenseValueForPawn
                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
                 TextColor = <TextColor>
                 TextSize = "16"
-
-                Hint = BUCKSpecificHintableArea
-                (
-                    HintTitleToken = <HintTitleToken>
-                    HintBodyToken = <HintBodyToken>
-                    HintExtendedToken = <HintExtendedToken>
-                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
-                )
             )
         ),
+    ]
+
+    // Hint
+    ForegroundComponents =
+    [
+        BUCKSpecificHintableArea
+        (
+            HintTitleToken = <HintTitleToken>
+            HintBodyToken = <HintBodyToken>
+            HintExtendedToken = <HintExtendedToken>
+            DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+        )
     ]
 )
 

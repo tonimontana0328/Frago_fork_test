@@ -1,31 +1,26 @@
-export ModelFile_DCA_FK20_2_20mm_Zwillinge_RFA is 'GameData:/Assets/3D/Units/RFA/Canon/DCA_FK20_2_20mm_Zwillinge/DCA_FK20_2_20mm_Zwillinge.Ase2NdfBin'
-
-Modele_DCA_FK20_2_20mm_Zwillinge_RFA is TResourceMultiMaterialMeshWithLod
+export Modele_DCA_FK20_2_20mm_Zwillinge_RFA is TemplateMeshDescriptor
 (
-    FileName     = ModelFile_DCA_FK20_2_20mm_Zwillinge_RFA
-    CivMask =  CivMask/Common
+    FileName     = 'GameData:/Assets/3D/Units/RFA/Canon/DCA_FK20_2_20mm_Zwillinge/DCA_FK20_2_20mm_Zwillinge.Ase2NdfBin'
 )
 
-Modele_DCA_FK20_2_20mm_Zwillinge_RFA_MID is TResourceMultiMaterialMeshWithLod
+export Modele_DCA_FK20_2_20mm_Zwillinge_RFA_MID is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/RFA/Canon/DCA_FK20_2_20mm_Zwillinge_MID/DCA_FK20_2_20mm_Zwillinge_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_DCA_FK20_2_20mm_Zwillinge_RFA_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_DCA_FK20_2_20mm_Zwillinge_RFA_LOW is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/RFA/Canon/LODS/DCA_FK20_2_20mm_Zwillinge_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-DeployAnimation_DCA_FK20_2_20mm_Zwillinge_RFA is TResourceMatrixArrayAnimation
+export DeployAnimation_DCA_FK20_2_20mm_Zwillinge_RFA is TResourceMatrixArrayAnimation
 (
     FileName   = 'GameData:/Assets/3D/Units/RFA/Canon/DCA_FK20_2_20mm_Zwillinge/DCA_FK20_2_20mm_Zwillinge_Deploy.Ase2NdfBin'
     UsefulnessMask = CivMask/Common + TypeMask/Common
     PlayInLoop     = false
 )
 
-DepictionOperator_Deployable_DCA_FK20_2_20mm_Zwillinge_RFA is DepictionOperator_AnimationDeployable
+export DepictionOperator_Deployable_DCA_FK20_2_20mm_Zwillinge_RFA is DepictionOperator_AnimationDeployable
 (
     DeployAnimation = TResourceMatrixArrayAnimation
     (

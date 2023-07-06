@@ -19,7 +19,7 @@ private MaxUnitByLineInUnitDivisionGridDeckCreator is 4
 
 template FactoryNameDescriptor
 [
-    ElementName : string = 'FactoryName'
+    ElementName : string = "FactoryName"
 ]
 is PanelRoundedCorner
 (
@@ -128,7 +128,7 @@ NombreUniteDansLigne is PanelRoundedCorner
                         TypefaceToken = "UIMainFont"
                         BigLineAction = ~/BigLineAction/CutByDots
 
-                        TextToken = 'DCKO_UNIT'
+                        TextToken = "DCKO_UNIT"
                         TextDico = ~/LocalisationConstantes/dico_interface_outgame
 
                         TextColor = "SD2_Blanc184"
@@ -139,7 +139,7 @@ NombreUniteDansLigne is PanelRoundedCorner
                 (
                     ComponentDescriptor = BUCKTextDescriptor
                     (
-                        ElementName = 'UnitNumber'
+                        ElementName = "UnitNumber"
                         ComponentFrame = TUIFramePropertyRTTI
                         (
                             RelativeWidthHeight = [0.0, 1.0]
@@ -161,7 +161,7 @@ NombreUniteDansLigne is PanelRoundedCorner
                         TypefaceToken = "UISecondFont"
                         BigLineAction = ~/BigLineAction/CutByDots
 
-                        TextToken = ''
+                        TextToken = ""
                         TextDico = ~/LocalisationConstantes/dico_interface_outgame
 
                         TextColor = "Cyan"
@@ -199,8 +199,8 @@ is BUCKContainerDescriptor
         (
             ElementName = "DummyButtonTexture"
             ComponentFrame = TUIFramePropertyRTTI ( RelativeWidthHeight = [1.0, 1.0] )
-            TextureToken = 'ShowRoomTexture_DeckCreation_fondUniteLibre'
-            TextureColorToken = 'DeckCreator/SlotLibre'
+            TextureToken = "ShowRoomTexture_DeckCreation_fondUniteLibre"
+            TextureColorToken = "DeckCreator/SlotLibre"
         ),
 
         BUCKTextDescriptor
@@ -320,7 +320,7 @@ TransportsListTitle is BUCKTextDescriptor
     VerticalFitStyle = ~/ContainerFitStyle/FitToContent
     TextPadding = TRTTILength4( Magnifiable = [10.0, 0.0, 10.0, 0.0])
 
-    TextToken = 'DES_UE_TR'
+    TextToken = "DES_UE_TR"
     TextDico = ~/LocalisationConstantes/dico_interface_ingame
 
     TextColor = "Gris_unitConfig_Experience"
@@ -344,17 +344,17 @@ TransportsListContent is BUCKListDescriptor
     LastMargin = TRTTILength( Magnifiable = 20.0 )
     InterItemMargin = TRTTILength( Magnifiable = 15.0 )
 
-    // Filled with 'UnitTransportComponentDescriptor'
+    // Filled with "UnitTransportComponentDescriptor"
 )
 
 //-------------------------------------------------------------------------------------
 
 template BoutonXp
 [
-    ElementName : string = '',
-    TextureToken : string = '',
-    HintTitle : string = '',
-    HintBody : string = '',
+    ElementName : string = "",
+    TextureToken : string = "",
+    HintTitle : string = "",
+    HintBody : string = "",
 ]
 is BUCKListElementDescriptor
 (
@@ -393,7 +393,7 @@ is BUCKListElementDescriptor
                     AlignementToAnchor = [0.5, 0.5]
                 )
                 TextureToken = <TextureToken>
-                TextureColorToken = 'BoutonXP_deck'
+                TextureColorToken = "BoutonXP_deck"
             ),
             BUCKSpecificHintableArea
             (
@@ -412,7 +412,7 @@ is BUCKListElementDescriptor
 // liste des unités à choisir
 DivisionGrid is BUCKSpecificScrollingContainerDescriptor
 (
-    ElementName = 'UnitDivisionScrollingContainer'
+    ElementName = "UnitDivisionScrollingContainer"
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [0.0, 1.0]
@@ -433,7 +433,7 @@ DivisionGrid is BUCKSpecificScrollingContainerDescriptor
     [
         BUCKRackDescriptor
         (
-            ElementName = 'UnitDivisionGrid'
+            ElementName = "UnitDivisionGrid"
             ComponentFrame = TUIFramePropertyRTTI()
 
             BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
@@ -447,7 +447,7 @@ DivisionGrid is BUCKSpecificScrollingContainerDescriptor
 
             BladeDescriptor = BUCKGridDescriptor
             (
-                ElementName = 'PackList'
+                ElementName = "PackList"
 
                 ComponentFrame = TUIFramePropertyRTTI()
 
@@ -465,7 +465,7 @@ DivisionGrid is BUCKSpecificScrollingContainerDescriptor
                 BUCKContainerDescriptor
                 (
                     UniqueName = "DeckBuildingUnitDivisionGrid"
-                    ElementName = 'UnitDivisionGridSpotlight'
+                    ElementName = "UnitDivisionGridSpotlight"
                     ComponentFrame = TUIFramePropertyRTTI
                     (
                         RelativeWidthHeight = [1.0, 1.0]
@@ -520,7 +520,7 @@ ActivationPointsComponent is BUCKListDescriptor
         (
             ComponentDescriptor = BUCKTextDescriptor
             (
-                ElementName = 'ActivationPointsCurrent'
+                ElementName = "ActivationPointsCurrent"
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     RelativeWidthHeight = [0.0, 1.0]
@@ -553,7 +553,7 @@ ActivationPointsComponent is BUCKListDescriptor
         (
             ComponentDescriptor = BUCKTextDescriptor
             (
-                ElementName = 'ActivationPointsTemp'
+                ElementName = "ActivationPointsTemp"
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     RelativeWidthHeight = [0.0, 1.0]
@@ -586,7 +586,7 @@ ActivationPointsComponent is BUCKListDescriptor
         (
             ComponentDescriptor = BUCKTextDescriptor
             (
-                ElementName = 'ActivationPointsMax'
+                ElementName = "ActivationPointsMax"
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     RelativeWidthHeight = [0.0, 1.0]
@@ -619,7 +619,7 @@ ActivationPointsComponent is BUCKListDescriptor
         (
             ComponentDescriptor = BUCKTextDescriptor
             (
-                ElementName = 'ActivationPointsTitre'
+                ElementName = "ActivationPointsTitre"
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     MagnifiableWidthHeight = [70.0, 0.0]
@@ -643,7 +643,7 @@ ActivationPointsComponent is BUCKListDescriptor
                 TypefaceToken = "Liberator"
                 BigLineAction = ~/BigLineAction/MultiLine
 
-                TextToken = 'DCKO_ACTIV'
+                TextToken = "DCKO_ACTIV"
                 TextDico = ~/LocalisationConstantes/dico_interface_outgame
 
                 TextColor = "BlancTexte"
@@ -665,37 +665,64 @@ ActivationPointsComponent is BUCKListDescriptor
 )
 
 //-------------------------------------------------------------------------------------
-
+UnitListHeight is 90.0
 ListeDesUnitesDuDeck is BUCKListDescriptor
 (
-    ElementName = 'UnitDeckList'
+    ElementName = "UnitDeckList"
 
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [0.0, 90.0]
+        MagnifiableWidthHeight = [0.0, UnitListHeight]
         MagnifiableOffset = [50.0, 0.0]
     )
 
     Axis = ~/ListAxis/Horizontal
 
     MagnifierMultiplication = 1
+    IsDroppable = true
 
     // => FreeCaseDescriptor()
 
     Elements = []
+
+    ForegroundComponents =
+    [
+        BUCKContainerDescriptor
+        (
+            ElementName = "UnitDeckListDnDFeedback"
+            HasBackground = true
+            BackgroundBlockColorToken = "Black80"
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                MagnifiableWidthHeight = [4, UnitListHeight]
+                AlignementToAnchor = [0.5, 0.5]
+                AlignementToFather = [0.0, 0.5]
+            )
+        ),
+    ]
 
     BackgroundComponents =
     [
         BUCKContainerDescriptor
         (
             UniqueName = "DeckBuildingUnitDeckList"
-            ElementName = 'UnitDeckListSpotlight'
+            ElementName = "UnitDeckListSpotlight"
 
             ComponentFrame = TUIFramePropertyRTTI
             (
                 RelativeWidthHeight = [1.0, 1.0]
             )
         ),
+        BUCKSensibleAreaDescriptor
+        (
+            ElementName = "UnitDeckListArea"
+            HidePointerEvents = true
+            IgnoreMask = true
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 1.0]
+            )
+        )
     ]
 )
 
@@ -738,7 +765,7 @@ AffichageNomDuDeck is BUCKListDescriptor
                 TypefaceToken = "Liberator"
                 BigLineAction = ~/BigLineAction/MultiLine
 
-                TextToken = 'DC_DCKNAM'
+                TextToken = "DC_DCKNAM"
                 TextDico = ~/LocalisationConstantes/dico_interface_outgame
 
                 TextColor = "BlancTexte"
@@ -749,7 +776,7 @@ AffichageNomDuDeck is BUCKListDescriptor
         (
             ComponentDescriptor = BUCKEditableTextDescriptor
             (
-                ElementName = 'DeckNameEditableText'
+                ElementName = "DeckNameEditableText"
 
                 ComponentFrame = TUIFramePropertyRTTI
                 (
@@ -767,7 +794,7 @@ AffichageNomDuDeck is BUCKListDescriptor
 
                 Flags = ~/EditableTextFlag/V_TOP | ~/EditableTextFlag/H_CENTER | ~/EditableTextFlag/ONE_LINE
                 HasBackground = true
-                BackgroundBlockColorToken = 'H2_bleu_2'
+                BackgroundBlockColorToken = "H2_bleu_2"
                 TextStyle = "Default"
                 TextSizeToken = "20"
                 TypefaceToken = "Liberator"
@@ -786,7 +813,7 @@ AffichageNomDuDeck is BUCKListDescriptor
 
 private DeckEditorSaveAndCoButtons is BUCKListDescriptor
 (
-    ElementName = 'DeckEditorSaveAndCoButtons'
+    ElementName = "DeckEditorSaveAndCoButtons"
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [0.0, ~/ButtonLineHeight]
@@ -794,7 +821,6 @@ private DeckEditorSaveAndCoButtons is BUCKListDescriptor
         AlignementToFather = [1.0, 0.5]
     )
 
-    LastMargin = TRTTILength(Magnifiable = 20.0)
     InterItemMargin = TRTTILength(Magnifiable = 10.0)
 
     BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
@@ -802,6 +828,20 @@ private DeckEditorSaveAndCoButtons is BUCKListDescriptor
 
     Elements =
     [
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = MenuActionButton
+            (
+                ElementName = "SortButton"
+                TextToken = "DSORT_BTN"
+                TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                HintTitleToken = "ODO_DSORTT"
+                HintBodyToken = "ODO_DSORTB"
+                HintExtendedToken = "ODO_DSORTB"
+                LeftClickSound = SoundEvent_SortDeck
+            )
+        ),
+        BUCKListElementDescriptor(ComponentDescriptor = MenuActionButtonSeparator()),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = MenuActionButton
@@ -915,8 +955,6 @@ template DeckEditorNavigationButtons
     Axis = ~/ListAxis/Horizontal
     BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
-    FirstMargin = TRTTILength( Magnifiable = 20.0 )
-
     Elements =
     [
         BUCKListElementDescriptor
@@ -971,7 +1009,7 @@ private DeckPanelContentList is BUCKListDescriptor
                     PanelRoundedCorner
                     (
                         HasBackground = true
-                        BackgroundBlockColorToken = 'FondGroupe'
+                        BackgroundBlockColorToken = "FondGroupe"
                         HasBorder = false
 
                         Components =
@@ -982,8 +1020,8 @@ private DeckPanelContentList is BUCKListDescriptor
                                 (
                                     RelativeWidthHeight = [1.0, 1.0]
                                 )
-                                  TextureDrawer  = 'ColorMultiply_Additive'
-                                TextureToken =  'ShowRoomTexture_foregroundEffetPapier'
+                                  TextureDrawer  = "ColorMultiply_Additive"
+                                TextureToken =  "ShowRoomTexture_foregroundEffetPapier"
                             )
                         ]
                     ),
@@ -1038,7 +1076,7 @@ private DeckPanelContentList is BUCKListDescriptor
                                             TypefaceToken = "Liberator"
                                             BigLineAction = ~/BigLineAction/MultiLine
 
-                                            TextToken = 'deck_pa'
+                                            TextToken = "deck_pa"
                                             TextDico = ~/LocalisationConstantes/dico_interface_outgame
 
                                             TextColor = "Gris_unitConfig_Experience"
@@ -1057,7 +1095,7 @@ private DeckPanelContentList is BUCKListDescriptor
                     PanelRoundedCorner
                     (
                         HasBackground = true
-                        BackgroundBlockColorToken = 'Transparent'
+                        BackgroundBlockColorToken = "Transparent"
                         HasBorder = false
                         Components =
                         [
@@ -1067,8 +1105,8 @@ private DeckPanelContentList is BUCKListDescriptor
                                 (
                                     RelativeWidthHeight = [1.0, 1.0]
                                 )
-                                  TextureDrawer  = 'ColorMultiply_Additive'
-                                TextureToken =  'ShowRoomTexture_foregroundEffetPapier'
+                                  TextureDrawer  = "ColorMultiply_Additive"
+                                TextureToken =  "ShowRoomTexture_foregroundEffetPapier"
                             )
                         ]
                     )
@@ -1091,10 +1129,10 @@ DeckEditorTopBarGreenBackground is BUCKContainerDescriptor
     )
 
     HasBackground = true
-    BackgroundBlockColorToken = 'VertMilitaire'
+    BackgroundBlockColorToken = "VertMilitaire"
     HasBorder = true
     BorderThicknessToken = "2"
-    BorderLineColorToken = 'VertLogin'
+    BorderLineColorToken = "VertLogin"
     BordersToDraw = ~/TBorderSide/Bottom
     HidePointerEvents = true
 
@@ -1106,8 +1144,8 @@ DeckEditorTopBarGreenBackground is BUCKContainerDescriptor
             (
                 RelativeWidthHeight = [1.0, 1.0]
             )
-            TextureDrawer  = 'ColorMultiply_Additive'
-            TextureToken =  'Outgame_fond_deckCreator_foreground'
+            TextureDrawer  = "ColorMultiply_Additive"
+            TextureToken =  "Outgame_fond_deckCreator_foreground"
         ),
         OmbrePanel()
     ]
@@ -1128,7 +1166,6 @@ private DeckEditorTopBarRightContent is BUCKListDescriptor
     Axis = ~/ListAxis/Horizontal
 
     InterItemMargin = TRTTILength( Magnifiable = 10.0 )
-    LastMargin = TRTTILength( Magnifiable = 20.0 )
 
     Elements =
     [
@@ -1141,7 +1178,7 @@ private DeckEditorTopBarRightContent is BUCKListDescriptor
             ComponentDescriptor = BUCKContainerDescriptor
             (
                 ElementName = "DeckEditorTopBarDivisionContainer"
-                UniqueName = 'DivisionHeader_DeckCreation'
+                UniqueName = "DivisionHeader_DeckCreation"
 
                 ComponentFrame = TUIFramePropertyRTTI
                 (
@@ -1178,6 +1215,9 @@ private template DeckEditorTopBar
         // Content
         BUCKListDescriptor
         (
+            FirstMargin = TRTTILength(Magnifiable = 20.0)
+            LastMargin = TRTTILength(Magnifiable = 20.0)
+            InterItemMargin = TRTTILength(Magnifiable = 20.0)
             ComponentFrame = TUIFramePropertyRTTI
             (
                 RelativeWidthHeight = [0.0, 1.0]
@@ -1306,7 +1346,7 @@ private DeckEditorBattlegroupNameFrame is BUCKContainerDescriptor
 
 private DeckEditorUnitsList is BUCKContainerDescriptor
 (
-    ElementName = 'DeckEditorUnitsList'
+    ElementName = "DeckEditorUnitsList"
 
     ComponentFrame = TUIFramePropertyRTTI
     (
@@ -1337,7 +1377,7 @@ DeckEditorCloseButton is MainBackButtonContainer
 
 private affichageCategorieDeck is BUCKListDescriptor
 (
-    ElementName = 'DeckCategoryList'
+    ElementName = "DeckCategoryList"
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [0.0, 36.0]
@@ -1372,7 +1412,7 @@ private DeckCreatorCategoryButtonDescriptor is BUCKButtonDescriptor
             (
                 MagnifiableWidthHeight = [102.0, 30.0]
             )
-            TextureToken = 'ShowRoomTexture_onglet'
+            TextureToken = "ShowRoomTexture_onglet"
             Rotation = 180
         ),
         BUCKListDescriptor
@@ -1508,171 +1548,76 @@ DeckCreatorScreenMainComponent is BUCKContainerDescriptor
         // affichage des Panelinfos
         AnimationPanelUnitInfos(),
         ~/TransportSelectionContainer,
-        // bouton 'close' en bas à gauche
+        // bouton "close" en bas à gauche
         ~/DeckEditorCloseButton,
     ]
 )
 
 //-------------------------------------------------------------------------------------
 
-template DeckCreatorModale
-[
-    ButtonList : List<TBUCKListElementDescriptor> = [],
-    TitleToken : string = "",
-    TextToken : string = "",
-] is SpecificModaleWindowFrame
+private IncompleteUnsavedDeckWarningModale is SpecificModalWindow
 (
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [850.0, 0.0]
-        AlignementToAnchor = [0.5, 0.5]
-        AlignementToFather = [0.5, 0.5]
-    )
-
-    ContentRelativeWidthHeight = [1.0, 0.0]
-    ContentMagnifiableWidthHeight = [0.0, 110.0]
-
-    TitleToken = <TitleToken>
-    ButtonList = <ButtonList>
-
-    ContentComponents =
-    [
-        BUCKListDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [~/MagnifiableModaleContentWidth, 0.0]
-                AlignementToAnchor = [0.5, 0.5]
-                AlignementToFather = [0.5, 0.5]
-            )
-
-            Axis = ~/ListAxis/Vertical
-            InterItemMargin = TRTTILength( Magnifiable = 10.0 )
-
-            Elements =
-            [
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = BUCKTextDescriptor
-                    (
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            MagnifiableWidthHeight = [~/MagnifiableModaleContentWidth - 20.0, 20.0]
-                            AlignementToFather = [0.5, 0.0]
-                            AlignementToAnchor = [0.5, 0.0]
-                        )
-
-                        ParagraphStyle = paragraphStyleTextCenter
-                        TextStyle = "TextStyleEcranMoniteur"
-
-                        VerticalFitStyle = ~/FitStyle/UserDefined
-                        TypefaceToken = "IBM"
-                        BigLineAction = ~/BigLineAction/MultiLine
-                        TextToken = <TextToken>
-                        TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                        TextColor = "Blanc"
-                        TextSize = "24"
-                    )
-                ),
-            ]
-        ),
-
-        BUCKTextureDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [904.0, 732.0]
-                MagnifiableOffset = [-27.0, -150.0]
-            )
-            TextureToken = 'Outgame_modale_foreground'
-            TextureDrawer = 'ColorMultiply_Additive'
-        )
-    ]
-
-    AdditionalComponents =
-    [
-        BUCKTextureDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [904.0, 732.0]
-                MagnifiableOffset = [-27.0, -250.0]
-            )
-            TextureToken = 'Outgame_modale_fond'
-            TextureDrawer = 'MonochromeMonitorEffect'
-        )
-    ]
-)
-
-//-------------------------------------------------------------------------------------
-
-private IncompleteUnsavedDeckWarningModale is DeckCreatorModale
-(
-    TitleToken = 'SR_TTLWARN'
-    TextToken = 'SR_MSGWARN'
+    TitleToken = "SR_TTLWARN"
 
     ButtonList =
     [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
+            ComponentDescriptor = SpecificModalButton
             (
-                ElementName = 'Save'
-                TextToken = 'SR_SAVE'
+                ElementName = "Save"
+                TextToken = "SR_SAVE"
                 Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
                 IsFilled = true
             )
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
+            ComponentDescriptor = SpecificModalButton
             (
-                ElementName = 'Discard'
-                TextToken = 'SR_DISCARD'
+                ElementName = "Discard"
+                TextToken = "SR_DISCARD"
                 IsFilled = false
             )
         ),
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalCancelButton)
+    ]
+
+    ElementsList =
+    [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
-            (
-                ElementName = 'Cancel'
-                TextToken = 'SR_CANCEL'
-                Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-                IsFilled = false
-            )
+            ComponentDescriptor = SpecificModalText(ElementName = "ModalContent" TextToken = "SR_MSGWARN")
         )
     ]
 )
 
 //-------------------------------------------------------------------------------------
 
-private IncompleteDeckWarningModale is DeckCreatorModale
+private IncompleteDeckWarningModale is SpecificModalWindow
 (
-    TitleToken = 'SR_TTLWARN'
-    TextToken = 'SR_MSGWARN'
+    TitleToken = "SR_TTLWARN"
 
     ButtonList =
     [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
+            ComponentDescriptor = SpecificModalButton
             (
-                ElementName = 'OK'
-                TextToken = 'Val_YesMaj'
+                ElementName = "OK"
+                TextToken = "Val_YesMaj"
                 Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
                 IsFilled = true
             )
         ),
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalCancelButton)
+    ]
+
+    ElementsList =
+    [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
-            (
-                ElementName = 'Cancel'
-                TextToken = 'Val_NoMaj'
-                Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-                IsFilled = false
-            )
+            ComponentDescriptor = SpecificModalText(ElementName = "ModalContent" TextToken = "SR_MSGWARN")
         )
     ]
 )
@@ -1682,36 +1627,34 @@ private IncompleteDeckWarningModale is DeckCreatorModale
 template NoCommandUnitDeckErrorModaleDescriptor
 [
     ShowDiscardButton : bool,
-] is DeckCreatorModale
+] is SpecificModalWindow
 (
-    TitleToken = 'SR_TTLERRO'
-    TextToken = 'SR_MSGERRC'
+    TitleToken = "SR_TTLERRO"
 
     ButtonList =
     (<ShowDiscardButton> ? [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
+            ComponentDescriptor = SpecificModalButton
             (
-                ElementName = 'Discard'
-                TextToken = 'SR_DISCARD'
+                ElementName = "Discard"
+                TextToken = "SR_DISCARD"
                 Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
                 IsFilled = true
             )
         )
     ] : [] )
     + ([
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalCancelButton)
+    ])
+
+    ElementsList =
+    [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
-            (
-                ElementName = 'Cancel'
-                TextToken = 'SR_CANCEL'
-                Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-                IsFilled = false
-            )
+            ComponentDescriptor = SpecificModalText(ElementName = "ModalContent" TextToken = "SR_MSGERRC")
         )
-    ])
+    ]
 )
 
 //-------------------------------------------------------------------------------------
@@ -1719,75 +1662,71 @@ template NoCommandUnitDeckErrorModaleDescriptor
 template EmptyDeckErrorModaleDescriptor
 [
     ShowDiscardButton : bool,
-] is DeckCreatorModale
+] is SpecificModalWindow
 (
-    TitleToken = 'SR_TTLERRO'
-    TextToken = 'SR_MSGERRO'
+    TitleToken = "SR_TTLERRO"
 
     ButtonList =
     (<ShowDiscardButton> ? [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
+            ComponentDescriptor = SpecificModalButton
             (
-                ElementName = 'Discard'
-                TextToken = 'SR_DISCARD'
+                ElementName = "Discard"
+                TextToken = "SR_DISCARD"
                 Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
                 IsFilled = true
             )
         )
     ] : [] )
     + [
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalCancelButton)
+    ]
+
+    ElementsList =
+    [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
-            (
-                ElementName = 'Cancel'
-                TextToken = 'SR_CANCEL'
-                Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-                IsFilled = false
-            )
+            ComponentDescriptor = SpecificModalText(ElementName = "ModalContent" TextToken = "SR_MSGERRO")
         )
     ]
 )
 
 //-------------------------------------------------------------------------------------
 
-private SaveBeforeQuitModaleDescriptor is DeckCreatorModale
+private SaveBeforeQuitModaleDescriptor is SpecificModalWindow
 (
-    TitleToken = 'SR_TTLSAVE'
-    TextToken = 'SR_MSGSAVE'
+    TitleToken = "SR_TTLSAVE"
 
     ButtonList =
     [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
+            ComponentDescriptor = SpecificModalButton
             (
-                ElementName = 'Save'
-                TextToken = 'SR_SAVE'
+                ElementName = "Save"
+                TextToken = "SR_SAVE"
                 Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
                 IsFilled = true
             )
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
+            ComponentDescriptor = SpecificModalButton
             (
-                ElementName = 'Discard'
-                TextToken = 'SR_DISCARD'
+                ElementName = "Discard"
+                TextToken = "SR_DISCARD"
                 IsFilled = false
             )
         ),
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalCancelButton)
+    ]
+
+    ElementsList =
+    [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
-            (
-                ElementName = 'Cancel'
-                TextToken = 'SR_CANCEL'
-                Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-                IsFilled = false
-            )
+            ComponentDescriptor = SpecificModalText(ElementName = "ModalContent" TextToken = "SR_MSGSAVE")
         )
     ]
 )

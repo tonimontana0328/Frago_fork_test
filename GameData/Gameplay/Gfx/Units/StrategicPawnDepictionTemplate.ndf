@@ -3,7 +3,7 @@ template StrategicPawnDepictionTemplate
 [
     MeshSocle,
     MeshTige,
-    ModelFilePawn,
+    MeshDescriptorPawn,
     SubDepictionGenerators = []
 ]
 is TTimelyDepictionReceiverFactory
@@ -34,13 +34,7 @@ is TTimelyDepictionReceiverFactory
                         Selector = OnlyHighDepictionSelector
                         Operators = [DepictionOperator_Shader_Selection]
                         DepictionAlternatives = [
-                            DepictionDescriptor_LOD_High(
-                                MeshDescriptor = TResourceMultiMaterialMeshWithLod
-                                (
-                                    FileName = <ModelFilePawn>
-                                    CivMask =  CivMask/Common
-                                )
-                            )
+                            DepictionDescriptor_LOD_High( MeshDescriptor = <MeshDescriptorPawn> )
                         ]
                         SubDepictionGenerators = <SubDepictionGenerators>
                     )
@@ -59,7 +53,7 @@ StrategicInfantryPoseOperator is TCosmeticFreezeSkeletalAnimationOperatorDesc
 template StrategicInfantryPawnDepictionTemplate
 [
     MeshSocle,
-    ModelFilePawn,
+    MeshDescriptorPawn,
 ]
 is TTimelyDepictionReceiverFactory
 (
@@ -89,13 +83,7 @@ is TTimelyDepictionReceiverFactory
                         Scaler = TConstantScaler( Scale = 2 )
                         Selector = OnlyHighDepictionSelector
                         Operators = [ DepictionOperator_Shader_Selection, StrategicInfantryPoseOperator ]
-                        DepictionAlternatives = [ DepictionDescriptor_LOD_High(
-                            MeshDescriptor = TResourceMultiMaterialMeshWithLod
-                            (
-                                FileName = <ModelFilePawn>
-                                CivMask =  CivMask/Common
-                            )
-                        ) ]
+                        DepictionAlternatives = [ DepictionDescriptor_LOD_High( MeshDescriptor = <MeshDescriptorPawn> ) ]
                     )
                 ) ]
             )
@@ -106,37 +94,37 @@ is TTimelyDepictionReceiverFactory
 template StrategicAirplanePawnDepictionTemplate
 [
     MeshSocle,
-    ModelFilePawn,
+    MeshDescriptorPawn,
 ]
 is StrategicPawnDepictionTemplate
 (
     MeshSocle = <MeshSocle>
-    ModelFilePawn = <ModelFilePawn>
+    MeshDescriptorPawn = <MeshDescriptorPawn>
     MeshTige = MeshModele_Tige_moyenne //MeshModele_Tige_longue
 )
 
 template StrategicHelicopterPawnDepictionTemplate
 [
     MeshSocle,
-    ModelFilePawn,
+    MeshDescriptorPawn,
 ]
 is StrategicPawnDepictionTemplate
 (
     MeshSocle = <MeshSocle>
-    ModelFilePawn = <ModelFilePawn>
+    MeshDescriptorPawn = <MeshDescriptorPawn>
     MeshTige = MeshModele_Tige_moyenne
 )
 
 template StrategicGroundVehiclePawnDepictionTemplate
 [
     MeshSocle,
-    ModelFilePawn,
+    MeshDescriptorPawn,
     SubDepictionGenerators = []
 ]
 is StrategicPawnDepictionTemplate
 (
     MeshSocle = <MeshSocle>
-    ModelFilePawn = <ModelFilePawn>
+    MeshDescriptorPawn = <MeshDescriptorPawn>
     MeshTige = MeshModele_Tige_courte
     SubDepictionGenerators = <SubDepictionGenerators>
 )

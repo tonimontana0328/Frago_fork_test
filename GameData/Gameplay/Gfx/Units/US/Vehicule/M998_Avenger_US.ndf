@@ -1,21 +1,16 @@
-export ModelFile_M998_Avenger_US is 'GameData:/Assets/3D/Units/US/DCA/M998_Avenger/M998_Avenger.Ase2NdfBin'
-
-Modele_M998_Avenger_US is TResourceMultiMaterialMeshWithLod
-(
-    FileName     = ModelFile_M998_Avenger_US
-    CivMask =  CivMask/Common
-)
-
-Modele_M998_Avenger_US_MID is TResourceMultiMaterialMeshWithLod
+export Modele_M998_Avenger_US is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/US/DCA/M998_Avenger/M998_Avenger.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_M998_Avenger_US_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_M998_Avenger_US_MID is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/US/DCA/M998_Avenger/M998_Avenger.Ase2NdfBin'
-    CivMask =  CivMask/Common
+)
+
+export Modele_M998_Avenger_US_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/DCA/M998_Avenger/M998_Avenger.Ase2NdfBin'
 )
 
 

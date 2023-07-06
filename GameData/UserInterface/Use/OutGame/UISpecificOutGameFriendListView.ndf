@@ -1,132 +1,81 @@
-BUCKSpecificOutGameFriendModaleViewDescriptor is SpecificModaleWindowFrame
+BUCKSpecificOutGameFriendModaleViewDescriptor is SpecificModalWindow
 (
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [850.0, 0.0]
-        AlignementToAnchor = [0.5, 0.5]
-        AlignementToFather = [0.5, 0.5]
-    )
-
-    ContentRelativeWidthHeight = [1.0, 0.0]
     ContentMagnifiableWidthHeight = [0.0, 200.0]
-
-    TitleToken = 'T_INVITE'
 
     ButtonList =
     [
-        BUCKListElementDescriptor( ComponentDescriptor = ~/FriendPanelConfirmButton ),
-        BUCKListElementDescriptor( ComponentDescriptor = ~/FriendPanelCancelButton ),
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalConfirmButton),
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalCancelButton)
     ]
 
-    ContentComponents =
+    ElementsList =
     [
-        BUCKListDescriptor
+        BUCKListElementDescriptor
         (
-            ComponentFrame = TUIFramePropertyRTTI
+            ComponentDescriptor = BUCKTextDescriptor
             (
-                MagnifiableWidthHeight = [750, 0.0]
-                AlignementToAnchor = [0.5, 0.5]
-                AlignementToFather = [0.5, 0.5]
-            )
+                ElementName = 'MainText'
 
-            Axis = ~/ListAxis/Vertical
-            InterItemMargin = TRTTILength(Magnifiable = 25.0)
-
-            Elements =
-            [
-                BUCKListElementDescriptor
+                ComponentFrame = TUIFramePropertyRTTI
                 (
-                    ComponentDescriptor = BUCKTextDescriptor
-                    (
-                        ElementName = 'MainText'
-
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            RelativeWidthHeight = [1.0, 0.0]
-                            AlignementToAnchor = [0.5, 0.0]
-                            AlignementToFather = [0.5, 0.0]
-                        )
-
-                        ParagraphStyle = paragraphStyleTextCenter
-                        TextStyle = "TextStyleEcranMoniteur"
-
-                        VerticalFitStyle = ~/FitStyle/FitToContent
-                        TypefaceToken = "IBM"
-                        BigLineAction = ~/BigLineAction/MultiLine
-                        TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                        TextColor = "Blanc"
-                        TextSize = "24"
-                    )
-                ),
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = BUCKContainerDescriptor
-                    (
-                        ElementName = 'FriendLineContainer'
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            AlignementToAnchor = [0.5, 0.0]
-                            AlignementToFather = [0.5, 0.0]
-                        )
-                        FitStyle = ~/ContainerFitStyle/FitToContent
-                        Components = []
-                    )
-                ),
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = BUCKTextDescriptor
-                    (
-                        ElementName = 'ErrorText'
-
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            AlignementToAnchor = [0.5, 0.0]
-                            AlignementToFather = [0.5, 0.0]
-                        )
-
-                        TextStyle = "Default"
-                        TypefaceToken = "UIMainFont"
-                        TextColor = 'SD2_Blanc184'
-                        TextSize = '20'
-                        TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                        BigLineAction = ~/BigLineAction/MultiLine
-                        VerticalFitStyle = ~/FitStyle/FitToContent
-                        HorizontalFitStyle = ~/FitStyle/FitToContent
-                        ParagraphStyle = TParagraphStyleRTTI
-                        (
-                            Alignment = ~/UIText_Center
-                            VerticalAlignment = ~/UIText_VerticalCenter
-                            Balanced = true
-                            BigWordAction = ~/BigWordAction/BigWordNewLine
-                        )
-                    )
+                    RelativeWidthHeight = [1.0, 0.0]
+                    AlignementToAnchor = [0.5, 0.0]
+                    AlignementToFather = [0.5, 0.0]
                 )
-            ]
+
+                ParagraphStyle = paragraphStyleTextCenter
+                TextStyle = "TextStyleEcranMoniteur"
+
+                VerticalFitStyle = ~/FitStyle/FitToContent
+                TypefaceToken = "IBM"
+                BigLineAction = ~/BigLineAction/MultiLine
+                TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                TextColor = "Blanc"
+                TextSize = "24"
+            )
         ),
-
-        BUCKTextureDescriptor
+        BUCKListElementDescriptor
         (
-            ComponentFrame = TUIFramePropertyRTTI
+            ComponentDescriptor = BUCKContainerDescriptor
             (
-                MagnifiableWidthHeight = [904.0, 732.0]
-                MagnifiableOffset = [-27,-150]
+                ElementName = 'FriendLineContainer'
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    AlignementToAnchor = [0.5, 0.0]
+                    AlignementToFather = [0.5, 0.0]
+                )
+                FitStyle = ~/ContainerFitStyle/FitToContent
+                Components = []
             )
-            TextureToken = 'Outgame_modale_foreground'
-            TextureDrawer = 'ColorMultiply_Additive'
-        )
-    ]
-
-    AdditionalComponents =
-    [
-        BUCKTextureDescriptor
+        ),
+        BUCKListElementDescriptor
         (
-            ComponentFrame = TUIFramePropertyRTTI
+            ComponentDescriptor = BUCKTextDescriptor
             (
-                MagnifiableWidthHeight = [904.0, 732.0]
-                MagnifiableOffset = [-27,-150]
+                ElementName = 'ErrorText'
+
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    AlignementToAnchor = [0.5, 0.0]
+                    AlignementToFather = [0.5, 0.0]
+                )
+
+                TextStyle = "Default"
+                TypefaceToken = "UIMainFont"
+                TextColor = 'SD2_Blanc184'
+                TextSize = '20'
+                TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                BigLineAction = ~/BigLineAction/MultiLine
+                VerticalFitStyle = ~/FitStyle/FitToContent
+                HorizontalFitStyle = ~/FitStyle/FitToContent
+                ParagraphStyle = TParagraphStyleRTTI
+                (
+                    Alignment = ~/UIText_Center
+                    VerticalAlignment = ~/UIText_VerticalCenter
+                    Balanced = true
+                    BigWordAction = ~/BigWordAction/BigWordNewLine
+                )
             )
-            TextureToken = 'Outgame_modale_fond'
-            TextureDrawer = 'MonochromeMonitorEffect'
         )
     ]
 )

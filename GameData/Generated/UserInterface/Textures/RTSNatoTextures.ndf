@@ -255,9 +255,9 @@ Texture_RTS_H_HMG is TUIResourceTexture_Common
     FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/HMG.png'
 )
 
-Texture_AA_hel is TUIResourceTexture_Common
+Texture_Support_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/AA_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/Support_hel.png'
 )
 
 Texture_hel_nonIdentifie is TUIResourceTexture_Common
@@ -265,9 +265,9 @@ Texture_hel_nonIdentifie is TUIResourceTexture_Common
     FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/hel_nonIdentifie.png'
 )
 
-Texture_RTS_H_AA_hel is TUIResourceTexture_Common
+Texture_RTS_H_Support_hel is TUIResourceTexture_Common
 (
-    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA_hel.png'
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/Support_hel.png'
 )
 
 Texture_RTS_H_hel_nonIdentifie is TUIResourceTexture_Common
@@ -283,16 +283,6 @@ Texture_ATGM_hel is TUIResourceTexture_Common
 Texture_RTS_H_ATGM_hel is TUIResourceTexture_Common
 (
     FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/ATGM_hel.png'
-)
-
-Texture_Support_hel is TUIResourceTexture_Common
-(
-    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/Support_hel.png'
-)
-
-Texture_RTS_H_Support_hel is TUIResourceTexture_Common
-(
-    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/Support_hel.png'
 )
 
 Texture_hel is TUIResourceTexture_Common
@@ -333,6 +323,16 @@ Texture_hel_supply is TUIResourceTexture_Common
 Texture_RTS_H_hel_supply is TUIResourceTexture_Common
 (
     FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/hel_supply.png'
+)
+
+Texture_AA_hel is TUIResourceTexture_Common
+(
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/NATO/AA_hel.png'
+)
+
+Texture_RTS_H_AA_hel is TUIResourceTexture_Common
+(
+    FileName      = 'Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA_hel.png'
 )
 
 Texture_ATGM_air is TUIResourceTexture_Common
@@ -446,14 +446,12 @@ NATORTSAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_RTS_H_transport_small", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_transport_small)]),
         ("Texture_HMG", MAP [(~/ComponentState/Normal, ~/Texture_HMG)]),
         ("Texture_RTS_H_HMG", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_HMG)]),
-        ("Texture_AA_hel", MAP [(~/ComponentState/Normal, ~/Texture_AA_hel)]),
+        ("Texture_Support_hel", MAP [(~/ComponentState/Normal, ~/Texture_Support_hel)]),
         ("Texture_hel_nonIdentifie", MAP [(~/ComponentState/Normal, ~/Texture_hel_nonIdentifie)]),
-        ("Texture_RTS_H_AA_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_AA_hel)]),
+        ("Texture_RTS_H_Support_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_Support_hel)]),
         ("Texture_RTS_H_hel_nonIdentifie", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_hel_nonIdentifie)]),
         ("Texture_ATGM_hel", MAP [(~/ComponentState/Normal, ~/Texture_ATGM_hel)]),
         ("Texture_RTS_H_ATGM_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_ATGM_hel)]),
-        ("Texture_Support_hel", MAP [(~/ComponentState/Normal, ~/Texture_Support_hel)]),
-        ("Texture_RTS_H_Support_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_Support_hel)]),
         ("Texture_hel", MAP [(~/ComponentState/Normal, ~/Texture_hel)]),
         ("Texture_RTS_H_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_hel)]),
         ("Texture_RECO_hel", MAP [(~/ComponentState/Normal, ~/Texture_RECO_hel)]),
@@ -462,6 +460,8 @@ NATORTSAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_RTS_H_CMD_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_CMD_hel)]),
         ("Texture_hel_supply", MAP [(~/ComponentState/Normal, ~/Texture_hel_supply)]),
         ("Texture_RTS_H_hel_supply", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_hel_supply)]),
+        ("Texture_AA_hel", MAP [(~/ComponentState/Normal, ~/Texture_AA_hel)]),
+        ("Texture_RTS_H_AA_hel", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_AA_hel)]),
         ("Texture_ATGM_air", MAP [(~/ComponentState/Normal, ~/Texture_ATGM_air)]),
         ("Texture_RTS_H_ATGM_air", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_ATGM_air)]),
         ("Texture_RTS_H_avion_nonIdentifie", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_avion_nonIdentifie)]),

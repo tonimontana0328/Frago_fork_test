@@ -106,7 +106,7 @@ template PertesSurTerrainBlade
                 (
                     Alignment = ~/UIText_Center
                     VerticalAlignment = ~/UIText_VerticalCenter
-                    BigWordAction = ~/BigWordAction/BigWordCut
+                    BigWordAction = ~/BigWordAction/BigWordNewLine
                 )
 
                 TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
@@ -1385,8 +1385,6 @@ UISpecificStrategicAutoResolveViewDescriptor is TUISpecificStrategicAutoResolveV
 (
     MainComponentDescriptor = ~/BUCKSpecificStrategicAutoResolveMainComponentDescriptor
     MainComponentContainerUniqueName = "SpecificAutoresolveViewDescriptor" // Permet d'indiquer l'endroit ou le composant doit s'insérer
-
-    UnitViewDescriptor = UISpecificSelectionPanelPawnUnitViewDescriptor( RadioButtonManager = ~/AutoresolveUnitSelectionButtonManager )
 
     NATO_Texture = "CommonTexture_MotherCountryFlag_NATO"
     PACT_Texture = "CommonTexture_MotherCountryFlag_PACT"

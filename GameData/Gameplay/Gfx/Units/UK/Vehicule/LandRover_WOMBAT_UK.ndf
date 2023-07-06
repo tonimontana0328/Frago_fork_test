@@ -1,21 +1,16 @@
-export ModelFile_LandRover_WOMBAT_UK is 'GameData:/Assets/3D/Units/UK/Vehicule/LandRover_Para_WOMBAT/LandRover_Para_WOMBAT.Ase2NdfBin'
-
-Modele_LandRover_WOMBAT_UK is TResourceMultiMaterialMeshWithLod
+export Modele_LandRover_WOMBAT_UK is TemplateMeshDescriptor
 (
-    FileName     = ModelFile_LandRover_WOMBAT_UK
-    CivMask =  CivMask/Common
+    FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/LandRover_Para_WOMBAT/LandRover_Para_WOMBAT.Ase2NdfBin'
 )
 
-Modele_LandRover_WOMBAT_UK_MID is TResourceMultiMaterialMeshWithLod
+export Modele_LandRover_WOMBAT_UK_MID is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/LandRover_Para_WOMBAT_MID/LandRover_Para_WOMBAT_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_LandRover_WOMBAT_UK_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_LandRover_WOMBAT_UK_LOW is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/LODS/LandRover_Para_WOMBAT_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
 

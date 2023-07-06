@@ -178,9 +178,9 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
         // EStrategicBattlePlayerSide::Defender
         MAP
         [
-            (~/ETerrainType/StrategicForest,    0.33),
-            (~/ETerrainType/StrategicSemiUrban, 0.66),
-            (~/ETerrainType/Urbain,             1.0),
+            (~/ETerrainType/StrategicForest,    0.25),
+            (~/ETerrainType/StrategicSemiUrban, 0.50),
+            (~/ETerrainType/Urbain,             0.75),
         ],
     ]
     ApplyPawnPowerBonusOnSupportUnit = true
@@ -281,38 +281,38 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
     //-1 = perdre tous les PA possibles
     APLossForInterceptorAndPassingPawnByVictoryTypeForAttackerAirBattle =
     [
-        (1 , -1), //TotalDefeat
-        (1 , -1), //MajorDefeat
-        (1 , -1), //MinorDefeat
-        (0 , 0), //Draw
-        (-1 , 1), //MinorVictory
-        (-1 , 1), //MajorVictory
-        (-1 , 1), //TotalVictory
-        (-1 , 1), //NotSpecified
+        (-1 , -1), //TotalDefeat
+        (-1 , -1), //MajorDefeat
+        (-1 , -1), //MinorDefeat
+        (-1 , -1), //Draw
+        (-1 , -1), //MinorVictory
+        (-1 , -1), //MajorVictory
+        (-1 , -1), //TotalVictory
+        (-1 , -1), //NotSpecified
     ]
     // il s'agit du coût en PA des DCA quand elles se battent contre un avion.
     APLossForInterceptorAndPassingPawnByVictoryTypeForAttackerAirGroundBattle =
     [
-        (-1 , 0), //TotalDefeat
-        (-1 , 0), //MajorDefeat
-        (-1 , 0), //MinorDefeat
-        (-1 , 0), //Draw
-        (-1 , 0), //MinorVictory
-        (-1 , 0), //MajorVictory
-        (-1 , 0), //TotalVictory
-        (-1 , 0), //NotSpecified
+        (-1 , -1), //TotalDefeat
+        (-1 , -1), //MajorDefeat
+        (-1 , -1), //MinorDefeat
+        (-1 , -1), //Draw
+        (-1 , -1), //MinorVictory
+        (-1 , -1), //MajorVictory
+        (-1 , -1), //TotalVictory
+        (-1 , -1), //NotSpecified
     ]
 
     APLossForInterceptorAndPassingPawnByVictoryTypeForAttackerGroundAirBattle =
     [
-        (0 , 3), //TotalDefeat
-        (0 , 3), //MajorDefeat
-        (0 , 3), //MinorDefeat
-        (0 , 3), //Draw
-        (0 , 3), //MinorVictory
-        (0 , 3), //MajorVictory
-        (0 , 3), //TotalVictory
-        (0 , 3), //NotSpecified
+        (-1 , -1), //TotalDefeat
+        (-1 , -1), //MajorDefeat
+        (-1 , -1), //MinorDefeat
+        (-1 , -1), //Draw
+        (-1 , -1), //MinorVictory
+        (-1 , -1), //MajorVictory
+        (-1 , -1), //TotalVictory
+        (-1 , -1), //NotSpecified
     ]
 )
 

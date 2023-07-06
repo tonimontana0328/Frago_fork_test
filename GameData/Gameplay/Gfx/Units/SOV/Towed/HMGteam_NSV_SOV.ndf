@@ -1,21 +1,16 @@
-export ModelFile_HMGteam_NSV_SOV is 'GameData:/Assets/3D/Units/URSS/Char/T64BV/NSV.Ase2NdfBin'
-
-Modele_HMGteam_NSV_SOV is TResourceMultiMaterialMeshWithLod
+export Modele_HMGteam_NSV_SOV is TemplateMeshDescriptor
 (
-    FileName     = ModelFile_HMGteam_NSV_SOV
-    CivMask =  CivMask/Common
+    FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/NSVT.fbx'
 )
 
-Modele_HMGteam_NSV_SOV_MID is TResourceMultiMaterialMeshWithLod
+export Modele_HMGteam_NSV_SOV_MID is TemplateMeshDescriptor
 (
-    FileName     = 'GameData:/Assets/3D/Units/URSS/Char/T64BV/NSV.Ase2NdfBin'
-    CivMask =  CivMask/Common
+    FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/NSVT.fbx'
 )
 
-Modele_HMGteam_NSV_SOV_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_HMGteam_NSV_SOV_LOW is TemplateMeshDescriptor
 (
-    FileName     = 'GameData:/Assets/3D/Units/URSS/Char/T64BV/NSV.Ase2NdfBin'
-    CivMask =  CivMask/Common
+    FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/NSVT.fbx'
 )
 
 
