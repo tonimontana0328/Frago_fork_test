@@ -97,7 +97,7 @@ private LoginModalCancelButtonDescriptor is LoginScreenMainButton
 (
     ElementName = "CancelButton"
     ButtonMagnifiableWidthHeight = [80.0, 25.0]
-    TextToken = 'BTN_CANCEL'
+    TextToken = "BTN_CANCEL"
 
 )
 

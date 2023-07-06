@@ -271,7 +271,7 @@ is BUCKListDescriptor
             (
                 ComponentFrame = TUIFramePropertyRTTI
                 (
-                    MagnifiableWidthHeight = [0,20]
+                    MagnifiableWidthHeight = [0, 50.0]
                 )
             )
         ),
@@ -294,7 +294,6 @@ is BUCKListDescriptor
                 Components = <ContentComponents>
             )
         ),
-
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKListDescriptor

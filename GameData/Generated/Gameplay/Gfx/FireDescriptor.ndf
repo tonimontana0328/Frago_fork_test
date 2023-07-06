@@ -11,7 +11,6 @@ export Descriptor_Fire_Incendie is TEntityDescriptor
         ~/EmptyTagsModuleDescriptor,
         TPositionModuleDescriptor
         (
-            UseFollowCam               = False
             StickToGround              = True
             InGeoDb                    = False
             PorteurMustBeVisible       = True
@@ -57,7 +56,6 @@ export Descriptor_Fire_Napalm is TEntityDescriptor
         ~/EmptyTagsModuleDescriptor,
         TPositionModuleDescriptor
         (
-            UseFollowCam               = False
             StickToGround              = True
             InGeoDb                    = False
             PorteurMustBeVisible       = True
@@ -103,7 +101,6 @@ export Descriptor_Fire_NapalmCluster is TEntityDescriptor
         ~/EmptyTagsModuleDescriptor,
         TPositionModuleDescriptor
         (
-            UseFollowCam               = False
             StickToGround              = True
             InGeoDb                    = False
             PorteurMustBeVisible       = True
@@ -149,7 +146,6 @@ export Descriptor_Fire_NapalmCluster_petit is TEntityDescriptor
         ~/EmptyTagsModuleDescriptor,
         TPositionModuleDescriptor
         (
-            UseFollowCam               = False
             StickToGround              = True
             InGeoDb                    = False
             PorteurMustBeVisible       = True
@@ -195,7 +191,6 @@ export Descriptor_Fire_NapalmLeger is TEntityDescriptor
         ~/EmptyTagsModuleDescriptor,
         TPositionModuleDescriptor
         (
-            UseFollowCam               = False
             StickToGround              = True
             InGeoDb                    = False
             PorteurMustBeVisible       = True
@@ -241,7 +236,6 @@ export Descriptor_Fire_NapalmLourd is TEntityDescriptor
         ~/EmptyTagsModuleDescriptor,
         TPositionModuleDescriptor
         (
-            UseFollowCam               = False
             StickToGround              = True
             InGeoDb                    = False
             PorteurMustBeVisible       = True
@@ -287,7 +281,6 @@ export Descriptor_Fire_NapalmMoyen is TEntityDescriptor
         ~/EmptyTagsModuleDescriptor,
         TPositionModuleDescriptor
         (
-            UseFollowCam               = False
             StickToGround              = True
             InGeoDb                    = False
             PorteurMustBeVisible       = True
@@ -333,7 +326,6 @@ export Descriptor_Fire_NapalmMoyen_bomb_FRL is TEntityDescriptor
         ~/EmptyTagsModuleDescriptor,
         TPositionModuleDescriptor
         (
-            UseFollowCam               = False
             StickToGround              = True
             InGeoDb                    = False
             PorteurMustBeVisible       = True
@@ -379,7 +371,6 @@ export Descriptor_Fire_NapalmMoyen_bomb_to55_death is TEntityDescriptor
         ~/EmptyTagsModuleDescriptor,
         TPositionModuleDescriptor
         (
-            UseFollowCam               = False
             StickToGround              = True
             InGeoDb                    = False
             PorteurMustBeVisible       = True
@@ -425,7 +416,6 @@ export Descriptor_Fire_Nuke is TEntityDescriptor
         ~/EmptyTagsModuleDescriptor,
         TPositionModuleDescriptor
         (
-            UseFollowCam               = False
             StickToGround              = True
             InGeoDb                    = False
             PorteurMustBeVisible       = True
@@ -471,7 +461,6 @@ export Descriptor_Fire_NapalmMoyen_small_zis3 is TEntityDescriptor
         ~/EmptyTagsModuleDescriptor,
         TPositionModuleDescriptor
         (
-            UseFollowCam               = False
             StickToGround              = True
             InGeoDb                    = False
             PorteurMustBeVisible       = True

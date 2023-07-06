@@ -23,7 +23,7 @@ UIInGameLDVideoViewDescriptor is TUICommonLDVideoViewDescriptor
     ]
     MainComponentDescriptor = BUCKContainerDescriptor(ComponentFrame=TUIFramePropertyRTTI())
     MainComponentContainerUniqueName = "CutSceneVideoContainer"
-    SkipVideoOption = $/TestOption/SkipMovies
+    SkipVideoOption = $/MiscOptions/SkipMovies
     ShowSubtitles = $/GameplayOption/ShowSubtitles
     VideoLoadingPriority = 1000
 )

@@ -1094,34 +1094,8 @@ is TUISpecificUnitInfoSingleWeaponPanelViewDescriptor
     SmallerIsBetterAttributes = ["WeaponAimingTime", "WeaponReloadTime", "WeaponSupplyCost"]
 
     // Configuration of the panel works like this:
-    // (Damage type button name, [Attributes list])
     // The attributes will pile up horizontally first in the grid
-    DamageTypeConfiguration = MAP
-    [
-        //("APButton",      ["WeaponAP", "WeaponDamage", "WeaponSuppress", "WeaponAreaOfEffect", "", "WeaponAccuracy", "WeaponRange", "", "WeaponRateOfFire", "WeaponTraverseSpeed"]),
-        ("APButton",            listeAffichage),
-        ("HOWZAPButton",        listeAffichage),
-        ("APHEButton",          listeAffichage),
-        ("HEButton",            listeAffichage),
-        ("HEAutoCanonButton",   listeAffichage),
-        ("APCRButton",          listeAffichage),
-        ("HEATButton",          listeAffichage),
-        ("HESAPButton",         listeAffichage),
-        ("BulletButton",        listeAffichage),
-        ("BulletAAButton",      listeAffichage),
-        ("BulletDCAButton",     listeAffichage),
-        ("RocketHEButton",      listeAffichage),
-        ("RocketAPButton",      listeAffichage),
-        ("RocketFragButton",    listeAffichage),
-        ("BombButton",          listeAffichage),
-        ("ClusterAPButton",     listeAffichage),
-        ("ClusterHEButton",     listeAffichage),
-        ("APMissileButton",     listeAffichage),
-        ("FlameButton",         listeAffichage),
-        ("NapalmButton",        listeAffichage),
-        ("SmokeButton",         listeAffichage),
-        ("MissileHEButton",     listeAffichage),
-    ]
+    DamageTypeConfiguration = listeAffichage
 
     ValueTextColors = ~/InfoPanelValuesColors
     DamageTypeComponents = ~/DamageTypeComponentConfigurations

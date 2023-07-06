@@ -28,7 +28,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -158,9 +157,9 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             (
                 PickableObject                        = True
                 BlackHoleIdentifier                   = "FOB_DDR"
-                Depiction                             = TemplateGfxDescriptorBatiment
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Pact_03'
+                    SymbolName                        = 'FOB_Pact_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]
@@ -288,7 +287,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -418,9 +416,9 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             (
                 PickableObject                        = True
                 BlackHoleIdentifier                   = "FOB_FR"
-                Depiction                             = TemplateGfxDescriptorBatiment
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
+                    SymbolName                        = 'FOB_Nato_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]
@@ -548,7 +546,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -678,9 +675,9 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             (
                 PickableObject                        = True
                 BlackHoleIdentifier                   = "FOB_RFA"
-                Depiction                             = TemplateGfxDescriptorBatiment
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
+                    SymbolName                        = 'FOB_Nato_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]
@@ -808,7 +805,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -938,9 +934,9 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             (
                 PickableObject                        = True
                 BlackHoleIdentifier                   = "FOB_SOV"
-                Depiction                             = TemplateGfxDescriptorBatiment
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Pact_03'
+                    SymbolName                        = 'FOB_Pact_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]
@@ -1068,7 +1064,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -1198,9 +1193,9 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             (
                 PickableObject                        = True
                 BlackHoleIdentifier                   = "FOB_UK"
-                Depiction                             = TemplateGfxDescriptorBatiment
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
+                    SymbolName                        = 'FOB_Nato_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]
@@ -1328,7 +1323,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -1458,9 +1452,9 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             (
                 PickableObject                        = True
                 BlackHoleIdentifier                   = "FOB_US"
-                Depiction                             = TemplateGfxDescriptorBatiment
+                Depiction                             = TTimelyModifyLevelBuildReceiverFactory
                 (
-                    SceneryDescriptorName      = 'FOB_Nato_03'
+                    SymbolName                        = 'FOB_Nato_03'
                 )
             )
             Selection                              = [ ~/NilDescriptorIfCadavre ]

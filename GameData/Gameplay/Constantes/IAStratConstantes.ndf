@@ -228,17 +228,6 @@ export IAStratConstantes is TIAStratConstantesDescriptor_Specific
     //--------------- Regroup Point ---------------------------------------//
     NumberOfDangerousIndicesToIgnoreForRegroupPoint = 1
 
-    //--------------- Defenses --------------------------------------------//
-
-    DefenseBuildingBudget = 250
-    BunkerTagPerType = MAP
-    [
-        (EIAStratDefenseType/BunkerMG, "Defense_BunkerMG"),
-        (EIAStratDefenseType/BunkerAT_Leger, "Defense_BunkerAT_Leger"),
-        (EIAStratDefenseType/BunkerAT_Standard, "Defense_BunkerAT_Standard"),
-        (EIAStratDefenseType/BunkerAT_Lourd, "Defense_BunkerAT_Lourd"),
-    ]
-
 
     //---------------------------------------------------------------------------------//
     //---------------------------------------------------------------------------------//

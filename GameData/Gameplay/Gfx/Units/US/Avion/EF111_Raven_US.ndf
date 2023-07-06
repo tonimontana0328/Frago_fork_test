@@ -1,25 +1,19 @@
-export ModelFile_EF111_Raven_US is 'GameData:/Assets/3D/Units/US/Avion/Raven_EF_111A/Raven_EF_111A.Ase2NdfBin'
-
-Modele_EF111_Raven_US is TResourceMultiMaterialMeshWithLod
+export Modele_EF111_Raven_US is TemplateMeshDescriptor
 (
-    FileName = ModelFile_EF111_Raven_US
-    CivMask =  CivMask/Common
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/Raven_EF_111A/Raven_EF_111A.Ase2NdfBin'
 )
 
-Modele_EF111_Raven_US_MID is TResourceMultiMaterialMeshWithLod
+export Modele_EF111_Raven_US_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/Raven_EF_111A_MID/Raven_EF_111A_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_EF111_Raven_US_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_EF111_Raven_US_LOW is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/LODS/Raven_EF_111A_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_EF111_Raven_US_train is TResourceMultiMaterialMeshWithLod
+export Modele_EF111_Raven_US_train is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/Raven_EF_111A/Raven_EF_111A_train.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

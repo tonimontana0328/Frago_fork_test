@@ -1,19 +1,14 @@
-export ModelFile_T72M1_DDR is 'GameData:/Assets/3D/Units/DDR/Char/T72M1/T72M1.fbx'
-
-Modele_T72M1_DDR is TResourceMultiMaterialMeshWithLod
-(
-    FileName = ModelFile_T72M1_DDR
-    CivMask =  CivMask/Common
-)
-
-Modele_T72M1_DDR_MID is TResourceMultiMaterialMeshWithLod
+export Modele_T72M1_DDR is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/DDR/Char/T72M1/T72M1.fbx'
-    CivMask =  CivMask/Common
 )
 
-Modele_T72M1_DDR_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_T72M1_DDR_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/DDR/Char/T72M1/T72M1.fbx'
-    CivMask =  CivMask/Common
+)
+
+export Modele_T72M1_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Char/T72M1/T72M1.fbx'
 )

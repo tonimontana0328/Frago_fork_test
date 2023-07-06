@@ -143,12 +143,13 @@ Challenge_Attack_Scaling is
     ~/Attack_Objectives_Autogen,
 
     ~/Attack_Main_Autogen,
-    ~/Attack_Helo_Autogen,
     ~/Attack_Adaptive_Autogen,
     ~/Attack_Adaptive_Autogen,
     ~/Attack_Adaptive_Autogen,
 
     ~/Airstrike_Assault_Autogen,
+    ~/Attack_Helo_Autogen,
+
     ~/Airstrike_Offense_Autogen,
     ~/Airstrike_Defense_Autogen,
 

@@ -706,3 +706,21 @@ CubeAction_Capacity_sniper is TCubeActionCapacityButtonInformationsDescriptor
     Descriptor                   = ~/Capacite_sniper
 )
 
+CubeAction_Capacity_sniper_no_snipe is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_sniper_no_snipe"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_sniper_no_snipe"
+    HoverSound                   = CubeActionButtonHoverSound_IfEnabled
+    ClickSound                   = CubeActionButtonClickSound_IfEnabled
+    ButtonTextToken              = ""
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = ""
+    HintBodyToken                = ""
+    HintExtendedToken            = ""
+    DependanciesToIgnore         =
+    [
+    ]
+    Descriptor                   = ~/Capacite_sniper_no_snipe
+)
+

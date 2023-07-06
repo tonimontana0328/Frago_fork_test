@@ -24,6 +24,12 @@ ConditionTagRaisedInUnit_Infanterie_Engaged_1 is TConditionTagRaisedInUnit
     Tag             = "Infanterie_Engaged"
     Amount          = 1
 )
+ConditionTagRaisedInUnit_snipe_ok_1 is TConditionTagRaisedInUnit
+(
+    DescriptorId    = GUID:{3e134a50-58f9-4c92-8aea-10a407fc1e2e}
+    Tag             = "snipe_ok"
+    Amount          = 1
+)
 ConditionTagRaisedInUnit_xp_elite_1 is TConditionTagRaisedInUnit
 (
     DescriptorId    = GUID:{e91f6584-4df2-4e31-93e9-60f4b36c4d83}

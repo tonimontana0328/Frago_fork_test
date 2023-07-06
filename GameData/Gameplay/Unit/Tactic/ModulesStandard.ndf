@@ -31,7 +31,6 @@ IAStratZoneIndexModuleDescriptor is TModuleSelector
 
 ShowroomPositionModuleDescriptor is TPositionModuleDescriptor
 (
-    UseFollowCam               = False
     StickToGround              = True
     InGeoDb                    = False
     PorteurMustBeVisible       = True

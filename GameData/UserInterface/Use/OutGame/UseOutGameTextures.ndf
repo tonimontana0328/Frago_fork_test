@@ -322,8 +322,8 @@ unnamed TBUCKToolAdditionalTextureBank
         ("challenge_Gotterdammerung", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_Gotterdammerung.png"))] ),
         ("challenge_TheKitzingenRuse", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_TheKitzingenRuse.png"))] ),
         ("challenge_BackhandBlow", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_BackhandBlow.png"))] ),
-        ("challenge_Holdem", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_Holdem.png"))] ),
-        ("challenge_lastManStanding", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_LastManStanting.png"))] ),
+        ("challenge_HoldUntilRelieved", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_HoldUntilRelieved.png"))] ),
+        ("challenge_TheDieburgSalient", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface//UseOutGame/Missions/map_LastManStanting.png"))] ),
         ("Outgame_bandeNoireListeMission", MAP [( ~/ComponentState/Normal, ~/Outgame_bandeNoireListeMission), ]),
         ("Outgame_backgroundMultiScreen", MAP [( ~/ComponentState/Normal, ~/Outgame_backgroundMultiScreen), ]),
         //-------------------------------------------------------------------------------------

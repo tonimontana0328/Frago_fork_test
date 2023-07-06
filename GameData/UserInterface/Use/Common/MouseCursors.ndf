@@ -543,3 +543,50 @@ Mousecurseur_ai_artillery_focus is TMouseCursorAnimation
         ]
     )
 )
+//-------------------------- Steelman  --------------------------------------
+
+MouseCurseur_strategic_plaine is TMouseCursorAnimation
+(
+    HotSpotX           = 1
+    HotSpotY           = 1
+    AnimationCycleTime = 1
+    //RepetitionFrame    = 1
+    TextureList = TResourceDescriptorTextureAnimation
+    (
+        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        FileNameList =
+        [
+            "GameData:/Assets/2D/Interface/Common/Cursors/curseur_strategic_plaine.png"
+        ]
+    )
+)
+MouseCurseur_strategic_foret is TMouseCursorAnimation
+(
+    HotSpotX           = 1
+    HotSpotY           = 1
+    AnimationCycleTime = 1
+    //RepetitionFrame    = 1
+    TextureList = TResourceDescriptorTextureAnimation
+    (
+        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        FileNameList =
+        [
+            "GameData:/Assets/2D/Interface/Common/Cursors/curseur_strategic_foret.png"
+        ]
+    )
+)
+MouseCurseur_strategic_urbain is TMouseCursorAnimation
+(
+    HotSpotX           = 1
+    HotSpotY           = 1
+    AnimationCycleTime = 1
+    //RepetitionFrame    = 1
+    TextureList = TResourceDescriptorTextureAnimation
+    (
+        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        FileNameList =
+        [
+            "GameData:/Assets/2D/Interface/Common/Cursors/curseur_strategic_urbain.png"
+        ]
+    )
+)

@@ -239,7 +239,7 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
     BataillonMoralValue = 75
 
     TacticalTimeLimit = 60
-    TacticalScoreLimit = 2500
+    TacticalScoreLimit = 3000
     TacticalScoreLimitReachedVictoryLevelConstantes = ~/TacticFromStrategicScoreLimitReachedVictoryLevelConstantes
     TacticalScoreDefeatMoralVictoryLevelConstantes = ~/TacticFromStrategicDefeatMoralVictoryLevelConstantes
 

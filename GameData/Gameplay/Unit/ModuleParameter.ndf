@@ -103,16 +103,12 @@ Namespace_UnitsInFormationModule is 12
 Namespace_LinkToFormationModule is 13
 Parameter_ObjectivesListManagementType is 90
 Parameter_SpawningInShowRoom is 91
-Parameter_ProductionAssociatedTransporter is 92
-Parameter_ProductionAssociatedSuperTransporter is 93
-Parameter_ProductionAssociatedTransportable is 94
-Parameter_ProductionAssociatedSubTransportable is 95
-Parameter_TeamAllianceStyle is 96
-Parameter_AirplaneLocation is 97
-Parameter_OriginalHP is 98
-Parameter_ShootingPointList is 99
-Parameter_ShootingPointDirectionList is 100
-Parameter_GlobalBoxesForDamages is 101
-Parameter_GlobalBoundings is 102
-Parameter_DynamicTerrainZones is 103
+Parameter_TeamAllianceStyle is 92
+Parameter_AirplaneLocation is 93
+Parameter_OriginalHP is 94
+Parameter_ShootingPointList is 95
+Parameter_ShootingPointDirectionList is 96
+Parameter_GlobalBoxesForDamages is 97
+Parameter_GlobalBoundings is 98
+Parameter_DynamicTerrainZones is 99
 

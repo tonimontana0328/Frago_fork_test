@@ -1096,7 +1096,7 @@ GameRoomListPanelBorderContainerDescriptor is BUCKContainerDescriptor
 private ModaleAskPasswordCancelButton is CancelButton
 (
     ElementName = 'CancelButton'
-    TextToken = 'BTN_CANCEL'
+    TextToken = "BTN_CANCEL"
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
 )
 
@@ -1107,6 +1107,7 @@ private ModaleAskPasswordJoinButton is ConfirmButton
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
 )
 
+// This modal is only used for dedicated servers that request password
 ModaleAskPasswordWindowFrame is SpecificModaleWindowFrame
 (
     ContentMagnifiableWidthHeight = [850.0, 360.0]

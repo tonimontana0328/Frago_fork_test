@@ -2,43 +2,6 @@ DivisionsBriefRadioManager is TBUCKRadioButtonManager()
 
 //-------------------------------------------------------------------------------------
 
-private DivisionBriefSelectionBackButton is ConfirmButton
-(
-    ElementName = 'BackButton'
-    TextToken = 'NV_BACK'
-    Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-
-    ButtonMagnifiableWidthHeight = [175.0, 35.0]
-    TextTypefaceToken = "UISecondFont"
-    TextStyle = 'TextStyleEcranMoniteur'
-    TextColorToken = 'loginBlanc'
-    BorderLineColorToken = 'VertLogin'
-    HasBackground = true
-    BackgroundBlockColorToken = 'loginBoutonBackground_vert'
-    TextSizeToken = '24'
-    BorderThicknessToken = '3'
-)
-
-//-------------------------------------------------------------------------------------
-
-private DivisionBriefSelectionSelectButton is ConfirmButton
-(
-    ElementName = 'SelectButton'
-    TextToken = 'DS_SELECT'
-    Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
-    ButtonMagnifiableWidthHeight = [175.0, 35.0]
-    TextTypefaceToken = "UISecondFont"
-    TextStyle = 'TextStyleEcranMoniteur_cyan'
-    TextColorToken = 'loginBlanc'
-    BorderLineColorToken = 'Cyan'
-    HasBackground = true
-    BackgroundBlockColorToken = 'loginBoutonBackground_cyan'
-    TextSizeToken = '24'
-    BorderThicknessToken = '3'
-)
-
-//-------------------------------------------------------------------------------------
-
 private DivisionBriefSelectionCloseButton is MenuActionButton
 (
     ElementName = 'BackButton'
@@ -321,8 +284,8 @@ DivisionInfosDisplay is BUCKContainerDescriptor
         (
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableOffset = [50.0, 0.0]
                 MagnifiableWidthHeight = [790.0, 0.0]
+                MagnifiableOffset = [18.0, 0.0]
             )
 
             Axis = ~/ListAxis/Vertical
@@ -521,108 +484,16 @@ private SpecificDivisionSelectionContent is BUCKListDescriptor
             ComponentDescriptor = ~/DivisionInfosDisplay
         )
     ]
-)
 
-//-------------------------------------------------------------------------------------
-
-ScreenMainList is BUCKListDescriptor
-(
-    ElementName = "ScreenMainList"
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight = [1.0, 0.0]
-        MagnifiableOffset = [10.0, -150.0]
-    )
-
-    Axis = ~/ListAxis/Vertical
-    InterItemMargin = TRTTILength(Magnifiable = 0.0)
-
-    Elements =
+    ForegroundComponents =
     [
-        // ligne ****
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKTextDescriptor
-            (
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    MagnifiableWidthHeight = [0.0, 20.0]
-                    AlignementToFather = [0.5, 0.0]
-                    AlignementToAnchor = [0.5, 0.0]
-                )
-
-                ParagraphStyle = paragraphStyleTextCenter
-                TextStyle = "TextStyleEcranMoniteur"
-
-                VerticalFitStyle = ~/FitStyle/UserDefined
-                TypefaceToken = "IBM"
-                BigLineAction = ~/BigLineAction/MultiLine
-                TextToken = 'seldiv'
-                TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                TextColor = "Blanc"
-                TextSize = "24"
-            )
-        ),
-
-        BUCKListElementSpacer( Magnifiable = 20.0),
-
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = ~/SpecificDivisionSelectionContent
-        ),
-
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKListDescriptor
-            (
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    AlignementToFather = [0.5, 0.0]
-                    AlignementToAnchor = [0.5, 0.0]
-                    MagnifiableWidthHeight = [0.0, 20.0]
-                )
-
-                InterItemMargin = TRTTILength( Magnifiable = 20.0 )
-                LastMargin = TRTTILength( Magnifiable = 0.0 )
-                Axis = ~/ListAxis/Horizontal
-
-                Elements =
-                [
-                    BUCKListElementDescriptor( ComponentDescriptor = ~/DivisionBriefSelectionSelectButton ),
-                    BUCKListElementDescriptor( ComponentDescriptor = ~/DivisionBriefSelectionBackButton ),
-                ]
-            )
-        )
-    ]
-)
-
-//-------------------------------------------------------------------------------------
-
-private BUCKSpecificDivisionSelectionMainComponentDescriptor is SpecificModaleWindowFrame
-(
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [850.0, 0.0]
-        AlignementToAnchor = [0.5, 0.5]
-        AlignementToFather = [0.5, 0.5]
-    )
-
-    ContentRelativeWidthHeight = [1.0, 0.0]
-    ContentMagnifiableWidthHeight = [0.0, 110.0]
-    TitleToken = ''
-
-    ButtonList = []
-
-    ContentComponents =
-    [
-        ScreenMainList,
         BUCKCheckBoxListDescriptor
         (
             ElementName = "FiltersList"
             ComponentFrame = TUIFramePropertyRTTI
             (
                 MagnifiableWidthHeight = [175.0, 40.0]
-                MagnifiableOffset = [10.0, -110.0]
+                MagnifiableOffset = [-30.0, 0.0]
             )
 
             IsForModale = true
@@ -638,32 +509,46 @@ private BUCKSpecificDivisionSelectionMainComponentDescriptor is SpecificModaleWi
             MagnifiableOffsetRack = [-130.0, 35.0]
             ListData = ~/DivisionFilterList
             ItemListBackgroundBlockColorToken = 'VertLogin'
-        ),
+        )
+    ]
+)
 
-        BUCKTextureDescriptor
+//-------------------------------------------------------------------------------------
+
+private BUCKSpecificDivisionSelectionMainComponentDescriptor is SpecificModalWindow
+(
+    TitleToken = "seldiv"
+    ContentMagnifiableWidthHeight = [0.0, 580.0]
+
+    ButtonList =
+    [
+        BUCKListElementDescriptor
         (
-            ComponentFrame = TUIFramePropertyRTTI
+            ComponentDescriptor = SpecificModalButton
             (
-                MagnifiableWidthHeight = [904.0, 732.0]
-                MagnifiableOffset = [0.0, -150.0]
+                ElementName = "SelectButton"
+                TextToken = "DS_SELECT"
+                Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
+                IsFilled = true
             )
-            TextureToken = 'Outgame_modale_foreground'
-            TextureDrawer = 'ColorMultiply_Additive'
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SpecificModalButton
+            (
+                ElementName = "BackButton"
+                TextToken = "NV_BACK"
+                Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
+                IsFilled = false
+            )
         )
     ]
 
-    AdditionalComponents =
+    ElementsList =
     [
-        BUCKTextureDescriptor
+        BUCKListElementDescriptor
         (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [904.0, 732.0]
-                MagnifiableOffset = [0.0, -150.0]
-            )
-
-            TextureToken = 'Outgame_modale_fond'
-            TextureDrawer = 'MonochromeMonitorEffect'
+            ComponentDescriptor = SpecificDivisionSelectionContent
         )
     ]
 )

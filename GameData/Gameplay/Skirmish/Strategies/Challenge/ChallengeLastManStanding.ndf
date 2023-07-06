@@ -1,30 +1,30 @@
 //-------------------------------------------------------------------------
 //----------------------------- STRATEGY ----------------------------------
 //-------------------------------------------------------------------------
-export ChallengeLastManStandingStrategy is TIAGeneralStrategy
+export ChallengeTheDieburgSalientStrategy is TIAGeneralStrategy
 (
     StrategyName = "ChalLMSAI"
-    FirstGenerator = ChalLastManStanding_Choose_Strategy
+    FirstGenerator = ChalTheDieburgSalient_Choose_Strategy
     ConstantesMap = MAP[
         ("ForceTacticalMoveAndAttack", TEugBBoolean(Value = true)),
     ]
     AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
     TransitionList =
     [
-        ChalLastManStanding_Transition_StartToPhaseCommand,
-        ChalLastManStanding_Transition_StartToGeneric,
-        ChalLastManStanding_Transition_DeployToCommandPhase,
+        ChalTheDieburgSalient_Transition_StartToPhaseCommand,
+        ChalTheDieburgSalient_Transition_StartToGeneric,
+        ChalTheDieburgSalient_Transition_DeployToCommandPhase,
     ]
 )
 
 //-------------------------------------------------------------------------
 //---------------------------- CONDITIONS ---------------------------------
 //-------------------------------------------------------------------------
-export ChalLastManStanding_Condition_GotoGeneric is TSequenceCondition_True
+export ChalTheDieburgSalient_Condition_GotoGeneric is TSequenceCondition_True
 (
 )
 //-------------------------------------------------------------------------
-export ChalLastManStanding_Condition_CommandPhase is TSequenceCondition_Phase
+export ChalTheDieburgSalient_Condition_CommandPhase is TSequenceCondition_Phase
 (
     PhaseType = CommandPhase
 )
@@ -32,30 +32,30 @@ export ChalLastManStanding_Condition_CommandPhase is TSequenceCondition_Phase
 //-------------------------------------------------------------------------
 //--------------------------- TRANSITIONS ---------------------------------
 //-------------------------------------------------------------------------
-export ChalLastManStanding_Transition_StartToPhaseCommand is TIAGeneralStrategyTransition
+export ChalTheDieburgSalient_Transition_StartToPhaseCommand is TIAGeneralStrategyTransition
 (
-    Origine = ChalLastManStanding_Choose_Strategy
-    Condition = ChalLastManStanding_Condition_CommandPhase
-    Destination = ChalLastManStanding_Phase_Command
+    Origine = ChalTheDieburgSalient_Choose_Strategy
+    Condition = ChalTheDieburgSalient_Condition_CommandPhase
+    Destination = ChalTheDieburgSalient_Phase_Command
 )
-export ChalLastManStanding_Transition_StartToGeneric is TIAGeneralStrategyTransition
+export ChalTheDieburgSalient_Transition_StartToGeneric is TIAGeneralStrategyTransition
 (
-    Origine = ChalLastManStanding_Choose_Strategy
-    Condition = ChalLastManStanding_Condition_GotoGeneric
-    Destination = ChalLastManStanding_Phase_Deploiement
+    Origine = ChalTheDieburgSalient_Choose_Strategy
+    Condition = ChalTheDieburgSalient_Condition_GotoGeneric
+    Destination = ChalTheDieburgSalient_Phase_Deploiement
 )
 //-------------------------------------------------------------------------
-export ChalLastManStanding_Transition_DeployToCommandPhase is TIAGeneralStrategyTransition
+export ChalTheDieburgSalient_Transition_DeployToCommandPhase is TIAGeneralStrategyTransition
 (
-    Origine = ChalLastManStanding_Phase_Deploiement
-    Condition = ChalLastManStanding_Condition_CommandPhase
-    Destination = ChalLastManStanding_Phase_Command
+    Origine = ChalTheDieburgSalient_Phase_Deploiement
+    Condition = ChalTheDieburgSalient_Condition_CommandPhase
+    Destination = ChalTheDieburgSalient_Phase_Command
 )
 
 //-------------------------------------------------------------------------
 //------------------------------ PHASES -----------------------------------
 //-------------------------------------------------------------------------
-export ChalLastManStanding_Choose_Strategy is TSequenceGeneratorDescriptor
+export ChalTheDieburgSalient_Choose_Strategy is TSequenceGeneratorDescriptor
 (
     // Fake phase qui permet juste d'orienter la strategie dans la direction voulue
     NbMacroActionAllowedToProduceSimultaneous = 9001
@@ -66,7 +66,7 @@ export ChalLastManStanding_Choose_Strategy is TSequenceGeneratorDescriptor
     ]
 )
 //-------------------------------------------------------------------------
-export ChalLastManStanding_Phase_Deploiement is TSequenceGeneratorDescriptor
+export ChalTheDieburgSalient_Phase_Deploiement is TSequenceGeneratorDescriptor
 (
     NbMacroActionAllowedToProduceSimultaneous = 4
     GeneratorList =
@@ -91,10 +91,10 @@ export ChalLastManStanding_Phase_Deploiement is TSequenceGeneratorDescriptor
 
         ~/Artillery_Expensive,
     ]
-    ScalingGeneratorList = ~/Challenge_LastManStanding_Scaling
+    ScalingGeneratorList = ~/Challenge_TheDieburgSalient_Scaling
 )
 //-------------------------------------------------------------------------
-export ChalLastManStanding_Phase_Command is TSequenceGeneratorDescriptor
+export ChalTheDieburgSalient_Phase_Command is TSequenceGeneratorDescriptor
 (
     NbMacroActionAllowedToProduceSimultaneous = 3
     GeneratorList =
@@ -120,10 +120,10 @@ export ChalLastManStanding_Phase_Command is TSequenceGeneratorDescriptor
         ~/Artillery_Expensive,
         ~/Attack_Adaptive,          // Environ 200
     ]
-    ScalingGeneratorList = ~/Challenge_LastManStanding_Scaling
+    ScalingGeneratorList = ~/Challenge_TheDieburgSalient_Scaling
 )
 
-Challenge_LastManStanding_Scaling is
+Challenge_TheDieburgSalient_Scaling is
 [
     ~/Attack_Main_Autogen,
     ~/Attack_Helo_Autogen,

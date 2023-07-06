@@ -1,19 +1,14 @@
-export ModelFile_M60A3_Patton_US is 'GameData:/Assets/3D/Units/US/Char/M60A3_Patton/M60A3_Patton.Ase2NdfBin'
-
-Modele_M60A3_Patton_US is TResourceMultiMaterialMeshWithLod
+export Modele_M60A3_Patton_US is TemplateMeshDescriptor
 (
-    FileName = ModelFile_M60A3_Patton_US
-    CivMask =  CivMask/Common
+    FileName = 'GameData:/Assets/3D/Units/US/Char/M60A3_Patton/M60A3_Patton.Ase2NdfBin'
 )
 
-Modele_M60A3_Patton_US_MID is TResourceMultiMaterialMeshWithLod
+export Modele_M60A3_Patton_US_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Char/M60A3_Patton_MID/M60A3_Patton_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_M60A3_Patton_US_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_M60A3_Patton_US_LOW is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Char/LODS/M60A3_Patton_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

@@ -1,25 +1,19 @@
-export ModelFile_F117_Nighthawk_US is 'GameData:/Assets/3D/Units/US/Avion/F117_Nighthawk/F117_Nighthawk.Ase2NdfBin'
-
-Modele_F117_Nighthawk_US is TResourceMultiMaterialMeshWithLod
+export Modele_F117_Nighthawk_US is TemplateMeshDescriptor
 (
-    FileName = ModelFile_F117_Nighthawk_US
-    CivMask =  CivMask/Common
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F117_Nighthawk/F117_Nighthawk.Ase2NdfBin'
 )
 
-Modele_F117_Nighthawk_US_MID is TResourceMultiMaterialMeshWithLod
+export Modele_F117_Nighthawk_US_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/F117_Nighthawk_MID/F117_Nighthawk_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_F117_Nighthawk_US_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_F117_Nighthawk_US_LOW is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/LODS/F117_Nighthawk_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_F117_Nighthawk_US_train is TResourceMultiMaterialMeshWithLod
+export Modele_F117_Nighthawk_US_train is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/F117_Nighthawk/F117_Nighthawk_Train.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

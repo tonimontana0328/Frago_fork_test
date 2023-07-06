@@ -894,11 +894,69 @@ SliderTitles is BUCKListDescriptor
                     [
                         BUCKListElementDescriptor
                         (
+                            ComponentDescriptor  = BUCKTextDescriptor
+                            (
+
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1,0]
+                                    MagnifiableWidthHeight = [0,20]
+                                    )
+
+                                ParagraphStyle = TParagraphStyleRTTI
+                                (
+                                    Alignment = UIText_Center
+                                    VerticalAlignment = UIText_VerticalCenter
+                                )
+
+                                BigLineAction = ~/BigLineAction/MultiLine
+
+                                TextSize = "14"
+                                TextColor = "SD2_Blanc184"
+
+                                TextStyle = "Default"
+                                TypefaceToken = "Eurostyle"
+
+                                TextToken = 'PrC_in1'
+                                TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                            )
+                        ),
+                        BUCKListElementDescriptor
+                        (
                             ComponentDescriptor = TitleAndSlider
                             (
                                 ElementName = "AIDeployment"
                                 TitleToken = "PrC_in1"
                                 ValueToken = "depl_pts"
+                            )
+                        ),
+                        BUCKListElementDescriptor
+                        (
+                            ComponentDescriptor  = BUCKTextDescriptor
+                            (
+
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1,0]
+                                    MagnifiableWidthHeight = [0,20]
+                                    )
+
+                                ParagraphStyle = TParagraphStyleRTTI
+                                (
+                                    Alignment = UIText_Center
+                                    VerticalAlignment = UIText_VerticalCenter
+                                )
+
+                                BigLineAction = ~/BigLineAction/MultiLine
+
+                                TextSize = "14"
+                                TextColor = "SD2_Blanc184"
+
+                                TextStyle = "Default"
+                                TypefaceToken = "Eurostyle"
+
+                                TextToken = 'PrC_in2'
+                                TextDico = ~/LocalisationConstantes/dico_interface_ingame
                             )
                         ),
                         BUCKListElementDescriptor
@@ -1097,7 +1155,7 @@ AICommandPointsConfiguration is BUCKListDescriptor
 
     Axis = ~/ListAxis/Vertical
 
-    InterItemMargin = TRTTILength(Magnifiable = 4.0)
+    InterItemMargin = TRTTILength(Magnifiable = 10.0)
     // LastMargin = TRTTILength(Magnifiable = 14.0)
 
     // HasBorder = true
@@ -1115,68 +1173,12 @@ AICommandPointsConfiguration is BUCKListDescriptor
                 HintBodyToken = "sm_tdiste"
             )
         ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor  = BUCKTextDescriptor
-            (
 
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    RelativeWidthHeight = [1,0]
-                    MagnifiableWidthHeight = [0,30]
-                    )
-
-                ParagraphStyle = TParagraphStyleRTTI
-                (
-                    Alignment = UIText_Center
-                    VerticalAlignment = UIText_VerticalCenter
-                )
-
-                BigLineAction = ~/BigLineAction/MultiLine
-
-                TextSize = "14"
-                TextColor = "SD2_Blanc184"
-
-                TextStyle = "Default"
-                TypefaceToken = "Eurostyle"
-
-                TextToken = 'PrC_in1'
-                TextDico = ~/LocalisationConstantes/dico_interface_ingame
-            )
-        ),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = ~/SliderTitles
         ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor  = BUCKTextDescriptor
-            (
 
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    RelativeWidthHeight = [1,0]
-                    MagnifiableWidthHeight = [0,20]
-                    )
-
-                ParagraphStyle = TParagraphStyleRTTI
-                (
-                    Alignment = UIText_Center
-                    VerticalAlignment = UIText_VerticalCenter
-                )
-
-                BigLineAction = ~/BigLineAction/MultiLine
-
-                TextSize = "14"
-                TextColor = "SD2_Blanc184"
-
-                TextStyle = "Default"
-                TypefaceToken = "Eurostyle"
-
-                TextToken = 'PrC_in2'
-                TextDico = ~/LocalisationConstantes/dico_interface_ingame
-            )
-        ),
 
     ]
 )

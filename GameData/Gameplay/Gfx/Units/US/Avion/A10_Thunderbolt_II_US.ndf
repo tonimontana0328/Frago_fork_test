@@ -1,25 +1,19 @@
-export ModelFile_A10_Thunderbolt_II_US is 'GameData:/Assets/3D/Units/US/Avion/\A10_Thunderbolt_II_Grey/A10_Thunderbolt_II.Ase2NdfBin'
-
-Modele_A10_Thunderbolt_II_US is TResourceMultiMaterialMeshWithLod
-(
-    FileName = ModelFile_A10_Thunderbolt_II_US
-    CivMask =  CivMask/Common
-)
-
-Modele_A10_Thunderbolt_II_US_MID is TResourceMultiMaterialMeshWithLod
+export Modele_A10_Thunderbolt_II_US is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/A10_Thunderbolt_II_Grey/A10_Thunderbolt_II.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_A10_Thunderbolt_II_US_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_A10_Thunderbolt_II_US_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/A10_Thunderbolt_II_Grey/A10_Thunderbolt_II.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_A10_Thunderbolt_II_US_train is TResourceMultiMaterialMeshWithLod
+export Modele_A10_Thunderbolt_II_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/A10_Thunderbolt_II_Grey/A10_Thunderbolt_II.Ase2NdfBin'
+)
+
+export Modele_A10_Thunderbolt_II_US_train is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Avion/A10_Thunderbolt_II/A10_Thunderbolt_II_train.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

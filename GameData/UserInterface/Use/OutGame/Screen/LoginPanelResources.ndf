@@ -1,13 +1,5 @@
 
 // -------------------------------------------------------------------------------------------------
-
-private LoginModalChangeButtonDescriptor is LoginScreenMainButton
-(
-    ElementName = "ChangeButton"
-    TextToken = 'BTN_CHANGE'
-)
-
-// -------------------------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------------------------
 
 private LoginModalRecoverButtonDescriptor is LoginScreenMainButton
@@ -20,25 +12,25 @@ private LoginModalRecoverButtonDescriptor is LoginScreenMainButton
 // -------------------------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------------------------
 
-private ChangePasswordModalWindowFrame is SpecificModaleWindowFrame
+private ChangePasswordModalWindowFrame is SpecificModalWindow
 (
     UniqueName = "ChangePasswordModalWindowFrame"
-
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [1317.0, 0.0]
-        AlignementToFather = [0.5, 0.5]
-        AlignementToAnchor = [0.5, 0.5]
-    )
-
-    ContentRelativeWidthHeight = [1.0, 0.0]
     ContentMagnifiableWidthHeight = [0.0, 230.0]
-    TitleToken = 'T_CHGPASS'
+    TitleToken = "T_CHGPASS"
 
     ButtonList =
     [
-        BUCKListElementDescriptor( ComponentDescriptor = ~/LoginModalChangeButtonDescriptor ),
-        BUCKListElementDescriptor( ComponentDescriptor = ~/LoginModalCancelButtonDescriptor ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SpecificModalButton
+            (
+                ElementName = "ChangeButton"
+                TextToken = "BTN_CHANGE"
+                Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
+                IsFilled = true
+            )
+        ),
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalCancelButton)
     ]
 )
 
@@ -184,94 +176,24 @@ is BUCKContainerDescriptor
 // -------------------------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------------------------
 
-private ErrorConnectionModalDescriptor is SpecificModaleWindowFrame
+private ErrorConnectionModalDescriptor is SpecificModalWindow
 (
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [850.0, 0.0]
-        AlignementToAnchor = [0.5, 0.5]
-        AlignementToFather = [0.5, 0.5]
-    )
-
-    ContentRelativeWidthHeight = [1.0, 0.0]
     ContentMagnifiableWidthHeight = [0.0, 110.0]
-    TitleToken = 'CONERROR'
-
-    ContentComponents =
-    [
-        BUCKTextDescriptor
-        (
-            ElementName = "ErrorText"
-
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 1.0]
-                MagnifiableWidthHeight = [0.0, 0.0]
-                AlignementToFather = [0.5, 0.5]
-                AlignementToAnchor = [0.5, 0.5]
-            )
-
-            ParagraphStyle = paragraphStyleTextCenter
-            TextStyle = "TextStyleEcranMoniteur"
-
-            VerticalFitStyle = ~/FitStyle/UserDefined
-            TypefaceToken = "IBM"
-            BigLineAction = ~/BigLineAction/MultiLine
-            TextToken = 'HINT_EX_SP'
-            TextDico = ~/LocalisationConstantes/dico_interface_outgame
-            TextColor = "Blanc"
-            TextSize = "24"
-        ),
-
-        BUCKTextureDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [904.0, 732.0]
-                MagnifiableOffset = [0,-150]
-            )
-            TextureToken = 'Outgame_modale_foreground'
-            TextureDrawer = 'ColorMultiply_Additive'
-        )
-    ]
+    TitleToken = "CONERROR"
 
     ButtonList =
     [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ModalButtonCyan
+            ComponentDescriptor = SpecificModalButton
             (
                 ElementName = "RetryButton"
-                TextToken = 'BTN_RETRY'
+                TextToken = "BTN_RETRY"
                 Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
                 IsFilled = true
             )
         ),
-
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = ModalButtonCyan
-            (
-                ElementName = "CancelButton"
-                TextToken = 'BTN_CANCEL'
-                Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-                IsFilled = false
-            )
-        ),
-    ]
-
-    AdditionalComponents =
-    [
-        BUCKTextureDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [904.0, 732.0]
-                MagnifiableOffset = [0,-150]
-            )
-            TextureToken = 'Outgame_modale_fond'
-            TextureDrawer = 'MonochromeMonitorEffect'
-        )
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalCancelButton)
     ]
 )
 

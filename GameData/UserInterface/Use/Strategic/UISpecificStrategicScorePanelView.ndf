@@ -785,4 +785,10 @@ template UISpecificStrategicScorePanelViewDescriptor
     MainComponentContainerUniqueName = ""
     TerritoryToken = "SSC_TERRIT"
     TerritoryLine = ~/TerritoryLine
+
+    NationaliteTextureTokens = MAP
+    [
+        (ENationalite/OTAN, "CommonTexture_MotherCountryFlag_NATO"),
+        (ENationalite/PACT, "CommonTexture_MotherCountryFlag_PACT"),
+    ]
 )

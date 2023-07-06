@@ -1,21 +1,16 @@
-export ModelFile_FV721_Fox_UK is 'GameData:/Assets/3D/Units/UK/Vehicule/FV721_Fox/FV721_Fox.Ase2NdfBin'
-
-Modele_FV721_Fox_UK is TResourceMultiMaterialMeshWithLod
+export Modele_FV721_Fox_UK is TemplateMeshDescriptor
 (
-    FileName     = ModelFile_FV721_Fox_UK
-    CivMask =  CivMask/Common
+    FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/FV721_Fox/FV721_Fox.Ase2NdfBin'
 )
 
-Modele_FV721_Fox_UK_MID is TResourceMultiMaterialMeshWithLod
+export Modele_FV721_Fox_UK_MID is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/FV721_Fox_MID/FV721_Fox_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_FV721_Fox_UK_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_FV721_Fox_UK_LOW is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/LODS/FV721_Fox_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
 

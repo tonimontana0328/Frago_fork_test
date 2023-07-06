@@ -16,7 +16,6 @@ export Descriptor_UnitCadavre_FOB_DDR is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -65,7 +64,6 @@ export Descriptor_UnitCadavre_FOB_FR is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -114,7 +112,6 @@ export Descriptor_UnitCadavre_FOB_RFA is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -163,7 +160,6 @@ export Descriptor_UnitCadavre_FOB_SOV is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -212,7 +208,6 @@ export Descriptor_UnitCadavre_FOB_UK is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True
@@ -261,7 +256,6 @@ export Descriptor_UnitCadavre_FOB_US is TEntityDescriptor
         ),
             TPositionModuleDescriptor
             (
-                UseFollowCam               = False
                 StickToGround              = True
                 InGeoDb                    = True
                 PorteurMustBeVisible       = True

@@ -1,25 +1,19 @@
-export ModelFile_Leopard_1A1_CMD_RFA is 'GameData:/Assets/3D/Units/RFA/Char/Leopard_1A1_CMD/Leopard_1A1_CMD.Ase2NdfBin'
-
-Modele_Leopard_1A1_CMD_RFA is TResourceMultiMaterialMeshWithLod
+export Modele_Leopard_1A1_CMD_RFA is TemplateMeshDescriptor
 (
-    FileName = ModelFile_Leopard_1A1_CMD_RFA
-    CivMask =  CivMask/Common
+    FileName = 'GameData:/Assets/3D/Units/RFA/Char/Leopard_1A1_CMD/Leopard_1A1_CMD.Ase2NdfBin'
 )
 
-Modele_Leopard_1A1_CMD_RFA_MID is TResourceMultiMaterialMeshWithLod
+export Modele_Leopard_1A1_CMD_RFA_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/RFA/Char/Leopard_1A1_CMD_MID/Leopard_1A1_CMD_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_Leopard_1A1_CMD_RFA_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_Leopard_1A1_CMD_RFA_LOW is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/RFA/Char/LODS/Leopard_1A1_CMD_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_Leopard_1A1_CMD_RFA_Tourelle_02 is TResourceMultiMaterialMeshWithLod
+export Modele_Leopard_1A1_CMD_RFA_Tourelle_02 is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/Ammo/Tourelles/M60.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

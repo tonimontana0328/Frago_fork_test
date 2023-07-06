@@ -1983,8 +1983,6 @@ is TUISpecificUnitInfoPanelViewDescriptor
         ("AttributeStealth",          UnitInfoPanelAttribute(ElementName = "AttributeStealth" Token = "UIPA_STEAL" ValueToken = "UIP_VAL" HintToken = "HIP_STEAL" Scale = Scale)),
         ("AttributeOptics",           UnitInfoPanelAttribute(ElementName = "AttributeOptics" Token = "UIP_OPTICS" ValueToken = "UIP_VAL" HintToken = "HIP_OPTIC" Scale = Scale)),
         ("AttributeAirOptics",        UnitInfoPanelAttribute(ElementName = "AttributeAirOptics" Token = "UIP_AIROPT" ValueToken = "UIP_VAL" HintToken = "HIP_AIROP" Scale = Scale)),
-        ("AttributeTransportSize",    UnitInfoPanelAttribute(ElementName = "AttributeTransportSize" Token = "UIP_TPTER" ValueToken = "UIP_VAL" HintToken = "HIP_TPTER" Scale = Scale)),
-        ("AttributeSize",             UnitInfoPanelAttribute(ElementName = "AttributeSize" Token = "UIP_TPTBL" ValueToken = "UIP_VAL" HintToken ="HIP_TPTBL" Scale = Scale)),
         ("AttributeResilience",       UnitInfoPanelAttribute(ElementName = "AttributeResilience" Token = "UIP_RESIL" ValueToken = "UIP_VAL" HintToken = "HIP_RESIL" Scale = Scale)),
 
         ("AttributeSupply",           UnitInfoPanelAttribute(ElementName = "AttributeSupply" Token = "UIPA_SUPLY" ValueToken = "UIP_VAL" HintToken = "HIP_SUPP" Scale = Scale)),
@@ -2000,9 +1998,6 @@ is TUISpecificUnitInfoPanelViewDescriptor
         ("AttributeAgility",          UnitInfoPanelAttribute(ElementName = "AttributeAgility" Token = "UIP_AGIL" ValueToken = "UIP_VAL" HintToken = "HIP_AGIL" Scale = Scale)),
 
         ("AttributeAdvanceDeployment",UnitInfoPanelAttribute(ElementName = "AttributeAdvanceDeployment" Token = "UIP_DPDST" ValueToken = "UIPW_METER" HintToken = "HIP_DPDST" Scale = Scale)),
-
-        ("EMPTY_SLOT1",                UnitInfoPanelAttribute(IsTransparent = true ElementName = "EMPTY_SLOT1" Token = "UIPA_CAT" Scale = Scale DicoToken = ~/LocalisationConstantes/dico_interface_outgame )),
-        ("EMPTY_SLOT2",                UnitInfoPanelAttribute(IsTransparent = true ElementName = "EMPTY_SLOT2" Token = "UIPA_CAT" Scale = Scale DicoToken = ~/LocalisationConstantes/dico_interface_outgame )),
 
     ]
 

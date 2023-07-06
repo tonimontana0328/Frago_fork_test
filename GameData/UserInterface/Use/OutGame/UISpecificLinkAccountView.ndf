@@ -191,7 +191,7 @@ BUCKSpecificLinkAccountMainComponentDescriptor is LoginTvContainer
                     ComponentDescriptor = LoginScreenMainButton
                     (
                         ElementName = "CancelButton"
-                        TextToken = 'BTN_CANCEL'
+                        TextToken = "BTN_CANCEL"
                         Mapping = TEugBMutablePBaseClass(Value = TUserInputMapping(KeyboardEventID = UserInputKeyboard/KEY_ESCAPE))
                     )
                 ),

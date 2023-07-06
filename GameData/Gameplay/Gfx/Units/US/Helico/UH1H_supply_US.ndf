@@ -1,19 +1,14 @@
-export ModelFile_UH1H_supply_US is 'GameData:/Assets/3D/Units/US/Helico/UH_1H_Huey_CMD/UH_1H_Huey_CMD.Ase2NdfBin'
-
-Modele_UH1H_supply_US is TResourceMultiMaterialMeshWithLod
+export Modele_UH1H_supply_US is TemplateMeshDescriptor
 (
-    FileName = ModelFile_UH1H_supply_US
-    CivMask =  CivMask/Common
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/UH_1H_Huey_CMD/UH_1H_Huey_CMD.Ase2NdfBin'
 )
 
-Modele_UH1H_supply_US_MID is TResourceMultiMaterialMeshWithLod
+export Modele_UH1H_supply_US_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Helico/UH_1H_Huey_CMD_MID/UH_1H_Huey_CMD_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_UH1H_supply_US_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_UH1H_supply_US_LOW is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/US/Helico/LODS/UH_1H_Huey_CMD_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

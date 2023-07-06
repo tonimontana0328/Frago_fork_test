@@ -58,7 +58,6 @@ BUCKListDescriptor
                 AutoHintElementName = <ListElementName> + "TextAutoHint"
             )
         ),
-
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKContainerDescriptor
@@ -116,327 +115,77 @@ BUCKSpecificOutGameHostPanelMainComponentDescriptor is BUCKListDescriptor
                     // ligne,
                     BUCKListElementDescriptor
                     (
-                            ComponentDescriptor = BUCKTextDescriptor
-                            (
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    MagnifiableWidthHeight = [0,20]
-                                    AlignementToFather = [0.5, 0.0]
-                                    AlignementToAnchor = [0.5, 0.0]
-                                    )
-                                ParagraphStyle = paragraphStyleTextCenter
-                                TextStyle = "TextStyleEcranMoniteur"
-
-                                VerticalFitStyle = ~/FitStyle/UserDefined
-                                TypefaceToken = "IBM"
-                                BigLineAction = ~/BigLineAction/MultiLine
-                                TextToken = 'HINT_EX_SP'
-                                TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                                TextColor = "Blanc"
-                                TextSize = "24"
-                                )
-
+                        ComponentDescriptor = SpecificModalDottedLine
                     ),
                     BUCKListElementSpacer( Magnifiable = 20.0 ),
                     //-------------------------------------------------------------------------------------
                     BUCKListElementDescriptor
                     (
-                        ComponentDescriptor = HostGameLine
+                        ComponentDescriptor = SpecificModalDropdown
                         (
-                            ListElementName = "Gametype"
-                            TitleToken = "Gametype"
-
-                            ComponentDescriptor = BUCKSpecificDropdownDescriptor
-                            (
-                                ElementName = "GametypeDropdown"
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    RelativeWidthHeight = [1.0, 0.0]
-                                    MagnifiableWidthHeight = [0.0, 30.0]
-                                    AlignementToFather = [0.5, 0.5]
-                                    AlignementToAnchor = [0.5, 0.5]
-                                )
-                                BackgroundBlockColorToken = 'VertLogin'
-                                IsForModale = true
-                                ItemFocusable = false
-                                HasBorder = false
-                                MainTextSizeToken = "18"
-                                MainTextColorToken  = "Noir"
-                                MainTextTypefaceToken  = "UISecondFont"
-                                ArrowTextureColorToken = 'Noir'
-
-
-                                //-------------------------------------------------------------------------------------
-
-                                ItemComponentBackgroundColor = "Noir"
-                                ItemsTextTypefaceToken = "UISecondFont"
-                                ItemsTextSizeToken = "18"
-                                ItemsTextColorToken = "HostGame"
-                                BorderLineColorToken = 'VertLogin'
-                                FloatingListMagnifiableWidth = 0.0
-                                FloatingListRelativeWidth  = 1
-                            )
+                            ElementName = "Gametype"
+                            TextToken = "Gametype"
+                            DropdownElementName = "GametypeDropdown"
                         )
                     ),
-
                     BUCKListElementDescriptor
                     (
-                        ComponentDescriptor = HostGameLine
+                        ComponentDescriptor = SpecificModalDropdown
                         (
-                            ListElementName = "GameVisibility"
-                            TitleToken = "gameVisibi"
-                            ComponentDescriptor = BUCKSpecificDropdownDescriptor
-                            (
-                                ElementName = "GameVisibiDropdown"
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    RelativeWidthHeight = [1.0, 0.0]
-                                    MagnifiableWidthHeight = [0.0, 30.0]
-                                    AlignementToFather = [0.5, 0.5]
-                                    AlignementToAnchor = [0.5, 0.5]
-                                )
-
-                                BackgroundBlockColorToken = 'VertLogin'
-                                IsForModale = true
-                                ItemFocusable = false
-                                HasBorder = false
-                                MainTextSizeToken = "18"
-                                MainTextColorToken  = "Noir"
-                                MainTextTypefaceToken  = "UISecondFont"
-                                ArrowTextureColorToken = 'Noir'
-
-                                //-------------------------------------------------------------------------------------
-
-                                ItemComponentBackgroundColor = "Noir"
-                                ItemsTextTypefaceToken = "UISecondFont"
-                                ItemsTextSizeToken = "18"
-                                ItemsTextColorToken = "HostGame"
-                                BorderLineColorToken = 'VertLogin'
-                                FloatingListMagnifiableWidth = 0.0
-                                FloatingListRelativeWidth  = 1
-                            )
+                            ElementName = "GameVisibility"
+                            TextToken = "gameVisibi"
+                            DropdownElementName = "GameVisibiDropdown"
                         )
                     ),
-
                     BUCKListElementDescriptor
                     (
-                        ComponentDescriptor = HostGameLine
+                        ComponentDescriptor = SpecificModalDropdown
                         (
-                            ListElementName = "GameSide"
-                            TitleToken = "Gametype"
-                            ComponentDescriptor = BUCKSpecificDropdownDescriptor
-                            (
-                                ElementName = "SideDropdown"
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    RelativeWidthHeight = [1.0, 0.0]
-                                    MagnifiableWidthHeight = [0.0, 30.0]
-                                    AlignementToFather = [0.5, 0.5]
-                                    AlignementToAnchor = [0.5, 0.5]
-                                )
-
-                                BackgroundBlockColorToken = 'VertLogin'
-                                IsForModale = true
-                                ItemFocusable = false
-                                HasBorder = false
-                                MainTextSizeToken = "18"
-                                MainTextColorToken  = "Noir"
-                                MainTextTypefaceToken  = "UISecondFont"
-                                ArrowTextureColorToken = 'Noir'
-
-                                //-------------------------------------------------------------------------------------
-
-                                ItemComponentBackgroundColor = "Noir"
-                                ItemsTextTypefaceToken = "UISecondFont"
-                                ItemsTextSizeToken = "18"
-                                ItemsTextColorToken = "HostGame"
-                                BorderLineColorToken = 'VertLogin'
-                                FloatingListMagnifiableWidth = 0.0
-                                FloatingListRelativeWidth  = 1
-                            )
+                            ElementName = "GameSide"
+                            TextToken = "Gametype"
+                            DropdownElementName = "SideDropdown"
                         )
                     ),
-
                     BUCKListElementDescriptor
                     (
-                        ComponentDescriptor = HostGameLine
+                        ComponentDescriptor = SpecificModalEditableText
                         (
-                            ListElementName = "GameName"
-                            TitleToken = "gameName"
-                            ComponentDescriptor = BUCKEditableTextDescriptor
-                            (
-                                ElementName = "GameNameEditable"
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    RelativeWidthHeight = [1.0, 0.0]
-                                    MagnifiableWidthHeight = [0.0, 30.0]
-                                    AlignementToFather = [0.5, 0.5]
-                                    AlignementToAnchor = [0.5, 0.5]
-                                )
-
-                                ClippingContainerFrameProperty = TUIFramePropertyRTTI
-                                (
-                                    RelativeWidthHeight = [1.0, 1.0]
-                                    MagnifiableWidthHeight = [-15.0, -6.0]
-                                    AlignementToFather = [0.5, 0.5]
-                                    AlignementToAnchor = [0.5, 0.5]
-                                )
-
-                                HasBackground = true
-                                BackgroundBlockColorToken = "VertLogin"
-
-                                Flags = ~/EditableTextFlag/H_LEFT | ~/EditableTextFlag/V_TOP | ~/EditableTextFlag/ONE_LINE
-
-                                TextSizeToken = "18"
-                                TypefaceToken = "UISecondFont"
-                                TextColorToken = "Noir"
-                                SelectionColorToken = "DeckOverview/CaseGrisee/EditableText/Selected"
-
-                                MaxChars = 50
-
-                                SelectTextOnFocus = true
-                            )
+                            ElementName = "GameName"
+                            TextToken = "gameName"
+                            HasText = true
+                            EditableTextElementName = "GameNameEditable"
                         )
                     ),
-
                     BUCKListElementDescriptor
                     (
-                        ComponentDescriptor = HostGameLine
+                        ComponentDescriptor = SpecificModalDropdown
                         (
-                            ListElementName = "Spectate"
-                            TitleToken = "Spectate"
-                            ComponentDescriptor = BUCKSpecificDropdownDescriptor
-                            (
-                                ElementName = "SpectateDropdown"
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    RelativeWidthHeight = [1.0, 0.0]
-                                    MagnifiableWidthHeight = [0.0, 30.0]
-                                    AlignementToFather = [0.5, 0.5]
-                                    AlignementToAnchor = [0.5, 0.5]
-                                )
-
-                                BackgroundBlockColorToken = 'VertLogin'
-                                IsForModale = true
-                                ItemFocusable = false
-                                HasBorder = false
-                                MainTextSizeToken = "18"
-                                MainTextColorToken  = "Noir"
-                                MainTextTypefaceToken  = "UISecondFont"
-                                ArrowTextureColorToken = 'Noir'
-
-                                //-------------------------------------------------------------------------------------
-
-                                ItemComponentBackgroundColor = "Noir"
-                                ItemsTextTypefaceToken = "UISecondFont"
-                                ItemsTextSizeToken = "18"
-                                ItemsTextColorToken = "HostGame"
-                                BorderLineColorToken = 'VertLogin'
-                                FloatingListMagnifiableWidth = 0.0
-                                FloatingListRelativeWidth  = 1
-                            )
+                            ElementName = "Spectate"
+                            TextToken = "Spectate"
+                            DropdownElementName = "SpectateDropdown"
                         )
                     ),
-
                     BUCKListElementDescriptor
                     (
-                        ComponentDescriptor = HostGameLine
+                        ComponentDescriptor = SpecificModalDropdown
                         (
-                            ListElementName = "FilterDeck"
-                            TitleToken = "GPS_Filter"
-                            ComponentDescriptor = BUCKSpecificDropdownDescriptor
-                            (
-                                ElementName = "FilterDeckDropdown"
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    RelativeWidthHeight = [1.0, 0.0]
-                                    MagnifiableWidthHeight = [0.0, 30.0]
-                                    AlignementToFather = [0.5, 0.5]
-                                    AlignementToAnchor = [0.5, 0.5]
-                                )
-
-                                BackgroundBlockColorToken = 'VertLogin'
-                                IsForModale = true
-                                ItemFocusable = false
-                                HasBorder = false
-                                MainTextSizeToken = "18"
-                                MainTextColorToken  = "Noir"
-                                MainTextTypefaceToken  = "UISecondFont"
-                                ArrowTextureColorToken = 'Noir'
-
-                                //-------------------------------------------------------------------------------------
-
-                                ItemComponentBackgroundColor = "Noir"
-                                ItemsTextTypefaceToken = "UISecondFont"
-                                ItemsTextSizeToken = "18"
-                                ItemsTextColorToken = "HostGame"
-                                BorderLineColorToken = 'VertLogin'
-                                FloatingListMagnifiableWidth = 0.0
-                                FloatingListRelativeWidth  = 1
-                            )
+                            ElementName = "FilterDeck"
+                            TextToken = "GPS_Filter"
+                            DropdownElementName = "FilterDeckDropdown"
                         )
                     ),
                     BUCKListElementSpacer( Magnifiable = 20.0 ),
                     // ligne,
                     BUCKListElementDescriptor
                     (
-                            ComponentDescriptor = BUCKTextDescriptor
-                            (
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    MagnifiableWidthHeight = [0,20]
-                                    AlignementToFather = [0.5, 0.0]
-                                    AlignementToAnchor = [0.5, 0.0]
-                                    )
-                                ParagraphStyle = paragraphStyleTextCenter
-                                TextStyle = "TextStyleEcranMoniteur"
-
-                                VerticalFitStyle = ~/FitStyle/UserDefined
-                                TypefaceToken = "IBM"
-                                BigLineAction = ~/BigLineAction/MultiLine
-                                TextToken = 'HINT_EX_SP'
-                                TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                                TextColor = "Blanc"
-                                TextSize = "24"
-                                )
-
+                        ComponentDescriptor = SpecificModalDottedLine
                     ),
-
                 ]
             )
         ),
-
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = BUCKTextDescriptor
-            (
-                ElementName = "ErrorText"
-
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    MagnifiableWidthHeight = [250.0, 0.0]
-                    AlignementToFather = [0.5, 0.0]
-                    AlignementToAnchor = [0.5, 0.0]
-                )
-
-                ParagraphStyle = TParagraphStyleRTTI
-                (
-                    VerticalAlignment = ~/UIText_VerticalCenter
-                    Alignment = UIText_Center
-                )
-
-                VerticalFitStyle = ~/FitStyle/FitToContent
-
-                TextStyle = "Default"
-                TypefaceToken = "UISecondFont"
-
-                TextColor       = "Rouge"
-                TextSize        = "18"
-
-                BigLineAction = ~/BigLineAction/MultiLine
-
-                TextDico = ~/LocalisationConstantes/dico_interface_outgame
-            )
+            ComponentDescriptor = SpecificModalErrorText
         )
     ]
 

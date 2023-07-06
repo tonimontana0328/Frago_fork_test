@@ -476,38 +476,16 @@ private OptionsWarningDescriptor is TScrollingDescriptor
 )
 
 // -------------------------------------------------------------------------------------------------
-// FriendPanelConfirmButton
-// -------------------------------------------------------------------------------------------------
-private FriendPanelConfirmButton is ModalButtonCyan
-(
-    ElementName = "ConfirmButton"
-    TextToken = 'BTN_CONFIR'
-    Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
-    IsFilled = true
-)
 
-// -------------------------------------------------------------------------------------------------
-// FriendPanelCancelButton
-// -------------------------------------------------------------------------------------------------
-private FriendPanelCancelButton is ModalButtonCyan
+private FriendInviteModalDescriptor is SpecificModalWindow
 (
-    ElementName = "CancelButton"
-    TextToken = 'BTN_CANCEL'
-    Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-    IsFilled = false
-)
-
-// -------------------------------------------------------------------------------------------------
-
-private FriendInviteModalDescriptor is SpecificModaleWindowFrame
-(
-    ContentMagnifiableWidthHeight = [848.0, 520.0]
-    TitleToken = 'T_INVITE'
+    TitleToken = "T_INVITE"
+    ContentMagnifiableWidthHeight = [0.0, 520.0]
 
     ButtonList =
     [
-        BUCKListElementDescriptor( ComponentDescriptor = ~/FriendPanelConfirmButton ),
-        BUCKListElementDescriptor( ComponentDescriptor = ~/FriendPanelCancelButton ),
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalConfirmButton),
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalCancelButton)
     ]
 )
 

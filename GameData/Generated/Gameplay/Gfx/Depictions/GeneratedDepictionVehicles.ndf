@@ -1020,7 +1020,7 @@ Gfx_AMX_10_RC_FR_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "AMX_10_RC_FR_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_AMX_10_RC_FR_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_AMX_10_RC_FR_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -1185,7 +1185,7 @@ Gfx_AMX_13_VCI_12_7mm_FR_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "AMX_13_VCI_12_7mm_FR_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_AMX_13_VCI_12_7mm_FR_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_AMX_13_VCI_12_7mm_FR_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -5757,7 +5757,7 @@ Gfx_DCA_FK20_2_20mm_Zwillinge_RFA_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_TurretSound_ST_LARS,
         DepictionOperator_Turret_1_HydraulicRecoil_AutoCannon,
         DepictionOperator_DCA_FK20_2_20mm_Zwillinge_RFA_Weapon1,
-        DepictionOperator_Deployable_DCA_FK20_2_20mm_Zwillinge_RFA,
+        $/GFX/DepictionResources/DepictionOperator_Deployable_DCA_FK20_2_20mm_Zwillinge_RFA,
         DepictionOperator_Propulsion_Wheels_Canon,
     ]
 
@@ -6481,7 +6481,7 @@ Gfx_FV103_Spartan_BEL_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "FV103_Spartan_BEL_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_FV103_Spartan_BEL_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_FV103_Spartan_BEL_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -6549,7 +6549,7 @@ Gfx_FV103_Spartan_UK_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "FV103_Spartan_UK_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_FV103_Spartan_UK_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_FV103_Spartan_UK_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -7360,7 +7360,7 @@ Gfx_FV432_Mortar_UK_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "FV432_Mortar_UK_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_FV432_Mortar_UK_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_FV432_Mortar_UK_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -7480,7 +7480,7 @@ Gfx_FV432_UK_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "FV432_UK_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_FV432_UK_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_FV432_UK_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -9356,7 +9356,7 @@ Gfx_Iltis_MILAN_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "Iltis_MILAN_RFA_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Iltis_MILAN_RFA_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Iltis_MILAN_RFA_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -9437,7 +9437,7 @@ Gfx_Iltis_reco_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "Iltis_reco_RFA_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Iltis_reco_RFA_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Iltis_reco_RFA_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -9531,7 +9531,7 @@ Gfx_Jaguar_1_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "Jaguar_1_RFA_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Jaguar_1_RFA_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Jaguar_1_RFA_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -9595,7 +9595,7 @@ Gfx_Jaguar_2_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "Jaguar_2_RFA_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Jaguar_2_RFA_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Jaguar_2_RFA_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -9900,7 +9900,7 @@ Gfx_Lars_2_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "Lars_2_RFA_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Lars_2_RFA_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Lars_2_RFA_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -9998,7 +9998,7 @@ Gfx_Leopard_1A1_CMD_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "Leopard_1A1_CMD_RFA_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Leopard_1A1_CMD_RFA_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Leopard_1A1_CMD_RFA_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -10096,7 +10096,7 @@ Gfx_Leopard_1A1_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "Leopard_1A1_RFA_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Leopard_1A1_RFA_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Leopard_1A1_RFA_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -10194,7 +10194,7 @@ Gfx_Leopard_1A5_CMD_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "Leopard_1A5_CMD_RFA_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Leopard_1A5_CMD_RFA_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Leopard_1A5_CMD_RFA_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -10292,7 +10292,7 @@ Gfx_Leopard_1A5_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "Leopard_1A5_RFA_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Leopard_1A5_RFA_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Leopard_1A5_RFA_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -11023,7 +11023,7 @@ Gfx_M109A2_HOWZ_US_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "M109A2_HOWZ_US_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M109A2_HOWZ_US_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_M109A2_HOWZ_US_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -11165,7 +11165,7 @@ Gfx_M109A3G_HOWZ_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "M109A3G_HOWZ_RFA_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M109A3G_HOWZ_RFA_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_M109A3G_HOWZ_RFA_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -11319,7 +11319,7 @@ Gfx_M113A1G_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "M113A1G_RFA_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M113A1G_RFA_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_M113A1G_RFA_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -11387,7 +11387,7 @@ Gfx_M113A1G_reco_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "M113A1G_reco_RFA_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M113A1G_reco_RFA_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_M113A1G_reco_RFA_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -11481,7 +11481,7 @@ Gfx_M113A1_TOW_US_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "M113A1_TOW_US_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M113A1_TOW_US_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_M113A1_TOW_US_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -11679,7 +11679,7 @@ Gfx_M113_Dragon_US_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "M113_Dragon_US_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M113_Dragon_US_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_M113_Dragon_US_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -11755,7 +11755,7 @@ Gfx_M113_GreenArcher_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "M113_GreenArcher_RFA_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M113_GreenArcher_RFA_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_M113_GreenArcher_RFA_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -11830,7 +11830,7 @@ Gfx_M113_GreenArcher_UK_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "M113_GreenArcher_UK_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M113_GreenArcher_UK_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_M113_GreenArcher_UK_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -11905,7 +11905,7 @@ Gfx_M113_PzMorser_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "M113_PzMorser_RFA_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M113_PzMorser_RFA_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_M113_PzMorser_RFA_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -12015,7 +12015,7 @@ Gfx_M151A2_scout_US_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "M151A2_scout_US_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M151A2_scout_US_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_M151A2_scout_US_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -14412,7 +14412,7 @@ Gfx_MCV_80_Warrior_MILAN_UK_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "MCV_80_Warrior_MILAN_UK_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_MCV_80_Warrior_MILAN_UK_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_MCV_80_Warrior_MILAN_UK_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -14753,7 +14753,7 @@ Gfx_MTLB_Vasilek_SOV_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "MTLB_Vasilek_SOV_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_MTLB_Vasilek_SOV_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_MTLB_Vasilek_SOV_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -16203,7 +16203,7 @@ Gfx_SPW_152K_DDR_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "SPW_152K_DDR_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_SPW_152K_DDR_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_SPW_152K_DDR_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -17370,17 +17370,6 @@ Gfx_T64BV_SOV_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_T64BV_SOV_Weapon4,
         DepictionOperator_T64BV_SOV_Weapon6,
         DepictionOperator_Heat,
-        DepictionOperator_EjectableProps_Vehicle
-        (
-            AdditionalEjectableNodes = 
-            [
-                "tourelle_01",
-                "tourelle_02",
-            ]
-            ArmorPlateCount = 5
-            PropCount = 5
-            TrapdoorCount = 2
-        ),
     ]
 
     Actions = MAP[
@@ -17393,7 +17382,6 @@ Gfx_T64BV_SOV_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
-            + Eject_Actions_T64BV_SOV
 )
 // Dépiction de l'unité T64B_SOV
 DepictionOperator_T64B_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
@@ -17458,17 +17446,6 @@ Gfx_T64B_SOV_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_T64B_SOV_Weapon4,
         DepictionOperator_T64B_SOV_Weapon6,
         DepictionOperator_Heat,
-        DepictionOperator_EjectableProps_Vehicle
-        (
-            AdditionalEjectableNodes = 
-            [
-                "tourelle_01",
-                "tourelle_02",
-            ]
-            ArmorPlateCount = 5
-            PropCount = 3
-            TrapdoorCount = 2
-        ),
     ]
 
     Actions = MAP[
@@ -17481,7 +17458,6 @@ Gfx_T64B_SOV_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
-            + Eject_Actions_T64B_SOV
 )
 // Dépiction de l'unité T72M1_CMD_DDR
 DepictionOperator_T72M1_CMD_DDR_Weapon1 is DepictionOperator_WeaponInstantFire
@@ -18737,7 +18713,7 @@ Gfx_TPZ_Fuchs_1_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "TPZ_Fuchs_1_RFA_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_TPZ_Fuchs_1_RFA_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_TPZ_Fuchs_1_RFA_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -18805,7 +18781,7 @@ Gfx_TPZ_Fuchs_CMD_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "TPZ_Fuchs_CMD_RFA_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_TPZ_Fuchs_CMD_RFA_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_TPZ_Fuchs_CMD_RFA_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -18879,7 +18855,7 @@ Gfx_TPZ_Fuchs_MILAN_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "TPZ_Fuchs_MILAN_RFA_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_TPZ_Fuchs_MILAN_RFA_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_TPZ_Fuchs_MILAN_RFA_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -18901,7 +18877,7 @@ Gfx_TPZ_Fuchs_MILAN_RFA_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "TPZ_Fuchs_MILAN_RFA_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_TPZ_Fuchs_MILAN_RFA_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_TPZ_Fuchs_MILAN_RFA_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -19537,7 +19513,7 @@ Gfx_UAZ_469_Reco_DDR_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "UAZ_469_Reco_DDR_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_UAZ_469_Reco_DDR_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_UAZ_469_Reco_DDR_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -19595,7 +19571,7 @@ Gfx_UAZ_469_Reco_SOV_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "UAZ_469_Reco_SOV_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_UAZ_469_Reco_SOV_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_UAZ_469_Reco_SOV_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -20078,7 +20054,7 @@ Gfx_VAB_CMD_FR_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "VAB_CMD_FR_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_VAB_CMD_FR_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_VAB_CMD_FR_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -20136,7 +20112,7 @@ Gfx_VAB_FR_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "VAB_FR_turret1"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_VAB_FR_Tourelle_01 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_VAB_FR_Tourelle_01 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,
@@ -20247,7 +20223,7 @@ Gfx_VAB_MILAN_FR_Autogen is TacticVehicleDepictionTemplate
                 CoatingName = "VAB_MILAN_FR_turret2"
                 Selector = ~/OnlyHighDepictionSelector
                 DepictionAlternatives = [
-                    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_VAB_MILAN_FR_Tourelle_02 )
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_VAB_MILAN_FR_Tourelle_02 )
                 ]
                 Operators = [
                     DepictionOperator_Reset_Generic,

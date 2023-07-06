@@ -1,19 +1,14 @@
-export ModelFile_M3A1_Bradley_CFV_US is 'GameData:/Assets/3D/Units/US/Char/M3A1_Bradley/M3A1_Bradley.Ase2NdfBin'
-
-Modele_M3A1_Bradley_CFV_US is TResourceMultiMaterialMeshWithLod
+export Modele_M3A1_Bradley_CFV_US is TemplateMeshDescriptor
 (
-    FileName     = ModelFile_M3A1_Bradley_CFV_US
-    CivMask =  CivMask/Common
+    FileName     = 'GameData:/Assets/3D/Units/US/Char/M3A1_Bradley/M3A1_Bradley.Ase2NdfBin'
 )
 
-Modele_M3A1_Bradley_CFV_US_MID is TResourceMultiMaterialMeshWithLod
+export Modele_M3A1_Bradley_CFV_US_MID is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/US/Char/M3A1_Bradley_MID/M3A1_Bradley_MID.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_M3A1_Bradley_CFV_US_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_M3A1_Bradley_CFV_US_LOW is TemplateMeshDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/US/Char/LODS/M3A1_Bradley_LOW.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )

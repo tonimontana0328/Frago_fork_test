@@ -315,8 +315,8 @@ UISpecificStrategicHUDHeaderOptionViewDescriptor is TUISpecificStrategicHUDHeade
     MainComponentDescriptor = BoutonAccelerationDuTemps
     MainComponentContainerUniqueName = "SpecificStrategicHUDHeaderOptionViewMainContainer"
 
-    PawnQuickMoveSpeedValue = 8.0
-    PawnStandardMoveSpeedValue = 1.5
+    PawnQuickMoveSpeedValue = 10.0
+    PawnStandardMoveSpeedValue = 8.0
 
     DefaultForceShowPowerGauges = true
     DefaultHideLabelUnitIcon = false

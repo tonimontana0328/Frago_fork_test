@@ -768,4 +768,10 @@ UISpecificLossesStateViewDescriptor is TUISpecificLossesStateViewDescriptor
     MainComponentContainerUniqueName = "" // Permet d'indiquer l'endroit ou le composant doit s'insérer
 
     PawnLossesViewDescriptor = ~/UISpecificPawnLossesViewDescriptor
+
+    NationaliteTextureTokens = MAP
+    [
+        (ENationalite/OTAN, "CommonTexture_MotherCountryFlag_NATO"),
+        (ENationalite/PACT, "CommonTexture_MotherCountryFlag_PACT"),
+    ]
 )

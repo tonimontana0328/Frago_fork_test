@@ -117,9 +117,9 @@ MouseWidget_StrategicSelectNeutralLand is Template_HardwareMouseWidgetResource_W
 
     CursorMap = MAP
     [
-        (ECoverTypeForInterface/Light, ~/MouseCurseur_couvert_lourd),
-        (ECoverTypeForInterface/Heavy, ~/MouseCurseur_couvert_leger),
-        (ECoverTypeForInterface/Batiment,   ~/MouseCurseur_barbed_wire),
+        (ECoverTypeForInterface/Light, ~/MouseCurseur_strategic_foret),
+        (ECoverTypeForInterface/Heavy, ~/MouseCurseur_strategic_plaine),
+        (ECoverTypeForInterface/Batiment,   ~/MouseCurseur_strategic_urbain),
     ]
 )
 
@@ -209,9 +209,9 @@ MouseWidget_StrategicOrderNeutralLand is Template_HardwareMouseWidgetResource_Wi
 (
     CursorMap = MAP
     [
-        (ECoverTypeForInterface/Light, ~/MouseCurseur_couvert_lourd),
-        (ECoverTypeForInterface/Heavy, ~/MouseCurseur_couvert_leger),
-        (ECoverTypeForInterface/Batiment,   ~/MouseCurseur_barbed_wire),
+        (ECoverTypeForInterface/Light, ~/MouseCurseur_strategic_foret),
+        (ECoverTypeForInterface/Heavy, ~/MouseCurseur_strategic_plaine),
+        (ECoverTypeForInterface/Batiment,   ~/MouseCurseur_strategic_urbain),
     ]
 
     BUCKDescriptor = BUCKContainerDescriptor

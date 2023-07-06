@@ -95,10 +95,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
             (
                 MinVictoryNeededToAttackForObjectiveStatus =
                 [
-                    EVictoryType/Draw,   //NotActive
-                    EVictoryType/Draw,   //ToDefend
-                    EVictoryType/Draw,   //ToCapture
-                    EVictoryType/Draw,   //CapturedNotActive
+                    EVictoryType/MinorDefeat,   //NotActive
+                    EVictoryType/MinorDefeat,   //ToDefend
+                    EVictoryType/MinorDefeat,   //ToCapture
+                    EVictoryType/MinorDefeat,   //CapturedNotActive
                 ]
             )
         ),
@@ -108,10 +108,10 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
             (
                 MinVictoryNeededToAttackForObjectiveStatus =
                 [
-                    EVictoryType/Draw,   //NotActive
-                    EVictoryType/Draw,   //ToDefend
+                    EVictoryType/MinorVictory,   //NotActive
+                    EVictoryType/MinorVictory,   //ToDefend
                     EVictoryType/Draw,   //ToCapture
-                    EVictoryType/Draw,   //CapturedNotActive
+                    EVictoryType/MinorVictory,   //CapturedNotActive
                 ]
             )
         ),

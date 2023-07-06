@@ -155,7 +155,7 @@ BUCKSpecificConnectingPanelMainComponentDescriptor is LoginTvContainer
                     ComponentDescriptor = CancelButton
                     (
                         ElementName = "CancelButton"
-                        TextToken = 'BTN_CANCEL'
+                        TextToken = "BTN_CANCEL"
 
                         Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
 

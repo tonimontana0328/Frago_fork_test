@@ -305,7 +305,7 @@ export Capacite_Choc is TCapaciteDescriptor
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
     Radius              = 150.00 * Metre
-    Range               = 900.00 * Metre
+    Range               = 400.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.00
@@ -1860,6 +1860,54 @@ export Capacite_sniper is TCapaciteDescriptor
     Price = MAP[]
     TagsCiblePossible = [
     ]
+    Conditions = [
+        ~/ConditionTagRaisedInUnit_snipe_ok_1,
+    ]
+)
+export Capacite_sniper_no_snipe is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{d789677b-b842-44d8-990e-82b1a32f91c7}
+    Name             = "sniper_no_snipe"
+    NameToken        = "None"
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
+    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    TypeCible            = ~/CapaciteTypeCible_soi
+    TargetTeamFilter     = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_soi
+    InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
+    ActionRadiusWithBoundingBox = False
+    Radius              = 1.00 * Metre
+    Range               = 1.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastRangeTolerance  = 0.00 * Metre
+    CastTime            = 10.00
+    Cooldown            = 0.00
+    CheckVisibility     = True
+    AllowReflexDuringCast   = True
+    AllowMovementDuringCast = False
+    CanBeCastFromTransport  = True
+    CastEffectDuration = -1.00
+    CastEffectBound    = True
+    TargetEffect         = ~/UnitEffect_Ajoute_Tag_snipe_ok
+    TargetEffectDuration = 1.00
+    SelfEffectDuration   = 0.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = 1
+    DivideEffect           = False
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+    ]
 
 )
 export Capacite_Choc_FRL_missile_3 is TCapaciteDescriptor
@@ -2186,6 +2234,9 @@ export Capacite_Choc_FRL_missile_9 is TCapaciteDescriptor
 )//
 //
 
+//
+//
+//
 //
 //
 //

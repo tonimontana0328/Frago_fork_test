@@ -1,19 +1,14 @@
-export ModelFile_Tracked_Rapier_UK is 'GameData:/Assets/3D/Units/UK/DCA/Tracked_Rapier/Tracked_Rapier.Ase2NdfBin'
-
-Modele_Tracked_Rapier_UK is TResourceMultiMaterialMeshWithLod
-(
-    FileName = ModelFile_Tracked_Rapier_UK
-    CivMask =  CivMask/Common
-)
-
-Modele_Tracked_Rapier_UK_MID is TResourceMultiMaterialMeshWithLod
+export Modele_Tracked_Rapier_UK is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/UK/DCA/Tracked_Rapier/Tracked_Rapier.Ase2NdfBin'
-    CivMask =  CivMask/Common
 )
 
-Modele_Tracked_Rapier_UK_LOW is TResourceMultiMaterialMeshWithLod
+export Modele_Tracked_Rapier_UK_MID is TemplateMeshDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/UK/DCA/Tracked_Rapier/Tracked_Rapier.Ase2NdfBin'
-    CivMask =  CivMask/Common
+)
+
+export Modele_Tracked_Rapier_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/DCA/Tracked_Rapier/Tracked_Rapier.Ase2NdfBin'
 )
