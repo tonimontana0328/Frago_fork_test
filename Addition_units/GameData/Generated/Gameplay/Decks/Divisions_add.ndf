@@ -19,9 +19,9 @@ Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
     DescriptionHintExtendedToken = ''
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
-        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_Jaguar_HE_FR_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+        
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_FR_11e_Para_multi
@@ -83,6 +83,8 @@ Descriptor_Deck_Division_US_11ACR_multi is TDeckDivisionDescriptor
     PackList = MAP
     [
         (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
@@ -479,6 +481,9 @@ Descriptor_Deck_Division_UK_1st_Armoured_multi is TDeckDivisionDescriptor
     [
         (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+        (~/Descriptor_Deck_Pack_Harrier_RKT1_UK_VTOL_FRL, 1),
+
+        
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_UK_1st_Armoured_multi
@@ -509,6 +514,8 @@ Descriptor_Deck_Division_UK_2nd_Infantry_multi is TDeckDivisionDescriptor
     [
         (~/Descriptor_Deck_Pack_Tornado_ADV_HE_UK_NUKE_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+        (~/Descriptor_Deck_Pack_Harrier_RKT1_UK_VTOL_FRL, 1),
+
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_UK_2nd_Infantry_multi
@@ -538,6 +545,8 @@ Descriptor_Deck_Division_US_3rd_Arm_multi is TDeckDivisionDescriptor
     PackList = MAP
     [        
         (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
     ]
     MaxActivationPoints = 50
@@ -569,6 +578,8 @@ Descriptor_Deck_Division_US_82nd_Airborne_multi is TDeckDivisionDescriptor
     [
         (~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
         (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
 
     ]
@@ -601,6 +612,8 @@ Descriptor_Deck_Division_US_8th_Inf_multi is TDeckDivisionDescriptor
     [	
     	(~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
         (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL, 1),
         (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
 
     ]
@@ -642,4 +655,39 @@ Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = "Texture_Division_Type_infantryReg"
     CountryId = "DDR"
+)
+Descriptor_Deck_Division_101st is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{8b80c7aa-7f42-4856-9902-a7114c2acf3d}
+    CfgName = 'Division_101st'
+    DivisionName = 'BNKOCGWPVU'
+    DivisionNickname = 'BNKOCGWPVU'
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'FR', 'Allied', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{47d22207-75b0-4e93-a985-cfcb33dd739b}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'US'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL, 1),
+
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_US_101st
+    //EmblemTexture     = "Icon_Eugen"
+    EmblemTexture     = "Texture_Speciality_Icon_gunship"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = ""
+    TypeTexture       = ""
+    CountryId = "US"
 )

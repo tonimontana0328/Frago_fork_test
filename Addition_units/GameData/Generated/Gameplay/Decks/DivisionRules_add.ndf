@@ -30,6 +30,20 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
                 ]
             )
         ),
@@ -45,6 +59,20 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
                     ),
                     TDeckUniteRule
                     (
@@ -372,6 +400,13 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
+                    ),
                 ]
             )
         ),
@@ -420,6 +455,13 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
+                    ),
                 ]
             )
         ),
@@ -435,6 +477,20 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
                     ),
                     TDeckUniteRule
                     (
@@ -459,6 +515,20 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
                     ),
                     TDeckUniteRule
                     (
@@ -490,6 +560,20 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
                     ),
                     TDeckUniteRule
                     (

@@ -303,3 +303,255 @@ export WeaponDescriptor_Scout_LRRP_SOV_NUKE_FRL is TWeaponManagerModuleDescripto
 
     ]
 )
+export WeaponDescriptor_F111F_Aardvark_US_NUKE_FRL is TWeaponManagerModuleDescriptor
+(
+    DelayIdleAmmoSorting = DelayIdleAmmoSorting
+    DefaultHoldFireState = False
+    DefaultRiposteStance = False
+    Salves               = [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+    ]
+    HasMainSalvo = True
+    SalvoIsMainSalvo =
+    [
+        True,
+        False,
+        False,
+    ]
+    AlwaysOrientArmorTowardsThreat = True
+    TurretDescriptorList = [
+        TTurretBombardierDescriptor
+        (
+            FlyingAltitude              = ((3500) * Metre)
+            FlyingSpeed                 = ((2750) * Metre)
+            MountedWeaponDescriptorList = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_Bomb_Mk81_119kg_x4_NUKE_FRL
+                    AnimateOnlyOneSoldier               = True
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_Bomb_Mk81_119kg_x4'
+                    HandheldEquipmentKey                = 'MeshAlternative_2'
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 0
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_2'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_2'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_2", ]
+                )
+            ]
+            NbFX                        = 2
+            Tag                         = 'tourelle2'
+            YulBoneOrdinal              = 2
+        )
+    ]
+)
+export WeaponDescriptor_Harrier_RKT1_UK_VTOL_FRL is TWeaponManagerModuleDescriptor
+(
+    DelayIdleAmmoSorting = DelayIdleAmmoSorting
+    DefaultHoldFireState = False
+    DefaultRiposteStance = False
+    Salves               = [
+        24,
+        2,
+        2,
+        -1,
+        -1,
+        -1
+    ]
+    HasMainSalvo = True
+    SalvoIsMainSalvo =
+    [
+        False,
+        True,
+        False,
+        False,
+    ]
+    AlwaysOrientArmorTowardsThreat = True
+    TurretDescriptorList = [
+        TTurretTwoAxisDescriptor
+        (
+            AngleRotationBase           = 0.0
+            AngleRotationBasePitch      = 0.0
+            AngleRotationMax            = 0.12217304763960307
+            AngleRotationMaxPitch       = 0.12217304763960307
+            AngleRotationMinPitch       = -0.12217304763960307
+            MountedWeaponDescriptorList = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_GatlingAir_ADEN_25mm_x2_VTOL_FRL
+                    AnimateOnlyOneSoldier               = False
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_GatlingAir_ADEN_25mm_x2'
+                    HandheldEquipmentKey                = 'MeshAlternative_1'
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 0
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    TirContinu                          = True
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_1'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_1'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_1", ]
+                )
+            ]
+            NbFX                        = 1
+            Tag                         = 'tourelle1'
+            VitesseRotation             = 1.5707963267948966
+            YulBoneOrdinal              = 1
+        ),
+        TTurretUnitDescriptor
+        (
+            AngleRotationMax                        = 0.4490658503988659
+            AngleRotationMaxPitch                   = 0.5490658503988659
+            AngleRotationMinPitch                   = -0.4617993877991494
+            MountedWeaponDescriptorList             = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_RocketAir_SNEB_68mm_x18_FRL
+                    AnimateOnlyOneSoldier               = True
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_RocketAir_SNEB_68mm_x18'
+                    HandheldEquipmentKey                = 'MeshAlternative_2'
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 1
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_2'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_2'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_2", "WeaponShootData_1_2", ]
+                )
+            ]
+            NbFX                                    = 2
+            OwnerTurnHisChassisVerticallyToAttack   = True
+            Tag                                     = 'tourelle2'
+            YulBoneOrdinal                          = 2
+        ),
+        TTurretUnitDescriptor
+        (
+            AngleRotationMax                        = 1.3962634015954636
+            AngleRotationMaxPitch                   = 0.5235987755982988
+            AngleRotationMinPitch                   = -1.3089969389957472
+            MountedWeaponDescriptorList             = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_AA_AIM9L_Sidewinder
+                    AnimateOnlyOneSoldier               = True
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_AA_AIM9L_Sidewinder'
+                    HandheldEquipmentKey                = 'MeshAlternative_3'
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 2
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_3'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_3'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_3", ]
+                )
+            ]
+            NbFX                                    = 2
+            OwnerTurnHisChassisVerticallyToAttack   = True
+            Tag                                     = 'tourelle3'
+            YulBoneOrdinal                          = 3
+        )
+    ]
+)
+export WeaponDescriptor_F111F_Aardvark_US_MEGA_FRL is TWeaponManagerModuleDescriptor
+(
+    DelayIdleAmmoSorting = DelayIdleAmmoSorting
+    DefaultHoldFireState = False
+    DefaultRiposteStance = False
+    Salves               = [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+    ]
+    HasMainSalvo = True
+    SalvoIsMainSalvo =
+    [
+        True,
+        False,
+        False,
+    ]
+    AlwaysOrientArmorTowardsThreat = True
+    TurretDescriptorList = [
+        TTurretBombardierDescriptor
+        (
+            FlyingAltitude              = ((6000) * Metre)
+            FlyingSpeed                 = ((2420) * Metre)
+            MountedWeaponDescriptorList = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_Bomb_Mk82_250kg_x48_FRL
+                    AnimateOnlyOneSoldier               = True
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'FireEffect_Bomb_Mk82_250kg_x12'
+                    HandheldEquipmentKey                = 'MeshAlternative_2'
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 0
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_2'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_2'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_2", ]
+                )
+            ]
+            NbFX                        = 2
+            Tag                         = 'tourelle2'
+            YulBoneOrdinal              = 2
+        )
+    ]
+)

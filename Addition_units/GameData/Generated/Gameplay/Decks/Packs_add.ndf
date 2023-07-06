@@ -86,3 +86,39 @@ Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL is TDeckPackDescriptor
         ),
     ]
 )
+Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{9a850161-0e57-4e0b-9aca-44b6d8f10b88}
+    CfgName = 'Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_Harrier_RKT1_UK_VTOL_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{7d64b4f5-e1fe-41f4-afb6-45e51c9f6162}
+    CfgName = 'Descriptor_Deck_Pack_Harrier_RKT1_UK_VTOL_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{c49c25bd-0f44-4807-970a-53bf318f9791}
+    CfgName = 'Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+        ),
+    ]
+)

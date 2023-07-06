@@ -93,3 +93,286 @@ Ammo_Grenade_Satchel_Charge_NUKE_FRL is TAmmunitionDescriptor
     DistanceForSpeed                      = 2000.0 * Metre
     DamageTypeEvolutionOverRangeDescriptor  = nil
 )
+Ammo_Bomb_Mk81_119kg_x4_NUKE_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{48f31d69-7832-435f-bcdd-c2eed2f51ca2}
+    Name                              = 'WWQICVFGFH'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'ODPPNIUOYS'
+    Caliber                           = 'RIXCQEWRSL'
+    WeaponDescriptionToken            = 'QQPLEPBINP'
+    TraitsToken                       = [ 'MOTION', 'HE', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Bombe
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="howz_bombe" Index=1)
+    ProjectileType                    = EProjectileType/Bombe
+    ImpactHappening                   = [ 'ArtillerieM185155MmNUKE' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.5
+    TempsEntreDeuxFx                  = 0.5
+    PorteeMaximale                    = ((425) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((0) * Metre)
+    AltitudeAPorteeMinimale           = ((37.5) * Metre)
+    AltitudeAPorteeMaximale           = ((75.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((150) * Metre)
+    DispersionAtMinRange              = ((150) * Metre)
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 800 * Metre
+    PhysicalDamages                   = 50
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 2500 * Metre
+    SuppressDamages                   = 800
+    AllowSuppressDamageWhenNoImpact                = False
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0
+    FX_acceleration_max               = 0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.4
+    NoiseDissimulationMalus           = 1.0
+    ShotsBeforeMaxNoise               = 3
+    TargetsDistricts                  = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{3556c25c-6888-4476-9885-25429670caae}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 0),
+             (EBaseHitValueModifier/Moving, 0),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    MaxSuccessiveHitCount             = 1
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 4
+    SupplyCost                        = 300
+    NbSalvosShootOnPosition           = 1
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 4
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_Mk18_RET"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Nuke
+    IgnoreInflammabilityConditions    = True
+    FireTriggeringProbability         = 1
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    FlightTimeForSpeed                    = 30
+    DistanceForSpeed                      = 3500.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    UnitWeight                        = 500.0
+)
+Ammo_GatlingAir_ADEN_25mm_x2_VTOL_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{f73b8d4f-556a-4541-a59e-824f8223a10e}
+    Name                              = 'IEIMEBEHZK'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'ZJQCIJREVP'
+    Caliber                           = 'ESRSTDVURR'
+    WeaponDescriptionToken            = 'BRUJGAAJMP'
+    TraitsToken                       = [ 'MOTION', ]
+    WeaponCursorType                  = Weapon_Cursor_MachineGun
+    MinMaxCategory                    = MinMax_Gatling
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="superhe" Index=1)
+    ProjectileType                    = EProjectileType/Obus
+    ImpactHappening                   = [ 'MauserBK27' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.1
+    TempsEntreDeuxFx                  = 0.1
+    PorteeMaximale                    = ((5943) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((7995) * Metre)
+    PorteeMaximaleHA                  = ((8985) * Metre)
+    PorteeMinimale                    = ((0) * Metre)
+    AffecteParNombre                  = True
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((15) * Metre)
+    DispersionAtMinRange              = ((5) * Metre)
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 45 * Metre
+    PhysicalDamages                   = 0.675
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 75 * Metre
+    SuppressDamages                   = 41.0
+    AllowSuppressDamageWhenNoImpact                = False
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 150000
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = True
+    FX_frottement                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 5
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{a968e61b-84d5-4673-b773-297d23cf35b3}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 30),
+             (EBaseHitValueModifier/Moving, 30),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    MaxSuccessiveHitCount             = 1
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 0.25
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 5
+    SupplyCost                        = 5
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 10
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_arden"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.1
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = True
+    FlightTimeForSpeed                    = 0.85
+    DistanceForSpeed                      = 5000.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Bomb_Mk82_250kg_x48_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{021da042-eb75-44d0-ba7b-46b7522f773b}
+    Name                              = 'PZKMCADNSZ'
+    TypeName                          = 'NA'
+    TypeCategoryName                  = 'ODPPNIUOYS'
+    Caliber                           = 'RIXCQEWRSL'
+    WeaponDescriptionToken            = 'KCDGBXHFKO'
+    TraitsToken                       = [ 'MOTION', 'HE', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Bombe
+    Level                             = 3
+    Arme                              = TDamageTypeRTTI(Family="howz_bombe" Index=1)
+    ProjectileType                    = EProjectileType/Bombe
+    ImpactHappening                   = [ 'BombeMk81' ]
+    FxPower                           = EFXPower/Moyen
+    TempsEntreDeuxTirs                = 0.05
+    TempsEntreDeuxFx                  = 0.05
+    PorteeMaximale                    = ((425) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((0) * Metre)
+    AltitudeAPorteeMinimale           = ((37.5) * Metre)
+    AltitudeAPorteeMaximale           = ((75.0) * Metre)
+    AffecteParNombre                  = False
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRange              = ((120) * Metre)
+    DispersionAtMinRange              = ((120) * Metre)
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 300 * Metre
+    PhysicalDamages                   = 4.3
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 590 * Metre
+    SuppressDamages                   = 450.0
+    AllowSuppressDamageWhenNoImpact                = False
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    TirReflexe                        = False
+    InterdireTirReflexe               = False
+    FX_vitesse_de_depart              = 0.0
+    FX_acceleration_max               = 0.0
+    FX_tir_sans_physic                = False
+    FX_frottement                     = 0.2
+    NoiseDissimulationMalus           = 1.0
+    ShotsBeforeMaxNoise               = 3
+    TargetsDistricts                  = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{01817095-cbb7-49ec-95ed-0c8565869764}
+         BaseCriticModifier = 25
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 30),
+             (EBaseHitValueModifier/Moving, 30),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    MaxSuccessiveHitCount             = 1
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 48
+    SupplyCost                        = 480
+    NbSalvosShootOnPosition           = 1
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 48
+    MissileDescriptor                 = nil
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_mk81"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = ~/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.4
+    TargetUnitCenter                  = True
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    DistanceForSpeed                      = 0.0 * Metre
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    UnitWeight                        = 500.0
+)
