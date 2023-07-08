@@ -608,7 +608,7 @@ Descriptor_Deck_Division_RDA_4_MSD_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_ATteam_Fagot_FJ_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_ATteam_Konkurs_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_ATteam_RCL_SPG9_FJ_DDR, 1),
-        (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_BM30_Smerch_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_BM30_Smerch_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_BMP_1_CMD_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_BRDM_2_CMD_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_BRDM_2_DDR, 2),
