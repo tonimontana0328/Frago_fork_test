@@ -215,8 +215,9 @@ Ammo_AutoCanon_AP_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((70.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
+    DispersionAtMinRange              = ((5) * Metre)
     DispersionAtMaxRange              = ((20) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 0 * Metre
     PhysicalDamages                   = 0.4
@@ -224,7 +225,7 @@ Ammo_AutoCanon_AP_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     RadiusSplashSuppressDamages       = 102 * Metre
     SuppressDamages                   = 6.0
     AllowSuppressDamageWhenNoImpact                = False
-    DisplaySalveAccuracy              = False
+    DisplaySalveAccuracy              = True
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = False
@@ -1609,8 +1610,9 @@ Ammo_AutoCanon_HE_20mm_MK_20_Rh_202 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((70.0) * Metre)
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
+    DispersionAtMinRange              = ((5) * Metre)
     DispersionAtMaxRange              = ((20) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
     PhysicalDamages                   = 0.12
@@ -73730,7 +73732,7 @@ Ammo_AutoCanon_HE_20mm_MK_20_Rh_202_FAKE_FRL is TAmmunitionDescriptor
     AffecteParNombre                  = True
     AngleDispersion                   = 0.0
     DispersionAtMaxRange              = ((20) * Metre)
-    DispersionWithoutSorting          = False
+    DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 20 * Metre
     PhysicalDamages                   = 0.3
