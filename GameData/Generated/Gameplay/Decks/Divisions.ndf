@@ -3450,7 +3450,7 @@ Descriptor_Deck_Division_101st is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_OH58D_Combat_Scout_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_OH58D_Kiowa_Warrior_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_OH58_CS_US, 1),
-        (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_Sniper_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_Sniper_US_101st_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_UH60A_Supply_US, 2),
 		(~/Descriptor_Deck_Pack_101st_multi_ATteam_ITOW_US_101st_FRL, 2),
         (~/Descriptor_Deck_Pack_101st_multi_AH64_Apache_US_ATAS_101st_FRL, 1),

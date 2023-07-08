@@ -964,7 +964,7 @@ private DivisionRules is TDeckDivisionRules
                     ),
                     TDeckUniteRule
                     (
-                        UnitDescriptor = ~/Descriptor_Unit_Sniper_US
+                        UnitDescriptor = ~/Descriptor_Unit_Sniper_US_101st_FRL
                         AvailableWithoutTransport = False
                         AvailableTransportList = [~/Descriptor_Unit_M998_Humvee_US, ~/Descriptor_Unit_M151A2_scout_US]
                         NumberOfUnitInPack = 4

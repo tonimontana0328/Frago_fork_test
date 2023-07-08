@@ -865,6 +865,7 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
         ( ~/Descriptor_Unit_Scout_US_2man_FRL, ~/Descriptor_ShowRoomUnit_Scout_US_2man_FRL ),
         ( ~/Descriptor_Unit_ATteam_RCL_SPG9_VDV_SOV_af_FRL, ~/Descriptor_ShowRoomUnit_ATteam_RCL_SPG9_VDV_SOV ),
         ( ~/Descriptor_Unit_BMP_2_SOV_recon_FRL, ~/Descriptor_ShowRoomUnit_BMP_2_SOV ),
+        ( ~/Descriptor_Unit_Sniper_US_101st_FRL, ~/Descriptor_ShowRoomUnit_Sniper_US_101st_FRL ),
 
     ]
 )
