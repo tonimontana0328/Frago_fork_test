@@ -89,6 +89,8 @@ Descriptor_Deck_Division_SOV_Afganski is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_af_multi_ATteam_RCL_SPG9_VDV_SOV_af_FRL, 1),
         (~/Descriptor_Deck_Pack_AT_D44_85mm_SOV, 1),
         //(~/Descriptor_Deck_Pack_BMP_2_SOV_recon_FRL, 1),
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),  
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_Afganski
@@ -599,7 +601,7 @@ Descriptor_Deck_Division_RDA_4_MSD_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_ATteam_Fagot_FJ_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_ATteam_Konkurs_DDR, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_ATteam_RCL_SPG9_FJ_DDR, 1),
-        (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_BM30_Smerch_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_BM30_Smerch_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_BMP_1_CMD_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_BRDM_2_CMD_DDR, 2),
         (~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_BRDM_2_DDR, 2),
@@ -2018,9 +2020,7 @@ Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T62MV_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T62M_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T62M_SOV, 1),
-        (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80BV_CMD_SOV, 1),
-        (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80BV_SOV, 4),
-        (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80B_CMD_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80B_CMD_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80B_SOV, 3),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_UAZ_469_AGL_SOV, 3),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_UAZ_469_SPG9_DDR, 2),
@@ -3485,7 +3485,7 @@ Descriptor_Deck_Division_101st is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_OH58D_Combat_Scout_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_OH58D_Kiowa_Warrior_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_OH58_CS_US, 1),
-        (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_Sniper_US, 1),
+        (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_Sniper_US_101st_FRL, 1),
         (~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_UH60A_Supply_US, 2),
         		(~/Descriptor_Deck_Pack_101st_multi_ATteam_ITOW_US_101st_FRL, 2),
         (~/Descriptor_Deck_Pack_101st_multi_AH64_Apache_US_ATAS_101st_FRL, 1),

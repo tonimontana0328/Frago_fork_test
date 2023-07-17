@@ -3210,6 +3210,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_Scout_US_2man_FRL, 20025),
         (Descriptor_Unit_ATteam_RCL_SPG9_VDV_SOV_af_FRL, 20026),
         (Descriptor_Unit_BMP_2_SOV_recon_FRL, 20027),
+        (Descriptor_Unit_Sniper_US_101st_FRL, 20028),
         		(Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL, 5001),
         		(Descriptor_Unit_Su_24M_SOV_NUKE_FRL, 5002),
         (Descriptor_Unit_Jaguar_HE_FR_NUKE_FRL, 5003),

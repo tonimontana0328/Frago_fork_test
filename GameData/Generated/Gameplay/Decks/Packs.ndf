@@ -27814,6 +27814,18 @@ Descriptor_Deck_Pack_BMP_2_SOV_recon_FRL is TDeckPackDescriptor
         ),
     ]
 )
+Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_Sniper_US_101st_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{f744bf08-d530-4a78-9787-e68e701562d3}
+    CfgName = 'TOE_US_82nd_Airborne_multi_Sniper_US_101st_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_Sniper_US_101st_FRL
+        ),
+    ]
+)
 Descriptor_Deck_Pack_EF111_Raven_US_FRL is TDeckPackDescriptor
 (
     DescriptorId = GUID:{1f19cd02-aab4-4e80-9536-88f83cc86847}

@@ -3572,14 +3572,14 @@ export Descriptor_Missile_AGM_9K121_Vikhr is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
-                    MaxAcceleration = 1000 * Metre
+                    MaxSpeed        = 3000 * Metre
+                    MaxAcceleration = 2000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
-                    MaxAcceleration = 1000 * Metre
+                    MaxSpeed        = 3000 * Metre
+                    MaxAcceleration = 2000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 AscendantPhaseConfig = nil
@@ -3688,14 +3688,14 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x12 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
-                    MaxAcceleration = 1000 * Metre
+                    MaxSpeed        = 3000 * Metre
+                    MaxAcceleration = 2000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
-                    MaxAcceleration = 1000 * Metre
+                    MaxSpeed        = 3000 * Metre
+                    MaxAcceleration = 2000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 AscendantPhaseConfig = nil
@@ -3804,14 +3804,14 @@ export Descriptor_Missile_AGM_9M114M_KokonM is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -3920,14 +3920,14 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x16 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -4036,14 +4036,14 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -4152,14 +4152,14 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -4268,14 +4268,14 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x6 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -4384,14 +4384,14 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -4500,14 +4500,14 @@ export Descriptor_Missile_AGM_9M17P_FalangaP is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 AscendantPhaseConfig = nil
@@ -4616,14 +4616,14 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 AscendantPhaseConfig = nil
@@ -4732,14 +4732,14 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x6 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 AscendantPhaseConfig = nil
@@ -7012,14 +7012,14 @@ export Descriptor_Missile_AGM_BGM71_TOW_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -7128,14 +7128,14 @@ export Descriptor_Missile_AGM_BGM71C_ITOW_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -7244,14 +7244,14 @@ export Descriptor_Missile_AGM_HOT1 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -7360,14 +7360,14 @@ export Descriptor_Missile_AGM_HOT1_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -7476,14 +7476,14 @@ export Descriptor_Missile_AGM_HOT2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -7592,14 +7592,14 @@ export Descriptor_Missile_AGM_HOT2_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -8642,14 +8642,14 @@ export Descriptor_Missile_ATGM_9K111_Fagot is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -8758,14 +8758,14 @@ export Descriptor_Missile_ATGM_9K121_Vikhr is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
-                    MaxAcceleration = 1000 * Metre
+                    MaxSpeed        = 3000 * Metre
+                    MaxAcceleration = 2000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
-                    MaxAcceleration = 1000 * Metre
+                    MaxSpeed        = 3000 * Metre
+                    MaxAcceleration = 2000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 AscendantPhaseConfig = nil
@@ -8874,14 +8874,14 @@ export Descriptor_Missile_ATGM_9M112_1_Kobra is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -8990,14 +8990,14 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_BMP2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -9106,14 +9106,14 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_x5 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -9222,14 +9222,14 @@ export Descriptor_Missile_ATGM_9M113_KonkursM is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -9338,14 +9338,14 @@ export Descriptor_Missile_ATGM_9M114_Shturm_MTLB is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -9454,14 +9454,14 @@ export Descriptor_Missile_ATGM_9M114M_KokonM is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -9570,13 +9570,13 @@ export Descriptor_Missile_ATGM_9M117_Bastion is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
+                    MaxSpeed        = 3000 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
+                    MaxSpeed        = 3000 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -9686,13 +9686,13 @@ export Descriptor_Missile_ATGM_9M117M_Arkan is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
+                    MaxSpeed        = 2300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
+                    MaxSpeed        = 2300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -9802,13 +9802,13 @@ export Descriptor_Missile_ATGM_9M119M_Refleks is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
+                    MaxSpeed        = 2300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2200 * Metre
+                    MaxSpeed        = 2300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -9918,15 +9918,15 @@ export Descriptor_Missile_ATGM_9M128_Agona is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
-                    AutoGyr         = 1.3962634015954636
+                    MaxSpeed        = 2300 * Metre
+                    MaxAcceleration = 1000 * Metre
+                    AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
-                    AutoGyr         = 1.3962634015954636
+                    MaxSpeed        = 2300 * Metre
+                    MaxAcceleration = 1000 * Metre
+                    AutoGyr         = 0.8726646259971648
                 )
                 AscendantPhaseConfig = nil
                 RecedingPhaseConfig = nil
@@ -10034,19 +10034,30 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
-                AscendantPhaseConfig = nil
-                RecedingPhaseConfig = nil
-                CruiseAltitude = 0.0 * Metre
+                AscendantPhaseConfig = TGuidedMissileMovementConfigDescriptor
+                (
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
+                    AutoGyr         = 0.1
+                )
+
+                RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
+                (
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
+                    AutoGyr         = 1.7453292519943295
+                )
+                CruiseAltitude = 40 * Metre
                 TimeMaxBetweenRandomMoveWhenUncontrollable = 1
                 TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
                 TimeBetweenChaosUpdates = 0.1
@@ -10150,19 +10161,30 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
-                AscendantPhaseConfig = nil
-                RecedingPhaseConfig = nil
-                CruiseAltitude = 0.0 * Metre
+                AscendantPhaseConfig = TGuidedMissileMovementConfigDescriptor
+                (
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
+                    AutoGyr         = 0.1
+                )
+
+                RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
+                (
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
+                    AutoGyr         = 1.7453292519943295
+                )
+                CruiseAltitude = 40 * Metre
                 TimeMaxBetweenRandomMoveWhenUncontrollable = 1
                 TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
                 TimeBetweenChaosUpdates = 0.1
@@ -10266,19 +10288,30 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x6 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
-                AscendantPhaseConfig = nil
-                RecedingPhaseConfig = nil
-                CruiseAltitude = 0.0 * Metre
+                AscendantPhaseConfig = TGuidedMissileMovementConfigDescriptor
+                (
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
+                    AutoGyr         = 0.1
+                )
+
+                RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
+                (
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
+                    AutoGyr         = 1.7453292519943295
+                )
+                CruiseAltitude = 40 * Metre
                 TimeMaxBetweenRandomMoveWhenUncontrollable = 1
                 TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
                 TimeBetweenChaosUpdates = 0.1
@@ -10382,14 +10415,14 @@ export Descriptor_Missile_ATGM_9k111M_Faktoriya is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -10498,14 +10531,14 @@ export Descriptor_Missile_ATGM_BGM71_TOW is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -10614,14 +10647,14 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -10730,14 +10763,14 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -10846,14 +10879,14 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -10962,14 +10995,14 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -11078,14 +11111,14 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -11194,14 +11227,14 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -11310,14 +11343,14 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -11426,14 +11459,14 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -11542,14 +11575,14 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -11658,14 +11691,14 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -11774,14 +11807,14 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -11890,14 +11923,14 @@ export Descriptor_Missile_ATGM_HOT1 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -12006,14 +12039,14 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -12122,14 +12155,14 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -12238,14 +12271,14 @@ export Descriptor_Missile_ATGM_HOT2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -12354,14 +12387,14 @@ export Descriptor_Missile_ATGM_HOT2_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -12470,14 +12503,14 @@ export Descriptor_Missile_ATGM_HOT2_x3 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -12586,14 +12619,14 @@ export Descriptor_Missile_ATGM_HOT2_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -12702,14 +12735,14 @@ export Descriptor_Missile_ATGM_HOT2_x6 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -12819,14 +12852,14 @@ export Descriptor_Missile_ATGM_MGM551C_Shillelagh is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -12935,14 +12968,14 @@ export Descriptor_Missile_ATGM_MILAN is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -13051,14 +13084,14 @@ export Descriptor_Missile_ATGM_MILAN_2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -13167,14 +13200,14 @@ export Descriptor_Missile_ATGM_MILAN_2_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -13284,14 +13317,14 @@ export Descriptor_Missile_ATGM_SS11_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 AscendantPhaseConfig = nil
@@ -13400,14 +13433,14 @@ export Descriptor_Missile_ATGM_Swingfire is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -13516,14 +13549,14 @@ export Descriptor_Missile_ATGM_Swingfire_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -13632,14 +13665,14 @@ export Descriptor_Missile_ATGM_Swingfire_x5 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -13749,14 +13782,14 @@ export Descriptor_Missile_ATGM_9K115_Metis_M is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1210 * Metre
-                    MaxAcceleration = 750 * Metre
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
@@ -15865,15 +15898,15 @@ export Descriptor_Missile_M47_DRAGON is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
-                    AutoGyr         = 1.7453292519943295
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
+                    AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
-                    AutoGyr         = 1.7453292519943295
+                    MaxSpeed        = 1650 * Metre
+                    MaxAcceleration = 1050 * Metre
+                    AutoGyr         = 1.3962634015954636
                 )
                 AscendantPhaseConfig = nil
                 RecedingPhaseConfig = nil
@@ -15981,14 +16014,14 @@ export Descriptor_Missile_M47_DRAGON_II is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 880 * Metre
-                    MaxAcceleration = 500 * Metre
+                    MaxSpeed        = 1100 * Metre
+                    MaxAcceleration = 700 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 AscendantPhaseConfig = nil
