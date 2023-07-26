@@ -32,7 +32,9 @@ template SpecificModalButton
     ButtonAlignementToFather : float2 = [0,0],
     TextSizeToken : string = "24",
     IsFilled : bool,
-    HintableAreaElementName : string = ""
+    HintableAreaElementName : string = "",
+    RadioButtonManager : TBUCKRadioButtonManager = nil,
+    IsTogglable : bool = false,
 ] is ConfirmButton
 (
     ElementName = <ElementName>
@@ -51,6 +53,8 @@ template SpecificModalButton
     TextSizeToken = <TextSizeToken>
     BorderThicknessToken = "3"
     HintableAreaElementName = <HintableAreaElementName>
+    RadioButtonManager = <RadioButtonManager>
+    IsTogglable = <IsTogglable>
 )
 
 //-------------------------------------------------------------------------------------

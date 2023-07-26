@@ -16,38 +16,71 @@ BUCKSpecificStrategicPlayerNameDisplayMainComponentDescriptor is BUCKContainerDe
                         AlignementToAnchor = [0.5, 0.0]
                     )
                 BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
-                //InterItemMargin = TRTTILength( Magnifiable = 6.0 )
-                LastMargin = TRTTILength( Magnifiable = 0.0 )
                 Axis = ~/ListAxis/Horizontal
+
+                HidePointerEvents = true
                 Elements =
                 [
                     BUCKListElementDescriptor
                     (
-                        ComponentDescriptor = BUCKTextDescriptor
-                        (
-                            MagnifierMultiplication = 1.5
-                            ElementName = "PlayerName"
-                            ComponentFrame = TUIFramePropertyRTTI ( MagnifiableWidthHeight = [110,25])
+                            ComponentDescriptor = BUCKListDescriptor
+                            (
+                                Axis = ~/ListAxis/Vertical
+
+                                BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
 
-                            HorizontalFitStyle = ~/FitStyle/UserDefined
-                            VerticalFitStyle = ~/FitStyle/UserDefined
-                            TextPadding = TRTTILength4( Magnifiable = [10,5,10,5] )
-                            ParagraphStyle = ~/paragraphStyleTextCenter
-                            TextStyle = "Default"
-                            TypefaceToken = "Eurostyle_Italic"
-                            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                            TextSize = "14"
-                            TextColor = "SM_paleSilver"
+                                Elements =
+                                [
+                                    BUCKListElementDescriptor
+                                    (
+                                        ComponentDescriptor = BUCKTextDescriptor
+                                        (
+                                            // MagnifierMultiplication = 1.5
+                                            ElementName = "PlayerName"
+                                            ComponentFrame = TUIFramePropertyRTTI ( MagnifiableWidthHeight = [165,38])
 
-                            HasBackground = true
-                            BackgroundBlockColorToken = 'SM_Feldgrau'
-                            HasBorder = true
-                            BorderThicknessToken = "1"
-                            BorderLineColorToken = "SM_Grullo"
-                            BordersToDraw =  ~/TBorderSide/Bottom
 
-                        )
+                                            HorizontalFitStyle = ~/FitStyle/UserDefined
+                                            VerticalFitStyle = ~/FitStyle/UserDefined
+                                            // TextPadding = TRTTILength4( Magnifiable = [10,5,10,5] )
+                                            ParagraphStyle = ~/paragraphStyleTextCenter
+                                            TextStyle = "Default"
+                                            TypefaceToken = "Eurostyle_Italic"
+                                            TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                                            TextSize = "21"
+                                            TextColor = "BlancEquipe"
+
+                                            HasBackground = true
+                                            BackgroundBlockColorToken = 'SM_Feldgrau'
+                                            HasBorder = true
+                                            BorderThicknessToken = "1"
+                                            BorderLineColorToken = "SM_Grullo"
+                                            BordersToDraw =  ~/TBorderSide/Bottom
+
+                                        )
+                                    ),
+
+
+                                    // objective score
+                                    BUCKListElementDescriptor
+                                    (
+                                        ComponentDescriptor = BUCKContainerDescriptor
+                                        (
+                                            UniqueName = "StrategicGlobalObjectivesScoreContainer"
+                                            ComponentFrame = TUIFramePropertyRTTI
+                                            (
+                                            )
+
+                                            FitStyle = ~/ContainerFitStyle/FitToContent
+                                            HasBackground = true
+                                            BackgroundBlockColorToken = 'SM_Ebony'
+                                            // envoie BUCKSpecificStrategicObjectiveScoreMainComponentDescriptor
+                                        )
+                                    ),
+
+                                ]
+                            )
                     ),
 
                     BUCKListElementDescriptor

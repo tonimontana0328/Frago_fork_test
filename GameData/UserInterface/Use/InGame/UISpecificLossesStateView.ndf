@@ -165,10 +165,22 @@ private template TeamCategory
                         )
                         HasBorder = true
                         BorderThicknessToken = "1"
-                        BorderLineColorToken = "BoutonTemps"
+                        BorderLineColorToken = "SM_paleSilver"
                         TextureFrame = TUIFramePropertyRTTI()
 
                         ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
+                        Components =
+                        [
+                            BUCKContainerDescriptor
+                            (
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1,1]
+                                    )
+                            HasBackground = true
+                            BackgroundBlockColorToken = 'panel_losses'
+                            )
+                        ]
                     )
                 ),
                 BUCKListElementDescriptor

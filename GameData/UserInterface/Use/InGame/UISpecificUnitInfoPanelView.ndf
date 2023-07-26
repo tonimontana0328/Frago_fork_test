@@ -1358,15 +1358,6 @@ private PanelInfoDivision is BUCKListDescriptor
 
     Elements =
     [
-        {BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = TextExplicatif
-                    (
-                        ElementName = 'Division'
-                        TextToken = 'DES_DE_T'
-                        TextSize = '12'
-                    )
-                ),}
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKGridDescriptor

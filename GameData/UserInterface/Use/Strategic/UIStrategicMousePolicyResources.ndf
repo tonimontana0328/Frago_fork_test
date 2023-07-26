@@ -429,8 +429,8 @@ StrategicMouseWidgetSelector_Default is TUIStrategicMouseWidgetSelectorDefault
         (TextStyle_Invalid      , "WidgetSelector/Invalid"),
     ]
 
-    TooCloseToken   = "MP_TOOCL"
-    OutOfRangeToken = "MP_OORANGE"
+    TooCloseToken   = ""
+    OutOfRangeToken = ""
     KilometersToken = "RANGE_KM"
     AttackAvailableToken = "CUR_ASSAUL"
 )

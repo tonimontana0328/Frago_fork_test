@@ -642,11 +642,11 @@ DefaultStyleGuide is TUIStyleGuide
                                                         ]),
         ("Steelman_Background_BoutonOrdreDeBataille",   MAP [
                                                             ( ~/ComponentState/Grayed,                TColorRTTI( Color = Noir ) ),
-                                                            ( ~/ComponentState/Normal,                TColorRTTI( Color = [128,128,128,125] ) ),
-                                                            ( ~/ComponentState/Highlighted,           TColorRTTI( Color = [150,150,150,200] ) ),
+                                                            ( ~/ComponentState/Normal,                TColorRTTI( Color = Transparent ) ),
+                                                            ( ~/ComponentState/Highlighted,           TColorRTTI( Color = [150,150,150,125] ) ),
                                                             ( ~/ComponentState/Clicked,               TColorRTTI( Color = Blanc184 ) ),
-                                                            ( ~/ComponentState/Toggled,               TColorRTTI( Color = GrisSteelman ) ),
-                                                            ( ~/ComponentState/ToggleHighlighted,     TColorRTTI( Color = GrisSteelman ) ),
+                                                            ( ~/ComponentState/Toggled,               TColorRTTI( Color = Grullo ) ),
+                                                            ( ~/ComponentState/ToggleHighlighted,     TColorRTTI( Color = Grullo ) ),
                                                         ]),
         ("Transparent",                MAP [
                                                             ( ~/ComponentState/Grayed,                TColorRTTI( Color = Transparent ) ),
@@ -882,6 +882,13 @@ DefaultStyleGuide is TUIStyleGuide
                                         ( ~/ComponentState/Grayed,             TColorRTTI( Color = [255,255,255,0] ) ),
                                         ]),
 
+        ("OfficialGameBackground",  MAP [
+                                            ( ~/ComponentState/Normal,      TColorRTTI( Color = [30, 210 ,210 , 70] ) ),
+                                            ( ~/ComponentState/Highlighted, TColorRTTI( Color = [35, 225, 225, 70] ) ),
+                                            ( ~/ComponentState/Clicked,     TColorRTTI( Color = [40, 250, 250, 70] ) ),
+                                            ( ~/ComponentState/Grayed,      TColorRTTI( Color = [30, 210, 210, 30] ) ),
+                                            ]),
+
         ("SoloMission/Background",      MAP [
                                                 ( ~/ComponentState/Normal,      TColorRTTI  ( Color = Transparent ) ),
                                                 ( ~/ComponentState/Highlighted,  TColorRTTI  ( Color = BlueLightOutgame40 ) ),
@@ -1100,8 +1107,8 @@ DefaultStyleGuide is TUIStyleGuide
 
 
         ("DeckOverview/CaseGrisee/EditableText/Selected",               MAP [
-                                                                                ( ~/ComponentState/Normal, TColorRTTI( Color = Bleu4_strat {[155, 198, 216, 128] }) ),
-                                                                                ( ~/ComponentState/Highlighted, TColorRTTI( Color = Bleu4_strat {[155, 198, 216, 128] }) ),
+                                                                                ( ~/ComponentState/Normal, TColorRTTI( Color = Bleu4_strat ) ),
+                                                                                ( ~/ComponentState/Highlighted, TColorRTTI( Color = Bleu4_strat ) ),
                                                                             ]),
 
         ("PanelScore/ScoreBackground",                                  MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = LighterGray ) ), ]),
@@ -2455,11 +2462,11 @@ DefaultStyleGuide is TUIStyleGuide
         // couleur des division
         // US
         ("division_US_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [47,203,252,255] ) ),]),
-        ("division_US_2",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [19,85,106,255] ) ),]),
-        ("division_US_3",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [47,252,246,255] ) ),]),
+        ("division_US_2",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [114, 126, 76,255] ) ),]),
+        ("division_US_3",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [136, 171, 114,255] ) ),]),
         ("division_US_4",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [47,131,252,255] ) ),]),
-        ("division_US_5",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [19,54,106,255] ) ),]),
-        ("division_US_6",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [19,106,104,255] ) ),]),
+        ("division_US_5",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [84, 96, 76,255] ) ),]),
+        ("division_US_6",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [114,126,106,255] ) ),]),
 
         // RFA
         ("division_RFA_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [172,184,184,255] ) ),]),
@@ -2872,7 +2879,7 @@ DefaultStyleGuide is TUIStyleGuide
                                         ( ~/ComponentState/Normal, TColorRTTI( Color = [41,45,46,255] ) ),
                                         ( ~/ComponentState/Highlighted,             TColorRTTI( Color = [255,255,255,255] ) ),
                                         ( ~/ComponentState/Toggled,             TColorRTTI( Color = [240,228,225,255] ) ),
-                                        //( ~/ComponentState/Toggled,             TColorRTTI( Color = [240,228,225,255] ) ),
+                                        ( ~/ComponentState/Grayed,             TColorRTTI( Color = [41, 45, 46, 70] ) ),
                                         ]),
         ("Noir_multi2",              MAP [
                                         ( ~/ComponentState/Normal,                  TColorRTTI( Color = [37,48,54,255] ) ),
@@ -2952,6 +2959,14 @@ DefaultStyleGuide is TUIStyleGuide
                                             ( ~/ComponentState/Clicked,                TColorRTTI( Color = Fulda_Turquoise2 ) ),
                                             ( ~/ComponentState/Toggled,                TColorRTTI( Color = Fulda_VertBleu ) ),
                                             ( ~/ComponentState/ToggleHighlighted,      TColorRTTI( Color = Fulda_Turquoise2 ) ),
+                                        ]),
+        ("panel_losses",            MAP [
+                                            ( ~/ComponentState/Grayed,                 TColorRTTI( Color = Transparent ) ),
+                                            ( ~/ComponentState/Normal,                 TColorRTTI( Color = NoirPur80 ) ),
+                                            ( ~/ComponentState/Highlighted,            TColorRTTI( Color = NoirPur50 ) ),
+                                            ( ~/ComponentState/Clicked,                TColorRTTI( Color = Transparent ) ),
+                                            ( ~/ComponentState/Toggled,                TColorRTTI( Color = Transparent ) ),
+                                            ( ~/ComponentState/ToggleHighlighted,      TColorRTTI( Color = Blanc30 ) ),
                                         ]),
 
 
@@ -3128,6 +3143,7 @@ DefaultStyleGuide is TUIStyleGuide
                                                             ( ~/ComponentState/Grayed, TColorRTTI( Color = [60, 50, 35, 60] ) ),
                                                             ( ~/ComponentState/Highlighted, TColorRTTI( Color = [120, 105, 65, 255] ) ),
                                                             ]),
+
 
         ("Cyan",                                        MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Cyan ) ), ]),
         ("Turquoise",                                   MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Fulda_Turquoise ) ), ]),

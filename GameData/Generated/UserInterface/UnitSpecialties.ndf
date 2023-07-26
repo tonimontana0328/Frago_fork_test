@@ -78,6 +78,16 @@ UnitSpecialties is TUnitSpecialtiesContainer
             )
         ),
         (
+            "_era",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_era"
+                SpecialtyHintTitleToken    = "PLSBNXSZEF"
+                SpecialtyHintBodyToken     = "SPZUNHQJFJ"
+                SpecialtyHintExtendedToken = "PHHWJUIYKW"
+            )
+        ),
+        (
             "_gsr",
             TUnitSpecialtyDescriptor
             (

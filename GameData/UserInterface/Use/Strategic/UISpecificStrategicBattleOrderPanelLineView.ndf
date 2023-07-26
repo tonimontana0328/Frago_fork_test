@@ -285,7 +285,19 @@ is UISpecificStrategicBattleOrderPanelLineViewDescriptor
 
             Elements =
             [
-
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = BUCKTextureDescriptor
+                    (
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            MagnifiableWidthHeight = [16.0, 38.0]
+                            AlignementToAnchor = [0.0, 0.5]
+                            AlignementToFather = [0.0, 0.5]
+                        )
+                        TextureToken = 'UseStrategic_oob_L'
+                    )
+                ),
                 BUCKListElementDescriptor
                 (
                     ComponentDescriptor = BUCKTextureDescriptor
@@ -314,7 +326,7 @@ is UISpecificStrategicBattleOrderPanelLineViewDescriptor
                         (
                             AlignementToAnchor = [0.0, 0.5]
                             AlignementToFather = [0.0, 0.5]
-                            MagnifiableWidthHeight = [200,0]
+                            MagnifiableWidthHeight = [190,0]
                         )
 
                         ParagraphStyle = TParagraphStyleRTTI
@@ -329,7 +341,7 @@ is UISpecificStrategicBattleOrderPanelLineViewDescriptor
 
                         TextStyle = "Default"
 
-                        TypefaceToken = "Eurostyle"
+                        TypefaceToken = "Eurostyle_Italic"
                         BigLineAction = ~/BigLineAction/CutByDots
 
                         TextDico = <TitleTextDico>
@@ -363,6 +375,13 @@ is UISpecificStrategicBattleOrderPanelLineViewDescriptor
                                 )
                                 TextureToken = 'SelectPawn_oob'
                                 TextureColorToken = 'SM_SelectPawn_oob'
+                            ),
+                            BUCKSpecificHintableArea
+                            (
+                                HintTitleToken = 'SBO_zoomt'
+                                HintBodyToken = 'SBO_zoomb'
+                                // HintExtendedToken = <HintExtendedToken>
+                                DicoToken = ~/LocalisationConstantes/dico_interface_ingame
                             )
                         ]
                     )
@@ -452,7 +471,7 @@ template UISpecificStrategicBattleOrderPanelCompanyLineViewDescriptor
                     BigLineAction = ~/BigLineAction/ResizeFont
 
                     TypefaceToken = "Eurostyle"
-                    TextColor = "SD2_Blanc184"
+                    TextColor = "Blanc"
                     TextSize = "14"
                 ),
             ]

@@ -3564,6 +3564,33 @@ export SoundHappening_FULDA_Bombe_Napalm_sol is TSoundHappening
                 )
                 UseSpecialLoop = False
             ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/SFX_SoundSettings_Tres_Gros_Impact_HE
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/Bombes/Bombe_Napalm_2.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/SFX_SoundSettings_Tres_Gros_Impact_HE
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/Bombes/Bombe_Napalm_3.wav"
+                )
+                UseSpecialLoop = False
+            ),
+            TSoundDescriptor
+            (
+                SoundSettings = $/SoundSettings/SFX_SoundSettings_Tres_Gros_Impact_HE
+                TheSoundStream = TSoundStream
+                (
+                    FileName = "GameData:/Assets/Sons/SFX/Bombes/Bombe_Napalm_4.wav"
+                )
+                UseSpecialLoop = False
+            ),
         ]
         PlayInRandomOrder = True
     )

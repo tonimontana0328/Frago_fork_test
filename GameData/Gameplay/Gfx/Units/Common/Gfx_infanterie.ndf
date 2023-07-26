@@ -1687,6 +1687,15 @@ export Modele_Security_DDR_05 is TemplateMeshDescriptor( FileName = DDR_MotSchut
 export Modele_Security_DDR_06 is TemplateMeshDescriptor( FileName = DDR_MotSchutzen_spe )
 export Modele_Security_DDR_LOW is TemplateMeshDescriptor( FileName = DDR_MotSchutzen_LOW )
 
+//MotRifles_SVD_DDR
+export Modele_MotRifles_SVD_DDR is TemplateMeshDescriptor( FileName = DDR_MotSchutzen_1 )
+export Modele_MotRifles_SVD_DDR_02 is TemplateMeshDescriptor( FileName = DDR_MotSchutzen_2 )
+export Modele_MotRifles_SVD_DDR_03 is TemplateMeshDescriptor( FileName = DDR_MotSchutzen_NCO )
+export Modele_MotRifles_SVD_DDR_04 is TemplateMeshDescriptor( FileName = DDR_MotSchutzen_Officer )
+export Modele_MotRifles_SVD_DDR_05 is TemplateMeshDescriptor( FileName = DDR_MotSchutzen_Sniper )
+export Modele_MotRifles_SVD_DDR_06 is TemplateMeshDescriptor( FileName = DDR_MotSchutzen_spe )
+export Modele_MotRifles_SVD_DDR_LOW is TemplateMeshDescriptor( FileName = DDR_MotSchutzen_LOW )
+
 //MotRifles_DDR
 export Modele_MotRifles_DDR is TemplateMeshDescriptor( FileName = DDR_MotSchutzen_1 )
 export Modele_MotRifles_DDR_02 is TemplateMeshDescriptor( FileName = DDR_MotSchutzen_2 )
@@ -3132,6 +3141,18 @@ export Modele_MotRifles_SVD_POL_05 is TemplateMeshDescriptor( FileName = POL_Pie
 export Modele_MotRifles_SVD_POL_06 is TemplateMeshDescriptor( FileName = POL_Piechota_2 )
 export Modele_MotRifles_SVD_POL_LOW is TemplateMeshDescriptor( FileName = POL_Piechota_1 )
 
+//Naval_Engineers_POL
+export Modele_Naval_Engineers_POL is TemplateMeshDescriptor( FileName = POL_Niebieskie_1 )
+export Modele_Naval_Engineers_POL_LOW is TemplateMeshDescriptor( FileName = POL_Niebieskie_1 )
+
+//Naval_Engineers_Flam_POL
+export Modele_Naval_Engineers_Flam_POL is TemplateMeshDescriptor( FileName = POL_Niebieskie_1 )
+export Modele_Naval_Engineers_Flam_POL_LOW is TemplateMeshDescriptor( FileName = POL_Niebieskie_1 )
+
+//Naval_Engineers_CMD_POL
+export Modele_Naval_Engineers_CMD_POL is TemplateMeshDescriptor( FileName = POL_Niebieskie_1 )
+export Modele_Naval_Engineers_CMD_POL_LOW is TemplateMeshDescriptor( FileName = POL_Niebieskie_1 )
+
 //Naval_Rifle_POL
 export Modele_Naval_Rifle_POL is TemplateMeshDescriptor( FileName = POL_Niebieskie_1 )
 export Modele_Naval_Rifle_POL_02 is TemplateMeshDescriptor( FileName = POL_Niebieskie_2 )
@@ -3208,6 +3229,18 @@ export Modele_Para_CMD_POL_06 is TemplateMeshDescriptor( FileName = POL_Spado_1 
 export Modele_Para_CMD_POL_07 is TemplateMeshDescriptor( FileName = POL_Spado_NCO )
 export Modele_Para_CMD_POL_08 is TemplateMeshDescriptor( FileName = POL_Spado_2 )
 export Modele_Para_CMD_POL_LOW is TemplateMeshDescriptor( FileName = POL_Spado_1 )
+
+//Scout_LRRP_Para_POL
+export Modele_Scout_LRRP_Para_POL is TemplateMeshDescriptor( FileName = POL_Spado_1 )
+export Modele_Scout_LRRP_Para_POL_LOW is TemplateMeshDescriptor( FileName = POL_Spado_1 )
+
+//Commandos_Para_POL
+export Modele_Commandos_Para_POL is TemplateMeshDescriptor( FileName = POL_Spado_1 )
+export Modele_Commandos_Para_POL_LOW is TemplateMeshDescriptor( FileName = POL_Spado_1 )
+
+//Para_Security_POL
+export Modele_Para_Security_POL is TemplateMeshDescriptor( FileName = POL_Spado_1 )
+export Modele_Para_Security_POL_LOW is TemplateMeshDescriptor( FileName = POL_Spado_1 )
 
 //Para_POL
 export Modele_Para_POL is TemplateMeshDescriptor( FileName = POL_Spado_1 )

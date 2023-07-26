@@ -416,32 +416,6 @@ private ScenarioDifficultyComponent is BUCKButtonDescriptor
 
 private SoloLaunchButtonHeight is 35.0
 
-private template SoloLaunchButton
-[
-    ElementName : string = "SelectButton",
-    TextToken : string = "DS_SELECT",
-    TextDico : string = ~/LocalisationConstantes/dico_interface_outgame,
-] is ConfirmButton
-(
-    ElementName = <ElementName>
-    TextToken = <TextToken>
-    TextDico = <TextDico>
-    Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
-    ButtonMagnifiableWidthHeight = [175.0, ~/SoloLaunchButtonHeight]
-    ButtonAlignementToAnchor = [0.5, 0.0]
-    ButtonAlignementToFather = [0.5, 0.0]
-    ButtonMagnifiableOffset = [0.0, 0.0]
-    TextTypefaceToken = "Liberator"
-    TextColorToken = "tampon_vert"
-    BorderLineColorToken = "tampon_vert"
-    HasBackground = false
-    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
-    TextSizeToken = "32"
-    BorderThicknessToken = "3"
-    BigLineAction = ~/BigLineAction/ResizeFont
-    TextPadding = TRTTILength4( Magnifiable = [5.0, 0.0, 5.0, 0.0] )
-)
-
 private template SoloQuitButton
 [
     TextToken : string = "BTN_CLOSE",
@@ -471,7 +445,7 @@ private template ScenarioDescriptionContainer
 [
     ElementName : string,
     ComponentFrame : TUIFramePropertyRTTI,
-    IsChallenge : bool,
+    GameType : int,
 ] is BUCKContainerDescriptor
 (
     ElementName = <ElementName>
@@ -526,7 +500,7 @@ private template ScenarioDescriptionContainer
                             )
                         ),
                     ]
-                    + (<IsChallenge> ?
+                    + (<GameType> == ~/GameChallenge ?
                     [
                         // Choix difficulté
                         BUCKListElementDescriptor
@@ -594,12 +568,12 @@ private template ScenarioDescriptionContainer
                                 ComponentFrame = TUIFramePropertyRTTI
                                 (
                                     RelativeWidthHeight = [1.0, 0.0]
-                                    MagnifiableWidthHeight = [0.0, (<IsChallenge> ? 26 : ~/SoloLaunchButtonHeight)]
+                                    MagnifiableWidthHeight = [0.0, (<GameType> == ~/GameChallenge ? 26 : ~/SoloLaunchButtonHeight)]
                                     AlignementToAnchor = [0.5, 0.0]
                                     AlignementToFather = [0.5, 0.0]
                                 )
 
-                                Components = (<IsChallenge> ?
+                                Components = (<GameType> == ~/GameChallenge ?
                                 [
                                     SoloLaunchButton
                                     (
@@ -609,12 +583,14 @@ private template ScenarioDescriptionContainer
                                     (
                                         TextToken = "cha_titre"
                                         TextDico = ~/LocalisationConstantes/dico_maps
-
                                     )
+                                ] : (<GameType> == ~/GameStrategic ?
+                                [
+                                    ~/StrategicLaunchButtons
                                 ] :
                                 [
                                     SoloLaunchButton(),
-                                ])
+                                ]))
                             )
                         ),
                     ]
@@ -622,6 +598,128 @@ private template ScenarioDescriptionContainer
             ]
         ),
     ]
+)
+
+//-------------------------------------------------------------------------------------
+
+StrategicLaunchButtons is BUCKListDescriptor
+(
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        RelativeWidthHeight = [1.0, 0.0]
+        AlignementToAnchor = [0.5, 1.0]
+        AlignementToFather = [0.5, 1.0]
+    )
+    Axis = ~/ListAxis/Vertical
+    InterItemMargin = TRTTILength(Magnifiable = 30.0)
+
+    Elements =
+    [
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SoloLaunchButton()
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKListDescriptor
+            (
+                ElementName = "SelectMultiButtonsList"
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    AlignementToAnchor = [0.5, 0.0]
+                    AlignementToFather = [0.5, 0.0]
+                )
+                Axis = ~/ListAxis/Horizontal
+                BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+                InterItemMargin = TRTTILength(Magnifiable = 40.0)
+
+                Elements =
+                [
+                    BUCKListElementDescriptor
+                    (
+                        ComponentDescriptor = SoloNavigationButton
+                        (
+                            ElementName = "SelectButtonCoop"
+                            TextToken = "STRPLMC"
+                            IsEmphasized = true
+                        )
+                    ),
+                    BUCKListElementDescriptor
+                    (
+                        ComponentDescriptor = SoloNavigationButton
+                        (
+                            ElementName = "SelectButtonVersus"
+                            TextToken = "STRPLMV"
+                            IsEmphasized = true
+                        )
+                    )
+                ]
+            )
+        )
+    ]
+)
+
+//-------------------------------------------------------------------------------------
+
+template SoloNavigationButton
+[
+    ElementName : string = "",
+    TextToken : string = "",
+    ButtonMagnifiableWidthHeight : float2 = [175.0, 35.0],
+    TextSizeToken : string = "32",
+    HintTitleToken : string = "",
+    HintBodyToken : string = "",
+    HintExtendedToken : string = "",
+    IsEmphasized : bool = false,
+    Mapping : TEugBMutablePBaseClass = nil,
+    HintableAreaElementName : string = "",
+    TextDico : string = ~/LocalisationConstantes/dico_interface_outgame,
+    ButtonAlignementToAnchor : float2 = [0.0,0.0],
+    ButtonAlignementToFather : float2 = [0.0,0.0],
+
+] is ConfirmButton
+(
+    ElementName = <ElementName>
+    ButtonMagnifiableWidthHeight = <ButtonMagnifiableWidthHeight>
+    ButtonAlignementToAnchor = <ButtonAlignementToAnchor>
+    ButtonAlignementToFather = <ButtonAlignementToFather>
+
+    BorderLineColorToken = <IsEmphasized> ? "tampon_vert" : "tampon_gris"
+    BorderThicknessToken = "3"
+
+    TextToken = <TextToken>
+    HintTitleToken = <HintTitleToken>
+    HintBodyToken = <HintBodyToken>
+    HintExtendedToken = <HintExtendedToken>
+    HintableAreaElementName = <HintableAreaElementName>
+    HintDico = ~/LocalisationConstantes/dico_interface_outgame
+    TextTypefaceToken = "Liberator"
+    TextColorToken = <IsEmphasized> ? "tampon_vert" : "tampon_gris"
+    TextSizeToken = <TextSizeToken>
+    TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
+    TextDico = <TextDico>
+
+    BigLineAction = ~/BigLineAction/ResizeFont
+
+    Mapping = <Mapping>
+)
+
+//-------------------------------------------------------------------------------------
+
+private template SoloLaunchButton
+[
+    ElementName : string = "SelectButton",
+    TextToken : string = "DS_SELECT",
+    TextDico : string = ~/LocalisationConstantes/dico_interface_outgame,
+] is SoloNavigationButton
+(
+    ElementName = <ElementName>
+    TextToken = <TextToken>
+    TextDico = <TextDico>
+    Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
+    ButtonAlignementToAnchor = [0.5, 0.0]
+    ButtonAlignementToFather = [0.5, 0.0]
+    IsEmphasized = true
 )
 
 //-------------------------------------------------------------------------------------
@@ -635,7 +733,7 @@ private template ScenarioListContainer
     ElementName = "ScenarioListContainer"
     ComponentFrame = TUIFramePropertyRTTI
     (
-       MagnifiableWidthHeight = [526.0, 745.0]
+       MagnifiableWidthHeight = [526.0, 715.0]
        MagnifiableOffset = [71.0, 31.0]
     )
 
@@ -1104,12 +1202,12 @@ template FullPanelLoadMission
             ElementName = "ScenarioDescription"
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = [520.0,741.0]
+                MagnifiableWidthHeight = [520.0, 715.0]
                 MagnifiableOffset = [285.0, 25.0]
                 AlignementToFather = [0.5, 0.0]
                 AlignementToAnchor = [0.5, 0.0]
             )
-            IsChallenge = false
+            GameType = <GameType>
         ),
     ]
 )
@@ -1145,12 +1243,12 @@ FullPanelPreviewMission is BUCKTextureDescriptor
             ElementName = "ScenarioMap"
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = [520.0,741.0]
+                MagnifiableWidthHeight = [520.0, 715.0]
                 MagnifiableOffset = [285.0, 15.0]
                 AlignementToFather = [0.5, 0.0]
                 AlignementToAnchor = [0.5, 0.0]
             )
-            IsChallenge = true
+            GameType = ~/GameChallenge
         ),
     ]
 )

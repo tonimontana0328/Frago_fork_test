@@ -17,9 +17,9 @@ export IAStratWeaponConstantes is TIAStratWeaponConstantesDescriptor
     DamageFamilyDebugColorPriorityOrder = ["ap","he"]
     DamageFamilyAdditionnalColor = ["flamme"]
 
-    DamageWithMenaceForDangerounessArmor = ["he", "balle", "balleaa", "balledca"]
+    DamageWithMenaceForDangerounessArmor = ["he", "fmballe", "balleaa", "balledca", "missile_he"]
     AlwaysThreateningDamageFamily = ["flamme"]
     MacroActionArtilleryDamageTypeThreat = ["he"]
-    AttackDamageTypeThreat = ["he","balleaa", "balledca"]
+    AttackDamageTypeThreat = ["he","balleaa", "balledca", "fmballe"]
     DamageTypeForPrincipalAmmo = ["he", "ap"]
 )

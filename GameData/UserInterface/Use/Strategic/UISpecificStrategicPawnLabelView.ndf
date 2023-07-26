@@ -375,8 +375,9 @@ private CombatValue is BUCKListDescriptor
     (
         AlignementToFather = [1.0, 1.0]
         AlignementToAnchor = [1.0, 0.5]
-        // MagnifiableOffset = [0.0, 5.0]
-        MagnifiableOffset = [0.0, -30.0]
+
+        // MagnifiableOffset = [0.0, -30.0]
+        MagnifiableOffset = [0.0, -26.0]
 
 
     )
@@ -454,16 +455,30 @@ private CombatValue is BUCKListDescriptor
 
 //-------------------------------------------------------------------------------------
 
-private Fatigue is BUCKTextureDescriptor
+private Fatigue is BUCKContainerDescriptor
 (
-    ElementName = 'FatigueIcon'
+    // ElementName = 'FatigueIcon'
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [40.0, 5.0]
-        MagnifiableOffset = [20.0, -20.0]
+        // MagnifiableOffset = [20.0, 16.0]
+        MagnifiableOffset = [20.0, 3.0]
     )
+    HasBackground = true
+    BackgroundBlockColorToken = 'Noir'
+    Components =
+    [
+        BUCKTextureDescriptor
+        (
+            ElementName = 'FatigueIcon'
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 1.0]
+            )
 
-    TextureFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
+            TextureFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
+        )
+    ]
 )
 
 //-------------------------------------------------------------------------------------

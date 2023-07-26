@@ -219,21 +219,6 @@ Eject_Actions_M1A1_Abrams_CMD_US is MAP
             Action = $/VFX_Bank/M1A1_Abrams_CMD_US_DebrisFX_Trappe_2
         )
     ),
-    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
-        (
-            Action = $/VFX_Bank/M1A1_Abrams_CMD_US_DebrisFX_Tourelle_01
-        )
-    ),
-    ( [ "fx_eject_tourelle_02" ], template_UnitDebrisHappening
-        (
-            Action = $/VFX_Bank/M1A1_Abrams_CMD_US_DebrisFX_Tourelle_02
-        )
-    ),
-    ( [ "fx_eject_tourelle_03" ], template_UnitDebrisHappening
-        (
-            Action = $/VFX_Bank/M1A1_Abrams_CMD_US_DebrisFX_Tourelle_03
-        )
-    ),
 ]
 Eject_Actions_M1A1_Abrams_US is MAP
 [

@@ -263,9 +263,6 @@ export IAStratConstantes is TIAStratConstantesDescriptor_Specific
     ProbabilityDropSmokeOnCrawl = 1.0
     MaxMinimumRangeForDropSmokeOnCrawl = 150 * Metre //Réglé pour correspondre aux smokes des véhicules avec une marge
 
-    //Override du safePath
-    AlwaysIgnoreSafePathTags = ["Helo_AT", "Helo_Gunship"]
-
     //Smart Order Custom Zone Filler
     ZoneFillerType = TCircleZoneFiller(Radius = 3)
 
@@ -334,6 +331,8 @@ export IAStratConstantes is TIAStratConstantesDescriptor_Specific
     SupplyDistanceToStop = 250 * Metre
 
     IAStratPathCacheCostPathfindType = ~/IAStratPathCacheCostConstante/IAStratPathCacheCostPathfindType
+
+    DeployOffRoadUnitsTags = ["Helo", "FOB"]
 )
 
 //--------------------------------------------------------------------------------------//

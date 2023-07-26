@@ -47,7 +47,6 @@ MouseWidgetSelector_Attack is TUIMouseWidgetSelector_Attack
         (Weapon_Cursor_GroundMissile     , ~/MouseWidget_GroundMissile),
         (Weapon_Cursor_MachineGun        , ~/MouseWidget_MachineGun),
         (Weapon_Cursor_None              , ~/MouseWidget_None),
-        (Weapon_Cursor_Outmap            , ~/DefaultMouseWidget),
         (Weapon_Cursor_SuppressionFire   , ~/MouseWidget_SuppressionFire),
         (Weapon_Cursor_UnguidedMissile   , ~/MouseWidget_UnguidedMissile),
         (Weapon_Cursor_Inefficient       , ~/MouseWidget_Inefficient)

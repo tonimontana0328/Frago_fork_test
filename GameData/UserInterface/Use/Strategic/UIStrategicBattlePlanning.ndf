@@ -17,7 +17,7 @@ private StrategicBattlePlanningButtons is StrategicSecondaryCubeActionPanel
 )
 AttackPreparation is PanelRoundedCorner
 (
-
+    HidePointerEvents = true
     ElementName = "AttackPreparation"
 
     BackgroundBlockColorToken = 'SM_RifleGreen_75'

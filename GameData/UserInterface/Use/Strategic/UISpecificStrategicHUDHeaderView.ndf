@@ -205,44 +205,6 @@ private StrategicProductionMenuStrategicPointsText is BUCKTextDescriptor
     )
 )
 
-// -------------------------------------------------------------------------------------------------
-{private SpecificStrategicHUDHeaderOptionViewMainComponent is BUCKButtonDescriptor
-(
-    ElementName = 'BtnGameSpeed'
-    HasBorder = true
-    BorderThicknessToken = "1"
-    BorderLineColorToken = "SD2_Blanc184"
-
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [32.0, 20.0]
-        AlignementToFather = [0.0, 0.5]
-        AlignementToAnchor = [0.0, 0.5]
-    )
-
-    Components =
-    [
-        BUCKTextureDescriptor
-        (
-            ElementName = 'GameSpeedTexture'
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 1.0]
-            )
-
-            TextureToken = "vitesse03Strat"
-            TextureColorToken = "StrategicUI/Button"
-        ),
-        BUCKSpecificHintableArea
-        (
-            DicoToken = ~/LocalisationConstantes/dico_interface_ingame
-            HintTitleToken = "sp_t"
-            HintBodyToken = "sp_c"
-        )
-    ]
-)}
-
-
 
 // -------------------------------------------------------------------------------------------------
 private StrategicBoutonsMenus is PanelRoundedCorner

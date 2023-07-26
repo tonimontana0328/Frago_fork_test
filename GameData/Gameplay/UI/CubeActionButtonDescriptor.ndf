@@ -112,50 +112,6 @@ is TCubeActionFunctionalityButtonInformationsDescriptor
     FunctionalityType        = <FunctionalityType>
 )
 
-template Template_CubeActionOutMapArtilleryButtonInformationsDescriptor_WithSound
-[
-    HoverSound : TSoundDescriptor = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil,
-    LeftClickSound : TSoundDescriptor = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil,
-
-    HoverSoundFileName = nil,
-    ClickSoundFileName = nil,
-
-    CubeActionName,
-    DebugName,
-    CubeActionFunctionType,
-
-    ButtonTextToken,
-    HintTitleToken,
-    HintBodyToken,
-    HintExtendedToken,
-    HintDico,
-
-    ArtilleryShootMode,
-
-    Mapping,
-]
-is TCubeActionOutMapArtilleryButtonInformationsDescriptor
-(
-    ButtonTextToken = <ButtonTextToken>
-    HintDico = <HintDico>
-    HintTitleToken = <HintTitleToken>
-    HintBodyToken = <HintBodyToken>
-    HintExtendedToken = <HintExtendedToken>
-
-    BackgroundTexture        = '' //Plus branche cote code, on peut le remettre facilement a la place des textes si necessaire
-
-    HoverSound               = (<HoverSoundFileName> == nil) ? <HoverSound> : InterfaceSound( FileName = <HoverSoundFileName> )
-    ClickSound               = (<ClickSoundFileName> == nil) ? <LeftClickSound> : InterfaceSound( FileName = <ClickSoundFileName> )
-
-    Mapping                  = <Mapping>
-
-    CubeActionName           = <CubeActionName>
-    DebugName                = <DebugName>
-    CubeActionFunctionType   = <CubeActionFunctionType>
-
-    ArtilleryShootMode       = <ArtilleryShootMode>
-)
-
 export CubeAction_Order_Attack is Template_CubeActionOrderButtonInformationsDescriptor_WithSound
 (
     CubeActionName           = "CubeAction_Order_Attack"
@@ -665,9 +621,8 @@ Functionality_HoldFire         is 7
 Functionality_RiposteStance    is 9
 Functionality_AutoCover        is 10
 Functionality_Home             is 11
-Functionality_CallArtillery    is 12
-Functionality_DefaultOrderHunt is 13
-Functionality_DefaultOrderMove is 14
+Functionality_DefaultOrderHunt is 12
+Functionality_DefaultOrderMove is 13
 
 // TODO : à supprimer, Template_CubeAction_Functionality_Back fait le boulot ; gardé uniquement pour faire la transition
 export CubeAction_Functionality_Back is Template_CubeActionFunctionalityButtonInformationsDescriptor_WithSound
@@ -703,25 +658,6 @@ export CubeAction_Functionality_Home is Template_CubeActionFunctionalityButtonIn
     FunctionalityType        = Functionality_Home
     Mapping                  = $/KeyboardOption/Mapping_Home
 )
-
-export CubeAction_Functionality_CallArtillery is Template_CubeActionFunctionalityButtonInformationsDescriptor_WithSound
-(
-    CubeActionName           = "CubeAction_Order_CallArtillery"
-    DebugName                = "InGameCubeAction_ButtonCallArtillery"
-
-    CubeActionFunctionType   = TacticCubeActionFunctionType/Orders
-
-    ButtonTextToken          = 'ORD_CALART'
-    HintTitleToken           = 'ORD_CALART'
-    HintBodyToken            = 'HNT_CALART'
-    HintExtendedToken        = ''
-    HintDico                 = ~/LocalisationConstantes/dico_interface_ingame
-
-    FunctionalityType        = Functionality_CallArtillery
-    Mapping                  = $/KeyboardOption/Mapping_CallArtillery
-)
-
-
 
 export CubeAction_Functionality_TrackCam is Template_CubeActionFunctionalityButtonInformationsDescriptor_WithSound
 (
@@ -789,59 +725,6 @@ export CubeAction_Functionality_RiposteStance is Template_CubeActionFunctionalit
 
     FunctionalityType       = Functionality_RiposteStance
     Mapping                  = $/KeyboardOption/Mapping_RiposteStance
-)
-
-//-----------------------------------------------------------------------------
-//-----------------------------------------------------------------------------
-//-----------------------------------------------------------------------------
-
-export CubeAction_OutMapArtillery_Barrage is Template_CubeActionOutMapArtilleryButtonInformationsDescriptor_WithSound
-(
-    CubeActionName          = "CubeAction_Order_Barrage"
-    DebugName               = "InGameCubeAction_ButtonBarrage"
-
-    CubeActionFunctionType = ~/TacticCubeActionFunctionType/TogglableOrders
-
-    ButtonTextToken         = 'ORD_BARRG'
-    HintTitleToken          = 'ORD_BARRG'
-    HintBodyToken           = 'HNT_BARRG'
-    HintExtendedToken       = ''
-    HintDico                = ~/LocalisationConstantes/dico_interface_ingame
-
-    ArtilleryShootMode      = EOutMapArtilleryShootMode/Barrage
-    Mapping                  = nil
-)
-export CubeAction_OutMapArtillery_Warning is Template_CubeActionOutMapArtilleryButtonInformationsDescriptor_WithSound
-(
-    CubeActionName          = "CubeAction_Order_Warning"
-    DebugName               = "InGameCubeAction_ButtonWarning"
-
-    CubeActionFunctionType = ~/TacticCubeActionFunctionType/TogglableOrders
-
-    ButtonTextToken         = 'ORD_WARN'
-    HintTitleToken          = 'ORD_WARN'
-    HintBodyToken           = 'HNT_WARN'
-    HintExtendedToken       = ''
-    HintDico                = ~/LocalisationConstantes/dico_interface_ingame
-
-    ArtilleryShootMode      = EOutMapArtilleryShootMode/Warning
-    Mapping                  = nil
-)
-export CubeAction_OutMapArtillery_Efficacite is Template_CubeActionOutMapArtilleryButtonInformationsDescriptor_WithSound
-(
-    CubeActionName          = "CubeAction_Order_Efficacite"
-    DebugName               = "InGameCubeAction_ButtonEfficacite"
-
-    CubeActionFunctionType = ~/TacticCubeActionFunctionType/TogglableOrders
-
-    ButtonTextToken         = 'ORD_EFFIC'
-    HintTitleToken          = 'ORD_EFFIC'
-    HintBodyToken           = 'HNT_EFFIC'
-    HintExtendedToken       = ''
-    HintDico                = ~/LocalisationConstantes/dico_interface_ingame
-
-    ArtilleryShootMode      = EOutMapArtilleryShootMode/FireForEffect
-    Mapping                  = nil
 )
 
 //-----------------------------------------------------------------------------

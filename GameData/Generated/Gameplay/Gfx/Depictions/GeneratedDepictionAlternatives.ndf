@@ -591,6 +591,11 @@ Alternatives_DCA_Javelin_LML_UK is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_Javelin_LML_UK_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_Javelin_LML_UK_LOW ),
 ]
+Alternatives_DCA_M167A2_Vulcan_20mm_US is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167A2_Vulcan_20mm_US ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167A2_Vulcan_20mm_US_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167A2_Vulcan_20mm_US_LOW ),
+]
 Alternatives_DCA_M167_Vulcan_20mm_US is [
     DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167_Vulcan_20mm_US ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167_Vulcan_20mm_US_MID ),

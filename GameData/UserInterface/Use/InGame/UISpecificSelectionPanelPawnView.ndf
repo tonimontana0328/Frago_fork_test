@@ -67,7 +67,7 @@ template BUCKSpecificSelectionPanelPawnMainComponent
                             BorderThicknessToken = "1"
 
                             HasBackground = true
-                            BackgroundBlockColorToken = 'SM_RifleGreen'
+                            BackgroundBlockColorToken = 'SM_Feldgrau'
 
                             HidePointerEvents = true
 
@@ -83,6 +83,7 @@ template BUCKSpecificSelectionPanelPawnMainComponent
                                     (
                                         ComponentFrame = TUIFramePropertyRTTI
                                         (
+
                                             AlignementToAnchor = [0.5, 0.0]
                                             AlignementToFather = [0.5, 0.0]
                                         )
@@ -237,7 +238,7 @@ CombatGroupsTabInStrategic is BUCKDraggableContainerDescriptor
                     TextStyle = "Default"
                     BigLineAction = ~/BigLineAction/ResizeFont
 
-                    TypefaceToken = "Eurostyle_Italic"
+                    TypefaceToken = "Liberator"
                     TextColor = "SM_paleSilver"
                     TextSize = "16"
                 ),
@@ -470,19 +471,20 @@ PawnCharacteristicList is BUCKListDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [0.0, 40.0]
+        // RelativeWidthHeight = [1,0]
     )
 
     Axis = ~/ListAxis/Horizontal
 
-    InterItemMargin = TRTTILength (Magnifiable = 10.0)
+    InterItemMargin = TRTTILength (Magnifiable = 2.0)
 
     HasBackground = true
-    BackgroundBlockColorToken = 'SM_RifleGreen'
+    BackgroundBlockColorToken = 'SM_Feldgrau'
 
-    HasBorder = true
-    BordersToDraw = ~/TBorderSide/Bottom
-    BorderLineColorToken = 'SM_onyx'
-    BorderThicknessToken = '2'
+    // HasBorder = true
+    // BordersToDraw = ~/TBorderSide/Bottom
+    // BorderLineColorToken = 'SM_onyx'
+    // BorderThicknessToken = '2'
 
     Elements =
     [
@@ -493,10 +495,12 @@ PawnCharacteristicList is BUCKListDescriptor
                 ElementName = "PowerValue"
                 TextureColorTokenForIcone = "SM_paleSilver" //"SM_Noir"
                 TextureToken = "UseStrategic_SelectionPanel_Attack"
-                TextColor = "SM_paleSilver"
+                TextColor = "BlancEquipe"
                 TextToken = "AttStre"
+                TextToken_title = "sm_piatt"
                 HintTitleToken = "sm_battt"
                 HintBodyToken =  "sm_battc"
+
             )
         ),
         BUCKListElementDescriptor
@@ -506,8 +510,10 @@ PawnCharacteristicList is BUCKListDescriptor
                 ElementName = "ShieldValue"
                 TextureColorTokenForIcone = "SM_paleSilver"
                 TextureToken = "UseStrategic_SelectionPanel_Defense"
-                TextColor = "SM_paleSilver"
+                TextColor = "BlancEquipe"
                 TextToken = "DefStre"
+                TextToken_title = "sm_pidef"
+
                 HintTitleToken = "sm_bdeft"
                 HintBodyToken =  "sm_bdefc"
             )
@@ -519,8 +525,10 @@ PawnCharacteristicList is BUCKListDescriptor
                 ElementName = "FatigueValue"
                 TextureColorTokenForIcone = "SM_paleSilver"
                 TextureToken = "UseStrategic_SelectionPanel_fatigue"
-                TextColor = "SM_paleSilver"
+                TextColor = "BlancEquipe"
                 TextToken = "T_SLASH2"
+                TextToken_title = "sm_pifat"
+
                 HintTitleToken = "sm_fatt"
                 HintBodyToken =  "sm_fatc"
 
@@ -533,8 +541,10 @@ PawnCharacteristicList is BUCKListDescriptor
                 ElementName = "ActionPointsValue"
                 TextureColorTokenForIcone = "SM_paleSilver"
                 TextureToken = "UseStrategic_SelectionPanel_PA"
-                TextColor = "SM_paleSilver"
+                TextColor = "BlancEquipe"
                 TextToken = "T_SLASH2"
+                TextToken_title = "sm_piapt"
+
                 HintTitleToken = "sm_pat"
                 HintBodyToken =  "sm_pac"
             )
@@ -559,6 +569,7 @@ template DisplayAttackAndDefenseValueForPawn
     TextColor : string,
     ElementName : string,
     TextToken : string,
+    TextToken_title : string,
     HintExtendedToken : string = '',
     HintBodyToken : string = '',
     HintTitleToken : string = '',
@@ -571,39 +582,74 @@ template DisplayAttackAndDefenseValueForPawn
         AlignementToAnchor = [0.0, 0.5]
     )
 
-    Axis = ~/ListAxis/Horizontal
+    Axis = ~/ListAxis/Vertical
     BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
-    FirstMargin = TRTTILength( Magnifiable = 6.0 )
-    InterItemMargin = TRTTILength( Magnifiable = 6.0 )
-    LastMargin = TRTTILength( Magnifiable = 6.0 )
+    FirstMargin = TRTTILength( Magnifiable = 2.0 )
+    InterItemMargin = TRTTILength( Magnifiable = 2.0 )
+    LastMargin = TRTTILength( Magnifiable = 2.0 )
 
+    HasBackground = true
+    BackgroundBlockColorToken = 'SM_RifleGreen'
     Elements =
     [
+        // BUCKListElementDescriptor
+        // (
+        //     ComponentDescriptor = BUCKTextureDescriptor
+        //     (
+        //         ComponentFrame = TUIFramePropertyRTTI
+        //         (
+        //             MagnifiableWidthHeight = [20.0, 20.0]
+        //         )
+
+        //         ResizeMode = ~/TextureResizeMode/UserDefined
+
+        //         TextureColorToken = <TextureColorTokenForIcone>
+        //         TextureToken = <TextureToken>
+
+        //         Components =
+        //         [
+        //         BUCKSpecificHintableArea
+        //         (
+        //             HintTitleToken = <HintTitleToken>
+        //             HintBodyToken = <HintBodyToken>
+        //             HintExtendedToken = <HintExtendedToken>
+        //             DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+        //         )
+        //         ]
+        //     )
+        // ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = BUCKTextureDescriptor
+            ComponentDescriptor = BUCKTextDescriptor
             (
+                // ElementName = <ElementName>
+
                 ComponentFrame = TUIFramePropertyRTTI
                 (
-                    MagnifiableWidthHeight = [20.0, 20.0]
+                    MagnifiableWidthHeight = [85,0]
+                    AlignementToAnchor = [0.5, 0.0]
+                    AlignementToFather = [0.5, 0.0]
                 )
 
-                ResizeMode = ~/TextureResizeMode/UserDefined
-
-                TextureColorToken = <TextureColorTokenForIcone>
-                TextureToken = <TextureToken>
-
-                Components =
-                [
-                BUCKSpecificHintableArea
+                ParagraphStyle = TParagraphStyleRTTI
                 (
-                    HintTitleToken = <HintTitleToken>
-                    HintBodyToken = <HintBodyToken>
-                    HintExtendedToken = <HintExtendedToken>
-                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                    Alignment = UIText_Center
+                    VerticalAlignment = UIText_VerticalCenter
                 )
-                ]
+
+                TextStyle = "Default"
+
+                HorizontalFitStyle = ~/FitStyle/UserDefined
+                VerticalFitStyle = ~/FitStyle/FitToContent
+
+                // TypefaceToken = "Eurostyle"
+                TypefaceToken = "Eurostyle"
+                BigLineAction = ~/BigLineAction/MultiLine
+                TextToken = <TextToken_title>
+                TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                TextColor = 'SM_paleSilver'
+                TextSize = "10"
             )
         ),
         BUCKListElementDescriptor
@@ -614,13 +660,13 @@ template DisplayAttackAndDefenseValueForPawn
 
                 ComponentFrame = TUIFramePropertyRTTI
                 (
-                    AlignementToAnchor = [0.0, 0.5]
-                    AlignementToFather = [0.0, 0.5]
+                    AlignementToAnchor = [0.5, 0.0]
+                    AlignementToFather = [0.5, 0.0]
                 )
 
                 ParagraphStyle = TParagraphStyleRTTI
                 (
-                    Alignment = UIText_Left
+                    Alignment = UIText_Center
                     VerticalAlignment = UIText_VerticalCenter
                 )
 
@@ -629,7 +675,7 @@ template DisplayAttackAndDefenseValueForPawn
                 HorizontalFitStyle = ~/FitStyle/FitToContent
                 VerticalFitStyle = ~/FitStyle/FitToContent
 
-                TypefaceToken = "Eurostyle"
+                TypefaceToken = "Eurostyle_Medium"
                 BigLineAction = ~/BigLineAction/MultiLine
                 TextToken = <TextToken>
                 TextDico = ~/LocalisationConstantes/dico_interface_ingame
@@ -640,6 +686,7 @@ template DisplayAttackAndDefenseValueForPawn
     ]
 
     // Hint
+
     ForegroundComponents =
     [
         BUCKSpecificHintableArea

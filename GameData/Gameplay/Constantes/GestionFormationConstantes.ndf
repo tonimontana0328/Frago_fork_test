@@ -168,19 +168,7 @@ export FormationConstantes is TFormationConstantes
     // Les croix blanches sont les positions considérées et la croix verte est la position choisie parmi celles-ci.
     // Les distances sont en mètre RTS
 
-    // Distance max. par défaut (utilisée pour les types d'unités n'ayant pas de distance max. définie)
-    SnapToFavorableTerrainDefaultRadius = 100 * Metre
-
-    // Distance max. par type d'unité (les types d'unité sont définis dans Globals.ndf)
-    SnapToFavorableTerrainRadiusForMovementSubType = MAP
-    [
-        (LandVehicleSubType/Infantry, 100 * Metre),
-        (LandVehicleSubType/Tracked, 100 * Metre),
-        (LandVehicleSubType/Wheeled, 100 * Metre),
-        (LandVehicleSubType/TrackedAmphibious, 100 * Metre),
-        // (LandVehicleSubType/WheeledAmphibious, 100 * Metre), // il faudra préciser un jour
-    ]
-    // -----------------------------------------------------------------------
+    SnapToFavorableTerrainRadius = 100 * Metre
 
 // NE PAS INTERVERTIR LES LIGNES, ON PEUT JUSTE CHANGER LES VALEURS !!
     // Definition en Unités de jeu.

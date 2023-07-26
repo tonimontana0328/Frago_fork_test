@@ -190,8 +190,8 @@ LevelUpPanelDescriptor is BUCKButtonDescriptor
             ComponentFrame = TUIFramePropertyRTTI
             (
                 MagnifiableWidthHeight = [900, 250]
-                AlignementToFather = [.5, .5]
-                AlignementToAnchor = [.5, .5]
+                AlignementToFather = [0.5, 0.5]
+                AlignementToAnchor = [0.5, 0.5]
             )
 
             HidePointerEvents = true

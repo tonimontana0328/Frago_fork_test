@@ -1412,5 +1412,5 @@ BUCKTutorialGuideMainComponentDescriptor is WindowFrame
 TutorialGuideViewDescriptor is TTutorialGuideViewDescriptor
 (
     MainComponentDescriptor = ~/BUCKTutorialGuideMainComponentDescriptor
-    MainComponentContainerUniqueName = "SoloPanelViewDescriptor" // Permet d'indiquer l'endroit ou le composant doit s'insérer
+    MainComponentContainerUniqueName = "SubMenuPanelViewDescriptor" // Permet d'indiquer l'endroit ou le composant doit s'insérer
 )

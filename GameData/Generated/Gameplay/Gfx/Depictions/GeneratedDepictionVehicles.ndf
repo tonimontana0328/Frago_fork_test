@@ -5878,6 +5878,41 @@ Gfx_DCA_Javelin_LML_UK_Autogen is TacticVehicleDepictionTemplate
     SubDepictions = [
     ] + HumanSubDepictions_DCA_Javelin_LML_UK
 )
+// Dépiction de l'unité DCA_M167A2_Vulcan_20mm_US
+DepictionOperator_DCA_M167A2_Vulcan_20mm_US_Weapon1 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 1
+)
+Gfx_DCA_M167A2_Vulcan_20mm_US_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'DCA_M167A2_Vulcan_20mm_US'
+    Selector = Selector_DCA_M167A2_Vulcan_20mm_US
+    Alternatives = Alternatives_DCA_M167A2_Vulcan_20mm_US
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        DepictionOperator_MovementSound_SM_Infanterie_Crew_US,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_DCA_M167A2_Vulcan_20mm_US_Weapon1,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_Carriable_Canon,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Gatling_M61_Vulcan_20mm_late_TOWED ),
+            ]
+            + DepictionAction_CriticalFX_Towed
+
+    SubDepictions = [
+    ] + HumanSubDepictions_DCA_M167A2_Vulcan_20mm_US
+)
 // Dépiction de l'unité DCA_M167_Vulcan_20mm_US
 DepictionOperator_DCA_M167_Vulcan_20mm_US_Weapon1 is DepictionOperator_WeaponContinuousFire
 (
@@ -12422,12 +12457,6 @@ Gfx_M1A1_Abrams_CMD_US_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_Heat,
         DepictionOperator_EjectableProps_Vehicle
         (
-            AdditionalEjectableNodes = 
-            [
-                "tourelle_01",
-                "tourelle_02",
-                "tourelle_03",
-            ]
             ArmorPlateCount = 5
             PropCount = 8
             TrapdoorCount = 2
@@ -17001,7 +17030,7 @@ Gfx_T62M1_SOV_Autogen is TacticVehicleDepictionTemplate
     Actions = MAP[
                 ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_115mm_U5TS_T62M ),
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_115mm_U5TS_T62M ),
-                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
+                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_DShKM ),
                 ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm ),
                 ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
@@ -17075,7 +17104,7 @@ Gfx_T62MV_SOV_Autogen is TacticVehicleDepictionTemplate
     Actions = MAP[
                 ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_115mm_U5TS_T62M ),
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_115mm_U5TS_T62M ),
-                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
+                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_DShKM ),
                 ( [ "weapon_effet_tag4" ], Weapon_ATGM_9M117_Bastion ),
                 ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
@@ -17106,13 +17135,13 @@ DepictionOperator_T62M_CMD_SOV_Weapon3 is DepictionOperator_WeaponContinuousFire
     WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_3"
     NbFX = 1
 )
-DepictionOperator_T62M_CMD_SOV_Weapon4 is DepictionOperator_WeaponMissileCarriageFire
+DepictionOperator_T62M_CMD_SOV_Weapon4 is DepictionOperator_WeaponContinuousFire
 (
     FireEffectTag = "weapon_effet_tag4"
-    Connoisseur = MissileCarriage_T62M_CMD_SOV
-    WeaponIndex = 1
-    WeaponShootDataPropertyName = ["WeaponShootData_0_4", ]
-    NbProj = 1
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 1
 )
 DepictionOperator_T62M_CMD_SOV_Weapon6 is DepictionOperator_WeaponInstantFire
 (
@@ -17139,6 +17168,7 @@ Gfx_T62M_CMD_SOV_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_TurretSound_ST_T64_T72_T80,
         DepictionOperator_Turret_1_HydraulicRecoil,
         DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_4_Aim,
         DepictionOperator_T62M_CMD_SOV_Weapon1,
         DepictionOperator_T62M_CMD_SOV_Weapon2,
         DepictionOperator_T62M_CMD_SOV_Weapon3,
@@ -17149,8 +17179,8 @@ Gfx_T62M_CMD_SOV_Autogen is TacticVehicleDepictionTemplate
     Actions = MAP[
                 ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_115mm_U5TS_T62M ),
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_115mm_U5TS_T62M ),
-                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
-                ( [ "weapon_effet_tag4" ], Weapon_ATGM_9M117_Bastion ),
+                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_DShKM ),
+                ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm ),
                 ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
             + DepictionAction_Stress_And_Wrecked
@@ -17223,7 +17253,7 @@ Gfx_T62M_SOV_Autogen is TacticVehicleDepictionTemplate
     Actions = MAP[
                 ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_115mm_U5TS_T62M ),
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_115mm_U5TS_T62M ),
-                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
+                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_DShKM ),
                 ( [ "weapon_effet_tag4" ], Weapon_ATGM_9M117_Bastion ),
                 ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
@@ -17525,8 +17555,8 @@ Gfx_T72M1_CMD_DDR_Autogen is TacticVehicleDepictionTemplate
     ]
 
     Actions = MAP[
-                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A26_T72M ),
-                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A26_T72M ),
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A46_T72M ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A46_T72M ),
                 ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
                 ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm ),
                 ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
@@ -17601,8 +17631,8 @@ Gfx_T72M1_DDR_Autogen is TacticVehicleDepictionTemplate
     ]
 
     Actions = MAP[
-                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A26_T72M ),
-                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A26_T72M ),
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A46_T72M ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A46_T72M ),
                 ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
                 ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm ),
                 ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
@@ -17677,8 +17707,8 @@ Gfx_T72M_CMD_DDR_Autogen is TacticVehicleDepictionTemplate
     ]
 
     Actions = MAP[
-                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A26_T72M ),
-                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A26_T72M ),
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A46_T72M ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A46_T72M ),
                 ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
                 ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm ),
                 ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
@@ -17753,8 +17783,8 @@ Gfx_T72M_DDR_Autogen is TacticVehicleDepictionTemplate
     ]
 
     Actions = MAP[
-                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A26_T72M ),
-                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A26_T72M ),
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A46_T72M ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A46_T72M ),
                 ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
                 ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm ),
                 ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
@@ -17821,8 +17851,8 @@ Gfx_T72_DDR_Autogen is TacticVehicleDepictionTemplate
     ]
 
     Actions = MAP[
-                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A26 ),
-                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A26 ),
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_125_mm_2A46 ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_125_mm_2A46 ),
                 ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_NSVT ),
                 ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm ),
             ]

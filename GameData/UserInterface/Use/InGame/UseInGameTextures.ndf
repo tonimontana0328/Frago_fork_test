@@ -627,12 +627,6 @@ UseInGame_Texture_GameSpeed_Accelerate_More              is TUIResourceTexture_I
 UseInGame_Texture_GameSpeed_Accelerate_More_Selected     is TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/GameSpeed/vff_s.png' )
 
 
-{UseInGame_Texture_VitesseJeu01 is TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/GameSpeed/vitesse01.png' )
-UseInGame_Texture_VitesseJeu02 is TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/GameSpeed/vitesse02.png' )
-UseInGame_Texture_VitesseJeu03 is TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/GameSpeed/vitesse03.png' )
-UseInGame_Texture_VitesseJeu04 is TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/GameSpeed/vitesse04.png' )
-UseInGame_Texture_VitesseJeu05 is TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/GameSpeed/vitesse05.png' )}
-
 // Panneau de vitesse de deroulement du replay
 UseInGame_Texture_Replay_Decelerate             is UseInGame_Texture_GameSpeed_Decelerate
 UseInGame_Texture_Replay_Decelerate_Selected    is UseInGame_Texture_GameSpeed_Decelerate_Selected

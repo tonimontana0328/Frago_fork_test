@@ -119,6 +119,7 @@ export TransactionGenerated is TNDFTransactionFileList
         'GameData:/Gameplay/Gfx/Units/RFA/Towed/DCA_I_Hawk_RFA.ndf',
         'GameData:/Gameplay/Gfx/Units/US/Towed/DCA_I_Hawk_US.ndf',
         'GameData:/Gameplay/Gfx/Units/UK/Towed/DCA_Javelin_LML_UK.ndf',
+        'GameData:/Gameplay/Gfx/Units/US/Towed/DCA_M167A2_Vulcan_20mm_US.ndf',
         'GameData:/Gameplay/Gfx/Units/US/Towed/DCA_M167_Vulcan_20mm_US.ndf',
         'GameData:/Gameplay/Gfx/Units/UK/Towed/DCA_Rapier_FSA_UK.ndf',
         'GameData:/Gameplay/Gfx/Units/UK/Towed/DCA_Rapier_UK.ndf',

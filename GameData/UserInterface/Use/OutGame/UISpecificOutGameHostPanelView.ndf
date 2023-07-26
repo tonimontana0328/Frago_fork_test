@@ -80,116 +80,138 @@ BUCKListDescriptor
     ]
 )
 
-BUCKSpecificOutGameHostPanelMainComponentDescriptor is BUCKListDescriptor
+BUCKSpecificOutGameHostPanelMainComponentDescriptor is SpecificModalWindow
 (
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight = [1.0, 0.0]
-    )
+    TitleToken = "T_HOST"
+    ContentMagnifiableWidthHeight = [0.0, 450.0]
 
-    Axis = ~/ListAxis/Vertical
-
-    FirstMargin = TRTTILength(Magnifiable = 0.0)
-    InterItemMargin = TRTTILength(Magnifiable = 30.0)
-    LastMargin = TRTTILength(Magnifiable = 0.0)
-
-    Elements =
+    ButtonList =
     [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = BUCKListDescriptor
+            ComponentDescriptor = SpecificModalButton
             (
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    RelativeWidthHeight = [1.0, 0.0]
-                )
-
-                Axis = ~/ListAxis/Vertical
-
-                FirstMargin = TRTTILength(Magnifiable = 30.0)
-                InterItemMargin = TRTTILength(Magnifiable = 10.0)
-                LastMargin = TRTTILength(Magnifiable = 30.0)
-
-                Elements =
-                [
-                    // ligne,
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = SpecificModalDottedLine
-                    ),
-                    BUCKListElementSpacer( Magnifiable = 20.0 ),
-                    //-------------------------------------------------------------------------------------
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = SpecificModalDropdown
-                        (
-                            ElementName = "Gametype"
-                            TextToken = "Gametype"
-                            DropdownElementName = "GametypeDropdown"
-                        )
-                    ),
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = SpecificModalDropdown
-                        (
-                            ElementName = "GameVisibility"
-                            TextToken = "gameVisibi"
-                            DropdownElementName = "GameVisibiDropdown"
-                        )
-                    ),
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = SpecificModalDropdown
-                        (
-                            ElementName = "GameSide"
-                            TextToken = "Gametype"
-                            DropdownElementName = "SideDropdown"
-                        )
-                    ),
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = SpecificModalEditableText
-                        (
-                            ElementName = "GameName"
-                            TextToken = "gameName"
-                            HasText = true
-                            EditableTextElementName = "GameNameEditable"
-                        )
-                    ),
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = SpecificModalDropdown
-                        (
-                            ElementName = "Spectate"
-                            TextToken = "Spectate"
-                            DropdownElementName = "SpectateDropdown"
-                        )
-                    ),
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = SpecificModalDropdown
-                        (
-                            ElementName = "FilterDeck"
-                            TextToken = "GPS_Filter"
-                            DropdownElementName = "FilterDeckDropdown"
-                        )
-                    ),
-                    BUCKListElementSpacer( Magnifiable = 20.0 ),
-                    // ligne,
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = SpecificModalDottedLine
-                    ),
-                ]
+                ElementName = "CreateButton"
+                TextToken = "BTN_CREATE"
+                Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
+                IsFilled = true
             )
+        ),
+        BUCKListElementDescriptor(ComponentDescriptor = SpecificModalCancelButton)
+    ]
+
+    ElementsList =
+    [
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = GameTypeChoiceButton
+        ),
+        // ligne,
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SpecificModalDottedLine
+        ),
+        BUCKListElementSpacer( Magnifiable = 20.0 ),
+        //-------------------------------------------------------------------------------------
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SpecificModalEditableText
+            (
+                ElementName = "GameName"
+                TextToken = "gameName"
+                HasText = true
+                EditableTextElementName = "GameNameEditable"
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SpecificModalDropdown
+            (
+                ElementName = "GameVisibility"
+                TextToken = "gameVisibi"
+                DropdownElementName = "GameVisibiDropdown"
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SpecificModalDropdown
+            (
+                ElementName = "Gametype"
+                TextToken = "Gametype"
+                DropdownElementName = "GametypeDropdown"
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SpecificModalDropdown
+            (
+                ElementName = "Spectate"
+                TextToken = "Spectate"
+                DropdownElementName = "SpectateDropdown"
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SpecificModalDropdown
+            (
+                ElementName = "FilterDeck"
+                TextToken = "GPS_Filter"
+                DropdownElementName = "FilterDeckDropdown"
+            )
+        ),
+        BUCKListElementSpacer( Magnifiable = 20.0 ),
+        // ligne,
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SpecificModalDottedLine
         ),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = SpecificModalErrorText
         )
     ]
+)
 
+private GameTypeChoiceButtonManager is TBUCKRadioButtonManager()
 
+GameTypeChoiceButton is BUCKListDescriptor
+(
+    ElementName = "GameTypeChoiceButtonsList"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        AlignementToFather = [0.5, 0.0]
+        AlignementToAnchor = [0.5, 0.0]
+    )
+    Axis = ~/ListAxis/Horizontal
+    BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+
+    InterItemMargin = TRTTILength(Magnifiable = 20.0)
+
+    Elements =
+    [
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SpecificModalButton
+            (
+                ElementName = "SkirmishButton"
+                TextToken = "SGP_SKIR"
+                IsFilled = false
+                IsTogglable = true
+                RadioButtonManager = GameTypeChoiceButtonManager
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = SpecificModalButton
+            (
+                ElementName = "CampaignButton"
+                TextToken = "SGP_CAMP"
+                IsFilled = false
+                IsTogglable = true
+                RadioButtonManager = GameTypeChoiceButtonManager
+            )
+        ),
+    ]
 )
 
 FilterDeckPolicy is TBaseClass

@@ -168,6 +168,7 @@ template SmartGroupInfosContainer
 
 AffichageNomOfficier is BUCKContainerDescriptor
 (
+    ElementName = "LeaderNameBackground"
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [1.0, 0.0]
@@ -221,9 +222,6 @@ AffichageNomOfficier is BUCKContainerDescriptor
 
                         TextColor = "TexteNomChef"
                         TextSize = "10"
-
-                        HasBackground = true
-                        BackgroundBlockColorToken = "NomChef"
                     )
                 ),
                 BUCKListElementDescriptor
@@ -254,9 +252,6 @@ AffichageNomOfficier is BUCKContainerDescriptor
 
                         TextColor = "TexteNomChef"
                         TextSize = "10"
-
-                        HasBackground = true
-                        BackgroundBlockColorToken = "NomChef"
                     )
                 ),
             ]
@@ -265,7 +260,6 @@ AffichageNomOfficier is BUCKContainerDescriptor
 )
 
 //-------------------------------------------------------------------------------------
-
 
 SmartGroupUnitSlot is BUCKButtonDescriptor
 (
@@ -294,6 +288,8 @@ SmartGroupUnitSlot is BUCKButtonDescriptor
     [
         BUCKTextDescriptor
         (
+            ElementName = "SmartGroupUnitSlotBackground"
+
             ComponentFrame = TUIFramePropertyRTTI
             (
                 RelativeWidthHeight = [1.0, 1.0]
@@ -437,30 +433,11 @@ template SmartGroupEditorMainContainer
 
     Components =
     [
-        BUCKListDescriptor
+        SmartGroupsConfigurationMainPanel
         (
-            ElementName = "NewDeckMainElementList"
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 0.0]
-            )
-
-            Axis = ~/ListAxis/Vertical
-            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
-
-            Elements =
-            [
-                BUCKListElementDescriptor
-                (
-                    ExtendWeight = 1.0
-                    ComponentDescriptor = SmartGroupsConfigurationMainPanel
-                    (
-                        BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestBetweenFatherAndChildren
-                        MarginSize = 0
-                        IsForChallenge = <IsForChallenge>
-                    )
-                ),
-            ]
+            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestBetweenFatherAndChildren
+            MarginSize = 0
+            IsForChallenge = <IsForChallenge>
         ),
         ~/BoutonAfficherMasquerSmartGroupe,
     ]
@@ -700,8 +677,6 @@ UnitAmountList is BUCKListDescriptor
     FirstMargin = TRTTILength(Magnifiable = 5.0)
     InterItemMargin = TRTTILength(Magnifiable = 5.0)
     LastMargin = TRTTILength(Magnifiable = 5.0)
-
-    HasBorder = false
 
     Elements =
     [
@@ -1028,63 +1003,49 @@ DeckCategoryList is BUCKContainerDescriptor
 
 //-------------------------------------------------------------------------------------
 
-private Barre_uniteSmartGroup is BUCKContainerDescriptor
+private Barre_uniteSmartGroup is BUCKListDescriptor
 (
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [1720.0, 0.0]
-        AlignementToFather = [0.5, 0.0]
-        AlignementToAnchor = [0.5, 0.0]
-    )
+    ElementName = "CategoryAndUnitList"
+    ComponentFrame = TUIFramePropertyRTTI()
 
-    FitStyle = ~/ContainerFitStyle/FitToContentVertically
+    Axis = ~/ListAxis/Horizontal
+    BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
-    Components =
+    FirstMargin = TRTTILength( Magnifiable = 20.0 )
+    InterItemMargin = TRTTILength( Magnifiable = 8.0 )
+    LastMargin = TRTTILength( Magnifiable = 20.0 )
+
+    Elements =
     [
-        BUCKListDescriptor
+        BUCKListElementDescriptor(ComponentDescriptor = ~/DeckCategoryList),
+        BUCKListElementDescriptor
         (
-            ComponentFrame = TUIFramePropertyRTTI()
+            ComponentDescriptor = BUCKRackDescriptor
+            (
+                ElementName = 'DeckCategoryFamilies'
+                ComponentFrame = TUIFramePropertyRTTI()
 
-            Axis = ~/ListAxis/Horizontal
-            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+                BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+                Axis = ~/ListAxis/Horizontal
 
-            FirstMargin = TRTTILength( Magnifiable = 20.0 )
-            InterItemMargin = TRTTILength( Magnifiable = 8.0 )
-            LastMargin = TRTTILength( Magnifiable = 20.0 )
+                FirstMargin = TRTTILength( Magnifiable = 1.0 )
+                InterItemMargin = TRTTILength( Magnifiable = 1.0 )
+                LastMargin = TRTTILength( Magnifiable = 1.0 )
 
-            Elements =
-            [
-                BUCKListElementDescriptor(ComponentDescriptor = ~/DeckCategoryList),
-                BUCKListElementDescriptor
+                BladeDescriptor = BUCKGridDescriptor
                 (
-                    ComponentDescriptor = BUCKRackDescriptor
-                    (
-                        ElementName = 'DeckCategoryFamilies'
-                        ComponentFrame = TUIFramePropertyRTTI()
+                    ComponentFrame = TUIFramePropertyRTTI()
 
-                        BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
-                        Axis = ~/ListAxis/Horizontal
+                    FirstElementMargin = TRTTILength2( Magnifiable = [5.0, 0.0] )
+                    InterElementMargin = TRTTILength2( Magnifiable = [1.0, 15.0] )
+                    LastElementMargin = TRTTILength2( Magnifiable = [5.0, 10.0] )
 
-                        FirstMargin = TRTTILength( Magnifiable = 1.0 )
-                        InterItemMargin = TRTTILength( Magnifiable = 1.0 )
-                        LastMargin = TRTTILength( Magnifiable = 1.0 )
+                    MaxElementsPerDimension = [12, 0]
 
-                        BladeDescriptor = BUCKGridDescriptor
-                        (
-                            ComponentFrame = TUIFramePropertyRTTI()
-
-                            FirstElementMargin = TRTTILength2( Magnifiable = [5.0, 0.0] )
-                            InterElementMargin = TRTTILength2( Magnifiable = [1.0, 15.0] )
-                            LastElementMargin = TRTTILength2( Magnifiable = [5.0, 10.0] )
-
-                            MaxElementsPerDimension = [12, 0]
-
-                            // envoie UnitPackDescriptor
-                        )
-                    )
-                ),
-            ]
-        )
+                    // envoie UnitPackDescriptor
+                )
+            )
+        ),
     ]
 )
 
@@ -1361,14 +1322,19 @@ panelTitreChallenge is BUCKListDescriptor
                     AlignementToFather = [0.5, 0.0]
                     AlignementToAnchor = [0.5, 0.0]
                 )
+
                 ParagraphStyle = paragraphStyleTextCenter
                 TextStyle = "Default"
+
                 HorizontalFitStyle = ~/FitStyle/UserDefined
                 VerticalFitStyle = ~/FitStyle/FitToContent
+
                 TypefaceToken = "Liberator"
                 BigLineAction = ~/BigLineAction/MultiLine
+
                 TextToken = 'cha_titre'
                 TextDico = ~/LocalisationConstantes/dico_maps
+
                 TextColor = "BlancTexte"
                 TextSize = "30"
             )

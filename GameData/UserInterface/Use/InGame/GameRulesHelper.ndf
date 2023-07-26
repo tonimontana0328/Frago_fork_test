@@ -3,7 +3,11 @@ GameRulesHelper is TUITacticalGameRulesHelper
     TimeStepMessage = "REM_TIME"
     TimeInMinutesStepList = [10,5,4,3,2,1]
 
-    SuddenDeathTokens = [ "SUDD_ENEAL", "SUDD_ALLAL", "SUDD_LOCAL", "SUDD_NEUT" ]
+    SuddenDeathTokens =
+    [
+        [ "SUDD_ENEAL", "SUDD_ALLAL", "SUDD_LOCAL", "SUDD_NEUT" ], // sudden death no owned zone
+        [ "NOMU_ENEAL", "NOMU_ALLAL", "NOMU_LOCAL", "NOMU_NEUT" ], // sudden death no more production
+    ]
 
     StandardStepMessages = TUITacticalGameRulesHelperStepMessages
     (

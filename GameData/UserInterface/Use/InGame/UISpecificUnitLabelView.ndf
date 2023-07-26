@@ -846,7 +846,7 @@ private StandardLabelList is BUCKListDescriptor
     [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = UpperLabel(IsForMultiSelection = false)
+            ComponentDescriptor = ~/UpperLabel
         ),
         BUCKListElementDescriptor
         (
@@ -922,7 +922,7 @@ private MultiSelectionLabelList is BUCKContainerDescriptor
                 ),
             ]
         ),
-        UpperLabel(IsForMultiSelection = true),
+        ~/UpperLabelMultiSelection,
         UnitLabelCoverIcon
         (
             IsForMultiSelection = false
@@ -1263,49 +1263,91 @@ private template UnitLabelUpperList
 )
 
 //-------------------------------------------------------------------------------------
-private template UpperLabel
-[
-    IsForMultiSelection : bool = false,
-]
-is BUCKListDescriptor
+private UpperLabel is BUCKListDescriptor
 (
     ElementName = "UpperLabel"
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = (<IsForMultiSelection> ? [100.0, 0.0] : [150.0, 0.0])
+        MagnifiableWidthHeight = [150.0, 0.0]
         AlignementToFather = [0.5, 0.0]
         AlignementToAnchor = [0.5, 0.0]
     )
 
     Axis = ~/ListAxis/Vertical
-    ClipContent = <IsForMultiSelection>
+    ClipContent = false
 
     // Penser a modifier la taille en Pixel du LabelUnitBUCKComponent si on aggrandit ce composant !
     Elements =
     [
-        BUCKListElementDescriptor(ComponentDescriptor = UnitLabelUpperList(IsForMultiSelection = <IsForMultiSelection>)),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = UnitIconAndRightLabel
             (
-                IsForMultiSelection = <IsForMultiSelection>
+                IsForMultiSelection = false
             )
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor =
+            ComponentDescriptor = UnitNameListSensibleArea
             (
-                <IsForMultiSelection> ? UnitNameList
-                (
-                    IsForMultiSelection = true
-                    IsForCarriedUnit = true
-                    LocalRenderLayer = 1
-                )
-                : UnitNameListSensibleArea
-                (
-                    IsForCarriedUnit = true
-                    LocalRenderLayer = 1
-                )
+                IsForCarriedUnit = true
+                LocalRenderLayer = 1
+            )
+        ),
+    ]
+
+    ForegroundComponents =
+    [
+        UnitLabelUpperList
+        (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                AlignementToFather = [0.5, 0.0]
+                AlignementToAnchor = [0.5, 1.0]
+            )
+            IsForMultiSelection = false
+        ),
+    ]
+)
+
+//-------------------------------------------------------------------------------------
+private UpperLabelMultiSelection is BUCKListDescriptor
+(
+    ElementName = "UpperLabel"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [100.0, 0.0]
+        AlignementToFather = [0.5, 0.0]
+        AlignementToAnchor = [0.5, 0.0]
+    )
+
+    Axis = ~/ListAxis/Vertical
+    ClipContent = true
+
+    // Penser a modifier la taille en Pixel du LabelUnitBUCKComponent si on aggrandit ce composant !
+    Elements =
+    [
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = UnitLabelUpperList
+            (
+                IsForMultiSelection = true
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = UnitIconAndRightLabel
+            (
+                IsForMultiSelection = true
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = UnitNameList
+            (
+                IsForMultiSelection = true
+                IsForCarriedUnit = true
+                LocalRenderLayer = 1
             )
         ),
     ]

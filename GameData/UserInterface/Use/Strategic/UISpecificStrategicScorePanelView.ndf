@@ -511,7 +511,7 @@ is BUCKListDescriptor
         //-------------------------------------------------------------------------------------
         BUCKListElementDescriptor
         (
-            ComponentDescriptor =  TemplateTextScore ( TextToken = 'SSC_terr' IsTitre = true)
+            ComponentDescriptor =  TemplateTextScore ( TextToken = 'SSC_scodet' IsTitre = true)
         ),
         //-------------------------------------------------------------------------------------
         BUCKListElementDescriptor
@@ -534,12 +534,32 @@ is BUCKListDescriptor
                 Camp  = <Camp>
             )
         ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = Display2ColumnsScore
+            (
+                TextToken = 'SSC_Kills'
+                ElementName = 'PointsFromKills'
+                Camp  = <Camp>
+            )
+        ),
         //-------------------------------------------------------------------------------------
         BUCKListElementDescriptor
         (
-            // UniteDetruite
-            ComponentDescriptor = TemplateTextScore ( TextToken = 'SSC_INFDAM' IsTitre = true)
+            ComponentDescriptor = Display2ColumnsScore
+            (
+                TextToken = 'SSC_totsco'
+                ElementName = 'TotalPoints'
+                Camp  = <Camp>
+                IsBold = true
+            )
         ),
+        //-------------------------------------------------------------------------------------
+        // BUCKListElementDescriptor
+        // (
+        //     // UniteDetruite
+        //     ComponentDescriptor = TemplateTextScore ( TextToken = 'SSC_INFDAM' IsTitre = true)
+        // ),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = Display2ColumnsScore
@@ -549,20 +569,11 @@ is BUCKListDescriptor
                 Camp  = <Camp>
             )
         ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = Display2ColumnsScore
-            (
-                TextToken = 'SSC_KPTS'
-                ElementName = 'PointsFromKills'
-                Camp  = <Camp>
-            )
-        ),
         //-------------------------------------------------------------------------------------
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor =  TemplateTextScore ( TextToken = 'SSC_Recap' IsTitre = true)
-        ),
+        // BUCKListElementDescriptor
+        // (
+        //     ComponentDescriptor =  TemplateTextScore ( TextToken = 'SSC_Recap' IsTitre = true)
+        // ),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = Display2ColumnsScore
@@ -581,17 +592,7 @@ is BUCKListDescriptor
                 Camp  = <Camp>
             )
         ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = Display2ColumnsScore
-            (
-                TextToken = 'SSC_TTOTAL'
-                ElementName = 'TotalPoints'
-                Camp  = <Camp>
-                IsBold = true
-            )
-        ),
-        //-------------------------------------------------------------------------------------
+
 
     ]
 )

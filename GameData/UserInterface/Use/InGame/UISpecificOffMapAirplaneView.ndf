@@ -1,6 +1,37 @@
 
 // -------------------------------------------------------------------------------------------------
 
+OffMapAirplaneSpecialtyTexture is BUCKContainerDescriptor
+(
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [18, 18]
+        PixelWidthHeight = [-2.0, -2.0]
+        AlignementToFather = [0, 0.5]
+        AlignementToAnchor = [0, 0.5]
+    )
+
+    Components =
+    [
+        BUCKTextureDescriptor
+        (
+            ElementName = "SpecialtyTexture"
+            ComponentFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1,1] )
+
+            TextureFrame   = TUIFramePropertyRTTI( RelativeWidthHeight = [1,1] )
+        ),
+
+        BUCKSpecificHintableArea
+        (
+            ElementName = 'SpecialtyTextureHint'
+            DicoToken = ~/LocalisationConstantes/dico_unites
+            HintTitleToken = "UNKNOWN"
+            HintBodyToken = "UNKNOWN"
+            HintExtendedToken = "UNKNOWN"
+        ),
+    ]
+)
+
 // Unit texture + Unit name + specialty + experience
 OffMapAirplaneMainContent is BUCKListDescriptor
 (
@@ -20,7 +51,7 @@ OffMapAirplaneMainContent is BUCKListDescriptor
     [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ~/OffMapArtillerySpecialtyTexture
+            ComponentDescriptor = ~/OffMapAirplaneSpecialtyTexture
         ),
         BUCKListElementDescriptor
         (
@@ -32,6 +63,7 @@ OffMapAirplaneMainContent is BUCKListDescriptor
 // -------------------------------------------------------------------------------------------------
 
 OffMapAirplaneComponentDimension is [83.25, 54.0]
+OffMapAirplaneRadioButton is TBUCKRadioButtonManager()
 
 BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
 (
@@ -85,7 +117,7 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
 
             IsTogglable = true
 
-            RadioButtonManager = ~/ArtilleryRadioButton
+            RadioButtonManager = ~/OffMapAirplaneRadioButton
 
             Components =
             [

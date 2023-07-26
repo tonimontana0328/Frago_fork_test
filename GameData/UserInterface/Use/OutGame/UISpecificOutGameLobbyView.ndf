@@ -459,21 +459,6 @@ GameOptions is BUCKListElementDescriptor
                         (
                             ComponentDescriptor = OneOption
                             (
-                                TextToken = "GS_TIMELIM"
-                                ElementName = "OptionTimeLimit"
-
-                                Hint = BUCKSpecificHintableArea
-                                (
-                                    DicoToken = ~/LocalisationConstantes/dico_interface_outgame
-                                    HintBodyToken = "GS_TIMELIB"
-                                    HintExtendedToken = "HintTL"
-                                )
-                            )
-                        ),
-                        BUCKListElementDescriptor
-                        (
-                            ComponentDescriptor = OneOption
-                            (
                                 TextToken = "GS_LOSSDE"
                                 ElementName = "OptionLossThreshold"
 
@@ -482,6 +467,21 @@ GameOptions is BUCKListElementDescriptor
                                     DicoToken = ~/LocalisationConstantes/dico_interface_outgame
                                     HintBodyToken = "GS_LOSSDB"
                                     HintExtendedToken = "GS_LOSSEE"
+                                )
+                            )
+                        ),
+                        BUCKListElementDescriptor
+                        (
+                            ComponentDescriptor = OneOption
+                            (
+                                TextToken = "GS_TIMELIM"
+                                ElementName = "OptionTimeLimit"
+
+                                Hint = BUCKSpecificHintableArea
+                                (
+                                    DicoToken = ~/LocalisationConstantes/dico_interface_outgame
+                                    HintBodyToken = "GS_TIMELIB"
+                                    HintExtendedToken = "HintTL"
                                 )
                             )
                         ),
@@ -675,7 +675,7 @@ BUCKSpecificOutGameLobbyMainComponentDescriptor is  BUCKContainerDescriptor
             FramePropertyBeforeAnimation = TUIFramePropertyRTTI
             (
                 RelativeWidthHeight = [1.0, 1.0]
-                AlignementToAnchor = [0.5, 0.50]
+                AlignementToAnchor = [0.5, 0.43]
                 AlignementToFather = [0.5, 1.0]
             )
 
@@ -709,7 +709,7 @@ BUCKSpecificOutGameLobbyMainComponentDescriptor is  BUCKContainerDescriptor
 
 //-------------------------------------------------------------------------------------
 
-LobbyVerticalOffset is 27.0
+LobbyVerticalOffset is 25.0
 
 FullPanelLobby is BUCKContainerDescriptor
 (
@@ -785,7 +785,8 @@ ShowHideButton is BUCKButtonDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [50.0, 0.0]
-        MagnifiableOffset = [5.0, 520.0 - LobbyVerticalOffset]
+        MagnifiableOffset = [290.0, 463.0 - LobbyVerticalOffset]
+        // MagnifiableOffset = [290.0, 435]
     )
 
     FitStyle = ~/FitStyle/FitToContent
@@ -796,44 +797,16 @@ ShowHideButton is BUCKButtonDescriptor
         (
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = [50.0, 0.0]
+                // MagnifiableWidthHeight = [0.0, 0.0]
             )
-            Axis = ~/ListAxis/Vertical
+            Axis = ~/ListAxis/Horizontal
+            InterItemMargin = TRTTILength( Magnifiable = 6.0 )
+
+            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
             Elements =
             [
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = BUCKTextDescriptor
-                    (
-                        ElementName = "ShowHideText"
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            RelativeWidthHeight = [1.0, 0.0]
-                            MagnifiableWidthHeight = [0.0, 25.0]
-                            AlignementToFather = [0.5, 0.0]
-                            AlignementToAnchor = [0.5, 0.0]
-                        )
 
-                        TextStyle = "Default"
-
-                        ParagraphStyle = TParagraphStyleRTTI
-                        (
-                            Alignment = UIText_Center
-                            VerticalAlignment = UIText_Up
-                        )
-
-                        TextToken = ""
-                        TextSize = "18"
-                        TextColor = "Lobby/ShowHideButton"
-                        TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                        TypefaceToken = "Liberator"
-
-                        BigLineAction = ~/BigLineAction/ResizeFont
-                        HorizontalFitStyle = ~/FitStyle/UserDefined
-                        VerticalFitStyle = ~/FitStyle/UserDefined
-                    )
-                ),
                 BUCKListElementDescriptor
                 (
                     ComponentDescriptor = BUCKTextureDescriptor
@@ -842,13 +815,13 @@ ShowHideButton is BUCKButtonDescriptor
 
                         ComponentFrame = TUIFramePropertyRTTI
                         (
-                            MagnifiableWidthHeight = [32.0, 32.0]
-                            AlignementToAnchor = [0.5, 0.0]
-                            AlignementToFather = [0.5, 0.0]
+                            MagnifiableWidthHeight = [20.0, 20.0]
+                            AlignementToAnchor = [0.0, 0.5]
+                            AlignementToFather = [0.0, 0.5]
                         )
 
                         TextureToken = "show_hide_arrow"
-                        TextureColorToken = "Lobby/ShowHideButton"
+                        TextureColorToken = "Blanc_multi"
                     )
                 ),
                 BUCKListElementDescriptor
@@ -859,14 +832,46 @@ ShowHideButton is BUCKButtonDescriptor
 
                         ComponentFrame = TUIFramePropertyRTTI
                         (
-                            MagnifiableWidthHeight = [32.0, 32.0]
-                            AlignementToAnchor = [0.5, 0.0]
-                            AlignementToFather = [0.5, 0.0]
+                            MagnifiableWidthHeight = [20.0, 20.0]
+                            AlignementToAnchor = [0.0, 0.5]
+                            AlignementToFather = [0.0, 0.5]
                         )
 
                         Rotation = 180
                         TextureToken = "show_hide_arrow"
-                        TextureColorToken = "Lobby/ShowHideButton"
+                        TextureColorToken = "Blanc_multi"
+                    )
+                ),
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = BUCKTextDescriptor
+                    (
+                        ElementName = "ShowHideText"
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            // RelativeWidthHeight = [1.0, 0.0]
+                            MagnifiableWidthHeight = [0.0, 25.0]
+                            AlignementToFather = [0.0, 0.5]
+                            AlignementToAnchor = [0.0, 0.5]
+                        )
+
+                        TextStyle = "Default"
+
+                        ParagraphStyle = TParagraphStyleRTTI
+                        (
+                            Alignment = UIText_Center
+                            VerticalAlignment = UIText_VerticalCenter
+                        )
+
+                        TextToken = ""
+                        TextSize = "18"
+                        TextColor = "Blanc_multi"
+                        TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                        TypefaceToken = "Liberator"
+
+                        BigLineAction = ~/BigLineAction/ResizeFont
+                        HorizontalFitStyle = ~/FitStyle/FitToContent
+                        VerticalFitStyle = ~/FitStyle/UserDefined
                     )
                 ),
             ] // Elements

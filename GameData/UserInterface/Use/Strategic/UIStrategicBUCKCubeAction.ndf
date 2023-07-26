@@ -221,19 +221,5 @@ template StrategicSecondaryCubeActionPanel
 
     InterElementMargin = TRTTILength2( Magnifiable = [10.0, 5.0] )
 
-    GridElements = MAP
-    [
-        {([0, 0], StrategicEmptySecondaryCubeActionButton(
-                    MagnifiableOffset = [
-                        0.0,
-                        0.0
-                    ]
-                )),
-                ([0, 1], StrategicEmptySecondaryCubeActionButton(
-                    MagnifiableOffset = [
-                        0.0,
-                        0.0
-                    ]
-                )),}
-    ] + <ContentComponents>
+    GridElements = <ContentComponents>
 )

@@ -71,6 +71,16 @@ BUCKMultiDescriptor is BUCKContainerDescriptor
             )
             // envoie BUCKSpecificOutGameFriendListMainComponentDescriptor
         ),
+
+        BUCKContainerDescriptor
+        (
+            UniqueName = "SubMenuPanelViewDescriptor"
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 1.0]
+            )
+        ),
+
         MainBackButtonContainer
         (
             ButtonDefaultToken = "BTN_BACK"

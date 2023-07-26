@@ -144,6 +144,7 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
         ( ~/Descriptor_Unit_DCA_I_Hawk_RFA, ~/Descriptor_ShowRoomUnit_DCA_I_Hawk_RFA ),
         ( ~/Descriptor_Unit_DCA_I_Hawk_US, ~/Descriptor_ShowRoomUnit_DCA_I_Hawk_US ),
         ( ~/Descriptor_Unit_DCA_Javelin_LML_UK, ~/Descriptor_ShowRoomUnit_DCA_Javelin_LML_UK ),
+        ( ~/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US, ~/Descriptor_ShowRoomUnit_DCA_M167A2_Vulcan_20mm_US ),
         ( ~/Descriptor_Unit_DCA_M167_Vulcan_20mm_US, ~/Descriptor_ShowRoomUnit_DCA_M167_Vulcan_20mm_US ),
         ( ~/Descriptor_Unit_DCA_Rapier_FSA_UK, ~/Descriptor_ShowRoomUnit_DCA_Rapier_FSA_UK ),
         ( ~/Descriptor_Unit_DCA_Rapier_UK, ~/Descriptor_ShowRoomUnit_DCA_Rapier_UK ),

@@ -9053,6 +9053,70 @@ Descriptor_UnitCadavre_DCA_Javelin_LML_UK is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_DCA_M167A2_Vulcan_20mm_US is TEntityDescriptor
+(
+    DescriptorId       = GUID:{a9afd751-bfb7-4117-837c-504380696ea6}
+    ClassNameForDebug  = 'Unit_CadavreDCA_M167A2_Vulcan_20mm_US'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_CanonAA
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = True
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_faible
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US/WeaponManager,
+                   $/GFX/Everything/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US/WeaponManager,
+            $/GFX/Everything/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_DCA_M167_Vulcan_20mm_US is TEntityDescriptor
 (
     DescriptorId       = GUID:{4e3b0b60-bf80-4015-96ec-71d59e924c8e}
@@ -33501,7 +33565,6 @@ Descriptor_UnitCadavre_T62M_CMD_SOV is TEntityDescriptor
                    $/GFX/Everything/Descriptor_Unit_T62M_CMD_SOV/LandMovement,
                    $/GFX/Everything/Descriptor_Unit_T62M_CMD_SOV/GenericMovement,
                    $/GFX/Everything/Descriptor_Unit_T62M_CMD_SOV/FacingInfos,
-                   $/GFX/Everything/Descriptor_Unit_T62M_CMD_SOV/MissileCarriage,
                 ]
             ),
             $/GFX/Everything/Descriptor_Unit_T62M_CMD_SOV/WeaponManager,
@@ -33509,7 +33572,6 @@ Descriptor_UnitCadavre_T62M_CMD_SOV is TEntityDescriptor
             $/GFX/Everything/Descriptor_Unit_T62M_CMD_SOV/LandMovement,
             $/GFX/Everything/Descriptor_Unit_T62M_CMD_SOV/GenericMovement,
             $/GFX/Everything/Descriptor_Unit_T62M_CMD_SOV/FacingInfos,
-            $/GFX/Everything/Descriptor_Unit_T62M_CMD_SOV/MissileCarriage,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]

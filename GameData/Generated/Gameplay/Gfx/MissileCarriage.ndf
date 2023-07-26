@@ -2502,35 +2502,6 @@ MissileCarriage_T62MV_SOV_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
-// T62M_CMD_SOV : ['ATGM 9M117 Bastion']
-MissileCarriage_T62M_CMD_SOV is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_T62M_CMD_SOV
-    PylonSet = ~/DepictionPylonSet_Vehicle_Default
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 6
-            MissileType = eAGM
-            WeaponIndex = 1
-        ),
-    ]
-)
-MissileCarriage_T62M_CMD_SOV_Showroom is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_T62M_CMD_SOV
-    PylonSet = ~/DepictionPylonSet_Vehicle_Default_Showroom
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 6
-            MissileType = eAGM
-            WeaponIndex = 1
-        ),
-    ]
-)
 // T62M_SOV : ['ATGM 9M117 Bastion']
 MissileCarriage_T62M_SOV is TMissileCarriageConnoisseur
 (
