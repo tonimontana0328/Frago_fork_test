@@ -77,10 +77,10 @@ Descriptor_Deck_Division_SOV_Afganski is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_challenge_IA_Osa_9K33M3_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_ZSU_23_Shilka_Afghan_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_ZSU_23_Shilka_SOV, 1),
-        (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_DCA_ZU_23_2_DDR, 1),
+        (~/Descriptor_Deck_Pack_ZU_23_2_SOV_AF_FRL, 1),
 
         //heli
-        (~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Mi_8TV_PodGatling_DDR, 2),
+        (~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_Mi_8TV_PodGatling_PodAGL_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_Mi_8TV_s57_16_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_Mi_8TV_s57_32_SOV, 2),
 

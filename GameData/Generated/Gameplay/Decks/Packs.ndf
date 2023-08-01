@@ -27831,3 +27831,15 @@ Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_Sniper_US_101st_FRL is TDeckPack
         ),
     ]
 )
+Descriptor_Deck_Pack_ZU_23_2_SOV_AF_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{27e4b7c0-8a06-4a24-9481-b85f5fbee97d}
+    CfgName = 'Descriptor_Deck_Pack_ZU_23_2_SOV_AF_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_ZU_23_2_SOV_AF_FRL
+        ),
+    ]
+)
