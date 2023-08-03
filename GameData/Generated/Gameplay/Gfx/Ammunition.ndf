@@ -55175,7 +55175,7 @@ Ammo_Sniper_CETME_C is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 3.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1981) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -55266,7 +55266,7 @@ Ammo_Sniper_FAL is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 3.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1981) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -55633,7 +55633,7 @@ Ammo_Sniper_G3A3ZF is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 3.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1981) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -55725,7 +55725,7 @@ Ammo_Sniper_L1A1_SLR is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 3.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1981) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -55909,7 +55909,7 @@ Ammo_Sniper_M14 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 3.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1981) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -56184,7 +56184,7 @@ Ammo_Sniper_PSG1 is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 3.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1981) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -56276,7 +56276,7 @@ Ammo_Sniper_SVD_Dragunov is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TempsEntreDeuxTirs                = 3.0
     TempsEntreDeuxFx                  = 2.0
-    PorteeMaximale                    = ((2406) * Metre)
+    PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1981) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
