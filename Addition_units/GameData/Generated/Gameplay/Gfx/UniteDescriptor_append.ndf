@@ -195,13 +195,11 @@ export Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL is TEntityDescriptor
                 (
                     UnitMovingType = EUnitMovingType/Infantry
                     PathfindType = ~/PathfindTypes/Infantry
-                    PreferredLayerMask = EWorldFloorLayer/All
                     VitesseCombat = ((75) * Metre)
                     SpeedBonusOnRoad = 0.0
                     MaxAcceleration = ((30.0) * Metre)
                     MaxDeceleration = ((155.0) * Metre)
                     TempsDemiTour = 0.1
-                    VehicleSubType = LandVehicleSubType/Infantry
                     StartTime = (0 * Seconde)
                     StopTime = (0 * Seconde)
                     RotationStartTime = (0 * Seconde)
@@ -306,7 +304,7 @@ export Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL is TEntityDescriptor
                     Factory            = EDefaultFactories/Infantry
                     ProductionTime     = 5
                     ProductionRessourcesNeeded = MAP [
-                        (~/Resource_CommandPoints, 400),
+                        (~/Resource_CommandPoints, 350),
                         (~/Resource_Tickets, 3),
                     ]
                 )
@@ -337,9 +335,7 @@ export Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL is TEntityDescriptor
             TMinimapDisplayModuleDescriptor
             (
                 Texture = "Texture_Minimap_Unit_inf"
-                GhostTexture = "Texture_Minimap_Unit_inf"
-                IsAlwaysVisible = False
-                UseTeamColor = True
+
                 FollowUnitOrientation = False
             ),
         TOrderConfigModuleDescriptor
@@ -624,13 +620,11 @@ export Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL is TEntityDescriptor
                 (
                     UnitMovingType = EUnitMovingType/Infantry
                     PathfindType = ~/PathfindTypes/Infantry
-                    PreferredLayerMask = EWorldFloorLayer/All
                     VitesseCombat = ((75) * Metre)
                     SpeedBonusOnRoad = 0.0
                     MaxAcceleration = ((30.0) * Metre)
                     MaxDeceleration = ((155.0) * Metre)
                     TempsDemiTour = 0.1
-                    VehicleSubType = LandVehicleSubType/Infantry
                     StartTime = (0 * Seconde)
                     StopTime = (0 * Seconde)
                     RotationStartTime = (0 * Seconde)
@@ -736,7 +730,7 @@ export Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL is TEntityDescriptor
                     Factory            = EDefaultFactories/Infantry
                     ProductionTime     = 5
                     ProductionRessourcesNeeded = MAP [
-                        (~/Resource_CommandPoints, 500),
+                        (~/Resource_CommandPoints, 350),
                         (~/Resource_Tickets, 3),
                     ]
                 )
@@ -767,9 +761,7 @@ export Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL is TEntityDescriptor
             TMinimapDisplayModuleDescriptor
             (
                 Texture = "Texture_Minimap_Unit_inf"
-                GhostTexture = "Texture_Minimap_Unit_inf"
-                IsAlwaysVisible = False
-                UseTeamColor = True
+
                 FollowUnitOrientation = False
             ),
         TOrderConfigModuleDescriptor
@@ -1156,8 +1148,6 @@ export Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL is TEntityDescriptor
             TMinimapDisplayModuleDescriptor
             (
                 Texture = "Texture_Minimap_Unit_helico"
-                IsAlwaysVisible = False
-                UseTeamColor = True
                 FollowUnitOrientation = True
             ),
         TOrderConfigModuleDescriptor
@@ -1517,8 +1507,6 @@ export Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL is TEntityDescriptor
             TMinimapDisplayModuleDescriptor
             (
                 Texture = "Texture_Minimap_Unit_avion"
-                IsAlwaysVisible = False
-                UseTeamColor = True
                 FollowUnitOrientation = True
             ),
         TOrderConfigModuleDescriptor
@@ -1882,8 +1870,6 @@ export Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL is TEntityDescriptor
             TMinimapDisplayModuleDescriptor
             (
                 Texture = "Texture_Minimap_Unit_avion"
-                IsAlwaysVisible = False
-                UseTeamColor = True
                 FollowUnitOrientation = True
             ),
         TOrderConfigModuleDescriptor
