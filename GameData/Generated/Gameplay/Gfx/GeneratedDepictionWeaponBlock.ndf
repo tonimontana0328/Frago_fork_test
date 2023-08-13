@@ -1945,14 +1945,6 @@ Weapon_Canon_HE_115mm_U5TS_T62M is TCompositeHappening
         SFXWeapon_Canon_HE_115mm_U5TS_T62M,
     ]
 )
-Weapon_HMG_12_7_mm_NSVT is TCompositeHappening
-(
-    SubHappenings = 
-    [
-        FXWeapon_HMG_12_7_mm_NSVT,
-        SFXWeapon_HMG_12_7_mm_NSVT,
-    ]
-)
 Weapon_Canon_AP_125_mm_2A46_T64B_very_late is TCompositeHappening
 (
     SubHappenings = 
@@ -1977,6 +1969,14 @@ Weapon_ATGM_9M128_Agona is TCompositeHappening
         SFXWeapon_ATGM_9M128_Agona,
     ]
 )
+Weapon_HMG_12_7_mm_NSVT is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_HMG_12_7_mm_NSVT,
+        SFXWeapon_HMG_12_7_mm_NSVT,
+    ]
+)
 Weapon_ATGM_9M112_1_Kobra is TCompositeHappening
 (
     SubHappenings = 
@@ -1985,36 +1985,36 @@ Weapon_ATGM_9M112_1_Kobra is TCompositeHappening
         SFXWeapon_ATGM_9M112_1_Kobra,
     ]
 )
-Weapon_Canon_AP_125_mm_2A26_T72M is TCompositeHappening
+Weapon_Canon_AP_125_mm_2A46_T72M is TCompositeHappening
 (
     SubHappenings = 
     [
-        FXWeapon_Canon_AP_125_mm_2A26_T72M,
-        SFXWeapon_Canon_AP_125_mm_2A26_T72M,
+        FXWeapon_Canon_AP_125_mm_2A46_T72M,
+        SFXWeapon_Canon_AP_125_mm_2A46_T72M,
     ]
 )
-Weapon_Canon_HE_125_mm_2A26_T72M is TCompositeHappening
+Weapon_Canon_HE_125_mm_2A46_T72M is TCompositeHappening
 (
     SubHappenings = 
     [
-        FXWeapon_Canon_HE_125_mm_2A26_T72M,
-        SFXWeapon_Canon_HE_125_mm_2A26_T72M,
+        FXWeapon_Canon_HE_125_mm_2A46_T72M,
+        SFXWeapon_Canon_HE_125_mm_2A46_T72M,
     ]
 )
-Weapon_Canon_AP_125_mm_2A26 is TCompositeHappening
+Weapon_Canon_AP_125_mm_2A46 is TCompositeHappening
 (
     SubHappenings = 
     [
-        FXWeapon_Canon_AP_125_mm_2A26,
-        SFXWeapon_Canon_AP_125_mm_2A26,
+        FXWeapon_Canon_AP_125_mm_2A46,
+        SFXWeapon_Canon_AP_125_mm_2A46,
     ]
 )
-Weapon_Canon_HE_125_mm_2A26 is TCompositeHappening
+Weapon_Canon_HE_125_mm_2A46 is TCompositeHappening
 (
     SubHappenings = 
     [
-        FXWeapon_Canon_HE_125_mm_2A26,
-        SFXWeapon_Canon_HE_125_mm_2A26,
+        FXWeapon_Canon_HE_125_mm_2A46,
+        SFXWeapon_Canon_HE_125_mm_2A46,
     ]
 )
 Weapon_Canon_AP_125_mm_2A46M_T80B is TCompositeHappening
@@ -3422,5 +3422,4 @@ Weapon_Bomb_GBU_24_x2 is TCompositeHappening
         SFXWeapon_Bomb_GBU_24_x2,
     ]
 )
-
 

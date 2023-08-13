@@ -107,10 +107,13 @@ OrientationWrapperFxImpactVehicule2A38Autocanon is ImpactWrapper( Action = $/GFX
 OrientationWrapperFxImpactVehiculeM168Gatling is ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_Fx_impact_Vehicule_M168_Gatling )
 OrientationWrapperFxImpactVehiculeM197Gatling is ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_Fx_impact_Vehicule_M197_Gatling )
 OrientationWrapperFxImpactSolAvion is ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion )
-OrientationWrapperFxImpactSolAvionGros_ is TRandomHappening
+OrientationWrapperFxImpactSolAvionGros__ is TRandomHappening
 (
     Alternatives = [
         ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_1 ),
+        ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_10 ),
+        ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_11 ),
+        ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_12 ),
         ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_2 ),
         ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_3 ),
         ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_4 ),
@@ -118,6 +121,7 @@ OrientationWrapperFxImpactSolAvionGros_ is TRandomHappening
         ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_6 ),
         ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_7 ),
         ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_8 ),
+        ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_9 ),
     ]
 )
 FxOuvertureBombeCluster is ImpactWrapper( Action = $/GFX/GameFx/fx_Ouverture_Bombe_Cluster )
@@ -464,7 +468,15 @@ FxImpactSolBombM117_ is TRandomHappening
         ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_M117_8 ),
     ]
 )
-FxImpactSolBombMk77_ is ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_Mk77_1 )
+FxImpactSolBombMk77_ is TRandomHappening
+(
+    Alternatives = [
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_Mk77_1 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_Mk77_2 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_Mk77_3 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_Mk77_4 ),
+    ]
+)
 FxImpactSolBombMk82_ is TRandomHappening
 (
     Alternatives = [
@@ -577,6 +589,8 @@ FxImpactSolHEM270227Mm_ is TRandomHappening
         ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_HE_M270_227mm_3 ),
         ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_HE_M270_227mm_4 ),
         ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_HE_M270_227mm_5 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_HE_M270_227mm_6 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_HE_M270_227mm_7 ),
     ]
 )
 FxImpactSolHEM270227MmCluster_ is ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_HE_M270_227mm_Cluster_1 )
@@ -941,7 +955,7 @@ AllImpactHappenings is MAP[
       ( EImpactSurface/Ricochet , nil ),
     ])),
   ([ 'BombeMk77' ], TImpactHappening( Happenings = MAP[
-      ( EImpactSurface/Ground , TCompositeHappening( SubHappenings = [ FxImpactSolBombMk77_, SoundHappening_FULDA_Bombe_Mk_sol ] ) ),
+      ( EImpactSurface/Ground , TCompositeHappening( SubHappenings = [ FxImpactSolBombMk77_, SoundHappening_FULDA_Bombe_Napalm_sol ] ) ),
       ( EImpactSurface/Water , TCompositeHappening( SubHappenings = [ FxImpactEauHeTresgros2, SoundHappening_Impact_HE_Gros_Eau ] ) ),
       ( EImpactSurface/Air , FxImpactSolBombMk77_ ),
       ( EImpactSurface/Wall , TCompositeHappening( SubHappenings = [ FxImpactSolBombM117_, SoundHappening_FULDA_Bombe_Napalm_sol ] ) ),
@@ -1341,13 +1355,13 @@ AllImpactHappenings is MAP[
       ( EImpactSurface/Ricochet , nil ),
     ])),
   ([ 'DestructionUniteAvionGros' ], TImpactHappening( Happenings = MAP[
-      ( EImpactSurface/Ground , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros_, SoundHappening_DestructionUniteGros_Avion ] ) ),
-      ( EImpactSurface/Water , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros_, SoundHappening_DestructionUniteGros_Avion ] ) ),
-      ( EImpactSurface/Air , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros_, SoundHappening_DestructionUniteGros ] ) ),
-      ( EImpactSurface/Wall , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros_, SoundHappening_DestructionUniteGros_Avion ] ) ),
-      ( EImpactSurface/Vehicle , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros_, SoundHappening_DestructionUniteGros_Avion ] ) ),
-      ( EImpactSurface/FlyingVehicle , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros_, SoundHappening_DestructionUniteGros ] ) ),
-      ( EImpactSurface/Missile , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros_, SoundHappening_DestructionUniteGros_Avion ] ) ),
+      ( EImpactSurface/Ground , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros__, SoundHappening_DestructionUniteGros_Avion ] ) ),
+      ( EImpactSurface/Water , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros__, SoundHappening_DestructionUniteGros_Avion ] ) ),
+      ( EImpactSurface/Air , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros__, SoundHappening_DestructionUniteGros ] ) ),
+      ( EImpactSurface/Wall , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros__, SoundHappening_DestructionUniteGros_Avion ] ) ),
+      ( EImpactSurface/Vehicle , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros__, SoundHappening_DestructionUniteGros_Avion ] ) ),
+      ( EImpactSurface/FlyingVehicle , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros__, SoundHappening_DestructionUniteGros ] ) ),
+      ( EImpactSurface/Missile , TCompositeHappening( SubHappenings = [ OrientationWrapperFxImpactSolAvionGros__, SoundHappening_DestructionUniteGros_Avion ] ) ),
       ( EImpactSurface/Ricochet , nil ),
     ])),
   ([ 'DestructionUniteHelicoLeger' ], TImpactHappening( Happenings = MAP[

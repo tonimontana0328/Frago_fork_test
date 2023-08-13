@@ -108,6 +108,7 @@ UseStrategic_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("UseStrategic_Lock_Company",                                MAP [(~/ComponentState/Normal, ~/UseStrategic_Lock_Company)] ),
 
         ("UseInGame_division_icone",  MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/3rd_Armored_Division.png"))] ),
+        ("UseStrategic_oob_L",  MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/oob_L.png"))] ),
     ]
 )
 

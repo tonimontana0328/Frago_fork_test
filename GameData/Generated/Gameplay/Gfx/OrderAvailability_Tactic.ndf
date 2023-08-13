@@ -2783,6 +2783,26 @@ Descriptor_OrderAvailability_DCA_Javelin_LML_UK is [
     "AIAttack",
     "AIStop",
 ]
+Descriptor_OrderAvailability_DCA_M167A2_Vulcan_20mm_US is [
+    "Stop",
+    "Move",
+    "FollowFormation",
+    "QuickMove",
+    "Attack",
+    "FastMoveAndAttack",
+    "MoveAndAttack",
+    "Spread",
+    "Shoot",
+    "ShootOnPosition",
+    "ShootOnPositionWithoutCorrection",
+    "AskForSupply",
+    "GoGetSupply",
+    "LoadIntoTransport",
+    "Load",
+    "AIDefend",
+    "AIAttack",
+    "AIStop",
+]
 Descriptor_OrderAvailability_DCA_M167_Vulcan_20mm_US is [
     "Stop",
     "Move",

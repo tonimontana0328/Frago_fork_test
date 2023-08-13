@@ -34,7 +34,6 @@ UIInGameResource is TUISpecificInGameResources
         ("UICommonHUDPingDisplayViewDescriptor", ~/UICommonHUDPingDisplayViewDescriptor),
         ("UISpecificOffMapViewDescriptor", ~/UISpecificOffMapViewDescriptor),
         ("UISpecificOffMapAirplaneViewDescriptor", ~/UISpecificOffMapAirplaneViewDescriptor),
-        ("UISpecificOffMapArtilleryViewDescriptor", ~/UISpecificOffMapArtilleryViewDescriptor),
         ("UISpecificHUDScoreViewDescriptor", ~/UISpecificHUDScoreViewDescriptor),
         ("UISpecificHUDScoreAllianceViewDescriptor", ~/UISpecificHUDScoreAllianceViewDescriptor),
         ("UISpecificHUDScorePlayerViewDescriptor", ~/UISpecificHUDScorePlayerViewDescriptor),

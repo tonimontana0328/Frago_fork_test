@@ -142,6 +142,7 @@ AllUnitsTactic is [
     ~/Descriptor_Unit_DCA_I_Hawk_RFA,
     ~/Descriptor_Unit_DCA_I_Hawk_US,
     ~/Descriptor_Unit_DCA_Javelin_LML_UK,
+    ~/Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US,
     ~/Descriptor_Unit_DCA_M167_Vulcan_20mm_US,
     ~/Descriptor_Unit_DCA_Rapier_FSA_UK,
     ~/Descriptor_Unit_DCA_Rapier_UK,
@@ -847,6 +848,5 @@ AllUnitsTactic is [
     ~/Descriptor_Unit_FOB_SOV,
     ~/Descriptor_Unit_FOB_UK,
     ~/Descriptor_Unit_FOB_US,
-
 
 ]

@@ -2,4 +2,6 @@ StrategicPlayerTurnCheckerResources is TUISpecificStrategicPlayerTurnCheckerReso
 (
     LDHintComponentName = "StrategicPlayerTurn"
     LDHintDuration = 5.0
+    PlayerTurnToken = "CSTR_YTURN"
+    OtherPlayerTurnToken = "CSTR_FMTUR"
 )

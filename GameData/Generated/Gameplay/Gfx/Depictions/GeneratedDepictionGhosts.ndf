@@ -591,6 +591,11 @@ GhostDepiction_DCA_Javelin_LML_UK is GhostVehicleDepictionTemplate
     Selector = Selector_DCA_Javelin_LML_UK
     Alternatives = Alternatives_DCA_Javelin_LML_UK
 )
+GhostDepiction_DCA_M167A2_Vulcan_20mm_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_DCA_M167A2_Vulcan_20mm_US
+    Alternatives = Alternatives_DCA_M167A2_Vulcan_20mm_US
+)
 GhostDepiction_DCA_M167_Vulcan_20mm_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_DCA_M167_Vulcan_20mm_US
@@ -2210,6 +2215,7 @@ VehicleMimeticGhost is MAP[
   ( 'DCA_I_Hawk_RFA', GhostDepiction_DCA_I_Hawk_RFA ),
   ( 'DCA_I_Hawk_US', GhostDepiction_DCA_I_Hawk_US ),
   ( 'DCA_Javelin_LML_UK', GhostDepiction_DCA_Javelin_LML_UK ),
+  ( 'DCA_M167A2_Vulcan_20mm_US', GhostDepiction_DCA_M167A2_Vulcan_20mm_US ),
   ( 'DCA_M167_Vulcan_20mm_US', GhostDepiction_DCA_M167_Vulcan_20mm_US ),
   ( 'DCA_Rapier_FSA_UK', GhostDepiction_DCA_Rapier_FSA_UK ),
   ( 'DCA_Rapier_UK', GhostDepiction_DCA_Rapier_UK ),

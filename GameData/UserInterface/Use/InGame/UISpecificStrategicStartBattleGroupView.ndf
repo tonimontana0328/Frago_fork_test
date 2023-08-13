@@ -202,4 +202,7 @@ template UISpecificStrategicStartBattleGroupViewDescriptor
     ]
 
     ShowOnlyList = <ShowOnlyList>
+
+    TextDico = ~/LocalisationConstantes/dico_interface_ingame
+    PawnItemTextToken = "BTL_pwnpwr"
 )

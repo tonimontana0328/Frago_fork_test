@@ -3,7 +3,7 @@
 
 StrategicCameraConstantes is TStrategicCameraConstantesDescriptor
 (
-    GoingBackDuration = .5              //  temps de certain mouvement de cam
+    GoingBackDuration = 0.5             //  temps de certain mouvement de cam
     GoBackWithStraightPath = true       // a true la camera va tout droit, sinon elle fait une pirouette cacahouète pour rejoindre sa position. Note que la pirouette n'a pas l'air de fonctionner très bien.
 
     IdleAltitude = 18000 * Metre        //altitude par défaut quand on perd le controle de la camera pendant le tour de l'ia

@@ -28,14 +28,6 @@ export Descriptor_District_Quartier_Gros is TEntityDescriptor(
             (
                 Default        = TDistrictModuleDescriptor
                 (
-                    DamageTakenMultiplier           = MAP [
-                       ("artillerie", 1.0),
-                       ("bombe", 1.0),
-                       ("cluster", 1.0),
-                       ("flamme", 1.0),
-                       ("he", 1.0),
-                       ("roquette", 1.0),
-                    ]
                 )
                 Selection      = [ ~/NilDescriptorIfCadavre ]
             ),
@@ -125,8 +117,6 @@ export Descriptor_District_Quartier_Gros is TEntityDescriptor(
             TMinimapDisplayModuleDescriptor
             (
                 Texture = "Texture_Minimap_Unit_inf"
-                IsAlwaysVisible = False
-                UseTeamColor = True
                 FollowUnitOrientation = True
             ),
         ~/PackSignauxModuleDescriptor,
@@ -160,14 +150,6 @@ export Descriptor_District_Quartier_HLM is TEntityDescriptor(
             (
                 Default        = TDistrictModuleDescriptor
                 (
-                    DamageTakenMultiplier           = MAP [
-                       ("artillerie", 1.0),
-                       ("bombe", 1.0),
-                       ("cluster", 1.0),
-                       ("flamme", 1.0),
-                       ("he", 1.0),
-                       ("roquette", 1.0),
-                    ]
                 )
                 Selection      = [ ~/NilDescriptorIfCadavre ]
             ),
@@ -257,8 +239,6 @@ export Descriptor_District_Quartier_HLM is TEntityDescriptor(
             TMinimapDisplayModuleDescriptor
             (
                 Texture = "Texture_Minimap_Unit_inf"
-                IsAlwaysVisible = False
-                UseTeamColor = True
                 FollowUnitOrientation = True
             ),
         ~/PackSignauxModuleDescriptor,
@@ -292,14 +272,6 @@ export Descriptor_District_Quartier_Moyen is TEntityDescriptor(
             (
                 Default        = TDistrictModuleDescriptor
                 (
-                    DamageTakenMultiplier           = MAP [
-                       ("artillerie", 1.0),
-                       ("bombe", 1.0),
-                       ("cluster", 1.0),
-                       ("flamme", 1.0),
-                       ("he", 1.0),
-                       ("roquette", 1.0),
-                    ]
                 )
                 Selection      = [ ~/NilDescriptorIfCadavre ]
             ),
@@ -389,8 +361,6 @@ export Descriptor_District_Quartier_Moyen is TEntityDescriptor(
             TMinimapDisplayModuleDescriptor
             (
                 Texture = "Texture_Minimap_Unit_inf"
-                IsAlwaysVisible = False
-                UseTeamColor = True
                 FollowUnitOrientation = True
             ),
         ~/PackSignauxModuleDescriptor,
@@ -424,14 +394,6 @@ export Descriptor_District_Quartier_Moyen_resistant_mieux is TEntityDescriptor(
             (
                 Default        = TDistrictModuleDescriptor
                 (
-                    DamageTakenMultiplier           = MAP [
-                       ("artillerie", 1.0),
-                       ("bombe", 1.0),
-                       ("cluster", 1.0),
-                       ("flamme", 1.0),
-                       ("he", 1.0),
-                       ("roquette", 1.0),
-                    ]
                 )
                 Selection      = [ ~/NilDescriptorIfCadavre ]
             ),
@@ -521,8 +483,6 @@ export Descriptor_District_Quartier_Moyen_resistant_mieux is TEntityDescriptor(
             TMinimapDisplayModuleDescriptor
             (
                 Texture = "Texture_Minimap_Unit_inf"
-                IsAlwaysVisible = False
-                UseTeamColor = True
                 FollowUnitOrientation = True
             ),
         ~/PackSignauxModuleDescriptor,

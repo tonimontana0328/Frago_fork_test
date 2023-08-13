@@ -82,6 +82,7 @@ FXWeapon_ATGM_9M114M_KokonM is FXWeapon_4
 FXWeapon_ATGM_9M117_Bastion is FXWeapon_7
 FXWeapon_ATGM_9M117M_Arkan is FXWeapon_7
 FXWeapon_ATGM_9M119M_Refleks is FXWeapon_7
+FXWeapon_ATGM_9M119M_Svir is FXWeapon_7
 FXWeapon_ATGM_9M128_Agona is FXWeapon_4
 FXWeapon_ATGM_9M14_MalyutkaP is FXWeapon_4
 FXWeapon_ATGM_9M14_MalyutkaP_x4 is FXWeapon_4
@@ -164,6 +165,7 @@ FXWeapon_SAM_MIM72F is FXWeapon_10
 FXWeapon_SAM_MIM72G is FXWeapon_10
 FXWeapon_SAM_Mistral is FXWeapon_9
 FXWeapon_SAM_RAPIER is FXWeapon_10
+FXWeapon_SAM_RAPIER_DARKFIRE_x6 is FXWeapon_10
 FXWeapon_SAM_RAPIER_FSA_x4 is FXWeapon_10
 FXWeapon_SAM_RAPIER_x4 is FXWeapon_10
 FXWeapon_SAM_RAPIER_x8 is FXWeapon_10

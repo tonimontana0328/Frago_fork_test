@@ -8,6 +8,7 @@ BUCKSpecificStrategicObjectiveScoreMainComponentDescriptor is BUCKRackDescriptor
         AlignementToFather = [0.0, 0.5]
         AlignementToAnchor = [0.0, 0.5]
     )
+    HidePointerEvents = true
     Axis = ~/ListAxis/Horizontal
 
     BladeDescriptor = BUCKListDescriptor
@@ -19,8 +20,6 @@ BUCKSpecificStrategicObjectiveScoreMainComponentDescriptor is BUCKRackDescriptor
         )
         Axis = ~/ListAxis/Horizontal
 
-        LastMargin = TRTTILength(Magnifiable = 50.0)
-
         Elements =
         [
             BUCKListElementDescriptor
@@ -30,14 +29,18 @@ BUCKSpecificStrategicObjectiveScoreMainComponentDescriptor is BUCKRackDescriptor
                     ElementName = 'Flag'
                     ComponentFrame = TUIFramePropertyRTTI
                     (
-                        MagnifiableWidthHeight = [45.0, 20.0]
+                        MagnifiableWidthHeight = [40, 25]
                         AlignementToFather = [0.0, 0.5]
                         AlignementToAnchor = [0.0, 0.5]
 
                     )
 
-                    TextureFrame = TUIFramePropertyRTTI()
-                    ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
+                    TextureFrame = TUIFramePropertyRTTI
+                    (
+                        RelativeWidthHeight = [0.85, 0.85]
+                        AlignementToFather = [0.5, 0.5]
+                        AlignementToAnchor = [0.5, 0.5]
+                    )
                 )
             ),
             BUCKListElementDescriptor
@@ -47,25 +50,31 @@ BUCKSpecificStrategicObjectiveScoreMainComponentDescriptor is BUCKRackDescriptor
                     ElementName = 'Score'
                     ComponentFrame = TUIFramePropertyRTTI
                     (
-                        MagnifiableWidthHeight = [0.0, 20.0]
+                        MagnifiableWidthHeight = [43.0, 25.0]
                         AlignementToFather = [0.0, 0.5]
                         AlignementToAnchor = [0.0, 0.5]
                     )
-
-                    ParagraphStyle = ~/LDHintParagraphStyleLeftAlignedExact
-                    TextPadding = TRTTILength4(Magnifiable = [0.0, 0.0, 10.0, 0.0])
+                    ParagraphStyle = ~/LDHintParagraphStyleCentered
                     TextStyle = "Default"
 
-                    HorizontalFitStyle = ~/FitStyle/FitToContent
+                    HorizontalFitStyle = ~/FitStyle/UserDefined
                     VerticalFitStyle = ~/FitStyle/UserDefined
 
-                    TypefaceToken = "UIMainFont"
-                    BigLineAction = ~/BigLineAction/MultiLine
-
-                    TextColor = "SD2_Blanc184"
-                    TextSize = "15"
                     TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                    TypefaceToken = "Eurostyle_Italic"
+                    TextColor = "SM_paleSilver"
+                    TextSize = "15"
                 )
+            )
+        ]
+        ForegroundComponents =
+        [
+            BUCKSpecificHintableArea
+            (
+                HintTitleToken = 'SM_scoret'
+                HintBodyToken = 'SM_scoreb'
+                HintExtendedToken = 'SM_scoree'
+                DicoToken = ~/LocalisationConstantes/dico_interface_ingame
             )
         ]
     )

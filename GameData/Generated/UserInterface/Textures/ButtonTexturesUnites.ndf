@@ -841,6 +841,12 @@ Texture_Button_Unit_DCA_Javelin_LML_UK is TUIResourceTextureWithUsefulnessMask
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/DCA_Javelin_LML_UK.png'
 )
+Texture_Button_Unit_DCA_M167A2_Vulcan_20mm_US is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/default.png'
+)
 Texture_Button_Unit_DCA_M167_Vulcan_20mm_US is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
@@ -5203,6 +5209,7 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_DCA_I_Hawk_RFA", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_DCA_I_Hawk_RFA), ]),
         ("Texture_Button_Unit_DCA_I_Hawk_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_DCA_I_Hawk_US), ]),
         ("Texture_Button_Unit_DCA_Javelin_LML_UK", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_DCA_Javelin_LML_UK), ]),
+        ("Texture_Button_Unit_DCA_M167A2_Vulcan_20mm_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_DCA_M167A2_Vulcan_20mm_US), ]),
         ("Texture_Button_Unit_DCA_M167_Vulcan_20mm_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_DCA_M167_Vulcan_20mm_US), ]),
         ("Texture_Button_Unit_DCA_Rapier_FSA_UK", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_DCA_Rapier_FSA_UK), ]),
         ("Texture_Button_Unit_DCA_Rapier_UK", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_DCA_Rapier_UK), ]),

@@ -1,134 +1,63 @@
-private StrategicLobbyConfirmButton is ConfirmButton
+private StrategicLobbyConfirmButton is SoloNavigationButton
 (
-    TextToken = 'AB_LAUNCH'
-    ElementName = 'StrategicLobbyConfirmButton'
+    TextToken = "AB_LAUNCH"
+    ElementName = "StrategicLobbyConfirmButton"
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
-    ButtonMagnifiableWidthHeight = [175.0, 35.0]
-    ButtonAlignementToAnchor = [0.0, 0.0]
-    ButtonAlignementToFather = [0.0, 0.0]
-    ButtonMagnifiableOffset = [0.0, -10.0]
-    TextTypefaceToken = "Liberator"
-    TextColorToken = "tampon_vert"
-    BorderLineColorToken = "tampon_vert"
-    HasBackground = false
-    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
-    TextSizeToken = "32"
-    BorderThicknessToken = "3"
-    BigLineAction = ~/BigLineAction/ResizeFont
-    TextPadding = TRTTILength4( Magnifiable = [5.0, 0.0, 5.0, 0.0] )
+    IsEmphasized = true
 )
 
-private StrategicLobbyInviteButton is StandardButton
+private StrategicLobbyInviteCodeButton is SoloNavigationButton
 (
-    ElementName = 'StrategicLobbyInviteButton'
-    TextToken = 'AB_INVITE'
-    HintTitleToken = "OLB_INVITT"
-    HintBodyToken = "OLB_INVITB"
-    HintExtendedToken = "OLB_INVITE"
-    HintDico = ~/LocalisationConstantes/dico_interface_outgame
-)
-
-private StrategicLobbyInviteCodeButton is StandardButton
-(
-    ElementName = 'StrategicLobbyInviteCodeButton'
-    TextToken = 'CB_INVCOD'
+    ElementName = "StrategicLobbyInviteCodeButton"
+    TextToken = "CB_INVCOD"
     HintTitleToken = "CB_INVCOD"
     HintBodyToken = "OLB_INVICB"
     HintExtendedToken = "OLB_INVICE"
-    HintDico = ~/LocalisationConstantes/dico_interface_outgame
+    TextSizeToken = "22"
+    ButtonMagnifiableWidthHeight = [125.0, 35.0]
 )
 
-private StrategicLobbyViewProfileButton is StandardButton
+private StrategicLobbySwitchPrivacyButton is SoloNavigationButton
 (
-    TextToken = 'FR_PROFILE'
-    ElementName = 'StrategicLobbyViewProfileButton'
-)
-
-private StrategicLobbySwitchButton is ConfirmButton
-(
-    ElementName = 'StrategicLobbySwitchTeamButton'
-    TextToken = 'OLB_SWTCHT'
-    HintTitleToken = "OLB_SWTCHT"
-    HintBodyToken = "OLB_SWTCHB"
-    HintExtendedToken = "OLB_SWTCHE"
-    HintDico = ~/LocalisationConstantes/dico_interface_outgame
-    ButtonMagnifiableWidthHeight = [175.0, 35.0]
-    ButtonAlignementToAnchor = [0.0, 0.0]
-    ButtonAlignementToFather = [0.0, 0.0]
-    ButtonMagnifiableOffset = [0.0, -10.0]
-    TextTypefaceToken = "Liberator"
-    TextColorToken = "tampon_gris"
-    BorderLineColorToken = "tampon_gris"
-    HasBackground = false
-    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
-    TextSizeToken = "32"
-    BorderThicknessToken = "3"
-    BigLineAction = ~/BigLineAction/ResizeFont
-    TextPadding = TRTTILength4(Magnifiable = [4.0, 0.0, 4.0, 0.0])
-)
-
-
-private StrategicLobbySwitchPrivacyButton is ConfirmButton
-(
-    ElementName = 'StrategicLobbySwitchPrivacyButton'
-    TextToken = 'GS_SPUBLI'
+    ElementName = "StrategicLobbySwitchPrivacyButton"
+    TextToken = "GS_SPUBLI"
     HintTitleToken = "GS_ACCESS"
     HintBodyToken = "GS_ACCESSB"
     HintExtendedToken = "GS_ACCESSE"
-    HintDico = ~/LocalisationConstantes/dico_interface_outgame
-    ButtonMagnifiableWidthHeight = [175.0, 35.0]
-    ButtonAlignementToAnchor = [0.0, 0.0]
-    ButtonAlignementToFather = [0.0, 0.0]
-    ButtonMagnifiableOffset = [0.0, -10.0]
-    TextTypefaceToken = "Liberator"
-    TextColorToken = "tampon_gris"
-    BorderLineColorToken = "tampon_gris"
-    HasBackground = false
-    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
-    TextSizeToken = "32"
-    BorderThicknessToken = "3"
+    TextSizeToken = "22"
+    ButtonMagnifiableWidthHeight = [125.0, 35.0]
 )
 
-private StrategicLobbyBackButton is ConfirmButton
+private StrategicLobbyViewProfileButton is SoloNavigationButton
 (
-    TextToken = 'NV_LEAVE'
-    ElementName = 'StrategicLobbyBackButton'
-    Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
+    ElementName = "StrategicLobbyViewProfileButton"
+    TextToken = "FR_PROFILE"
+)
 
+private StrategicLobbySwitchButton is SoloNavigationButton
+(
+    ElementName = "StrategicLobbySwitchTeamButton"
+    TextToken = "OLB_SWTCHT"
+    HintTitleToken = "OLB_SWTCHT"
+    HintBodyToken = "OLB_SWTCHB"
+    HintExtendedToken = "OLB_SWTCHE"
+)
+private StrategicLobbyBackButton is SoloNavigationButton
+(
+    TextToken = "NV_LEAVE"
+    ElementName = "StrategicLobbyBackButton"
+    Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
     HintableAreaElementName = "LeaveButtonHintableArea"
     HintTitleToken = "OLB_LEAVET"
     HintBodyToken = "OLB_LEAVEB"
     HintExtendedToken = "OLB_LEAVEE"
-    HintDico = ~/LocalisationConstantes/dico_interface_outgame
-    ButtonMagnifiableWidthHeight = [175.0, 35.0]
-    ButtonAlignementToAnchor = [0.0, 0.0]
-    ButtonAlignementToFather = [0.0, 0.0]
-    ButtonMagnifiableOffset = [0.0, -10.0]
-    TextTypefaceToken = "Liberator"
-    TextColorToken = "tampon_gris"
-    BorderLineColorToken = "tampon_gris"
-    HasBackground = false
-    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
-    TextSizeToken = "32"
-    BorderThicknessToken = "3"
 )
 
-private StrategicLobbyCancelButton is ConfirmButton
+private StrategicLobbyCancelButton is SoloNavigationButton
 (
-    TextToken = 'AB_OPCANCL'
-    ElementName = 'StrategicLobbyCancelButton'
+    TextToken = "AB_OPCANCL"
+    ElementName = "StrategicLobbyCancelButton"
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-    ButtonMagnifiableWidthHeight = [175.0, 35.0]
-    ButtonAlignementToAnchor = [0.0, 0.0]
-    ButtonAlignementToFather = [0.0, 0.0]
-    ButtonMagnifiableOffset = [0.0, -10.0]
-    TextTypefaceToken = "Liberator"
-    TextColorToken = "tampon_gris"
-    BorderLineColorToken = "tampon_gris"
-    HasBackground = false
-    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
-    TextSizeToken = "32"
-    BorderThicknessToken = "3"
 )
 
 private StategicPlayerButtonManager is TBUCKRadioButtonManager()
@@ -593,18 +522,59 @@ StrategicLobbyLeftPageButtons is BUCKListDescriptor
         AlignementToFather = [0.5, 1.0]
         MagnifiableOffset = [0.0, -50.0]
     )
-    Axis = ~/ListAxis/Horizontal
+    Axis = ~/ListAxis/Vertical
+    InterItemMargin = TRTTILength(Magnifiable = 60.0)
     BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
-
-    InterItemMargin = TRTTILength(Magnifiable = 20.0)
 
     Elements =
     [
-        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyInviteButton ),
-        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyInviteCodeButton ),
-        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbySwitchPrivacyButton ),
-        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyBackButton ),
-        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyCancelButton ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKListDescriptor
+            (
+                ElementName = "StrategicLobbyLeftPageTopButtons"
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    AlignementToAnchor = [0.5, 0.0]
+                    AlignementToFather = [0.5, 0.0]
+                )
+
+                Axis = ~/ListAxis/Horizontal
+                BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+
+                InterItemMargin = TRTTILength(Magnifiable = 20.0)
+
+                Elements =
+                [
+                    BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyInviteCodeButton ),
+                    BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbySwitchPrivacyButton ),
+                ]
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKListDescriptor
+            (
+                ElementName = "StrategicLobbyLeftPageBottomButtons"
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    AlignementToAnchor = [0.5, 0.0]
+                    AlignementToFather = [0.5, 0.0]
+                )
+
+                Axis = ~/ListAxis/Horizontal
+                BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+
+                InterItemMargin = TRTTILength(Magnifiable = 20.0)
+
+                Elements =
+                [
+                    BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyBackButton ),
+                    BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyCancelButton ),
+                    BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbySwitchButton ),
+                ]
+            )
+        )
     ]
 )
 
@@ -624,8 +594,7 @@ StrategicLobbyRightPageButtons is BUCKListDescriptor
 
     Elements =
     [
-        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbySwitchButton ),
-        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyConfirmButton ),
+        BUCKListElementDescriptor( ComponentDescriptor = ~/StrategicLobbyConfirmButton )
     ]
 )
 

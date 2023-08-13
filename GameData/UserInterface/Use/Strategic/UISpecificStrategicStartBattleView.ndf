@@ -436,6 +436,8 @@ template Display2Columns
     TextColorToken2 : string = "SM_paleSilver",
     MagnifiableWidth_text1 : float = 253.0,
     MagnifiableWidth_text2 : float = 105.0,
+    HintTitleToken : string = "",
+    HintBodyToken : string = "",
 ]
 is BUCKListDescriptor
 (
@@ -458,6 +460,9 @@ is BUCKListDescriptor
                 TextToken = <TextToken1>
                 RelativeWidth = 0.0
                 MagnifiableWidth = <MagnifiableWidth_text1>
+                HintTitleToken = <HintTitleToken>
+                HintBodyToken = <HintBodyToken>
+
             )
         ),
         BUCKListElementDescriptor
@@ -472,9 +477,14 @@ is BUCKListDescriptor
                 IsRightAligned = true
                 TypefaceToken = <TypefaceTokenToken2>
                 TextColor = <TextColorToken2>
+                HintTitleToken = <HintTitleToken>
+                HintBodyToken = <HintBodyToken>
             )
         ),
     ]
+
+
+
 )
 
 //------------------------------------------------------------------------------
@@ -597,6 +607,8 @@ private PanelInfosBataille is BUCKListDescriptor
                 TextColorToken2 = 'BlancEquipe'
                 MagnifiableWidth_text1 = 203.0
                 MagnifiableWidth_text2 = 155.0
+                HintTitleToken = 'PrC_tert'
+                HintBodyToken = 'sm_pre1'
             )
         ),
         //-------------------------------------------------------------------------------------
@@ -623,6 +635,8 @@ private PanelInfosBataille is BUCKListDescriptor
                 TextToken2 = "CatPow"
                 TypefaceTokenToken2 = "Eurostyle_Heavy"
                 TextColorToken2 = 'BlancEquipe'
+                HintTitleToken = 'strength'
+                HintBodyToken = 'sm_pre2'
 
             )
         ),
@@ -637,6 +651,8 @@ private PanelInfosBataille is BUCKListDescriptor
                 TextToken2 = "CatPow"
                 TypefaceTokenToken2 = "Eurostyle_Heavy"
                 TextColorToken2 = 'BlancEquipe'
+                HintTitleToken = 'strength'
+                HintBodyToken = 'sm_pre2'
 
 
             )
@@ -665,6 +681,8 @@ private PanelInfosBataille is BUCKListDescriptor
                 TextToken2 = "depl_pts"
                 TypefaceTokenToken2 = "Eurostyle_Heavy"
                 TextColorToken2 = 'BlancEquipe'
+                HintTitleToken = 'PrC_cc'
+                HintBodyToken = 'sm_pre7'
 
 
             )
@@ -682,6 +700,8 @@ private PanelInfosBataille is BUCKListDescriptor
                 TextColorToken2 = 'BlancEquipe'
                 MagnifiableWidth_text1 = 253.0+70
                 MagnifiableWidth_text2 = 105.0-70
+                HintTitleToken = 'PrC_cc'
+                HintBodyToken = 'sm_pre7'
 
 
             )

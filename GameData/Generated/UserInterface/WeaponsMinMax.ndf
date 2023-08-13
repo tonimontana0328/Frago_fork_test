@@ -5,7 +5,6 @@
 
 
 
-
 MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
 (
     WeaponsMinMaxValues = MAP
@@ -141,7 +140,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                SupplyCost = TMinMaxValue (
                        Min = 2 // Howz Canon 2A44 Howitzer 203mm late SMOKE
-                       Max = 120 // Howz Canon 2A18 Howitzer 122mm
+                       Max = 180 // Howz Canon GCT Howitzer 155mm
               )
          )
        ),
@@ -200,8 +199,8 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 34 // Canon AP 120 mm L52 M68 HA
                )
                TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 1.0 // Canon AP 2A18 122mm
-                       Max = 7.5 // Canon AP 125 mm 2A26 T72M
+                       Min = 1.0 // Canon HE 60mm CM60A1
+                       Max = 7.5 // Canon AP 125 mm 2A46 T72M
                )
                NbShotsBySalvo = TMinMaxValue (
                        Min = 1 // Canon AP 2A18 122mm
@@ -396,7 +395,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 360 // M47_DRAGON_II
                )
                Accuracy = TMinMaxValue (
-                       Min = 40 // ATGM 9M117 Bastion
+                       Min = 40 // ATGM 9M14 MalyutkaP
                        Max = 65 // ATGM HOT2 x4
                )
                AccuracyMovement = TMinMaxValue (
@@ -431,7 +430,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
           (
                // PhysicalDamages x weapon_count_ (Number of weapons)
                PhysicalDamages = TMinMaxValue (
-                       Min = 0.27 // AutoCanon HE M693 F1 20mm
+                       Min = 0.284 // AutoCanon HE M693 F1 20mm
                        Max = 1.0 // AutoCanon AP M693 F1 20mm
                )
                // SuppressDamages x weapon_count_ (Number of weapons)
@@ -441,7 +440,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                SplashDamageRadius = TMinMaxValue (
                        Min = 0 * Metre // AutoCanon AP M693 F1 20mm
-                       Max = 20 * Metre // AutoCanon HE M693 F1 20mm
+                       Max = 21 * Metre // AutoCanon HE M693 F1 20mm
                )
                MaxRange = TMinMaxValue (
                        Min = 3962 // HMG 12 7 mm avenger M3P
@@ -472,7 +471,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 35 // HMG 12 7 mm avenger M3P
                )
                AccuracyMovement = TMinMaxValue (
-                       Min = 2 // AutoCanon AP M693 F1 20mm
+                       Min = 2 // AutoCanon AP 20mm M621 GIAT
                        Max = 15 // HMG 12 7 mm avenger M3P
                )
                RateOfFire = TMinMaxValue (
@@ -584,8 +583,8 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 100 // PM AKSU_74
                )
                SplashDamageRadius = TMinMaxValue (
-                       Min = 0 * Metre // PM Sterling
-                       Max = 0 * Metre // PM Sterling
+                       Min = 5 * Metre // PM Sterling
+                       Max = 5 * Metre // PM Sterling
                )
                MaxRange = TMinMaxValue (
                        Min = 1203 // PM Sterling
@@ -1003,7 +1002,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
           (
                // PhysicalDamages x weapon_count_ (Number of weapons)
                PhysicalDamages = TMinMaxValue (
-                       Min = 0.162 // Gatling JakB 12 7mm
+                       Min = 0.17039999999999997 // Gatling JakB 12 7mm
                        Max = 1.0 // Gatling AP M197 20mm
                )
                // SuppressDamages x weapon_count_ (Number of weapons)

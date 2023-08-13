@@ -30,7 +30,7 @@ MainOutGameSoloDescriptor is BUCKContainerDescriptor
 
         BUCKContainerDescriptor
         (
-            UniqueName = "SoloPanelViewDescriptor"
+            UniqueName = "SubMenuPanelViewDescriptor"
             ComponentFrame = TUIFramePropertyRTTI
             (
                 RelativeWidthHeight = [1.0, 1.0]

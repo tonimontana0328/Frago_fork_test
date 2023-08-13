@@ -253,6 +253,7 @@ private SelectionPanel_nomsoldat is BUCKTextDescriptor
 
 private SelectionPanelStressStatus is BUCKContainerDescriptor
 (
+    ElementName = "StressStatusContainer"
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [1.0, 0.0]

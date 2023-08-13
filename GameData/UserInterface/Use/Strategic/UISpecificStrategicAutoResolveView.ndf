@@ -135,6 +135,8 @@ template AutoResolveLine
     IsRapport : bool,
     TextSize : string = "AutoResolve/Rapport",
     TitleTypefaceToken : string = "Liberator",
+    HintTitleToken : string = "",
+    HintBodyToken : string = "",
 ]
 is BUCKContainerDescriptor
 (
@@ -336,6 +338,17 @@ is BUCKContainerDescriptor
                     HasBackground = true
                 ),
             ]
+
+            ForegroundComponents =
+            [
+                BUCKSpecificHintableArea
+                (
+                    HintTitleToken = <HintTitleToken>
+                    HintBodyToken = <HintBodyToken>
+                    // HintExtendedToken = <HintExtendedToken>
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                )
+            ]
         )
     ]
 )
@@ -518,6 +531,16 @@ AutoResolveArmyForcesAndRatio is BUCKContainerDescriptor
                     HasBackground = true
                 ),
             ]
+
+            ForegroundComponents =
+            [
+                BUCKSpecificHintableArea
+                (
+                    HintTitleToken = 'AR_forcrat'
+                    HintBodyToken = 'AR_forcrab'
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                )
+            ]
         )
     ]
 )
@@ -528,6 +551,8 @@ template AutoResolveCombatResultSubTitle
 [
     ElementName : string = "",
     TextToken : string,
+    HintTitleToken : string = "",
+    HintBodyToken : string = "",
 ] is BUCKTextDescriptor
 (
     ElementName = <ElementName>
@@ -554,6 +579,13 @@ template AutoResolveCombatResultSubTitle
     TextDico = ~/LocalisationConstantes/dico_interface_ingame
     TextSize = "14"
     TextColor = "AutoResolve/Information"
+
+    Hint = BUCKSpecificHintableArea
+    (
+        HintTitleToken = <HintTitleToken>
+        HintBodyToken = <HintBodyToken>
+        DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+    )
 
     Components =
     [
@@ -812,11 +844,18 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
                         )
                     )
                 ]
+
             )
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = AutoResolveCombatResultSubTitle(TextToken = "AR_RDA" ElementName = "ArmyRatioTitle")
+            ComponentDescriptor = AutoResolveCombatResultSubTitle
+            (
+                TextToken = "AR_forcrat"
+                ElementName = "ArmyRatioTitle"
+                HintTitleToken = "AR_forcrat"
+                HintBodyToken = "AR_forcrab"
+            )
         ),
         BUCKListElementDescriptor
         (
@@ -824,7 +863,13 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = AutoResolveCombatResultSubTitle(TextToken = "AR_ADC" ElementName = "CombatAdvantageTitle")
+            ComponentDescriptor = AutoResolveCombatResultSubTitle
+            (
+                TextToken = "AR_ADC"
+                ElementName = "CombatAdvantageTitle"
+                HintTitleToken = "AR_combaat"
+                HintBodyToken = "AR_combaab"
+            )
         ),
         BUCKListElementDescriptor
         (
@@ -849,6 +894,8 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
                     IsRapport = false
                     TextSize = 'AutoResolve/Information'
                     TitleTypefaceToken = "Eurostyle"
+                    HintTitleToken = "AR_combaat"
+                    HintBodyToken = "CA_allhinb"
                 )
             )
         ),
@@ -862,6 +909,8 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
                 DefenderText = ""
                 TitleTypefaceToken = "Eurostyle"
                 IsRapport = true
+                HintTitleToken = "AR_finalct"
+                HintBodyToken = "AR_finalcb"
             )
         ),
         BUCKListElementSpacer(Magnifiable = 40.0),
@@ -869,7 +918,7 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
         // Répartition des pertes
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = PertesSurTerrainMainComponent(BaseElementName = "CombatOutcome" TitleTextToken = "AR_RDC" ContentToken = "AR_ADCBT" ContentSize = "12")
+            ComponentDescriptor = PertesSurTerrainMainComponent(BaseElementName = "CombatOutcome" TitleTextToken = "AR_outcomt" ContentToken = "AR_ADCBT" ContentSize = "12")
         ),
         BUCKListElementDescriptor
         (
@@ -1067,7 +1116,7 @@ private StrategicBattleResultMainComponent is BUCKListDescriptor
     (
         MagnifiableWidthHeight = [LargeurMainComponent, 0]
     )
-
+    HidePointerEvents = true
     Axis = ~/ListAxis/Vertical
     BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
     FirstMargin  = TRTTILength (Magnifiable = 10.0)
@@ -1130,7 +1179,7 @@ private StrategicBattleResultMainComponent is BUCKListDescriptor
                         ElementName = "EndBattleValidation"
                         UniqueName = "EndBattleValidation"
                         TextToken = "BtnEndBttl"
-                        HintBodyToken = "auto_phCb"
+                        // HintBodyToken = "auto_phCb"
                     )
                 ]
             )
@@ -1257,7 +1306,10 @@ is BUCKContainerDescriptor
                         ComponentFrame = TUIFramePropertyRTTI()
                     )
                 ),
-            ] )
+            ]
+            )
+
+
         ),
 
         // Army strengths display
@@ -1355,6 +1407,17 @@ template ArmyStrengthDisplay
                     )
                 )
             ]
+            ForegroundComponents =
+            [
+                BUCKSpecificHintableArea
+                (
+                    HintTitleToken = 'AR_ovstret'
+                    HintBodyToken = 'AR_ovstreb'
+                    // HintExtendedToken = <HintExtendedToken>
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                )
+            ]
+
         )
     ]
 )

@@ -3186,6 +3186,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_Ural_4320_trans_SOV, 1954),
         (Descriptor_Unit_Su_24M_clu2_SOV, 1955),
         (Descriptor_Unit_Su_24M_LGB_SOV, 1956),
+        (Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US, 1973),
         (Descriptor_Unit_Marder_1A3_MILAN2_RFA_FRL, 5006),
         (Descriptor_Unit_M2A2_Bradley_TOW1_IFV_US_FRL, 5007),
         (Descriptor_Unit_M113_ACAV_US_nonrecce_FRL, 5008),

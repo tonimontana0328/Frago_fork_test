@@ -304,36 +304,6 @@ is TUIObjectiveLabelDescriptor
                             HasBackground = true
                             BackgroundBlockColorToken = 'Steelman_Background_BoutonOrdreDeBataille' //SD2_Blanc184'
                         ),
-                        //Petit texte indiquant les points rapportés
-                        // Alexis : j'ai mis enc ommentaire car selon les retours que j'avais les gens trouvaient que c'était trop intrusif
-                        {BUCKTextDescriptor
-                                                (
-                                                    ComponentFrame = TUIFramePropertyRTTI
-                                                    (
-                                                        AlignementToAnchor = [ 0.5, 1.0 ]
-                                                        AlignementToFather = [ 0.5, 1.0 ]
-                                                    )
-                                                    ElementName = "Title"
-
-                                                    TextStyle = "Default"
-                                                    TypefaceToken = "UISecondFont"
-
-                                                    ParagraphStyle = TParagraphStyleRTTI
-                                                    (
-                                                        Alignment = UIText_Center
-                                                        VerticalAlignment = UIText_VerticalCenter
-                                                    )
-
-                                                    ClipContent = true
-                                                    TextSize = '8'
-                                                    TextColor = 'SD2_Transparent' // mis en transparent car pas génial sur SD2
-
-                                                    HasBackground = false
-                                                    BackgroundBlockColorToken = 'SD2_Blanc184'
-
-                                                    HorizontalFitStyle = ~/FitStyle/FitToContent
-                                                    VerticalFitStyle = ~/FitStyle/FitToContent
-                                                ),}
                         //Forme du drapeau (ce container est récupéré dans le C++ et la texture du drapeau est découpée puis appliquée à l'intérieur)
                         BUCKHintableAreaDescriptor
                         (

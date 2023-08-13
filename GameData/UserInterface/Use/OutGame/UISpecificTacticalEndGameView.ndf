@@ -2555,6 +2555,7 @@ UISpecificTacticalEndGameViewDescriptor is TUISpecificTacticalEndGameViewDescrip
         (~/EGameEndingCondition/PlayerDisconnected,     "EG_discW"),
         (~/EGameEndingCondition/Surrender,              "EG_surrW"),
         (~/EGameEndingCondition/NoMoreZone,             "EG_nozoneW"),
+        (~/EGameEndingCondition/NoMoreProd,             "EG_noprodW"),
         (~/EGameEndingCondition/Time,                   "EG_scWTL"),
         (~/EGameEndingCondition/ScriptDecided ,         "EG_wsc"),
     ]
@@ -2566,6 +2567,7 @@ UISpecificTacticalEndGameViewDescriptor is TUISpecificTacticalEndGameViewDescrip
         (~/EGameEndingCondition/PlayerDisconnected,     "EG_discL"),
         (~/EGameEndingCondition/Surrender,              "EG_surrL"),
         (~/EGameEndingCondition/NoMoreZone,             "EG_nozoneL"),
+        (~/EGameEndingCondition/NoMoreProd,             "EG_noprodL"),
         (~/EGameEndingCondition/Time,                   "EG_scLTL"),
         (~/EGameEndingCondition/ScriptDecided ,         "EG_lsc"),
     ]

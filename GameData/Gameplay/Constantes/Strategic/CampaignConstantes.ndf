@@ -42,8 +42,6 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
 
     //----------
 
-    ActionPointsPenaltyForAllAttackersIntercepted = 0 // embuscade
-
     NbTurnToRepairDisabledUnit = 1
 
     //cosmetique des ordres

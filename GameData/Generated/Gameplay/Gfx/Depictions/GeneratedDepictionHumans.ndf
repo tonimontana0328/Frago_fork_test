@@ -1050,6 +1050,35 @@ HumanSubDepictionsShowroom_DCA_Javelin_LML_UK is
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_UK
     ),
 ]
+HumanSubDepictions_DCA_M167A2_Vulcan_20mm_US is 
+[
+    SubDepiction_ServantWalkOnlyLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_spe_G_US
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_spe_G_US_LOW
+    ),
+    SubDepiction_GunnerIdleOnlyLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_spe_G_US
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_spe_G_US_LOW
+    ),
+    SubDepiction_ServantRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_Officer_D_US
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_Officer_D_US_LOW
+    ),
+]
+HumanSubDepictionsShowroom_DCA_M167A2_Vulcan_20mm_US is 
+[
+    ShowroomSubDepiction_GunnerLeft
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_spe_G_US
+    ),
+    ShowroomSubDepiction_ServantRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_Officer_D_US
+    ),
+]
 HumanSubDepictions_DCA_M167_Vulcan_20mm_US is 
 [
     SubDepiction_ServantWalkOnlyLeft
@@ -3221,6 +3250,7 @@ MAP[
     ("DCA_I_Hawk_RFA", 2),
     ("DCA_I_Hawk_US", 2),
     ("DCA_Javelin_LML_UK", 2),
+    ("DCA_M167A2_Vulcan_20mm_US", 2),
     ("DCA_M167_Vulcan_20mm_US", 2),
     ("DCA_Rapier_FSA_UK", 2),
     ("DCA_Rapier_UK", 2),
@@ -3453,6 +3483,8 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_Officer_D_US SelectorId = [ "DCA_I_Hawk_US", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_UK SelectorId = [ "DCA_Javelin_LML_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_UK SelectorId = [ "DCA_Javelin_LML_UK", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_spe_G_US SelectorId = [ "DCA_M167A2_Vulcan_20mm_US", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_Officer_D_US SelectorId = [ "DCA_M167A2_Vulcan_20mm_US", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_spe_G_US SelectorId = [ "DCA_M167_Vulcan_20mm_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_Officer_D_US SelectorId = [ "DCA_M167_Vulcan_20mm_US", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_UK SelectorId = [ "DCA_Rapier_FSA_UK", "01" ] ),

@@ -118,6 +118,10 @@ Texture_Interface_Weapon_m68_105 is TUIResourceTexture_Common
 (
     FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/m68_105.png"
 )
+Texture_Interface_Weapon_2A46_64BV is TUIResourceTexture_Common
+(
+    FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/2A46_64BV.png"
+)
 Texture_Interface_Weapon_L11A5 is TUIResourceTexture_Common
 (
     FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/L11A5.png"
@@ -129,10 +133,6 @@ Texture_Interface_Weapon_l44 is TUIResourceTexture_Common
 Texture_Interface_Weapon_M68_120 is TUIResourceTexture_Common
 (
     FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/M68_120.png"
-)
-Texture_Interface_Weapon_2A46_64BV is TUIResourceTexture_Common
-(
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/2A46_64BV.png"
 )
 Texture_Interface_Weapon_2A46_T80 is TUIResourceTexture_Common
 (
@@ -1021,10 +1021,10 @@ WeaponAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Interface_Weapon_2a26", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_2a26)]),
         ("Texture_Interface_Weapon_Canon_AP_105mm_M68", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_Canon_AP_105mm_M68)]),
         ("Texture_Interface_Weapon_m68_105", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_m68_105)]),
+        ("Texture_Interface_Weapon_2A46_64BV", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_2A46_64BV)]),
         ("Texture_Interface_Weapon_L11A5", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_L11A5)]),
         ("Texture_Interface_Weapon_l44", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_l44)]),
         ("Texture_Interface_Weapon_M68_120", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_M68_120)]),
-        ("Texture_Interface_Weapon_2A46_64BV", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_2A46_64BV)]),
         ("Texture_Interface_Weapon_2A46_T80", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_2A46_T80)]),
         ("Texture_Interface_Weapon_2A18_AP", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_2A18_AP)]),
         ("Texture_Interface_Weapon_zis_2_57", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_zis_2_57)]),

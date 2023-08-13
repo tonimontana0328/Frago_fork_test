@@ -6,10 +6,6 @@ export UnitEffect_A_BonusType_Calcul is TEffectsPackDescriptor
     DescriptorId       = GUID:{4970497b-2c6c-474a-ae2f-ce369ab9772a}
     NameForDebug       = 'A_BonusType_Calcul'
     EffectsDescriptors = [
-        TUnitEffectDisableObserverDescriptor
-        (
-            BonusDisableObserver = False
-        ),
     ]
 )
 export UnitEffect_Ajoute_Tag_Allie_Proche is TEffectsPackDescriptor
@@ -534,10 +530,7 @@ export UnitEffect_Baisse_Dangerosite is TEffectsPackDescriptor
             ModifierType       = ~/ModifierType_Pourcentage
             BonusDangerousness    = -90
         ),
-        TUnitEffectDisableObserverDescriptor
-        (
-            BonusDisableObserver = True
-        ),
+
         TUnitEffectRaiseTagDescriptor
         (
             TagListToRaise = [
@@ -557,10 +550,7 @@ export UnitEffect_Baisse_Dangerosite_et_Transport_0_Effet is TEffectsPackDescrip
             ModifierType       = ~/ModifierType_Pourcentage
             BonusDangerousness    = -90
         ),
-        TUnitEffectDisableObserverDescriptor
-        (
-            BonusDisableObserver = True
-        ),
+
         TUnitEffectRaiseTagDescriptor
         (
             TagListToRaise = [
@@ -885,10 +875,7 @@ export UnitEffect_Critic_Bailed_Out is TEffectsPackDescriptor
             ModifierType       = ~/ModifierType_Multiplicatif
             BonusTurretRotationSpeed  = 0
         ),
-        TUnitEffectDisableObserverDescriptor
-        (
-            BonusDisableObserver = True
-        ),
+
         TUnitEffectIncreaseWeaponPorteeMaxDescriptor
         (
             ModifierType         = ~/ModifierType_Remplacement
@@ -1561,6 +1548,66 @@ export UnitEffect_Effet_Suppress_Recu_vet3 is TEffectsPackDescriptor
             ModifierType        = ~/ModifierType_Multiplicatif
             BonusDamage         = 0.60
             DamageType          = EDamageType/Suppress
+        ),
+    ]
+)
+export UnitEffect_Effet_Suppress_Subit_100 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{9ee326f4-58af-4b4b-9613-782ea6891f8a}
+    NameForDebug       = 'Effet_Suppress_Subit_100'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 100
+        ),
+    ]
+)
+export UnitEffect_Effet_Suppress_Subit_200 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{46449a3f-62ff-429e-8527-a141483c8cd2}
+    NameForDebug       = 'Effet_Suppress_Subit_200'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 200
+        ),
+    ]
+)
+export UnitEffect_Effet_Suppress_Subit_300 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{384697c3-ee57-4686-af72-4579494eab8c}
+    NameForDebug       = 'Effet_Suppress_Subit_300'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 300
+        ),
+    ]
+)
+export UnitEffect_Effet_Suppress_Subit_400 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{b347dfb2-670e-4bc0-a796-b19eea138d85}
+    NameForDebug       = 'Effet_Suppress_Subit_400'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 400
+        ),
+    ]
+)
+export UnitEffect_Effet_Suppress_Subit_500 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{70054f1f-cce5-45b2-835e-70c356fadecb}
+    NameForDebug       = 'Effet_Suppress_Subit_500'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 500
         ),
     ]
 )
@@ -2781,10 +2828,7 @@ export UnitEffect_Vehicule_Cowering is TEffectsPackDescriptor
             ModifierType       = ~/ModifierType_Multiplicatif
             Bonus              = 0.66
         ),
-        TUnitEffectDisableObserverDescriptor
-        (
-            BonusDisableObserver = True
-        ),
+
         TUnitEffectRaiseTagDescriptor
         (
             TagListToRaise = [

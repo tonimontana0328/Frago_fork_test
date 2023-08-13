@@ -5,11 +5,11 @@ BUCKSpecificStrategicDateMainComponentDescriptor is BUCKListDescriptor
     (
 
     )
-    MagnifierMultiplication = 1.5
+    // MagnifierMultiplication = 1.5
     BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
     Axis = ~/ListAxis/Horizontal
 
-    InterItemMargin = TRTTILength( Magnifiable = 0.0 )
+    // InterItemMargin = TRTTILength( Magnifiable = 0.0 )
 
     Elements =
     [
@@ -37,7 +37,7 @@ BUCKSpecificStrategicDateMainComponentDescriptor is BUCKListDescriptor
 
                                 ComponentFrame = TUIFramePropertyRTTI
                                 (
-                                    MagnifiableWidthHeight = [110,25]
+                                    MagnifiableWidthHeight = [165,38]
 
                                 )
                                 ParagraphStyle = CenteredParagraphStyle
@@ -79,7 +79,7 @@ BUCKSpecificStrategicDateMainComponentDescriptor is BUCKListDescriptor
                                 ElementName = 'NbTurns'
                                 ComponentFrame = TUIFramePropertyRTTI
                                 (
-                                    MagnifiableWidthHeight = [110,16]
+                                    MagnifiableWidthHeight = [165,25]
 
                                 )
 
@@ -98,7 +98,7 @@ BUCKSpecificStrategicDateMainComponentDescriptor is BUCKListDescriptor
 
                                 TypefaceToken = "Eurostyle_Italic"
                                 TextColor = "SM_paleSilver"
-                                TextSize = "10"
+                                TextSize = "15"
 
                             )
                         ),
@@ -110,8 +110,9 @@ BUCKSpecificStrategicDateMainComponentDescriptor is BUCKListDescriptor
 )
 private PanelDate is BUCKContainerDescriptor
 (
-    ComponentFrame = TUIFramePropertyRTTI (MagnifiableWidthHeight = [60,60])
-    MagnifierMultiplication = 0.7
+    MagnifierMultiplication = 1.1
+    ComponentFrame = TUIFramePropertyRTTI (MagnifiableWidthHeight = [61,61])
+    // MagnifierMultiplication = 0.7
     Components =
     [
     FondImageDate,

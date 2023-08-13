@@ -189,12 +189,9 @@ DepictionAction_Stress_And_Wrecked_Helicopter is DepictionAction_Wrecked_Helicop
 // *** MovementFX *************************************************************************************************************************
 // ****************************************************************************************************************************************
 
-{
-    cours d'anglais :
-    Tracked = chenillé
-    Wheeled = équippé de roues
-}
-
+//  Terminologie:
+//  Tracked = chenillé
+//  Wheeled = équippé de roues
 
 DepictionAction_MovementFX_Wheeled is MAP[
     (

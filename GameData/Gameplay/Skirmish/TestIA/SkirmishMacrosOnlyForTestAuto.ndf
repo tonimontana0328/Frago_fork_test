@@ -175,7 +175,7 @@ export Artillery_OnlyTestAuto is TMacroActionDescriptor_Artillery_Specific
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
         TArtilleryPositionningSettingHolder(SupportPointSafetyMargin = 1 ArtilleryPositionOffset = 1000000 * Metre ArtilleryUpdateOffset = 1000000 * Metre),
-        TArtilleryThreatPerSplashSettingHolder(MinimumThreatPerSplashForKill = 0 { 30 } MinimumThreatPerSplashForSupport = 999 { 30 }),
+        TArtilleryThreatPerSplashSettingHolder(MinimumThreatPerSplashForKill = 0  MinimumThreatPerSplashForSupport = 999 ),
         TArtilleryMoveOutThreatSettingHolder(ThreatThresholdValue = 1 MoveOutThreatProbability = 1.0),
 
         TArtilleryStrikeSettingHolder(

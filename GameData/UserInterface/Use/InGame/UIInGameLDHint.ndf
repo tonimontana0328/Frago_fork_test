@@ -1083,6 +1083,7 @@ is BUCKContainerDescriptor
         ),
     ]
 )
+
 template PORTRAIT_Steelman
 [
     Texture : string = "",
@@ -1328,6 +1329,411 @@ is BUCKContainerDescriptor
         ),
     ]
 )
+
+//-------------------------------------------------------------------------------------
+template Steelman_newLDHINT
+[
+    Texture : string = "",
+    IsBriefing : bool = false,
+    IsHint : bool = false,
+    HasButtons : boolean = true,
+    NoImage : boolean = false,
+    portrait_name : string = "",
+    text_laius : string = "",
+    text1_title : string = "",
+    text1_body : string = "",
+    text2_title : string = "",
+    text2_body : string = "",
+
+]
+is BUCKContainerDescriptor
+(
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        RelativeWidthHeight = [1.0, 1.0]
+    )
+
+    PointerEventsToAllow = ~/EAllowablePointerEventType/Move | ~/EAllowablePointerEventType/Button3 | ~/EAllowablePointerEventType/Scroll
+
+    HasBackground = false
+    BackgroundBlockColorToken = 'PureBlack'
+
+    Components =
+    [
+        BUCKContainerDescriptor
+        (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                MagnifiableWidthHeight = [0.0, 0.0]
+                RelativeWidthHeight = [1.0, 0.0]
+
+                AlignementToFather = [0.5, 0.5]
+                AlignementToAnchor = [0.5, 0.5]
+                MagnifiableOffset = [0,0]
+            )
+
+            Components =
+
+            [
+
+            BUCKListDescriptor
+            (
+                    Axis = ~/ListAxis/Vertical
+                    ComponentFrame = TUIFramePropertyRTTI
+                    (
+                            AlignementToFather = [0.5, 0.5]
+                            AlignementToAnchor = [0.5, 0.5]
+                        )
+                    BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+
+                    Elements =
+                    [
+                        BUCKListElementDescriptor
+                        (
+                            ComponentDescriptor = BUCKTextureDescriptor
+                            (
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                     MagnifiableWidthHeight = [1348.0, 604.0]
+                                )
+
+                                TextureToken = <Texture>
+                                TextureFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1.0, 1.0]
+                                )
+
+                                Components =
+                                (<portrait_name> == "" ? [] :
+                                    [
+                                        BUCKListElementDescriptor
+                                        (
+                                            ComponentDescriptor = BUCKTextDescriptor
+                                            (
+                                                ComponentFrame = TUIFramePropertyRTTI
+                                                (
+                                                        MagnifiableWidthHeight = [349,22]
+                                                        // RelativeWidthHeight = [0.0, 1.0]
+                                                        AlignementToFather = [1, 1.0]
+                                                        AlignementToAnchor = [1, 1.0]
+                                                    )
+                                                ParagraphStyle = paragraphStyleTextCenter
+                                                TextStyle = "Default"
+                                                HorizontalFitStyle = ~/FitStyle/UserDefined
+                                                VerticalFitStyle = ~/FitStyle/UserDefined
+                                                TypefaceToken = "Eurostyle_Italic"
+                                                BigLineAction = ~/BigLineAction/MultiLine
+                                                TextToken = <portrait_name>
+                                                TextDico = ~/LocalisationConstantes/dico_maps
+                                                TextColor = "SM_LDhint_texte_gen"
+                                                TextSize = "16"
+
+                                                Components =
+                                                [
+                                                    PanelRoundedCorner
+                                                    (
+                                                        BackgroundBlockColorToken = 'SM_LDhint_texte'
+                                                        BorderLineColorToken = 'SM_LDhint_texte'
+                                                        RoundedVertexes = [false,true,true,false]
+                                                        Radius = 5
+                                                        BorderThicknessToken = '2'
+
+                                                    )
+                                                ]
+                                            )
+                                        )
+                                    ]
+                                ) +
+                                (<text_laius> == "" ? [] :
+                                    [
+                                    VertiscalListStrategicChoice_text
+                                    (
+                                        text_laius = <text_laius>
+                                        text1_title = <text1_title>
+                                        text1_body = <text1_body>
+                                        text2_title = <text2_title>
+                                        text2_body = <text2_body>
+                                    )
+                                    ]
+                                )
+                            )
+                        )
+                    ]
+                    +
+                    [
+                        BUCKListElementDescriptor
+                        (
+                            ComponentDescriptor = BUCKListDescriptor
+                            (
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    MagnifiableWidthHeight = [1348.0, 0.0]
+                                    // AlignementToFather = [0.5, 0]
+                                    // AlignementToAnchor = [0.5, 0]
+                                    // MagnifiableOffset = ( <HasButtons> ? [0,-75] : [0,-108])
+                                )
+
+                                Axis = ~/ListAxis/Vertical
+
+                                Elements =
+                                [
+                                    //Separateur du haut
+                                    BUCKListElementDescriptor
+                                    (
+                                        ComponentDescriptor = ~/LDHintTopBottomBorder
+                                    ),
+
+                                    //-------------------------------------------------------------------------------------
+                                    BUCKListElementDescriptor
+                                    (
+                                        ComponentDescriptor = BUCKTextDescriptor
+                                        (
+                                            ElementName = 'LDHintText'
+                                            ComponentFrame = TUIFramePropertyRTTI
+                                            (
+                                                MagnifiableWidthHeight = [1348.0-200, 155-78]
+                                                AlignementToAnchor = [0.5, 0.0]
+                                                AlignementToFather = [0.5, 0.0]
+                                            )
+
+                                            ParagraphStyle = TParagraphStyleRTTI
+                                            (
+                                                Alignment = UIText_Center
+                                                VerticalAlignment = UIText_VerticalCenter
+                                                BigWordAction = ~/BigWordAction/BigWordNewLine
+                                                InterLine = 0.5
+                                            )
+                                            TextStyle = "Default"
+
+                                            HorizontalFitStyle = ~/FitStyle/UserDefined
+                                            VerticalFitStyle = ~/FitStyle/UserDefined
+
+                                            // TextPadding = TRTTILength4 (Magnifiable = [10,0,10,0])
+
+                                            TypefaceToken = "Eurostyle"
+                                            BigLineAction = ~/BigLineAction/BalancedMultiline
+
+                                            TextColor = "SM_LDhint_texte"
+                                            TextSize = "24"
+
+                                            TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                                        )
+                                    ),
+
+                                    //-------------------------------------------------------------------------------------
+
+                                    BUCKListElementDescriptor
+                                    (
+                                        ExtendWeight = 1.0
+                                        ComponentDescriptor = ~/LDHintSeparatorBetweenContentAndButtons
+                                    ),
+                                ]
+                                +
+                                (<HasButtons> == true ?
+                                [
+                                    //Boutons
+                                    BUCKListElementDescriptor
+                                    (
+                                        ComponentDescriptor = BUCKListDescriptor
+                                        (
+                                            ElementName = 'LDHintButtonList'
+                                            ComponentFrame = TUIFramePropertyRTTI
+                                            (
+                                                MagnifiableWidthHeight = [0.0, 0.0]
+                                                AlignementToFather = [0.5, 0.0]
+                                                AlignementToAnchor = [0.5, 0.0]
+                                            )
+
+                                            Axis = ~/ListAxis/Horizontal
+                                            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+                                            InterItemMargin = TRTTILength( Magnifiable = ~/LDHintMagnifiableInterButtonMargin )
+
+                                            Elements =
+                                            [
+                                                // envoie LDHintDefaultButton
+                                            ]
+                                        )
+                                    ),
+                                ] : [] )
+                                +
+                                [
+                                    //Separateur du bas
+                                    BUCKListElementDescriptor
+                                    (
+                                        ComponentDescriptor = ~/LDHintTopBottomBorder
+                                    ),
+                                ]
+
+                                BackgroundComponents =
+                                [
+                                    PanelRoundedCorner
+                                    (
+                                        Radius = 5
+                                        BackgroundBlockColorToken = 'SM_LDhint_fond'
+                                        BorderLineColorToken = 'SM_LDhint_texte'
+                                        BorderThicknessToken = '2'
+                                        RoundedVertexes = (<portrait_name> == "" ? [true, true, true, true] : [true, false, false,true] )
+                                    )
+                                ]
+                            )
+                        ),
+
+                    ]
+            )
+
+
+            ]
+        ),
+    ]
+)
+//-------------------------------------------------------------------------------------
+//STEELMAN STRATEGIC CHOICE
+//-------------------------------------------------------------------------------------
+template VertiscalListStrategicChoice_text
+[
+    // TypefaceToken : : string = "Eurostyle",
+    // TextSize : string = '12' ,
+    // TextToken : string =''
+    text_laius : string = "",
+    text1_title : string = "",
+    text1_body : string = "",
+    text2_title : string = "",
+    text2_body : string = "",
+]
+
+ is BUCKContainerDescriptor
+(
+
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+
+            RelativeWidthHeight = [1,1]
+            MagnifiableOffset = [0,20]
+            // AlignementToAnchor = [0.5, 0.0]
+            // AlignementToFather = [0.5, 0.0]
+    )
+    // HasBackground = true
+    BackgroundBlockColorToken = 'Orange'
+
+    Components =
+    [
+        BUCKTextDescriptor
+                (
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                                MagnifiableWidthHeight = [0,80]
+                                RelativeWidthHeight = [1, 0]
+                                MagnifiableOffset = [0,-10]
+
+                                AlignementToFather = [0.5, 0]
+                                AlignementToAnchor = [0.5, 0]
+                            )
+                        ParagraphStyle = TParagraphStyleRTTI
+                        (
+                            Alignment = UIText_Center
+                            VerticalAlignment = UIText_VerticalCenter
+                            InterLine = 0.3
+                        )
+                        // HasBackground = true
+                        BackgroundBlockColorToken = 'BlancTransparent'
+                        TextStyle = "Default"
+                        HorizontalFitStyle = ~/FitStyle/UserDefined
+                        VerticalFitStyle = ~/FitStyle/UserDefined
+                        TypefaceToken = "Eurostyle"
+                        BigLineAction = ~/BigLineAction/MultiLine
+                        TextToken = <text_laius>
+                        TextDico = ~/LocalisationConstantes/dico_maps
+                        TextColor = "SM_LDhint_texte"
+                        TextSize = "20"
+                ),
+        BUCKContainerDescriptor
+        (
+
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+
+                    MagnifiableWidthHeight = [350.0, 477.0]
+                    MagnifiableOffset = [242+8,73]
+                    // AlignementToAnchor = [0.5, 0.0]
+                    // AlignementToFather = [0.5, 0.0]
+            )
+            // HasBackground = true
+            BackgroundBlockColorToken = 'Orange'
+
+            Components =
+            [
+
+
+                StrategicChoice_text
+                (
+                    TypefaceToken = "Eurostyle_Heavy"
+                    TextSize  = '24'
+                    TextToken = <text1_title>
+                    MagnifiableOffset = [0,8]
+                ),
+                StrategicChoice_text
+                (
+                    TypefaceToken = "Eurostyle"
+                    TextSize  = '16'
+                    TextToken = <text1_body>
+                    MagnifiableOffset = [0,380]
+                ),
+                StrategicChoice_text
+                (
+                    TypefaceToken = "Eurostyle_Heavy"
+                    TextSize  = '24'
+                    TextToken = <text2_title>
+                    MagnifiableOffset = [518,8]
+                ),
+                StrategicChoice_text
+                (
+                    TypefaceToken = "Eurostyle"
+                    TextSize  = '16'
+                    TextToken = <text2_body>
+                    MagnifiableOffset = [518,380]
+                )
+            ]
+        )
+    ]
+)
+
+template StrategicChoice_text
+[
+    TypefaceToken : string = "Eurostyle",
+    TextSize : string = '12' ,
+    TextToken : string ='',
+    MagnifiableOffset : float2 = [0,0]
+
+]
+ is BUCKTextDescriptor
+(
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        RelativeWidthHeight = [1.0, 0]
+        AlignementToFather = [0.5, 0]
+        AlignementToAnchor = [0.5, 0]
+        MagnifiableOffset = <MagnifiableOffset>
+    )
+    HasBackground = true
+    BackgroundBlockColorToken = 'Noir80'
+    TextPadding = TRTTILength4(Magnifiable = [0,5,0,5])
+    ParagraphStyle = TParagraphStyleRTTI
+    (
+        Alignment = UIText_Center
+        VerticalAlignment = UIText_VerticalCenter
+        InterLine = 0.3
+    )
+    TextStyle = "Default"
+    HorizontalFitStyle = ~/FitStyle/UserDefined
+    VerticalFitStyle = ~/FitStyle/FitToContent
+    TypefaceToken = <TypefaceToken>
+    BigLineAction = ~/BigLineAction/MultiLine
+    TextToken = <TextToken>
+    TextDico = ~/LocalisationConstantes/dico_maps
+    TextColor = "BlancTexte"
+    TextSize = <TextSize>
+)
+//-------------------------------------------------------------------------------------
 template PORTRAIT_PauseAndTexture_Steelman
 [
     TextureToken : string = "",
