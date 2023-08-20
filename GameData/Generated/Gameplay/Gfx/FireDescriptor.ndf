@@ -430,7 +430,7 @@ export Descriptor_Fire_Nuke is TEntityDescriptor
         (
             Depiction  = Template_DescriptorFire_Depiction
             (
-                 Radius               = 800 * Metre
+                 Radius               = 1200 * Metre
                  FX                   = $/GFX/GameFx/fx_binder_fire_Napalm_Leger
                  Density              = 1
             )

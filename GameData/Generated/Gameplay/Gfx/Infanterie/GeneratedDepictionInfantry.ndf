@@ -10273,6 +10273,8 @@ AllWeaponAlternatives_VDV_Afgantsy_SOV is [
   TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AKs74 ),
   TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPK ),
   TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_Dragunov ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPG26 ),
+
 ]
 AllWeaponSubDepiction_VDV_Afgantsy_SOV is TemplateAllSubWeaponDepiction
 (
@@ -10292,6 +10294,11 @@ AllWeaponSubDepiction_VDV_Afgantsy_SOV is TemplateAllSubWeaponDepiction
     (
       FireEffectTag = ["FireEffect_Sniper_SVD_Dragunov"]
       WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_RPG26_72_5mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
     ),
   ]
 )

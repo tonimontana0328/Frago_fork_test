@@ -387,6 +387,86 @@ export Descriptor_ShowRoomUnit_F111F_Aardvark_US_MEGA_FRL is TEntityDescriptor
             SpawnType = EShowroomSpawnType/Airplane
         ),
     ]
+)
+export Descriptor_ShowRoomUnit_2S7M_Malka_SOV_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{19ea86bb-91c7-4af8-bbaf-4aa84c8170e1}
+    ClassNameForDebug   = "ShowRoomUnit_2S7M_Malka_SOV_NUKE_FRL"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_2S7M_Malka_SOV_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_2S7M_Malka_SOV_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'BigVehicle'
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_M110A2_HOWZ_US_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId        = GUID:{d167446b-3b97-4c60-8dfc-43c2a60012c1}
+    ClassNameForDebug   = "ShowRoomUnit_M110A2_HOWZ_US_NUKE_FRL"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_M110A2_HOWZ_US_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
+        ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_M110A2_HOWZ_US_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'BigVehicle'
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
 )// Ne pas éditer, ce fichier est auto-généré !
 
 
@@ -30754,7 +30834,7 @@ export Descriptor_ShowRoomUnit_VDV_Afgantsy_SOV is TEntityDescriptor
                                         (0,[2,]),
                                         (1,[1,]),
                                         (2,[1,]),
-                                        (3,[0,]),
+                                        (3,[0,3]),
                                         (4,[0,]),
                                         (5,[0,]),
                                         (6,[0,]),
