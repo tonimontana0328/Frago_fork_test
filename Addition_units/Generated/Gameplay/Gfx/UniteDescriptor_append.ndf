@@ -1,3 +1,1517 @@
+export Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId       = GUID:{6148e204-7e1d-4b0a-ba24-8dcae3f62006}
+    ClassNameForDebug  = 'Descriptor_Unit_F117_Nighthawk_US_NUKE'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+                Flag_Avion,
+                
+                Flag_HighAltitudeFlying,
+                Flag_DetectableLowAltitude,
+                
+            ]
+        ),
+        ~/TargetManagerModuleSelector,
+        TemplateUnitCriticalModule(Module=~/CriticalEffectModule_Airplane),
+            ~/TargetCoordinatorModuleSelector,
+            TPositionModuleDescriptor
+            (
+                StickToGround              = False
+                InGeoDb                    = True
+                PorteurMustBeVisible       = True
+                ClampInWorld               = False
+                ClampOutMap                = True
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((3500) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/PlayerMissionModuleDescriptor,
+        ~/InflammableModuleDescriptorUnit,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+                "Unite",
+                "UNITE_F117_Nighthawk_US",
+                "Air",
+                "Avion",
+                "Avion_Bombardier",
+                "AllowedForMissileRoE",
+            ]
+        ),
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TVisibilityModuleDescriptor
+        (
+            AutoRevealType       = EAutoRevealType/AutoRevealAllies
+            UnitConcealmentBonus = 1
+            VisionUnitType       = EVisionUnitType/AlwaysInHighAltitude
+            UnitIsStealth        = False
+            HideFromDebug        = False
+        ),
+        ApparenceModel is
+            TModuleSelector
+            (
+                Default = TApparenceModelModuleDescriptor
+                (
+                    PickableObject                     = True
+                    Depiction                          = ~/Gfx_F117_Nighthawk_US_Autogen
+                    BlackHoleIdentifier                = "F117_Nighthawk_US"
+                    GameplayBBoxBoneName               = ""
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_F117_Nighthawk_US_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 10
+                    MaxSuppressionDamages = ~/Airplane_MaxSuppressionDamages
+                    MaxStunDamages = ~/Airplane_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Airplanes_packSupp
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Unit_packNoStun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default        = TDamageModuleDescriptor
+                (
+                    SuppressDamagesRegenRatio = ~/Airplane_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Airplane_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
+                    (
+                        ArmorDescriptorFront = ArmorDescriptor_Helico_1
+                        ArmorDescriptorSides = ArmorDescriptor_Helico_1
+                        ArmorDescriptorRear = ArmorDescriptor_Helico_1
+                        ArmorDescriptorTop = ArmorDescriptor_Helico_1
+                    )
+                    KillWhenDamagesReachMax = True
+                    HitRollSize = 0.0
+                    HitRollECM = 0.0
+                    AutoOrientation = True
+                    UseTopArmorAgainstFire = True
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+             TModuleSelector
+             (
+                 Default = TRoutModuleDescriptor
+                 (
+                     MoralLevel = 60
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        GenericMovement is TModuleSelector
+        (
+            Default        = TGenericMovementModuleDescriptor
+            (
+               MaxSpeed         = 1430 * Metre
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        AirplaneMovement is TModuleSelector
+        (
+            Default        = TAirplaneMovementModuleDescriptor
+            (
+                Altitude = ((4000) * Metre)
+                AltitudeMax = $/GFX/Everything/MaxAltitude
+                AltitudeMin = (500 * Metre)
+                AltitudeMinForRoll = $/GFX/Everything/MinAltitudeForRoll
+                MinRollSpeedForRoll = $/GFX/Everything/MinRollSpeedForRoll
+                Speed = ((1430) * Metre)
+                AgilityRadius = ((4000) * Metre)
+                PitchAngle = 17
+                PitchSpeed = $/GFX/Everything/MaxPitchSpeed
+                RollAngle = 60
+                RollSpeed = 95
+                EvacAngle = 10
+                IgnoreBattlefieldOrders = False
+                EvacuateOnTargetReached = False
+                EvacToStartingPoint = True
+                ElevatorRotationMax = $/GFX/Everything/ElevatorRotationMax
+                AileronRotationMax = $/GFX/Everything/AileronRotationMax
+                RudderRotationMax = $/GFX/Everything/RudderRotationMax
+                AttackStrategyDescriptors =
+                [
+                    TDogfightAttackStrategyDescriptor
+                    (
+                        MinDistanceBetweenFighterAndTargetForAttackOnSlowAirplaneStrategy = $/GFX/Everything/MinDistanceBetweenFighterAndTargetForAttackOnSlowAirplaneStrategy
+                        MaxDistanceBetweenFighterAndTargetForLateralMoveOnSlowAirplaneStrategy = $/GFX/Everything/MaxDistanceBetweenFighterAndTargetForLateralMoveOnSlowAirplaneStrategy
+                        SpeedRatioForAttackOnSlowAirplaneStrategy = $/GFX/Everything/SpeedRatioForAttackOnSlowAirplaneStrategy
+                        SpeedRatioForAttackOnVerySlowAirplaneStrategy = $/GFX/Everything/SpeedRatioForAttackOnVerySlowAirplaneStrategy
+                        MaxAngleDifferenceWithTarget = $/GFX/Everything/MaxAngleDifferenceWithTarget
+                        MaxAngleToConsiderTargetAhead = $/GFX/Everything/MaxAngleToConsiderTargetAhead
+                        AngleToFakeTargetPosition = $/GFX/Everything/AngleToFakeTargetPosition
+                        FactorForTargetAltitudeOffset = $/GFX/Everything/FactorForTargetAltitudeOffset
+                    ),
+                    TAirGroundMissileAttackStrategyDescriptor
+                    (
+                        AirGroundMissileRangeRatioForCruiseAltitude = $/GFX/Everything/AirGroundMissileRangeRatioForCruiseAltitude
+                    ),
+                ]
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TFuelModuleDescriptor
+                (
+                    FuelCapacity     = 2000
+                    FuelMoveDuration = 260.0
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+            TModuleSelector
+            (
+                Default        = TScannerConfigurationDescriptor
+                (
+                    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/UseOnRS_TBAWithGroundOpticsLerp
+                    DoesNotCountInScannerAbsoluteMaxRange = False
+                    PorteeVisionTBA = ((14000) * Metre)
+                    PorteeVisionFOW = ((0.0) * Metre)
+                    DetectionTBA = ((14000) * Metre)
+                    PorteeVision = ((10000) * Metre)
+                    PorteeIdentification = 0.0
+                    OpticalStrength = 0
+                    OpticalStrengthAltitude = 300
+                    UnitDetectStealthUnit = False
+                    SpecializedDetections = MAP [
+                        ( EVisionUnitType/AlwaysInHighAltitude, 90000.0 * Metre ),
+                    ]
+                    SpecializedOpticalStrengths = MAP [
+                    ]
+                    IgnoreObstacles = MAP []
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 0.6
+                TimeBetweenEachIdentifyRoll = 3.0
+                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
+                (
+                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
+                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
+                    Exposant                                 = DefaultExposant
+                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
+                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
+                    ExposantEnMouvement                      = DefaultExposantEnMouvement
+                )
+            )
+        ),
+        MissileCarriage is TemplateUnitMissileCarriage(Connoisseur = MissileCarriage_F117_Nighthawk_US),
+        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_F117_Nighthawk_US ),
+            TModuleSelector
+            (
+                Default        = TIAStratModuleDescriptor
+                (
+                    DatabaseId = 0
+                    GameplayBehavior = EGameplayBehavior/Nothing
+                )
+                Selection      = [~/NilDescriptorIfCadavre]
+            ),
+        ~/IAStratZoneIndexModuleDescriptor,
+            TModuleSelector
+        (
+            Default        = TStateEngineCompanyModuleDescriptor
+            (
+                InitialStateId = 'CompanyInit'
+                StateEngineUpdateMode = WorldControllerAccess_InOutWorld
+            )
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        TStateEngineModuleDescriptor
+        (
+            InitialStateId = 'UnitAirplaneIdle'
+            StateEngineUpdateMode = WorldControllerAccess_InOutWorld
+        ),
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+            TFlareModuleDescriptor_MW
+            (
+                ProjectileSpeed                   = [~/VitesseInitialFlare_Avion, ~/VitesseInitialFlare_Avion, ~/VitesseInitialFlare_Avion]
+                DistanceActivation                = ~/DistanceActivationFlare_Avion
+                TimeBetweenFlare                  = ~/TempsEntreLancementFlare_Avion
+                MinimalTimeBetweenFlare           = ~/TempsMinimalEntreLancementFlare_Avion
+                BonusTimeBetweenFlareByProjectile = ~/TempsBonusLancementFlareParArme_Avion
+            ),
+        ~/EffectApplierModuleDescriptor,
+            TModuleSelector
+            (
+                Default = TProductionModuleDescriptor
+                (
+                    Factory            = EDefaultFactories/Planes
+                    ProductionTime     = -1
+                    ProductionRessourcesNeeded = MAP [
+                        (~/Resource_CommandPoints, 1000),
+                        (~/Resource_Tickets, 6),
+                    ]
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        ~/InfluencePositionModuleDescriptor,
+        ~/InfluenceDataModuleDescriptor,
+             TModuleSelector
+             (
+                 Default = TAutomaticBehaviorModuleDescriptor
+                 (
+                     CanAssist = False
+                     AssistRequestBroadcastRadius = 0.0 * Metre
+                     DistanceToFlee = 0.0 * Metre
+                     MaxDistanceForOffensiveReaction = 0.0 * Metre
+                     MaxDistanceForOffensiveReactionOnFlyingTarget = 0.0 * Metre
+                     MaxDistanceForEngagement = 10000 * Metre
+                     SearchedTagsInEngagementTarget = [
+                        "Air",
+                     ]
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        TCubeActionModuleDescriptor
+        (
+            CubeActionDescriptor = ~/CubeAction_Menu_Ordres_avions
+        ),
+            TMinimapDisplayModuleDescriptor
+            (
+                Texture = "Texture_Minimap_Unit_avion"
+
+                FollowUnitOrientation = True
+            ),
+        TOrderConfigModuleDescriptor
+        (
+                ValidOrders = ~/Descriptor_OrderAvailability_F117_Nighthawk_US
+        ),
+        TOrderableModuleDescriptor
+        (
+            UnlockableOrders = ~/Descriptor_OrderAvailability_F117_Nighthawk_US
+        ),
+        ~/OrderDisplayModuleDescriptor,
+            ~/GroupableUnitModuleSelector,
+            TTacticalLabelModuleDescriptor
+            (
+                MultiSelectionSortingOrder = 19265
+                UnitName                   = 'KBXMXBJVTS'
+                IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_Support_air",
+                        "Texture_Support_air"
+                    ]
+                )
+                DefaultSpecialtyToken      = "tank_B"
+                UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_avion_nonIdentifie",
+                        "Texture_NATO_Unidentified"
+                    ]
+                )
+                PositionHeightOffset = 1000.0
+            ),
+            TAirplaneModuleDescriptor
+            (
+                EvacuationTime = 15
+                TravelDuration = 11
+            ),
+        ~/TargetDataModuleDescriptor,
+        ~/PackSignauxModuleDescriptor,
+            TStrategicDataModuleDescriptor
+                (
+                    UnitAttackValue = 531
+                    UnitDefenseValue = 531
+                    UnitBonusXpPerLevelValue = 0
+                    CompanyDissolutionTransferTo = [
+                        "Stab",
+                    ]
+             ),
+            TUnitUIModuleDescriptor
+            (
+                UnitRole = 'tank_B'
+                SpecialtiesList = [
+                    'appui',
+                ]
+                NameToken = 'KBXMXBJVTS'
+                InfoPanelConfigurationToken = 'avion'
+                TypeSpecificToken = ''
+                IsAce = False
+                GenerateName = true
+                MenuIconTexture = 'Texture_RTS_H_Support_air'
+                ButtonTexture = 'Texture_Button_Unit_F117_Nighthawk_US'
+                CountryTexture = 'CommonTexture_MotherCountryFlag_US'
+                TypeStrategicCount = ETypeStrategicCount/Plane
+            ),
+    ]
+)
+export Descriptor_Unit_Su_24M_SOV_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId       = GUID:{24fd7c95-113e-4bd1-900a-6b3ee31d7927}
+    ClassNameForDebug  = 'Unit_Su_24M_SOV_NUKE'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+                Flag_Avion,
+                
+                Flag_HighAltitudeFlying,
+                Flag_DetectableLowAltitude,
+                
+            ]
+        ),
+        ~/TargetManagerModuleSelector,
+        TemplateUnitCriticalModule(Module=~/CriticalEffectModule_Airplane),
+            ~/TargetCoordinatorModuleSelector,
+            TPositionModuleDescriptor
+            (
+                StickToGround              = False
+                InGeoDb                    = True
+                PorteurMustBeVisible       = True
+                ClampInWorld               = False
+                ClampOutMap                = True
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((2000) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/PlayerMissionModuleDescriptor,
+        ~/InflammableModuleDescriptorUnit,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+                "Unite",
+                "UNITE_Su_24M_SOV",
+                "Air",
+                "Avion",
+                "Avion_Bombardier",
+                "AllowedForMissileRoE",
+            ]
+        ),
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TVisibilityModuleDescriptor
+        (
+            AutoRevealType       = EAutoRevealType/AutoRevealAllies
+            UnitConcealmentBonus = 1.0
+            VisionUnitType       = EVisionUnitType/AlwaysInHighAltitude
+            UnitIsStealth        = False
+            HideFromDebug        = False
+        ),
+        ApparenceModel is
+            TModuleSelector
+            (
+                Default = TApparenceModelModuleDescriptor
+                (
+                    PickableObject                     = True
+                    Depiction                          = ~/Gfx_Su_24M_SOV_Autogen
+                    BlackHoleIdentifier                = "Su_24M_SOV"
+                    GameplayBBoxBoneName               = ""
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 10
+                    MaxSuppressionDamages = ~/Airplane_MaxSuppressionDamages
+                    MaxStunDamages = ~/Airplane_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Airplanes_packSupp
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Unit_packNoStun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default        = TDamageModuleDescriptor
+                (
+                    SuppressDamagesRegenRatio = ~/Airplane_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Airplane_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
+                    (
+                        ArmorDescriptorFront = ArmorDescriptor_Helico_1
+                        ArmorDescriptorSides = ArmorDescriptor_Helico_1
+                        ArmorDescriptorRear = ArmorDescriptor_Helico_1
+                        ArmorDescriptorTop = ArmorDescriptor_Helico_1
+                    )
+                    KillWhenDamagesReachMax = True
+                    HitRollSize = 0.0
+                    HitRollECM = -0.2
+                    AutoOrientation = True
+                    UseTopArmorAgainstFire = True
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+             TModuleSelector
+             (
+                 Default = TRoutModuleDescriptor
+                 (
+                     MoralLevel = 60
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        GenericMovement is TModuleSelector
+        (
+            Default        = TGenericMovementModuleDescriptor
+            (
+               MaxSpeed         = 2420 * Metre
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        AirplaneMovement is TModuleSelector
+        (
+            Default        = TAirplaneMovementModuleDescriptor
+            (
+                Altitude = ((2000) * Metre)
+                AltitudeMax = $/GFX/Everything/MaxAltitude
+                AltitudeMin = (500 * Metre)
+                AltitudeMinForRoll = $/GFX/Everything/MinAltitudeForRoll
+                MinRollSpeedForRoll = $/GFX/Everything/MinRollSpeedForRoll
+                Speed = ((2420) * Metre)
+                AgilityRadius = ((8000) * Metre)
+                PitchAngle = 17
+                PitchSpeed = $/GFX/Everything/MaxPitchSpeed
+                RollAngle = 70
+                RollSpeed = 85
+                EvacAngle = 10
+                IgnoreBattlefieldOrders = False
+                EvacuateOnTargetReached = False
+                EvacToStartingPoint = True
+                ElevatorRotationMax = $/GFX/Everything/ElevatorRotationMax
+                AileronRotationMax = $/GFX/Everything/AileronRotationMax
+                RudderRotationMax = $/GFX/Everything/RudderRotationMax
+                AttackStrategyDescriptors =
+                [
+                    TBombAttackStrategyDescriptor(),
+                ]
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TFuelModuleDescriptor
+                (
+                    FuelCapacity     = 2000
+                    FuelMoveDuration = 260.0
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+            TModuleSelector
+            (
+                Default        = TScannerConfigurationDescriptor
+                (
+                    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/UseOnRS_TBAWithGroundOpticsLerp
+                    DoesNotCountInScannerAbsoluteMaxRange = False
+                    PorteeVisionTBA = ((14000) * Metre)
+                    PorteeVisionFOW = ((0.0) * Metre)
+                    DetectionTBA = ((14000) * Metre)
+                    PorteeVision = ((10000) * Metre)
+                    PorteeIdentification = 0.0
+                    OpticalStrength = 0
+                    OpticalStrengthAltitude = 150
+                    UnitDetectStealthUnit = False
+                    SpecializedDetections = MAP [
+                        ( EVisionUnitType/AlwaysInHighAltitude, 90000.0 * Metre ),
+                    ]
+                    SpecializedOpticalStrengths = MAP [
+                    ]
+                    IgnoreObstacles = MAP []
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 0.3
+                TimeBetweenEachIdentifyRoll = 6.0
+                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
+                (
+                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
+                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
+                    Exposant                                 = DefaultExposant
+                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
+                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
+                    ExposantEnMouvement                      = DefaultExposantEnMouvement
+                )
+            )
+        ),
+        MissileCarriage is TemplateUnitMissileCarriage(Connoisseur = MissileCarriage_Su_24M_SOV),
+        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_Su_24M_SOV ),
+            TModuleSelector
+            (
+                Default        = TIAStratModuleDescriptor
+                (
+                    DatabaseId = 0
+                    GameplayBehavior = EGameplayBehavior/Nothing
+                )
+                Selection      = [~/NilDescriptorIfCadavre]
+            ),
+        ~/IAStratZoneIndexModuleDescriptor,
+            TModuleSelector
+        (
+            Default        = TStateEngineCompanyModuleDescriptor
+            (
+                InitialStateId = 'CompanyInit'
+                StateEngineUpdateMode = WorldControllerAccess_InOutWorld
+            )
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        TStateEngineModuleDescriptor
+        (
+            InitialStateId = 'UnitAirplaneIdle'
+            StateEngineUpdateMode = WorldControllerAccess_InOutWorld
+        ),
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+            TFlareModuleDescriptor_MW
+            (
+                ProjectileSpeed                   = [~/VitesseInitialFlare_Avion, ~/VitesseInitialFlare_Avion, ~/VitesseInitialFlare_Avion]
+                DistanceActivation                = ~/DistanceActivationFlare_Avion
+                TimeBetweenFlare                  = ~/TempsEntreLancementFlare_Avion
+                MinimalTimeBetweenFlare           = ~/TempsMinimalEntreLancementFlare_Avion
+                BonusTimeBetweenFlareByProjectile = ~/TempsBonusLancementFlareParArme_Avion
+            ),
+        ~/EffectApplierModuleDescriptor,
+            TModuleSelector
+            (
+                Default = TProductionModuleDescriptor
+                (
+                    Factory            = EDefaultFactories/Planes
+                    ProductionTime     = -1
+                    ProductionRessourcesNeeded = MAP [
+                        (~/Resource_CommandPoints, 1000),
+                        (~/Resource_Tickets, 6),
+                    ]
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        ~/InfluencePositionModuleDescriptor,
+        ~/InfluenceDataModuleDescriptor,
+             TModuleSelector
+             (
+                 Default = TAutomaticBehaviorModuleDescriptor
+                 (
+                     CanAssist = False
+                     AssistRequestBroadcastRadius = 0.0 * Metre
+                     DistanceToFlee = 0.0 * Metre
+                     MaxDistanceForOffensiveReaction = 0.0 * Metre
+                     MaxDistanceForOffensiveReactionOnFlyingTarget = 0.0 * Metre
+                     MaxDistanceForEngagement = 1000 * Metre
+                     SearchedTagsInEngagementTarget = [
+                        "Air",
+                     ]
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        TCubeActionModuleDescriptor
+        (
+            CubeActionDescriptor = ~/CubeAction_Menu_Ordres_avions
+        ),
+            TMinimapDisplayModuleDescriptor
+            (
+                Texture = "Texture_Minimap_Unit_avion"
+
+                FollowUnitOrientation = True
+            ),
+        TOrderConfigModuleDescriptor
+        (
+                ValidOrders = ~/Descriptor_OrderAvailability_Su_24M_SOV
+        ),
+        TOrderableModuleDescriptor
+        (
+            UnlockableOrders = ~/Descriptor_OrderAvailability_Su_24M_SOV
+        ),
+        ~/OrderDisplayModuleDescriptor,
+            ~/GroupableUnitModuleSelector,
+            TTacticalLabelModuleDescriptor
+            (
+                MultiSelectionSortingOrder = 19260
+                UnitName                   = 'SEUJKGWFEN'
+                IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_Support_air",
+                        "Texture_Support_air"
+                    ]
+                )
+                DefaultSpecialtyToken      = "tank_B"
+                UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_avion_nonIdentifie",
+                        "Texture_NATO_Unidentified"
+                    ]
+                )
+                PositionHeightOffset = 1000.0
+            ),
+            TAirplaneModuleDescriptor
+            (
+                EvacuationTime = 15
+                TravelDuration = 10
+            ),
+        ~/TargetDataModuleDescriptor,
+        ~/PackSignauxModuleDescriptor,
+            TStrategicDataModuleDescriptor
+                (
+                    UnitAttackValue = 521
+                    UnitDefenseValue = 521
+                    UnitBonusXpPerLevelValue = 0
+                    CompanyDissolutionTransferTo = [
+                        "Stab",
+                    ]
+             ),
+            TUnitUIModuleDescriptor
+            (
+                UnitRole = 'tank_B'
+                SpecialtiesList = [
+                    'appui',
+                ]
+                NameToken = 'SEUJKGWFEN'
+                InfoPanelConfigurationToken = 'avion'
+                TypeSpecificToken = ''
+                IsAce = False
+                    UpgradeFromUnit = Descriptor_Unit_Su_24M_clu_SOV
+                GenerateName = true
+                MenuIconTexture = 'Texture_RTS_H_Support_air'
+                ButtonTexture = 'Texture_Button_Unit_Su_24M_SOV'
+                CountryTexture = 'CommonTexture_MotherCountryFlag_SOV'
+                TypeStrategicCount = ETypeStrategicCount/Plane
+            ),
+    ]
+)
+export Descriptor_Unit_Jaguar_HE_FR_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId       = GUID:{86c698a9-ae1c-4441-9968-0b850106caf9}
+    ClassNameForDebug  = 'Unit_Jaguar_HE_FR_NUKE'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+                Flag_Avion,
+                
+                Flag_HighAltitudeFlying,
+                Flag_DetectableLowAltitude,
+                
+            ]
+        ),
+        ~/TargetManagerModuleSelector,
+        TemplateUnitCriticalModule(Module=~/CriticalEffectModule_Airplane),
+            ~/TargetCoordinatorModuleSelector,
+            TPositionModuleDescriptor
+            (
+                StickToGround              = False
+                InGeoDb                    = True
+                PorteurMustBeVisible       = True
+                ClampInWorld               = False
+                ClampOutMap                = True
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((2000) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/PlayerMissionModuleDescriptor,
+        ~/InflammableModuleDescriptorUnit,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+                "Unite",
+                "UNITE_Jaguar_HE_FR",
+                "Air",
+                "Avion",
+                "Avion_Bombardier",
+                "AllowedForMissileRoE",
+            ]
+        ),
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TVisibilityModuleDescriptor
+        (
+            AutoRevealType       = EAutoRevealType/AutoRevealAllies
+            UnitConcealmentBonus = 1.0
+            VisionUnitType       = EVisionUnitType/AlwaysInHighAltitude
+            UnitIsStealth        = False
+            HideFromDebug        = False
+        ),
+        ApparenceModel is
+            TModuleSelector
+            (
+                Default = TApparenceModelModuleDescriptor
+                (
+                    PickableObject                     = True
+                    Depiction                          = ~/Gfx_Jaguar_HE_FR_Autogen
+                    BlackHoleIdentifier                = "Jaguar_HE_FR"
+                    GameplayBBoxBoneName               = ""
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 10
+                    MaxSuppressionDamages = ~/Airplane_MaxSuppressionDamages
+                    MaxStunDamages = ~/Airplane_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Airplanes_packSupp
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Unit_packNoStun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default        = TDamageModuleDescriptor
+                (
+                    SuppressDamagesRegenRatio = ~/Airplane_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Airplane_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
+                    (
+                        ArmorDescriptorFront = ArmorDescriptor_Helico_1
+                        ArmorDescriptorSides = ArmorDescriptor_Helico_1
+                        ArmorDescriptorRear = ArmorDescriptor_Helico_1
+                        ArmorDescriptorTop = ArmorDescriptor_Helico_1
+                    )
+                    KillWhenDamagesReachMax = True
+                    HitRollSize = 0.0
+                    HitRollECM = -0.2
+                    AutoOrientation = True
+                    UseTopArmorAgainstFire = True
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+             TModuleSelector
+             (
+                 Default = TRoutModuleDescriptor
+                 (
+                     MoralLevel = 60
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        GenericMovement is TModuleSelector
+        (
+            Default        = TGenericMovementModuleDescriptor
+            (
+               MaxSpeed         = 2475 * Metre
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        AirplaneMovement is TModuleSelector
+        (
+            Default        = TAirplaneMovementModuleDescriptor
+            (
+                Altitude = ((3500) * Metre)
+                AltitudeMax = $/GFX/Everything/MaxAltitude
+                AltitudeMin = (300 * Metre)
+                AltitudeMinForRoll = $/GFX/Everything/MinAltitudeForRoll
+                MinRollSpeedForRoll = $/GFX/Everything/MinRollSpeedForRoll
+                Speed = ((2475) * Metre)
+                AgilityRadius = ((5000) * Metre)
+                PitchAngle = 17
+                PitchSpeed = $/GFX/Everything/MaxPitchSpeed
+                RollAngle = 70
+                RollSpeed = 105
+                EvacAngle = 10
+                IgnoreBattlefieldOrders = False
+                EvacuateOnTargetReached = False
+                EvacToStartingPoint = True
+                ElevatorRotationMax = $/GFX/Everything/ElevatorRotationMax
+                AileronRotationMax = $/GFX/Everything/AileronRotationMax
+                RudderRotationMax = $/GFX/Everything/RudderRotationMax
+                AttackStrategyDescriptors =
+                [
+                    TDogfightAttackStrategyDescriptor
+                    (
+                        MinDistanceBetweenFighterAndTargetForAttackOnSlowAirplaneStrategy = $/GFX/Everything/MinDistanceBetweenFighterAndTargetForAttackOnSlowAirplaneStrategy
+                        MaxDistanceBetweenFighterAndTargetForLateralMoveOnSlowAirplaneStrategy = $/GFX/Everything/MaxDistanceBetweenFighterAndTargetForLateralMoveOnSlowAirplaneStrategy
+                        SpeedRatioForAttackOnSlowAirplaneStrategy = $/GFX/Everything/SpeedRatioForAttackOnSlowAirplaneStrategy
+                        SpeedRatioForAttackOnVerySlowAirplaneStrategy = $/GFX/Everything/SpeedRatioForAttackOnVerySlowAirplaneStrategy
+                        MaxAngleDifferenceWithTarget = $/GFX/Everything/MaxAngleDifferenceWithTarget
+                        MaxAngleToConsiderTargetAhead = $/GFX/Everything/MaxAngleToConsiderTargetAhead
+                        AngleToFakeTargetPosition = $/GFX/Everything/AngleToFakeTargetPosition
+                        FactorForTargetAltitudeOffset = $/GFX/Everything/FactorForTargetAltitudeOffset
+                    ),
+                    TDiveBombAttackStrategyDescriptor
+                    (
+                        MinPitchForDiveBomb = $/GFX/Everything/MinPitchForDiveBomb
+                        PitchForDiveBomb = $/GFX/Everything/PitchForDiveBomb
+                        MaxPitchForDiveBomb = $/GFX/Everything/MaxPitchForDiveBomb
+                        DiveBombRecoveryDuration = $/GFX/Everything/DiveBombRecoveryDuration
+                    ),
+                    TDiveAttackStrategyDescriptor
+                    (
+                        MinPitchForDive = $/GFX/Everything/MinPitchForDive
+                        MaxPitchForDive = $/GFX/Everything/MaxPitchForDive
+                        MinDiveAlignmentDuration = $/GFX/Everything/MinDiveAlignmentDuration
+                    ),
+                ]
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TFuelModuleDescriptor
+                (
+                    FuelCapacity     = 1000
+                    FuelMoveDuration = 180.0
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+            TModuleSelector
+            (
+                Default        = TScannerConfigurationDescriptor
+                (
+                    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/UseOnRS_TBAWithGroundOpticsLerp
+                    DoesNotCountInScannerAbsoluteMaxRange = False
+                    PorteeVisionTBA = ((14000) * Metre)
+                    PorteeVisionFOW = ((0.0) * Metre)
+                    DetectionTBA = ((14000) * Metre)
+                    PorteeVision = ((10000) * Metre)
+                    PorteeIdentification = 0.0
+                    OpticalStrength = 0
+                    OpticalStrengthAltitude = 150
+                    UnitDetectStealthUnit = False
+                    SpecializedDetections = MAP [
+                        ( EVisionUnitType/AlwaysInHighAltitude, 90000.0 * Metre ),
+                    ]
+                    SpecializedOpticalStrengths = MAP [
+                    ]
+                    IgnoreObstacles = MAP []
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 0.3
+                TimeBetweenEachIdentifyRoll = 6.0
+                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
+                (
+                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
+                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
+                    Exposant                                 = DefaultExposant
+                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
+                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
+                    ExposantEnMouvement                      = DefaultExposantEnMouvement
+                )
+            )
+        ),
+        MissileCarriage is TemplateUnitMissileCarriage(Connoisseur = MissileCarriage_Jaguar_HE_FR),
+        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_Jaguar_HE_FR ),
+            TModuleSelector
+            (
+                Default        = TIAStratModuleDescriptor
+                (
+                    DatabaseId = 0
+                    GameplayBehavior = EGameplayBehavior/Nothing
+                )
+                Selection      = [~/NilDescriptorIfCadavre]
+            ),
+        ~/IAStratZoneIndexModuleDescriptor,
+            TModuleSelector
+        (
+            Default        = TStateEngineCompanyModuleDescriptor
+            (
+                InitialStateId = 'CompanyInit'
+                StateEngineUpdateMode = WorldControllerAccess_InOutWorld
+            )
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        TStateEngineModuleDescriptor
+        (
+            InitialStateId = 'UnitAirplaneIdle'
+            StateEngineUpdateMode = WorldControllerAccess_InOutWorld
+        ),
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+            TFlareModuleDescriptor_MW
+            (
+                ProjectileSpeed                   = [~/VitesseInitialFlare_Avion, ~/VitesseInitialFlare_Avion, ~/VitesseInitialFlare_Avion]
+                DistanceActivation                = ~/DistanceActivationFlare_Avion
+                TimeBetweenFlare                  = ~/TempsEntreLancementFlare_Avion
+                MinimalTimeBetweenFlare           = ~/TempsMinimalEntreLancementFlare_Avion
+                BonusTimeBetweenFlareByProjectile = ~/TempsBonusLancementFlareParArme_Avion
+            ),
+        ~/EffectApplierModuleDescriptor,
+            TModuleSelector
+            (
+                Default = TProductionModuleDescriptor
+                (
+                    Factory            = EDefaultFactories/Planes
+                    ProductionTime     = -1
+                    ProductionRessourcesNeeded = MAP [
+                        (~/Resource_CommandPoints, 1000),
+                        (~/Resource_Tickets, 6),
+                    ]
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        ~/InfluencePositionModuleDescriptor,
+        ~/InfluenceDataModuleDescriptor,
+             TModuleSelector
+             (
+                 Default = TAutomaticBehaviorModuleDescriptor
+                 (
+                     CanAssist = False
+                     AssistRequestBroadcastRadius = 0.0 * Metre
+                     DistanceToFlee = 0.0 * Metre
+                     MaxDistanceForOffensiveReaction = 0.0 * Metre
+                     MaxDistanceForOffensiveReactionOnFlyingTarget = 0.0 * Metre
+                     MaxDistanceForEngagement = 10000 * Metre
+                     SearchedTagsInEngagementTarget = [
+                        "Air",
+                     ]
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        TCubeActionModuleDescriptor
+        (
+            CubeActionDescriptor = ~/CubeAction_Menu_Ordres_avions
+        ),
+            TMinimapDisplayModuleDescriptor
+            (
+                Texture = "Texture_Minimap_Unit_avion"
+
+                FollowUnitOrientation = True
+            ),
+        TOrderConfigModuleDescriptor
+        (
+                ValidOrders = ~/Descriptor_OrderAvailability_Jaguar_HE_FR
+        ),
+        TOrderableModuleDescriptor
+        (
+            UnlockableOrders = ~/Descriptor_OrderAvailability_Jaguar_HE_FR
+        ),
+        ~/OrderDisplayModuleDescriptor,
+            ~/GroupableUnitModuleSelector,
+            TTacticalLabelModuleDescriptor
+            (
+                MultiSelectionSortingOrder = 19210
+                UnitName                   = 'KIGAJMAMQV'
+                IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_Support_air",
+                        "Texture_Support_air"
+                    ]
+                )
+                DefaultSpecialtyToken      = "tank_C"
+                UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_avion_nonIdentifie",
+                        "Texture_NATO_Unidentified"
+                    ]
+                )
+                PositionHeightOffset = 1000.0
+            ),
+            TAirplaneModuleDescriptor
+            (
+                EvacuationTime = 15
+                TravelDuration = 10
+            ),
+        ~/TargetDataModuleDescriptor,
+        ~/PackSignauxModuleDescriptor,
+            TStrategicDataModuleDescriptor
+                (
+                    UnitAttackValue = 421
+                    UnitDefenseValue = 421
+                    UnitBonusXpPerLevelValue = 0
+                    CompanyDissolutionTransferTo = [
+                        "Stab",
+                    ]
+             ),
+            TUnitUIModuleDescriptor
+            (
+                UnitRole = 'tank_C'
+                SpecialtiesList = [
+                    'appui',
+                ]
+                NameToken = 'KIGAJMAMQV'
+                InfoPanelConfigurationToken = 'avion'
+                TypeSpecificToken = ''
+                IsAce = False
+                    UpgradeFromUnit = Descriptor_Unit_Jaguar_nplm_FR
+                GenerateName = true
+                MenuIconTexture = 'Texture_RTS_H_Support_air'
+                ButtonTexture = 'Texture_Button_Unit_Jaguar_HE_FR'
+                CountryTexture = 'CommonTexture_MotherCountryFlag_FR'
+                TypeStrategicCount = ETypeStrategicCount/Plane
+            ),
+    ]
+)
+
+export Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId       = GUID:{19412f5d-4ade-4ddd-a5b0-5fcc830367db}
+    ClassNameForDebug  = 'Unit_Tornado_ADV_HE_UK_NUKE_FRL'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'UK'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+                Flag_Avion,
+                
+                Flag_HighAltitudeFlying,
+                Flag_DetectableLowAltitude,
+                
+            ]
+        ),
+        ~/TargetManagerModuleSelector,
+        TemplateUnitCriticalModule(Module=~/CriticalEffectModule_Airplane),
+            ~/TargetCoordinatorModuleSelector,
+            TPositionModuleDescriptor
+            (
+                StickToGround              = False
+                InGeoDb                    = True
+                PorteurMustBeVisible       = True
+                ClampInWorld               = False
+                ClampOutMap                = True
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((2000) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/PlayerMissionModuleDescriptor,
+        ~/InflammableModuleDescriptorUnit,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+                "Unite",
+                "UNITE_Tornado_ADV_HE_UK",
+                "Air",
+                "Avion",
+                "Avion_Bombardier",
+                "AllowedForMissileRoE",
+            ]
+        ),
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TVisibilityModuleDescriptor
+        (
+            AutoRevealType       = EAutoRevealType/AutoRevealAllies
+            UnitConcealmentBonus = 1.0
+            VisionUnitType       = EVisionUnitType/AlwaysInHighAltitude
+            UnitIsStealth        = False
+            HideFromDebug        = False
+        ),
+        ApparenceModel is
+            TModuleSelector
+            (
+                Default = TApparenceModelModuleDescriptor
+                (
+                    PickableObject                     = True
+                    Depiction                          = ~/Gfx_Tornado_ADV_HE_UK_Autogen
+                    BlackHoleIdentifier                = "Tornado_ADV_HE_UK"
+                    GameplayBBoxBoneName               = ""
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 10
+                    MaxSuppressionDamages = ~/Airplane_MaxSuppressionDamages
+                    MaxStunDamages = ~/Airplane_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Airplanes_packSupp
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Unit_packNoStun
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default        = TDamageModuleDescriptor
+                (
+                    SuppressDamagesRegenRatio = ~/Airplane_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/Airplane_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
+                    (
+                        ArmorDescriptorFront = ArmorDescriptor_Helico_1
+                        ArmorDescriptorSides = ArmorDescriptor_Helico_1
+                        ArmorDescriptorRear = ArmorDescriptor_Helico_1
+                        ArmorDescriptorTop = ArmorDescriptor_Helico_1
+                    )
+                    KillWhenDamagesReachMax = True
+                    HitRollSize = 0.0
+                    HitRollECM = -0.2
+                    AutoOrientation = True
+                    UseTopArmorAgainstFire = True
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+             TModuleSelector
+             (
+                 Default = TRoutModuleDescriptor
+                 (
+                     MoralLevel = 60
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        GenericMovement is TModuleSelector
+        (
+            Default        = TGenericMovementModuleDescriptor
+            (
+               MaxSpeed         = 2750 * Metre
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        AirplaneMovement is TModuleSelector
+        (
+            Default        = TAirplaneMovementModuleDescriptor
+            (
+                Altitude = ((1400) * Metre)
+                AltitudeMax = $/GFX/Everything/MaxAltitude
+                AltitudeMin = (300 * Metre)
+                AltitudeMinForRoll = $/GFX/Everything/MinAltitudeForRoll
+                MinRollSpeedForRoll = $/GFX/Everything/MinRollSpeedForRoll
+                Speed = ((2750) * Metre)
+                AgilityRadius = ((4500) * Metre)
+                PitchAngle = 17
+                PitchSpeed = $/GFX/Everything/MaxPitchSpeed
+                RollAngle = 70
+                RollSpeed = 105
+                EvacAngle = 10
+                IgnoreBattlefieldOrders = False
+                EvacuateOnTargetReached = False
+                EvacToStartingPoint = True
+                ElevatorRotationMax = $/GFX/Everything/ElevatorRotationMax
+                AileronRotationMax = $/GFX/Everything/AileronRotationMax
+                RudderRotationMax = $/GFX/Everything/RudderRotationMax
+                AttackStrategyDescriptors =
+                [
+                    TDogfightAttackStrategyDescriptor
+                    (
+                        MinDistanceBetweenFighterAndTargetForAttackOnSlowAirplaneStrategy = $/GFX/Everything/MinDistanceBetweenFighterAndTargetForAttackOnSlowAirplaneStrategy
+                        MaxDistanceBetweenFighterAndTargetForLateralMoveOnSlowAirplaneStrategy = $/GFX/Everything/MaxDistanceBetweenFighterAndTargetForLateralMoveOnSlowAirplaneStrategy
+                        SpeedRatioForAttackOnSlowAirplaneStrategy = $/GFX/Everything/SpeedRatioForAttackOnSlowAirplaneStrategy
+                        SpeedRatioForAttackOnVerySlowAirplaneStrategy = $/GFX/Everything/SpeedRatioForAttackOnVerySlowAirplaneStrategy
+                        MaxAngleDifferenceWithTarget = $/GFX/Everything/MaxAngleDifferenceWithTarget
+                        MaxAngleToConsiderTargetAhead = $/GFX/Everything/MaxAngleToConsiderTargetAhead
+                        AngleToFakeTargetPosition = $/GFX/Everything/AngleToFakeTargetPosition
+                        FactorForTargetAltitudeOffset = $/GFX/Everything/FactorForTargetAltitudeOffset
+                    ),
+                    TBombAttackStrategyDescriptor(),
+                    TDiveAttackStrategyDescriptor
+                    (
+                        MinPitchForDive = $/GFX/Everything/MinPitchForDive
+                        MaxPitchForDive = $/GFX/Everything/MaxPitchForDive
+                        MinDiveAlignmentDuration = $/GFX/Everything/MinDiveAlignmentDuration
+                    ),
+                ]
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TFuelModuleDescriptor
+                (
+                    FuelCapacity     = 2000
+                    FuelMoveDuration = 260.0
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+            TModuleSelector
+            (
+                Default        = TScannerConfigurationDescriptor
+                (
+                    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/UseOnRS_TBAWithGroundOpticsLerp
+                    DoesNotCountInScannerAbsoluteMaxRange = False
+                    PorteeVisionTBA = ((14000) * Metre)
+                    PorteeVisionFOW = ((0.0) * Metre)
+                    DetectionTBA = ((14000) * Metre)
+                    PorteeVision = ((10000) * Metre)
+                    PorteeIdentification = 0.0
+                    OpticalStrength = 0
+                    OpticalStrengthAltitude = 450
+                    UnitDetectStealthUnit = False
+                    SpecializedDetections = MAP [
+                        ( EVisionUnitType/AlwaysInHighAltitude, 90000.0 * Metre ),
+                    ]
+                    SpecializedOpticalStrengths = MAP [
+                    ]
+                    IgnoreObstacles = MAP []
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 0.9
+                TimeBetweenEachIdentifyRoll = 2.0
+                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
+                (
+                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
+                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
+                    Exposant                                 = DefaultExposant
+                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
+                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
+                    ExposantEnMouvement                      = DefaultExposantEnMouvement
+                )
+            )
+        ),
+        MissileCarriage is TemplateUnitMissileCarriage(Connoisseur = MissileCarriage_Tornado_ADV_HE_UK),
+        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_Tornado_ADV_HE_UK ),
+            TModuleSelector
+            (
+                Default        = TIAStratModuleDescriptor
+                (
+                    DatabaseId = 0
+                    GameplayBehavior = EGameplayBehavior/Nothing
+                )
+                Selection      = [~/NilDescriptorIfCadavre]
+            ),
+        ~/IAStratZoneIndexModuleDescriptor,
+            TModuleSelector
+        (
+            Default        = TStateEngineCompanyModuleDescriptor
+            (
+                InitialStateId = 'CompanyInit'
+                StateEngineUpdateMode = WorldControllerAccess_InOutWorld
+            )
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        TStateEngineModuleDescriptor
+        (
+            InitialStateId = 'UnitAirplaneIdle'
+            StateEngineUpdateMode = WorldControllerAccess_InOutWorld
+        ),
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+            TFlareModuleDescriptor_MW
+            (
+                ProjectileSpeed                   = [~/VitesseInitialFlare_Avion, ~/VitesseInitialFlare_Avion, ~/VitesseInitialFlare_Avion]
+                DistanceActivation                = ~/DistanceActivationFlare_Avion
+                TimeBetweenFlare                  = ~/TempsEntreLancementFlare_Avion
+                MinimalTimeBetweenFlare           = ~/TempsMinimalEntreLancementFlare_Avion
+                BonusTimeBetweenFlareByProjectile = ~/TempsBonusLancementFlareParArme_Avion
+            ),
+        ~/EffectApplierModuleDescriptor,
+            TModuleSelector
+            (
+                Default = TProductionModuleDescriptor
+                (
+                    Factory            = EDefaultFactories/Planes
+                    ProductionTime     = -1
+                    ProductionRessourcesNeeded = MAP [
+                        (~/Resource_CommandPoints, 1000),
+                        (~/Resource_Tickets, 6),
+                    ]
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        ~/InfluencePositionModuleDescriptor,
+        ~/InfluenceDataModuleDescriptor,
+             TModuleSelector
+             (
+                 Default = TAutomaticBehaviorModuleDescriptor
+                 (
+                     CanAssist = False
+                     AssistRequestBroadcastRadius = 0.0 * Metre
+                     DistanceToFlee = 0.0 * Metre
+                     MaxDistanceForOffensiveReaction = 0.0 * Metre
+                     MaxDistanceForOffensiveReactionOnFlyingTarget = 0.0 * Metre
+                     MaxDistanceForEngagement = 10000 * Metre
+                     SearchedTagsInEngagementTarget = [
+                        "Air",
+                     ]
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        TCubeActionModuleDescriptor
+        (
+            CubeActionDescriptor = ~/CubeAction_Menu_Ordres_avions
+        ),
+            TMinimapDisplayModuleDescriptor
+            (
+                Texture = "Texture_Minimap_Unit_avion"
+
+                FollowUnitOrientation = True
+            ),
+        TOrderConfigModuleDescriptor
+        (
+                ValidOrders = ~/Descriptor_OrderAvailability_Tornado_ADV_HE_UK
+        ),
+        TOrderableModuleDescriptor
+        (
+            UnlockableOrders = ~/Descriptor_OrderAvailability_Tornado_ADV_HE_UK
+        ),
+        ~/OrderDisplayModuleDescriptor,
+            ~/GroupableUnitModuleSelector,
+            TTacticalLabelModuleDescriptor
+            (
+                MultiSelectionSortingOrder = 19310
+                UnitName                   = 'UTNPWYVTOT'
+                IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_Support_air",
+                        "Texture_Support_air"
+                    ]
+                )
+                DefaultSpecialtyToken      = "tank_B"
+                UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_avion_nonIdentifie",
+                        "Texture_NATO_Unidentified"
+                    ]
+                )
+                PositionHeightOffset = 1000.0
+            ),
+            TAirplaneModuleDescriptor
+            (
+                EvacuationTime = 15
+                TravelDuration = 10
+            ),
+        ~/TargetDataModuleDescriptor,
+        ~/PackSignauxModuleDescriptor,
+            TStrategicDataModuleDescriptor
+                (
+                    UnitAttackValue = 621
+                    UnitDefenseValue = 621
+                    UnitBonusXpPerLevelValue = 0
+                    CompanyDissolutionTransferTo = [
+                        "Stab",
+                    ]
+             ),
+            TUnitUIModuleDescriptor
+            (
+                UnitRole = 'tank_B'
+                SpecialtiesList = [
+                    'appui',
+                ]
+                NameToken = 'UTNPWYVTOT'
+                InfoPanelConfigurationToken = 'avion'
+                TypeSpecificToken = ''
+                IsAce = False
+                    UpgradeFromUnit = Descriptor_Unit_Tornado_ADV_SEAD_UK
+                GenerateName = true
+                MenuIconTexture = 'Texture_RTS_H_Support_air'
+                ButtonTexture = 'Texture_Button_Unit_Tornado_ADV_HE_UK'
+                CountryTexture = 'CommonTexture_MotherCountryFlag_UK'
+                TypeStrategicCount = ETypeStrategicCount/Plane
+            ),
+    ]
+)
 export Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL is TEntityDescriptor
 (
     DescriptorId       = GUID:{28555e61-e49c-4118-b1f3-542ef3395ed3}
@@ -1940,6 +3454,729 @@ export Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL is TEntityDescriptor
                 ButtonTexture = 'Texture_Button_Unit_F111E_Aardvark_napalm_US'
                 CountryTexture = 'CommonTexture_MotherCountryFlag_US'
                 TypeStrategicCount = ETypeStrategicCount/Plane
+            ),
+    ]
+)
+export Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId       = GUID:{1d6558af-67fb-467b-90fe-ee8463000305}
+    ClassNameForDebug  = 'Unit_M110A2_HOWZ_US_NUKE_FRL'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'US'
+            AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+                Flag_Tank,
+            ]
+        ),
+        ~/TargetManagerModuleSelector,
+        TemplateUnitCriticalModule(Module=~/CriticalEffectModule_Vehicule_Arme),
+            ~/TargetCoordinatorModuleSelector,
+            TPositionModuleDescriptor
+            (
+                StickToGround              = True
+                InGeoDb                    = True
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/PlayerMissionModuleDescriptor,
+        ~/InflammableModuleDescriptorUnit,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+                "Unite",
+                "UNITE_M110A2_HOWZ_US",
+                "Artillerie_Longue_Portee",
+                "Artillerie",
+                "AllowedForMissileRoE",
+                "Radio",
+                "GroundUnits",
+            ]
+        ),
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TVisibilityModuleDescriptor
+        (
+            AutoRevealType       = EAutoRevealType/AutoRevealAllies
+            UnitConcealmentBonus = 1.0
+            VisionUnitType       = EVisionUnitType/AlwaysOnGround
+            UnitIsStealth        = False
+            HideFromDebug        = False
+        ),
+        ApparenceModel is
+            TModuleSelector
+            (
+                Default = TApparenceModelModuleDescriptor
+                (
+                    UseFollowCam         = True
+                    PickableObject                     = True
+                    Depiction                          = ~/Gfx_M110A2_HOWZ_US_Autogen
+                    BlackHoleIdentifier                = "M110A2_HOWZ_US"
+                    GameplayBBoxBoneName               = "chassis"
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default        = TAutoCoverModuleDescriptor
+                (
+                    AutoCoverRange             = 350*Metre
+                    OccupationRadius           = 100*Metre
+                    TerrainListMask            = ~/ETerrainType/None | ~/ETerrainType/ForetLegere | ~/ETerrainType/ForetDense
+                    TerrainList                = [~/ETerrainType/ForetLegere, ~/ETerrainType/ForetDense, ]
+                    UseTerrainsForEscape       = False
+                )
+                Selection      = [ ~/NilDescriptorIfCadavre ]
+            ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_M110A2_HOWZ_US_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 8
+                    MaxSuppressionDamages = ~/GroundUnit_MaxSuppressionDamages
+                    MaxStunDamages = ~/GroundUnit_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_GroundUnits_packSupp
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Unit_packStun_Artillerie
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default        = TDamageModuleDescriptor
+                (
+                    SuppressDamagesRegenRatio = ~/GroundUnit_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/GroundUnit_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
+                    (
+                        ArmorDescriptorFront = ArmorDescriptor_Blindage_2
+                        ArmorDescriptorSides = ArmorDescriptor_Blindage_1
+                        ArmorDescriptorRear = ArmorDescriptor_Blindage_1
+                        ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                    )
+                    KillWhenDamagesReachMax = True
+                    HitRollSize = 0.0
+                    HitRollECM = 0.0
+                    AutoOrientation = True
+                    UseTopArmorAgainstFire = True
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+             TDangerousnessModuleDescriptor
+             (
+                 Dangerousness  = 48
+             ),
+             TModuleSelector
+             (
+                 Default = TRoutModuleDescriptor
+                 (
+                     MoralLevel = 0
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        FacingInfos is TModuleSelector
+        (
+            Default   = TFacingInfosModuleDescriptor
+            (
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        GenericMovement is TModuleSelector
+        (
+            Default        = TGenericMovementModuleDescriptor
+            (
+               MaxSpeed         = 100 * Metre
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        LandMovement is TModuleSelector
+            (
+                Default        = TLandMovementModuleDescriptor
+                (
+                    UnitMovingType = EUnitMovingType/Track
+                    PathfindType = ~/PathfindTypes/Vehicle
+                    VitesseCombat = ((100) * Metre)
+                    SpeedBonusOnRoad = 1.0
+                    MaxAcceleration = ((40.0) * Metre)
+                    MaxDeceleration = ((100.0) * Metre)
+                    TempsDemiTour = 9.0
+                    StartTime = (0 * Seconde)
+                    StopTime = (0 * Seconde)
+                    RotationStartTime = (0 * Seconde)
+                    RotationStopTime = (0 * Seconde)
+                )
+                Selection = [~/NilDescriptorIfCadavre]
+            ),
+            TModuleSelector
+            (
+                Default        = TFuelModuleDescriptor
+                (
+                    FuelCapacity     = 1000
+                    FuelMoveDuration = 500.0
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+            TModuleSelector
+            (
+                Default        = TScannerConfigurationDescriptor
+                (
+                    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
+                    DoesNotCountInScannerAbsoluteMaxRange = False
+                    PorteeVisionTBA = ((0.0) * Metre)
+                    PorteeVisionFOW = ((0.0) * Metre)
+                    DetectionTBA = ((14000) * Metre)
+                    PorteeVision = ((10000) * Metre)
+                    PorteeIdentification = 0.0
+                    OpticalStrength = 42.45
+                    OpticalStrengthAltitude = 10
+                    UnitDetectStealthUnit = False
+                    SpecializedDetections = MAP [
+                        ( EVisionUnitType/AlwaysInHighAltitude, 16000.0 * Metre ),
+                    ]
+                    SpecializedOpticalStrengths = MAP [
+                    ]
+                    IgnoreObstacles = MAP []
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 0.13
+                TimeBetweenEachIdentifyRoll = 15.0
+                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
+                (
+                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
+                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
+                    Exposant                                 = DefaultExposant
+                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
+                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
+                    ExposantEnMouvement                      = DefaultExposantEnMouvement
+                )
+            )
+        ),
+        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_M110A2_HOWZ_US ),
+            TModuleSelector
+            (
+                Default        = TIAStratModuleDescriptor
+                (
+                    DatabaseId = 0
+                    GameplayBehavior = EGameplayBehavior/Nothing
+                )
+                Selection      = [~/NilDescriptorIfCadavre]
+            ),
+        ~/IAStratZoneIndexModuleDescriptor,
+            TModuleSelector
+        (
+            Default        = TStateEngineCompanyModuleDescriptor
+            (
+                InitialStateId = 'CompanyInit'
+                StateEngineUpdateMode = WorldControllerAccess_InWorld
+            )
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        TStateEngineModuleDescriptor
+        (
+            InitialStateId = 'UnitIdle'
+            StateEngineUpdateMode = WorldControllerAccess_InWorld
+        ),
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+            TModuleSelector
+            (
+                Default = TProductionModuleDescriptor
+                (
+                    Factory            = EDefaultFactories/Support
+                    ProductionTime     = 5
+                    ProductionRessourcesNeeded = MAP [
+                        (~/Resource_CommandPoints, 3000),
+                        (~/Resource_Tickets, 2),
+                    ]
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        ~/InfluencePositionModuleDescriptor,
+        ~/InfluenceDataModuleDescriptor,
+             TModuleSelector
+             (
+                 Default = TAutomaticBehaviorModuleDescriptor
+                 (
+                     CanAssist = False
+                     AssistRequestBroadcastRadius = 0.0 * Metre
+                     DistanceToFlee = 1000 * Metre
+                     MaxDistanceForOffensiveReaction = 1000 * Metre
+                     MaxDistanceForOffensiveReactionOnFlyingTarget = 0.0 * Metre
+                     MaxDistanceForEngagement = 0.0 * Metre
+                     SearchedTagsInEngagementTarget = [
+                        "AllUnits",
+                     ]
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        TCubeActionModuleDescriptor
+        (
+            CubeActionDescriptor = ~/CubeAction_Menu_Ordres_unites
+        ),
+            TMinimapDisplayModuleDescriptor
+            (
+                Texture = "Texture_Minimap_Unit_unit"
+                FollowUnitOrientation = False
+            ),
+        TOrderConfigModuleDescriptor
+        (
+                ValidOrders = ~/Descriptor_OrderAvailability_M110A2_HOWZ_US
+        ),
+        TOrderableModuleDescriptor
+        (
+            UnlockableOrders = ~/Descriptor_OrderAvailability_M110A2_HOWZ_US
+        ),
+        ~/OrderDisplayModuleDescriptor,
+            ~/GroupableUnitModuleSelector,
+            TTacticalLabelModuleDescriptor
+            (
+                MultiSelectionSortingOrder = 12260
+                UnitName                   = 'KLQECFIVOV'
+                IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_howitzer",
+                        "Texture_howitzer"
+                    ]
+                )
+                DefaultSpecialtyToken      = "tank_A"
+                UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_veh_nonIdentifie",
+                        "Texture_veh_nonIdentifie"
+                    ]
+                )
+                PositionHeightOffset = 1000.0
+                NbSoldiers                 = 0
+            ),
+        ~/TargetDataModuleDescriptor,
+        ~/PackSignauxModuleDescriptor,
+            TStrategicDataModuleDescriptor
+                (
+                    UnitAttackValue = 521
+                    UnitDefenseValue = 261
+                    UnitBonusXpPerLevelValue = 1
+                    CompanyDissolutionTransferTo = [
+                        "Stab",
+                    ]
+             ),
+            TUnitUIModuleDescriptor
+            (
+                UnitRole = 'tank_A'
+                SpecialtiesList = [
+                    'howitzer',
+                ]
+                NameToken = 'KLQECFIVOV'
+                InfoPanelConfigurationToken = 'Default'
+                TypeSpecificToken = ''
+                RealRoadSpeed = 72
+                IsAce = False
+                    UpgradeFromUnit = Descriptor_Unit_M109A2_HOWZ_US
+                GenerateName = true
+                MenuIconTexture = 'Texture_RTS_H_howitzer'
+                ButtonTexture = 'Texture_Button_Unit_M110A2_HOWZ_US'
+                CountryTexture = 'CommonTexture_MotherCountryFlag_US'
+                TypeStrategicCount = ETypeStrategicCount/Artillery
+            ),
+    ]
+)
+export Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL is TEntityDescriptor
+(
+    DescriptorId       = GUID:{02e9124c-602c-4ac2-bbcc-61a2adc47d5b}
+    ClassNameForDebug  = 'Unit_2S7M_Malka_SOV_NUKE_FRL'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+                Flag_Tank,
+            ]
+        ),
+        ~/TargetManagerModuleSelector,
+        TemplateUnitCriticalModule(Module=~/CriticalEffectModule_Vehicule_Arme),
+            ~/TargetCoordinatorModuleSelector,
+            TPositionModuleDescriptor
+            (
+                StickToGround              = True
+                InGeoDb                    = True
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/PlayerMissionModuleDescriptor,
+        ~/InflammableModuleDescriptorUnit,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+                "Unite",
+                "UNITE_2S7M_Malka_SOV",
+                "Artillerie_Longue_Portee",
+                "Artillerie",
+                "AllowedForMissileRoE",
+                "Radio",
+                "GroundUnits",
+            ]
+        ),
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TVisibilityModuleDescriptor
+        (
+            AutoRevealType       = EAutoRevealType/AutoRevealAllies
+            UnitConcealmentBonus = 1.0
+            VisionUnitType       = EVisionUnitType/AlwaysOnGround
+            UnitIsStealth        = False
+            HideFromDebug        = False
+        ),
+        ApparenceModel is
+            TModuleSelector
+            (
+                Default = TApparenceModelModuleDescriptor
+                (
+                    UseFollowCam         = True
+                    PickableObject                     = True
+                    Depiction                          = ~/Gfx_2S7M_Malka_SOV_Autogen
+                    BlackHoleIdentifier                = "2S7M_Malka_SOV"
+                    GameplayBBoxBoneName               = "chassis"
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default        = TAutoCoverModuleDescriptor
+                (
+                    AutoCoverRange             = 350*Metre
+                    OccupationRadius           = 100*Metre
+                    TerrainListMask            = ~/ETerrainType/None | ~/ETerrainType/ForetLegere | ~/ETerrainType/ForetDense
+                    TerrainList                = [~/ETerrainType/ForetLegere, ~/ETerrainType/ForetDense, ]
+                    UseTerrainsForEscape       = False
+                )
+                Selection      = [ ~/NilDescriptorIfCadavre ]
+            ),
+        WeaponManager is TModuleSelector
+        (
+            Default        = $/GFX/Everything/WeaponDescriptor_2S7M_Malka_SOV_NUKE_FRL
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+            TModuleSelector
+            (
+                Default        = TBaseDamageModuleDescriptor
+                (
+                    MaxPhysicalDamages = 8
+                    MaxSuppressionDamages = ~/GroundUnit_MaxSuppressionDamages
+                    MaxStunDamages = ~/GroundUnit_MaxStunDamages
+                    PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                    SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_GroundUnits_packSupp
+                    StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Unit_packStun_Artillerie
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+            TModuleSelector
+            (
+                Default        = TDamageModuleDescriptor
+                (
+                    SuppressDamagesRegenRatio = ~/GroundUnit_SuppressDamagesRegenRatioList
+                    StunDamagesRegen = ~/GroundUnit_StunDamagesRegen
+                    BlindageProperties = TBlindageProperties
+                    (
+                        ArmorDescriptorFront = ArmorDescriptor_Blindage_2
+                        ArmorDescriptorSides = ArmorDescriptor_Blindage_1
+                        ArmorDescriptorRear = ArmorDescriptor_Blindage_1
+                        ArmorDescriptorTop = ArmorDescriptor_Vehicule_1
+                    )
+                    KillWhenDamagesReachMax = True
+                    HitRollSize = 0.0
+                    HitRollECM = 0.0
+                    AutoOrientation = True
+                    UseTopArmorAgainstFire = True
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+             TDangerousnessModuleDescriptor
+             (
+                 Dangerousness  = 51
+             ),
+             TModuleSelector
+             (
+                 Default = TRoutModuleDescriptor
+                 (
+                     MoralLevel = 0
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        FacingInfos is TModuleSelector
+        (
+            Default   = TFacingInfosModuleDescriptor
+            (
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        GenericMovement is TModuleSelector
+        (
+            Default        = TGenericMovementModuleDescriptor
+            (
+               MaxSpeed         = 100 * Metre
+            )
+            Selection = [~/NilDescriptorIfCadavre]
+        ),
+        LandMovement is TModuleSelector
+            (
+                Default        = TLandMovementModuleDescriptor
+                (
+                    UnitMovingType = EUnitMovingType/Track
+                    PathfindType = ~/PathfindTypes/Vehicle
+                    VitesseCombat = ((100) * Metre)
+                    SpeedBonusOnRoad = 1.2000000000000002
+                    MaxAcceleration = ((40.0) * Metre)
+                    MaxDeceleration = ((100.0) * Metre)
+                    TempsDemiTour = 9.0
+                    StartTime = (0 * Seconde)
+                    StopTime = (0 * Seconde)
+                    RotationStartTime = (0 * Seconde)
+                    RotationStopTime = (0 * Seconde)
+                )
+                Selection = [~/NilDescriptorIfCadavre]
+            ),
+            TModuleSelector
+            (
+                Default        = TFuelModuleDescriptor
+                (
+                    FuelCapacity     = 2000
+                    FuelMoveDuration = 500.0
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+            TModuleSelector
+            (
+                Default        = TScannerConfigurationDescriptor
+                (
+                    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
+                    DoesNotCountInScannerAbsoluteMaxRange = False
+                    PorteeVisionTBA = ((0.0) * Metre)
+                    PorteeVisionFOW = ((0.0) * Metre)
+                    DetectionTBA = ((14000) * Metre)
+                    PorteeVision = ((10000) * Metre)
+                    PorteeIdentification = 0.0
+                    OpticalStrength = 42.45
+                    OpticalStrengthAltitude = 10
+                    UnitDetectStealthUnit = False
+                    SpecializedDetections = MAP [
+                        ( EVisionUnitType/AlwaysInHighAltitude, 16000.0 * Metre ),
+                    ]
+                    SpecializedOpticalStrengths = MAP [
+                    ]
+                    IgnoreObstacles = MAP []
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 0.13
+                TimeBetweenEachIdentifyRoll = 15.0
+                VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
+                (
+                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
+                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
+                    Exposant                                 = DefaultExposant
+                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
+                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
+                    ExposantEnMouvement                      = DefaultExposantEnMouvement
+                )
+            )
+        ),
+        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_2S7M_Malka_SOV ),
+            TModuleSelector
+            (
+                Default        = TIAStratModuleDescriptor
+                (
+                    DatabaseId = 0
+                    GameplayBehavior = EGameplayBehavior/Nothing
+                )
+                Selection      = [~/NilDescriptorIfCadavre]
+            ),
+        ~/IAStratZoneIndexModuleDescriptor,
+            TModuleSelector
+        (
+            Default        = TStateEngineCompanyModuleDescriptor
+            (
+                InitialStateId = 'CompanyInit'
+                StateEngineUpdateMode = WorldControllerAccess_InWorld
+            )
+            Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        TStateEngineModuleDescriptor
+        (
+            InitialStateId = 'UnitIdle'
+            StateEngineUpdateMode = WorldControllerAccess_InWorld
+        ),
+        ~/DebugModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+            TModuleSelector
+            (
+                Default = TProductionModuleDescriptor
+                (
+                    Factory            = EDefaultFactories/Support
+                    ProductionTime     = 5
+                    ProductionRessourcesNeeded = MAP [
+                        (~/Resource_CommandPoints, 3000),
+                        (~/Resource_Tickets, 2),
+                    ]
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+        ~/InfluencePositionModuleDescriptor,
+        ~/InfluenceDataModuleDescriptor,
+             TModuleSelector
+             (
+                 Default = TAutomaticBehaviorModuleDescriptor
+                 (
+                     CanAssist = False
+                     AssistRequestBroadcastRadius = 0.0 * Metre
+                     DistanceToFlee = 1000 * Metre
+                     MaxDistanceForOffensiveReaction = 1000 * Metre
+                     MaxDistanceForOffensiveReactionOnFlyingTarget = 0.0 * Metre
+                     MaxDistanceForEngagement = 0.0 * Metre
+                     SearchedTagsInEngagementTarget = [
+                        "AllUnits",
+                     ]
+                 )
+                 Selection = [ ~/NilDescriptorIfCadavre ]
+             ),
+        TCubeActionModuleDescriptor
+        (
+            CubeActionDescriptor = ~/CubeAction_Menu_Ordres_unites
+        ),
+            TMinimapDisplayModuleDescriptor
+            (
+                Texture = "Texture_Minimap_Unit_unit"
+                FollowUnitOrientation = False
+            ),
+        TOrderConfigModuleDescriptor
+        (
+                ValidOrders = ~/Descriptor_OrderAvailability_2S7M_Malka_SOV
+        ),
+        TOrderableModuleDescriptor
+        (
+            UnlockableOrders = ~/Descriptor_OrderAvailability_2S7M_Malka_SOV
+        ),
+        ~/OrderDisplayModuleDescriptor,
+            ~/GroupableUnitModuleSelector,
+            TTacticalLabelModuleDescriptor
+            (
+                MultiSelectionSortingOrder = 12260
+                UnitName                   = 'BLSURILPLC'
+                IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_howitzer",
+                        "Texture_howitzer"
+                    ]
+                )
+                DefaultSpecialtyToken      = "tank_A"
+                UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_veh_nonIdentifie",
+                        "Texture_veh_nonIdentifie"
+                    ]
+                )
+                PositionHeightOffset = 1000.0
+                NbSoldiers                 = 0
+            ),
+        ~/TargetDataModuleDescriptor,
+        ~/PackSignauxModuleDescriptor,
+            TStrategicDataModuleDescriptor
+                (
+                    UnitAttackValue = 521
+                    UnitDefenseValue = 261
+                    UnitBonusXpPerLevelValue = 1
+                    CompanyDissolutionTransferTo = [
+                        "Stab",
+                    ]
+             ),
+            TUnitUIModuleDescriptor
+            (
+                UnitRole = 'tank_A'
+                SpecialtiesList = [
+                    'howitzer',
+                ]
+                NameToken = 'BLSURILPLC'
+                InfoPanelConfigurationToken = 'Default'
+                TypeSpecificToken = ''
+                RealRoadSpeed = 79
+                IsAce = False
+                GenerateName = true
+                MenuIconTexture = 'Texture_RTS_H_howitzer'
+                ButtonTexture = 'Texture_Button_Unit_2S7M_Malka_SOV'
+                CountryTexture = 'CommonTexture_MotherCountryFlag_SOV'
+                TypeStrategicCount = ETypeStrategicCount/Artillery
             ),
     ]
 )

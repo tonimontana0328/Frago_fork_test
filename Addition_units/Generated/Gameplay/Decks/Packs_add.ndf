@@ -122,3 +122,27 @@ Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL is TDeckPackDescriptor
         ),
     ]
 )
+Descriptor_Deck_Pack_M110A2_HOWZ_US_NUKE_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{12352b96-579a-48db-8f0f-f5bbc013d103}
+    CfgName = 'Descriptor_Deck_Pack_M110A2_HOWZ_US_NUKE_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+        ),
+    ]
+)
+Descriptor_Deck_Pack_2S7M_Malka_SOV_NUKE_FRL is TDeckPackDescriptor
+(
+    DescriptorId = GUID:{840a1c56-a74c-46f5-821a-d59531500d47}
+    CfgName = 'Descriptor_Deck_Pack_2S7M_Malka_SOV_NUKE_FRL'
+    TransporterAndUnitsList =
+    [
+        TDeckTransporterAndUnitsDescriptor
+        (
+            UnitDescriptor = Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL
+        ),
+    ]
+)

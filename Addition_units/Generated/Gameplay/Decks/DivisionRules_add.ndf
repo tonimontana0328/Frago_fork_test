@@ -25,6 +25,16 @@ private DivisionRules is TDeckDivisionRules
                     ),
                     TDeckUniteRule
                     (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
+                    TDeckUniteRule
+                    (
                         UnitDescriptor = ~/Descriptor_Unit_EF111_Raven_US
                         AvailableWithoutTransport = True
                         NumberOfUnitInPack = 2
@@ -82,6 +92,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -107,6 +127,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                         AvailableTransportList = [~/Descriptor_Unit_Mi_2_trans_DDR, ~/Descriptor_Unit_W50_LA_A_DDR, ~/Descriptor_Unit_Mi_24D_s5_AT_DDR]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -131,6 +161,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -156,6 +196,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -181,6 +231,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -206,6 +266,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                         AvailableTransportList = [~/Descriptor_Unit_Mi_2_trans_DDR, ~/Descriptor_Unit_W50_LA_A_DDR, ~/Descriptor_Unit_Mi_24D_s5_AT_DDR]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -232,6 +302,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                         AvailableTransportList = [~/Descriptor_Unit_Mi_2_trans_DDR, ~/Descriptor_Unit_W50_LA_A_DDR, ~/Descriptor_Unit_Mi_24D_s5_AT_DDR]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -256,6 +336,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                         AvailableTransportList = [~/Descriptor_Unit_Mi_2_trans_DDR, ~/Descriptor_Unit_W50_LA_A_DDR, ~/Descriptor_Unit_Mi_24D_s5_AT_DDR]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -280,6 +370,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                         AvailableTransportList = [~/Descriptor_Unit_Mi_2_trans_DDR, ~/Descriptor_Unit_W50_LA_A_DDR, ~/Descriptor_Unit_Mi_24D_s5_AT_DDR]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -304,6 +404,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -328,6 +438,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -352,6 +472,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                         AvailableTransportList = [~/Descriptor_Unit_Mi_2_trans_DDR, ~/Descriptor_Unit_W50_LA_A_DDR, ~/Descriptor_Unit_Mi_24D_s5_AT_DDR]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -376,6 +506,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                         AvailableTransportList = [~/Descriptor_Unit_Mi_2_trans_DDR, ~/Descriptor_Unit_W50_LA_A_DDR, ~/Descriptor_Unit_Mi_24D_s5_AT_DDR]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -400,6 +540,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL
@@ -431,6 +581,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -455,6 +615,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL
@@ -500,6 +670,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),
@@ -538,6 +718,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_EF111_Raven_US
@@ -583,6 +773,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 3
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                    TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_EF111_Raven_US
@@ -614,6 +814,16 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                         AvailableTransportList = [~/Descriptor_Unit_Mi_2_trans_DDR, ~/Descriptor_Unit_W50_LA_A_DDR, ~/Descriptor_Unit_Mi_24D_s5_AT_DDR]
                     ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+
+
                 ]
             )
         ),

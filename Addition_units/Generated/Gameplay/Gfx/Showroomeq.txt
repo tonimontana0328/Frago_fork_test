@@ -7,3 +7,5 @@
         ( ~/Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL, ~/Descriptor_ShowRoomUnit_Harrier_RKT1_UK ),       
          ( ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL, ~/Descriptor_ShowRoomUnit_F111F_Aardvark_US_NUKE_FRL ),
         ( ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL, ~/Descriptor_ShowRoomUnit_F111F_Aardvark_US_MEGA_FRL ),
+         ( ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL, ~/Descriptor_ShowRoomUnit_M110A2_HOWZ_US_NUKE_FRL ),
+        ( ~/Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL, ~/Descriptor_ShowRoomUnit_2S7M_Malka_SOV_NUKE_FRL ),

@@ -11,7 +11,8 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_Harrier_RKT1_UK_VTOL_FRL, 25001),
         (Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL, 25002),
         (Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL, 25003),
-
+        (Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL, 25004),
+        (Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL, 25005),
 
 
     ]
