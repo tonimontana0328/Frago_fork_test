@@ -641,7 +641,7 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late_NUKE_FRL is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 2
+    AffichageMunitionParSalve         = 1
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_2A44"
     SmokeDescriptor                   = nil
@@ -735,7 +735,7 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late_NUKE_FRL is TAmmunitionDescriptor
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 3
+    AffichageMunitionParSalve         = 1
     MissileDescriptor                 = nil
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M201A"
     SmokeDescriptor                   = nil
