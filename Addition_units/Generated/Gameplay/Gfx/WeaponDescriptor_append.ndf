@@ -99,7 +99,7 @@ export WeaponDescriptor_F117_Nighthawk_US_NUKE_FRL is TWeaponManagerModuleDescri
     ]
 )
 
-export WeaponDescriptor_SU_24M_NUKE_FRL is TWeaponManagerModuleDescriptor
+export WeaponDescriptor_Su_24M_SOV_NUKE_FRL is TWeaponManagerModuleDescriptor
 (
     DelayIdleAmmoSorting = DelayIdleAmmoSorting
     DefaultHoldFireState = False

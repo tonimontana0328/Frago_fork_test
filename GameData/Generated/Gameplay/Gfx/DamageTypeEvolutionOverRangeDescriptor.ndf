@@ -177,3 +177,21 @@ export DamageTypeEvolutionOverRangeDescriptor_WRD_5500 is TDamageTypeEvolutionOv
    ]
 )
 
+export DamageTypeEvolutionOverRangeDescriptor_APDS_autocannon_FRL is TDamageTypeEvolutionOverRangeDescriptor
+(
+   DamageTypeEvolutionOverRange =
+   [
+       (5.0, 100.0),
+       (10.0, 90.0),
+       (20.0, 82.0),
+       (30.0, 74.0),
+       (40.0, 67.0),
+       (50.0, 61.0),
+       (60.0, 55.0),
+       (70.0, 50.0),
+       (80.0, 45.0),
+       (90.0, 41.0),
+       (100.0, 38.0),
+   ]
+)
+

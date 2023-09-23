@@ -1,5 +1,35 @@
 // Ne pas éditer, ce fichier est auto-généré !
-
+Descriptor_Deck_Division_SOV_Afganski is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{69e89875-2c99-4914-bc2a-737e5027fdae}
+    CfgName = 'SOV_Afganski'
+    DivisionName = 'OQIRARQHNU'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{6c97c744-4069-4153-9158-7bf3c8d1f8ba}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'OQIRARQHNU'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_2S7M_Malka_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_SOV_Afganski
+    EmblemTexture = "UseInGame_Transport_COMMAND"
+    StrategicLabelColor = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture   = "Texture_Division_Type_infantryReg"
+    CountryId = "SOV"
+)
 Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{beaeddc6-2819-4025-b72f-9448e16b39ec}

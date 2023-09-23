@@ -147,7 +147,7 @@ CriticalEffect_EngineDamaged_Desc is TCriticalEffectDescriptor
 (
     Token = 'CRITIC8'
     HappeningKey = 'critical_engine_damaged'
-    EffectsPack = ~/UnitEffect_Critic_Vitesse_30
+    EffectsPack = ~/UnitEffect_Critic_Vitesse_50
     TimeOut = -1
     RepairCost = 50
     Unique = True

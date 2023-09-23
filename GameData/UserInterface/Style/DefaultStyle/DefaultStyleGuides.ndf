@@ -49,8 +49,8 @@ DefaultStyleGuide is TUIStyleGuide
         ("ActivationPoint",                                         MAP [ ( ~/ComponentState/Normal, TextStyleActivationPoint ), ]),
         ("ActivationPointTemp",                                     MAP [ ( ~/ComponentState/Normal, TextStyleActivationPointTemp ), ]),
         ("ActionPoint",                                             MAP [ ( ~/ComponentState/Normal, TextStylePointAction ), ]),
-        ("ActionPointREDFOR",                                       MAP [ ( ~/ComponentState/Normal, TextStylePointActionREDFOR ), ]),
-        ("ActionPointBLUFOR",                                       MAP [ ( ~/ComponentState/Normal, TextStylePointActionBLUFOR ), ]),
+        ("ActionPointREDFOR",                                       MAP [ ( ~/ComponentState/Normal, TextStyleDefault ), ]),
+        ("ActionPointBLUFOR",                                       MAP [ ( ~/ComponentState/Normal, TextStyleDefault ), ]),
         ("ActionPointREDFORCantAttack",                             MAP [ ( ~/ComponentState/Normal, TextStylePointActionREDFORCantAttack ), ]),
         ("ActionPointBLUFORCantAttack",                             MAP [ ( ~/ComponentState/Normal, TextStylePointActionBLUFORCantAttack ), ]),
         ("Default",                                             MAP [ ( ~/ComponentState/Normal, TextStyleDefault ), ]),
@@ -587,7 +587,6 @@ DefaultStyleGuide is TUIStyleGuide
         ("SD2_Gris39",                      MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Gris39 ) ), ]),
         ("SD2_Gris39_avecTransparence200",  MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [39,39,39,200] ) ), ]),
         ("SD2_Routed",                      MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [255,0,0,200] ) ), ]),
-        ("SD2_Bombarded",                   MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [255,168,69,200] ) ), ]),
         ("SD2_InOrder",                     MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [255,168,69,200] ) ), ]),
         ("SD2_BleuVariable",                MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = BleuVariable ) ), ]),
 
@@ -906,8 +905,9 @@ DefaultStyleGuide is TUIStyleGuide
                                             ( ~/ComponentState/Highlighted,      TColorRTTI( Color = [73,215,99,240] ) ),
                                             ]),
         ("loginBoutonBackground_vert",  MAP [
-                                            ( ~/ComponentState/Normal,      TColorRTTI( Color = [124,210,150,0] ) ),
+                                            ( ~/ComponentState/Normal,      TColorRTTI( Color = Transparent ) ),
                                             ( ~/ComponentState/Highlighted,      TColorRTTI( Color = [124,210,150,240] ) ),
+                                            ( ~/ComponentState/ToggleGrayed,      TColorRTTI( Color = [124,210,150,180] ) ),
                                             ]),
 
         ("loginBoutonBackground_cyan",  MAP [
@@ -1289,7 +1289,7 @@ DefaultStyleGuide is TUIStyleGuide
         ("UIPlayerSpecific/Grey/PawnVerticalBarColor",                  MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = BlancPur ) ), ]),
 
         ("UIPlayerSpecific/Red/LabelActionPoints",                      MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = RougeSovietique_100 ) ), ]),
-        ("UIPlayerSpecific/Blue/LabelActionPoints",                     MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = GrisAllemand_100 ) ), ]),
+        ("UIPlayerSpecific/Blue/LabelActionPoints",                     MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Otan ) ), ]),
         ("UIPlayerSpecific/Green/LabelActionPoints",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = GrisAllemand_100 ) ), ]),
         ("UIPlayerSpecific/Orange/LabelActionPoints",                   MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = RougeSovietique_100 ) ), ]),
         ("UIPlayerSpecific/Grey/LabelActionPoints",                     MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = GrisBleu ) ), ]),
@@ -2756,6 +2756,7 @@ DefaultStyleGuide is TUIStyleGuide
                                         ( ~/ComponentState/Normal,                TColorRTTI( Color = [20,20,20,128] ) ),
                                         ( ~/ComponentState/Highlighted,           TColorRTTI( Color = [128,128,128,250] ) ),
                                         ( ~/ComponentState/Grayed,                TColorRTTI( Color = [120,120,120,128] ) ),
+                                        ( ~/ComponentState/Clicked,               TColorRTTI( Color = [160,160,160,250] ) ),
                                         ( ~/ComponentState/Toggled,               TColorRTTI( Color = [255,255,255,245] ) ),
                                         ( ~/ComponentState/ToggleHighlighted,     TColorRTTI( Color = [255,255,255,128] ) ),
                                         ]),
@@ -2918,6 +2919,7 @@ DefaultStyleGuide is TUIStyleGuide
         ("CyanChrono",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [129,238,242,255] ) ), ]),
         ("VertSecteur",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [184,239,154,255] ) ), ]),
         ("BlancEquipe_alpha",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [202,223,229,180] ) ), ]),
+        ("BlancEquipe_30",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [202,223,229,50] ) ), ]),
         ("BlancEquipe",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [202,223,229,255] ) ), ]),
         ("WIP_Vert",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [89,210,112,255] ) ), ]),
 
@@ -3305,14 +3307,18 @@ DefaultStyleGuide is TUIStyleGuide
         ("Strategic/PawnPower/EvasionTop",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Airplane ) ), ]),
         ("PawnLabel/ActionPoints",                      MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = BlancPur ) ), ]),
 
-        ("NoirPur",                             MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = NoirPur ) ), ]),
+        ("NoirPur",                                     MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = NoirPur ) ), ]),
 
-        ("Objective/Sucess",        MAP [   ( ~/ComponentState/Normal, TColorRTTI( Color = Vert2 ) ),
-                                            ( ~/ComponentState/Grayed,  TColorRTTI( Color = Vert2 ) ),
-                                    ]),
-        ("Objective/Failed",        MAP [   ( ~/ComponentState/Normal,  TColorRTTI( Color = Rouge4_strat2 ) ),
-                                            ( ~/ComponentState/Grayed,  TColorRTTI( Color = Rouge4_strat2 ) ),
+        ("Objective/Sucess",                            MAP [   ( ~/ComponentState/Normal, TColorRTTI( Color = Vert2 ) ),
+                                                                ( ~/ComponentState/Grayed,  TColorRTTI( Color = Vert2 ) ),
+                                                            ]),
+        ("Objective/Failed",                            MAP [   ( ~/ComponentState/Normal,  TColorRTTI( Color = Rouge4_strat2 ) ),
+                                                                ( ~/ComponentState/Grayed,  TColorRTTI( Color = Rouge4_strat2 ) ),
                                      ]),
+        ("DeploymentPhase/CancelTimer",                 MAP [ ( ~/ComponentState/Normal,      TColorRTTI( Color = BlancCasse) ),
+                                                              ( ~/ComponentState/Highlighted, TColorRTTI( Color = BlancPur) ),
+                                                              ( ~/ComponentState/Clicked,     TColorRTTI( Color = BlancPur) ),
+                                                            ]),
     ]
 
     TextureDrawerMap = MAP [

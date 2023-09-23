@@ -17,11 +17,7 @@ export Descriptor_ShowRoomUnit_Tornado_ADV_HE_UK_NUKE_FRL is TEntityDescriptor
             Depiction                          = ~/Gfx_Tornado_ADV_HE_UK_Showroom_Autogen
             GameplayBBoxBoneName               = ''
         ),
-        WeaponManager is TModuleSelector
-        (
-            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
-        ),
+        $/GFX/Everything/WeaponDescriptor_Su_24M_SOV_NUKE_FRL,
         ~/LinkTeamModuleDescriptor,
         ~/EffectApplierModuleDescriptor,
         TExperienceModuleDescriptor
@@ -57,11 +53,7 @@ export Descriptor_ShowRoomUnit_Su_24M_SOV_NUKE_FRL is TEntityDescriptor
             Depiction                          = ~/Gfx_Su_24M_SOV_Showroom_Autogen
             GameplayBBoxBoneName               = ''
         ),
-        WeaponManager is TModuleSelector
-        (
-            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
-        ),
+        $/GFX/Everything/WeaponDescriptor_Su_24M_SOV_NUKE_FRL,
         ~/LinkTeamModuleDescriptor,
         ~/EffectApplierModuleDescriptor,
         TExperienceModuleDescriptor
@@ -97,11 +89,7 @@ export Descriptor_ShowRoomUnit_F117_Nighthawk_US_NUKE_FRL is TEntityDescriptor
             Depiction                          = ~/Gfx_F117_Nighthawk_US_Showroom_Autogen
             GameplayBBoxBoneName               = ''
         ),
-        WeaponManager is TModuleSelector
-        (
-            Default        = $/GFX/Everything/WeaponDescriptor_F117_Nighthawk_US_NUKE_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
-        ),
+        $/GFX/Everything/WeaponDescriptor_F117_Nighthawk_US_NUKE_FRL,
         ~/LinkTeamModuleDescriptor,
         ~/EffectApplierModuleDescriptor,
         TExperienceModuleDescriptor
@@ -137,11 +125,7 @@ export Descriptor_ShowRoomUnit_Jaguar_HE_FR_NUKE_FRL is TEntityDescriptor
             Depiction                          = ~/Gfx_Jaguar_HE_FR_Showroom_Autogen
             GameplayBBoxBoneName               = ''
         ),
-        WeaponManager is TModuleSelector
-        (
-            Default        = $/GFX/Everything/WeaponDescriptor_SU_24M_NUKE_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
-        ),
+        $/GFX/Everything/WeaponDescriptor_Su_24M_SOV_NUKE_FRL,
         ~/LinkTeamModuleDescriptor,
         ~/EffectApplierModuleDescriptor,
         TExperienceModuleDescriptor
@@ -176,46 +160,31 @@ export Descriptor_ShowRoomUnit_Scout_LRRP_SOV_NUKE_FRL is TEntityDescriptor
             PickableObject       = False
             Depiction            = ~/InfantryDepictionSquadShowroom
         ),
-        WeaponManager is TModuleSelector
+        $/GFX/Everything/WeaponDescriptor_Scout_LRRP_SOV_NUKE_FRL,
+        TInfantrySquadModuleDescriptor
         (
-            Default        = $/GFX/Everything/WeaponDescriptor_Scout_LRRP_SOV_NUKE_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
+            NbSoldatInGroupeCombat = 6
+            SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+            InfantryMimeticName = 'Scout_LRRP_SOV'
+            WeaponUnitFXKey     = 'Scout_LRRP_SOV'
+            MimeticDescriptor   = Descriptor_Unit_MimeticUnit
+            (
+                DescriptorId = GUID:{9fdf536c-81b5-4886-b285-0f6944876b79}
+                MimeticName = 'Scout_LRRP_SOV'
+            )
+            BoundingBoxSize     = 8 * Metre
         ),
-        GroupeCombat is
-            TModuleSelector
-            (
-                Default        = TInfantrySquadModuleDescriptor
-                (
-                    NbSoldatInGroupeCombat = 6
-                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
-                    InfantryMimeticName = 'Scout_LRRP_SOV'
-                    WeaponUnitFXKey     = 'Scout_LRRP_SOV'
-                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
-                    BoundingBoxSize     = 8 * Metre
-                )
-                Selection      = [ NilDescriptorIfCadavre ]
-            ),
-        GroupeCombatPositions is
-            TModuleSelector
-            (
-                Default        = TInfantrySquadSlotPositionsModuleDescriptor
-                (
-                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
-                    SquadFormationDescriptor = ~/SoldierLineDescriptor
-                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
-                )
-                Selection      = [ NilDescriptorIfCadavre ]
-            ),
+        ~/LineInfantrySquadSlotPositionsModuleDescriptor,
         TInfantrySquadWeaponAssignmentModuleDescriptor
         (
             InitialSoldiersToTurretIndexMap = MAP[
-                                        (0,[1,]),
-                                        (1,[0,]),
-                                        (2,[0,]),
-                                        (3,[0,]),
-                                        (4,[0,]),
-                                        (5,[0,2,]),
-                                      ]
+                (0,[1,]),
+                (1,[0,]),
+                (2,[0,]),
+                (3,[0,]),
+                (4,[0,]),
+                (5,[0,2,]),
+            ]
         ),
         ~/LinkTeamModuleDescriptor,
         ~/EffectApplierModuleDescriptor,
@@ -251,46 +220,31 @@ export Descriptor_ShowRoomUnit_GreenBerets_MP5_US_NUKE_FRL is TEntityDescriptor
             PickableObject       = False
             Depiction            = ~/InfantryDepictionSquadShowroom
         ),
-        WeaponManager is TModuleSelector
+        $/GFX/Everything/WeaponDescriptor_GreenBerets_MP5_US_NUKE_FRL,
+        TInfantrySquadModuleDescriptor
         (
-            Default        = $/GFX/Everything/WeaponDescriptor_GreenBerets_MP5_US_NUKE_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
+            NbSoldatInGroupeCombat = 6
+            SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+            InfantryMimeticName = 'GreenBerets_MP5_US'
+            WeaponUnitFXKey     = 'GreenBerets_MP5_US'
+            MimeticDescriptor   = Descriptor_Unit_MimeticUnit
+            (
+                DescriptorId = GUID:{94d8c7e0-089b-4815-bb7c-39c33d1379fd}
+                MimeticName = 'GreenBerets_MP5_US'
+            )
+            BoundingBoxSize     = 8 * Metre
         ),
-        GroupeCombat is
-            TModuleSelector
-            (
-                Default        = TInfantrySquadModuleDescriptor
-                (
-                    NbSoldatInGroupeCombat = 6
-                    SquadDataDescriptor = ~/SoldierSquadDataDescriptor
-                    InfantryMimeticName = 'GreenBerets_MP5_US'
-                    WeaponUnitFXKey     = 'GreenBerets_MP5_US'
-                    MimeticDescriptor   = ~/Descriptor_Unit_MimeticUnit
-                    BoundingBoxSize     = 8 * Metre
-                )
-                Selection      = [ NilDescriptorIfCadavre ]
-            ),
-        GroupeCombatPositions is
-            TModuleSelector
-            (
-                Default        = TInfantrySquadSlotPositionsModuleDescriptor
-                (
-                    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
-                    SquadFormationDescriptor = ~/SoldierLineDescriptor
-                    NoiseDescriptor    = ~/SoldierNoiseDescriptor
-                )
-                Selection      = [ NilDescriptorIfCadavre ]
-            ),
+        ~/LineInfantrySquadSlotPositionsModuleDescriptor,
         TInfantrySquadWeaponAssignmentModuleDescriptor
         (
             InitialSoldiersToTurretIndexMap = MAP[
-                                        (0,[0,]),
-                                        (1,[0,]),
-                                        (2,[0,]),
-                                        (3,[0,]),
-                                        (4,[0,2,]),
-                                        (5,[0,1,]),
-                                      ]
+                (0,[0,]),
+                (1,[0,]),
+                (2,[0,]),
+                (3,[0,]),
+                (4,[0,2,]),
+                (5,[0,1,]),
+            ]
         ),
         ~/LinkTeamModuleDescriptor,
         ~/EffectApplierModuleDescriptor,
@@ -327,11 +281,7 @@ export Descriptor_ShowRoomUnit_F111F_Aardvark_US_NUKE_FRL is TEntityDescriptor
             Depiction                          = ~/Gfx_F111F_Aardvark_US_Showroom_Autogen
             GameplayBBoxBoneName               = ''
         ),
-        WeaponManager is TModuleSelector
-        (
-            Default        = $/GFX/Everything/WeaponDescriptor_F111F_Aardvark_US_NUKE_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
-        ),
+        $/GFX/Everything/WeaponDescriptor_F111F_Aardvark_US_NUKE_FRL,
         ~/LinkTeamModuleDescriptor,
         ~/EffectApplierModuleDescriptor,
         TExperienceModuleDescriptor
@@ -367,11 +317,7 @@ export Descriptor_ShowRoomUnit_F111F_Aardvark_US_MEGA_FRL is TEntityDescriptor
             Depiction                          = ~/Gfx_F111F_Aardvark_US_Showroom_Autogen
             GameplayBBoxBoneName               = ''
         ),
-        WeaponManager is TModuleSelector
-        (
-            Default        = $/GFX/Everything/WeaponDescriptor_F111F_Aardvark_US_MEGA_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
-        ),
+        $/GFX/Everything/WeaponDescriptor_F111F_Aardvark_US_MEGA_FRL,
         ~/LinkTeamModuleDescriptor,
         ~/EffectApplierModuleDescriptor,
         TExperienceModuleDescriptor
@@ -407,11 +353,7 @@ export Descriptor_ShowRoomUnit_2S7M_Malka_SOV_NUKE_FRL is TEntityDescriptor
             Depiction                          = ~/Gfx_2S7M_Malka_SOV_Showroom_Autogen
             GameplayBBoxBoneName               = 'chassis'
         ),
-        WeaponManager is TModuleSelector
-        (
-            Default        = $/GFX/Everything/WeaponDescriptor_2S7M_Malka_SOV_NUKE_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
-        ),
+        $/GFX/Everything/WeaponDescriptor_2S7M_Malka_SOV_NUKE_FRL,
         ~/LinkTeamModuleDescriptor,
         ~/EffectApplierModuleDescriptor,
         TExperienceModuleDescriptor
@@ -447,11 +389,7 @@ export Descriptor_ShowRoomUnit_M110A2_HOWZ_US_NUKE_FRL is TEntityDescriptor
             Depiction                          = ~/Gfx_M110A2_HOWZ_US_Showroom_Autogen
             GameplayBBoxBoneName               = 'chassis'
         ),
-        WeaponManager is TModuleSelector
-        (
-            Default        = $/GFX/Everything/WeaponDescriptor_M110A2_HOWZ_US_NUKE_FRL
-            Selection      = [~/NilDescriptorIfCadavre]
-        ),
+        $/GFX/Everything/WeaponDescriptor_M110A2_HOWZ_US_NUKE_FRL,
         ~/LinkTeamModuleDescriptor,
         ~/EffectApplierModuleDescriptor,
         TExperienceModuleDescriptor

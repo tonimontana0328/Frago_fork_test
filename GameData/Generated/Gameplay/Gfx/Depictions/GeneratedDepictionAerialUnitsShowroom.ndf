@@ -4053,6 +4053,21 @@ Gfx_UH60A_Supply_US_Showroom_Autogen is ShowroomAerialDepictionTemplate
         ),
     ]
 )
+Gfx_Su_25_Multirole_FRL_Showroom_Autogen is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Su_25_SOV
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_Su_25_Multirole_FRL,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_Su_25_SOV_train
+        ),
+    ]
+)
 Gfx_AH6C_Little_Bird_US_unarmed_FRL_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_AH6C_Little_Bird_US
@@ -4110,6 +4125,21 @@ Gfx_F16E_AA_US_101st_FRL_Showroom_Autogen is ShowroomAerialDepictionTemplate
         ShowroomLandingGear
         (
             MeshDescriptor = $/GFX/DepictionResources/Modele_F16E_AA_US_train
+        ),
+    ]
+)
+Gfx_A10_Thunderbolt_II_US_NAPALM_FRL_Showroom_Autogen is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_A10_Thunderbolt_II_US
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_A10_Thunderbolt_II_US_NAPALM_FRL,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_A10_Thunderbolt_II_US_train
         ),
     ]
 )

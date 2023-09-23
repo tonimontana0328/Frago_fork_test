@@ -12,6 +12,9 @@ CountingRule_Average is 2
 CountingRule_Min is 3
 CountingRule_Max is 4
 
+
+
+
 // GhostModule.h
 EShowGhostOverSpecificTerrainConditionFilterType is TBaseClass
 (
@@ -97,7 +100,7 @@ Constantes is TTunableConstante
 
 //------------------------------ Constantes Gameplay --------------------------------------//
 
-    Persistance_Bruit = 15.0 * Seconde
+    Persistance_Bruit = 16.5 * Seconde
 
 //---------------------------- Constantes GameRules ---------------------------------------//
 
@@ -210,6 +213,7 @@ Constantes is TTunableConstante
 //---------------------------- Constantes Visibilite --------------------------------------//
 
     MultiplicateurDistancePourBonusDissimulation = 1.0 DIV Metre DIV 100.0 // = (Distance en Mètres RTS) / 100.f
+    RelativeScanningPosition = [0,0, 20 * Metre]
 
 //------------------------------ Constantes Vision ----------------------------------------//
 
@@ -283,7 +287,7 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
     IgnorerLaVisibiliteDesCiblesLorsDuChoixDuPointDeTir = false
     MargePourLesTestsDeSortieDeDistrict = 16 * Metre
     DurationForLeavingDistrict = 3.0        // Durée de l'action de sortie de district.
-    ModeDeRepartitionDuFeuContreLesDistricts = 0 // 0 : aucune unité ne prend de dégats, 1: une unite prend des degats, 2: toutes les unites prennent des degats
+    ModeDeRepartitionDuFeuContreLesDistricts = 2 // 0 : aucune unité ne prend de dégats, 1: une unite prend des degats, 2: toutes les unites prennent des degats
     RandomiserLesPatrouillesDansLesDistricts = false
     RefreshBestPlaceEveryNbSeconds = 5 // 1, Les unites dans les quartiers peuvent changer de points de tir tous les x secondes.
     CheckDistrictBox = false
@@ -361,8 +365,8 @@ ModernWarfareConstantes is TModernWarfareTunableConstante
 
     ShootingAdjustmentAngleMax = 0.4 //20°
     SplashSurTirRate = true // Est-ce que les tirs ratés font des dégâts de splash ?
-    SplashRatioDamage = [0.35, 0.35, 0.20] // Stress, Suppress, Physical damages (entre 0 et 1). ratio des dégâts en périphérie du cercle de splash
-    SplashRatioDistance = [0.35, 0.35, 0.25] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
+    SplashRatioDamage = [0.35, 0.35, 0.25] // Stress, Suppress, Physical damages (entre 0 et 1). ratio des dégâts en périphérie du cercle de splash
+    SplashRatioDistance = [0.35, 0.35, 0.30] // Stress, Suppress, Physical damages (entre 0 et 1). Ratio du rayon de splash où les dégâts commencent à être amoindris. Ex: 0.25 si DistanceImpact / SplashRadius > 0.25
 
     MinBlindageForRoEMissiles = ArmorDescriptor_Blindage_2 // Blindage min pour la RoE Missiles
     TagAllowedForMissileRoE = "AllowedForMissileRoE"
@@ -587,7 +591,6 @@ WargameConstantes is TWargameTunableConstante
         (7000*Metre, 'Value_3'), //Normal
         (90000*Metre, 'Value_2'),  //Mediocre
         (10000*Metre, 'Value_1'),  //Bad
-
     ]
 
     PaliersDeDissimulation = MAP
@@ -610,12 +613,13 @@ WargameConstantes is TWargameTunableConstante
     PaliersDOptique = MAP
     [
         (42.45, 'Value_1'),
-        (63.68, 'Value_2'),
-        (84.9, 'Value_3'),
-        (127.35, 'Value_4'),
-        (191.03, 'Value_5'),
+        (70.75, 'Value_2'),
+        (90.9, 'Value_3'),
+        (130.35, 'Value_4'),
+        (193.02, 'Value_5'),
         (233.48, 'Value_6'),
     ]
+
 
     PaliersDeResilience = MAP
     [
