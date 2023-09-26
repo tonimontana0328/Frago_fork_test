@@ -30,8 +30,8 @@ Ammo_Bomb_GBU_27_x1_nuke_FRL is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 1600 * Metre
     PhysicalDamages                   = 50
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 3000 * Metre
-    SuppressDamages                   = 800
+    RadiusSplashSuppressDamages       = 5000 * Metre
+    SuppressDamages                   = 1600
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = True
@@ -218,8 +218,8 @@ Ammo_Grenade_Satchel_Charge_NUKE_FRL is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 1600 * Metre
     PhysicalDamages                   = 50
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 3000 * Metre
-    SuppressDamages                   = 800
+    RadiusSplashSuppressDamages       = 5000 * Metre
+    SuppressDamages                   = 1600
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -312,8 +312,8 @@ Ammo_Bomb_Mk81_119kg_x4_NUKE_FRL is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 1600 * Metre
     PhysicalDamages                   = 50
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 3000 * Metre
-    SuppressDamages                   = 800
+    RadiusSplashSuppressDamages       = 5000 * Metre
+    SuppressDamages                   = 1600
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = True
@@ -596,8 +596,8 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late_NUKE_FRL is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 1600 * Metre
     PhysicalDamages                   = 50
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 3000 * Metre
-    SuppressDamages                   = 800
+    RadiusSplashSuppressDamages       = 5000 * Metre
+    SuppressDamages                   = 1600
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = True
@@ -690,8 +690,8 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late_NUKE_FRL is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 1600 * Metre
     PhysicalDamages                   = 50
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 3000 * Metre
-    SuppressDamages                   = 800
+    RadiusSplashSuppressDamages       = 5000 * Metre
+    SuppressDamages                   = 1600
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = True
     TirIndirect                       = True
@@ -752,6 +752,10 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late_NUKE_FRL is TAmmunitionDescriptor
 )// Ne pas éditer, ce fichier est auto-généré !
 var_hmg_splash is 12.5
 var_mmg_splash is 10.0
+var_hmg_acc is 11
+var_hmg_acc_moving is 7
+var_mmg_acc is 10
+var_mmg_acc_moving is 7
 
 var_ac_ap_dispersion is 10
 var_ac_he_sorting is False
@@ -3678,7 +3682,7 @@ Ammo_Bomb_BL755_cluster_264kg_x2 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=12)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -3699,7 +3703,7 @@ Ammo_Bomb_BL755_cluster_264kg_x2 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 335 * Metre
-    PhysicalDamages                   = 2.16
+    PhysicalDamages                   = 2.64
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
     SuppressDamages                   = 225.0
@@ -3772,7 +3776,7 @@ Ammo_Bomb_BL755_cluster_264kg_x4 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=12)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -3793,7 +3797,7 @@ Ammo_Bomb_BL755_cluster_264kg_x4 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 335 * Metre
-    PhysicalDamages                   = 2.16
+    PhysicalDamages                   = 2.64
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
     SuppressDamages                   = 225.0
@@ -3866,7 +3870,7 @@ Ammo_Bomb_BL755_cluster_264kg_x8 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=12)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -3882,12 +3886,12 @@ Ammo_Bomb_BL755_cluster_264kg_x8 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((75.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((50) * Metre)
-    DispersionAtMinRange              = ((50) * Metre)
+    DispersionAtMaxRange              = ((75) * Metre)
+    DispersionAtMinRange              = ((75) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 335 * Metre
-    PhysicalDamages                   = 2.16
+    PhysicalDamages                   = 2.64
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
     SuppressDamages                   = 225.0
@@ -3960,7 +3964,7 @@ Ammo_Bomb_BLG66_Belouga_cluster_305kg_x4 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=13)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeBLG66' ]
     FxPower                           = EFXPower/Moyen
@@ -3981,7 +3985,7 @@ Ammo_Bomb_BLG66_Belouga_cluster_305kg_x4 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 322 * Metre
-    PhysicalDamages                   = 2.544
+    PhysicalDamages                   = 3.05
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 530 * Metre
     SuppressDamages                   = 265.0
@@ -4054,7 +4058,7 @@ Ammo_Bomb_BME_330C_277kg_x2 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=12)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -4075,7 +4079,7 @@ Ammo_Bomb_BME_330C_277kg_x2 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 335 * Metre
-    PhysicalDamages                   = 2.16
+    PhysicalDamages                   = 2.77
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
     SuppressDamages                   = 225.0
@@ -4148,7 +4152,7 @@ Ammo_Bomb_BME_330C_277kg_x6 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=12)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -4169,7 +4173,7 @@ Ammo_Bomb_BME_330C_277kg_x6 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 335 * Metre
-    PhysicalDamages                   = 2.16
+    PhysicalDamages                   = 2.77
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
     SuppressDamages                   = 225.0
@@ -4526,7 +4530,7 @@ Ammo_Bomb_CBU_Mk20_Rockeye_II_250kg_x2 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=10)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -4547,7 +4551,7 @@ Ammo_Bomb_CBU_Mk20_Rockeye_II_250kg_x2 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 335 * Metre
-    PhysicalDamages                   = 2.16
+    PhysicalDamages                   = 2.27
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
     SuppressDamages                   = 225.0
@@ -4620,7 +4624,7 @@ Ammo_Bomb_CBU_Mk20_Rockeye_II_250kg_x5 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=10)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -4641,7 +4645,7 @@ Ammo_Bomb_CBU_Mk20_Rockeye_II_250kg_x5 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 335 * Metre
-    PhysicalDamages                   = 2.16
+    PhysicalDamages                   = 2.27
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
     SuppressDamages                   = 225.0
@@ -4714,7 +4718,7 @@ Ammo_Bomb_CBU_Mk20_Rockeye_II_250kg_x8 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=10)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -4730,12 +4734,12 @@ Ammo_Bomb_CBU_Mk20_Rockeye_II_250kg_x8 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((75.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((50) * Metre)
-    DispersionAtMinRange              = ((50) * Metre)
+    DispersionAtMaxRange              = ((75) * Metre)
+    DispersionAtMinRange              = ((75) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 335 * Metre
-    PhysicalDamages                   = 2.16
+    PhysicalDamages                   = 2.27
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
     SuppressDamages                   = 225.0
@@ -4808,7 +4812,7 @@ Ammo_Bomb_CLU_RBK_250kg_x6 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=11)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -4829,7 +4833,7 @@ Ammo_Bomb_CLU_RBK_250kg_x6 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 335 * Metre
-    PhysicalDamages                   = 2.16
+    PhysicalDamages                   = 2.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
     SuppressDamages                   = 225.0
@@ -4902,7 +4906,7 @@ Ammo_Bomb_CLU_RBK_250kg_x8 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=11)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -4918,12 +4922,12 @@ Ammo_Bomb_CLU_RBK_250kg_x8 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((75.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((50) * Metre)
-    DispersionAtMinRange              = ((50) * Metre)
+    DispersionAtMaxRange              = ((75) * Metre)
+    DispersionAtMinRange              = ((75) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 335 * Metre
-    PhysicalDamages                   = 2.16
+    PhysicalDamages                   = 2.5
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 450 * Metre
     SuppressDamages                   = 225.0
@@ -4996,7 +5000,7 @@ Ammo_Bomb_CLU_RBK_500kg_x2 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=15)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -5017,7 +5021,7 @@ Ammo_Bomb_CLU_RBK_500kg_x2 is TAmmunitionDescriptor
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 365 * Metre
-    PhysicalDamages                   = 4.32
+    PhysicalDamages                   = 5.0
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 630 * Metre
     SuppressDamages                   = 450.0
@@ -5090,7 +5094,7 @@ Ammo_Bomb_CLU_RBK_500kg_x8 is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_Bombe
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=7)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=15)
     ProjectileType                    = EProjectileType/Bombe
     ImpactHappening                   = [ 'BombeMk20RockeyeII' ]
     FxPower                           = EFXPower/Moyen
@@ -5106,12 +5110,12 @@ Ammo_Bomb_CLU_RBK_500kg_x8 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((75.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((50) * Metre)
-    DispersionAtMinRange              = ((50) * Metre)
+    DispersionAtMaxRange              = ((75) * Metre)
+    DispersionAtMinRange              = ((75) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 315 * Metre
-    PhysicalDamages                   = 4.32
+    PhysicalDamages                   = 5.0
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 630 * Metre
     SuppressDamages                   = 450.0
@@ -5482,8 +5486,8 @@ Ammo_Bomb_FAB_500kg_x8 is TAmmunitionDescriptor
     AltitudeAPorteeMaximale           = ((75.0) * Metre)
     AffecteParNombre                  = False
     AngleDispersion                   = 0.0
-    DispersionAtMaxRange              = ((50) * Metre)
-    DispersionAtMinRange              = ((50) * Metre)
+    DispersionAtMaxRange              = ((75) * Metre)
+    DispersionAtMinRange              = ((75) * Metre)
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 460 * Metre
@@ -26925,8 +26929,8 @@ Ammo_HMG_12_7_mm_DShKM is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Idling, (var_hmg_acc + 20)),
+             (EBaseHitValueModifier/Moving, (var_hmg_acc_moving + 5)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -27019,8 +27023,8 @@ Ammo_HMG_12_7_mm_M2HB is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Idling, (var_hmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_hmg_acc_moving + 5)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -27207,8 +27211,8 @@ Ammo_HMG_12_7_mm_M85 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Idling, (var_hmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_hmg_acc_moving + 5)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -27301,8 +27305,8 @@ Ammo_HMG_12_7_mm_NSVT is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Idling, (var_hmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_hmg_acc_moving + 5)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -27489,8 +27493,8 @@ Ammo_HMG_14_5_mm_KPVT is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Idling, (var_hmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_hmg_acc_moving + 5)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -35996,8 +36000,8 @@ Ammo_MMG_AANF1_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 20)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 10)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -36089,8 +36093,8 @@ Ammo_MMG_AANF1_7_62mm_x2 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 20)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 10)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -36276,8 +36280,8 @@ Ammo_MMG_FN_MAG_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 20)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 10)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -36369,8 +36373,8 @@ Ammo_MMG_HK21_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 7),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 7)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -36462,8 +36466,8 @@ Ammo_MMG_L37A2_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 7),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 7)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -36555,8 +36559,8 @@ Ammo_MMG_L43A1_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 7),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 7)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -36648,8 +36652,8 @@ Ammo_MMG_L8A2_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 7),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 7)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -36741,8 +36745,8 @@ Ammo_MMG_L94A1_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 8),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 8)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -36834,8 +36838,8 @@ Ammo_MMG_M1919 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 20)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 10)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -36927,8 +36931,8 @@ Ammo_MMG_M240_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 5)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -37020,8 +37024,8 @@ Ammo_MMG_M240_abrams_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 10)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -37113,8 +37117,8 @@ Ammo_MMG_M240d_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 20)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 10)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -37259,8 +37263,8 @@ Ammo_MMG_MG3_7_62mm is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = [ 'MitrailleuseMG3Interne' ]
     FxPower                           = EFXPower/Moyen
-    TempsEntreDeuxTirs                = 0.2
-    TempsEntreDeuxFx                  = 0.2
+    TempsEntreDeuxTirs                = 0.185
+    TempsEntreDeuxFx                  = 0.185
     PorteeMaximale                    = ((2901) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1981) * Metre)
@@ -37299,8 +37303,8 @@ Ammo_MMG_MG3_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 20),
-             (EBaseHitValueModifier/Moving, 10),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 20)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 10)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -37485,8 +37489,8 @@ Ammo_MMG_PKT_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 5)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -37578,8 +37582,8 @@ Ammo_MMG_PKT_7_62mm_x2 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 10),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 10)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 5)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -37671,8 +37675,8 @@ Ammo_MMG_PKT_7_62mm_x4 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 5)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -37764,8 +37768,8 @@ Ammo_MMG_SGMB_7_62mm is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 15),
-             (EBaseHitValueModifier/Moving, 5),
+             (EBaseHitValueModifier/Idling, (var_mmg_acc + 15)),
+             (EBaseHitValueModifier/Moving, (var_mmg_acc_moving + 5)),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),
          ]
@@ -37817,8 +37821,8 @@ Ammo_MMG_inf__MG3_7_62mm is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = [ 'MitrailleuseMG3Inf' ]
     FxPower                           = EFXPower/Moyen
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
+    TempsEntreDeuxTirs                = 0.85
+    TempsEntreDeuxFx                  = 0.85
     PorteeMaximale                    = ((3042) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1486) * Metre)
@@ -38561,8 +38565,8 @@ Ammo_MMG_team_7_62mm_MG3 is TAmmunitionDescriptor
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = [ 'MitrailleuseMG3Externe' ]
     FxPower                           = EFXPower/Moyen
-    TempsEntreDeuxTirs                = 0.2
-    TempsEntreDeuxFx                  = 0.2
+    TempsEntreDeuxTirs                = 0.15
+    TempsEntreDeuxFx                  = 0.15
     PorteeMaximale                    = ((3396) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((1981) * Metre)
@@ -49703,7 +49707,7 @@ Ammo_RocketArt_9M55K5_300mm is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_MLRS
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="cluster_ap" Index=6)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=8)
     ProjectileType                    = EProjectileType/Artillerie
     ImpactHappening                   = [ 'RoquetteBM30300Mm' ]
     FxPower                           = EFXPower/Moyen
@@ -49724,7 +49728,7 @@ Ammo_RocketArt_9M55K5_300mm is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 430 * Metre
-    PhysicalDamages                   = 1.656
+    PhysicalDamages                   = 3.0
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 330 * Metre
     SuppressDamages                   = 330.0
@@ -49988,7 +49992,7 @@ Ammo_RocketArt_LARS_110mm_cluster is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_MLRS
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="cluster_ap" Index=6)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=3)
     ProjectileType                    = EProjectileType/Artillerie
     ImpactHappening                   = [ 'Roquette110Mm130MmCluster' ]
     FxPower                           = EFXPower/Moyen
@@ -50009,7 +50013,7 @@ Ammo_RocketArt_LARS_110mm_cluster is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 215 * Metre
-    PhysicalDamages                   = 0.758
+    PhysicalDamages                   = 1.1
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 165 * Metre
     SuppressDamages                   = 165.0
@@ -50179,7 +50183,7 @@ Ammo_RocketArt_M21OF_122mm_cluster is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_MLRS
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="cluster_ap" Index=6)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=4)
     ProjectileType                    = EProjectileType/Artillerie
     ImpactHappening                   = [ 'Roquette110Mm130Mm' ]
     FxPower                           = EFXPower/Moyen
@@ -50200,7 +50204,7 @@ Ammo_RocketArt_M21OF_122mm_cluster is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 195 * Metre
-    PhysicalDamages                   = 0.828
+    PhysicalDamages                   = 1.22
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 165 * Metre
     SuppressDamages                   = 165.0
@@ -50657,7 +50661,7 @@ Ammo_RocketArt_M26_227mm_Cluster is TAmmunitionDescriptor
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_MLRS
     Level                             = 3
-    Arme                              = TDamageTypeRTTI(Family="cluster_ap" Index=6)
+    Arme                              = TDamageTypeRTTI(Family="clu_sol_ap" Index=6)
     ProjectileType                    = EProjectileType/Artillerie
     ImpactHappening                   = [ 'RoquetteM26M270227MmCluster' ]
     FxPower                           = EFXPower/Moyen
@@ -50678,7 +50682,7 @@ Ammo_RocketArt_M26_227mm_Cluster is TAmmunitionDescriptor
     DispersionWithoutSorting          = True
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamages       = 430 * Metre
-    PhysicalDamages                   = 1.556
+    PhysicalDamages                   = 2.27
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamages       = 330 * Metre
     SuppressDamages                   = 330.0
@@ -61593,6 +61597,95 @@ Ammo_AGM_AGM114A_x8 is TAmmunitionDescriptor
          ]
     )
     TempsDeVisee                      = 1.0
+    TempsEntreDeuxSalves              = 5.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 8
+    SupplyCost                        = 240
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 8
+    MissileTimeBetweenCorrections     = 1.0
+    MissileDescriptor                 = ~/Descriptor_Missile_AGM_AGM114A_x8
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm114"
+    WeaponForceNote                   = 2
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = True
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_AGM_AGM114A_x8_FRL is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{817cc2ee-1a5a-4177-a216-7e2f781c67aa}
+    Name                              = 'PMPTRGMCKS'
+    TypeName                          = 'SACLOSM'
+    TypeCategoryName                  = 'GAOXFGOOJS'
+    Caliber                           = 'IOUVNPZMZJ'
+    WeaponDescriptionToken            = ''
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HEAT', ]
+    WeaponCursorType                  = Weapon_Cursor_GroundMissile
+    MinMaxCategory                    = MinMax_AGM
+    Level                             = 1
+    Arme                              = TDamageTypeRTTI(Family="ap_missile" Index=24)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MissileAGMGen4' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 1.0
+    TempsEntreDeuxFx                  = 1.0
+    PorteeMaximale                    = ((7924) * Metre)
+    PorteeMinimaleTBA                 = ((0) * Metre)
+    PorteeMaximaleTBA                 = ((0) * Metre)
+    PorteeMinimaleHA                  = ((0) * Metre)
+    PorteeMaximaleHA                  = ((0) * Metre)
+    PorteeMinimale                    = ((1000) * Metre)
+    AngleDispersion                   = 0.02
+    DispersionAtMaxRange              = ((500) * Metre)
+    DispersionAtMinRange              = ((500) * Metre)
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamages       = 14 * Metre
+    PhysicalDamages                   = 1.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamages       = 119 * Metre
+    SuppressDamages                   = 362.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    FX_vitesse_de_depart              = 3000 * Metre
+    FX_acceleration_max               = 1000 * Metre
+    FX_tir_sans_physic                = True
+    FX_frottement                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetsDistricts                  = True
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         DescriptorId          = GUID:{d9e3599a-186d-4839-82ed-efe93f1f3b77}
+         BaseCriticModifier = 0
+         BaseEffectModifier = 0
+         BaseHitValueModifiers =
+         [
+             (EBaseHitValueModifier/Base, 0.0),
+             (EBaseHitValueModifier/Idling, 70),
+             (EBaseHitValueModifier/Moving, 50),
+             (EBaseHitValueModifier/SuccessfulShots, 0.0),
+             (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+         HitModifierList       =
+         [
+             EDiceHitModifier/Precision,
+             EDiceHitModifier/DistanceToTarget,
+             EDiceHitModifier/SuccesiveShots,
+             EDiceHitModifier/Suppress,
+         ]
+    )
+    TempsDeVisee                      = 1.2
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
