@@ -1495,7 +1495,7 @@ export DamageLevelsPackDescriptor_Unit_packStun_aa is TDamageLevelsPackDescripto
     ]
     NameForDebug = "Unit_packStun_aa"
 )
-export DamageLevelsPackDescriptor_Inf_FRL is TDamageLevelsPackDescriptor
+export DamageLevelsPackDescriptor_Inf_pinned is TDamageLevelsPackDescriptor
 (
     DescriptorId = GUID:{e6812caa-2e57-4247-9583-3c2518472857}
     DamageLevelsDescriptors = [
@@ -1600,6 +1600,8 @@ export DamageLevelsPackDescriptor_Inf_FRL is TDamageLevelsPackDescriptor
                 ~/UnitEffect_Tps_entre_salve_150pourcent,
                 ~/UnitEffect_Pinned_Dangerousness_FRL,
                 ~/UnitEffect_Pinned_FRL,
+                ~/UnitEffect_Pin_Nearby,
+
             ]
             NameForDebug = "GroundUnits_packSupp_palier_7"
         ),
