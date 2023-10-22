@@ -461,9 +461,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 5
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL
@@ -1034,9 +1032,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 8
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL
@@ -1505,9 +1501,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 5
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 0.0, 1.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Jaguar_HE_FR_NUKE_FRL
@@ -1995,9 +1989,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 5
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Jaguar_HE_FR_NUKE_FRL
@@ -3206,9 +3198,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 5
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL
@@ -3948,9 +3938,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 9
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL
@@ -4544,9 +4532,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 9
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL
@@ -5167,9 +5153,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 9
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL
@@ -6311,9 +6295,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 10
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL
@@ -6855,9 +6837,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 10
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL
@@ -8300,9 +8280,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 4
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.25]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL
@@ -8692,9 +8670,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 5
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL
@@ -9991,9 +9967,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 8
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL
@@ -11796,9 +11770,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 8
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL
@@ -13607,9 +13579,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 5
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL
@@ -14094,9 +14064,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL
@@ -14671,9 +14639,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Tornado_ADV_HE_UK_NUKE_FRL
@@ -15127,10 +15093,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL
@@ -17123,9 +17086,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.0, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL
@@ -17652,9 +17613,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 8
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL
@@ -18835,9 +18794,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 1
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL
@@ -19744,9 +19701,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.5, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL
@@ -20356,9 +20311,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL
@@ -21011,9 +20964,7 @@ private DivisionRules is TDeckDivisionRules
                         NumberOfUnitInPack = 2
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
                     ),
-                ]
-                UnitRuleList =
-                [
+
                     TDeckUniteRule
                     (
                         UnitDescriptor = ~/Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL

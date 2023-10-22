@@ -4,6 +4,84 @@ private DivisionRules is TDeckDivisionRules
     [
 
         (
+            ~/Descriptor_Deck_Division_SOV_27_Gds_Rifle_multi,
+            TDeckDivisionRule
+            (
+                UnitRuleList =
+                [
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_Su_24M_SOV_NUKE_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_Scout_LRRP_SOV_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                        AvailableTransportList = [~/Descriptor_Unit_Mi_2_trans_DDR, ~/Descriptor_Unit_W50_LA_A_DDR, ~/Descriptor_Unit_Mi_24D_s5_AT_DDR]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_2S7M_Malka_SOV_NUKE_FRL
+                        AvailableWithoutTransport = True
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                ]
+            )
+        ),
+        (
+            ~/Descriptor_Deck_Division_US_24th_Inf_multi,
+            TDeckDivisionRule
+            (
+                UnitRuleList =
+                [
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F117_Nighthawk_US_NUKE_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_MEGA_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_F111F_Aardvark_US_NUKE_FRL
+                        AvailableWithoutTransport = True
+                        NumberOfUnitInPack = 2
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0, 1, 0.5]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_GreenBerets_MP5_US_NUKE_FRL
+                        AvailableWithoutTransport = False
+                        AvailableTransportList = [~/Descriptor_Unit_M1038_Humvee_US, ~/Descriptor_Unit_UH1H_Huey_US, ~/Descriptor_Unit_UH60A_Black_Hawk_US]
+                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                    TDeckUniteRule
+                    (
+                        UnitDescriptor = ~/Descriptor_Unit_M110A2_HOWZ_US_NUKE_FRL
+                        AvailableWithoutTransport = True
+                        AvailableTransportList = []
+                        NumberOfUnitInPack = 1
+                        NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.0]
+                    ),
+                ]
+            )
+        ),
+        (
             ~/Descriptor_Deck_Division_US_11ACR_multi,
             TDeckDivisionRule
             (

@@ -30,8 +30,8 @@ Ammo_Bomb_GBU_27_x1_nuke_FRL is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 1600 * Metre
     PhysicalDamages                   = 50
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 3000 * Metre
-    SuppressDamages                   = 800
+    RadiusSplashSuppressDamages       = 5000 * Metre
+    SuppressDamages                   = 1600
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = True
@@ -218,8 +218,8 @@ Ammo_Grenade_Satchel_Charge_NUKE_FRL is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 1600 * Metre
     PhysicalDamages                   = 50
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 3000 * Metre
-    SuppressDamages                   = 800
+    RadiusSplashSuppressDamages       = 5000 * Metre
+    SuppressDamages                   = 1600
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = True
     TirIndirect                       = False
@@ -312,8 +312,8 @@ Ammo_Bomb_Mk81_119kg_x4_NUKE_FRL is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 1600 * Metre
     PhysicalDamages                   = 50
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 3000 * Metre
-    SuppressDamages                   = 800
+    RadiusSplashSuppressDamages       = 5000 * Metre
+    SuppressDamages                   = 1600
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = True
@@ -596,8 +596,8 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late_NUKE_FRL is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 1600 * Metre
     PhysicalDamages                   = 50
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 3000 * Metre
-    SuppressDamages                   = 800
+    RadiusSplashSuppressDamages       = 5000 * Metre
+    SuppressDamages                   = 1600
     AllowSuppressDamageWhenNoImpact                = False
     DisplaySalveAccuracy              = True
     TirIndirect                       = True
@@ -690,8 +690,8 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late_NUKE_FRL is TAmmunitionDescriptor
     RadiusSplashPhysicalDamages       = 1600 * Metre
     PhysicalDamages                   = 50
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamages       = 3000 * Metre
-    SuppressDamages                   = 800
+    RadiusSplashSuppressDamages       = 5000 * Metre
+    SuppressDamages                   = 1600
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = True
     TirIndirect                       = True

@@ -63,7 +63,71 @@ Descriptor_Deck_Division_FR_11e_Para_multi is TDeckDivisionDescriptor
     CountryId = "FR"
 )
 
-
+Descriptor_Deck_Division_SOV_27_Gds_Rifle_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{c2f0b0e1-b1df-4615-ba56-e9810c89bb00}
+    CfgName = 'SOV_27_Gds_Rifle_multi'
+    DivisionName = 'PFMPJNZAXB'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Axis
+    DivisionTags = ['DEFAULT', 'SOV', 'Axis', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{14a02ddb-b68f-4400-a17e-0ed338220076}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'QTEOMZACJF'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_Su_24M_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_2S7M_Malka_SOV_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_SPETZ_NUKE_TEAM_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_SOV_27_Gds_Rifle_multi
+    EmblemTexture     = "Texture_Division_Emblem_SOV_27GvMSD"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "SOV"
+)
+Descriptor_Deck_Division_US_24th_Inf_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{d0c2a4d9-6ace-4595-b505-a0998b59b974}
+    CfgName = 'US_24th_Inf_multi'
+    DivisionName = 'DGUURLVDNS'
+    DivisionNickname = ''
+    DivisionDescription = ''
+    DivisionPowerClassification = 'DC_PWR2'
+    DivisionNationalite = ENationalite/Allied
+    DivisionTags = ['DEFAULT', 'US', 'Allied', 'infantryReg', 'DC_PWR2']
+    UncensoredHintGUID = GUID:{98c1272b-a897-4e98-99f5-a81763b0714a}
+    TypeHintTitleToken = ''
+    TypeHintBodyToken = ''
+    TypeHintExtendedToken = ''
+    DescriptionHintTitleToken = 'HEFRKMJXZB'
+    DescriptionHintBodyToken = ''
+    DescriptionHintExtendedToken = ''
+    PackList = MAP
+    [
+        (~/Descriptor_Deck_Pack_EF111_Raven_US_FRL, 1),
+        (~/Descriptor_Deck_Pack_F117_Nighthawk_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_NUKE_FRL, 1),
+        (~/Descriptor_Deck_Pack_F111F_Aardvark_US_MEGA_FRL, 1),
+        (~/Descriptor_Deck_Pack_GB_NUKE_TEAM_FRL, 1),
+        (~/Descriptor_Deck_Pack_M110A2_HOWZ_US_NUKE_FRL, 1),
+    ]
+    MaxActivationPoints = 50
+    CostMatrix = MatrixCostName_US_24th_Inf_multi
+    EmblemTexture     = "Texture_Division_Emblem_24th_infantry_division"
+    StrategicLabelColor     = "BlancEquipe"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_infantryReg"
+    CountryId = "US"
+)
 Descriptor_Deck_Division_SOV_119IndTkBrig_multi is TDeckDivisionDescriptor
 (
     DescriptorId = GUID:{b611cb29-bf44-4d02-a529-36312df5ec2c}
